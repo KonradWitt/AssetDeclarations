@@ -1,0 +1,16 @@
+.mat-toolbar {
+  position: relative;
+}
+
+.header-title {
+  font-size: 20px;
+  position: absolute;
+}
+
+.center-tabs {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
