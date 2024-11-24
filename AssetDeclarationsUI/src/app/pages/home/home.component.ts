@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { PersonService } from '../../services/person.service';
+import { PersonAutocompleteComponent } from '../../components/person-autocomplete/person-autocomplete.component';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [PersonAutocompleteComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })

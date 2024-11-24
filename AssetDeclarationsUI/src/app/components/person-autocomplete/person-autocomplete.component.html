@@ -1,1 +1,24 @@
-<p>person-autocomplete works!</p>
+<main>
+  <mat-form-field class="form-field">
+    <mat-label class="form-label">Znajdź polityka</mat-label>
+    <input
+      type="text"
+      placeholder="Imię i nazwisko"
+      matInput
+      [matAutocomplete]="auto"
+      [formControl]="formControl"
+    />
+    <mat-autocomplete
+      #auto="matAutocomplete"
+      [displayWith]="getPersonName"
+      (optionSelected)="personSelectedEvent.emit($event.option.value)"
+    >
+      @for (person of filteredPersons | async; track person) {
+      <mat-option class="autocomplete-option" [value]="person">{{
+        person.name
+      }}</mat-option>
+      }
+    </mat-autocomplete>
+  </mat-form-field>
+  <main></main>
+</main>
