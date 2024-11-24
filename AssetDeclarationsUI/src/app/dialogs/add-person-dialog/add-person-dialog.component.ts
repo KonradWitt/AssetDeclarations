@@ -13,7 +13,7 @@ import { MatInputModule } from '@angular/material/input';
 import { Person } from '../../model/person.type';
 
 @Component({
-  selector: 'app-add-user',
+  selector: 'app-add-person-dialog',
   imports: [
     MatFormFieldModule,
     MatInputModule,
@@ -23,11 +23,11 @@ import { Person } from '../../model/person.type';
     MatDialogActions,
     MatDialogClose,
   ],
-  templateUrl: './add-user.component.html',
-  styleUrl: './add-user.component.scss',
+  templateUrl: './add-person-dialog.component.html',
+  styleUrl: './add-person-dialog.component.scss'
 })
-export class AddUserComponent {
-  readonly dialogRef = inject(MatDialogRef<AddUserComponent>);
+export class AddPersonDialogComponent {
+  readonly dialogRef = inject(MatDialogRef<AddPersonDialogComponent>);
   readonly person = signal<Person>({ id: 0, name: '' });
 
   onNoButtonClick(): void {

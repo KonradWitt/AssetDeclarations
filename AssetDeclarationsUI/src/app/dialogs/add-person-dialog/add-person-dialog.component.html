@@ -1,0 +1,14 @@
+<main>
+    <h2 mat-dialog-title>Add new person</h2>
+    <mat-dialog-content>
+      <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput [(ngModel)]="person().name" />
+      </mat-form-field>
+    </mat-dialog-content>
+    <mat-dialog-actions>
+      <button mat-button (click)="onNoButtonClick()">Cancel</button>
+      <button mat-button [mat-dialog-close]="person()" cdkFocusInitial>Ok</button>
+    </mat-dialog-actions>
+  </main>
+  

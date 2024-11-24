@@ -6,7 +6,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { PersonAutocompleteComponent } from '../../components/person-autocomplete/person-autocomplete.component';
 import { MatDialog } from '@angular/material/dialog';
-import { AddUserComponent } from '../../dialogs/add-user/add-user.component';
+import { AddPersonDialogComponent } from '../../dialogs/add-person-dialog/add-person-dialog.component';
 
 @Component({
   selector: 'app-edit',
@@ -26,7 +26,7 @@ export class EditComponent implements OnInit {
   ) {}
 
   persons = signal<Person[]>([]);
-  selectedPerson = signal<Person | null>(null);
+  selectedPerson = signal<Person | undefined>(undefined);
 
   ngOnInit(): void {
     this.loadPersons();
@@ -47,10 +47,17 @@ export class EditComponent implements OnInit {
   }
 
   onEditButtonClick(): void {}
-  onDeleteButtonClick(): void {}
+  onDeleteButtonClick(): void {
+    if (this.selectedPerson() !== undefined) {
+      this.personService.deltePerson(this.selectedPerson()?.id!);
+      this.loadPersons();
+    }
+  }
 
   openDialog(): void {
-    const dialogRef = this.dialogService.open(AddUserComponent, {restoreFocus: false});
+    const dialogRef = this.dialogService.open(AddPersonDialogComponent, {
+      restoreFocus: false,
+    });
 
     dialogRef.afterClosed().subscribe((person) => {
       if (person !== undefined) {
