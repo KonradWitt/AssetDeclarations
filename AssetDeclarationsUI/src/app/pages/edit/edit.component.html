@@ -1,0 +1,32 @@
+<main>
+  <div class="commands-container">
+    <app-person-autocomplete />
+    <ul class="buttons-container">
+      <li>
+        <button mat-fab>
+          <mat-icon>add</mat-icon>
+        </button>
+      </li>
+      <li>
+        <button mat-fab>
+          <mat-icon>edit</mat-icon>
+        </button>
+      </li>
+      <li>
+        <button mat-fab>
+          <mat-icon>delete</mat-icon>
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <mat-selection-list
+    multiple="false"
+    hideSingleSelectionIndicator="true"
+    (selectionChange)="onPersonSelected($event.options[0].value)"
+  >
+    @for (item of persons(); track item.id) {
+    <mat-list-option [value]="item">{{ item.name }}</mat-list-option>
+    }
+  </mat-selection-list>
+</main>
