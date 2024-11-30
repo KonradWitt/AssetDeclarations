@@ -1,0 +1,20 @@
+.personal-data-card {
+    max-width: 500px;
+    background-color: lightblue
+  }
+  
+  .grid-left-text {
+    position: absolute;
+    left: 0px;
+  }
+  
+  .grid-right-text {
+    position: absolute;
+    right: 0px;
+  }
+
+  .profile-picture {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+  }
