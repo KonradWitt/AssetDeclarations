@@ -1,5 +1,9 @@
+import { Party } from "./party.type"
+
 export type Person = {
     id: number,
-    partyId?: number,
     name: string
+
+    partyId?: number,
+    party? : Party,
 }
