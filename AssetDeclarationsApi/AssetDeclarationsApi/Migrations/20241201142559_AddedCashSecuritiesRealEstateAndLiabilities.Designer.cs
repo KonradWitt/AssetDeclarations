@@ -4,6 +4,7 @@ using AssetDeclarationsApi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AssetDeclarationsApi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20241201142559_AddedCashSecuritiesRealEstateAndLiabilities")]
+    partial class AddedCashSecuritiesRealEstateAndLiabilities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -68,36 +71,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasIndex("AssetDeclarationId");
 
-                    b.ToTable("CashPositions");
-                });
-
-            modelBuilder.Entity("AssetDeclarationsApi.Entities.Income", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("AssetDeclarationId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Subject")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("YearlyValue")
-                        .HasColumnType("float");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AssetDeclarationId");
-
-                    b.ToTable("Incomes");
+                    b.ToTable("CashPosition");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.Liability", b =>
@@ -122,7 +96,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasIndex("AssetDeclarationId");
 
-                    b.ToTable("Liabilities");
+                    b.ToTable("Liability");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.Party", b =>
@@ -162,31 +136,6 @@ namespace AssetDeclarationsApi.Migrations
                     b.HasIndex("PartyId");
 
                     b.ToTable("Persons");
-                });
-
-            modelBuilder.Entity("AssetDeclarationsApi.Entities.PersonalProperty", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("AssetDeclararionId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("AssetDeclarationId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AssetDeclarationId");
-
-                    b.ToTable("PersonalProperties");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.RealEstate", b =>
@@ -242,7 +191,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasIndex("AssetDeclarationId");
 
-                    b.ToTable("SecurityPositions");
+                    b.ToTable("SecurityPosition");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.AssetDeclaration", b =>
@@ -263,15 +212,6 @@ namespace AssetDeclarationsApi.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("AssetDeclarationsApi.Entities.Income", b =>
-                {
-                    b.HasOne("AssetDeclarationsApi.Entities.AssetDeclaration", null)
-                        .WithMany("Incomes")
-                        .HasForeignKey("AssetDeclarationId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("AssetDeclarationsApi.Entities.Liability", b =>
                 {
                     b.HasOne("AssetDeclarationsApi.Entities.AssetDeclaration", null)
@@ -286,13 +226,6 @@ namespace AssetDeclarationsApi.Migrations
                     b.HasOne("AssetDeclarationsApi.Entities.Party", null)
                         .WithMany("Persons")
                         .HasForeignKey("PartyId");
-                });
-
-            modelBuilder.Entity("AssetDeclarationsApi.Entities.PersonalProperty", b =>
-                {
-                    b.HasOne("AssetDeclarationsApi.Entities.AssetDeclaration", null)
-                        .WithMany("PersonalProperties")
-                        .HasForeignKey("AssetDeclarationId");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.RealEstate", b =>
@@ -317,11 +250,7 @@ namespace AssetDeclarationsApi.Migrations
                 {
                     b.Navigation("CashPositions");
 
-                    b.Navigation("Incomes");
-
                     b.Navigation("Liabilities");
-
-                    b.Navigation("PersonalProperties");
 
                     b.Navigation("RealEstate");
 
