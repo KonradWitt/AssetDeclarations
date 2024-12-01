@@ -3,7 +3,7 @@
     public class AssetDeclaration
     {
         public int Id { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTime Date { get; set; }
         public int PersonId { get; set; }
 
         public ICollection<CashPosition> CashPositions { get; set; }

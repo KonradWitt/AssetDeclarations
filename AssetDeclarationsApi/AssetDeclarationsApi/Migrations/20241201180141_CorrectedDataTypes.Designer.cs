@@ -4,6 +4,7 @@ using AssetDeclarationsApi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AssetDeclarationsApi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20241201180141_CorrectedDataTypes")]
+    partial class CorrectedDataTypes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,7 +43,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasIndex("PersonId");
 
-                    b.ToTable("AssetDeclarations", (string)null);
+                    b.ToTable("AssetDeclarations");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.CashPosition", b =>
@@ -68,7 +71,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasIndex("AssetDeclarationId");
 
-                    b.ToTable("CashPositions", (string)null);
+                    b.ToTable("CashPositions");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.Income", b =>
@@ -97,7 +100,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasIndex("AssetDeclarationId");
 
-                    b.ToTable("Incomes", (string)null);
+                    b.ToTable("Incomes");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.Liability", b =>
@@ -122,7 +125,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasIndex("AssetDeclarationId");
 
-                    b.ToTable("Liabilities", (string)null);
+                    b.ToTable("Liabilities");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.Party", b =>
@@ -139,7 +142,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Parties", (string)null);
+                    b.ToTable("Parties");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.Person", b =>
@@ -168,7 +171,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasIndex("PartyId");
 
-                    b.ToTable("Persons", (string)null);
+                    b.ToTable("Persons");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.PersonalProperty", b =>
@@ -193,7 +196,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasIndex("AssetDeclarationId");
 
-                    b.ToTable("PersonalProperties", (string)null);
+                    b.ToTable("PersonalProperties");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.RealEstate", b =>
@@ -222,7 +225,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasIndex("AssetDeclarationId");
 
-                    b.ToTable("RealEstate", (string)null);
+                    b.ToTable("RealEstate");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.SecurityPosition", b =>
@@ -250,7 +253,7 @@ namespace AssetDeclarationsApi.Migrations
 
                     b.HasIndex("AssetDeclarationId");
 
-                    b.ToTable("SecurityPositions", (string)null);
+                    b.ToTable("SecurityPositions");
                 });
 
             modelBuilder.Entity("AssetDeclarationsApi.Entities.AssetDeclaration", b =>
