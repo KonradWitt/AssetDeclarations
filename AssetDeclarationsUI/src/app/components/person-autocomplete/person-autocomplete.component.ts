@@ -38,7 +38,7 @@ export class PersonAutocompleteComponent implements OnInit {
   @Input() minimumMatchingLetters = 0;
 
   ngOnInit(): void {
-    this.personService.getPersons().subscribe((persons) => {
+    this.personService.getPersonsFromApi().subscribe((persons) => {
       this.filteredPersons = this.formControl.valueChanges.pipe(
         startWith(''),
         filter((x) => typeof x == 'string'),
