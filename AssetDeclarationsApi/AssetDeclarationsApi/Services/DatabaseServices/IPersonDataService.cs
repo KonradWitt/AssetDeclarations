@@ -5,6 +5,6 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
 {
     public interface IPersonDataService : IDatabaseService<Person>
     {
-        Task<Person> GetPersonByNameAsync(string name);
+        Task<Person?> GetIncludingDetails(int id);
     }
 }

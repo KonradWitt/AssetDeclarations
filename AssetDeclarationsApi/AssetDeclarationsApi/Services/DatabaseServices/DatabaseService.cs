@@ -14,6 +14,8 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
             _dbSet = context.Set<T>();
         }
 
+        protected DbSet<T> DbSet { get => _dbSet; }
+
         public async Task<IEnumerable<T>> GetAllAsync()
         {
             return await _dbSet.ToListAsync();

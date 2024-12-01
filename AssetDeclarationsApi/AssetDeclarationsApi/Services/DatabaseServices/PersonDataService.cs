@@ -1,6 +1,7 @@
 ﻿using AssetDeclarationsApi.Data;
 using AssetDeclarationsApi.Entities;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace AssetDeclarationsApi.Services.DatabaseServices
 {
@@ -8,9 +9,23 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
     {
         public PersonDataService(DataContext context) : base(context) { }
 
-        public Task<Person> GetPersonByNameAsync(string name)
+        public Task<Person?> GetIncludingDetails(int id)
         {
-            throw new NotImplementedException();
+            return DbSet.Include(x => x.Party)
+            .Include(p => p.AssetDeclarations)
+                .ThenInclude(ad => ad.CashPositions)
+            .Include(p => p.AssetDeclarations)
+                .ThenInclude(ad => ad.SecurityPositions)
+            .Include(p => p.AssetDeclarations)
+                .ThenInclude(ad => ad.RealEstate)
+            .Include(p => p.AssetDeclarations)
+                .ThenInclude(ad => ad.Liabilities)
+            .Include(p => p.AssetDeclarations)
+                .ThenInclude(ad => ad.PersonalProperties)
+            .Include(p => p.AssetDeclarations)
+                .ThenInclude(ad => ad.Incomes)
+            .FirstOrDefaultAsync(p => p.Id == id);
         }
     }
 }
+

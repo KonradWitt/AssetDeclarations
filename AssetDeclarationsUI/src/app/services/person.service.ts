@@ -27,7 +27,7 @@ export class PersonService {
 
   getPersonsFromApi() : Observable<Person[]>
   {
-    return this.http.get<Person[]>(`${environment.apiUrl}/${this.url}`)
+    return this.http.get<Person[]>(`${environment.apiUrl}/${this.url}/GetAll`)
   }
 
   addPerson(person: Person) {
