@@ -2,8 +2,14 @@
   <app-person-autocomplete
     class="person-autocomplete"
     [minimumMatchingLetters]="2"
+    (personSelectedEvent)="onPersonSelected($event)"
   />
-  <div class="cards-container">
-    <app-personal-data-card />
+  <div class="cards-container"
+  *ngIf="this.selectedPerson() !== undefined">
+    <app-personal-data-card [person]="this.selectedPerson()!"/>
+  </div>
+  <div class="loading-container"
+  *ngIf="this.isLoading()">
+    <mat-spinner/>
   </div>
 </main>

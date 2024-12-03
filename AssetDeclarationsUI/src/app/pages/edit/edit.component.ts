@@ -48,10 +48,10 @@ export class EditComponent implements OnInit {
 
   onEditButtonClick(): void {}
   onDeleteButtonClick(): void {
-    if (this.selectedPerson() !== undefined) {
-      this.personService.deltePerson(this.selectedPerson()?.id!);
-      this.loadPersons();
-    }
+    // if (this.selectedPerson() !== undefined) {
+    //   this.personService.deltePerson(this.selectedPerson()?.id!);
+    //   this.loadPersons();
+    // }
   }
 
   openDialog(): void {
@@ -59,11 +59,11 @@ export class EditComponent implements OnInit {
       restoreFocus: false,
     });
 
-    dialogRef.afterClosed().subscribe((person) => {
-      if (person !== undefined) {
-        this.personService.addPerson(person);
-        this.loadPersons();
-      }
-    });
+    // dialogRef.afterClosed().subscribe((person) => {
+    //   if (person !== undefined) {
+    //     this.personService.addPerson(person);
+    //     this.loadPersons();
+    //   }
+    // });
   }
 }

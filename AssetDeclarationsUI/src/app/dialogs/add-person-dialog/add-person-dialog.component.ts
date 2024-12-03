@@ -10,7 +10,7 @@ import {
 } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { Person } from '../../model/person.type';
+import { defaultPerson, Person } from '../../model/person.type';
 
 @Component({
   selector: 'app-add-person-dialog',
@@ -28,7 +28,7 @@ import { Person } from '../../model/person.type';
 })
 export class AddPersonDialogComponent {
   readonly dialogRef = inject(MatDialogRef<AddPersonDialogComponent>);
-  readonly person = signal<Person>({ id: 0, name: '' });
+  readonly person = signal<Person>(defaultPerson);
 
   onNoButtonClick(): void {
     this.dialogRef.close();

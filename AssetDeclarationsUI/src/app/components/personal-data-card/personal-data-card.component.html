@@ -1,8 +1,8 @@
 <mat-card class="personal-data-card">
   <mat-card-header>
     <mat-card-title-group>
-      <mat-card-title>Konrad Witt</mat-card-title>
-      <mat-card-subtitle>Partia Dobrego Panka</mat-card-subtitle>
+      <mat-card-title>{{this.person.name}}</mat-card-title>
+      <mat-card-subtitle>{{this.person.party?.name}}</mat-card-subtitle>
       <img
         class="profile-picture"
         src="https://www.gov.pl/photo/format/3ee40966-20e8-4c53-885a-cd73ab619d87/resolution/729x308"
@@ -15,13 +15,13 @@
         <div class="grid-left-text">Data urodzenia</div>
       </mat-grid-tile>
       <mat-grid-tile>
-        <div class="grid-right-text">26.01.1990</div>
+        <div class="grid-right-text">{{this.person.dateOfBirth | date:'dd/MM/yyyy'}}</div>
       </mat-grid-tile>
       <mat-grid-tile>
         <div class="grid-left-text">Miejsce urodzenia</div>
       </mat-grid-tile>
       <mat-grid-tile>
-        <div class="grid-right-text">Warszawa</div>
+        <div class="grid-right-text">{{this.person.placeOfBirth}}</div>
       </mat-grid-tile>
       <mat-grid-tile>
         <div class="grid-left-text">Wartość netto</div>
