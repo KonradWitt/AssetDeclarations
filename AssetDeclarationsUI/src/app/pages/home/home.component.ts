@@ -8,6 +8,7 @@ import { Person } from '../../model/person.type';
 import { CommonModule } from '@angular/common';
 import { delay } from 'rxjs';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { CurrenciesCardComponent } from '../../components/currencies-card/currencies-card.component';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +19,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     PersonalDataCardComponent,
     CommonModule,
     MatProgressSpinnerModule,
+    CurrenciesCardComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
