@@ -35,7 +35,6 @@ export class HomeComponent implements OnInit {
     this.isLoading.set(true);
     this.personService
       .getPerson($event.id)
-      .pipe(delay(2000))
       .subscribe((person) => {
         this.selectedPerson.set(person);
         this.isLoading.set(false);

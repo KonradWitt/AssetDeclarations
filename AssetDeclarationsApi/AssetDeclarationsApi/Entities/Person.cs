@@ -1,4 +1,6 @@
-﻿namespace AssetDeclarationsApi.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace AssetDeclarationsApi.Entities
 {
     public class Person
     {

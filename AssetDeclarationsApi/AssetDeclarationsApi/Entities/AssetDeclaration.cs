@@ -1,4 +1,6 @@
-﻿namespace AssetDeclarationsApi.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace AssetDeclarationsApi.Entities
 {
     public class AssetDeclaration
     {
@@ -12,5 +14,23 @@
         public ICollection<Liability> Liabilities { get; set; }
         public ICollection<PersonalProperty> PersonalProperties { get; set; }
         public ICollection<Income> Incomes { get; set; }
+
+        [NotMapped]
+        public double NetValue
+        {
+            get => CalculateNetValue();
+        }
+
+        private double CalculateNetValue()
+        {
+            var netValue = 0.0;
+
+            netValue += CashPositions?.Sum(x => x?.BaseValue ?? default) ?? default;
+            netValue += SecurityPositions?.Sum(x => x?.Value ?? default) ?? default;
+            netValue += RealEstate?.Sum(x => x?.Value ?? default) ?? default;
+            netValue += Liabilities?.Sum(x => x?.Value ?? default) ?? default;
+
+            return netValue;
+        }
     }
 }

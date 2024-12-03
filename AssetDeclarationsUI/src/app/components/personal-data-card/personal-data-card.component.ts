@@ -1,8 +1,9 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, signal, SimpleChanges } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { Person } from '../../model/person.type';
+import { defaultPerson, Person } from '../../model/person.type';
 import { DatePipe } from '@angular/common';
+import { AssetDeclaration } from '../../model/assetDeclaration.type';
 
 @Component({
   selector: 'app-personal-data-card',
@@ -12,13 +13,21 @@ import { DatePipe } from '@angular/common';
 })
 export class PersonalDataCardComponent {
   @Input() person: Person;
+  lastDeclaration = signal<AssetDeclaration | undefined>(undefined);
 
   constructor() {
-    this.person = {
-      id: 0,
-      name: '',
-      dateOfBirth: new Date('2019-01-16'),
-      placeOfBirth: '',
-    };
+    this.person = defaultPerson;
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    this.refreshLastDeclararion();
+  }
+
+  private refreshLastDeclararion() {
+    this.lastDeclaration.set(
+      this.person.assetDeclarations?.sort((x) => x.date.getTime())[
+        this.person.assetDeclarations.length - 1
+      ]
+    );
   }
 }
