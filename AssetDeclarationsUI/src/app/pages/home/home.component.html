@@ -4,13 +4,4 @@
     [minimumMatchingLetters]="2"
     (personSelectedEvent)="onPersonSelected($event)"
   />
-  <div class="cards-container"
-  *ngIf="this.selectedPerson() !== undefined">
-    <app-personal-data-card [person]="this.selectedPerson()!"/>
-    <app-currencies-card [assetDeclaration]="this.selectedPerson()!.assetDeclarations![0]" />
-  </div>
-  <div class="loading-container"
-  *ngIf="this.isLoading()">
-    <mat-spinner/>
-  </div>
 </main>

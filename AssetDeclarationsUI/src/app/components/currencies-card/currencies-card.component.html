@@ -5,9 +5,14 @@
     </mat-card-title-group>
   </mat-card-header>
   <mat-card-content>
-    @for (cashPosition of this.assetDeclaration?.cashPositions; track
-    cashPosition.id) {
+    @for (cashPosition of this.cashPositions; track cashPosition.id) {
     <p>{{ cashPosition.baseValue }} {{ cashPosition.currency }}</p>
     }
   </mat-card-content>
+  <mat-card-footer class="cash-card-footer">
+    <div>
+      <mat-divider />
+      <p>{{ this.sum() }} PLN</p>
+    </div>
+  </mat-card-footer>
 </mat-card>

@@ -36,8 +36,7 @@ export class PersonComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    
-    this.isLoading.set(true);
+    this.selectedPerson.set(undefined);
     var routedId = this.route.snapshot.paramMap.get('id');
     if (routedId == null) {
       return;
@@ -48,15 +47,19 @@ export class PersonComponent implements OnInit {
   }
 
   onPersonSelected($event: Person) {
-    this.router.navigate(['polityk', $event.id])
+    this.router.navigate(['polityk', $event.id]);
     this.loadPerson($event.id);
   }
 
   private loadPerson(id: number) {
     this.isLoading.set(true);
     this.personService.getPerson(id).subscribe((person) => {
-      this.selectedPerson.set(person);
       this.isLoading.set(false);
+      if (person == null) {
+        this.router.navigate(['polityk']);
+      } else {
+        this.selectedPerson.set(person);
+      }
     });
   }
 }

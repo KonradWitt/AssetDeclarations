@@ -4,10 +4,11 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { defaultPerson, Person } from '../../model/person.type';
 import { DatePipe } from '@angular/common';
 import { AssetDeclaration } from '../../model/assetDeclaration.type';
+import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
   selector: 'app-personal-data-card',
-  imports: [MatCardModule, MatGridListModule, DatePipe],
+  imports: [MatCardModule, MatGridListModule, MatDividerModule, DatePipe],
   templateUrl: './personal-data-card.component.html',
   styleUrl: './personal-data-card.component.scss',
 })
