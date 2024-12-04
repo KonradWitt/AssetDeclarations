@@ -12,7 +12,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { ReactiveFormsModule } from '@angular/forms';
 import { filter, map, Observable, startWith } from 'rxjs';
-import { Person } from '../../model/person.type';
+import { defaultPerson, Person } from '../../model/person.type';
 import { PersonService } from '../../services/person.service';
 import { AsyncPipe } from '@angular/common';
 
@@ -29,13 +29,15 @@ import { AsyncPipe } from '@angular/common';
   templateUrl: './person-autocomplete.component.html',
   styleUrl: './person-autocomplete.component.scss',
 })
-
 export class PersonAutocompleteComponent implements OnInit {
   personService = inject(PersonService);
   formControl = new FormControl();
   filteredPersons = new Observable<Person[]>();
   @Output() personSelectedEvent = new EventEmitter<Person>();
   @Input() minimumMatchingLetters = 0;
+  @Input() set selectedPerson(person: Person | undefined) {
+    this.formControl.setValue(person);
+  }
 
   ngOnInit(): void {
     this.personService.getPersons().subscribe((persons) => {

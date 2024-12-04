@@ -1,0 +1,18 @@
+<main>
+    <app-person-autocomplete
+      class="person-autocomplete"
+      [minimumMatchingLetters]="2"
+      [selectedPerson]="this.selectedPerson()"
+      (personSelectedEvent)="onPersonSelected($event)"  
+      />
+    <div class="cards-container"
+    *ngIf="this.selectedPerson() !== undefined">
+      <app-personal-data-card [person]="this.selectedPerson()!"/>
+      <app-currencies-card [assetDeclaration]="this.selectedPerson()!.assetDeclarations![0]" />
+    </div>
+    <div class="loading-container"
+    *ngIf="this.isLoading()">
+      <mat-spinner/>
+    </div>
+  </main>
+  

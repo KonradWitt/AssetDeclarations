@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common';
 import { delay } from 'rxjs';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { CurrenciesCardComponent } from '../../components/currencies-card/currencies-card.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -28,18 +29,13 @@ export class HomeComponent implements OnInit {
   selectedPerson = signal<Person | undefined>(undefined);
   isLoading = signal<boolean>(false);
 
-  constructor(private personService: PersonService) {}
+  constructor(private personService: PersonService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {}
 
   onPersonSelected($event: Person) {
-    this.selectedPerson.set(undefined);
-    this.isLoading.set(true);
-    this.personService
-      .getPerson($event.id)
-      .subscribe((person) => {
-        this.selectedPerson.set(person);
-        this.isLoading.set(false);
-      });
+    this.router.navigate(['polityk', $event.id])
   }
 }
