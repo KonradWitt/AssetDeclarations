@@ -5,15 +5,14 @@
     [selectedPerson]="this.selectedPerson()"
     (personSelectedEvent)="onPersonSelected($event)"
   />
-  <div class="cards-container" *ngIf="this.selectedPerson() != undefined">
+  <div class="cards-container" *ngIf="this.selectedPerson() !== undefined">
     <app-personal-data-card [person]="this.selectedPerson()!" />
-    <app-currencies-card
-      [cashPositions]="
-        this.selectedPerson()!.assetDeclarations![0].cashPositions
-      "
+    <app-currencies-card *ngIf="this.lastDeclaration()!== undefined"
+      [cashPositions]="lastDeclaration()!.cashPositions"
     />
+    <app-net-worth-trend-card/>
   </div>
-  <div class="placeholder-container" *ngIf="this.isLoading()">
+  <div class="loading-container" *ngIf="this.isLoading()">
     <mat-spinner />
   </div>
 </main>

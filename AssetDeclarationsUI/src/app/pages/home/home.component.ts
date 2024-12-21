@@ -10,6 +10,7 @@ import { delay } from 'rxjs';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { CurrenciesCardComponent } from '../../components/currencies-card/currencies-card.component';
 import { Router } from '@angular/router';
+import { NetWorthTrendCardComponent } from '../../components/net-worth-trend-card/net-worth-trend-card.component';
 
 @Component({
   selector: 'app-home',
@@ -17,10 +18,8 @@ import { Router } from '@angular/router';
     PersonAutocompleteComponent,
     MatCardModule,
     MatGridListModule,
-    PersonalDataCardComponent,
     CommonModule,
     MatProgressSpinnerModule,
-    CurrenciesCardComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',

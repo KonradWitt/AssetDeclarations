@@ -26,19 +26,19 @@
         <div class="grid-right-text">{{ this.person.placeOfBirth }}</div>
       </mat-grid-tile>
       <mat-grid-tile>
+        <div class="grid-left-text">Ostatnie oświadczenie</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <div class="grid-right-text">
+          {{ this.lastDeclaration()?.date | date : "dd.MM.yyyy" }}
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile>
         <div class="grid-left-text">Wartość netto</div>
       </mat-grid-tile>
       <mat-grid-tile>
         <div class="grid-right-text">
           {{ this.lastDeclaration()?.netValue }} PLN
-        </div>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <div class="grid-left-text">Ostatnie oświadczenie</div>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <div class="grid-right-text">
-          {{ this.lastDeclaration()?.date | date : "dd/MM/yyyy" }}
         </div>
       </mat-grid-tile>
     </mat-grid-list>
