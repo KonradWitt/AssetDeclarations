@@ -10,6 +10,8 @@ import { PersonAutocompleteComponent } from '../../components/person-autocomplet
 import { PersonalDataCardComponent } from '../../components/personal-data-card/personal-data-card.component';
 import { Person } from '../../model/person.type';
 import { PersonService } from '../../services/person.service';
+import { AssetDeclaration } from '../../model/assetDeclaration.type';
+import { NetWorthTrendCardComponent } from '../../components/net-worth-trend-card/net-worth-trend-card.component';
 
 @Component({
   selector: 'app-person',
@@ -21,6 +23,7 @@ import { PersonService } from '../../services/person.service';
     CommonModule,
     MatProgressSpinnerModule,
     CurrenciesCardComponent,
+    NetWorthTrendCardComponent
   ],
   templateUrl: './person.component.html',
   styleUrl: './person.component.scss',
@@ -28,6 +31,7 @@ import { PersonService } from '../../services/person.service';
 export class PersonComponent implements OnInit {
   selectedPerson = signal<Person | undefined>(undefined);
   isLoading = signal<boolean>(false);
+  lastDeclaration = signal<AssetDeclaration | undefined>(undefined);
 
   constructor(
     private router: Router,
@@ -59,7 +63,17 @@ export class PersonComponent implements OnInit {
         this.router.navigate(['polityk']);
       } else {
         this.selectedPerson.set(person);
+        this.refreshLastDeclararion();
       }
     });
+  }
+
+  private refreshLastDeclararion() {
+    this.lastDeclaration.set(undefined);
+    this.lastDeclaration.set(
+      this.selectedPerson()!.assetDeclarations?.sort((x) => x.date.getTime())[
+        this.selectedPerson()!.assetDeclarations!.length - 1
+      ]
+    );
   }
 }
