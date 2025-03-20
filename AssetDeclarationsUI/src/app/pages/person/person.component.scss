@@ -1,8 +1,9 @@
 .cards-container
 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 450px));
+  gap: 20px;
+  justify-content: space-around;
 }
 
 .loading-container

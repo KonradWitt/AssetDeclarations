@@ -12,6 +12,7 @@ import { Person } from '../../model/person.type';
 import { PersonService } from '../../services/person.service';
 import { AssetDeclaration } from '../../model/assetDeclaration.type';
 import { NetWorthTrendCardComponent } from '../../components/net-worth-trend-card/net-worth-trend-card.component';
+import { RealEstateCardComponent } from '../../components/real-estate-card/real-estate-card.component';
 
 @Component({
   selector: 'app-person',
@@ -23,7 +24,8 @@ import { NetWorthTrendCardComponent } from '../../components/net-worth-trend-car
     CommonModule,
     MatProgressSpinnerModule,
     CurrenciesCardComponent,
-    NetWorthTrendCardComponent
+    NetWorthTrendCardComponent,
+    RealEstateCardComponent
   ],
   templateUrl: './person.component.html',
   styleUrl: './person.component.scss',

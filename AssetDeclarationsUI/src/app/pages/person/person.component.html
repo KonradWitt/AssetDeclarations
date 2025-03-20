@@ -7,10 +7,12 @@
   />
   <div class="cards-container" *ngIf="this.selectedPerson() !== undefined">
     <app-personal-data-card [person]="this.selectedPerson()!" />
-    <app-currencies-card *ngIf="this.lastDeclaration()!== undefined"
+    <app-currencies-card
+      *ngIf="this.lastDeclaration() !== undefined"
       [cashPositions]="lastDeclaration()!.cashPositions"
     />
-    <app-net-worth-trend-card/>
+    <app-net-worth-trend-card />
+    <app-real-estate-card></app-real-estate-card>
   </div>
   <div class="loading-container" *ngIf="this.isLoading()">
     <mat-spinner />

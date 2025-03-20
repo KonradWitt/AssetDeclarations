@@ -8,7 +8,7 @@ body {
 html {
   color-scheme: light;
   @include mat.theme((
-    color: mat.$yellow-palette,
+    color: mat.$azure-palette,
     typography: Roboto,
     density: 0
   ));

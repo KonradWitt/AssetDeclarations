@@ -1,18 +1,21 @@
-<mat-card class="cash-card">
-  <mat-card-header>
-    <mat-card-title-group>
-      <mat-card-title>Waluty</mat-card-title>
-    </mat-card-title-group>
-  </mat-card-header>
-  <mat-card-content>
-    @for (cashPosition of this.cashPositions; track cashPosition.id) {
-    <p>{{ cashPosition.baseValue }} {{ cashPosition.currency }}</p>
-    }
-  </mat-card-content>
-  <mat-card-footer class="cash-card-footer">
-    <div>
-      <mat-divider />
+<div class="container">
+  <div class="header-container">
+    <div class="header">
+      <h2>Waluty</h2>
+    </div>
+  </div>
+
+  <div class="content-container">
+    <div class="content">
+      @for (cashPosition of this.cashPositions; track cashPosition.id) {
+      <p>{{ cashPosition.baseValue }} {{ cashPosition.currency }}</p>
+      }
+    </div>
+  </div>
+
+  <div class="footer-container">
+    <div class="footer">
       <p>{{ this.sum() }} PLN</p>
     </div>
-  </mat-card-footer>
-</mat-card>
+  </div>
+</div>
