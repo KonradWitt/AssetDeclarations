@@ -1,26 +1,20 @@
 .container {
-    background-color: var(--mat-sys-surface);
-    border-radius: 20px;
-    box-shadow: var(--mat-sys-level5);
-  }
-  
-  .header-container {
-    border-radius: 20px 20px 0px 0px;
-    padding: 10px;
-  }
-  
-  .header, .footer {
-    height: 50px;
-    display: flex;
-    align-content: center;
-  }
-  
-  .content-container {
-    padding: 10px;
-  }
-  
-  .footer-container {
-    background-color: var(--mat-sys-outline-variant);
-    border-radius: 0px 0px 20px 20px;
-    padding: 10px;
-  }
+  background-color: var(--mat-sys-surface);
+  border-radius: 20px;
+  box-shadow: var(--mat-sys-level5);
+}
+
+.header-container {
+  border-radius: 20px 20px 0px 0px;
+  padding: 10px 10px 0px 10px;
+}
+
+.content-container {
+  padding: 10px;
+}
+
+.footer-container {
+  background-color: var(--mat-sys-outline-variant);
+  border-radius: 0px 0px 20px 20px;
+  padding: 1px 10px;
+}

@@ -16,4 +16,5 @@ import { MatDivider } from '@angular/material/divider';
 })
 export class CardComponent {
   @Input() showFooter: boolean = false;
+  @Input() title: string = "";
 }

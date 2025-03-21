@@ -1,27 +1,6 @@
 <mat-toolbar color="primary">
-  <button mat-button class="header-title" routerLink="/">
-    Oświadczenia majątkowe
-  </button>
+  <button mat-button class="header-title" routerLink="/">Strona główna</button>
   <span class="spacer"></span>
-  <!-- <div class="center-tabs">
-    <nav
-      mat-align-tabs="center"
-      mat-tab-nav-bar
-      mat-stretch-tabs="false"
-      mat-align-tabs="start"
-      [tabPanel]="tabPanel"
-    >
-      @for (link of links; track link) {
-      <a
-        mat-tab-link
-        (click)="activeLink.set(link)"
-        [active]="link == activeLink()"
-        [routerLink]="link.path"
-      >
-        {{ link.label }} </a
-      >}
-    </nav>
-  </div> -->
 </mat-toolbar>
 <mat-tab-nav-panel #tabPanel>
   <div class="router-wrapper">

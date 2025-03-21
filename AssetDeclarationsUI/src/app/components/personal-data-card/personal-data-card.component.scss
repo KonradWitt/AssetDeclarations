@@ -1,20 +1,20 @@
-.personal-data-card {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .grid-left-text {
-    position: absolute;
-    left: 0px;
-  }
-  
-  .grid-right-text {
-    position: absolute;
-    right: 0px;
-  }
+.left-cell {
+  text-align: left;
+  padding: 8px;
+}
 
-  .profile-picture {
-    width: 128px;
-    height: 128px;
-    object-fit: cover;
-  }
+.right-cell {
+  text-align: right;
+  padding: 8px;
+}
+
+.img-container {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.profile-picture {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+}

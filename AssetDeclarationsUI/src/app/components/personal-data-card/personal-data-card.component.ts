@@ -5,10 +5,12 @@ import { defaultPerson, Person } from '../../model/person.type';
 import { DatePipe } from '@angular/common';
 import { AssetDeclaration } from '../../model/assetDeclaration.type';
 import { MatDividerModule } from '@angular/material/divider';
+import {CardComponent} from '../card/card.component'
+
 
 @Component({
   selector: 'app-personal-data-card',
-  imports: [MatCardModule, MatGridListModule, MatDividerModule, DatePipe],
+  imports: [MatCardModule, MatGridListModule, MatDividerModule, DatePipe, CardComponent],
   templateUrl: './personal-data-card.component.html',
   styleUrl: './personal-data-card.component.scss',
 })

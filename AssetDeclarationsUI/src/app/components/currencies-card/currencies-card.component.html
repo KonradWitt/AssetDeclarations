@@ -1,27 +1,4 @@
-<!--
-<div class="container">
-  <div class="header-container">
-    <div class="header">
-      <h2>Waluty</h2>
-    </div>
-  </div>
-
-  <div class="content-container">
-    <div class="content">
-      @for (cashPosition of this.cashPositions; track cashPosition.id) {
-      <p>{{ cashPosition.baseValue }} {{ cashPosition.currency }}</p>
-      }
-    </div>
-  </div>
-
-  <div class="footer-container">
-    <div class="footer">
-      <p>{{ this.sum() }} PLN</p>
-    </div>
-  </div>
-</div>
--->
-<card [showFooter]=false>
+<card title="Waluty" [showFooter]=true>
   <header>
     <h2>Waluty</h2>
   </header>

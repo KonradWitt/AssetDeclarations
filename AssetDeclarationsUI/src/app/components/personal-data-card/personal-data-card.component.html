@@ -1,46 +1,46 @@
-<mat-card class="personal-data-card">
-  <mat-card-header>
-    <mat-card-title-group>
-      <mat-card-title>{{ this.person.name }}</mat-card-title>
-      <mat-card-subtitle>{{ this.person.party?.name }}</mat-card-subtitle>
+<card title="Informacje ogólne">
+  <content>
+    <div class="img-container">
       <img
         class="profile-picture"
         src="https://www.gov.pl/photo/format/3ee40966-20e8-4c53-885a-cd73ab619d87/resolution/729x308"
       />
-    </mat-card-title-group>
-  </mat-card-header>
-  <mat-card-content>
-    <mat-grid-list cols="2" rowHeight="4:1">
-      <mat-grid-tile>
-        <div class="grid-left-text">Data urodzenia</div>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <div class="grid-right-text">
+    </div>
+    <table>
+      <tr>
+        <td class="left-cell">Imię i nazwisko</td>
+        <td class="right-cell">
+          {{ this.person.name }}
+        </td>
+      </tr>
+      <tr>
+        <td class="left-cell">Partia polityczna</td>
+        <td class="right-cell">
+          {{ this.person.party?.name }}
+        </td>
+      </tr>
+      <tr>
+        <td class="left-cell">Data urodzenia</td>
+        <td class="right-cell">
           {{ this.person.dateOfBirth | date : "dd/MM/yyyy" }}
-        </div>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <div class="grid-left-text">Miejsce urodzenia</div>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <div class="grid-right-text">{{ this.person.placeOfBirth }}</div>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <div class="grid-left-text">Ostatnie oświadczenie</div>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <div class="grid-right-text">
+        </td>
+      </tr>
+      <tr>
+        <td class="left-cell">Miejsce urodzenia</td>
+        <td class="right-cell">
+          {{ this.person.placeOfBirth }}
+        </td>
+      </tr>
+      <tr>
+        <td class="left-cell">Ostatnie oświadczenie</td>
+        <td class="right-cell">
           {{ this.lastDeclaration()?.date | date : "dd.MM.yyyy" }}
-        </div>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <div class="grid-left-text">Wartość netto</div>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <div class="grid-right-text">
-          {{ this.lastDeclaration()?.netValue }} PLN
-        </div>
-      </mat-grid-tile>
-    </mat-grid-list>
-  </mat-card-content>
-</mat-card>
+        </td>
+      </tr>
+      <tr>
+        <td class="left-cell">Wartość netto</td>
+        <td class="right-cell">{{ this.lastDeclaration()?.netValue }} PLN</td>
+      </tr>
+    </table>
+  </content>
+</card>
