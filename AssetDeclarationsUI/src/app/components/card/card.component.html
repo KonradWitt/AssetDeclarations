@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="header-container">
+    <div class="header">
+      <ng-content select="header"></ng-content>
+    </div>
+    <mat-divider />
+  </div>
+  <div class="content-container">
+    <div class="content">
+      <ng-content select="content"></ng-content>
+    </div>
+  </div>
+
+  <div class="footer-container" *ngIf="showFooter">
+    <div class="footer">
+      <ng-content select="footer"></ng-content>
+    </div>
+  </div>
+</div>

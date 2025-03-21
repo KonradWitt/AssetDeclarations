@@ -1,10 +1,8 @@
-<mat-card class="card">
-  <mat-card-header>
-    <mat-card-title-group>
-      <mat-card-title>Nieruchomości</mat-card-title>
-    </mat-card-title-group>
-  </mat-card-header>
-  <mat-card-content>
+<card>
+  <header>
+    <h2>Nieruchomości</h2>
+  </header>
+  <content>
     <table mat-table [dataSource]="dataSource">
       <ng-container matColumnDef="description">
         <th mat-header-cell *matHeaderCellDef>Opis</th>
@@ -24,5 +22,5 @@
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
       <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
     </table>
-  </mat-card-content>
-</mat-card>
+  </content>
+</card>

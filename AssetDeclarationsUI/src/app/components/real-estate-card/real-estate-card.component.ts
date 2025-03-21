@@ -3,6 +3,7 @@ import { MatCardModule } from '@angular/material/card';
 import {MatTableModule} from '@angular/material/table';
 import { MatDividerModule } from '@angular/material/divider';
 import { RealEstate } from '../../model/realEstate.type';
+import { CardComponent } from '../card/card.component';
 
 
 const RE_DATA: RealEstate[] = [
@@ -12,7 +13,7 @@ const RE_DATA: RealEstate[] = [
 
 @Component({
   selector: 'app-real-estate-card',
-  imports: [MatTableModule, MatCardModule, MatDividerModule],
+  imports: [MatTableModule, MatCardModule, MatDividerModule, CardComponent],
   templateUrl: './real-estate-card.component.html',
   styleUrl: './real-estate-card.component.scss'
 })

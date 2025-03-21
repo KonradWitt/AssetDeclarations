@@ -4,10 +4,11 @@ import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { CashPosition } from '../../model/cashPosition.type';
+import {CardComponent} from '../card/card.component'
 
 @Component({
   selector: 'app-currencies-card',
-  imports: [MatListModule, MatCardModule, MatDividerModule],
+  imports: [MatListModule, MatCardModule, MatDividerModule, CardComponent],
   templateUrl: './currencies-card.component.html',
   styleUrl: './currencies-card.component.scss',
 })
