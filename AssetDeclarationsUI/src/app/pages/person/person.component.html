@@ -7,6 +7,7 @@
   />
   <div class="cards-container" *ngIf="this.selectedPerson() !== undefined">
     <app-personal-data-card [person]="this.selectedPerson()!" />
+    <app-declarations-card [declarations]="this.selectedPerson()?.assetDeclarations"></app-declarations-card>
     <app-currencies-card
       *ngIf="this.lastDeclaration() !== undefined"
       [cashPositions]="lastDeclaration()!.cashPositions"
