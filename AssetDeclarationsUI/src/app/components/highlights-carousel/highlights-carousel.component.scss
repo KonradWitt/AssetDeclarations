@@ -4,11 +4,17 @@
   background-color: var(--mat-sys-surface);
   border-radius: 20px;
   box-shadow: var(--mat-sys-level2);
-  width: 400px;
+  width: 80%;
   margin: 24px;
   padding: 24px;
 }
 
 img {
+  border-radius: 20px;
   height: 256px;
+}
+
+p {
+    color: var(--mat-sys-outline);
+    font-weight: bold;
 }
