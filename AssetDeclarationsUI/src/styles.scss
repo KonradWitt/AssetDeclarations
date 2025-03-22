@@ -1,4 +1,4 @@
-@use '@angular/material' as mat;
+@use "@angular/material" as mat;
 
 body {
   margin: 0;
@@ -7,9 +7,21 @@ body {
 
 html {
   color-scheme: light;
-  @include mat.theme((
-    color: mat.$azure-palette,
-    typography: Roboto,
-    density: 0
-  ));
+  @include mat.theme(
+    (
+      color: mat.$azure-palette,
+      typography: Roboto,
+      density: 0,
+    )
+  );
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
 }

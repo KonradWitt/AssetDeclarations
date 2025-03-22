@@ -11,6 +11,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { CurrenciesCardComponent } from '../../components/currencies-card/currencies-card.component';
 import { Router } from '@angular/router';
 import { NetWorthTrendCardComponent } from '../../components/net-worth-trend-card/net-worth-trend-card.component';
+import { HighlightsCarouselComponent } from "../../components/highlights-carousel/highlights-carousel.component";
 
 @Component({
   selector: 'app-home',
@@ -20,7 +21,8 @@ import { NetWorthTrendCardComponent } from '../../components/net-worth-trend-car
     MatGridListModule,
     CommonModule,
     MatProgressSpinnerModule,
-  ],
+    HighlightsCarouselComponent
+],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
