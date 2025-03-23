@@ -15,6 +15,8 @@ namespace AssetDeclarationsApi.Entities
         public ICollection<PersonalProperty> PersonalProperties { get; set; }
         public ICollection<Income> Incomes { get; set; }
 
+        public Document Document { get; set; }
+
         [NotMapped]
         public double NetValue
         {

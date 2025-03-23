@@ -17,5 +17,7 @@ namespace AssetDeclarationsApi.Data
         public DbSet<Liability> Liabilities { get; set; }
         public DbSet<PersonalProperty> PersonalProperties { get; set; }
         public DbSet<Income> Incomes { get; set; }
+
+        public DbSet<Document> Documents { get; set; }
     }
 }
