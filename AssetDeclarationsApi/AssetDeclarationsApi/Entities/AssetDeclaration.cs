@@ -33,7 +33,7 @@ namespace AssetDeclarationsApi.Entities
             netValue += RealEstate?.Sum(x => x?.Value ?? default) ?? default;
             netValue += Liabilities?.Sum(x => x?.Value ?? default) ?? default;
 
-            return netValue;
+            return Math.Round(netValue);
         }
     }
 }

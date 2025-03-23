@@ -1,4 +1,5 @@
 import { CashPosition } from './cashPosition.type';
+import { RealEstate } from './realEstate.type';
 
 export type AssetDeclaration = {
   id: number;
@@ -6,4 +7,5 @@ export type AssetDeclaration = {
   date: Date;
 
   cashPositions?: CashPosition[];
+  realEstate?: RealEstate[];
 };

@@ -1,6 +1,6 @@
 <card title="Nieruchomości">
   <content>
-    <table mat-table [dataSource]="dataSource">
+    <table mat-table [dataSource]="realEstate">
       <ng-container matColumnDef="description">
         <th mat-header-cell *matHeaderCellDef>Opis</th>
         <td mat-cell *matCellDef="let element">{{ element.description }}</td>
@@ -13,7 +13,7 @@
 
       <ng-container matColumnDef="value">
         <th mat-header-cell *matHeaderCellDef>Wartość</th>
-        <td mat-cell *matCellDef="let element">{{ element.value }} zł</td>
+        <td mat-cell *matCellDef="let element"  class="no-wrap">{{ element.value }} zł</td>
       </ng-container>
 
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
