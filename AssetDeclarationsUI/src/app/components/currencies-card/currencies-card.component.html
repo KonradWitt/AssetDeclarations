@@ -1,4 +1,4 @@
-<card title="Waluty" [showFooter]=true>
+<card title="Waluty" [showFooter]="true">
   <header>
     <h2>Waluty</h2>
   </header>
@@ -8,6 +8,6 @@
     }
   </content>
   <footer>
-    <p>{{ this.sum() }} PLN</p>
+    <p>Łącznie {{ this.sum() | numberSpace }} PLN.</p>
   </footer>
 </card>

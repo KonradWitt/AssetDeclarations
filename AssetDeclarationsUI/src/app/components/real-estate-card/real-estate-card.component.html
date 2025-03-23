@@ -1,4 +1,4 @@
-<card title="Nieruchomości">
+<card title="Nieruchomości" [showFooter]=true>
   <content>
     <table mat-table [dataSource]="realEstate">
       <ng-container matColumnDef="description">
@@ -20,4 +20,7 @@
       <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
     </table>
   </content>
+  <footer>
+    <p>{{numberOfProperties()}} nieruchomości na łączną wartość {{sumValue() | numberSpace}} PLN.</p>
+  </footer>
 </card>
