@@ -3,6 +3,7 @@ import { Party } from "./party.type"
 
 export type Person = {
     id: number ,
+    link: string,
     name: string,
     placeOfBirth : string,
     dateOfBirth : Date,
@@ -11,7 +12,6 @@ export type Person = {
     party? : Party,
 
     assetDeclarations? : AssetDeclaration[]
-    netWorth : number
 }
 
 export const defaultPerson = {

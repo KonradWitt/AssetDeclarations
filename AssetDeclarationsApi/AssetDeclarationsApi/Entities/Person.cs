@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using AssetDeclarationsApi.Utilities;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AssetDeclarationsApi.Entities
 {
@@ -13,5 +14,11 @@ namespace AssetDeclarationsApi.Entities
         public Party? Party { get; set; }
 
         public ICollection<AssetDeclaration> AssetDeclarations { get; set; }
+
+        [NotMapped]
+        public string Link
+        {
+            get => Name?.Trim().ReplacePolishLetters().Replace(' ', '-');
+        }
     }
 }
