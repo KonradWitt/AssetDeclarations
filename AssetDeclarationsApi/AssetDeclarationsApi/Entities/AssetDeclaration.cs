@@ -14,7 +14,8 @@ namespace AssetDeclarationsApi.Entities
         public ICollection<Liability> Liabilities { get; set; }
         public ICollection<PersonalProperty> PersonalProperties { get; set; }
         public ICollection<Income> Incomes { get; set; }
-
+        public ICollection<Receivable> Receivables { get; set; }
+        public ICollection<BusinessActivity> BusinessActivities { get; set; }
         public Document Document { get; set; }
 
         [NotMapped]
