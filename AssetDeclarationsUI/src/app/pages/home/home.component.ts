@@ -11,7 +11,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { CurrenciesCardComponent } from '../../components/currencies-card/currencies-card.component';
 import { Router } from '@angular/router';
 import { NetWorthTrendCardComponent } from '../../components/net-worth-trend-card/net-worth-trend-card.component';
-import { HighlightsCarouselComponent } from "../../components/highlights-carousel/highlights-carousel.component";
+import { HighlightsCarouselComponent } from '../../components/highlights-carousel/highlights-carousel.component';
 
 @Component({
   selector: 'app-home',
@@ -21,8 +21,8 @@ import { HighlightsCarouselComponent } from "../../components/highlights-carouse
     MatGridListModule,
     CommonModule,
     MatProgressSpinnerModule,
-    HighlightsCarouselComponent
-],
+    HighlightsCarouselComponent,
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
@@ -30,13 +30,13 @@ export class HomeComponent implements OnInit {
   selectedPerson = signal<Person | undefined>(undefined);
   isLoading = signal<boolean>(false);
 
-  constructor(private personService: PersonService,
-    private router: Router
-  ) {}
+  constructor(private personService: PersonService, private router: Router) {}
 
   ngOnInit(): void {}
 
   onPersonSelected($event: Person) {
-    this.router.navigate(['polityk', $event.id])
+    this.router.navigate(['polityk', $event.link], {
+      state: { id: $event.id },
+    });
   }
 }

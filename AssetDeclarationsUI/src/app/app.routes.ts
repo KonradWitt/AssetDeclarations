@@ -8,5 +8,5 @@ export const routes: Routes = [
     { path: '', pathMatch:'full', component: HomeComponent },
     { path: 'rankings', component: RankingsComponent },
     { path: 'polityk', component: PersonComponent },
-    { path: 'polityk/:id', component: PersonComponent },
+    { path: 'polityk/:link', component: PersonComponent },
   ];

@@ -39,7 +39,9 @@
       </tr>
       <tr>
         <td class="left-cell">Wartość netto</td>
-        <td class="right-cell">{{ this.lastDeclaration()?.netValue }} PLN</td>
+        <td class="right-cell">
+          {{ this.lastDeclaration()?.netValue | numberSpace }} PLN
+        </td>
       </tr>
     </table>
   </content>

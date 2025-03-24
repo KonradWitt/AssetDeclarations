@@ -17,6 +17,7 @@ export type Person = {
 export const defaultPerson = {
     id: 0,
     name: '',
+    link: '',
     placeOfBirth: '',
     dateOfBirth: new Date(),
     netWorth: 0

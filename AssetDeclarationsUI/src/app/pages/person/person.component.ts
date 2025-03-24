@@ -13,7 +13,7 @@ import { PersonService } from '../../services/person.service';
 import { AssetDeclaration } from '../../model/assetDeclaration.type';
 import { NetWorthTrendCardComponent } from '../../components/net-worth-trend-card/net-worth-trend-card.component';
 import { RealEstateCardComponent } from '../../components/real-estate-card/real-estate-card.component';
-import { DeclarationsCardComponent } from "../../components/declarations-card/declarations-card.component";
+import { DeclarationsCardComponent } from '../../components/declarations-card/declarations-card.component';
 
 @Component({
   selector: 'app-person',
@@ -27,8 +27,8 @@ import { DeclarationsCardComponent } from "../../components/declarations-card/de
     CurrenciesCardComponent,
     NetWorthTrendCardComponent,
     RealEstateCardComponent,
-    DeclarationsCardComponent
-],
+    DeclarationsCardComponent,
+  ],
   templateUrl: './person.component.html',
   styleUrl: './person.component.scss',
 })
@@ -41,26 +41,25 @@ export class PersonComponent implements OnInit {
     private router: Router,
     private route: ActivatedRoute,
     private personService: PersonService
-  ) {}
-
-  ngOnInit(): void {
+  ) {
     this.selectedPerson.set(undefined);
-    var routedId = this.route.snapshot.paramMap.get('id');
-    if (routedId == null) {
-      return;
-    } else {
-      var id = parseInt(routedId!);
+    const navigationState = this.router?.getCurrentNavigation()?.extras?.state;
+    if (navigationState) {
+      const id = navigationState['id'];
       this.loadPerson(id);
     }
   }
 
+  ngOnInit(): void {}
+
   onPersonSelected($event: Person) {
-    this.router.navigate(['polityk', $event.id]);
+    this.router.navigate(['polityk', $event.link]);
     this.loadPerson($event.id);
   }
 
   private loadPerson(id: number) {
     this.isLoading.set(true);
+
     this.personService.getPerson(id).subscribe((person) => {
       this.isLoading.set(false);
       if (person == null) {

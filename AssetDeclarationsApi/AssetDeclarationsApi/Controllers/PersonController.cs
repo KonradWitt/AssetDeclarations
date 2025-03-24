@@ -32,7 +32,5 @@ namespace AssetDeclarationsApi.Controllers
         {
             return Ok(await _personDataService.GetIncludingDetails(id));
         }
-
-
     }
 }

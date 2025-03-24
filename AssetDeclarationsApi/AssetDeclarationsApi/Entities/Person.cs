@@ -18,7 +18,7 @@ namespace AssetDeclarationsApi.Entities
         [NotMapped]
         public string Link
         {
-            get => Name?.Trim().ReplacePolishLetters().Replace(' ', '-');
+            get => Name?.Trim().ToLower().ReplacePolishLetters().Replace(' ', '-');
         }
     }
 }

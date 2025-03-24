@@ -1,7 +1,4 @@
 <card title="Waluty" [showFooter]="true">
-  <header>
-    <h2>Waluty</h2>
-  </header>
   <content>
     @for (cashPosition of this.cashPositions; track cashPosition.id) {
     <p>{{ cashPosition.currencyValue }} {{ cashPosition.currency }}</p>
