@@ -1,8 +1,14 @@
 <card title="Waluty" [showFooter]="true">
   <content>
-    @for (cashPosition of this.cashPositions; track cashPosition.id) {
-    <p>{{ cashPosition.currencyValue }} {{ cashPosition.currency }}</p>
-    }
+    <table>
+      @for (cashPosition of this.cashPositions; track cashPosition.id) {
+      <tr>
+        <td>{{ cashPosition.currencyValue | numberSpace }}</td>
+        <td></td>
+        <td>{{ cashPosition.currency }}</td>
+      </tr>
+      }
+    </table>
   </content>
   <footer>
     <p>Łącznie {{ this.sum() | numberSpace }} PLN.</p>
