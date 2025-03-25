@@ -47,6 +47,15 @@ export class PersonComponent implements OnInit {
     if (navigationState) {
       const id = navigationState['id'];
       this.loadPerson(id);
+    } else {
+      var routedId = this.route.snapshot.paramMap.get('link');
+      if (routedId == null) {
+        return;
+      } else {
+        const perosn = this.personService
+          .getPersonByLink(routedId)
+          .subscribe((person) => this.loadPerson(person.id));
+      }
     }
   }
 

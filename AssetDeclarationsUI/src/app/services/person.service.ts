@@ -21,4 +21,31 @@ export class PersonService {
       `${environment.apiUrl}/${this.url}/GetById/${id}`
     );
   }
+
+  getPersonByLink(link: string): Observable<Person> {
+    return new Observable<Person>((observer) => {
+      this.getPersons().subscribe(
+        (persons) => {
+          const matchingPerson = persons.find((person) => person.link === link);
+
+          if (matchingPerson) {
+            this.getPerson(matchingPerson.id).subscribe(
+              (person) => {
+                observer.next(person);
+                observer.complete();
+              },
+              (error) => {
+                observer.error(error);
+              }
+            );
+          } else {
+            observer.error(new Error('Person not found'));
+          }
+        },
+        (error) => {
+          observer.error(error);
+        }
+      );
+    });
+  }
 }
