@@ -5,7 +5,7 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
 {
     public class DatabaseService<T> : IDatabaseService<T> where T : class
     {
-        private readonly DbContext _context;
+        private readonly DataContext _context;
         private readonly DbSet<T> _dbSet;
 
         public DatabaseService(DataContext context)
@@ -14,6 +14,7 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
             _dbSet = context.Set<T>();
         }
 
+        protected DataContext Context { get => _context; }
         protected DbSet<T> DbSet { get => _dbSet; }
 
         public async Task<IEnumerable<T>> GetAllAsync()

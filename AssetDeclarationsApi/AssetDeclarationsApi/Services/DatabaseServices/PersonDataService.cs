@@ -9,22 +9,28 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
     {
         public PersonDataService(DataContext context) : base(context) { }
 
-        public Task<Person?> GetIncludingDetails(int id)
+        public async Task<Person?> GetIncludingDetails(int id)
         {
-            return DbSet.Include(x => x.Party)
-            .Include(p => p.AssetDeclarations)
-                .ThenInclude(ad => ad.CashPositions)
-            .Include(p => p.AssetDeclarations)
-                .ThenInclude(ad => ad.SecurityPositions)
-            .Include(p => p.AssetDeclarations)
-                .ThenInclude(ad => ad.RealEstate)
-            .Include(p => p.AssetDeclarations)
-                .ThenInclude(ad => ad.Liabilities)
-            .Include(p => p.AssetDeclarations)
-                .ThenInclude(ad => ad.PersonalProperties)
-            .Include(p => p.AssetDeclarations)
-                .ThenInclude(ad => ad.Incomes)
-            .FirstOrDefaultAsync(p => p.Id == id);
+            var person = DbSet.FirstOrDefault(x => x.Id == id);
+            if (person is null)
+            {
+                return null;
+            }
+
+            person.AssetDeclarations = await Context.AssetDeclarations.Where(x => x.PersonId == person.Id).ToListAsync();
+            foreach (var ad in person.AssetDeclarations)
+            {
+                ad.CashPositions = await Context.CashPositions.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.SecurityPositions = await Context.SecurityPositions.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.RealEstate = await Context.RealEstate.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.Liabilities = await Context.Liabilities.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.PersonalProperties = await Context.PersonalProperties.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.Incomes = await Context.Incomes.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.Receivables = await Context.Receivables.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.BusinessActivities = await Context.BusinessActivities.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+            }
+
+            return person;
         }
     }
 }
