@@ -1,13 +1,16 @@
-.cards-container
-{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 450px));
-  gap: 20px;
-  justify-content: space-around;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.loading-container
-{
+.masonry-item {
+  width: 400px;
+  margin: 10px;
+}
+
+.loading-container {
   display: flex;
   justify-content: center;
   align-items: center;

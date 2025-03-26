@@ -5,17 +5,32 @@
     [selectedPerson]="this.selectedPerson()"
     (personSelectedEvent)="onPersonSelected($event)"
   />
-  <div class="cards-container" *ngIf="this.selectedPerson() !== undefined">
-    <app-personal-data-card [person]="this.selectedPerson()!" />
-    <app-declarations-card [declarations]="this.selectedPerson()?.assetDeclarations"></app-declarations-card>
+  @if(this.selectedPerson() && this.lastDeclaration()) {
+  <ngx-masonry [ordered]="true" [options]="{ fitWidth: true, resize: true }" (layoutComplete)="onLayoutComplete()">
+    <app-personal-data-card
+      ngxMasonryItem
+      class="masonry-item"
+      [person]="this.selectedPerson()!"
+    />
+    <app-declarations-card
+      ngxMasonryItem
+      class="masonry-item"
+      [declarations]="this.selectedPerson()?.assetDeclarations"
+    ></app-declarations-card>
     <app-currencies-card
-      *ngIf="this.lastDeclaration() !== undefined"
+      ngxMasonryItem
+      class="masonry-item"
       [cashPositions]="lastDeclaration()!.cashPositions"
     />
-    <app-real-estate-card *ngIf="this.lastDeclaration() !== undefined"
-    [realEstate]="lastDeclaration()!.realEstate!"/>
-  </div>
-  <div class="loading-container" *ngIf="this.isLoading()">
+    <app-real-estate-card
+      ngxMasonryItem
+      class="masonry-item"
+      [realEstate]="lastDeclaration()!.realEstate!"
+    />
+  </ngx-masonry>
+  } @else if (this.isLoading()) {
+  <div class="loading-container">
     <mat-spinner />
   </div>
+  }
 </main>

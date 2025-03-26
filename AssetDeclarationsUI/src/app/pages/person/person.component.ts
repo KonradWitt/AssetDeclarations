@@ -1,6 +1,14 @@
 import { E } from '@angular/cdk/keycodes';
 import { CommonModule } from '@angular/common';
-import { Component, OnInit, signal } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  computed,
+  OnInit,
+  Signal,
+  signal,
+  ViewChild,
+} from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
@@ -11,9 +19,9 @@ import { PersonalDataCardComponent } from '../../components/personal-data-card/p
 import { Person } from '../../model/person.type';
 import { PersonService } from '../../services/person.service';
 import { AssetDeclaration } from '../../model/assetDeclaration.type';
-import { NetWorthTrendCardComponent } from '../../components/net-worth-trend-card/net-worth-trend-card.component';
 import { RealEstateCardComponent } from '../../components/real-estate-card/real-estate-card.component';
 import { DeclarationsCardComponent } from '../../components/declarations-card/declarations-card.component';
+import { NgxMasonryComponent, NgxMasonryModule } from 'ngx-masonry';
 
 @Component({
   selector: 'app-person',
@@ -21,21 +29,30 @@ import { DeclarationsCardComponent } from '../../components/declarations-card/de
     PersonAutocompleteComponent,
     MatCardModule,
     MatGridListModule,
-    PersonalDataCardComponent,
     CommonModule,
+    NgxMasonryModule,
+    PersonalDataCardComponent,
     MatProgressSpinnerModule,
     CurrenciesCardComponent,
-    NetWorthTrendCardComponent,
     RealEstateCardComponent,
     DeclarationsCardComponent,
   ],
   templateUrl: './person.component.html',
   styleUrl: './person.component.scss',
 })
-export class PersonComponent implements OnInit {
-  selectedPerson = signal<Person | undefined>(undefined);
+export class PersonComponent {
+  onLayoutComplete() {
+    this.refreshMasonry();
+  }
   isLoading = signal<boolean>(false);
-  lastDeclaration = signal<AssetDeclaration | undefined>(undefined);
+  selectedPerson = signal<Person | undefined>(undefined);
+  lastDeclaration: Signal<AssetDeclaration | undefined> = computed(() => {
+    return this.selectedPerson()?.assetDeclarations?.sort((x) =>
+      x.date.getTime()
+    )[this.selectedPerson()!.assetDeclarations!.length - 1];
+  });
+
+  @ViewChild(NgxMasonryComponent) masonry!: NgxMasonryComponent;
 
   constructor(
     private router: Router,
@@ -52,18 +69,22 @@ export class PersonComponent implements OnInit {
       if (routedId == null) {
         return;
       } else {
-        const perosn = this.personService
+        this.isLoading.set(true);
+        this.personService
           .getPersonByLink(routedId)
           .subscribe((person) => this.loadPerson(person.id));
       }
     }
   }
 
-  ngOnInit(): void {}
-
   onPersonSelected($event: Person) {
     this.router.navigate(['polityk', $event.link]);
     this.loadPerson($event.id);
+  }
+
+  private refreshMasonry(): void {
+    this.masonry.reloadItems();
+    this.masonry.layout();
   }
 
   private loadPerson(id: number) {
@@ -75,17 +96,7 @@ export class PersonComponent implements OnInit {
         this.router.navigate(['polityk']);
       } else {
         this.selectedPerson.set(person);
-        this.refreshLastDeclararion();
       }
     });
-  }
-
-  private refreshLastDeclararion() {
-    this.lastDeclaration.set(undefined);
-    this.lastDeclaration.set(
-      this.selectedPerson()!.assetDeclarations?.sort((x) => x.date.getTime())[
-        this.selectedPerson()!.assetDeclarations!.length - 1
-      ]
-    );
   }
 }
