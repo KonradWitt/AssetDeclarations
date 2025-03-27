@@ -1,22 +1,15 @@
-<card title="Nieruchomości" [showFooter]="true">
+<card title="Mienie ruchome" [showFooter]="true">
   <content>
-    <table mat-table [dataSource]="realEstate">
+    <table mat-table [dataSource]="personalProperties">
       <ng-container matColumnDef="description">
         <th mat-header-cell *matHeaderCellDef>Opis</th>
         <td mat-cell *matCellDef="let element">{{ element.description }}</td>
       </ng-container>
 
-      <ng-container matColumnDef="legalTitle">
-        <th mat-header-cell *matHeaderCellDef>Tytuł prawny</th>
-        <td mat-cell *matCellDef="let element" class="wrap">
-          {{ element.legalTitle }}
-        </td>
-      </ng-container>
-
       <ng-container matColumnDef="value">
         <th mat-header-cell *matHeaderCellDef>Wartość</th>
         <td mat-cell *matCellDef="let element" class="no-wrap">
-          {{ element.value | numberSpace }} zł
+          {{ element.value | numberSpace}} zł
         </td>
       </ng-container>
 
@@ -26,8 +19,8 @@
   </content>
   <footer>
     <p>
-      {{ numberOfProperties() }} nieruchomości na łączną wartość
-      <b>{{ sumValue() | numberSpace }} zł </b>.
+      Łączna wartość mienia ruchomoego:
+      <b>{{ sumValue() | numberSpace }} zł</b>.
     </p>
   </footer>
 </card>

@@ -6,7 +6,11 @@
     (personSelectedEvent)="onPersonSelected($event)"
   />
   @if(this.selectedPerson() && this.lastDeclaration()) {
-  <ngx-masonry [ordered]="true" [options]="{ fitWidth: true, resize: true }" (layoutComplete)="onLayoutComplete()">
+  <ngx-masonry
+    [ordered]="true"
+    [options]="{ fitWidth: true, resize: true }"
+    (layoutComplete)="onLayoutComplete()"
+  >
     <app-personal-data-card
       ngxMasonryItem
       class="masonry-item"
@@ -15,7 +19,7 @@
     <app-declarations-card
       ngxMasonryItem
       class="masonry-item"
-      [declarations]="this.selectedPerson()?.assetDeclarations"
+      [declarations]="this.selectedPerson()!.assetDeclarations"
     ></app-declarations-card>
     <app-currencies-card
       ngxMasonryItem
@@ -25,7 +29,12 @@
     <app-real-estate-card
       ngxMasonryItem
       class="masonry-item"
-      [realEstate]="lastDeclaration()!.realEstate!"
+      [realEstate]="lastDeclaration()!.realEstate"
+    />
+    <app-personal-properties-card
+      ngxMasonryItem
+      class="masonry-item"
+      [personalProperties]="lastDeclaration()!.personalProperties"
     />
   </ngx-masonry>
   } @else if (this.isLoading()) {
