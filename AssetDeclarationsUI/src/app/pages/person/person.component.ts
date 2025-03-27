@@ -24,6 +24,7 @@ import { DeclarationsCardComponent } from '../../components/declarations-card/de
 import { NgxMasonryComponent, NgxMasonryModule } from 'ngx-masonry';
 import { PersonalPropertiesCardComponent } from "../../components/personal-properties-card/personal-properties-card.component";
 
+
 @Component({
   selector: 'app-person',
   imports: [

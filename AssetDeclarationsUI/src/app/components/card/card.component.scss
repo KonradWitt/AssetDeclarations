@@ -4,16 +4,22 @@
   box-shadow: var(--mat-sys-level3);
 }
 
+.container:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--mat-sys-level5);
+}
+
 .header-container {
   border-radius: 20px 20px 0px 0px;
   padding: 10px 10px 0px 10px;
+  text-align: center;
 }
 
 .content-container {
   padding: 10px;
 }
-
 .footer-container {
+  text-align: center;
   background-color: var(--mat-sys-outline-variant);
   border-radius: 0px 0px 20px 20px;
   padding: 1px 10px;
