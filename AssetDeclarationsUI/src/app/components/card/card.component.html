@@ -1,6 +1,11 @@
 <div class="container">
   <div class="header-container">
-    <h2>{{ this.title }}</h2>
+    <h2>
+      @if(iconName) {
+      <mat-icon [fontIcon]="iconName!"></mat-icon>
+      }
+      {{ this.title }}
+    </h2>
     <mat-divider />
   </div>
   <div class="content-container">
