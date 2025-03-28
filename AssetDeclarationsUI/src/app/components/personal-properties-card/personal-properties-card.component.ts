@@ -16,6 +16,8 @@ export class PersonalPropertiesCardComponent implements OnInit {
   @Input() personalProperties: PersonalProperty[] = [];
 
   ngOnInit(): void {
+    this.personalProperties.sort((a, b) => b.value - a.value);
+
     this.sumValue.set(
       this.personalProperties?.map((x) => x.value).reduce((a, b) => a + b)
     );

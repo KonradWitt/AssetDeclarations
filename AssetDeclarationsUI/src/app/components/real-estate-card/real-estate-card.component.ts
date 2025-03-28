@@ -8,7 +8,13 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 
 @Component({
   selector: 'app-real-estate-card',
-  imports: [MatTableModule, MatCardModule, MatDividerModule, CardComponent, NumberSpacePipe],
+  imports: [
+    MatTableModule,
+    MatCardModule,
+    MatDividerModule,
+    CardComponent,
+    NumberSpacePipe,
+  ],
   templateUrl: './real-estate-card.component.html',
   styleUrl: './real-estate-card.component.scss',
 })
@@ -19,7 +25,10 @@ export class RealEstateCardComponent implements OnInit {
   numberOfProperties = signal<number>(0);
 
   ngOnInit(): void {
+    this.realEstate.sort((a, b) => b.value - a.value);
+
     this.numberOfProperties.set(this.realEstate.length);
+
     this.sumValue.set(
       this.realEstate
         .map((property) => property.value)
