@@ -3,7 +3,7 @@ iconName="description">
   <content>
     <ul>
       <li *ngFor="let declaration of declarations">
-        <a href="https://www.google.com" target="_blank">
+        <a [href]="declaration.documentUrl" target="_blank">
           {{ declaration.date | date : "dd.MM.yyyy" }}
         </a>
       </li>

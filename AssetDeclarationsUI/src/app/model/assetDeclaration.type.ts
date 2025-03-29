@@ -6,6 +6,7 @@ export type AssetDeclaration = {
   id: number;
   netValue: number;
   date: Date;
+  documentUrl: string;
 
   cashPositions: CashPosition[];
   realEstate: RealEstate[];

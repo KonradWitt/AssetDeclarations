@@ -1,11 +1,7 @@
-<card title="Informacje ogólne"
-iconName="info">
+<card title="Informacje ogólne" iconName="info">
   <content>
     <div class="img-container">
-      <img
-        class="profile-picture"
-        src="https://www.gov.pl/photo/format/3ee40966-20e8-4c53-885a-cd73ab619d87/resolution/729x308"
-      />
+      <img class="profile-picture" [src]="this.person.imageUrl" />
     </div>
     <table>
       <tr>

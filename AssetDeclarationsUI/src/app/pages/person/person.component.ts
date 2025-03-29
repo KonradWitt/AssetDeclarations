@@ -22,8 +22,7 @@ import { AssetDeclaration } from '../../model/assetDeclaration.type';
 import { RealEstateCardComponent } from '../../components/real-estate-card/real-estate-card.component';
 import { DeclarationsCardComponent } from '../../components/declarations-card/declarations-card.component';
 import { NgxMasonryComponent, NgxMasonryModule } from 'ngx-masonry';
-import { PersonalPropertiesCardComponent } from "../../components/personal-properties-card/personal-properties-card.component";
-
+import { PersonalPropertiesCardComponent } from '../../components/personal-properties-card/personal-properties-card.component';
 
 @Component({
   selector: 'app-person',
@@ -38,15 +37,13 @@ import { PersonalPropertiesCardComponent } from "../../components/personal-prope
     CurrenciesCardComponent,
     RealEstateCardComponent,
     DeclarationsCardComponent,
-    PersonalPropertiesCardComponent
-],
+    PersonalPropertiesCardComponent,
+  ],
   templateUrl: './person.component.html',
   styleUrl: './person.component.scss',
 })
 export class PersonComponent {
-  onLayoutComplete() {
-    this.refreshMasonry();
-  }
+  private masonryLayoutFinalized: boolean = false;
   isLoading = signal<boolean>(false);
   selectedPerson = signal<Person | undefined>(undefined);
   lastDeclaration: Signal<AssetDeclaration | undefined> = computed(() => {
@@ -80,14 +77,16 @@ export class PersonComponent {
     }
   }
 
+  onLayoutComplete() {
+    if (!this.masonryLayoutFinalized) {
+      this.masonry.layout();
+      this.masonryLayoutFinalized = true;
+    }
+  }
+
   onPersonSelected($event: Person) {
     this.router.navigate(['polityk', $event.link]);
     this.loadPerson($event.id);
-  }
-
-  private refreshMasonry(): void {
-    this.masonry.reloadItems();
-    this.masonry.layout();
   }
 
   private loadPerson(id: number) {
