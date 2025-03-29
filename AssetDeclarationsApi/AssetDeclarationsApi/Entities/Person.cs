@@ -10,7 +10,7 @@ namespace AssetDeclarationsApi.Entities
         public DateTime DateOfBirth { get; set; }
         public string PlaceOfBirth { get; set; }
 
-        public byte[]? Image { get; set; }
+        public string ImageUrl { get; set; }
 
         public int? PartyId { get; set; }
         public Party? Party { get; set; }
