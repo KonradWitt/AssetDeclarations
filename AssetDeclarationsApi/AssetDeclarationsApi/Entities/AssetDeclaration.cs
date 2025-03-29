@@ -8,6 +8,8 @@ namespace AssetDeclarationsApi.Entities
         public DateTime Date { get; set; }
         public int PersonId { get; set; }
 
+        public string DocumentUrl { get; set; }
+
         public ICollection<CashPosition> CashPositions { get; set; }
         public ICollection<SecurityPosition> SecurityPositions { get; set; }
         public ICollection<RealEstate> RealEstate { get; set; }
@@ -16,7 +18,6 @@ namespace AssetDeclarationsApi.Entities
         public ICollection<Income> Incomes { get; set; }
         public ICollection<Receivable> Receivables { get; set; }
         public ICollection<BusinessActivity> BusinessActivities { get; set; }
-        public Document Document { get; set; }
 
         [NotMapped]
         public double NetValue
