@@ -85,19 +85,21 @@ export class PersonComponent {
   }
 
   onPersonSelected($event: Person) {
-    this.router.navigate(['polityk', $event.link]);
-    this.loadPerson($event.id);
+    this.router
+      .navigate(['polityk', $event.link])
+      .then(() => this.loadPerson($event.id));
   }
 
   private loadPerson(id: number) {
+    this.masonryLayoutFinalized = false;
     this.isLoading.set(true);
-
     this.personService.getPerson(id).subscribe((person) => {
       this.isLoading.set(false);
       if (person == null) {
         this.router.navigate(['polityk']);
       } else {
         this.selectedPerson.set(person);
+        this.masonry.layout();
       }
     });
   }

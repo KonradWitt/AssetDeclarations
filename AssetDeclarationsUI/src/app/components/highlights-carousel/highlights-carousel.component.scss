@@ -11,10 +11,11 @@
 
 img {
   border-radius: 20px;
+  object-fit: "cover";
   height: 256px;
 }
 
 p {
-    color: var(--mat-sys-outline);
-    font-weight: bold;
+  color: var(--mat-sys-outline);
+  font-weight: bold;
 }

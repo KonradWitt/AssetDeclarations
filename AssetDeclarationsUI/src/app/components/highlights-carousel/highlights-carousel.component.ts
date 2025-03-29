@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 import { Carousel } from 'primeng/carousel';
-import { defaultPerson, Person } from '../../model/person.type';
-import { CardComponent } from "../card/card.component";
 
 interface highlightPerson {
   name: string;
@@ -10,7 +8,7 @@ interface highlightPerson {
 
 @Component({
   selector: 'highlights-carousel',
-  imports: [Carousel, CardComponent],
+  imports: [Carousel],
   templateUrl: './highlights-carousel.component.html',
   styleUrl: './highlights-carousel.component.scss',
 })
@@ -42,6 +40,5 @@ export class HighlightsCarouselComponent {
     },
   ];
 
-  constructor() {
-  }
+  constructor() {}
 }
