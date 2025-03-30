@@ -23,6 +23,7 @@ import { RealEstateCardComponent } from '../../components/real-estate-card/real-
 import { DeclarationsCardComponent } from '../../components/declarations-card/declarations-card.component';
 import { NgxMasonryComponent, NgxMasonryModule } from 'ngx-masonry';
 import { PersonalPropertiesCardComponent } from '../../components/personal-properties-card/personal-properties-card.component';
+import { IncomeCardComponent } from '../../components/income-card/income-card.component';
 
 @Component({
   selector: 'app-person',
@@ -38,6 +39,7 @@ import { PersonalPropertiesCardComponent } from '../../components/personal-prope
     RealEstateCardComponent,
     DeclarationsCardComponent,
     PersonalPropertiesCardComponent,
+    IncomeCardComponent,
   ],
   templateUrl: './person.component.html',
   styleUrl: './person.component.scss',

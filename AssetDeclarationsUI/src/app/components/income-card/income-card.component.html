@@ -1,0 +1,27 @@
+<card title="Dochody" iconName="payments" [showFooter]="true">
+  <content>
+    @if(sortedIncomes()) {
+    <table mat-table [dataSource]="sortedIncomes()!">
+      <ng-container matColumnDef="description">
+        <th mat-header-cell *matHeaderCellDef>Opis</th>
+        <td mat-cell *matCellDef="let element">{{ element.description }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="yearlyValue">
+        <th mat-header-cell *matHeaderCellDef>Kwota</th>
+        <td mat-cell *matCellDef="let element" class="no-wrap">
+          {{ element.yearlyValue | numberSpace }} zł
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+    }
+  </content>
+  <footer>
+    <p>
+      Łączny dochód: <b>{{ this.sum() | numberSpace}} zł</b>.
+    </p>
+  </footer>
+</card>

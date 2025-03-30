@@ -20,7 +20,12 @@
       ngxMasonryItem
       class="masonry-item"
       [declarations]="this.selectedPerson()!.assetDeclarations"
-    ></app-declarations-card>
+    />
+    <app-income-card
+      ngxMasonryItem
+      class="masonry-item"
+      [incomes]="lastDeclaration()!.incomes"
+    />
     <app-currencies-card
       ngxMasonryItem
       class="masonry-item"

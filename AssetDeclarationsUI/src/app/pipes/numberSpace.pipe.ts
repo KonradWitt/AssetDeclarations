@@ -5,12 +5,14 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class NumberSpacePipe implements PipeTransform {
   transform(value: number): string {
+    value = Math.round(value * 100) / 100;
+
     var result: string = '';
 
     const strVal = value.toString();
     const split = strVal.split('.');
 
-    if (split[0].length <= 4) return strVal;
+    if (split.length > 1) if (split[0].length <= 4) return strVal;
 
     let processedDigits: number = 0;
     while (processedDigits < split[0].length) {
