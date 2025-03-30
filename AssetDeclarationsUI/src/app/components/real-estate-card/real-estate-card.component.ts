@@ -1,4 +1,12 @@
-import { Component, Input, OnInit, signal } from '@angular/core';
+import {
+  Component,
+  computed,
+  effect,
+  input,
+  Input,
+  OnInit,
+  signal,
+} from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import { MatDividerModule } from '@angular/material/divider';
@@ -18,23 +26,27 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
   templateUrl: './real-estate-card.component.html',
   styleUrl: './real-estate-card.component.scss',
 })
-export class RealEstateCardComponent implements OnInit {
+export class RealEstateCardComponent {
   displayedColumns: string[] = ['description', 'legalTitle', 'value'];
-  @Input() realEstate: RealEstate[] = [];
-  sumValue = signal<number>(0);
-  numberOfProperties = signal<number>(0);
+  realEstate = input<RealEstate[] | undefined>(undefined);
+  sortedRealEstate = computed(() => {
+    if (!this.realEstate() || this.realEstate()?.length === 0) return undefined;
+    else return this.realEstate()!.sort((a, b) => b.value - a.value);
+  });
 
-  ngOnInit(): void {
-    this.realEstate.sort((a, b) => b.value - a.value);
-
-    this.numberOfProperties.set(this.realEstate.length);
-
-    this.sumValue.set(
-      this.realEstate
+  sumValue = computed(() => {
+    if (!this.realEstate() || this.realEstate()?.length === 0) {
+      return 0;
+    } else {
+      return this.realEstate()!
         .map((property) => property.value)
         .reduce((a, b) => {
           return a + b;
-        })
-    );
-  }
+        });
+    }
+  });
+  numberOfProperties = computed(() => {
+    if (!this.realEstate()) return 0;
+    else return this.realEstate()!.length;
+  });
 }

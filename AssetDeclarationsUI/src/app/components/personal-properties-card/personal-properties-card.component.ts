@@ -1,8 +1,17 @@
-import { Component, Input, input, OnInit, signal } from '@angular/core';
+import {
+  Component,
+  computed,
+  Input,
+  input,
+  OnInit,
+  signal,
+} from '@angular/core';
 import { CardComponent } from '../card/card.component';
 import { PersonalProperty } from '../../model/personalProperty.type';
 import { MatTableModule } from '@angular/material/table';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
+import { E } from '@angular/cdk/keycodes';
+import { _ErrorStateTracker } from '@angular/material/core';
 
 @Component({
   selector: 'app-personal-properties-card',
@@ -10,16 +19,22 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
   templateUrl: './personal-properties-card.component.html',
   styleUrl: './personal-properties-card.component.scss',
 })
-export class PersonalPropertiesCardComponent implements OnInit {
+export class PersonalPropertiesCardComponent {
   displayedColumns: string[] = ['description', 'value'];
-  sumValue = signal<number>(0);
-  @Input() personalProperties: PersonalProperty[] = [];
+  personalProperties = input<PersonalProperty[] | undefined>(undefined);
 
-  ngOnInit(): void {
-    this.personalProperties.sort((a, b) => b.value - a.value);
+  sumValue = computed(() => {
+    if (!this.personalProperties() || this.personalProperties()?.length === 0)
+      return 0;
+    else
+      return this.personalProperties()!
+        .map((x) => x.value)
+        .reduce((a, b) => a + b);
+  });
 
-    this.sumValue.set(
-      this.personalProperties?.map((x) => x.value).reduce((a, b) => a + b)
-    );
-  }
+  sortedPersonalProperties = computed(() => {
+    if (!this.personalProperties() || this.personalProperties()?.length === 0)
+      return undefined;
+    else return this.personalProperties()!.sort((a, b) => b.value - a.value);
+  });
 }

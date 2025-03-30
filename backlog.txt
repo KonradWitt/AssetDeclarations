@@ -1,0 +1,4 @@
+1. experiment with masonry hidden attribute
+2. add income card
+3. add liabilities card
+4. implement currency exchange with backend queries

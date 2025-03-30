@@ -46,7 +46,7 @@ export class PersonComponent {
   private masonryLayoutFinalized: boolean = false;
   isLoading = signal<boolean>(false);
   selectedPerson = signal<Person | undefined>(undefined);
-  lastDeclaration: Signal<AssetDeclaration | undefined> = computed(() => {
+  lastDeclaration = computed(() => {
     return this.selectedPerson()?.assetDeclarations?.sort((x) =>
       x.date.getTime()
     )[this.selectedPerson()!.assetDeclarations!.length - 1];
@@ -91,6 +91,7 @@ export class PersonComponent {
   }
 
   private loadPerson(id: number) {
+    this.selectedPerson.set(undefined);
     this.masonryLayoutFinalized = false;
     this.isLoading.set(true);
     this.personService.getPerson(id).subscribe((person) => {
@@ -99,7 +100,7 @@ export class PersonComponent {
         this.router.navigate(['polityk']);
       } else {
         this.selectedPerson.set(person);
-        this.masonry.layout();
+        this.masonry?.layout();
       }
     });
   }

@@ -36,9 +36,13 @@
       </tr>
       <tr>
         <td class="left-cell">Wartość netto</td>
+        @if (!this.lastDeclaration()) {
+        <td class="right-cell">0 PLN</td>
+        } @else {
         <td class="right-cell">
-          {{ this.lastDeclaration()?.netValue | numberSpace }} PLN
+          {{ this.lastDeclaration()!.netValue | numberSpace }} PLN
         </td>
+        }
       </tr>
     </table>
   </content>
