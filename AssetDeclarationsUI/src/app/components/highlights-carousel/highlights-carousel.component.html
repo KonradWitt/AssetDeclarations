@@ -2,13 +2,13 @@
   [value]="persons"
   [numVisible]="4"
   [numScroll]="2"
-  [autoplayInterval]="3000"
+  [autoplayInterval]="2500"
 >
   <ng-template let-person #item>
     <a class="person-container" href="https://www.google.com">
       <h3>{{ person.name }}</h3>
       <img [src]="person.img" />
-      <p>Wartość netto: xxx</p>
+      <h4>Wartość netto: XXX</h4>
     </a>
   </ng-template>
 </p-carousel>

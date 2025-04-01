@@ -7,6 +7,10 @@
   position: absolute;
 }
 
+.mat-toolbar > a {
+  color: var(--color-header);
+}
+
 .center-tabs {
   position: absolute;
   left: 50%;
