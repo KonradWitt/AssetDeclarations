@@ -1,2 +1,3 @@
 - add liabilities card
 - implement currency exchange with backend queries
+- finalize carousele routing with highlights coming from backend

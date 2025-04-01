@@ -1,11 +1,7 @@
-import { E } from '@angular/cdk/keycodes';
 import { CommonModule } from '@angular/common';
 import {
-  AfterViewInit,
   Component,
   computed,
-  OnInit,
-  Signal,
   signal,
   ViewChild,
 } from '@angular/core';
@@ -18,10 +14,8 @@ import { PersonAutocompleteComponent } from '../../components/person-autocomplet
 import { PersonalDataCardComponent } from '../../components/personal-data-card/personal-data-card.component';
 import { Person } from '../../model/person.type';
 import { PersonService } from '../../services/person.service';
-import { AssetDeclaration } from '../../model/assetDeclaration.type';
 import { RealEstateCardComponent } from '../../components/real-estate-card/real-estate-card.component';
 import { DeclarationsCardComponent } from '../../components/declarations-card/declarations-card.component';
-import { NgxMasonryComponent, NgxMasonryModule } from 'ngx-masonry';
 import { PersonalPropertiesCardComponent } from '../../components/personal-properties-card/personal-properties-card.component';
 import { IncomeCardComponent } from '../../components/income-card/income-card.component';
 
@@ -32,7 +26,6 @@ import { IncomeCardComponent } from '../../components/income-card/income-card.co
     MatCardModule,
     MatGridListModule,
     CommonModule,
-    NgxMasonryModule,
     PersonalDataCardComponent,
     MatProgressSpinnerModule,
     CurrenciesCardComponent,
@@ -45,7 +38,6 @@ import { IncomeCardComponent } from '../../components/income-card/income-card.co
   styleUrl: './person.component.scss',
 })
 export class PersonComponent {
-  private masonryLayoutFinalized: boolean = false;
   isLoading = signal<boolean>(false);
   selectedPerson = signal<Person | undefined>(undefined);
   lastDeclaration = computed(() => {
@@ -53,8 +45,6 @@ export class PersonComponent {
       x.date.getTime()
     )[this.selectedPerson()!.assetDeclarations!.length - 1];
   });
-
-  @ViewChild(NgxMasonryComponent) masonry!: NgxMasonryComponent;
 
   constructor(
     private router: Router,
@@ -79,13 +69,6 @@ export class PersonComponent {
     }
   }
 
-  onLayoutComplete() {
-    if (!this.masonryLayoutFinalized) {
-      this.masonry.layout();
-      this.masonryLayoutFinalized = true;
-    }
-  }
-
   onPersonSelected($event: Person) {
     this.router
       .navigate(['polityk', $event.link])
@@ -94,7 +77,6 @@ export class PersonComponent {
 
   private loadPerson(id: number) {
     this.selectedPerson.set(undefined);
-    this.masonryLayoutFinalized = false;
     this.isLoading.set(true);
     this.personService.getPerson(id).subscribe((person) => {
       this.isLoading.set(false);
@@ -102,7 +84,6 @@ export class PersonComponent {
         this.router.navigate(['polityk']);
       } else {
         this.selectedPerson.set(person);
-        this.masonry?.layout();
       }
     });
   }
