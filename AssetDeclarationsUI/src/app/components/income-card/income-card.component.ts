@@ -16,7 +16,6 @@ export class IncomeCardComponent {
   incomes = input<Income[] | undefined>(undefined);
 
   sortedIncomes = computed(() => {
-    console.log(this.incomes());
     if (!this.incomes() || this.incomes()?.length === 0) return undefined;
     else {
       return this.incomes()!.sort((a, b) => b.yearlyValue - a.yearlyValue);
@@ -26,12 +25,10 @@ export class IncomeCardComponent {
   sum = computed(() => {
     if (!this.incomes() || this.incomes()?.length === 0) return 0;
     else {
-      const a = this.incomes()!
+      const sum = this.incomes()!
         .map((x) => x.yearlyValue)
         .reduce((a, b) => a + b);
-
-        console.log(a);
-        return a;
+      return sum;
     }
   });
 }
