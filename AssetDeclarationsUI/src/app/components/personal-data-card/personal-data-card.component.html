@@ -1,31 +1,31 @@
 <card title="Informacje ogólne" iconName="info">
   <content>
     <div class="img-container">
-      <img class="profile-picture" [src]="this.person.imageUrl" />
+      <img class="profile-picture" [src]="this.person()?.imageUrl" />
     </div>
     <table>
       <tr>
         <td class="left-cell">Imię i nazwisko</td>
         <td class="right-cell">
-          {{ this.person.name }}
+          {{ this.person()?.name }}
         </td>
       </tr>
       <tr>
         <td class="left-cell">Partia polityczna</td>
         <td class="right-cell">
-          {{ this.person.party?.name }}
+          {{ this.person()?.party?.name }}
         </td>
       </tr>
       <tr>
         <td class="left-cell">Data urodzenia</td>
         <td class="right-cell">
-          {{ this.person.dateOfBirth | date : "dd.MM.yyyy" }}
+          {{ this.person()?.dateOfBirth | date : "dd.MM.yyyy" }}
         </td>
       </tr>
       <tr>
         <td class="left-cell">Miejsce urodzenia</td>
         <td class="right-cell">
-          {{ this.person.placeOfBirth }}
+          {{ this.person()?.placeOfBirth }}
         </td>
       </tr>
       <tr>

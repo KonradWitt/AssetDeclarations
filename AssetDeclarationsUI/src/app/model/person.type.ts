@@ -14,13 +14,3 @@ export type Person = {
 
   assetDeclarations?: AssetDeclaration[];
 };
-
-export const defaultPerson = {
-  id: 0,
-  name: '',
-  link: '',
-  placeOfBirth: '',
-  imageUrl: '',
-  dateOfBirth: new Date(),
-  netWorth: 0,
-};

@@ -6,7 +6,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { PersonAutocompleteComponent } from '../../components/person-autocomplete/person-autocomplete.component';
 import { MatDialog } from '@angular/material/dialog';
-import { AddPersonDialogComponent } from '../../dialogs/add-person-dialog/add-person-dialog.component';
 
 @Component({
   selector: 'app-edit',
@@ -54,16 +53,5 @@ export class EditComponent implements OnInit {
     // }
   }
 
-  openDialog(): void {
-    const dialogRef = this.dialogService.open(AddPersonDialogComponent, {
-      restoreFocus: false,
-    });
-
-    // dialogRef.afterClosed().subscribe((person) => {
-    //   if (person !== undefined) {
-    //     this.personService.addPerson(person);
-    //     this.loadPersons();
-    //   }
-    // });
-  }
+  openDialog(): void {}
 }
