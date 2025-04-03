@@ -19,13 +19,14 @@
     </div>
     <div class="column">
       <div>
-        <app-income-card [incomes]="lastDeclaration()!.incomes" />
-      </div>
-      <div>
         <app-currencies-card
           [cashPositions]="lastDeclaration()!.cashPositions"
         />
       </div>
+      <div>
+        <app-income-card [incomes]="lastDeclaration()!.incomes" />
+      </div>
+
     </div>
     <div class="column">
       <div>
