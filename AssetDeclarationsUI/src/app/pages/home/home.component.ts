@@ -1,17 +1,23 @@
 import { Component, OnInit, signal } from '@angular/core';
-import { PersonService } from '../../services/person.service';
 import { PersonAutocompleteComponent } from '../../components/person-autocomplete/person-autocomplete.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { PersonalDataCardComponent } from '../../components/personal-data-card/personal-data-card.component';
 import { Person } from '../../model/person.type';
 import { CommonModule } from '@angular/common';
-import { delay } from 'rxjs';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { CurrenciesCardComponent } from '../../components/currencies-card/currencies-card.component';
 import { Router } from '@angular/router';
-import { NetWorthTrendCardComponent } from '../../components/net-worth-trend-card/net-worth-trend-card.component';
 import { HighlightsCarouselComponent } from '../../components/highlights-carousel/highlights-carousel.component';
+import {
+  MAT_DIALOG_DATA,
+  MatDialog,
+  MatDialogActions,
+  MatDialogClose,
+  MatDialogContent,
+  MatDialogRef,
+  MatDialogTitle,
+} from '@angular/material/dialog';
+import { MessageDialogComponent } from '../../dialogs/message-dialog/message-dialog.component';
+import { AiContentWarningDialogComponent } from '../../dialogs/ai-content-warning-dialog/ai-content-warning-dialog.component';
 
 @Component({
   selector: 'app-home',
@@ -30,9 +36,11 @@ export class HomeComponent implements OnInit {
   selectedPerson = signal<Person | undefined>(undefined);
   isLoading = signal<boolean>(false);
 
-  constructor(private personService: PersonService, private router: Router) {}
+  constructor(private dialogService: MatDialog, private router: Router) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.dialogService.open(AiContentWarningDialogComponent);
+  }
 
   onPersonSelected($event: Person) {
     this.router.navigate(['polityk', $event.link], {
