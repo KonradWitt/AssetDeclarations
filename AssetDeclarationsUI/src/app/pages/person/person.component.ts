@@ -64,10 +64,12 @@ export class PersonComponent {
     }
   }
 
-  onPersonSelected($event: Person) {
+  onPersonSelected(person: Person | undefined) {
+    if (!person) return;
+
     this.router
-      .navigate(['polityk', $event.link])
-      .then(() => this.loadPerson($event.id));
+      .navigate(['polityk', person.link])
+      .then(() => this.loadPerson(person.id));
   }
 
   private loadPerson(id: number) {

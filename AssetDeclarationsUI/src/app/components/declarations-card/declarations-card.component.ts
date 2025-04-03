@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, input, Input } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 import { AssetDeclaration } from '../../model/assetDeclaration.type';
 import { DatePipe, NgFor } from '@angular/common';
@@ -10,5 +10,5 @@ import { DatePipe, NgFor } from '@angular/common';
   styleUrl: './declarations-card.component.scss',
 })
 export class DeclarationsCardComponent {
-  @Input() declarations: AssetDeclaration[] | undefined;
+  declarations = input<AssetDeclaration[]>();
 }

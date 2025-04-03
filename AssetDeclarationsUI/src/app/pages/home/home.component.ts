@@ -28,9 +28,11 @@ export class HomeComponent {
 
   constructor(private dialogService: MatDialog, private router: Router) {}
 
-  onPersonSelected($event: Person) {
-    this.router.navigate(['polityk', $event.link], {
-      state: { id: $event.id },
+  onPersonSelected(person: Person | undefined) {
+    if (!person) return;
+
+    this.router.navigate(['polityk', person.link], {
+      state: { id: person.id },
     });
   }
 }

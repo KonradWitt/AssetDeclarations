@@ -28,7 +28,9 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 })
 export class RealEstateCardComponent {
   displayedColumns: string[] = ['description', 'legalTitle', 'value'];
-  realEstate = input<RealEstate[] | undefined>(undefined);
+
+  realEstate = input<RealEstate[]>();
+
   sortedRealEstate = computed(() => {
     if (!this.realEstate() || this.realEstate()?.length === 0) return undefined;
     else return this.realEstate()!.sort((a, b) => b.value - a.value);
@@ -45,6 +47,7 @@ export class RealEstateCardComponent {
         });
     }
   });
+
   numberOfProperties = computed(() => {
     if (!this.realEstate()) return 0;
     else return this.realEstate()!.length;

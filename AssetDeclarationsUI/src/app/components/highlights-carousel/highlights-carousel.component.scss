@@ -9,6 +9,11 @@
   padding: 24px;
 }
 
+.person-container:hover {
+  box-shadow: var(--mat-sys-level5);
+  transform: translateY(-5px);
+}
+
 img {
   border-radius: 20px;
   object-fit: "cover";

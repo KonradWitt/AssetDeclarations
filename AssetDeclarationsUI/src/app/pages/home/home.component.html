@@ -2,7 +2,7 @@
     <app-person-autocomplete
       class="person-autocomplete"
       [minimumMatchingLetters]="2"
-      (personSelectedEvent)="onPersonSelected($event)"
+      (selectedPersonChange)="onPersonSelected($event)"
     />
   <highlights-carousel />
 </main>

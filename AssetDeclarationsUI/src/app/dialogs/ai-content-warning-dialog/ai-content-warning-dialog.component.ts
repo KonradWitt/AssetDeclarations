@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { MatButton } from '@angular/material/button';
 import {
   MatDialogActions,
@@ -12,8 +12,12 @@ import {
   templateUrl: './ai-content-warning-dialog.component.html',
   styleUrl: './ai-content-warning-dialog.component.scss',
 })
-export class AiContentWarningDialogComponent {
+export class AiContentWarningDialogComponent implements OnInit {
   readonly dialogRef = inject(MatDialogRef<AiContentWarningDialogComponent>);
+
+  ngOnInit(): void {
+    this.dialogRef.disableClose = true;
+  }
 
   close(): void {
     this.dialogRef.close();

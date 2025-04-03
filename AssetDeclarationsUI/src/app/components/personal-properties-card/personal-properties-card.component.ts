@@ -21,7 +21,7 @@ import { _ErrorStateTracker } from '@angular/material/core';
 })
 export class PersonalPropertiesCardComponent {
   displayedColumns: string[] = ['description', 'value'];
-  personalProperties = input<PersonalProperty[] | undefined>(undefined);
+  personalProperties = input<PersonalProperty[]>();
 
   sumValue = computed(() => {
     if (!this.personalProperties() || this.personalProperties()?.length === 0)

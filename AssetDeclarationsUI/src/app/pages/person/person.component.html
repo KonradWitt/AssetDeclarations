@@ -1,10 +1,9 @@
 <main>
   <app-person-autocomplete
-    class="person-autocomplete"
-    [minimumMatchingLetters]="2"
-    [selectedPerson]="this.selectedPerson()"
-    (personSelectedEvent)="onPersonSelected($event)"
-  />
+      class="person-autocomplete"
+      [minimumMatchingLetters]="2"
+      (selectedPersonChange)="onPersonSelected($event)"
+    />
   @if(this.selectedPerson() && this.lastDeclaration()) {
   <div class="container">
     <div class="column">

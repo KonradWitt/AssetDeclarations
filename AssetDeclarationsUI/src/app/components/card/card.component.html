@@ -1,17 +1,17 @@
 <div class="container">
   <div class="header-container">
     <h2>
-      @if(iconName) {
-      <mat-icon [fontIcon]="iconName!"></mat-icon>
+      @if(iconName()) {
+      <mat-icon [fontIcon]="iconName()!"></mat-icon>
       }
-      {{ this.title }}
+      {{ this.title() }}
     </h2>
     <mat-divider />
   </div>
   <div class="content-container">
     <ng-content select="content"></ng-content>
   </div>
-  <div class="footer-container" *ngIf="showFooter">
+  <div class="footer-container" *ngIf="showFooter()">
     <mat-divider />
     <ng-content select="footer"></ng-content>
   </div>

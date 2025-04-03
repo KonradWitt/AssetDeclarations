@@ -27,7 +27,7 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
   styleUrl: './currencies-card.component.scss',
 })
 export class CurrenciesCardComponent {
-  cashPositions = input<CashPosition[] | undefined>(undefined);
+  cashPositions = input<CashPosition[]>();
   sum = computed(() => {
     if (this.cashPositions()) {
       return this.cashPositions()!

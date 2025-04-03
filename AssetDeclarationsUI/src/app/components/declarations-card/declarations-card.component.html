@@ -1,8 +1,7 @@
-<card title="Oświadczenia majątkowe"
-iconName="description">
+<card title="Oświadczenia majątkowe" iconName="description">
   <content>
     <ul>
-      <li *ngFor="let declaration of declarations">
+      <li *ngFor="let declaration of declarations()">
         <a [href]="declaration.documentUrl" target="_blank">
           {{ declaration.date | date : "dd.MM.yyyy" }}
         </a>

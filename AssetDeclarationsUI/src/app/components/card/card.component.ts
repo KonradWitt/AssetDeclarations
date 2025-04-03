@@ -4,6 +4,7 @@ import {
   Component,
   ContentChild,
   ElementRef,
+  input,
   Input,
 } from '@angular/core';
 import { MatDivider } from '@angular/material/divider';
@@ -16,7 +17,7 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './card.component.scss',
 })
 export class CardComponent {
-  @Input() showFooter: boolean = false;
-  @Input() title: string = '';
-  @Input() iconName: string = '';
+  showFooter = input<boolean>(false);
+  title = input<string>();
+  iconName = input<string>();
 }

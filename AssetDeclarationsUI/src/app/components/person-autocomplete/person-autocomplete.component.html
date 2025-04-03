@@ -7,11 +7,12 @@
       matInput
       [matAutocomplete]="auto"
       [formControl]="formControl"
+      [ngModel]=""
     />
     <mat-autocomplete
       #auto="matAutocomplete"
       [displayWith]="getPersonName"
-      (optionSelected)="personSelectedEvent.emit($event.option.value)"
+      (optionSelected)="selectedPerson.set($event.option.value)"
     >
       @for (person of filteredPersons | async; track person) {
       <mat-option class="autocomplete-option" [value]="person">{{

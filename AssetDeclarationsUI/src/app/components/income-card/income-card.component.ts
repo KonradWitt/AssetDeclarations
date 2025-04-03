@@ -13,7 +13,7 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 export class IncomeCardComponent {
   displayedColumns: string[] = ['description', 'yearlyValue'];
 
-  incomes = input<Income[] | undefined>(undefined);
+  incomes = input<Income[]>();
 
   sortedIncomes = computed(() => {
     if (!this.incomes() || this.incomes()?.length === 0) return undefined;
