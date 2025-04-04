@@ -1,4 +1,2 @@
 - add liabilities card
 - implement currency exchange with backend queries
-- finalize carousele routing with highlights coming from backend
-- add dialog that information may not be true when loading person component for the first time

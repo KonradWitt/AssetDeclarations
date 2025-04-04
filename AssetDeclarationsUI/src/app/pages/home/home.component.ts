@@ -35,4 +35,10 @@ export class HomeComponent {
       state: { id: person.id },
     });
   }
+
+  onHighlightPersonClicked(person: Person) {
+    this.router.navigate(['polityk', person.link], {
+      state: { id: person.id },
+    });
+  }
 }

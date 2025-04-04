@@ -32,5 +32,12 @@ namespace AssetDeclarationsApi.Controllers
         {
             return Ok(await _personDataService.GetIncludingDetails(id));
         }
+
+        [HttpGet]
+        [ActionName("GetHighlights")]
+        public async Task<ActionResult<List<Person>>> GetHighlightsPersons()
+        {
+            return Ok(await _personDataService.GetHighlightsPersonsAsync());
+        }
     }
 }

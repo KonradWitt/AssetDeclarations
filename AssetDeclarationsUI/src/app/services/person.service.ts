@@ -48,4 +48,11 @@ export class PersonService {
       );
     });
   }
+
+  getHighlightsPersons(): Observable<Person[]> {
+    return this.http.get<Person[]>(
+      `${environment.apiUrl}/${this.url}/GetHighlights`
+    );
+  }
+
 }

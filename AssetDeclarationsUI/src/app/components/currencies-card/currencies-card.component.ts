@@ -29,14 +29,12 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 export class CurrenciesCardComponent {
   cashPositions = input<CashPosition[]>();
   sum = computed(() => {
-    if (this.cashPositions()) {
-      return this.cashPositions()!
-        .map((cashPosition) => cashPosition.baseValue)
-        .reduce((a, b) => {
-          return a + b;
-        });
-    } else {
-      return 0;
-    }
+    if (!this.cashPositions() || this.cashPositions()?.length === 0) return 0;
+
+    return this.cashPositions()!
+      .map((cashPosition) => cashPosition.baseValue)
+      .reduce((a, b) => {
+        return a + b;
+      });
   });
 }

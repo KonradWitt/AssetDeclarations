@@ -1,8 +1,8 @@
 <main>
-    <app-person-autocomplete
-      class="person-autocomplete"
-      [minimumMatchingLetters]="2"
-      (selectedPersonChange)="onPersonSelected($event)"
-    />
-  <highlights-carousel />
+  <app-person-autocomplete
+    class="person-autocomplete"
+    [minimumMatchingLetters]="2"
+    (selectedPersonChange)="onPersonSelected($event)"
+  />
+  <highlights-carousel (personClicked)="onHighlightPersonClicked($event)" />
 </main>

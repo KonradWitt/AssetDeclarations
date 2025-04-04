@@ -9,6 +9,8 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
     {
         public PersonDataService(DataContext context) : base(context) { }
 
+
+
         public async Task<Person?> GetIncludingDetails(int id)
         {
             var person = DbSet.FirstOrDefault(x => x.Id == id);
@@ -31,6 +33,11 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
             }
 
             return person;
+        }
+
+        public async Task<IEnumerable<Person>> GetHighlightsPersonsAsync()
+        {
+            return await DbSet.Where(x => x.IsHighlight).ToListAsync();
         }
     }
 }
