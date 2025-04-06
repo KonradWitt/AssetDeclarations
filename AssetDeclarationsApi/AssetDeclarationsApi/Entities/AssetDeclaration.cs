@@ -32,9 +32,10 @@ namespace AssetDeclarationsApi.Entities
             netValue += CashPositions?.Sum(x => x?.BaseValue ?? default) ?? default;
             netValue += SecurityPositions?.Sum(x => x?.Value ?? default) ?? default;
             netValue += RealEstate?.Sum(x => x?.Value ?? default) ?? default;
-            netValue -= Liabilities?.Sum(x => x?.Value ?? default) ?? default;
             netValue += PersonalProperties?.Sum(x => x?.Value ?? default) ?? default;
             netValue += Receivables?.Sum(x => x?.Value ?? default) ?? default;
+
+            netValue -= Liabilities?.Sum(x => x?.Value ?? default) ?? default;
 
             return Math.Round(netValue);
         }
