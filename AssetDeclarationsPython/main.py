@@ -1,5 +1,7 @@
 import csv
 from datetime import datetime
+import os
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
@@ -10,13 +12,18 @@ links = []
 with SeleniumSession(linksUrl) as session:
     links = (session.get_links_by_child_class('deputyName'))
 
-links =['https://www.sejm.gov.pl/Sejm10.nsf/posel.xsp?id=459&type=A']
-timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-filename = 'output' + timestamp + '.csv'
-with open(filename, 'w', newline='', encoding='utf8') as csvfile:
-    writer = csv.writer(csvfile, delimiter=';',
-                        quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    for link in links:
+index = 0
+for link in links:
+    directory = r'C:\Users\wittk\source\repos\AssetDeclarations\AssetDeclarationsPython\downloads' + \
+        f'\\{index}'
+
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    with open(directory + r'\output.csv', 'w', newline='', encoding='utf8') as csvfile:
+        writer = csv.writer(csvfile, delimiter=';',
+                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        index = index + 1
+        pdfUrl = ''
         with SeleniumSession(link) as session:
             session.click_element_by_id('osw')
 
@@ -40,4 +47,7 @@ with open(filename, 'w', newline='', encoding='utf8') as csvfile:
             print(pdfUrl)
 
             writer.writerow([deputyName, pdfUrl, imgUrl])
-            csvfile.flush()
+
+            with SeleniumSession(pdfUrl, directory) as session:
+                time.sleep(3)
+                session.click_element_by_id('download')

@@ -438,3 +438,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# custom
+AssetDeclarationsPython/api_keys.py
+AssetDeclarationsPython/downloads/
