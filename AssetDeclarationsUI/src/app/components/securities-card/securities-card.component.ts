@@ -1,0 +1,35 @@
+import { Component, computed, input } from '@angular/core';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatListModule } from '@angular/material/list';
+import { CardComponent } from '../card/card.component';
+import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
+import { SecurityPosition } from '../../model/securityPosition.type';
+import { MatTableModule } from '@angular/material/table';
+
+@Component({
+  selector: 'app-securities-card',
+  imports: [
+    MatListModule,
+    MatDividerModule,
+    CardComponent,
+    NumberSpacePipe,
+    MatTableModule,
+  ],
+  templateUrl: './securities-card.component.html',
+  styleUrl: './securities-card.component.scss',
+})
+export class SecuritiesCardComponent {
+  displayedColumns: string[] = ['name', 'quantity', 'value'];
+  securities = input<SecurityPosition[]>();
+  sum = computed(() => {
+    if (!this.securities || this.securities()?.length === 0) {
+      return 0;
+    }
+
+    return this.securities()!
+      .map((sec) => sec.value ?? 0)
+      .reduce((a, b) => {
+        return a + b;
+      });
+  });
+}

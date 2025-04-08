@@ -13,6 +13,7 @@ import { RealEstateCardComponent } from '../../components/real-estate-card/real-
 import { DeclarationsCardComponent } from '../../components/declarations-card/declarations-card.component';
 import { PersonalPropertiesCardComponent } from '../../components/personal-properties-card/personal-properties-card.component';
 import { IncomeCardComponent } from '../../components/income-card/income-card.component';
+import { SecuritiesCardComponent } from '../../components/securities-card/securities-card.component';
 
 @Component({
   selector: 'app-person',
@@ -28,6 +29,7 @@ import { IncomeCardComponent } from '../../components/income-card/income-card.co
     DeclarationsCardComponent,
     PersonalPropertiesCardComponent,
     IncomeCardComponent,
+    SecuritiesCardComponent
   ],
   templateUrl: './person.component.html',
   styleUrl: './person.component.scss',

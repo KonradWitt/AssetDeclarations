@@ -1,0 +1,33 @@
+<card title="Akcje" iconName="request_page" [showFooter]="true">
+  <content>
+    @if(this.securities()) {
+    <table mat-table [dataSource]="this.securities()!">
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef>Nazwa</th>
+        <td mat-cell *matCellDef="let element">{{ element.name }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="quantity">
+        <th mat-header-cell *matHeaderCellDef>Liczba</th>
+        <td mat-cell *matCellDef="let element" class="no-wrap">
+          {{ element.quantity }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="value">
+        <th mat-header-cell *matHeaderCellDef>Wartość</th>
+        <td mat-cell *matCellDef="let element" class="no-wrap">
+          {{ element.value | numberSpace }} zł
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+    }
+  </content>
+  <footer>
+    <p>
+      Łączna wartość: <b>{{ this.sum() | numberSpace }} zł</b>.
+    </p>
+  </footer>
+</card>

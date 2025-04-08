@@ -1,9 +1,9 @@
 <main>
   <app-person-autocomplete
-      class="person-autocomplete"
-      [minimumMatchingLetters]="2"
-      (selectedPersonChange)="onPersonSelected($event)"
-    />
+    class="person-autocomplete"
+    [minimumMatchingLetters]="2"
+    (selectedPersonChange)="onPersonSelected($event)"
+  />
   @if(this.selectedPerson() && this.lastDeclaration()) {
   <div class="container">
     <div class="column">
@@ -25,7 +25,11 @@
       <div>
         <app-income-card [incomes]="lastDeclaration()!.incomes" />
       </div>
-
+      <div>
+        <app-securities-card
+          [securities]="lastDeclaration()!.securityPositions"
+        ></app-securities-card>
+      </div>
     </div>
     <div class="column">
       <div>

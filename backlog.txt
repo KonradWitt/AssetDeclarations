@@ -1,2 +1,5 @@
+- test mat grid list for main layout
 - add liabilities card
+- add securities card
+- add receivables card
 - implement currency exchange with backend queries
