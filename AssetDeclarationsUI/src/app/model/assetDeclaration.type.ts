@@ -1,3 +1,4 @@
+import { BusinessActivity } from './businessActivity.type';
 import { CashPosition } from './cashPosition.type';
 import { Income } from './income.type';
 import { Liability } from './liability.type';
@@ -19,4 +20,5 @@ export type AssetDeclaration = {
   securityPositions: SecurityPosition[];
   liabilities: Liability[];
   receivables: Receivable[];
+  businessActivities: BusinessActivity[];
 };

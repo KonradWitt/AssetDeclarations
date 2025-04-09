@@ -1,0 +1,39 @@
+<card title="Inna działalność zawodowa" iconName="work" [showFooter]="true">
+  <content>
+    @if(this.sortedBusinessActivities()) {
+    <table mat-table [dataSource]="this.sortedBusinessActivities()!">
+      <ng-container matColumnDef="businessName">
+        <th mat-header-cell *matHeaderCellDef>Firma</th>
+        <td mat-cell *matCellDef="let element">{{ element.businessName }}</td>
+      </ng-container>
+      <ng-container matColumnDef="businessType">
+        <th mat-header-cell *matHeaderCellDef>Rodzaj</th>
+        <td mat-cell *matCellDef="let element">{{ element.businessType }}</td>
+      </ng-container>
+      <ng-container matColumnDef="description">
+        <th mat-header-cell *matHeaderCellDef>Opis</th>
+        <td mat-cell *matCellDef="let element">{{ element.description }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="income">
+        <th mat-header-cell *matHeaderCellDef>Dochód</th>
+        <td mat-cell *matCellDef="let element" class="value-cell">
+          {{ element.income | numberSpace }} zł
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+    }
+  </content>
+  <footer>
+    <p>
+      Łączny dochód:
+      <b>{{ this.sum() | numberSpace }} zł</b> ({{
+        this.monthlyIncome() | numberSpace
+      }}
+      zł miesięcznie).
+    </p>
+  </footer>
+</card>

@@ -19,12 +19,17 @@
         <app-income-card [incomes]="lastDeclaration()!.incomes" />
       </div>
       <div>
-        <app-currencies-card
-          [cashPositions]="lastDeclaration()!.cashPositions"
+        <app-business-activities-card
+          [businessActivities]="lastDeclaration()!.businessActivities"
         />
       </div>
     </div>
     <div class="column">
+      <div>
+        <app-currencies-card
+          [cashPositions]="lastDeclaration()!.cashPositions"
+        />
+      </div>
       <div>
         <app-real-estate-card [realEstate]="lastDeclaration()!.realEstate" />
       </div>
