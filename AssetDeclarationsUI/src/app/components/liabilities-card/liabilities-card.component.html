@@ -1,14 +1,14 @@
-<card title="Mienie ruchome" iconName="directions_car" [showFooter]="true">
+<card title="Zobowiązania" iconName="credit_card" [showFooter]="true">
   <content>
-    @if(sortedPersonalProperties()) {
-    <table mat-table [dataSource]="sortedPersonalProperties()!">
+    @if(this.liabilities()) {
+    <table mat-table [dataSource]="this.liabilities()!">
       <ng-container matColumnDef="description">
         <th mat-header-cell *matHeaderCellDef>Opis</th>
         <td mat-cell *matCellDef="let element">{{ element.description }}</td>
       </ng-container>
 
       <ng-container matColumnDef="value">
-        <th mat-header-cell *matHeaderCellDef>Wartość</th>
+        <th mat-header-cell *matHeaderCellDef>Zobowiązanie</th>
         <td mat-cell *matCellDef="let element" class="value-cell">
           {{ element.value | numberSpace }} zł
         </td>
@@ -21,8 +21,7 @@
   </content>
   <footer>
     <p>
-      Łączna wartość:
-      <b>{{ sumValue() | numberSpace }} zł</b>.
+      Łączna wartość: <b>{{ this.sum() | numberSpace }} zł</b>.
     </p>
   </footer>
 </card>

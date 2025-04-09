@@ -26,10 +26,11 @@ export class PersonalPropertiesCardComponent {
   sumValue = computed(() => {
     if (!this.personalProperties() || this.personalProperties()?.length === 0)
       return 0;
-    else
-      return this.personalProperties()!
-        .map((x) => x.value)
-        .reduce((a, b) => a + b);
+
+    const sum = this.personalProperties()!
+      .map((x) => x.value)
+      .reduce((a, b) => a + b);
+    return Math.round(sum);
   });
 
   sortedPersonalProperties = computed(() => {

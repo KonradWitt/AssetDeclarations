@@ -15,15 +15,18 @@
           [declarations]="this.selectedPerson()!.assetDeclarations"
         />
       </div>
-    </div>
-    <div class="column">
+      <div>
+        <app-income-card [incomes]="lastDeclaration()!.incomes" />
+      </div>
       <div>
         <app-currencies-card
           [cashPositions]="lastDeclaration()!.cashPositions"
         />
       </div>
+    </div>
+    <div class="column">
       <div>
-        <app-income-card [incomes]="lastDeclaration()!.incomes" />
+        <app-real-estate-card [realEstate]="lastDeclaration()!.realEstate" />
       </div>
       <div>
         <app-securities-card
@@ -33,12 +36,15 @@
     </div>
     <div class="column">
       <div>
-        <app-real-estate-card [realEstate]="lastDeclaration()!.realEstate" />
-      </div>
-      <div>
         <app-personal-properties-card
           [personalProperties]="lastDeclaration()!.personalProperties"
         />
+      </div>
+      <div>
+        <app-liabilities-card [liabilities]="lastDeclaration()!.liabilities" />
+      </div>
+      <div>
+        <app-receivables-card [receivables]="lastDeclaration()!.receivables" />
       </div>
     </div>
   </div>

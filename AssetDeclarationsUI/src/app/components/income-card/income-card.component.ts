@@ -28,7 +28,9 @@ export class IncomeCardComponent {
       const sum = this.incomes()!
         .map((x) => x.yearlyValue)
         .reduce((a, b) => a + b);
-      return sum;
+      return Math.round(sum);
     }
   });
+
+  monthlyIncome = computed(() => Math.round(this.sum() / 12));
 }

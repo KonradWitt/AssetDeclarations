@@ -31,10 +31,11 @@ export class CurrenciesCardComponent {
   sum = computed(() => {
     if (!this.cashPositions() || this.cashPositions()?.length === 0) return 0;
 
-    return this.cashPositions()!
+    const sum = this.cashPositions()!
       .map((cashPosition) => cashPosition.baseValue)
       .reduce((a, b) => {
         return a + b;
       });
+      return Math.round(sum);
   });
 }

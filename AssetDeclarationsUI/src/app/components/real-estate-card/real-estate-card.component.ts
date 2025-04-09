@@ -39,13 +39,14 @@ export class RealEstateCardComponent {
   sumValue = computed(() => {
     if (!this.realEstate() || this.realEstate()?.length === 0) {
       return 0;
-    } else {
-      return this.realEstate()!
-        .map((property) => property.value)
-        .reduce((a, b) => {
-          return a + b;
-        });
     }
+    const sum = this.realEstate()!
+      .map((property) => property.value)
+      .reduce((a, b) => {
+        return a + b;
+      });
+
+    return Math.round(sum);
   });
 
   numberOfProperties = computed(() => {

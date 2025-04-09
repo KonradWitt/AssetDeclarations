@@ -1,9 +1,9 @@
-.no-wrap {
-  white-space: nowrap;
-}
-
-
 table
 {
   background-color: transparent;
+}
+
+.value-cell {
+  white-space: nowrap;
+  text-align: right;
 }

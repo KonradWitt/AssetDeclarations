@@ -14,6 +14,8 @@ import { DeclarationsCardComponent } from '../../components/declarations-card/de
 import { PersonalPropertiesCardComponent } from '../../components/personal-properties-card/personal-properties-card.component';
 import { IncomeCardComponent } from '../../components/income-card/income-card.component';
 import { SecuritiesCardComponent } from '../../components/securities-card/securities-card.component';
+import { LiabilitiesCardComponent } from "../../components/liabilities-card/liabilities-card.component";
+import { ReceivablesCardComponent } from "../../components/receivables-card/receivables-card.component";
 
 @Component({
   selector: 'app-person',
@@ -29,8 +31,10 @@ import { SecuritiesCardComponent } from '../../components/securities-card/securi
     DeclarationsCardComponent,
     PersonalPropertiesCardComponent,
     IncomeCardComponent,
-    SecuritiesCardComponent
-  ],
+    SecuritiesCardComponent,
+    LiabilitiesCardComponent,
+    ReceivablesCardComponent
+],
   templateUrl: './person.component.html',
   styleUrl: './person.component.scss',
 })

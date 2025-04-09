@@ -4,10 +4,8 @@
   background-color: var(--color-surface);
   border-radius: 20px;
   box-shadow: var(--mat-sys-level3);
-  width: 80%;
-  height: 90%;
   margin: 24px;
-  padding: 24px;
+  padding: 8px 24px;
   cursor: pointer;
 }
 
@@ -25,4 +23,8 @@ img {
 p {
   color: var(--mat-sys-outline);
   font-weight: bold;
+}
+
+h3 {
+  height: 50px;
 }
