@@ -1,6 +1,8 @@
 import csv
 from datetime import datetime
+import glob
 import os
+import shutil
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -14,16 +16,10 @@ with SeleniumSession(linksUrl) as session:
 
 index = 0
 for link in links:
-    directory = r'C:\Users\wittk\source\repos\AssetDeclarations\AssetDeclarationsPython\downloads' + \
-        f'\\{index}'
+    repeat = True
+    while repeat:
+        repeat = False
 
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-    with open(directory + r'\output.csv', 'w', newline='', encoding='utf8') as csvfile:
-        writer = csv.writer(csvfile, delimiter=';',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        index = index + 1
-        pdfUrl = ''
         with SeleniumSession(link) as session:
             session.click_element_by_id('osw')
 
@@ -32,22 +28,41 @@ for link in links:
                 deputyNameXPath)
             print(deputyName)
 
-            imgXpath = '//*[@id="view:_id1:_id2:facetMain:_id108:_id110"]'
-            imgUrl = session.get_attribute_from_element_by_xpath(
-                imgXpath, 'src')
-            if not imgUrl:
-                imgUrl = 'err'
-            print(imgUrl)
+            directory = fr'C:\Users\wittk\source\repos\AssetDeclarations\AssetDeclarationsPython\downloads\{deputyName}'
+            if os.path.exists(directory):
+                shutil.rmtree(directory)
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+            with open(directory + r'\output.csv', 'w', newline='', encoding='utf8') as csvfile:
+                writer = csv.writer(csvfile, delimiter=';',
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+                pdfUrl = ''
 
-            pdfXpath = '//*[@id="view:_id1:_id2:facetMain:_id191:_id258:1:_id263"]'
-            pdfUrl = session.get_attribute_from_element_by_xpath(
-                pdfXpath, 'href')
-            if not pdfUrl:
-                pdfUrl = 'err'
-            print(pdfUrl)
+                imgXpath = '//*[@id="view:_id1:_id2:facetMain:_id108:_id110"]'
+                imgUrl = session.get_attribute_from_element_by_xpath(
+                    imgXpath, 'src')
+                if not imgUrl:
+                    imgUrl = 'err'
+                print(imgUrl)
 
-            writer.writerow([deputyName, pdfUrl, imgUrl])
+                pdfXpath = '//*[@id="view:_id1:_id2:facetMain:_id191:_id258:1:_id263"]'
+                pdfUrl = session.get_attribute_from_element_by_xpath(
+                    pdfXpath, 'href')
+                if not pdfUrl:
+                    pdfUrl = 'err'
+                print(pdfUrl)
 
-            with SeleniumSession(pdfUrl, directory) as session:
-                time.sleep(3)
-                session.click_element_by_id('download')
+                writer.writerow([deputyName, pdfUrl, imgUrl])
+
+                with SeleniumSession(pdfUrl, directory) as session:
+                    time.sleep(5)
+                    session.click_element_by_id('download')
+
+                csv_files = glob.glob(os.path.join(directory, "*.csv"))
+                pdf_files = glob.glob(os.path.join(directory, "*.pdf"))
+
+                if len(csv_files) == 1 and len(pdf_files) == 1:
+                    print("Files downloaded succesfully")
+                else:
+                    print("Files download failed")
+                    repeat = True
