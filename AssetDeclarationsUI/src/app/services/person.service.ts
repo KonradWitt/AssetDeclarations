@@ -17,9 +17,7 @@ export class PersonService {
   }
 
   getPerson(id: number): Observable<Person> {
-    return this.http.get<Person>(
-      `${environment.apiUrl}/${this.url}/GetById/${id}`
-    );
+    return this.http.get<Person>(`${environment.apiUrl}/${this.url}/Get/${id}`);
   }
 
   getPersonByLink(link: string): Observable<Person> {
@@ -54,5 +52,4 @@ export class PersonService {
       `${environment.apiUrl}/${this.url}/GetHighlights`
     );
   }
-
 }
