@@ -21,28 +21,28 @@ namespace AssetDeclarationsApi.Controllers
 
         [HttpGet("{id}")]
         [ActionName("Get")]
-        public async Task<ActionResult<Person>> GetPerson(int id)
+        public async Task<ActionResult<Person>> Get(int id)
         {
             return Ok(await _personDataService.GetIncludingDetails(id));
         }
 
         [HttpGet]
         [ActionName("GetAll")]
-        public async Task<ActionResult<List<Person>>> GetAllPersons()
+        public async Task<ActionResult<List<Person>>> GetAll()
         {
             return Ok(await _personDataService.GetAllAsync());
         }
 
         [HttpGet]
         [ActionName("GetHighlights")]
-        public async Task<ActionResult<List<Person>>> GetHighlightsPersons()
+        public async Task<ActionResult<List<Person>>> GetHighlights()
         {
-            return Ok(await _personDataService.GetHighlightsPersonsAsync());
+            return Ok(await _personDataService.GetHighlightsAsync());
         }
 
         [HttpPost]
         [ActionName("Create")]
-        public async Task<ActionResult<Person>> CreatePerson([FromBody] Person person)
+        public async Task<ActionResult<Person>> Create([FromBody] Person person)
         {
             if (person == null)
             {
@@ -51,7 +51,7 @@ namespace AssetDeclarationsApi.Controllers
 
             var createdPerson = await _personDataService.AddAsync(person);
 
-            return CreatedAtAction(nameof(GetPerson), new { id = createdPerson.Id }, createdPerson);
+            return CreatedAtAction(nameof(Get), new { id = createdPerson.Id }, createdPerson);
         }
     }
 }

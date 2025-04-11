@@ -35,7 +35,7 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
             return person;
         }
 
-        public async Task<IEnumerable<Person>> GetHighlightsPersonsAsync()
+        public async Task<IEnumerable<Person>> GetHighlightsAsync()
         {
             return await DbSet.Where(x => x.IsHighlight).ToListAsync();
         }

@@ -7,6 +7,6 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
     {
         Task<Person?> GetIncludingDetails(int id);
 
-        Task<IEnumerable<Person>> GetHighlightsPersonsAsync();
+        Task<IEnumerable<Person>> GetHighlightsAsync();
     }
 }

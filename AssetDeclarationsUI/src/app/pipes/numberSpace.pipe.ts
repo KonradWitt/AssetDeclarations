@@ -29,6 +29,8 @@ export class NumberSpacePipe implements PipeTransform {
       result = result + '.' + split[1];
     }
 
+    result = result.trim();
+
     return result;
   }
 }
