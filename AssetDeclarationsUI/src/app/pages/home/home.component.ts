@@ -18,7 +18,7 @@ import { MatDialog } from '@angular/material/dialog';
     CommonModule,
     MatProgressSpinnerModule,
     HighlightsCarouselComponent,
-  ],
+],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })

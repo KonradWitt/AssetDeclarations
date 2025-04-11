@@ -21,6 +21,15 @@ import { MatTableModule } from '@angular/material/table';
 export class SecuritiesCardComponent {
   displayedColumns: string[] = ['name', 'quantity', 'value'];
   securities = input<SecurityPosition[]>();
+
+  sortedSecurities = computed(() => {
+    if (!this.securities() || this.securities()?.length === 0) {
+      return undefined;
+    }
+
+    return this.securities()!.sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
+  });
+
   sum = computed(() => {
     if (!this.securities || this.securities()?.length === 0) {
       return 0;

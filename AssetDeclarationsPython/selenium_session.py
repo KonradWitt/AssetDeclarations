@@ -3,6 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.remote import webelement
+from selenium.common.exceptions import NoSuchElementException
+
 from typing import cast
 
 
@@ -29,20 +31,33 @@ class SeleniumSession:
         return True
 
     def get_text_from_element_by_xpath(self, xpath: str) -> str:
-        return self.__driver.find_element(By.XPATH, xpath).text
+        try:
+            return self.__driver.find_element(By.XPATH, xpath).text
+        except Exception as e:
+            print(f'element with xpath {xpath} was not found')
+            return ''
 
     def click_element_by_xpath(self, xpath: str):
-        self.__driver.find_element(By.XPATH, xpath).click()
-        time.sleep(1)
-        return
+        try:
+            self.__driver.find_element(By.XPATH, xpath).click()
+            time.sleep(1)
+
+        except Exception as e:
+            print(f'element with xpath {xpath} was not found')
 
     def click_element_by_id(self, id: str):
-        self.__driver.find_element(By.ID, id).click()
-        time.sleep(1)
-        return
+        try:
+            self.__driver.find_element(By.ID, id).click()
+            time.sleep(1)
+        except Exception as e:
+            print(f"Element with ID '{id}' was not found.")
 
     def get_attribute_from_element_by_xpath(self, xpath: str, attribute: str):
-        return self.__driver.find_element(By.XPATH, xpath).get_attribute(attribute)
+        try:
+            return self.__driver.find_element(By.XPATH, xpath).get_attribute(attribute)
+        except Exception as e:
+            print(f"Exception occured")
+            return ''
 
     def get_links_by_child_class(self, childClass: str,):
         tags = self.__driver.find_elements(By.CLASS_NAME, childClass)

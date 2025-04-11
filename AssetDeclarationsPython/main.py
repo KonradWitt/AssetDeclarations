@@ -17,8 +17,9 @@ with SeleniumSession(linksUrl) as session:
 index = 0
 for link in links:
     repeat = True
+    repeatcount = 0
     while repeat:
-        repeat = False
+        repeat = True
 
         with SeleniumSession(link) as session:
             session.click_element_by_id('osw')
@@ -43,26 +44,33 @@ for link in links:
                     imgXpath, 'src')
                 if not imgUrl:
                     imgUrl = 'err'
-                print(imgUrl)
+                # print(imgUrl)
 
                 pdfXpath = '//*[@id="view:_id1:_id2:facetMain:_id191:_id258:1:_id263"]'
                 pdfUrl = session.get_attribute_from_element_by_xpath(
                     pdfXpath, 'href')
                 if not pdfUrl:
                     pdfUrl = 'err'
-                print(pdfUrl)
+                # print(pdfUrl)
 
                 writer.writerow([deputyName, pdfUrl, imgUrl])
-
-                with SeleniumSession(pdfUrl, directory) as session:
-                    time.sleep(5)
-                    session.click_element_by_id('download')
+                if (pdfUrl != 'err'):
+                    with SeleniumSession(pdfUrl, directory) as session:
+                        time.sleep(5)
+                        session.click_element_by_id('download')
 
                 csv_files = glob.glob(os.path.join(directory, "*.csv"))
                 pdf_files = glob.glob(os.path.join(directory, "*.pdf"))
 
-                if len(csv_files) == 1 and len(pdf_files) == 1:
-                    print("Files downloaded succesfully")
-                else:
-                    print("Files download failed")
+                if (len(csv_files) == 1 and len(pdf_files) == 1):
+                    print("Files download succesfull")
+                    repeatcount = 0
+                    repeat = False
+                elif (repeatcount < 5):
+                    print(f"Files download failed, repear count {repeatcount}")
+                    repeatcount = repeatcount + 1
                     repeat = True
+                else:
+                    print("Files download failed, max count reached")
+                    repeatcount = 0
+                    repeat = False

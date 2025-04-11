@@ -13,6 +13,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { CashPosition } from '../../model/cashPosition.type';
 import { CardComponent } from '../card/card.component';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
+import { MatTableModule } from '@angular/material/table';
 
 @Component({
   selector: 'app-currencies-card',
@@ -22,11 +23,13 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
     MatDividerModule,
     CardComponent,
     NumberSpacePipe,
+    MatTableModule,
   ],
   templateUrl: './currencies-card.component.html',
   styleUrl: './currencies-card.component.scss',
 })
 export class CurrenciesCardComponent {
+  displayedColumns: string[] = ['currencyValue', 'currency', 'baseValue'];
   cashPositions = input<CashPosition[]>();
   sum = computed(() => {
     if (!this.cashPositions() || this.cashPositions()?.length === 0) return 0;
@@ -36,6 +39,12 @@ export class CurrenciesCardComponent {
       .reduce((a, b) => {
         return a + b;
       });
-      return Math.round(sum);
+    return Math.round(sum);
+  });
+
+  sortedCash = computed(() => {
+    if (this.cashPositions()! || this.cashPositions()?.length === 0) {
+      return undefined;
+    }
   });
 }

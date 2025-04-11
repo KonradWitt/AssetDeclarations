@@ -9,7 +9,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class NumberSpacePipe implements PipeTransform {
   transform(value: number): string {
-    value = Math.round(value * 100) / 100;
+    value = Math.round(value);
 
     var result: string = '';
 
