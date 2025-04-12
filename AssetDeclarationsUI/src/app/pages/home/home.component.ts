@@ -8,6 +8,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { Router } from '@angular/router';
 import { HighlightsCarouselComponent } from '../../components/highlights-carousel/highlights-carousel.component';
 import { MatDialog } from '@angular/material/dialog';
+import { TestCompMadziaComponent } from "../../components/test-comp-madzia/test-comp-madzia.component";
 
 @Component({
   selector: 'app-home',
@@ -18,6 +19,7 @@ import { MatDialog } from '@angular/material/dialog';
     CommonModule,
     MatProgressSpinnerModule,
     HighlightsCarouselComponent,
+    TestCompMadziaComponent
 ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
@@ -25,6 +27,7 @@ import { MatDialog } from '@angular/material/dialog';
 export class HomeComponent {
   selectedPerson = signal<Person | undefined>(undefined);
   isLoading = signal<boolean>(false);
+  isTestComponentShown = signal<boolean>(false);
 
   constructor(private dialogService: MatDialog, private router: Router) {}
 
