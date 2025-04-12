@@ -5,7 +5,6 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CurrenciesCardComponent } from '../../components/currencies-card/currencies-card.component';
-import { PersonAutocompleteComponent } from '../../components/person-autocomplete/person-autocomplete.component';
 import { PersonalDataCardComponent } from '../../components/personal-data-card/personal-data-card.component';
 import { Person } from '../../model/person.type';
 import { PersonService } from '../../services/person.service';
@@ -21,7 +20,6 @@ import { BusinessActivitiesCardComponent } from "../../components/business-activ
 @Component({
   selector: 'app-person',
   imports: [
-    PersonAutocompleteComponent,
     MatCardModule,
     MatGridListModule,
     CommonModule,
@@ -70,14 +68,6 @@ export class PersonComponent {
           .subscribe((person) => this.loadPerson(person.id));
       }
     }
-  }
-
-  onPersonSelected(person: Person | undefined) {
-    if (!person) return;
-
-    this.router
-      .navigate(['polityk', person.link])
-      .then(() => this.loadPerson(person.id));
   }
 
   private loadPerson(id: number) {

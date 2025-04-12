@@ -13,10 +13,11 @@ import { Carousel, CarouselModule } from 'primeng/carousel';
 import { Person } from '../../model/person.type';
 import { PersonService } from '../../services/person.service';
 import { delay } from 'rxjs';
+import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 
 @Component({
   selector: 'highlights-carousel',
-  imports: [Carousel, CarouselModule],
+  imports: [Carousel, CarouselModule, NumberSpacePipe],
   templateUrl: './highlights-carousel.component.html',
   styleUrl: './highlights-carousel.component.scss',
 })
