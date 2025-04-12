@@ -29,5 +29,14 @@ export class LiabilitiesCardComponent {
       });
     return Math.round(sum);
   });
+
+  sortedLiabilities = computed(() => {
+    if (!this.liabilities() || this.liabilities()?.length === 0) {
+      return undefined;
+    }
+
+    return this.liabilities()?.sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
+  });
+
   displayedColumns: string[] = ['description', 'value'];
 }

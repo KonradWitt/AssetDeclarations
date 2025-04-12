@@ -13,6 +13,7 @@ import { Receivable } from '../../model/receivable.type';
 })
 export class ReceivablesCardComponent {
   receivables = input<Receivable[]>();
+
   sum = computed(() => {
     if (!this.receivables() || this.receivables()?.length === 0) return 0;
     const sum = this.receivables()!
@@ -22,5 +23,14 @@ export class ReceivablesCardComponent {
       });
     return Math.round(sum);
   });
+
+  sortedReceivables = computed(() => {
+    if (!this.receivables() || this.receivables()?.length === 0) {
+      return undefined;
+    }
+
+    return this.receivables()?.sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
+  });
+
   displayedColumns: string[] = ['description', 'value'];
 }

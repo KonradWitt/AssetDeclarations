@@ -43,8 +43,12 @@ export class CurrenciesCardComponent {
   });
 
   sortedCash = computed(() => {
-    if (this.cashPositions()! || this.cashPositions()?.length === 0) {
+    if (!this.cashPositions() || this.cashPositions()?.length === 0) {
       return undefined;
     }
+
+    return this.cashPositions()?.sort((a, b) => 
+      (b.baseValue ?? 0) - (a.baseValue ?? 0)
+    );
   });
 }
