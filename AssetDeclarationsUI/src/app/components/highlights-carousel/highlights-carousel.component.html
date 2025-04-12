@@ -9,7 +9,7 @@
     <a class="person-container" (click)="onPersonClicked(person)">
       <h3>{{ person.name }}</h3>
       <img class="profile-picture" [src]="person.imageUrl" />
-      <h4>Wartość netto: XXX</h4>
+      <h4>Wartość netto: {{person.assetDeclarations?.[0]?.netValue || 0}} zł</h4>
     </a>
   </ng-template>
 </p-carousel>

@@ -7,8 +7,8 @@ namespace AssetDeclarationsApi.Entities
         public int Id { get; set; }
         public DateTime Date { get; set; }
         public int PersonId { get; set; }
-
         public string DocumentUrl { get; set; }
+        public decimal NetValue { get; set; }
 
         public ICollection<CashPosition> CashPositions { get; set; }
         public ICollection<SecurityPosition> SecurityPositions { get; set; }
@@ -19,25 +19,19 @@ namespace AssetDeclarationsApi.Entities
         public ICollection<Receivable> Receivables { get; set; }
         public ICollection<BusinessActivity> BusinessActivities { get; set; }
 
-        [NotMapped]
-        public double NetValue
+        public void CalculateNetValue()
         {
-            get => CalculateNetValue();
-        }
+            decimal sum = 0;
 
-        private double CalculateNetValue()
-        {
-            var netValue = 0.0;
+            sum += CashPositions?.Sum(x => x?.BaseValue ?? default) ?? default;
+            sum += SecurityPositions?.Sum(x => x?.Value ?? default) ?? default;
+            sum += RealEstate?.Sum(x => x?.Value ?? default) ?? default;
+            sum += PersonalProperties?.Sum(x => x?.Value ?? default) ?? default;
+            sum += Receivables?.Sum(x => x?.Value ?? default) ?? default;
 
-            netValue += CashPositions?.Sum(x => x?.BaseValue ?? default) ?? default;
-            netValue += SecurityPositions?.Sum(x => x?.Value ?? default) ?? default;
-            netValue += RealEstate?.Sum(x => x?.Value ?? default) ?? default;
-            netValue += PersonalProperties?.Sum(x => x?.Value ?? default) ?? default;
-            netValue += Receivables?.Sum(x => x?.Value ?? default) ?? default;
+            sum -= Liabilities?.Sum(x => x?.Value ?? default) ?? default;
 
-            netValue -= Liabilities?.Sum(x => x?.Value ?? default) ?? default;
-
-            return Math.Round(netValue);
+            NetValue = sum;
         }
     }
 }

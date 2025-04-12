@@ -37,7 +37,29 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
 
         public async Task<IEnumerable<Person>> GetHighlightsAsync()
         {
-            return await DbSet.Where(x => x.IsHighlight).ToListAsync();
+            var highlights = await DbSet.Where(x => x.IsHighlight)
+                .Select(p => new
+                {
+                    Person = p,
+                    AssetDeclaration = p.AssetDeclarations
+                        .OrderByDescending(ad => ad.Date)
+                        .FirstOrDefault()
+                }).ToListAsync();
+
+            if (highlights is null || highlights.Count == 0)
+            {
+                return Enumerable.Empty<Person>();
+            }
+
+            var result = new List<Person>();
+            foreach (var highlight in highlights)
+            {
+                var person = highlight.Person;
+                person.AssetDeclarations = new List<AssetDeclaration>() { highlight.AssetDeclaration };
+                result.Add(highlight.Person);
+            }
+
+            return result;
         }
     }
 }

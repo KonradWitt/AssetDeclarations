@@ -49,6 +49,14 @@ namespace AssetDeclarationsApi.Controllers
                 return BadRequest("Person object is null.");
             }
 
+            if (person.AssetDeclarations is not null)
+            {
+                foreach (var ad in person.AssetDeclarations)
+                {
+                    ad.CalculateNetValue();
+                }
+            }
+
             var createdPerson = await _personDataService.AddAsync(person);
 
             return CreatedAtAction(nameof(Get), new { id = createdPerson.Id }, createdPerson);
