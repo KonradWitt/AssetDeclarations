@@ -7,6 +7,7 @@ import {
   model,
   OnChanges,
   OnInit,
+  output,
   Output,
   SimpleChanges,
 } from '@angular/core';
@@ -33,11 +34,11 @@ import { AsyncPipe } from '@angular/common';
   templateUrl: './person-autocomplete.component.html',
   styleUrl: './person-autocomplete.component.scss',
 })
-export class PersonAutocompleteComponent implements OnInit, OnChanges {
+export class PersonAutocompleteComponent implements OnInit {
   personService = inject(PersonService);
 
   minimumMatchingLetters = input<number>();
-  selectedPerson = model<Person>();
+  selectedPerson = output<Person>();
 
   formControl = new FormControl();
   filteredPersons = new Observable<Person[]>();
@@ -50,12 +51,6 @@ export class PersonAutocompleteComponent implements OnInit, OnChanges {
         map((value) => this.filterPersons(persons, value || ''))
       );
     });
-  }
-
-  ngOnChanges(changes: SimpleChanges): void {
-    if (changes['selectedPerson']) {
-      this.formControl.setValue(this.selectedPerson());
-    }
   }
 
   getPersonName(person: Person): string {
