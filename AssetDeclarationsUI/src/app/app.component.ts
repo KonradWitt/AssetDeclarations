@@ -25,13 +25,11 @@ interface ILink {
 })
 export class AppComponent implements OnInit {
   title = 'AssetDeclarationsUI';
-  links: ILink[] = [
-    { path: '', label: 'Home' },
-    { path: 'rankings', label: 'Rankingi' },
-    { path: 'edit', label: 'Edytuj' },
-  ];
 
-  activeLink = signal<ILink>(this.links[0]);
+  navLinks = [
+    { path: '', label: 'Strona główna' },
+    { path: 'nieruchomosci', label: 'Nieruchomości' },
+  ];
 
   constructor(private dialogService: MatDialog) {}
 

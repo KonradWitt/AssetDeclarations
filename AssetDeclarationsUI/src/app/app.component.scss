@@ -1,26 +1,19 @@
-.mat-toolbar {
-  position: relative;
-}
-
-.header-title {
-  font-size: 20px;
-  position: absolute;
-}
-
-.mat-toolbar > a {
-  color: var(--color-header);
-}
-
-.center-tabs {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-}
-
 .router-wrapper {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 16px;
+}
+
+
+a {
+  margin: 4px 20px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  &.active-link {
+    background-color: var(--color-accent); 
+    color: white;
+  }
 }

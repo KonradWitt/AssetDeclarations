@@ -1,7 +1,18 @@
-<mat-toolbar color="primary">
-  <a mat-button class="header-title" routerLink="/">Strona główna</a>
-  <span class="spacer"></span>
-</mat-toolbar>
+<nav
+  mat-tab-nav-bar
+  [tabPanel]="tabPanel"
+>
+  @for(link of navLinks; track link.path) {
+  <a
+    mat-button
+    [routerLink]="link.path"
+    routerLinkActive = "active-link"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
+  {{ link.label }}
+  </a>
+  }
+</nav>
 <mat-tab-nav-panel #tabPanel>
   <div class="router-wrapper">
     <router-outlet></router-outlet>
