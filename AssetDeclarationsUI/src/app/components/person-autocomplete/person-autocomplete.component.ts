@@ -44,7 +44,7 @@ export class PersonAutocompleteComponent implements OnInit {
   filteredPersons = new Observable<Person[]>();
 
   ngOnInit(): void {
-    this.personService.getPersons().subscribe((persons) => {
+    this.personService.getAll().subscribe((persons) => {
       this.filteredPersons = this.formControl.valueChanges.pipe(
         startWith(''),
         filter((x) => typeof x == 'string'),

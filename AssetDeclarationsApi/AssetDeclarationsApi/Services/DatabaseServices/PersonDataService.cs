@@ -61,6 +61,28 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
 
             return result;
         }
+
+        public async Task<IEnumerable<Person>> GetPersonsWithRecentRealEstate(decimal minValue)
+        {
+            var query = await DbSet.Select(p => new
+            {
+                Person = p,
+                RealEstatesFromLatestAssetDeclaration = p.AssetDeclarations
+                                        .OrderByDescending(ad => ad.Date)
+                                        .Take(1)
+                                        .SelectMany(ad => ad.RealEstate).Where(re => re.Value >= minValue)
+            }).ToListAsync();
+
+            var persons = query.Select(x =>
+            {
+                var person = x.Person;
+                person.AssetDeclarations = new List<AssetDeclaration>() { new AssetDeclaration() { RealEstate = x.RealEstatesFromLatestAssetDeclaration?.ToList() } };
+                return person;
+            });
+
+            return persons;
+        }
+
     }
 }
 

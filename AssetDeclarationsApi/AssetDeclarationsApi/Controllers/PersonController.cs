@@ -34,11 +34,20 @@ namespace AssetDeclarationsApi.Controllers
         }
 
         [HttpGet]
+        [ActionName("GetAllWithRealEstate")]
+        public async Task<ActionResult<List<Person>>> GetAllWithRealEstate([FromQuery] decimal minValue = 0)
+        {
+            return Ok(await _personDataService.GetPersonsWithRecentRealEstate(minValue));
+        }
+
+        [HttpGet]
         [ActionName("GetHighlights")]
         public async Task<ActionResult<List<Person>>> GetHighlights()
         {
             return Ok(await _personDataService.GetHighlightsAsync());
         }
+
+
 
         [HttpPost]
         [ActionName("Create")]

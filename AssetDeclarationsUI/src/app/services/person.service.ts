@@ -12,8 +12,17 @@ export class PersonService {
 
   constructor(private http: HttpClient) {}
 
-  getPersons(): Observable<Person[]> {
+  getAll(): Observable<Person[]> {
     return this.http.get<Person[]>(`${environment.apiUrl}/${this.url}/GetAll`);
+  }
+
+  getAllWithRealEstate(minValue?: number): Observable<Person[]> {
+    let query = '';
+
+    if (minValue) query = `GetAllWithRealEstate?minValue=${minValue}`;
+    else query = `GetAllWithRealEstate`;
+
+    return this.http.get<Person[]>(`${environment.apiUrl}/${this.url}/${query}`);
   }
 
   getPerson(id: number): Observable<Person> {
@@ -22,7 +31,7 @@ export class PersonService {
 
   getPersonByLink(link: string): Observable<Person> {
     return new Observable<Person>((observer) => {
-      this.getPersons().subscribe(
+      this.getAll().subscribe(
         (persons) => {
           const matchingPerson = persons.find((person) => person.link === link);
 

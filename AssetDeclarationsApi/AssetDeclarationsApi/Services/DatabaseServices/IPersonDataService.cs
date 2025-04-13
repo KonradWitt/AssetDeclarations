@@ -8,5 +8,8 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
         Task<Person?> GetIncludingDetails(int id);
 
         Task<IEnumerable<Person>> GetHighlightsAsync();
+
+        Task<IEnumerable<Person>> GetPersonsWithRecentRealEstate(decimal minValue);
+
     }
 }
