@@ -1,4 +1,5 @@
 ﻿using AssetDeclarationsApi.Entities;
+using AssetDeclarationsApi.Utilities;
 
 namespace AssetDeclarationsApi.DTOs
 {
@@ -6,6 +7,8 @@ namespace AssetDeclarationsApi.DTOs
     {
         public int Id { get; set; }
         public string Name { get; set; }
+
+        public string Link { get => Name?.Trim().ToLower().ReplacePolishLetters().Replace(' ', '-'); }
 
         public List<RealEstate> RealEstate {get; set;}
     }

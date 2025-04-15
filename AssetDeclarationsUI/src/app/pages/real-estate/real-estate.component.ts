@@ -14,6 +14,9 @@ import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
+import { RealEstate } from '../../model/realEstate.type';
+import { MatTableModule } from '@angular/material/table';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-real-estate',
@@ -22,16 +25,18 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
     MatInputModule,
     FormsModule,
     MatFormFieldModule,
+    MatTableModule,
+    NumberSpacePipe,
   ],
   templateUrl: './real-estate.component.html',
   styleUrl: './real-estate.component.scss',
 })
 export class RealEstateComponent implements OnInit {
-  constructor(private personService: PersonService) {
-    
-  }
+  constructor(private personService: PersonService, private router: Router) {}
 
   minValue = signal<number>(100000);
+
+  topRealEstate = signal<RealEstate[]>([]);
 
   histogramData = signal<Map<number, number>>(new Map<number, number>());
 
@@ -78,6 +83,8 @@ export class RealEstateComponent implements OnInit {
     },
   };
 
+  topRealEstateColumns = ['owner', 'description', 'value'];
+
   private persons = Array<Person>();
 
   ngOnInit(): void {
@@ -85,9 +92,25 @@ export class RealEstateComponent implements OnInit {
       .getAllWithRealEstate(this.minValue())
       .subscribe((result) => {
         this.persons = result;
-        console.log(result);
         this.updateHistogram(this.persons, this.minValue());
+        this.updateTopRealEstate(this.persons);
       });
+  }
+
+  private updateTopRealEstate(persons: Person[]): void {
+    const filteredRealEstates = persons
+      .flatMap((person) =>
+        (person.realEstate ?? [])
+          .filter((r) => r != undefined)
+          .map((r) => ({ ...r, owner: person }))
+      )
+      .sort((a, b) => {
+        return (b?.value ?? 0) - (a?.value ?? 0);
+      })
+      .slice(0, 10);
+
+    this.topRealEstate.set(filteredRealEstates);
+    console.log(this.topRealEstate());
   }
 
   updateMinValue($event: Event) {
@@ -96,6 +119,14 @@ export class RealEstateComponent implements OnInit {
     this.minValue.set(newValue);
 
     this.updateHistogram(this.persons, this.minValue());
+  }
+
+  onTopRealEstateClicked(realEstate: RealEstate) {
+    if (realEstate && realEstate.owner) {
+      this.router.navigate(['polityk', realEstate.owner.link], {
+        state: { id: realEstate.owner.id },
+      });
+    }
   }
 
   private updateHistogram(persons: Person[], minValue: number): void {
