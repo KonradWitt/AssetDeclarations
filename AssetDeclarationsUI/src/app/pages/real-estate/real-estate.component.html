@@ -1,1 +1,31 @@
-<p>properties works!</p>
+<h3>Histogram</h3>
+
+<div>
+  Poniższy wykres obrazuje rozkład posiadanych nieruchomości o wartości powyżej
+
+  <input
+    matInput
+    type="number"
+    min="0"
+    step="10000"
+    [value]="minValue()"
+    (input)="updateMinValue($event)"
+  />
+  zł.*
+  <div class="explanation-text">
+    *Celem wyłączenia z analizy nieruchomości typu "miejsce postojowe" lub
+    podobnych.
+  </div>
+</div>
+
+<div class="chart-contaier">
+  <canvas
+    baseChart
+    [data]="this.barChartData()"
+    [options]="this.barChartOptions"
+    [type]="'bar'"
+  >
+  </canvas>
+</div>
+
+<h3>Najdroższe nieruchomości</h3>

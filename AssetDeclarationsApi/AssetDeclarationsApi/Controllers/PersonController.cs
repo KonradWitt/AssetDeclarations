@@ -1,9 +1,11 @@
-﻿using AssetDeclarationsApi.Entities;
+﻿using AssetDeclarationsApi.DTOs;
+using AssetDeclarationsApi.Entities;
 using AssetDeclarationsApi.Services.DatabaseServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.WebSockets;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography.Xml;
 
 namespace AssetDeclarationsApi.Controllers
 {
@@ -37,7 +39,9 @@ namespace AssetDeclarationsApi.Controllers
         [ActionName("GetAllWithRealEstate")]
         public async Task<ActionResult<List<Person>>> GetAllWithRealEstate([FromQuery] decimal minValue = 0)
         {
-            return Ok(await _personDataService.GetPersonsWithRecentRealEstate(minValue));
+            var persons = await _personDataService.GetPersonsWithRecentRealEstate(minValue);
+            var response = persons.Select(p => new PersonWithRealEstateDTO() { Id = p.Id, Name = p.Name, RealEstate = p.AssetDeclarations?.FirstOrDefault()?.RealEstate.ToList() ?? new List<RealEstate>() });
+            return Ok(response);
         }
 
         [HttpGet]

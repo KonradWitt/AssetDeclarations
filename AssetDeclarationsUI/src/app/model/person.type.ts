@@ -1,5 +1,6 @@
 import { AssetDeclaration } from './assetDeclaration.type';
 import { Party } from './party.type';
+import { RealEstate } from './realEstate.type';
 
 export type Person = {
   id: number;
@@ -13,4 +14,5 @@ export type Person = {
   party?: Party;
 
   assetDeclarations?: AssetDeclaration[];
+  realEstate?: RealEstate[];
 };

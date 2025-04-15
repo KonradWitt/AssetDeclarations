@@ -5,6 +5,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialog } from '@angular/material/dialog';
 import { AiContentWarningDialogComponent } from './dialogs/ai-content-warning-dialog/ai-content-warning-dialog.component';
+import { Chart } from 'chart.js';
 
 interface ILink {
   path: string;
@@ -31,7 +32,9 @@ export class AppComponent implements OnInit {
     { path: 'nieruchomosci', label: 'Nieruchomości' },
   ];
 
-  constructor(private dialogService: MatDialog) {}
+  constructor(private dialogService: MatDialog) {
+    Chart.defaults.backgroundColor = '#007bff';
+  }
 
   ngOnInit(): void {
     if (sessionStorage.getItem('ai-content-warning-displayed') != 'true') {
