@@ -175,7 +175,7 @@ export class RealEstateComponent implements OnInit {
     if (Number.isNaN(newValue)) {
       newValue = 0;
     }
-
+    this.minValue.set(newValue);
     this.updateHistogram(this.persons, this.minValue());
   }
 
