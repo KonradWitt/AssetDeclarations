@@ -9,7 +9,15 @@ import {
 import { PersonService } from '../../services/person.service';
 import { Person } from '../../model/person.type';
 import { BaseChartDirective } from 'ng2-charts';
-import { ChartConfiguration } from 'chart.js';
+import {
+  ActiveElement,
+  BubbleDataPoint,
+  Chart,
+  ChartConfiguration,
+  ChartEvent,
+  ChartTypeRegistry,
+  Point,
+} from 'chart.js';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -40,6 +48,9 @@ export class RealEstateComponent implements OnInit {
 
   histogramData = signal<Map<number, Person[]>>(new Map<number, Person[]>());
 
+  selectedPersons = signal<Person[]>([]);
+  selectedRealEstateNumber = signal<number | undefined>(undefined);
+
   barChartData = computed(() => {
     if (!this.histogramData() || this.histogramData().size === 0) {
       return undefined;
@@ -63,6 +74,9 @@ export class RealEstateComponent implements OnInit {
     maintainAspectRatio: false,
     plugins: {
       legend: { display: false },
+      tooltip: {
+        enabled: false,
+      },
     },
     scales: {
       x: {
@@ -84,7 +98,47 @@ export class RealEstateComponent implements OnInit {
         },
       },
     },
+    onClick: (event, elements, chart) =>
+      this.onChartClicked(event, elements, chart),
   };
+
+  private onChartClicked(
+    event: ChartEvent,
+    elements: ActiveElement[],
+    chart: Chart
+  ): void {
+    if (!elements || elements.length < 1) return;
+
+    const selectedBar = elements[0].index;
+    this.selectedRealEstateNumber.set(
+      Array.from(this.histogramData().keys())[selectedBar]
+    );
+
+    this.selectedPersons.set(
+      this.histogramData().get(this.selectedRealEstateNumber()!) ?? []
+    );
+
+    const datasetIndex = elements[0].datasetIndex;
+    const dataIndex = elements[0].index;
+
+    const dataset = chart.data.datasets[datasetIndex];
+
+    const highlightColor = '#333';
+    const defaultColor = Chart.defaults.backgroundColor.toString();
+
+    if (!Array.isArray(dataset.backgroundColor)) {
+      const originalColor = dataset.backgroundColor as string;
+      dataset.backgroundColor = new Array(dataset.data.length).fill(
+        originalColor
+      );
+    }
+
+    dataset.backgroundColor = dataset.backgroundColor.map(() => defaultColor);
+
+    (dataset.backgroundColor as string[])[dataIndex] = highlightColor;
+
+    chart.update();
+  }
 
   topRealEstateColumns = ['owner', 'description', 'value'];
 
@@ -113,13 +167,14 @@ export class RealEstateComponent implements OnInit {
       .slice(0, 10);
 
     this.topRealEstate.set(filteredRealEstates);
-    console.log(this.topRealEstate());
   }
 
   updateMinValue($event: Event) {
     const input = ($event.target as HTMLInputElement).value;
-    const newValue = parseInt(input);
-    this.minValue.set(newValue);
+    let newValue = parseInt(input);
+    if (Number.isNaN(newValue)) {
+      newValue = 0;
+    }
 
     this.updateHistogram(this.persons, this.minValue());
   }

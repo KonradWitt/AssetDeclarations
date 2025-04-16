@@ -28,8 +28,8 @@ export class AppComponent implements OnInit {
   title = 'AssetDeclarationsUI';
 
   navLinks = [
-    { path: '', label: 'Strona główna' },
-    { path: 'nieruchomosci', label: 'Nieruchomości' },
+    { path: '', label: 'Znajdź polityka' },
+    { path: 'nieruchomosci', label: 'Przegląd nieruchomości' },
   ];
 
   constructor(private dialogService: MatDialog) {
