@@ -38,7 +38,7 @@ export class RealEstateComponent implements OnInit {
 
   topRealEstate = signal<RealEstate[]>([]);
 
-  histogramData = signal<Map<number, number>>(new Map<number, number>());
+  histogramData = signal<Map<number, Person[]>>(new Map<number, Person[]>());
 
   barChartData = computed(() => {
     if (!this.histogramData() || this.histogramData().size === 0) {
@@ -50,7 +50,10 @@ export class RealEstateComponent implements OnInit {
         key.toString()
       ),
       datasets: [
-        { data: Array.from(this.histogramData().values()), label: 'Polityków' },
+        {
+          data: Array.from(this.histogramData().values()).map((x) => x.length),
+          label: 'Polityków',
+        },
       ],
     } as ChartConfiguration<'bar'>['data'];
   });
@@ -132,7 +135,7 @@ export class RealEstateComponent implements OnInit {
   private updateHistogram(persons: Person[], minValue: number): void {
     const filteredPersons = this.filterPersons(persons, minValue);
 
-    const histogram = new Map<number, number>();
+    const histogram = new Map<number, Person[]>();
 
     for (const person of filteredPersons) {
       if (person === undefined) {
@@ -140,11 +143,12 @@ export class RealEstateComponent implements OnInit {
       }
 
       const numberOfRealEstate = person.realEstate?.length ?? 0;
-
-      histogram.set(
-        numberOfRealEstate,
-        (histogram.get(numberOfRealEstate) || 0) + 1
-      );
+      const personsGroup = histogram.get(numberOfRealEstate);
+      if (personsGroup) {
+        personsGroup.push(person);
+      } else {
+        histogram.set(numberOfRealEstate, [person]);
+      }
     }
 
     const sortedHistogram = new Map(
