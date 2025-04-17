@@ -7,8 +7,8 @@ input {
 }
 
 .chart-contaier {
-  margin: 20px 0px;
-  height: 100%;
+  position: relative;
+  min-height: 300px;
 }
 
 .explanation-text {
@@ -18,6 +18,10 @@ input {
 .top-table-container {
   margin: 0 auto;
   display: block;
+}
+
+mat-divider {
+  border-color: var(--mat-sys-outline-variant);
 }
 
 table {
@@ -43,7 +47,6 @@ table {
 
 .histogram-container {
   width: 100%;
-  height: 400px;
   box-sizing: border-box;
   overflow-x: hidden;
 }
@@ -57,15 +60,16 @@ table {
   box-sizing: border-box;
   padding: 1rem;
   overflow: hidden;
+  width: 60%;
 }
 
 .column:nth-child(2) {
-  width: 30%;
+  width: 40%;
 }
 
 .scroller {
   overflow-y: auto;
-  height: 400px;
+  height: 200px;
 }
 
 .chart-container {

@@ -25,11 +25,13 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 import { RealEstate } from '../../model/realEstate.type';
 import { MatTableModule } from '@angular/material/table';
 import { Router } from '@angular/router';
+import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
   selector: 'app-real-estate',
   imports: [
     BaseChartDirective,
+    MatDividerModule,
     MatInputModule,
     FormsModule,
     MatFormFieldModule,
@@ -206,11 +208,15 @@ export class RealEstateComponent implements OnInit {
       }
     }
 
-    const sortedHistogram = new Map(
-      [...histogram.entries()].sort((a, b) => a[0] - b[0])
-    );
+    const fullHistogram = new Map<number, Person[]>();
 
-    this.histogramData.set(sortedHistogram);
+    const numOfProperties = Array.from(histogram.keys());
+    const maxNumOfProperties = Math.max(...numOfProperties);
+    for (let i = 0; i <= maxNumOfProperties; i++) {
+      fullHistogram.set(i, histogram.get(i) ?? []);
+    }
+
+    this.histogramData.set(fullHistogram);
   }
 
   private filterPersons(persons: Person[], minValue: number): Person[] {

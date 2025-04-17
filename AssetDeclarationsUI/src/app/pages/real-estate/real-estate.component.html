@@ -1,6 +1,5 @@
-<h3>Histogram</h3>
-
-<div>
+<div class="histogram-container">
+  <h3>Histogram</h3>
   Poniższy wykres obrazuje rozkład posiadanych nieruchomości o wartości powyżej
 
   <input
@@ -16,9 +15,6 @@
     *Celem wyłączenia z analizy nieruchomości typu "miejsce postojowe" lub
     podobnych.
   </div>
-</div>
-
-<div class="histogram-container">
   <div class="row">
     <div class="column">
       <div class="chart-contaier">
@@ -49,7 +45,7 @@
     </div>
   </div>
 </div>
-
+<mat-divider />
 <div class="top-table-container">
   <h3>Najdroższe nieruchomości</h3>
   <table mat-table [dataSource]="topRealEstate()">
