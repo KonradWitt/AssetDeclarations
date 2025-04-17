@@ -19,5 +19,22 @@ namespace AssetDeclarationsApi.Data
         public DbSet<Income> Incomes { get; set; }
         public DbSet<Receivable> Receivables { get; set; }
         public DbSet<BusinessActivity> BusinessActivities { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Party>().HasData(
+        new Party { Id = 1, Name = "Koalicja Obywatelska" },
+        new Party { Id = 2, Name = "Konfederacja" },
+        new Party { Id = 3, Name = "Lewica" },
+        new Party { Id = 4, Name = "Niezrzeszeni" },
+        new Party { Id = 5, Name = "PSL" },
+        new Party { Id = 6, Name = "Polska 2050" },
+        new Party { Id = 7, Name = "Prawo i Sprawiedliwość" },
+        new Party { Id = 8, Name = "Razem" },
+        new Party { Id = 9, Name = "Wolni Republikanie" }
+    );
+        }
     }
 }
