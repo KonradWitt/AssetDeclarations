@@ -6,7 +6,8 @@ namespace AssetDeclarationsApi.Entities
     public class Person
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string PlaceOfBirth { get; set; }
 
@@ -20,9 +21,13 @@ namespace AssetDeclarationsApi.Entities
         public bool IsHighlight { get; set; }
 
         [NotMapped]
+        public string FullName { get => FirstName + ' ' + LastName; }
+
+
+        [NotMapped]
         public string Link
         {
-            get => Name?.Trim().ToLower().ReplacePolishLetters().Replace(' ', '-');
+            get => FullName?.Trim().ToLower().ReplacePolishLetters().Replace(' ', '-');
         }
     }
 }

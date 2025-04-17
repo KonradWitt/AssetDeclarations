@@ -16,7 +16,7 @@
     >
       @for (person of filteredPersons | async; track person) {
       <mat-option class="autocomplete-option" [value]="person">{{
-        person.name
+        person.fullName
       }}</mat-option>
       }
     </mat-autocomplete>

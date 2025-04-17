@@ -5,7 +5,8 @@ import { RealEstate } from './realEstate.type';
 export type Person = {
   id: number;
   link: string;
-  name: string;
+  fullName: string;
+  lastName: string;
   placeOfBirth: string;
   dateOfBirth: Date;
   imageUrl: string;

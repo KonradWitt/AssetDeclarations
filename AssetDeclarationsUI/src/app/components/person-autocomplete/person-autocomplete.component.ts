@@ -54,7 +54,7 @@ export class PersonAutocompleteComponent implements OnInit {
   }
 
   getPersonName(person: Person): string {
-    return person?.name;
+    return person?.fullName;
   }
 
   private filterPersons(persons: Person[], name: string): Person[] {
@@ -67,7 +67,7 @@ export class PersonAutocompleteComponent implements OnInit {
 
     const filterValue = name.toLowerCase();
     return persons.filter((person) =>
-      person.name.toLowerCase().includes(filterValue)
+      person.fullName.toLowerCase().includes(filterValue)
     );
   }
 }
