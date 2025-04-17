@@ -13,12 +13,11 @@ namespace AssetDeclarationsApi.Services.DatabaseServices
 
         public async Task<Person?> GetIncludingDetails(int id)
         {
-            var person = DbSet.FirstOrDefault(x => x.Id == id);
+            var person = DbSet.Include(x => x.Party).FirstOrDefault(x => x.Id == id);
             if (person is null)
             {
                 return null;
             }
-
             person.AssetDeclarations = await Context.AssetDeclarations.Where(x => x.PersonId == person.Id).ToListAsync();
             foreach (var ad in person.AssetDeclarations)
             {

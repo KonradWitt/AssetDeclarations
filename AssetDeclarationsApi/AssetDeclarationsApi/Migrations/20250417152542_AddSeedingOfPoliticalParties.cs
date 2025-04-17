@@ -21,7 +21,7 @@ namespace AssetDeclarationsApi.Migrations
                     { 2, "Konfederacja" },
                     { 3, "Lewica" },
                     { 4, "Niezrzeszeni" },
-                    { 5, "PSL" },
+                    { 5, "Polskie Stronnictwo Ludowe" },
                     { 6, "Polska 2050" },
                     { 7, "Prawo i Sprawiedliwość" },
                     { 8, "Razem" },

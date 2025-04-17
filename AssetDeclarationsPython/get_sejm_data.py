@@ -52,8 +52,12 @@ for link in links:
                 if not pdfUrl:
                     pdfUrl = 'err'
                 # print(pdfUrl)
+                
+                partyXPath = '//*[@id="view:_id1:_id2:facetMain:_id108:klub"]'
+                party = session.get_text_from_element_by_xpath(partyXPath)
+                #print(party)
 
-                writer.writerow([deputyName, pdfUrl, imgUrl])
+                writer.writerow([deputyName, party, pdfUrl, imgUrl])
                 if (pdfUrl != 'err'):
                     with SeleniumSession(pdfUrl, directory) as session:
                         time.sleep(5)

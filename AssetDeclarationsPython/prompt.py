@@ -40,17 +40,19 @@ Szczegółowe Instrukcje dla Poszczególnych Modeli i Pól:
 
 
 Person:
-name: Wyekstrahuj pełne imię i nazwisko osoby składającej oświadczenie (np. "Sławomir Jerzy Mentzen"). Imię ma pochodzić z pliku CSV, ale jeżli informacja w pliku CSV i w oświadczeniu majątkowym się nie zgadza, zwróć błąd.Nie zwracaj błędu jedynie jeżeli różnica wynika z uwzględnienia drugiego imienia w jednym ze źródeł - w takim przypadku kontynuuj z imieniem zgodnie z plikiem CSV.
+firstName: Wyekstrahuj imię osoby składającej oświadczenie (np. "Sławomir"). Imię ma pochodzić z pliku CSV, ale jeżli informacja w pliku CSV i w oświadczeniu majątkowym się nie zgadza, zwróć błąd. Nie zwracaj błędu jedynie jeżeli różnica wynika z uwzględnienia drugiego imienia w jednym ze źródeł - w takim przypadku kontynuuj z imieniem zgodnie z plikiem CSV. Interesuje mnie tylko pierwsze imię, jeżeli osoba ma więcej imion, zignoruj je.
+lastName: Wyekstrahuj nazwisko (np. “Mentzen”). Przestrzegaj tych samych zasad, które dotyczą pola firstName.
 dateOfBirth: Wyekstrahuj datę urodzenia. W oświadczeniu będzie prawdopodobnie w formacie DD.MM.RRRR (np. "20.11.1986"). Przekonwertuj ją do formatu YYYY-MM-DDTHH:mm:ss, używając T00:00:00 jako części czasowej (np. "1986-11-20T00:00:00").
 placeOfBirth: Wyekstrahuj miejsce urodzenia (np. "w Toruniu" -> "Toruń").
-imageUrl będzie dostarczone razem z danymi wejściowymi.
+imageUrl będzie dostarczone razem z danymi wejściowymi w pliku CSV.
 assetDeclarations: lista oświadczeń majątkowych. W Twoim wynikowym JSONie, ta lista powinna mieć jeden element.
-Pozostałe pola (partyId,  isHighlight) pozostaw jako null lub zgodnie z ich domyślnymi wartościami w modelu, chyba że informacja jest dostępna (co jest mało prawdopodobne w typowym oświadczeniu).
+partyId: informacja znajduje się w pliku CSV razem z danymi wejściowymi. Dokonaj możliwie najlepszego mapowania z dostarczonej nazwy partii na oczekiwany numer Id: Koalicja Obywatelska - 1, Konfederacja - 2, Lewica - 3, Niezrzeszeni - 4, Polskie Stronnictwo Ludowe - 5, Polska 2050 - 6, Prawo i Sprawiedliwość - 7, Razem - 8, Wolni Republikanie - 9. Nazwa partii w pliku CSV nie będzie idealnie odpowiadać nazwom z dostarczonej listy, ale będzie możliwe znalezienie jednoznacznego odpowiednika. Jeżeli nie znajdziesz odpowienika, zwróć błąd.
+Pozostałe pola pozostaw jako null lub zgodnie z ich domyślnymi wartościami w modelu, chyba że informacja jest dostępna (co jest mało prawdopodobne w typowym oświadczeniu).
 
 
 AssetDeclaration:
 date: Wyekstrahuj datę złożenia oświadczenia. Zazwyczaj znajduje się na końcu dokumentu obok podpisu (np. "22 kwietnia 2024 r."). Przekonwertuj ją do formatu YYYY-MM-DDTHH:mm:ss (np. "2024-04-22T00:00:00").
-documentUrl: będzie dostarczone razem z danymi wejściowymi.
+documentUrl: będzie dostarczone razem z danymi wejściowymi w pliku CSV.
 
 
 cashPositions (Tablica CashPosition):
@@ -130,116 +132,4 @@ Pytania i Niejasności:
 Jeśli napotkasz jakiekolwiek niejasności w tekście źródłowym lub w interpretacji zasad, lepiej zadać pytanie wyjaśniające, niż wygenerować niepoprawne dane.
 
 Twoją odpowiedzią powinien być tylko i wyłącznie wynikowy obiekt JSON. Jeżeli napotkasz jakikolwiek problem lub będziesz miał jakąkolwiek wątpliwość, nie zwracaj obiektu JSON, a zamiast tego rozpocznij wiadomość zwrotną od “error”, a później opisz w czym problem.
-"""
-
-
-test ="""
-{
-  "name": "Andrzej Adamczyk",
-  "dateOfBirth": "1959-01-04T00:00:00",
-  "placeOfBirth": "Krzeszowice",
-  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/88B85DA957FD27D3C1258A51003B9AFF/$File/001.jpg",
-  "assetDeclarations": [
-    {
-      "date": "2024-04-29T00:00:00",
-      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C921BFB762E770D8C1258B1600300D89/%24File/OSW101_001.pdf",
-      "cashPositions": [
-        {
-          "currency": "PLN",
-          "currencyValue": 446015.08,
-          "baseValue": 446015.08,
-          "description": "wspólność majątkowa"
-        },
-        {
-          "currency": "EUR",
-          "currencyValue": 3100.0,
-          "baseValue": 13391.69,
-          "description": "wspólność majątkowa"
-        },
-        {
-          "currency": "USD",
-          "currencyValue": 420.0,
-          "baseValue": 1692.56,
-          "description": "wspólność majątkowa"
-        }
-      ],
-      "securityPositions": [
-        {
-          "name": "Udziały w Spółka z o.o. Agrokompleks w Sance",
-          "quantity": "342",
-          "value": 17100.0
-        }
-      ],
-      "realEstate": [
-        {
-          "description": "Dom o powierzchni 187,1 m²",
-          "value": 520000.0,
-          "legalTitle": "Własność"
-        },
-        {
-          "description": "Działki budowlane (11,20 a i 8,58 a)",
-          "value": 350000.0,
-          "legalTitle": "Własność"
-        },
-        {
-          "description": "Udziały w działkach drogowych (nr 3: 84/1176 z 2,142 a; nr 5: 1/2 z 0,84 a)",
-          "value": 2000.0,
-          "legalTitle": "Własność"
-        },
-        {
-          "description": "Udział 1/4 w działce drogowej (nr 4: 0,365 a)",
-          "value": 400.0,
-          "legalTitle": "Własność"
-        },
-        {
-          "description": "Udział 84/1176 w działce drogowej (nr 6: 1 a)",
-          "value": 500.0,
-          "legalTitle": "Własność"
-        },
-        {
-          "description": "Działka budowlana (nr 7: 6,77 a)",
-          "value": 120000.0,
-          "legalTitle": "Własność"
-        },
-        {
-          "description": "Udział 1/2 w działce (nr 8: 0,30 a)",
-          "value": 2000.0,
-          "legalTitle": "Własność"
-        },
-        {
-          "description": "Działka (nr 9: 0,46 a)",
-          "value": 8000.0,
-          "legalTitle": "Własność"
-        }
-      ],
-      "liabilities": [],
-      "personalProperties": [
-        {
-          "description": "Samochód osobowy Volkswagen Passat 2.0 TDI, rok produkcji 2005",
-          "value": null
-        },
-        {
-          "description": "Samochód osobowy Audi A6, rok produkcji 2013",
-          "value": null
-        }
-      ],
-      "incomes": [
-        {
-          "description": "Dieta parlamentarna",
-          "yearlyValue": 45679.92
-        },
-        {
-          "description": "Dochód uzyskany w Ministerstwie Infrastruktury",
-          "yearlyValue": 247112.64
-        },
-        {
-          "description": "Dochód z udziałów w Spółka z o.o. Agrokompleks w Sance",
-          "yearlyValue": 5000.0
-        }
-      ],
-      "receivables": [],
-      "businessActivities": []
-    }
-  ]
-}
 """

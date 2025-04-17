@@ -40,7 +40,7 @@ namespace AssetDeclarationsApi.Controllers
         public async Task<ActionResult<List<Person>>> GetAllWithRealEstate([FromQuery] decimal minValue = 0)
         {
             var persons = await _personDataService.GetPersonsWithRecentRealEstate(minValue);
-            var response = persons.Select(p => new PersonWithRealEstateDTO() { Id = p.Id, Name = p.FullName, RealEstate = p.AssetDeclarations?.FirstOrDefault()?.RealEstate.ToList() ?? new List<RealEstate>() });
+            var response = persons.Select(p => new PersonWithRealEstateDTO() { Id = p.Id, FirstName = p.FirstName, LastName = p.LastName, RealEstate = p.AssetDeclarations?.FirstOrDefault()?.RealEstate.ToList() ?? new List<RealEstate>() });
             return Ok(response);
         }
 
