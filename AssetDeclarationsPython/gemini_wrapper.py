@@ -9,7 +9,7 @@ class GeminiWrapper:
 
     def __init__(self, api_key: str):
         self.__client = genai.Client(api_key=api_key)
-        self.__model = 'gemini-2.5-pro-exp-03-25'
+        self.__model = 'gemini-2.5-flash-preview-04-17'
 
     def prompt(self, prompt: str) -> str:
         response = self.__client.models.generate_content(

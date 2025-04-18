@@ -37,6 +37,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatFormFieldModule,
     MatTableModule,
     NumberSpacePipe,
+    FormsModule 
   ],
   templateUrl: './real-estate.component.html',
   styleUrl: './real-estate.component.scss',
@@ -171,12 +172,7 @@ export class RealEstateComponent implements OnInit {
     this.topRealEstate.set(filteredRealEstates);
   }
 
-  updateMinValue($event: Event) {
-    const input = ($event.target as HTMLInputElement).value;
-    let newValue = parseInt(input);
-    if (Number.isNaN(newValue)) {
-      newValue = 0;
-    }
+  updateMinValue(newValue: number) {
     this.minValue.set(newValue);
     this.updateHistogram(this.persons, this.minValue());
   }

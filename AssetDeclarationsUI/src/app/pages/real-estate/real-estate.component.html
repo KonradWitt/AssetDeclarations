@@ -7,8 +7,8 @@
     type="number"
     min="0"
     step="10000"
-    [value]="minValue()"
-    (input)="updateMinValue($event)"
+    [ngModel] = "minValue()"
+    (ngModelChange)="updateMinValue($event)"
   />
   zł.* Kliknij na wykres, aby zobaczyć polityków należących do wybranej grupy.
   <div class="explanation-text">
