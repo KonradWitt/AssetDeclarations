@@ -38,7 +38,7 @@ export class PersonAutocompleteComponent implements OnInit {
   personService = inject(PersonService);
 
   minimumMatchingLetters = input<number>();
-  selectedPerson = output<Person>();
+  personSelected = output<Person>();
 
   formControl = new FormControl();
   filteredPersons = new Observable<Person[]>();

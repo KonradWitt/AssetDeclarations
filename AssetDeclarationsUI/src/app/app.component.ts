@@ -30,6 +30,7 @@ export class AppComponent implements OnInit {
   navLinks = [
     { path: '', label: 'Znajdź polityka' },
     { path: 'nieruchomosci', label: 'Przegląd nieruchomości' },
+    { path: 'edytuj', label: 'Edytuj' },
   ];
 
   constructor(private dialogService: MatDialog) {

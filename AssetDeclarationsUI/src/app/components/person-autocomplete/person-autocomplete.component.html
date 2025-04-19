@@ -12,7 +12,7 @@
     <mat-autocomplete
       #auto="matAutocomplete"
       [displayWith]="getPersonName"
-      (optionSelected)="selectedPerson.emit($event.option.value)"
+      (optionSelected)="personSelected.emit($event.option.value)"
     >
       @for (person of filteredPersons | async; track person) {
       <mat-option class="autocomplete-option" [value]="person">{{

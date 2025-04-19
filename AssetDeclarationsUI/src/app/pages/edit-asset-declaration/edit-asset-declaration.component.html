@@ -1,0 +1,12 @@
+<app-person-autocomplete (personSelected)="onPersonSelected($event)" />
+<div>{{ this.person()?.fullName }}</div>
+<mat-tab-group mat-stretch-tabs="false">
+  @for (assertDeclaration of this.person()?.assetDeclarations; track
+  assertDeclaration.date ){ @if (assertDeclaration && assertDeclaration.date) {
+  <mat-tab
+    [label]="(assertDeclaration.date | date : 'yyyy') ?? 'invalid date'"
+    class="assert-declarations-tab"
+    >Content 1 </mat-tab
+  >
+  } }
+</mat-tab-group>
