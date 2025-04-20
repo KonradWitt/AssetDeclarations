@@ -1,12 +1,34 @@
 <app-person-autocomplete (personSelected)="onPersonSelected($event)" />
 <div>{{ this.person()?.fullName }}</div>
-<mat-tab-group mat-stretch-tabs="false">
-  @for (assertDeclaration of this.person()?.assetDeclarations; track
-  assertDeclaration.date ){ @if (assertDeclaration && assertDeclaration.date) {
+<mat-tab-group
+  mat-stretch-tabs="false"
+  (selectedIndexChange)="onSelectedAssetDeclarationChanged($event)"
+>
+  @for (assetDeclaration of this.person()?.assetDeclarations; track
+  assetDeclaration.date ){ @if (assetDeclaration && assetDeclaration.date) {
   <mat-tab
-    [label]="(assertDeclaration.date | date : 'yyyy') ?? 'invalid date'"
+    [label]="(assetDeclaration.date | date : 'yyyy') ?? 'invalid date'"
     class="assert-declarations-tab"
-    >Content 1 </mat-tab
   >
+    <div class="card-container">
+      <card title="Gotówka" class="card">
+        <content>
+          <app-data-grid
+            [columns]="[
+              { key: 'currency', header: 'Waluta', type: 'text' },
+              {
+                key: 'currencyValue',
+                header: 'Wartość waluty',
+                type: 'number'
+              },
+              { key: 'baseValue', header: 'Wartość zł', type: 'number' }
+            ]"
+            [data]="assetDeclaration.cashPositions"
+            (dataChange)="onDatachanged($event)"
+          ></app-data-grid>
+        </content>
+      </card>
+    </div>
+  </mat-tab>
   } }
 </mat-tab-group>

@@ -33,7 +33,7 @@ export class PersonalDataCardComponent {
     if (!this.person()) return;
 
     this.lastDeclaration.set(
-      this.person()!.assetDeclarations?.sort((x) => x.date.getTime())[
+      this.person()!.assetDeclarations?.sort((x) => new Date(x.date).getTime())[
         this.person()!.assetDeclarations!.length - 1
       ]
     );

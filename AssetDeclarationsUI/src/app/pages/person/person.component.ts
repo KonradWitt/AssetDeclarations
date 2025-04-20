@@ -13,9 +13,9 @@ import { DeclarationsCardComponent } from '../../components/declarations-card/de
 import { PersonalPropertiesCardComponent } from '../../components/personal-properties-card/personal-properties-card.component';
 import { IncomeCardComponent } from '../../components/income-card/income-card.component';
 import { SecuritiesCardComponent } from '../../components/securities-card/securities-card.component';
-import { LiabilitiesCardComponent } from "../../components/liabilities-card/liabilities-card.component";
-import { ReceivablesCardComponent } from "../../components/receivables-card/receivables-card.component";
-import { BusinessActivitiesCardComponent } from "../../components/business-activities-card/business-activities-card.component";
+import { LiabilitiesCardComponent } from '../../components/liabilities-card/liabilities-card.component';
+import { ReceivablesCardComponent } from '../../components/receivables-card/receivables-card.component';
+import { BusinessActivitiesCardComponent } from '../../components/business-activities-card/business-activities-card.component';
 
 @Component({
   selector: 'app-person',
@@ -33,8 +33,8 @@ import { BusinessActivitiesCardComponent } from "../../components/business-activ
     SecuritiesCardComponent,
     LiabilitiesCardComponent,
     ReceivablesCardComponent,
-    BusinessActivitiesCardComponent
-],
+    BusinessActivitiesCardComponent,
+  ],
   templateUrl: './person.component.html',
   styleUrl: './person.component.scss',
 })
@@ -43,7 +43,7 @@ export class PersonComponent {
   selectedPerson = signal<Person | undefined>(undefined);
   lastDeclaration = computed(() => {
     return this.selectedPerson()?.assetDeclarations?.sort((x) =>
-      x.date.getTime()
+      new Date(x.date).getTime()
     )[this.selectedPerson()!.assetDeclarations!.length - 1];
   });
 
