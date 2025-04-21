@@ -12,7 +12,14 @@
       @switch (col.type) { @case('text'){
       <td mat-cell *matCellDef="let element">
         <mat-form-field>
-          <input matInput [(ngModel)]="element[col.key]" />
+          <textarea
+            matInput
+            [(ngModel)]="element[col.key]"
+            rows="1"
+            cdkAutosizeMaxRows="5"
+            cdkTextareaAutosize="true"
+          >
+          </textarea>
         </mat-form-field>
       </td>
       } @case('number'){

@@ -10,3 +10,13 @@ main {
 table {
   background-color: transparent;
 }
+
+mat-form-field
+{
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  overflow: hidden;
+}

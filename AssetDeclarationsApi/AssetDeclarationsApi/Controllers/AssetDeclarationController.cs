@@ -30,6 +30,7 @@ namespace AssetDeclarationsApi.Controllers
             assetDeclaration.Receivables?.ToList().ForEach(x => x.Id = 0);
             assetDeclaration.BusinessActivities?.ToList().ForEach(x => x.Id = 0);
 
+            assetDeclaration.CalculateNetValue();
 
             await _assetDeclarationDataService.UpdateAsync(assetDeclaration);
             return Ok();

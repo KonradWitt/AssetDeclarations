@@ -1,5 +1,5 @@
 <app-person-autocomplete (personSelected)="onPersonSelected($event)" />
-<div>{{ this.person()?.fullName }}</div>
+<h2>{{ this.person()?.fullName }}</h2>
 <mat-tab-group
   mat-stretch-tabs="false"
   (selectedIndexChange)="onSelectedAssetDeclarationChanged($event)"
@@ -24,7 +24,103 @@
               { key: 'baseValue', header: 'Wartość zł', type: 'number' }
             ]"
             [data]="assetDeclaration.cashPositions"
-            (dataChange)="onDatachanged($event)"
+            (dataChange)="onCashPositionsChanged($event)"
+          ></app-data-grid>
+        </content>
+      </card>
+    </div>
+    <div class="card-container">
+      <card title="Nieruchomości" class="card">
+        <content>
+          <app-data-grid
+            [columns]="[
+              { key: 'description', header: 'Opis', type: 'text' },
+              {
+                key: 'legalTitle',
+                header: 'Tytuł Prawny',
+                type: 'text'
+              },
+              { key: 'value', header: 'Wartość zł', type: 'number' }
+            ]"
+            [data]="assetDeclaration.realEstate"
+            (dataChange)="onRealEstateChanged($event)"
+          ></app-data-grid>
+        </content>
+      </card>
+    </div>
+    <div class="card-container">
+      <card title="Działalność zawodowa" class="card">
+        <content>
+          <app-data-grid
+            [columns]="[
+              { key: 'businessName', header: 'Nazwa', type: 'text' },
+              {
+                key: 'businessType',
+                header: 'Rodzaj',
+                type: 'text'
+              },
+              { key: 'description', header: 'Opis', type: 'text' },
+              { key: 'income', header: 'Dochód', type: 'number' }
+            ]"
+            [data]="assetDeclaration.businessActivities"
+            (dataChange)="onBusinessActivityChanged($event)"
+          ></app-data-grid>
+        </content>
+      </card>
+    </div>
+    <div class="card-container">
+      <card title="Dochody" class="card">
+        <content>
+          <app-data-grid
+            [columns]="[
+              { key: 'description', header: 'Opis', type: 'text' },
+              { key: 'yearlyValue', header: 'Dochód', type: 'number' }
+            ]"
+            [data]="assetDeclaration.incomes"
+            (dataChange)="onIncomesChanged($event)"
+          ></app-data-grid>
+        </content>
+      </card>
+    </div>
+    <div class="card-container">
+      <card title="Papiery wartościowe" class="card">
+        <content>
+          <app-data-grid
+            [columns]="[
+              { key: 'name', header: 'Nazwa', type: 'text' },
+              { key: 'quantity', header: 'Ilość', type: 'number' },
+              { key: 'value', header: 'Wartość', type: 'number' }
+            ]"
+            [data]="assetDeclaration.securityPositions"
+            (dataChange)="onSecurityPositionsChanged($event)"
+          ></app-data-grid>
+        </content>
+      </card>
+    </div>
+    <div class="card-container">
+      <card title="Zobowiązania" class="card">
+        <content>
+          <app-data-grid
+            [columns]="[
+              { key: 'description', header: 'Opis', type: 'text' },
+              { key: 'value', header: 'Wartość', type: 'number' }
+            ]"
+            [data]="assetDeclaration.liabilities"
+            (dataChange)="onLiabilitiesChanged($event)"
+          ></app-data-grid>
+        </content>
+      </card>
+    </div>
+    <div class="card-container">
+      <card title="Należności" class="card">
+        <content>
+          <app-data-grid
+            [columns]="[
+              { key: 'description', header: 'Opis', type: 'text' },
+              { key: 'value', header: 'Wartość', type: 'number' }
+            ]"
+            [data]="assetDeclaration.receivables"
+            (dataChange)="onReceivablesChanged($event)"
           ></app-data-grid>
         </content>
       </card>

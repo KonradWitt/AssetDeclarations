@@ -2,6 +2,7 @@ import { Component, signal } from '@angular/core';
 import { PersonAutocompleteComponent } from '../../components/person-autocomplete/person-autocomplete.component';
 import { Person } from '../../model/person.type';
 import { AssetDeclaration } from '../../model/assetDeclaration.type';
+import { CashPosition } from '../../model/cashPosition.type';
 import { PersonService } from '../../services/person.service';
 import { MatTabsModule } from '@angular/material/tabs';
 import { DatePipe } from '@angular/common';
@@ -42,16 +43,62 @@ export class EditAssetDeclarationComponent {
     );
   }
 
-  onDatachanged(cashPositions: any[]) {
+  onCashPositionsChanged(cashPositions: any[]) {
     if (!this.assetDeclaration()) return;
 
-    const ad = this.assetDeclaration();
-    ad!.cashPositions = cashPositions;
+    this.assetDeclaration()!.cashPositions = cashPositions;
+    this.updateAssetDeclaration();
+  }
 
-    this.assetDeclarationService
-      .update(ad!.id, ad!)
-      .subscribe({
-        error: (err) => console.error('Update failed:', err),
-      });
+  onRealEstateChanged(realEstate: any[]) {
+    if (!this.assetDeclaration()) return;
+
+    this.assetDeclaration()!.realEstate = realEstate;
+    this.updateAssetDeclaration();
+  }
+
+  onBusinessActivityChanged(businessActivity: any[]) {
+    if (!this.assetDeclaration()) return;
+
+    this.assetDeclaration()!.businessActivities = businessActivity;
+    this.updateAssetDeclaration();
+  }
+
+  onIncomesChanged(incomes: any[]) {
+    if (!this.assetDeclaration()) return;
+
+    this.assetDeclaration()!.incomes = incomes;
+    this.updateAssetDeclaration();
+  }
+
+  onSecurityPositionsChanged(securityPositions: any[]) {
+    if (!this.assetDeclaration()) return;
+
+    this.assetDeclaration()!.securityPositions = securityPositions;
+    this.updateAssetDeclaration();
+  }
+
+  onLiabilitiesChanged(liabilities: any[]) {
+    if (!this.assetDeclaration()) return;
+    
+    this.assetDeclaration()!.liabilities = liabilities;
+    this.updateAssetDeclaration();
+  }
+
+  onReceivablesChanged(receivables: any[]) {
+    if (!this.assetDeclaration()) return;
+    
+    this.assetDeclaration()!.receivables = receivables;
+    this.updateAssetDeclaration();
+  }
+
+  private updateAssetDeclaration(): void {
+    if (!this.assetDeclaration()) return;
+
+    const ad = this.assetDeclaration()!;
+
+    this.assetDeclarationService.update(ad.id, ad).subscribe({
+      error: (err) => console.error('Update failed:', err),
+    });
   }
 }

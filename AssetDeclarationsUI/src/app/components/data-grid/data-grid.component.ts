@@ -21,6 +21,7 @@ import {
   transition,
   trigger,
 } from '@angular/animations';
+import { TextFieldModule } from '@angular/cdk/text-field';
 
 @Component({
   selector: 'app-data-grid',
@@ -31,6 +32,7 @@ import {
     MatTableModule,
     FormsModule,
     MatRippleModule,
+    TextFieldModule
   ],
   templateUrl: './data-grid.component.html',
   styleUrl: './data-grid.component.scss',
