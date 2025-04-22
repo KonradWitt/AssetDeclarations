@@ -1,4 +1,5 @@
 ﻿using AssetDeclarationsApi.DTOs;
+using AssetDeclarationsApi.DTOs.Person;
 using AssetDeclarationsApi.Entities;
 using AssetDeclarationsApi.Services.DatabaseServices;
 using Microsoft.AspNetCore.Http;
@@ -22,39 +23,55 @@ namespace AssetDeclarationsApi.Controllers
         }
 
         [HttpGet("{id}")]
-        [ActionName("Get")]
         public async Task<ActionResult<Person>> Get(int id)
         {
             return Ok(await _personDataService.GetIncludingDetails(id));
         }
 
         [HttpGet]
-        [ActionName("GetAll")]
         public async Task<ActionResult<List<Person>>> GetAll()
         {
             return Ok(await _personDataService.GetAllAsync());
         }
 
         [HttpGet]
-        [ActionName("GetAllWithRealEstate")]
         public async Task<ActionResult<List<Person>>> GetAllWithRealEstate([FromQuery] decimal minValue = 0)
         {
             var persons = await _personDataService.GetPersonsWithRecentRealEstate(minValue);
-            var response = persons.Select(p => new PersonWithRealEstateDTO() { Id = p.Id, FirstName = p.FirstName, LastName = p.LastName, RealEstate = p.AssetDeclarations?.FirstOrDefault()?.RealEstate.ToList() ?? new List<RealEstate>() });
+
+            var response = persons.Select(p => new GetAllWithRealEstateResponse()
+            {
+                Id = p.Id,
+                FirstName = p.FirstName,
+                LastName = p.LastName,
+                FullName = p.FullName,
+                Link = p.Link,
+                RealEstate = p.AssetDeclarations?.SingleOrDefault()?.RealEstate.ToList() ?? new List<RealEstate>()
+            });
+
             return Ok(response);
         }
 
         [HttpGet]
-        [ActionName("GetHighlights")]
-        public async Task<ActionResult<List<Person>>> GetHighlights()
+        public async Task<ActionResult<List<GetHighlightsResponse>>> GetHighlights()
         {
-            return Ok(await _personDataService.GetHighlightsAsync());
+            var persons = await _personDataService.GetHighlightsAsync();
+
+            var response = persons.Select(person => new GetHighlightsResponse()
+            {
+                Id = person.Id,
+                FullName = person.FullName,
+                Link = person.Link,
+                ImageUrl = person.ImageUrl,
+                NetWorth = person.AssetDeclarations?.FirstOrDefault()?.NetValue ?? 0
+            });
+
+            return Ok(response);
         }
 
 
 
         [HttpPost]
-        [ActionName("Create")]
         public async Task<ActionResult<Person>> Create([FromBody] Person person)
         {
             if (person == null)

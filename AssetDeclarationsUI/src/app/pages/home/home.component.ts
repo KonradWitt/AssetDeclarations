@@ -8,6 +8,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { Router } from '@angular/router';
 import { HighlightsCarouselComponent } from '../../components/highlights-carousel/highlights-carousel.component';
 import { MatDialog } from '@angular/material/dialog';
+import { PersonHighlight } from '../../model/personHighlight.interface';
 
 @Component({
   selector: 'app-home',
@@ -18,7 +19,7 @@ import { MatDialog } from '@angular/material/dialog';
     CommonModule,
     MatProgressSpinnerModule,
     HighlightsCarouselComponent,
-],
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
@@ -36,9 +37,9 @@ export class HomeComponent {
     });
   }
 
-  onHighlightPersonClicked(person: Person) {
-    this.router.navigate(['polityk', person.link], {
-      state: { id: person.id },
+  onHighlightPersonClicked(personHighlight: PersonHighlight) {
+    this.router.navigate(['polityk', personHighlight.link], {
+      state: { id: personHighlight.id },
     });
   }
 }

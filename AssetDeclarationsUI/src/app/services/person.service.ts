@@ -1,8 +1,17 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Person } from '../model/person.type';
-import { delay, Observable, of } from 'rxjs';
+import { delay, map, Observable, of } from 'rxjs';
 import { environment } from '../../environments/environment';
+import { PersonHighlight } from '../model/personHighlight.interface';
+
+interface GetHighlightsResponse {
+  id: number;
+  fullName: string;
+  link: string;
+  imageUrl: string;
+  netWorth: number;
+}
 
 @Injectable({
   providedIn: 'root',
@@ -22,7 +31,9 @@ export class PersonService {
     if (minValue) query = `GetAllWithRealEstate?minValue=${minValue}`;
     else query = `GetAllWithRealEstate`;
 
-    return this.http.get<Person[]>(`${environment.apiUrl}/${this.url}/${query}`);
+    return this.http.get<Person[]>(
+      `${environment.apiUrl}/${this.url}/${query}`
+    );
   }
 
   getPerson(id: number): Observable<Person> {
@@ -56,9 +67,21 @@ export class PersonService {
     });
   }
 
-  getHighlightsPersons(): Observable<Person[]> {
-    return this.http.get<Person[]>(
-      `${environment.apiUrl}/${this.url}/GetHighlights`
-    );
+  getHighlightsPersons(): Observable<PersonHighlight[]> {
+    return this.http
+      .get<GetHighlightsResponse[]>(
+        `${environment.apiUrl}/${this.url}/GetHighlights`
+      )
+      .pipe(
+        map((dtos) =>
+          dtos.map((dto) => ({
+            id: dto.id,
+            fullName: dto.fullName,
+            link: dto.link,
+            imageUrl: dto.imageUrl,
+            netWorth: dto.netWorth,
+          }))
+        )
+      );
   }
 }

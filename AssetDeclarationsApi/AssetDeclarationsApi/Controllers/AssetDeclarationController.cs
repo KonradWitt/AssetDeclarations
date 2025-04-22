@@ -17,8 +17,7 @@ namespace AssetDeclarationsApi.Controllers
         }
 
         [HttpPut("{id}")]
-        [ActionName("Put")]
-        public async Task<IActionResult> UpdateAssetDeclaration(int id, [FromBody] AssetDeclaration assetDeclaration)
+        public async Task<IActionResult> Update(int id, [FromBody] AssetDeclaration assetDeclaration)
         {
             assetDeclaration.Id = id;
             assetDeclaration.CashPositions?.ToList().ForEach(x => x.Id = 0);

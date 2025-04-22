@@ -14,6 +14,7 @@ import { Person } from '../../model/person.type';
 import { PersonService } from '../../services/person.service';
 import { delay } from 'rxjs';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
+import { PersonHighlight } from '../../model/personHighlight.interface';
 
 @Component({
   selector: 'highlights-carousel',
@@ -24,9 +25,9 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 export class HighlightsCarouselComponent implements OnInit {
   private readonly personService = inject(PersonService);
 
-  persons = signal<Person[] | undefined>([]);
+  persons = signal<PersonHighlight[] | undefined>([]);
   carouselPersons = computed(() => Array(100).fill(this.persons()).flat());
-  personClicked = output<Person>();
+  personClicked = output<PersonHighlight>();
   @ViewChild('carousel') carousel!: Carousel;
 
   constructor() {}
@@ -37,7 +38,7 @@ export class HighlightsCarouselComponent implements OnInit {
     });
   }
 
-  onPersonClicked(person: Person): void {
-    this.personClicked.emit(person);
+  onPersonClicked(personHighlight: PersonHighlight): void {
+    this.personClicked.emit(personHighlight);
   }
 }

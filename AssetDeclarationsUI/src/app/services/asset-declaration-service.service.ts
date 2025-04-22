@@ -17,7 +17,7 @@ export class AssetDeclarationServiceService {
     assetDeclaration: AssetDeclaration
   ): Observable<AssetDeclaration> {
     return this.http.put<AssetDeclaration>(
-      `${environment.apiUrl}/${this.url}/Put/${id}`,
+      `${environment.apiUrl}/${this.url}/Update/${id}`,
       assetDeclaration
     );
   }
