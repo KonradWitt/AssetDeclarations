@@ -2,25 +2,51 @@ import { Component, signal } from '@angular/core';
 import { PersonAutocompleteComponent } from '../../components/person-autocomplete/person-autocomplete.component';
 import { Person } from '../../model/person.type';
 import { AssetDeclaration } from '../../model/assetDeclaration.type';
-import { CashPosition } from '../../model/cashPosition.type';
 import { PersonService } from '../../services/person.service';
 import { MatTabsModule } from '@angular/material/tabs';
 import { DatePipe } from '@angular/common';
 import { AssetDeclarationServiceService } from '../../services/asset-declaration-service.service';
 import { DataGridComponent } from '../../components/data-grid/data-grid.component';
 import { CardComponent } from '../../components/card/card.component';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MAT_DATE_FORMATS, MatDateFormats, MatNativeDateModule } from '@angular/material/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+
+const MY_DATE_FORMATS: MatDateFormats = {
+  parse: {
+    dateInput: 'DD/MM/YYYY',
+  },
+  display: {
+    dateInput: 'DD/MM/YYYY',
+    monthYearLabel: 'MMMM YYYY',
+    dateA11yLabel: 'LL',
+    monthYearA11yLabel: 'MMMM YYYY',
+  },
+}
 
 @Component({
   selector: 'app-edit-asset-declaration',
   imports: [
     PersonAutocompleteComponent,
+    MatButtonModule,
     MatTabsModule,
+    MatNativeDateModule,
+    MatFormFieldModule,
+    FormsModule,
+    MatInputModule,
     DatePipe,
     DataGridComponent,
     CardComponent,
+    MatDatepickerModule
   ],
   templateUrl: './edit-asset-declaration.component.html',
   styleUrl: './edit-asset-declaration.component.scss',
+  providers: [
+    { provide: MAT_DATE_FORMATS, useValue: MY_DATE_FORMATS },
+  ]
 })
 export class EditAssetDeclarationComponent {
   constructor(
@@ -80,14 +106,14 @@ export class EditAssetDeclarationComponent {
 
   onLiabilitiesChanged(liabilities: any[]) {
     if (!this.assetDeclaration()) return;
-    
+
     this.assetDeclaration()!.liabilities = liabilities;
     this.updateAssetDeclaration();
   }
 
   onReceivablesChanged(receivables: any[]) {
     if (!this.assetDeclaration()) return;
-    
+
     this.assetDeclaration()!.receivables = receivables;
     this.updateAssetDeclaration();
   }

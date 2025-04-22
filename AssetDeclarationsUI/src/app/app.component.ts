@@ -31,6 +31,7 @@ export class AppComponent implements OnInit {
     { path: '', label: 'Znajdź polityka' },
     { path: 'nieruchomosci', label: 'Przegląd nieruchomości' },
     { path: 'edytuj', label: 'Edytuj' },
+    { path: 'login', label: 'Login' },
   ];
 
   constructor(private dialogService: MatDialog) {
