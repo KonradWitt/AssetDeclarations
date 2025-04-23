@@ -19,6 +19,7 @@ namespace AssetDeclarationsApi.Data
         public DbSet<Income> Incomes { get; set; }
         public DbSet<Receivable> Receivables { get; set; }
         public DbSet<BusinessActivity> BusinessActivities { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
