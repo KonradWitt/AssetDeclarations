@@ -15,7 +15,7 @@ def list_subdirs(path):
             if os.path.isdir(os.path.join(path, name))]
 
 
-for person_directory in list_subdirs(main_directory):
+for person_directory in list_subdirs(main_directory) [-10:]:
     print(person_directory)
     pdf = None
     csv = None

@@ -1,7 +1,6 @@
-export interface PersonHighlight {
-  id: number;
-  fullName: string;
-  link: string;
+import { PersonIdentifier } from "./personIdentifier.interface";
+
+export interface PersonHighlight extends PersonIdentifier {
   imageUrl: string;
   netWorth: number;
 }

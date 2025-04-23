@@ -1,6 +1,6 @@
 ﻿namespace AssetDeclarationsApi.DTOs
 {
-    public record BusinessActivityDto
+    public record BusinessActivityDTO
     (
         int Id,
         string? BusinessName,

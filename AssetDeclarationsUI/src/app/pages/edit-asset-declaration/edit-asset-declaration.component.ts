@@ -14,6 +14,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MAT_DATE_FORMATS, MatDateFormats, MatNativeDateModule } from '@angular/material/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { PersonIdentifier } from '../../model/personIdentifier.interface';
 
 const MY_DATE_FORMATS: MatDateFormats = {
   parse: {
@@ -57,7 +58,7 @@ export class EditAssetDeclarationComponent {
   person = signal<Person | undefined>(undefined);
   assetDeclaration = signal<AssetDeclaration | undefined>(undefined);
 
-  onPersonSelected(person: Person) {
+  onPersonSelected(person: PersonIdentifier) {
     this.personService
       .getPerson(person.id)
       .subscribe((result) => this.person.set(result));

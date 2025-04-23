@@ -4,6 +4,7 @@ import { Person } from '../model/person.type';
 import { delay, map, Observable, of } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { PersonHighlight } from '../model/personHighlight.interface';
+import { PersonIdentifier } from '../model/personIdentifier.interface';
 
 interface GetHighlightsResponse {
   id: number;
@@ -11,6 +12,16 @@ interface GetHighlightsResponse {
   link: string;
   imageUrl: string;
   netWorth: number;
+}
+
+interface GetAllResponse {
+  persons: GetAllResponsePersonDTO[];
+}
+
+interface GetAllResponsePersonDTO {
+  id: number;
+  fullName: string;
+  link: string;
 }
 
 @Injectable({
@@ -21,8 +32,18 @@ export class PersonService {
 
   constructor(private http: HttpClient) {}
 
-  getAll(): Observable<Person[]> {
-    return this.http.get<Person[]>(`${environment.apiUrl}/${this.url}/GetAll`);
+  getAll(): Observable<PersonIdentifier[]> {
+    return this.http
+      .get<GetAllResponse>(`${environment.apiUrl}/${this.url}/GetAll`)
+      .pipe(
+        map((dto) =>
+          dto.persons.map((personDTO) => ({
+            id: personDTO.id,
+            fullName: personDTO.fullName,
+            link: personDTO.link
+          }))
+        )
+      );
   }
 
   getAllWithRealEstate(minValue?: number): Observable<Person[]> {

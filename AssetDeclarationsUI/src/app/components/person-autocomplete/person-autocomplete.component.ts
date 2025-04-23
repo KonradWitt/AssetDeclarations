@@ -20,6 +20,7 @@ import { filter, map, Observable, startWith } from 'rxjs';
 import { Person } from '../../model/person.type';
 import { PersonService } from '../../services/person.service';
 import { AsyncPipe } from '@angular/common';
+import { PersonIdentifier } from '../../model/personIdentifier.interface';
 
 @Component({
   selector: 'app-person-autocomplete',
@@ -38,10 +39,10 @@ export class PersonAutocompleteComponent implements OnInit {
   personService = inject(PersonService);
 
   minimumMatchingLetters = input<number>();
-  personSelected = output<Person>();
+  personSelected = output<PersonIdentifier>();
 
   formControl = new FormControl();
-  filteredPersons = new Observable<Person[]>();
+  filteredPersons = new Observable<PersonIdentifier[]>();
 
   ngOnInit(): void {
     this.personService.getAll().subscribe((persons) => {
@@ -57,12 +58,12 @@ export class PersonAutocompleteComponent implements OnInit {
     return person?.fullName;
   }
 
-  private filterPersons(persons: Person[], name: string): Person[] {
+  private filterPersons(persons: PersonIdentifier[], name: string): PersonIdentifier[] {
     if (
       !this.minimumMatchingLetters ||
       name.length < this.minimumMatchingLetters()!
     ) {
-      return new Array<Person>();
+      return new Array<PersonIdentifier>();
     }
 
     const filterValue = name.toLowerCase();

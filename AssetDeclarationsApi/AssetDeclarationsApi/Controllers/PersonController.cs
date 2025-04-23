@@ -1,6 +1,7 @@
 ﻿using AssetDeclarationsApi.DTOs;
 using AssetDeclarationsApi.DTOs.Person;
 using AssetDeclarationsApi.Entities;
+using AssetDeclarationsApi.Mappers;
 using AssetDeclarationsApi.Services.DatabaseServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -23,19 +24,51 @@ namespace AssetDeclarationsApi.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Person>> Get(int id)
+        public async Task<ActionResult<GetResponse>> Get(int id)
         {
-            return Ok(await _personDataService.GetIncludingDetails(id));
+            var person = await _personDataService.GetIncludingDetails(id);
+
+            if (person is null)
+            {
+                return NotFound();
+            }
+
+            var response = new GetResponse()
+            {
+                Id = person.Id,
+                LastName = person.LastName,
+                FullName = person.FullName,
+                Link = person.Link,
+                DateOfBirth = person.DateOfBirth,
+                PlaceOfBirth = person.PlaceOfBirth,
+                ImageUrl = person.ImageUrl,
+                Party = person.Party?.MapToDTO(),
+                AssetDeclarations = person.AssetDeclarations?.Select(ad => ad.MapToDTO()).ToList(),
+
+            };
+            return Ok(response);
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Person>>> GetAll()
+        public async Task<ActionResult<GetAllResponse>> GetAll()
         {
-            return Ok(await _personDataService.GetAllAsync());
+            var persons = await _personDataService.GetAllAsync();
+
+            if (persons is null)
+            {
+                return NotFound();
+            }
+
+            var response = new GetAllResponse()
+            {
+                Persons = persons.Select(p => new GetAllReponsePersonDTO() { Id = p.Id, FullName = p.FullName, Link = p.Link }).ToList()
+            };
+
+            return Ok(response);
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Person>>> GetAllWithRealEstate([FromQuery] decimal minValue = 0)
+        public async Task<ActionResult<List<GetAllWithRealEstateResponse>>> GetAllWithRealEstate([FromQuery] decimal minValue = 0)
         {
             var persons = await _personDataService.GetPersonsWithRecentRealEstate(minValue);
 
@@ -46,7 +79,7 @@ namespace AssetDeclarationsApi.Controllers
                 LastName = p.LastName,
                 FullName = p.FullName,
                 Link = p.Link,
-                RealEstate = p.AssetDeclarations?.SingleOrDefault()?.RealEstate.ToList() ?? new List<RealEstate>()
+                RealEstate = p.AssetDeclarations?.FirstOrDefault()?.RealEstate.ToList() ?? new List<RealEstate>()
             });
 
             return Ok(response);
@@ -72,20 +105,25 @@ namespace AssetDeclarationsApi.Controllers
 
 
         [HttpPost]
-        public async Task<ActionResult<Person>> Create([FromBody] Person person)
+        public async Task<ActionResult<CreateResponse>> Create([FromBody] CreateRequest request)
         {
-            if (person == null)
+            if (request == null)
             {
                 return BadRequest("Person object is null.");
             }
 
-            if (person.AssetDeclarations is not null)
+            var person = new Person()
+
             {
-                foreach (var ad in person.AssetDeclarations)
-                {
-                    ad.CalculateNetValue();
-                }
-            }
+                Id = request.Id,
+                FirstName = request.FirstName,
+                LastName = request.LastName,
+                DateOfBirth = request.DateOfBirth ?? default,
+                PlaceOfBirth = request.PlaceOfBirth,
+                ImageUrl = request.ImageUrl,
+                PartyId = request.PartyId,
+                AssetDeclarations = request.AssetDeclarations.Select(ad => ad.MapToEntity()).ToList(),
+            };
 
             var createdPerson = await _personDataService.AddAsync(person);
 
