@@ -1,4 +1,4 @@
-<nav mat-tab-nav-bar [tabPanel]="tabPanel">
+<mat-toolbar>
   @for(link of displayedNavLinks(); track link.path) {
   <a
     mat-button
@@ -9,7 +9,18 @@
     {{ link.label }}
   </a>
   }
-</nav>
+  <span class="spacer"></span>
+  @if(isLoggedIn()) {
+  <button mat-icon-button (click)="onLogoutClicked()">
+    <mat-icon>logout</mat-icon>
+  </button>
+  } @else {
+  <button mat-icon-button routerLink="login">
+    <mat-icon>login</mat-icon>
+  </button>
+  }
+</mat-toolbar>
+
 <mat-tab-nav-panel #tabPanel>
   <div class="router-wrapper">
     <router-outlet></router-outlet>

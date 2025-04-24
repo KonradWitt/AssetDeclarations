@@ -1,3 +1,8 @@
+main
+{
+  margin: 16px;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -7,3 +12,9 @@
 mat-form-field {
   width: 400px;
 }
+
+mat-error
+{
+  margin: 16px;
+}
+

@@ -1,15 +1,18 @@
-<form [formGroup]="loginForm" (ngSubmit)="onFormSubmit()">
-  <div class="flex-container">
-    <mat-form-field>
-      <mat-label>Adres e-mail</mat-label>
-      <input matInput type="email" formControlName="email" />
-    </mat-form-field>
+<main>
+  <form [formGroup]="loginForm" (ngSubmit)="onFormSubmit()">
+    <div class="flex-container">
+      <mat-form-field>
+        <mat-label>Login</mat-label>
+        <input matInput type="email" formControlName="email" />
+      </mat-form-field>
 
-    <mat-form-field>
-      <mat-label>Hasło</mat-label>
-      <input matInput type="password" formControlName="password" />
-    </mat-form-field>
+      <mat-form-field>
+        <mat-label>Hasło</mat-label>
+        <input matInput type="password" formControlName="password" />
+      </mat-form-field>
+      <button mat-raised-button type="submit">Login</button>
 
-    <button mat-raised-button type="submit">Login</button>
-  </div>
-</form>
+      <mat-error>{{ this.errorMessage() }}</mat-error>
+    </div>
+  </form>
+</main>

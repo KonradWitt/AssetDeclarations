@@ -31,7 +31,6 @@ export class AuthService {
           return response.token;
         }),
         catchError((error) => {
-          console.error('Login error:', error);
           return throwError(() => error);
         })
       );
