@@ -32,7 +32,7 @@ import { TextFieldModule } from '@angular/cdk/text-field';
     MatTableModule,
     FormsModule,
     MatRippleModule,
-    TextFieldModule
+    TextFieldModule,
   ],
   templateUrl: './data-grid.component.html',
   styleUrl: './data-grid.component.scss',
@@ -55,7 +55,6 @@ export class DataGridComponent implements OnInit {
   }
 
   removeRow(element: any): void {
-    console.log('remove');
     const removeIndex = this.internalData().indexOf(element);
     console.log(removeIndex);
     if (removeIndex === -1) return;
@@ -68,8 +67,6 @@ export class DataGridComponent implements OnInit {
     this.internalData.set(newData);
   }
   addRow(): void {
-    console.log('add');
-
     this.internalData()[this.internalData().length - 1];
     const newRow: { [key: string]: any } = {};
     this.columns().forEach((colDef) => {
@@ -84,14 +81,11 @@ export class DataGridComponent implements OnInit {
   }
 
   save(): void {
-    console.log('save');
-
     this.data.set(JSON.parse(JSON.stringify(this.internalData())));
     this.launchRipple();
   }
 
   private initializeInternalData(): void {
-    console.log('computing internal data');
     this.internalData.set(JSON.parse(JSON.stringify(this.data()))); // deep copy
   }
 

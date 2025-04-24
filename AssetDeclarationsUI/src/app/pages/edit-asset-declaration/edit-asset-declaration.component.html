@@ -14,25 +14,49 @@
     <div class="card-container">
       <card title="Dane deklaracji majątkowej" class="card">
         <content>
-          <mat-form-field>
-            <mat-label>Data złożenia</mat-label>
-            <input
-              matInput
-              [matDatepicker]="picker"
-              [(ngModel)]="assetDeclaration.date"
-              name="date"
-            />
-            <mat-hint>DD/MM/YYYY</mat-hint>
-            <mat-datepicker-toggle
-              matIconSuffix
-              [for]="picker"
-            ></mat-datepicker-toggle>
-            <mat-datepicker #picker></mat-datepicker>
-          </mat-form-field>
-
-          <a mat-button [href]="assetDeclaration.documentUrl" target="_blank">
-            Otwórz deklarację w nowej karcie
-          </a>
+          <table>
+            <tr>
+              <td>Data:</td>
+              <td>
+                <mat-form-field>
+                  <mat-label>Data złożenia</mat-label>
+                  <input
+                    matInput
+                    [matDatepicker]="picker"
+                    [(ngModel)]="assetDeclaration.date"
+                    name="date"
+                    [readonly]="true"
+                  />
+                  <mat-hint>DD/MM/YYYY</mat-hint>
+                  <mat-datepicker-toggle
+                    matIconSuffix
+                    [for]="picker"
+                  ></mat-datepicker-toggle>
+                  <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field>
+              </td>
+            </tr>
+            <tr>
+              <td>Link:</td>
+              <td>
+                <mat-form-field>
+                  <input
+                    matInput
+                    [(ngModel)]="assetDeclaration.documentUrl"
+                    class="input-scroll"
+                  />
+                  <a
+                    matSuffix
+                    [href]="assetDeclaration.documentUrl"
+                    target="_blank"
+                    class="icon-link"
+                  >
+                    <mat-icon>open_in_new</mat-icon>
+                  </a>
+                </mat-form-field>
+              </td>
+            </tr>
+          </table>
         </content>
       </card>
     </div>

@@ -8,13 +8,18 @@ import { DatePipe } from '@angular/common';
 import { AssetDeclarationServiceService } from '../../services/asset-declaration-service.service';
 import { DataGridComponent } from '../../components/data-grid/data-grid.component';
 import { CardComponent } from '../../components/card/card.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { MAT_DATE_FORMATS, MatDateFormats, MatNativeDateModule } from '@angular/material/core';
+import {
+  MAT_DATE_FORMATS,
+  MatDateFormats,
+  MatNativeDateModule,
+} from '@angular/material/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { PersonIdentifier } from '../../model/personIdentifier.interface';
+import { MatIconModule } from '@angular/material/icon';
 
 const MY_DATE_FORMATS: MatDateFormats = {
   parse: {
@@ -26,7 +31,7 @@ const MY_DATE_FORMATS: MatDateFormats = {
     dateA11yLabel: 'LL',
     monthYearA11yLabel: 'MMMM YYYY',
   },
-}
+};
 
 @Component({
   selector: 'app-edit-asset-declaration',
@@ -41,13 +46,13 @@ const MY_DATE_FORMATS: MatDateFormats = {
     DatePipe,
     DataGridComponent,
     CardComponent,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatIconModule,
+    ReactiveFormsModule,
   ],
   templateUrl: './edit-asset-declaration.component.html',
   styleUrl: './edit-asset-declaration.component.scss',
-  providers: [
-    { provide: MAT_DATE_FORMATS, useValue: MY_DATE_FORMATS },
-  ]
+  providers: [{ provide: MAT_DATE_FORMATS, useValue: MY_DATE_FORMATS }],
 })
 export class EditAssetDeclarationComponent {
   constructor(
