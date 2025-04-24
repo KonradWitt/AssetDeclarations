@@ -2,7 +2,7 @@
 using AssetDeclarationsApi.DTOs.Person;
 using AssetDeclarationsApi.Entities;
 using AssetDeclarationsApi.Mappers;
-using AssetDeclarationsApi.Services.DatabaseServices;
+using AssetDeclarationsApi.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.WebSockets;

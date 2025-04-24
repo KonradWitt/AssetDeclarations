@@ -1,6 +1,6 @@
 ﻿using AssetDeclarationsApi.Entities;
 
-namespace AssetDeclarationsApi.Services.DatabaseServices
+namespace AssetDeclarationsApi.Services
 {
     public interface IAssetDeclarationDataService
     {

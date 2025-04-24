@@ -1,5 +1,5 @@
 ﻿using AssetDeclarationsApi.Entities;
-using AssetDeclarationsApi.Services.DatabaseServices;
+using AssetDeclarationsApi.Services;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

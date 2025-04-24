@@ -8,6 +8,7 @@ import {
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -21,8 +22,22 @@ import { MatInputModule } from '@angular/material/input';
   styleUrl: './login.component.scss',
 })
 export class LoginComponent {
+  constructor(private authService: AuthService) {}
+
   loginForm = new FormGroup({
-    email: new FormControl('', [Validators.required, Validators.email]),
+    email: new FormControl('', [Validators.required]),
     password: new FormControl('', [Validators.required]),
   });
+
+  onFormSubmit() {
+    console.log(1);
+    if (!this.loginForm.valid) {
+      return;
+    }
+    console.log(2);
+    const email = this.loginForm.value.email!;
+    const password = this.loginForm.value.password!;
+
+    this.authService.login({ userName: email, password: password }).subscribe();
+  }
 }

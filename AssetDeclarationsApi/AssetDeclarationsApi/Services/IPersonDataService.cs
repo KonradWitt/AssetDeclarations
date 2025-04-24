@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using AssetDeclarationsApi.Entities;
 
-namespace AssetDeclarationsApi.Services.DatabaseServices
+namespace AssetDeclarationsApi.Services
 {
     public interface IPersonDataService : IDatabaseService<Person>
     {

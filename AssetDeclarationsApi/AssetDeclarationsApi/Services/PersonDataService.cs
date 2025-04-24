@@ -3,7 +3,7 @@ using AssetDeclarationsApi.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace AssetDeclarationsApi.Services.DatabaseServices
+namespace AssetDeclarationsApi.Services
 {
     public class PersonDataService : DatabaseService<Person>, IPersonDataService
     {

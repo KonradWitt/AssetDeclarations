@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
-namespace AssetDeclarationsApi.Services.DatabaseServices
+namespace AssetDeclarationsApi.Services
 {
     public interface IDatabaseService<T> where T : class
     {

@@ -2,7 +2,7 @@
 using AssetDeclarationsApi.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace AssetDeclarationsApi.Services.DatabaseServices
+namespace AssetDeclarationsApi.Services
 {
     public class AssetDeclarationDataService : DatabaseService<AssetDeclaration>, IAssetDeclarationDataService
     {

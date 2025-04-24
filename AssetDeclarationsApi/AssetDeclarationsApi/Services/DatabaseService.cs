@@ -1,7 +1,7 @@
 ﻿using AssetDeclarationsApi.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace AssetDeclarationsApi.Services.DatabaseServices
+namespace AssetDeclarationsApi.Services
 {
     public class DatabaseService<T> : IDatabaseService<T> where T : class
     {
