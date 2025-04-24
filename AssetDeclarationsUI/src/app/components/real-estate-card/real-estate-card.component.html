@@ -28,7 +28,9 @@
   </content>
   <footer>
     <p>
-      {{ numberOfProperties() }} nieruchomości na łączną wartość
+      {{ numberOfProperties() }}
+      @if(numberOfProperties() === 1) { nieruchomość } @else { nieruchomości }
+      na łączną wartość
       <b>{{ sumValue() | numberSpace }} zł </b>.
     </p>
   </footer>
