@@ -76,7 +76,7 @@ namespace AssetDeclarationsApi.Services
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config.GetValue<string>("AppSettings:Token")!));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config.GetValue<string>("AppSettings:SecurityKey")!));
 
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
 

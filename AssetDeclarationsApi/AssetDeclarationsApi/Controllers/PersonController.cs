@@ -86,6 +86,14 @@ namespace AssetDeclarationsApi.Controllers
         }
 
         [HttpGet]
+        public async Task<ActionResult<List<RealEstateDTO>>> GetAllRealEstate([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+        {
+            var realEstate = await _personDataService.GetAllRealEstateAsync();
+
+            return Ok(realEstate);
+        }
+
+        [HttpGet]
         public async Task<ActionResult<List<GetHighlightsResponse>>> GetHighlights()
         {
             var persons = await _personDataService.GetHighlightsAsync();

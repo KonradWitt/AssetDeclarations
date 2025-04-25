@@ -82,6 +82,32 @@ namespace AssetDeclarationsApi.Services
             return persons;
         }
 
+        public async Task<IEnumerable<RealEstate>> GetAllRealEstateAsync()
+        {
+            return null;
+            var realEstatesWithPersons = await DbSet
+                .Select(p => new
+                {
+                    Person = p,
+                    LatestDeclaration = p.AssetDeclarations
+                        .OrderByDescending(ad => ad.Date)
+                        .Take(1)
+                })
+                .SelectMany(x => x.LatestDeclaration
+                    .SelectMany(ad => ad.RealEstate
+                        .Select(re => new
+                        {
+                            Person = x.Person,
+                            RealEstate = re
+                        })
+                    )
+                )
+                .OrderBy(x => x.RealEstate.Value)
+                .ToListAsync();
+
+
+        }
+
     }
 }
 

@@ -11,5 +11,7 @@ namespace AssetDeclarationsApi.Services
 
         Task<IEnumerable<Person>> GetPersonsWithRecentRealEstate(decimal minValue);
 
+        Task<IEnumerable<RealEstate>> GetAllRealEstateAsync();
+
     }
 }
