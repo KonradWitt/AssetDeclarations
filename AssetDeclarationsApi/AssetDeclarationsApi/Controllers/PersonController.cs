@@ -16,17 +16,16 @@ namespace AssetDeclarationsApi.Controllers
     public class PersonController : ControllerBase
     {
 
-        private readonly IPersonDataService _personDataService;
-
-        public PersonController(IPersonDataService personDataService)
+        private readonly IDatabaseService _dataService;
+        public PersonController(IDatabaseService dataService)
         {
-            _personDataService = personDataService;
+            _dataService = dataService;
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<GetResponse>> Get(int id)
         {
-            var person = await _personDataService.GetIncludingDetails(id);
+            var person = await _dataService.GetPersonIncludingDetails(id);
 
             if (person is null)
             {
@@ -52,7 +51,7 @@ namespace AssetDeclarationsApi.Controllers
         [HttpGet]
         public async Task<ActionResult<GetAllResponse>> GetAll()
         {
-            var persons = await _personDataService.GetAllAsync();
+            var persons = await _dataService.GetAllAsync<Person>();
 
             if (persons is null)
             {
@@ -68,35 +67,9 @@ namespace AssetDeclarationsApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<GetAllWithRealEstateResponse>>> GetAllWithRealEstate([FromQuery] decimal minValue = 0)
-        {
-            var persons = await _personDataService.GetPersonsWithRecentRealEstate(minValue);
-
-            var response = persons.Select(p => new GetAllWithRealEstateResponse()
-            {
-                Id = p.Id,
-                FirstName = p.FirstName,
-                LastName = p.LastName,
-                FullName = p.FullName,
-                Link = p.Link,
-                RealEstate = p.AssetDeclarations?.FirstOrDefault()?.RealEstate.ToList() ?? new List<RealEstate>()
-            });
-
-            return Ok(response);
-        }
-
-        [HttpGet]
-        public async Task<ActionResult<List<RealEstateDTO>>> GetAllRealEstate([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
-        {
-            var realEstate = await _personDataService.GetAllRealEstateAsync();
-
-            return Ok(realEstate);
-        }
-
-        [HttpGet]
         public async Task<ActionResult<List<GetHighlightsResponse>>> GetHighlights()
         {
-            var persons = await _personDataService.GetHighlightsAsync();
+            var persons = await _dataService.GetHighlightsAsync();
 
             var response = persons.Select(person => new GetHighlightsResponse()
             {
@@ -133,7 +106,7 @@ namespace AssetDeclarationsApi.Controllers
                 AssetDeclarations = request.AssetDeclarations.Select(ad => ad.MapToEntity()).ToList(),
             };
 
-            var createdPerson = await _personDataService.AddAsync(person);
+            var createdPerson = await _dataService.AddAsync(person);
 
             return CreatedAtAction(nameof(Get), new { id = createdPerson.Id }, createdPerson);
         }

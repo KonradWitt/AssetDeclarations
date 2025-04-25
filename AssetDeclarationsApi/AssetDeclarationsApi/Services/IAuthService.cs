@@ -3,7 +3,7 @@ using AssetDeclarationsApi.Entities;
 
 namespace AssetDeclarationsApi.Services
 {
-    public interface IAuthService : IDatabaseService<User>
+    public interface IAuthService
     {
         Task<RegisterResponse?> RegisterAsync(RegisterRequest request);    
         Task <LoginResponse?> LoginAsync(LoginRequest user);

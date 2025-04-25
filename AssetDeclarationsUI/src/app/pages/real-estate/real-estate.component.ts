@@ -26,6 +26,7 @@ import { RealEstate } from '../../model/realEstate.type';
 import { MatTableModule } from '@angular/material/table';
 import { Router } from '@angular/router';
 import { MatDividerModule } from '@angular/material/divider';
+import { RealEstateService } from '../../services/real-estate.service';
 
 @Component({
   selector: 'app-real-estate',
@@ -37,13 +38,16 @@ import { MatDividerModule } from '@angular/material/divider';
     MatFormFieldModule,
     MatTableModule,
     NumberSpacePipe,
-    FormsModule 
+    FormsModule,
   ],
   templateUrl: './real-estate.component.html',
   styleUrl: './real-estate.component.scss',
 })
 export class RealEstateComponent implements OnInit {
-  constructor(private personService: PersonService, private router: Router) {}
+  constructor(
+    private realEstateService: RealEstateService,
+    private router: Router
+  ) {}
 
   minValue = signal<number>(100000);
 
@@ -148,7 +152,7 @@ export class RealEstateComponent implements OnInit {
   private persons = Array<Person>();
 
   ngOnInit(): void {
-    this.personService
+    this.realEstateService
       .getAllWithRealEstate(this.minValue())
       .subscribe((result) => {
         this.persons = result;

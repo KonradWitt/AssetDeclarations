@@ -46,17 +46,6 @@ export class PersonService {
       );
   }
 
-  getAllWithRealEstate(minValue?: number): Observable<Person[]> {
-    let query = '';
-
-    if (minValue) query = `GetAllWithRealEstate?minValue=${minValue}`;
-    else query = `GetAllWithRealEstate`;
-
-    return this.http.get<Person[]>(
-      `${environment.apiUrl}/${this.url}/${query}`
-    );
-  }
-
   getPerson(id: number): Observable<Person> {
     return this.http.get<Person>(`${environment.apiUrl}/${this.url}/Get/${id}`);
   }

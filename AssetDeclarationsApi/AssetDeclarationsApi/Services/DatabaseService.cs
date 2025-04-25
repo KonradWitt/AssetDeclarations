@@ -1,54 +1,182 @@
 ﻿using AssetDeclarationsApi.Data;
+using AssetDeclarationsApi.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 
 namespace AssetDeclarationsApi.Services
 {
-    public class DatabaseService<T> : IDatabaseService<T> where T : class
+    public class DatabaseService : IDatabaseService
     {
         private readonly DataContext _context;
-        private readonly DbSet<T> _dbSet;
 
         public DatabaseService(DataContext context)
         {
             _context = context;
-            _dbSet = context.Set<T>();
         }
 
-        protected DataContext Context { get => _context; }
-        protected DbSet<T> DbSet { get => _dbSet; }
-
-        public async Task<IEnumerable<T>> GetAllAsync()
+        public async Task<IEnumerable<T>> GetAllAsync<T>() where T : class
         {
-            return await _dbSet.ToListAsync();
+            var dbSet = _context.Set<T>();
+            return await dbSet.ToListAsync();
         }
 
-        public async Task<T> GetByIdAsync(int id)
+        public async Task<T> GetByIdAsync<T>(int id) where T : class
         {
-            return await _dbSet.FindAsync(id);
+            var dbSet = _context.Set<T>();
+            return await dbSet.FindAsync(id);
         }
 
-        public async Task<T> AddAsync(T entity)
+        public async Task<T> AddAsync<T>(T entity) where T : class
         {
-            var result = await _dbSet.AddAsync(entity);
+            var dbSet = _context.Set<T>();
+
+            var result = await dbSet.AddAsync(entity);
             await _context.SaveChangesAsync();
 
             return result.Entity;
         }
 
-        public async Task UpdateAsync(T entity)
+        public async Task UpdateAsync<T>(T entity) where T : class
         {
-            _dbSet.Update(entity);
+            var dbSet = _context.Set<T>();
+
+            dbSet.Update(entity);
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync<T>(int id) where T : class
         {
-            var entity = await _dbSet.FindAsync(id);
+            var dbSet = _context.Set<T>();
+
+            var entity = await dbSet.FindAsync(id);
             if (entity != null)
             {
-                _dbSet.Remove(entity);
+                dbSet.Remove(entity);
                 await _context.SaveChangesAsync();
             }
         }
+
+        public async Task<Person?> GetPersonIncludingDetails(int id)
+        {
+            var person = _context.Persons.Include(x => x.Party).FirstOrDefault(x => x.Id == id);
+            if (person is null)
+            {
+                return null;
+            }
+            person.AssetDeclarations = await _context.AssetDeclarations.Where(x => x.PersonId == person.Id).ToListAsync();
+            foreach (var ad in person.AssetDeclarations)
+            {
+                ad.CashPositions = await _context.CashPositions.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.SecurityPositions = await _context.SecurityPositions.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.RealEstate = await _context.RealEstate.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.Liabilities = await _context.Liabilities.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.PersonalProperties = await _context.PersonalProperties.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.Incomes = await _context.Incomes.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.Receivables = await _context.Receivables.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+                ad.BusinessActivities = await _context.BusinessActivities.Where(x => x.AssetDeclarationId == ad.Id).ToListAsync();
+            }
+
+            return person;
+        }
+
+        public async Task<IEnumerable<Person>> GetHighlightsAsync()
+        {
+            var highlights = await _context.Persons.Where(x => x.IsHighlight)
+                .Select(p => new
+                {
+                    Person = p,
+                    AssetDeclaration = p.AssetDeclarations
+                        .OrderByDescending(ad => ad.Date)
+                        .FirstOrDefault()
+                }).ToListAsync();
+
+            if (highlights is null || highlights.Count == 0)
+            {
+                return Enumerable.Empty<Person>();
+            }
+
+            var result = new List<Person>();
+            foreach (var highlight in highlights)
+            {
+                var person = highlight.Person;
+                person.AssetDeclarations = new List<AssetDeclaration>() { highlight.AssetDeclaration };
+                result.Add(highlight.Person);
+            }
+
+            return result;
+        }
+
+        public async Task<IEnumerable<Person>> GetPersonsWithRecentRealEstate(decimal minValue)
+        {
+            var query = await _context.Persons.Select(p => new
+            {
+                Person = p,
+                RealEstatesFromLatestAssetDeclaration = p.AssetDeclarations
+                                        .OrderByDescending(ad => ad.Date)
+                                        .Take(1)
+                                        .SelectMany(ad => ad.RealEstate).Where(re => re.Value >= minValue)
+            }).ToListAsync();
+
+            var persons = query.Select(x =>
+            {
+                var person = x.Person;
+                person.AssetDeclarations = new List<AssetDeclaration>() { new AssetDeclaration() { RealEstate = x.RealEstatesFromLatestAssetDeclaration?.ToList() } };
+                return person;
+            });
+
+            return persons;
+        }
+
+        public async Task<List<(Person person, RealEstate realEstate)>> GetAllRealEstateAsync(int page, int pageSize)
+        {
+            var realEstatesWithPersons = await _context.Persons
+                .Select(p => new
+                {
+                    Person = p,
+                    LatestDeclaration = p.AssetDeclarations
+                        .OrderByDescending(ad => ad.Date)
+                        .Take(1)
+                })
+                .SelectMany(x => x.LatestDeclaration
+                    .SelectMany(ad => ad.RealEstate
+                        .Select(re => new
+                        {
+                            Person = x.Person,
+                            RealEstate = re
+                        })
+                    )
+                )
+                .OrderByDescending(x => x.RealEstate.Value)
+                .Skip((page - 1) * pageSize).Take(pageSize)
+                .ToListAsync();
+
+            return realEstatesWithPersons.Select(x => (x.Person, x.RealEstate)).ToList();
+        }
+
+        public async Task<AssetDeclaration> UpdateAssetDeclarationAsync(AssetDeclaration assetDeclaration)
+        {
+            var cashPositions = await _context.CashPositions.Where(x => x.AssetDeclarationId == assetDeclaration.Id).ToListAsync();
+            _context.CashPositions.RemoveRange(cashPositions);
+            _context.SecurityPositions.RemoveRange(await _context.SecurityPositions.Where(x => x.AssetDeclarationId == assetDeclaration.Id).ToListAsync());
+            _context.RealEstate.RemoveRange(await _context.RealEstate.Where(x => x.AssetDeclarationId == assetDeclaration.Id).ToListAsync());
+            _context.Liabilities.RemoveRange(await _context.Liabilities.Where(x => x.AssetDeclarationId == assetDeclaration.Id).ToListAsync());
+            _context.PersonalProperties.RemoveRange(await _context.PersonalProperties.Where(x => x.AssetDeclarationId == assetDeclaration.Id).ToListAsync());
+            _context.Incomes.RemoveRange(await _context.Incomes.Where(x => x.AssetDeclarationId == assetDeclaration.Id).ToListAsync());
+            _context.Receivables.RemoveRange(await _context.Receivables.Where(x => x.AssetDeclarationId == assetDeclaration.Id).ToListAsync());
+            _context.BusinessActivities.RemoveRange(await _context.BusinessActivities.Where(x => x.AssetDeclarationId == assetDeclaration.Id).ToListAsync());
+
+            await _context.SaveChangesAsync();
+            _context.AssetDeclarations.Update(assetDeclaration);
+            await _context.SaveChangesAsync();
+
+            var ad = await _context.AssetDeclarations.FindAsync(assetDeclaration.Id);
+            return ad;
+        }
+
+        public async Task<User?> GetUserByUserNameAsync(string userName)
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.UserName == userName);
+        }
     }
 }
+

@@ -11,17 +11,19 @@ using System.Text;
 
 namespace AssetDeclarationsApi.Services
 {
-    public class AuthService : DatabaseService<User>, IAuthService
+    public class AuthService : IAuthService
     {
         private readonly IConfiguration _config;
-        public AuthService(IConfiguration config, DataContext context) : base(context)
+        private readonly IDatabaseService _dataService;
+        public AuthService(IConfiguration config, IDatabaseService dataService)
         {
             _config = config;
+            _dataService = dataService;
         }
 
         public async Task<RegisterResponse?> RegisterAsync(RegisterRequest request)
         {
-            var existingUser = await GetByUserNameAsync(request.UserName);
+            var existingUser = await _dataService.GetUserByUserNameAsync(request.UserName);
             if (existingUser is not null)
             {
                 return null;
@@ -29,7 +31,7 @@ namespace AssetDeclarationsApi.Services
 
             var user = new User { UserName = request.UserName };
             user.PasswordHash = new PasswordHasher<User>().HashPassword(user, request.Password);
-            var addedUser = await AddAsync(user);
+            var addedUser = await _dataService.AddAsync(user);
 
 
             var response = new RegisterResponse { UserName = addedUser.UserName };
@@ -38,7 +40,7 @@ namespace AssetDeclarationsApi.Services
 
         public async Task<LoginResponse?> LoginAsync(LoginRequest request)
         {
-            var user = await GetByUserNameAsync(request.UserName);
+            var user = await _dataService.GetUserByUserNameAsync(request.UserName);
 
             if (user is null)
             {
@@ -61,11 +63,6 @@ namespace AssetDeclarationsApi.Services
             };
 
             return response;
-        }
-
-        private async Task<User?> GetByUserNameAsync(string userName)
-        {
-            return await DbSet.FirstOrDefaultAsync(user => user.UserName.ToLower().Trim() == userName.ToLower().Trim());
         }
 
         private string CreateToken(User user)

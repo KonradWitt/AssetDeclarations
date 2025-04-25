@@ -10,10 +10,10 @@ namespace AssetDeclarationsApi.Controllers
     [ApiController]
     public class AssetDeclarationController : ControllerBase
     {
-        private readonly IAssetDeclarationDataService _assetDeclarationDataService;
-        public AssetDeclarationController(IAssetDeclarationDataService assetDeclarationDataService)
+        private readonly IDatabaseService _dataService;
+        public AssetDeclarationController(IDatabaseService dataService)
         {
-            _assetDeclarationDataService = assetDeclarationDataService;
+            _dataService = dataService;
         }
 
         [HttpPut("{id}")]
@@ -31,7 +31,7 @@ namespace AssetDeclarationsApi.Controllers
 
             assetDeclaration.CalculateNetValue();
 
-            await _assetDeclarationDataService.UpdateAsync(assetDeclaration);
+            await _dataService.UpdateAsync(assetDeclaration);
             return Ok();
         }
     }
