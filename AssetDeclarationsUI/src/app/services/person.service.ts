@@ -6,24 +6,6 @@ import { environment } from '../../environments/environment';
 import { PersonHighlight } from '../model/personHighlight.interface';
 import { PersonIdentifier } from '../model/personIdentifier.interface';
 
-interface GetHighlightsResponse {
-  id: number;
-  fullName: string;
-  link: string;
-  imageUrl: string;
-  netWorth: number;
-}
-
-interface GetAllResponse {
-  persons: GetAllResponsePersonDTO[];
-}
-
-interface GetAllResponsePersonDTO {
-  id: number;
-  fullName: string;
-  link: string;
-}
-
 @Injectable({
   providedIn: 'root',
 })
@@ -33,17 +15,9 @@ export class PersonService {
   constructor(private http: HttpClient) {}
 
   getAll(): Observable<PersonIdentifier[]> {
-    return this.http
-      .get<GetAllResponse>(`${environment.apiUrl}/${this.url}/GetAll`)
-      .pipe(
-        map((dto) =>
-          dto.persons.map((personDTO) => ({
-            id: personDTO.id,
-            fullName: personDTO.fullName,
-            link: personDTO.link
-          }))
-        )
-      );
+    return this.http.get<PersonIdentifier[]>(
+      `${environment.apiUrl}/${this.url}/GetAll`
+    );
   }
 
   getPerson(id: number): Observable<Person> {
@@ -78,20 +52,8 @@ export class PersonService {
   }
 
   getHighlightsPersons(): Observable<PersonHighlight[]> {
-    return this.http
-      .get<GetHighlightsResponse[]>(
-        `${environment.apiUrl}/${this.url}/GetHighlights`
-      )
-      .pipe(
-        map((dtos) =>
-          dtos.map((dto) => ({
-            id: dto.id,
-            fullName: dto.fullName,
-            link: dto.link,
-            imageUrl: dto.imageUrl,
-            netWorth: dto.netWorth,
-          }))
-        )
-      );
+    return this.http.get<PersonHighlight[]>(
+      `${environment.apiUrl}/${this.url}/GetHighlights`
+    );
   }
 }

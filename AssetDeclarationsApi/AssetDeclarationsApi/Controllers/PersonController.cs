@@ -49,7 +49,7 @@ namespace AssetDeclarationsApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<GetAllResponse>> GetAll()
+        public async Task<ActionResult<List<GetAllResponse>>> GetAll()
         {
             var persons = await _dataService.GetAllAsync<Person>();
 
@@ -58,10 +58,8 @@ namespace AssetDeclarationsApi.Controllers
                 return NotFound();
             }
 
-            var response = new GetAllResponse()
-            {
-                Persons = persons.Select(p => new GetAllReponsePersonDTO() { Id = p.Id, FullName = p.FullName, Link = p.Link }).ToList()
-            };
+            var response = persons.Select(p => new GetAllResponse() { Id = p.Id, FullName = p.FullName, Link = p.Link }).ToList();
+
 
             return Ok(response);
         }
