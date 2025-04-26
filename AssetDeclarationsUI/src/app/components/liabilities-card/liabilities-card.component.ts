@@ -4,7 +4,7 @@ import { MatListModule } from '@angular/material/list';
 import { CardComponent } from '../card/card.component';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 import { MatTableModule } from '@angular/material/table';
-import { Liability } from '../../model/liability.type';
+import { Liability } from '../../model/liability.interface';
 
 @Component({
   selector: 'app-liabilities-card',

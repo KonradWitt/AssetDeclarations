@@ -6,7 +6,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CurrenciesCardComponent } from '../../components/currencies-card/currencies-card.component';
 import { PersonalDataCardComponent } from '../../components/personal-data-card/personal-data-card.component';
-import { Person } from '../../model/person.type';
+import { Person } from '../../model/person.interface';
 import { PersonService } from '../../services/person.service';
 import { RealEstateCardComponent } from '../../components/real-estate-card/real-estate-card.component';
 import { DeclarationsCardComponent } from '../../components/declarations-card/declarations-card.component';

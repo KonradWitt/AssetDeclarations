@@ -1,6 +1,6 @@
-import { Person } from './person.type';
+import { Person } from './person.interface';
 
-export type RealEstate = {
+export interface RealEstate {
   id: number;
   description: string;
   value: number;

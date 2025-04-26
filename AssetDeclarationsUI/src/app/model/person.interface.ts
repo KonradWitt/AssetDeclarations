@@ -1,8 +1,8 @@
-import { AssetDeclaration } from './assetDeclaration.type';
-import { Party } from './party.type';
-import { RealEstate } from './realEstate.type';
+import { AssetDeclaration } from './assetDeclaration.interface';
+import { Party } from './party.interface';
+import { RealEstate } from './realEstate.interface';
 
-export type Person = {
+export interface Person {
   id: number;
   link: string;
   fullName: string;

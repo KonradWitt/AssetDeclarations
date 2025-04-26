@@ -1,4 +1,4 @@
-export type CashPosition = {
+export interface CashPosition {
     id: number;
     currency: string;
     currencyValue: number;

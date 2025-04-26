@@ -4,7 +4,7 @@ import { MatListModule } from '@angular/material/list';
 import { CardComponent } from '../card/card.component';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 import { MatTableModule } from '@angular/material/table';
-import { BusinessActivity } from '../../model/businessActivity.type';
+import { BusinessActivity } from '../../model/businessActivity.interface';
 
 @Component({
   selector: 'app-business-activities-card',

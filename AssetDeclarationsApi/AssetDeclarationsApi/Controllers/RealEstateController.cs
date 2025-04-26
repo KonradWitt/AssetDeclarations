@@ -20,7 +20,7 @@ namespace AssetDeclarationsApi.Controllers
         [HttpGet]
         public async Task<ActionResult<List<GetAllWithRealEstateResponse>>> GetAllGroupedByPersons([FromQuery] decimal minValue = 0)
         {
-            var persons = await _dataService.GetPersonsWithRecentRealEstate(minValue);
+            var persons = await _dataService.GetPersonsWithRecentRealEstateAsync(minValue);
 
             var response = persons.Select(p => new GetAllWithRealEstateResponse()
             {
@@ -35,6 +35,7 @@ namespace AssetDeclarationsApi.Controllers
             return Ok(response);
         }
 
+
         [HttpGet]
         public async Task<ActionResult<List<GetAllRealEstateResponse>>> GetAllPaginated([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
@@ -42,6 +43,14 @@ namespace AssetDeclarationsApi.Controllers
 
             var response = realEstate.Select(x => new GetAllRealEstateResponse() { RealEstate = x.realEstate.MapToDTO(), PersonId = x.person.Id, PersonFullName = x.person.FullName, PersonLink = x.person.Link });
             return Ok(response);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<int>> GetCount()
+        {
+            var count = await _dataService.GetNumberOfRealEstatesAsync();
+
+            return Ok(count);
         }
 
     }

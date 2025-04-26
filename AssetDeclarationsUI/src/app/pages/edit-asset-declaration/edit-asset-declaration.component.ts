@@ -1,7 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { PersonAutocompleteComponent } from '../../components/person-autocomplete/person-autocomplete.component';
-import { Person } from '../../model/person.type';
-import { AssetDeclaration } from '../../model/assetDeclaration.type';
+import { Person } from '../../model/person.interface';
+import { AssetDeclaration } from '../../model/assetDeclaration.interface';
 import { PersonService } from '../../services/person.service';
 import { MatTabsModule } from '@angular/material/tabs';
 import { DatePipe } from '@angular/common';

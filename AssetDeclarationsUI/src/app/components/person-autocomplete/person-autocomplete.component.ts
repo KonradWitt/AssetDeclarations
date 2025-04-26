@@ -17,7 +17,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { ReactiveFormsModule } from '@angular/forms';
 import { filter, map, Observable, startWith } from 'rxjs';
-import { Person } from '../../model/person.type';
+import { Person } from '../../model/person.interface';
 import { PersonService } from '../../services/person.service';
 import { AsyncPipe } from '@angular/common';
 import { PersonIdentifier } from '../../model/personIdentifier.interface';

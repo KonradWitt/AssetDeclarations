@@ -1,9 +1,9 @@
 import { Component, input, Input, signal, SimpleChanges } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { Person } from '../../model/person.type';
+import { Person } from '../../model/person.interface';
 import { DatePipe } from '@angular/common';
-import { AssetDeclaration } from '../../model/assetDeclaration.type';
+import { AssetDeclaration } from '../../model/assetDeclaration.interface';
 import { MatDividerModule } from '@angular/material/divider';
 import { CardComponent } from '../card/card.component';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';

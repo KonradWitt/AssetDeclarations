@@ -56,7 +56,7 @@ namespace AssetDeclarationsApi.Services
             }
         }
 
-        public async Task<Person?> GetPersonIncludingDetails(int id)
+        public async Task<Person?> GetPersonIncludingDetailsAsync(int id)
         {
             var person = _context.Persons.Include(x => x.Party).FirstOrDefault(x => x.Id == id);
             if (person is null)
@@ -106,7 +106,7 @@ namespace AssetDeclarationsApi.Services
             return result;
         }
 
-        public async Task<IEnumerable<Person>> GetPersonsWithRecentRealEstate(decimal minValue)
+        public async Task<IEnumerable<Person>> GetPersonsWithRecentRealEstateAsync(decimal minValue)
         {
             var query = await _context.Persons.Select(p => new
             {
@@ -147,11 +147,29 @@ namespace AssetDeclarationsApi.Services
                     )
                 )
                 .OrderByDescending(x => x.RealEstate.Value)
-                .Skip((page - 1) * pageSize).Take(pageSize)
+                .Skip(page * pageSize).Take(pageSize)
                 .ToListAsync();
 
             return realEstatesWithPersons.Select(x => (x.Person, x.RealEstate)).ToList();
         }
+
+        public async Task<int> GetNumberOfRealEstatesAsync()
+        {
+            var count = await _context.Persons
+                .Select(p => new
+                {
+                    Person = p,
+                    LatestDeclaration = p.AssetDeclarations
+                        .OrderByDescending(ad => ad.Date)
+                        .Take(1)
+                })
+                .SelectMany(x => x.LatestDeclaration
+                    .SelectMany(ad => ad.RealEstate)
+                ).CountAsync();
+
+            return count;
+        }
+
 
         public async Task<AssetDeclaration> UpdateAssetDeclarationAsync(AssetDeclaration assetDeclaration)
         {

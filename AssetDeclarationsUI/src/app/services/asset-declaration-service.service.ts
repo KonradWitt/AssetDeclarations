@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { AssetDeclaration } from '../model/assetDeclaration.type';
+import { AssetDeclaration } from '../model/assetDeclaration.interface';
 import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
 

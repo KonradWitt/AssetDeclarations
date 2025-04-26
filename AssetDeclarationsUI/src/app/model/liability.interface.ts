@@ -1,4 +1,4 @@
-export type Receivable = {
+export interface Liability {
     id: number;
     description: string;
     value: number | undefined;

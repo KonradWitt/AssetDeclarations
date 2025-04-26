@@ -1,6 +1,6 @@
 import { Component, input, Input } from '@angular/core';
 import { CardComponent } from '../card/card.component';
-import { AssetDeclaration } from '../../model/assetDeclaration.type';
+import { AssetDeclaration } from '../../model/assetDeclaration.interface';
 import { DatePipe, NgFor } from '@angular/common';
 
 @Component({

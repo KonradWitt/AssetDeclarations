@@ -76,4 +76,9 @@
       (click)="onTopRealEstateClicked(row)"
     ></tr>
   </table>
+  <mat-paginator [length]="this.totalCount()"
+              [pageSizeOptions]="[25, 50, 100]"
+              (page)="onPaginatorChanged($event)"
+>
+</mat-paginator>
 </div>

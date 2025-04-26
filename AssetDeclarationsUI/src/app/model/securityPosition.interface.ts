@@ -1,4 +1,4 @@
-export type SecurityPosition = {
+export interface SecurityPosition {
   id: number;
   name: string;
   quantity: number | undefined;

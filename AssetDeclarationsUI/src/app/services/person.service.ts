@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Person } from '../model/person.type';
+import { Person } from '../model/person.interface';
 import { delay, map, Observable, of } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { PersonHighlight } from '../model/personHighlight.interface';

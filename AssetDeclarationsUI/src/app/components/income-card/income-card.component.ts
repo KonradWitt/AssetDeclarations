@@ -1,5 +1,5 @@
 import { Component, computed, input } from '@angular/core';
-import { Income } from '../../model/income.type';
+import { Income } from '../../model/income.interface';
 import { CardComponent } from '../card/card.component';
 import { MatTableModule } from '@angular/material/table';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';

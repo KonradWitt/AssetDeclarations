@@ -3,7 +3,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { CardComponent } from '../card/card.component';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
-import { SecurityPosition } from '../../model/securityPosition.type';
+import { SecurityPosition } from '../../model/securityPosition.interface';
 import { MatTableModule } from '@angular/material/table';
 
 @Component({

@@ -1,4 +1,4 @@
-export type BusinessActivity = {
+export interface BusinessActivity {
   id: number;
   businessName: string;
   businessType: string;

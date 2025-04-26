@@ -7,7 +7,7 @@ import {
   signal,
 } from '@angular/core';
 import { CardComponent } from '../card/card.component';
-import { PersonalProperty } from '../../model/personalProperty.type';
+import { PersonalProperty } from '../../model/personalProperty.interface';
 import { MatTableModule } from '@angular/material/table';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 import { E } from '@angular/cdk/keycodes';

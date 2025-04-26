@@ -6,11 +6,11 @@ import {
   OnInit,
   signal,
 } from '@angular/core';
-import { AssetDeclaration } from '../../model/assetDeclaration.type';
+import { AssetDeclaration } from '../../model/assetDeclaration.interface';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
-import { CashPosition } from '../../model/cashPosition.type';
+import { CashPosition } from '../../model/cashPosition.interface';
 import { CardComponent } from '../card/card.component';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 import { MatTableModule } from '@angular/material/table';

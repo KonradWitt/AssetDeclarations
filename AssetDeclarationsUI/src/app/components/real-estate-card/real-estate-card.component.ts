@@ -10,7 +10,7 @@ import {
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import { MatDividerModule } from '@angular/material/divider';
-import { RealEstate } from '../../model/realEstate.type';
+import { RealEstate } from '../../model/realEstate.interface';
 import { CardComponent } from '../card/card.component';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 

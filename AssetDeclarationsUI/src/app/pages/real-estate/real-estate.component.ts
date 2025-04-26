@@ -6,27 +6,19 @@ import {
   signal,
   ViewChild,
 } from '@angular/core';
-import { PersonService } from '../../services/person.service';
-import { Person } from '../../model/person.type';
+import { Person } from '../../model/person.interface';
 import { BaseChartDirective } from 'ng2-charts';
-import {
-  ActiveElement,
-  BubbleDataPoint,
-  Chart,
-  ChartConfiguration,
-  ChartEvent,
-  ChartTypeRegistry,
-  Point,
-} from 'chart.js';
+import { ActiveElement, Chart, ChartConfiguration, ChartEvent } from 'chart.js';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
-import { RealEstate } from '../../model/realEstate.type';
+import { RealEstate } from '../../model/realEstate.interface';
 import { MatTableModule } from '@angular/material/table';
 import { Router } from '@angular/router';
 import { MatDividerModule } from '@angular/material/divider';
 import { RealEstateService } from '../../services/real-estate.service';
+import { MatPaginatorModule, PageEvent } from '@angular/material/paginator';
 
 @Component({
   selector: 'app-real-estate',
@@ -39,6 +31,7 @@ import { RealEstateService } from '../../services/real-estate.service';
     MatTableModule,
     NumberSpacePipe,
     FormsModule,
+    MatPaginatorModule,
   ],
   templateUrl: './real-estate.component.html',
   styleUrl: './real-estate.component.scss',
@@ -57,6 +50,8 @@ export class RealEstateComponent implements OnInit {
 
   selectedPersons = signal<Person[]>([]);
   selectedRealEstateNumber = signal<number | undefined>(undefined);
+
+  totalCount = signal<number | undefined>(undefined);
 
   barChartData = computed(() => {
     if (!this.histogramData() || this.histogramData().size === 0) {
@@ -147,33 +142,27 @@ export class RealEstateComponent implements OnInit {
     chart.update();
   }
 
-  topRealEstateColumns = ['owner', 'description', 'value'];
+  topRealEstateColumns = ['description', 'value'];
 
   private persons = Array<Person>();
 
   ngOnInit(): void {
     this.realEstateService
-      .getAllWithRealEstate(this.minValue())
+      .getAllGroupedByPersons(this.minValue())
       .subscribe((result) => {
         this.persons = result;
         this.updateHistogram(this.persons, this.minValue());
-        this.updateTopRealEstate(this.persons);
       });
-  }
 
-  private updateTopRealEstate(persons: Person[]): void {
-    const filteredRealEstates = persons
-      .flatMap((person) =>
-        (person.realEstate ?? [])
-          .filter((r) => r != undefined)
-          .map((r) => ({ ...r, owner: person }))
-      )
-      .sort((a, b) => {
-        return (b?.value ?? 0) - (a?.value ?? 0);
-      })
-      .slice(0, 10);
+    this.realEstateService
+      .getCount()
+      .subscribe((count) => this.totalCount.set(count));
 
-    this.topRealEstate.set(filteredRealEstates);
+    this.realEstateService
+      .getAllPaginated(0, 25)
+      .subscribe((res) =>
+        this.topRealEstate.set(res.map((re) => re.realEstate))
+      );
   }
 
   updateMinValue(newValue: number) {
@@ -187,6 +176,14 @@ export class RealEstateComponent implements OnInit {
         state: { id: realEstate.owner.id },
       });
     }
+  }
+
+  onPaginatorChanged($event: PageEvent) {
+    this.realEstateService
+      .getAllPaginated($event.pageIndex, $event.pageSize)
+      .subscribe((res) =>
+        this.topRealEstate.set(res.map((re) => re.realEstate))
+      );
   }
 
   private updateHistogram(persons: Person[], minValue: number): void {

@@ -10,7 +10,7 @@ import {
   viewChild,
 } from '@angular/core';
 import { Carousel, CarouselModule } from 'primeng/carousel';
-import { Person } from '../../model/person.type';
+import { Person } from '../../model/person.interface';
 import { PersonService } from '../../services/person.service';
 import { delay } from 'rxjs';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';

@@ -25,7 +25,7 @@ namespace AssetDeclarationsApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<GetResponse>> Get(int id)
         {
-            var person = await _dataService.GetPersonIncludingDetails(id);
+            var person = await _dataService.GetPersonIncludingDetailsAsync(id);
 
             if (person is null)
             {
