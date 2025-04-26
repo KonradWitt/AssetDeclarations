@@ -19,6 +19,7 @@ import { Router } from '@angular/router';
 import { MatDividerModule } from '@angular/material/divider';
 import { RealEstateService } from '../../services/real-estate.service';
 import { MatPaginatorModule, PageEvent } from '@angular/material/paginator';
+import { PersonRealEstateCount } from '../../model/personRealEstateCount.interface';
 
 @Component({
   selector: 'app-real-estate',
@@ -144,15 +145,14 @@ export class RealEstateComponent implements OnInit {
 
   topRealEstateColumns = ['description', 'value'];
 
-  private persons = Array<Person>();
+  private persons = Array<PersonRealEstateCount>();
 
   ngOnInit(): void {
     this.realEstateService
-      .getAllGroupedByPersons(this.minValue())
-      .subscribe((result) => {
-        this.persons = result;
-        this.updateHistogram(this.persons, this.minValue());
-      });
+    .getCountPerPerson(this.minValue())
+    .subscribe((result) => {
+      this.updateHistogram(result);
+    });
 
     this.realEstateService
       .getCount()
@@ -167,7 +167,11 @@ export class RealEstateComponent implements OnInit {
 
   updateMinValue(newValue: number) {
     this.minValue.set(newValue);
-    this.updateHistogram(this.persons, this.minValue());
+    this.realEstateService
+      .getCountPerPerson(this.minValue())
+      .subscribe((result) => {
+        this.updateHistogram(result);
+      });
   }
 
   onTopRealEstateClicked(realEstate: RealEstate) {
@@ -186,22 +190,20 @@ export class RealEstateComponent implements OnInit {
       );
   }
 
-  private updateHistogram(persons: Person[], minValue: number): void {
-    const filteredPersons = this.filterPersons(persons, minValue);
-
+  private updateHistogram(persons: PersonRealEstateCount[]): void {
     const histogram = new Map<number, Person[]>();
 
-    for (const person of filteredPersons) {
+    for (const person of persons) {
       if (person === undefined) {
         continue;
       }
 
-      const numberOfRealEstate = person.realEstate?.length ?? 0;
+      const numberOfRealEstate = person.realEstateCount;
       const personsGroup = histogram.get(numberOfRealEstate);
       if (personsGroup) {
-        personsGroup.push(person);
+        personsGroup.push(person.person);
       } else {
-        histogram.set(numberOfRealEstate, [person]);
+        histogram.set(numberOfRealEstate, [person.person]);
       }
     }
 
@@ -214,19 +216,5 @@ export class RealEstateComponent implements OnInit {
     }
 
     this.histogramData.set(fullHistogram);
-  }
-
-  private filterPersons(persons: Person[], minValue: number): Person[] {
-    return persons.map((person) => {
-      const filteredRealEstates =
-        person.realEstate?.filter(
-          (realEstate) => realEstate.value > minValue
-        ) || [];
-
-      return {
-        ...person,
-        realEstate: filteredRealEstates,
-      };
-    });
   }
 }

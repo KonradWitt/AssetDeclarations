@@ -21,14 +21,14 @@ export class RealEstateService {
 
   constructor(private http: HttpClient) {}
 
-  getAllGroupedByPersons(minValue?: number): Observable<Person[]> {
-    const queryBase = 'GetAllGroupedByPersons';
+  getCountPerPerson(minValue?: number): Observable<{person: Person, realEstateCount: number}[]> {
+    const queryBase = 'GetCountPerPerson';
     let query = '';
 
     if (minValue) query = `${queryBase}?minValue=${minValue}`;
     else query = queryBase;
 
-    return this.http.get<Person[]>(
+    return this.http.get<{person: Person, realEstateCount: number}[]>(
       `${environment.apiUrl}/${this.url}/${query}`
     );
   }

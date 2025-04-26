@@ -1,8 +1,8 @@
-﻿using AssetDeclarationsApi.DTOs.Person;
-using AssetDeclarationsApi.DTOs;
+﻿using AssetDeclarationsApi.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using AssetDeclarationsApi.Services;
 using AssetDeclarationsApi.Mappers;
+using AssetDeclarationsApi.DTOs.RealEstate;
 
 namespace AssetDeclarationsApi.Controllers
 {
@@ -18,18 +18,14 @@ namespace AssetDeclarationsApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<GetAllWithRealEstateResponse>>> GetAllGroupedByPersons([FromQuery] decimal minValue = 0)
+        public async Task<ActionResult<List<GetAllGroupedByPersonsResponse>>> GetCountPerPerson([FromQuery] decimal minValue = 0)
         {
-            var persons = await _dataService.GetPersonsWithRecentRealEstateAsync(minValue);
+            var queryResult = await _dataService.GetAllPersonsWithRealEstateCount(minValue);
 
-            var response = persons.Select(p => new GetAllWithRealEstateResponse()
+            var response = queryResult.Select(qr => new GetAllGroupedByPersonsResponse()
             {
-                Id = p.Id,
-                FirstName = p.FirstName,
-                LastName = p.LastName,
-                FullName = p.FullName,
-                Link = p.Link,
-                RealEstate = p.AssetDeclarations?.FirstOrDefault()?.RealEstate.Select(re => re.MapToDTO()).ToList() ?? new List<RealEstateDTO>()
+                Person = qr.Person.MapToDTO(),
+                RealEstateCount = qr.RealEstateCount
             });
 
             return Ok(response);
@@ -37,11 +33,11 @@ namespace AssetDeclarationsApi.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult<List<GetAllRealEstateResponse>>> GetAllPaginated([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+        public async Task<ActionResult<List<GetAllResponse>>> GetAllPaginated([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
             var realEstate = await _dataService.GetAllRealEstateAsync(page, pageSize);
 
-            var response = realEstate.Select(x => new GetAllRealEstateResponse() { RealEstate = x.realEstate.MapToDTO(), PersonId = x.person.Id, PersonFullName = x.person.FullName, PersonLink = x.person.Link });
+            var response = realEstate.Select(x => new GetAllResponse() { Person = x.Person.MapToDTO(), RealEstate = x.RealEstate.MapToDTO() });
             return Ok(response);
         }
 

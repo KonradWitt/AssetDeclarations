@@ -106,28 +106,23 @@ namespace AssetDeclarationsApi.Services
             return result;
         }
 
-        public async Task<IEnumerable<Person>> GetPersonsWithRecentRealEstateAsync(decimal minValue)
+        public async Task<List<(Person Person, int RealEstateCount)>> GetAllPersonsWithRealEstateCount(decimal minValue)
         {
             var query = await _context.Persons.Select(p => new
             {
                 Person = p,
-                RealEstatesFromLatestAssetDeclaration = p.AssetDeclarations
-                                        .OrderByDescending(ad => ad.Date)
-                                        .Take(1)
-                                        .SelectMany(ad => ad.RealEstate).Where(re => re.Value >= minValue)
+                RealEstateCount = p.AssetDeclarations
+                                       .OrderByDescending(ad => ad.Date)
+                                       .Take(1)
+                                       .SelectMany(ad => ad.RealEstate).Where(re => re.Value >= minValue).Count()
             }).ToListAsync();
 
-            var persons = query.Select(x =>
-            {
-                var person = x.Person;
-                person.AssetDeclarations = new List<AssetDeclaration>() { new AssetDeclaration() { RealEstate = x.RealEstatesFromLatestAssetDeclaration?.ToList() } };
-                return person;
-            });
+            var result = query.Select(x => (x.Person, x.RealEstateCount)).ToList();
 
-            return persons;
+            return result;
         }
 
-        public async Task<List<(Person person, RealEstate realEstate)>> GetAllRealEstateAsync(int page, int pageSize)
+        public async Task<List<(Person Person, RealEstate RealEstate)>> GetAllRealEstateAsync(int page, int pageSize)
         {
             var realEstatesWithPersons = await _context.Persons
                 .Select(p => new

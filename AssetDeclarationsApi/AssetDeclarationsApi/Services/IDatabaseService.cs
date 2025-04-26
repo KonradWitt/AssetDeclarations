@@ -13,8 +13,8 @@ namespace AssetDeclarationsApi.Services
         Task DeleteAsync<T>(int id) where T : class;
         Task<Person?> GetPersonIncludingDetailsAsync(int id);
         Task<IEnumerable<Person>> GetHighlightsAsync();
-        Task<IEnumerable<Person>> GetPersonsWithRecentRealEstateAsync(decimal minValue);
-        Task<List<(Person person, RealEstate realEstate)>> GetAllRealEstateAsync(int page, int pageSize);
+        Task<List<(Person Person, int RealEstateCount)>> GetAllPersonsWithRealEstateCount(decimal minValue);
+        Task<List<(Person Person, RealEstate RealEstate)>> GetAllRealEstateAsync(int page, int pageSize);
         Task<int> GetNumberOfRealEstatesAsync();
         Task<AssetDeclaration> UpdateAssetDeclarationAsync(AssetDeclaration assetDeclaration);
         Task<User?> GetUserByUserNameAsync(string userName);

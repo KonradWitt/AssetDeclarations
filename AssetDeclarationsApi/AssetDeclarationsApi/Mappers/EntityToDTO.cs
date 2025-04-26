@@ -5,6 +5,31 @@ namespace AssetDeclarationsApi.Mappers;
 
 public static class EntityToDTO
 {
+
+    public static PersonDTO MapToDTO(this Person p)
+    {
+        if (p is null)
+        {
+            return null;
+        }
+
+        return new PersonDTO()
+        {
+            Id = p.Id,
+            FirstName = p.FirstName,
+            LastName = p.LastName,
+            FullName = p.FullName,
+            Link = p.Link,
+            DateOfBirth = p.DateOfBirth,
+            PlaceOfBirth = p.PlaceOfBirth,
+            ImageUrl = p.ImageUrl,
+            PartyId = p.PartyId,
+            Party = p.Party?.MapToDTO(),
+            AssetDeclarations = p.AssetDeclarations?.Select(ad => ad.MapToDTO()).ToList()
+        };
+    }
+
+
     public static AssetDeclarationDTO MapToDTO(this AssetDeclaration ad)
     {
         if (ad is null)
