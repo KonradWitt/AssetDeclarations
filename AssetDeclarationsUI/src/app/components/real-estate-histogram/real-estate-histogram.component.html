@@ -1,6 +1,5 @@
 <div class="histogram-container">
-  Poniższy wykres obrazuje rozkład posiadanych nieruchomości o wartości powyżej
-
+  Poniższy wykres ilustruje ilu polityków posiada ile nieruchomości o wartości powyżej
   <input
     matInput
     type="number"
@@ -9,7 +8,7 @@
     [ngModel]="minValue()"
     (ngModelChange)="updateMinValue($event)"
   />
-  zł.* Kliknij na wykres, aby zobaczyć polityków należących do wybranej grupy.
+  zł*. Kliknij na wykres, aby zobaczyć polityków należących do wybranej grupy.
   <div class="explanation-text">
     *Celem wyłączenia z analizy nieruchomości typu "miejsce postojowe" lub
     podobnych.

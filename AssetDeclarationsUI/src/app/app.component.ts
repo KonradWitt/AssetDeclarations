@@ -31,11 +31,14 @@ export class AppComponent implements OnInit {
   private readonly warning_key = 'ai_content_warning_displayed';
 
   private readonly navLinks = [
-    { path: '', label: 'Znajdź polityka', requiresAuth: false },
+    { path: '', label: 'Znajdź polityka' },
     {
       path: 'nieruchomosci',
       label: 'Przegląd nieruchomości',
-      requiresAuth: false,
+    },
+    {
+      path: 'partie',
+      label: 'Analiza partii',
     },
     { path: 'edytuj', label: 'Edytuj', requiresAuth: true },
   ];

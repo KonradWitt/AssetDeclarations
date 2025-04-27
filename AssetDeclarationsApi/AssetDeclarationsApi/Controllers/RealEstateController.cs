@@ -20,7 +20,7 @@ namespace AssetDeclarationsApi.Controllers
         [HttpGet]
         public async Task<ActionResult<List<GetAllGroupedByPersonsResponse>>> GetCountPerPerson([FromQuery] decimal minValue = 0)
         {
-            var queryResult = await _dataService.GetAllPersonsWithRealEstateCount(minValue);
+            var queryResult = await _dataService.GetAllPersonsWithRealEstateCountAsync(minValue);
 
             var response = queryResult.Select(qr => new GetAllGroupedByPersonsResponse()
             {

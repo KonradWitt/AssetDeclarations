@@ -7,6 +7,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { AuthService } from './services/auth.service';
 import { Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
+import { PartiesComponent } from './pages/parties/parties.component';
 
 @Injectable({
   providedIn: 'root',
@@ -29,10 +30,11 @@ export const routes: Routes = [
   { path: 'polityk', component: PersonComponent },
   { path: 'polityk/:link', component: PersonComponent },
   { path: 'nieruchomosci', component: RealEstateComponent },
+  { path: 'login', component: LoginComponent },
+  {path: 'partie', component: PartiesComponent},
   {
     path: 'edytuj',
     component: EditAssetDeclarationComponent,
     canActivate: [AuthGuard],
   },
-  { path: 'login', component: LoginComponent },
 ];

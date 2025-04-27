@@ -108,5 +108,11 @@ namespace AssetDeclarationsApi.Controllers
 
             return CreatedAtAction(nameof(Get), new { id = createdPerson.Id }, createdPerson);
         }
+
+        [HttpGet]
+        public async Task<ActionResult> Test()
+        {
+            return Ok(await _dataService.Test());
+        }
     }
 }

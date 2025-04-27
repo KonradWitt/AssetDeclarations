@@ -106,7 +106,7 @@ namespace AssetDeclarationsApi.Services
             return result;
         }
 
-        public async Task<List<(Person Person, int RealEstateCount)>> GetAllPersonsWithRealEstateCount(decimal minValue)
+        public async Task<List<(Person Person, int RealEstateCount)>> GetAllPersonsWithRealEstateCountAsync(decimal minValue)
         {
             var query = await _context.Persons.Select(p => new
             {
@@ -125,6 +125,7 @@ namespace AssetDeclarationsApi.Services
         public async Task<List<(Person Person, RealEstate RealEstate)>> GetAllRealEstateAsync(int page, int pageSize)
         {
             var realEstatesWithPersons = await _context.Persons
+                .Include(p => p.Party)
                 .Select(p => new
                 {
                     Person = p,
@@ -189,6 +190,25 @@ namespace AssetDeclarationsApi.Services
         public async Task<User?> GetUserByUserNameAsync(string userName)
         {
             return await _context.Users.FirstOrDefaultAsync(u => u.UserName == userName);
+        }
+
+        public async Task<object> Test()
+        {
+            var a = await _context.Persons
+            .Select(p => new
+            {
+                Person = p,
+                LatestAssetDeclaration = p.AssetDeclarations.OrderByDescending(ad => ad.Date).FirstOrDefault()
+            })
+            .Where(x => x.LatestAssetDeclaration != null)
+            .GroupBy(x => x.Person.Party).Select(group => new
+            {
+                Party = group.Key,
+                AverageNetValue = group.Average(x => x.LatestAssetDeclaration.NetValue)
+            })
+            .ToListAsync();
+
+            return a;
         }
     }
 }
