@@ -19,7 +19,7 @@ namespace AssetDeclarationsApi.Services
         Task<AssetDeclaration> UpdateAssetDeclarationAsync(AssetDeclaration assetDeclaration);
         Task<User?> GetUserByUserNameAsync(string userName);
 
-        Task<object> Test();
+        Task<List<(Party Party, decimal AverageNetValue)>> GetAverageNetWorthPerPartyAsync();
 
     }
 }

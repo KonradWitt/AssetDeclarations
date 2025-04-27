@@ -192,23 +192,26 @@ namespace AssetDeclarationsApi.Services
             return await _context.Users.FirstOrDefaultAsync(u => u.UserName == userName);
         }
 
-        public async Task<object> Test()
+        public async Task<List<(Party Party, decimal AverageNetValue)>> GetAverageNetWorthPerPartyAsync()
         {
-            var a = await _context.Persons
+            var query = await _context.Persons
             .Select(p => new
             {
                 Person = p,
                 LatestAssetDeclaration = p.AssetDeclarations.OrderByDescending(ad => ad.Date).FirstOrDefault()
             })
             .Where(x => x.LatestAssetDeclaration != null)
-            .GroupBy(x => x.Person.Party).Select(group => new
+            .GroupBy(x => x.Person.Party)
+            .Select(group => new
             {
                 Party = group.Key,
-                AverageNetValue = group.Average(x => x.LatestAssetDeclaration.NetValue)
+                AverageNetValue = group.Average(x => x.LatestAssetDeclaration!.NetValue)
             })
             .ToListAsync();
 
-            return a;
+            var result = query.Select(x => (x.Party, x.AverageNetValue)).ToList();
+
+            return result;
         }
     }
 }
