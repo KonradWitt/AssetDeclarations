@@ -1,5 +1,4 @@
 <div class="histogram-container">
-  <h3>Histogram</h3>
   Poniższy wykres obrazuje rozkład posiadanych nieruchomości o wartości powyżej
 
   <input
@@ -7,7 +6,7 @@
     type="number"
     min="0"
     step="10000"
-    [ngModel] = "minValue()"
+    [ngModel]="minValue()"
     (ngModelChange)="updateMinValue($event)"
   />
   zł.* Kliknij na wykres, aby zobaczyć polityków należących do wybranej grupy.

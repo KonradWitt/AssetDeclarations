@@ -6,13 +6,6 @@ import { environment } from '../../environments/environment';
 import { RealEstate } from '../model/realEstate.interface';
 import { PersonIdentifier } from '../model/personIdentifier.interface';
 
-export interface GetAllPaginatedResponse {
-  realEstate: RealEstate;
-  personId: string;
-  personFullName: string;
-  personLink: string;
-}
-
 @Injectable({
   providedIn: 'root',
 })
@@ -21,14 +14,16 @@ export class RealEstateService {
 
   constructor(private http: HttpClient) {}
 
-  getCountPerPerson(minValue?: number): Observable<{person: Person, realEstateCount: number}[]> {
+  getCountPerPerson(
+    minValue?: number
+  ): Observable<{ person: Person; realEstateCount: number }[]> {
     const queryBase = 'GetCountPerPerson';
     let query = '';
 
     if (minValue) query = `${queryBase}?minValue=${minValue}`;
     else query = queryBase;
 
-    return this.http.get<{person: Person, realEstateCount: number}[]>(
+    return this.http.get<{ person: Person; realEstateCount: number }[]>(
       `${environment.apiUrl}/${this.url}/${query}`
     );
   }
@@ -40,8 +35,8 @@ export class RealEstateService {
   getAllPaginated(
     page: number,
     pageSize: number
-  ): Observable<GetAllPaginatedResponse[]> {
-    return this.http.get<GetAllPaginatedResponse[]>(
+  ): Observable<{ person: Person; realEstate: RealEstate }[]> {
+    return this.http.get<{ person: Person; realEstate: RealEstate }[]>(
       `${environment.apiUrl}/${this.url}/GetAllPaginated`,
       {
         params: { page: page, pageSize: pageSize },

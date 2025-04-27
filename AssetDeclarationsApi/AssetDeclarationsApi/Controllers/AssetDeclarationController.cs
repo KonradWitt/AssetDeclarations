@@ -31,7 +31,7 @@ namespace AssetDeclarationsApi.Controllers
 
             assetDeclaration.CalculateNetValue();
 
-            await _dataService.UpdateAsync(assetDeclaration);
+            await _dataService.UpdateAssetDeclarationAsync(assetDeclaration);
             return Ok();
         }
     }
