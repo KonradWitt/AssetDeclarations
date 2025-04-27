@@ -1,4 +1,12 @@
-import { Component, input, Input, signal, SimpleChanges } from '@angular/core';
+import {
+  Component,
+  computed,
+  input,
+  Input,
+  OnChanges,
+  signal,
+  SimpleChanges,
+} from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { Person } from '../../model/person.interface';
@@ -23,19 +31,11 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 })
 export class PersonalDataCardComponent {
   person = input<Person>();
-  lastDeclaration = signal<AssetDeclaration | undefined>(undefined);
-
-  ngOnChanges(changes: SimpleChanges) {
-    this.refreshLastDeclararion();
-  }
-
-  private refreshLastDeclararion() {
-    if (!this.person()) return;
-
-    this.lastDeclaration.set(
-      this.person()!.assetDeclarations?.sort((x) => new Date(x.date).getTime())[
+  
+  lastDeclaration = computed(
+    () =>
+      this.person()?.assetDeclarations?.sort((x) => new Date(x.date).getTime())[
         this.person()!.assetDeclarations!.length - 1
-      ]
-    );
-  }
+      ] ?? undefined
+  );
 }
