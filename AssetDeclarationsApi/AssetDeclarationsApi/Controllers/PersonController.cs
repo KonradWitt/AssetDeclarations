@@ -101,7 +101,7 @@ namespace AssetDeclarationsApi.Controllers
                 PlaceOfBirth = request.PlaceOfBirth,
                 ImageUrl = request.ImageUrl,
                 PartyId = request.PartyId,
-                AssetDeclarations = request.AssetDeclarations.Select(ad => ad.MapToEntity()).ToList(),
+                AssetDeclarations = request.AssetDeclarations?.Select(ad => ad.MapToEntity()).ToList(),
             };
 
             var createdPerson = await _dataService.AddAsync(person);

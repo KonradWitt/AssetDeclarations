@@ -25,6 +25,10 @@ namespace AssetDeclarationsApi.Data
         {
             base.OnModelCreating(modelBuilder);
 
+            modelBuilder.Entity<Person>()
+        .HasIndex(p => p.Link)
+        .IsUnique();
+
             modelBuilder.Entity<Party>().HasData(
         new Party { Id = 1, Name = "Koalicja Obywatelska" },
         new Party { Id = 2, Name = "Konfederacja" },

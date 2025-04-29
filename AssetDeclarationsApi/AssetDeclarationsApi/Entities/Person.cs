@@ -5,9 +5,29 @@ namespace AssetDeclarationsApi.Entities
 {
     public class Person
     {
+        private string _firstName;
+        private string _lastName;
+
         public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string FirstName
+        {
+            get => _firstName;
+            set
+            {
+                _firstName = value;
+                UpdateLink();
+            }
+        }
+        public string LastName
+        {
+            get => _lastName;
+            set
+            {
+                _lastName = value;
+                UpdateLink();
+            }
+        }
+        public string Link { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string PlaceOfBirth { get; set; }
 
@@ -24,10 +44,9 @@ namespace AssetDeclarationsApi.Entities
         public string FullName { get => FirstName + ' ' + LastName; }
 
 
-        [NotMapped]
-        public string Link
+        private void UpdateLink()
         {
-            get => FullName?.Trim().ToLower().ReplacePolishLetters().Replace(' ', '-');
+            Link = FullName?.Trim().ToLower().ReplacePolishLetters().Replace(' ', '-');
         }
     }
 }
