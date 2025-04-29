@@ -38,7 +38,7 @@ export class AppComponent implements OnInit {
     },
     {
       path: 'partie',
-      label: 'Analiza partii',
+      label: 'Porównanie partii',
     },
     { path: 'edytuj', label: 'Edytuj', requiresAuth: true },
   ];

@@ -20,6 +20,8 @@ namespace AssetDeclarationsApi.Services
         Task<User?> GetUserByUserNameAsync(string userName);
 
         Task<List<(Party Party, decimal AverageNetValue)>> GetAverageNetWorthPerPartyAsync();
+        Task<List<(Party Party, double AverageRealEstateCount)>> GetAverageRealEstateCountPerPartyAsync(decimal minValue);
+
 
     }
 }

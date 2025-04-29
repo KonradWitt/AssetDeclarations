@@ -1,4 +1,5 @@
 ﻿using AssetDeclarationsApi.DTOs.Party;
+using AssetDeclarationsApi.DTOs.RealEstate;
 using AssetDeclarationsApi.Entities;
 using AssetDeclarationsApi.Mappers;
 using AssetDeclarationsApi.Services;
@@ -25,6 +26,20 @@ namespace AssetDeclarationsApi.Controllers
                 Party = x.Party.MapToDTO(),
                 AverageNetWorth = x.AverageNetValue
             });
+            return Ok(response);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<GetAverageRealEstateCountResponse>>> GetAverageRealEstateCount([FromQuery] decimal minValue = 0)
+        {
+            var queryResult = await _dataService.GetAverageRealEstateCountPerPartyAsync(minValue);
+
+            var response = queryResult.Select(qr => new GetAverageRealEstateCountResponse()
+            {
+                Party = qr.Party.MapToDTO(),
+                AverageRealEstateCount = qr.AverageRealEstateCount
+            });
+
             return Ok(response);
         }
     }

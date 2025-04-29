@@ -213,6 +213,29 @@ namespace AssetDeclarationsApi.Services
 
             return result;
         }
+
+        public async Task<List<(Party Party, double AverageRealEstateCount)>> GetAverageRealEstateCountPerPartyAsync(decimal minValue)
+        {
+            var query = await _context.Persons
+            .Select(p => new
+            {
+                Person = p,
+                LatestAssetDeclaration = p.AssetDeclarations.OrderByDescending(ad => ad.Date).FirstOrDefault()
+            })
+            .Where(x => x.LatestAssetDeclaration != null)
+            .GroupBy(x => x.Person.Party)
+            .Select(group => new
+            {
+                Party = group.Key,
+                AverageRealEstateCount = group.Average(x => x.LatestAssetDeclaration!.RealEstate.Where(r => r.Value > minValue).Count())
+            })
+            .ToListAsync();
+
+            var result = query.Select(x => (x.Party, x.AverageRealEstateCount)).ToList();
+
+            return result;
+        }
+
     }
 }
 

@@ -1,0 +1,25 @@
+<div>
+    Średnia posiadana liczba nieruchomości o wartości powyżej
+    <input
+      matInput
+      type="number"
+      min="0"
+      step="10000"
+      [ngModel]="minValue()"
+      (ngModelChange)="updateMinValue($event)"
+    />
+    zł*.
+    <div class="explanation-text">
+      *Celem wyłączenia z analizy nieruchomości typu "miejsce postojowe" lub
+      podobnych.
+    </div>
+  <div class="chart-container">
+    <canvas
+      baseChart
+      [data]="this.barChartData()"
+      [options]="this.barChartOptions"
+      [type]="'bar'"
+    >
+    </canvas>
+  </div>
+</div>
