@@ -53,6 +53,9 @@ export class RealEstateHistogramComponent implements OnInit {
           text: `Posiadane nieruchomości`,
           font: { size: 20 },
         },
+        ticks: {
+          font: { size: 16 },
+        },
       },
       y: {
         title: {
@@ -62,7 +65,7 @@ export class RealEstateHistogramComponent implements OnInit {
         },
         min: 0,
         ticks: {
-          stepSize: 1,
+          font: { size: 16 },
         },
       },
     },

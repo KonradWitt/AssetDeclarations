@@ -105,7 +105,8 @@ namespace AssetDeclarationsApi.Mappers
             {
                 Id = dto.Id,
                 Name = dto.Name ?? string.Empty,
-                Persons = new List<Person>() // Default initialization; modify as needed
+                Abbreviation = dto.Abbreviation,
+                Persons = new List<Person>() 
             };
         }
 

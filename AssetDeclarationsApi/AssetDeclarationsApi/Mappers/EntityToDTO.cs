@@ -128,7 +128,8 @@ public static class EntityToDTO
         return new PartyDTO
         {
             Id = party.Id,
-            Name = party.Name
+            Name = party.Name,
+            Abbreviation = party.Abbreviation
         };
     }
 

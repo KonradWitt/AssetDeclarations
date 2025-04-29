@@ -30,15 +30,15 @@ namespace AssetDeclarationsApi.Data
         .IsUnique();
 
             modelBuilder.Entity<Party>().HasData(
-        new Party { Id = 1, Name = "Koalicja Obywatelska" },
-        new Party { Id = 2, Name = "Konfederacja" },
-        new Party { Id = 3, Name = "Lewica" },
-        new Party { Id = 4, Name = "Niezrzeszeni" },
-        new Party { Id = 5, Name = "PSL" },
-        new Party { Id = 6, Name = "Polska 2050" },
-        new Party { Id = 7, Name = "Prawo i Sprawiedliwość" },
-        new Party { Id = 8, Name = "Razem" },
-        new Party { Id = 9, Name = "Wolni Republikanie" }
+        new Party { Id = 1, Name = "Koalicja Obywatelska", Abbreviation = "KO" },
+        new Party { Id = 2, Name = "Konfederacja", Abbreviation = null },
+        new Party { Id = 3, Name = "Lewica", Abbreviation = null },
+        new Party { Id = 4, Name = "Niezrzeszeni", Abbreviation = null },
+        new Party { Id = 5, Name = "Polskie Stronnictwo Ludowe", Abbreviation = "PSL" },
+        new Party { Id = 6, Name = "Polska 2050", Abbreviation = null },
+        new Party { Id = 7, Name = "Prawo i Sprawiedliwość", Abbreviation = "PiS" },
+        new Party { Id = 8, Name = "Razem", Abbreviation =  null},
+        new Party { Id = 9, Name = "Wolni Republikanie", Abbreviation = null }
     );
         }
     }

@@ -33,12 +33,12 @@ export class PartiesRealEstateChartComponent implements OnInit {
     scales: {
       x: {
         ticks: {
-          font: { size: 14 },
+          font: { size: 16 },
         },
       },
       y: {
         ticks: {
-          font: { size: 14 },
+          font: { size: 16 },
         },
         min: 0,
       },
@@ -62,7 +62,7 @@ export class PartiesRealEstateChartComponent implements OnInit {
     ) as PartyRealEstateCount[];
 
     this.barChartData.set({
-      labels: sortedParties.map((p) => p.party?.name ?? ''),
+      labels: sortedParties.map((p) => p.party?.abbreviation ?? p.party?.name ?? ''),
       datasets: [
         {
           data: sortedParties.map((p) => p.averageRealEstateCount),

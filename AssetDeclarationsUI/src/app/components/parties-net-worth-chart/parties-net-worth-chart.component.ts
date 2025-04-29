@@ -30,18 +30,19 @@ export class PartiesNetWorthChartComponent implements OnInit {
     scales: {
       x: {
         ticks: {
-          font: { size: 14 },
+          font: { size: 16 },
         },
       },
       y: {
+        
+        min: 0,
         ticks: {
-          font: { size: 14 },
+          font: { size: 16 },
           callback: function (value) {
             const pipe = new NumberSpacePipe();
-            return pipe.transform(value as number) + ' zł'; // Add your desired unit here
+            return pipe.transform(value as number) + ' zł';
           },
         },
-        min: 0,
       },
     },
   };
@@ -61,7 +62,7 @@ export class PartiesNetWorthChartComponent implements OnInit {
     ) as PartyNetWorth[];
 
     this.barChartData.set({
-      labels: sortedParties.map((p) => p.party?.name ?? ''),
+      labels: sortedParties.map((p) => p.party?.abbreviation ?? p.party?.name ?? ''),
       datasets: [
         {
           data: sortedParties.map((p) => p.averageNetWorth),
