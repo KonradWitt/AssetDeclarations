@@ -48,6 +48,32 @@ namespace AssetDeclarationsApi.Controllers
             return Ok(response);
         }
 
+        [HttpGet("{link}")]
+        public async Task<ActionResult<GetResponse>> GetByLink(string link)
+        {
+            var person = await _dataService.GetPersonIncludingDetailsByLinkAsync(link);
+
+            if (person is null)
+            {
+                return NotFound();
+            }
+
+            var response = new GetResponse()
+            {
+                Id = person.Id,
+                LastName = person.LastName,
+                FullName = person.FullName,
+                Link = person.Link,
+                DateOfBirth = person.DateOfBirth,
+                PlaceOfBirth = person.PlaceOfBirth,
+                ImageUrl = person.ImageUrl,
+                Party = person.Party?.MapToDTO(),
+                AssetDeclarations = person.AssetDeclarations?.Select(ad => ad.MapToDTO()).ToList(),
+
+            };
+            return Ok(response);
+        }
+
         [HttpGet]
         public async Task<ActionResult<List<GetAllResponse>>> GetAll()
         {
@@ -92,9 +118,7 @@ namespace AssetDeclarationsApi.Controllers
             }
 
             var person = new Person()
-
             {
-                Id = request.Id,
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 DateOfBirth = request.DateOfBirth ?? default,

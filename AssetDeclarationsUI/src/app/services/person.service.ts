@@ -25,30 +25,7 @@ export class PersonService {
   }
 
   getPersonByLink(link: string): Observable<Person> {
-    return new Observable<Person>((observer) => {
-      this.getAll().subscribe(
-        (persons) => {
-          const matchingPerson = persons.find((person) => person.link === link);
-
-          if (matchingPerson) {
-            this.getPerson(matchingPerson.id).subscribe(
-              (person) => {
-                observer.next(person);
-                observer.complete();
-              },
-              (error) => {
-                observer.error(error);
-              }
-            );
-          } else {
-            observer.error(new Error('Person not found'));
-          }
-        },
-        (error) => {
-          observer.error(error);
-        }
-      );
-    });
+    return this.http.get<Person>(`${environment.apiUrl}/${this.url}/GetByLink/${link}`);
   }
 
   getHighlightsPersons(): Observable<PersonHighlight[]> {

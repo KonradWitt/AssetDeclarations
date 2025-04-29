@@ -12,6 +12,7 @@ namespace AssetDeclarationsApi.Services
         Task UpdateAsync<T>(T entity) where T : class;
         Task DeleteAsync<T>(int id) where T : class;
         Task<Person?> GetPersonIncludingDetailsAsync(int id);
+        Task<Person?> GetPersonIncludingDetailsByLinkAsync(string link);
         Task<IEnumerable<Person>> GetHighlightsAsync();
         Task<List<(Person Person, int RealEstateCount)>> GetAllPersonsWithRealEstateCountAsync(decimal minValue);
         Task<List<(Person Person, RealEstate RealEstate)>> GetAllRealEstateAsync(int page, int pageSize);

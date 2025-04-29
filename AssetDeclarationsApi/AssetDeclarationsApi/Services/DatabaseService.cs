@@ -79,6 +79,17 @@ namespace AssetDeclarationsApi.Services
             return person;
         }
 
+        public async Task<Person?> GetPersonIncludingDetailsByLinkAsync(string link)
+        {
+            var person = await _context.Persons.FirstOrDefaultAsync(x => x.Link == link);
+            if (person is null)
+            {
+                return null;
+            }
+
+            return await GetPersonIncludingDetailsAsync(person.Id);
+        }
+
         public async Task<IEnumerable<Person>> GetHighlightsAsync()
         {
             var highlights = await _context.Persons.Where(x => x.IsHighlight)
