@@ -4,12 +4,13 @@
   [numVisible]="4"
   [numScroll]="2"
   [autoplayInterval]="2500"
+  [showNavigators]="false"
 >
   <ng-template let-person #item>
     <a class="person-container" (click)="onPersonClicked(person)">
       <h3>{{ person.fullName }}</h3>
       <img class="profile-picture" [src]="person.imageUrl" />
-      <h4>Wartość netto: {{ person.netWorth | numberSpace }} zł</h4>
+      <h4>Majątek: {{ person.netWorth | numberSpace }} zł</h4>
     </a>
   </ng-template>
 </p-carousel>
