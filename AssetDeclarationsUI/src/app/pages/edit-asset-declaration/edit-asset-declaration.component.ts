@@ -20,6 +20,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { PersonIdentifier } from '../../model/personIdentifier.interface';
 import { MatIconModule } from '@angular/material/icon';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 const MY_DATE_FORMATS: MatDateFormats = {
   parse: {
@@ -57,7 +58,8 @@ const MY_DATE_FORMATS: MatDateFormats = {
 export class EditAssetDeclarationComponent {
   constructor(
     private personService: PersonService,
-    private assetDeclarationService: AssetDeclarationServiceService
+    private assetDeclarationService: AssetDeclarationServiceService,
+    private snackBar: MatSnackBar
   ) {}
 
   person = signal<Person | undefined>(undefined);
@@ -137,7 +139,19 @@ export class EditAssetDeclarationComponent {
     const ad = this.assetDeclaration()!;
 
     this.assetDeclarationService.update(ad.id, ad).subscribe({
-      error: (err) => console.error('Update failed:', err),
+      next: () => {
+        this.snackBar.open('Dane zostały zaktualizowane.', 'OK', {
+          duration: 2000,
+        });
+      },
+
+      error: (err) => {
+        console.error('Update failed:', err),
+          this.snackBar.open(
+            'Wystąpił błąd podczas zapisywania danych. Spróbuj zalogować się ponownie.',
+            'OK'
+          );
+      },
     });
   }
 }

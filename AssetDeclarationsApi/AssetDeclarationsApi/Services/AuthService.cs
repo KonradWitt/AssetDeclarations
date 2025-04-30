@@ -21,6 +21,11 @@ namespace AssetDeclarationsApi.Services
             _dataService = dataService;
         }
 
+        public Task<User> GetUserAsync(int id)
+        {
+            return _dataService.GetByIdAsync<User>(id);
+        }
+
         public async Task<RegisterResponse?> RegisterAsync(RegisterRequest request)
         {
             var existingUser = await _dataService.GetUserByUserNameAsync(request.UserName);
@@ -69,8 +74,8 @@ namespace AssetDeclarationsApi.Services
         {
             var claims = new List<Claim>()
             {
-                new Claim(ClaimTypes.Name, user.UserName),
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Name, user.UserName),
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config.GetValue<string>("AppSettings:SecurityKey")!));
@@ -81,7 +86,7 @@ namespace AssetDeclarationsApi.Services
                 issuer: _config.GetValue<string>("AppSettings:Issuer"),
                 audience: _config.GetValue<string>("AppSettings:Audience"),
                 claims: claims,
-                expires: DateTime.UtcNow.AddDays(1),
+                expires: DateTime.UtcNow,
                 signingCredentials: creds);
 
             return new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);

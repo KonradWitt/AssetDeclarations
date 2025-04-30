@@ -48,13 +48,5 @@ namespace AssetDeclarationsApi.Controllers
 
             return Ok(response);
         }
-
-
-        [Authorize]
-        [HttpGet()]
-        public IActionResult TestAuthentication()
-        {
-            return Ok("Auth works");
-        }
     }
 }

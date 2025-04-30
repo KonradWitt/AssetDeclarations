@@ -5,7 +5,8 @@ namespace AssetDeclarationsApi.Services
 {
     public interface IAuthService
     {
-        Task<RegisterResponse?> RegisterAsync(RegisterRequest request);    
-        Task <LoginResponse?> LoginAsync(LoginRequest user);
+        Task<User> GetUserAsync(int id);
+        Task<RegisterResponse?> RegisterAsync(RegisterRequest request);
+        Task<LoginResponse?> LoginAsync(LoginRequest user);
     }
 }
