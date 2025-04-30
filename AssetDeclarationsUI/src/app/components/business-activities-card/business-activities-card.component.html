@@ -1,4 +1,8 @@
-<card title="Inna działalność zawodowa" iconName="work" [showFooter]="true">
+<card
+  title="Inna działalność zawodowa"
+  iconName="work"
+  [showFooter]="this.sortedBusinessActivities() !== undefined"
+>
   <content>
     @if(this.sortedBusinessActivities()) {
     <table mat-table [dataSource]="this.sortedBusinessActivities()!">
@@ -25,7 +29,7 @@
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
       <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
     </table>
-    }
+    } @else { Brak danych do wyświetlenia. }
   </content>
   <footer>
     <p>

@@ -1,4 +1,8 @@
-<card title="Zobowiązania" iconName="credit_card" [showFooter]="true">
+<card
+  title="Zobowiązania"
+  iconName="credit_card"
+  [showFooter]="this.sortedLiabilities() !== undefined"
+>
   <content>
     @if(this.sortedLiabilities()) {
     <table mat-table [dataSource]="this.sortedLiabilities()!">
@@ -17,7 +21,7 @@
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
       <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
     </table>
-    }
+    } @else { Brak danych do wyświetlenia. }
   </content>
   <footer>
     <p>

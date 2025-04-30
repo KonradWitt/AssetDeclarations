@@ -1,4 +1,8 @@
-<card title="Nieruchomości" [showFooter]="true" iconName="apartment">
+<card
+  title="Nieruchomości"
+  [showFooter]="this.sortedRealEstate() !== undefined"
+  iconName="apartment"
+>
   <content>
     @if(sortedRealEstate()) {
     <table mat-table [dataSource]="sortedRealEstate()!">
@@ -24,7 +28,7 @@
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
       <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
     </table>
-    }
+    } @else { Brak danych do wyświetlenia. }
   </content>
   <footer>
     <p>

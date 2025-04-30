@@ -1,4 +1,8 @@
-<card title="Dochody" iconName="payments" [showFooter]="true">
+<card
+  title="Dochody"
+  iconName="payments"
+  [showFooter]="this.sortedIncomes() !== undefined"
+>
   <content>
     @if(sortedIncomes()) {
     <table mat-table [dataSource]="sortedIncomes()!">
@@ -17,7 +21,7 @@
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
       <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
     </table>
-    }
+    } @else { Brak danych do wyświetlenia. }
   </content>
   <footer>
     <p>

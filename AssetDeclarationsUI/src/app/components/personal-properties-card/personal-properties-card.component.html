@@ -1,4 +1,8 @@
-<card title="Mienie osobiste" iconName="directions_car" [showFooter]="true">
+<card
+  title="Mienie osobiste"
+  iconName="directions_car"
+  [showFooter]="this.sortedPersonalProperties() !== undefined"
+>
   <content>
     @if(sortedPersonalProperties()) {
     <table mat-table [dataSource]="sortedPersonalProperties()!">
@@ -17,7 +21,7 @@
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
       <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
     </table>
-    }
+    } @else { Brak danych do wyświetlenia. }
   </content>
   <footer>
     <p>
