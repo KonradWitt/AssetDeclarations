@@ -5,7 +5,7 @@
       [minimumMatchingLetters]="2"
       (personSelected)="onPersonSelected($event)"
     />
-    <button mat-fab extended>
+    <button mat-stroked-button (click)="onGetRandomPersonButtonClicked()">
       <mat-icon>shuffle</mat-icon>
       Losuj
     </button>

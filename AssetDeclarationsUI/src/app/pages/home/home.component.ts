@@ -12,6 +12,7 @@ import { PersonHighlight } from '../../model/personHighlight.interface';
 import { PersonIdentifier } from '../../model/personIdentifier.interface';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { PersonService } from '../../services/person.service';
 
 @Component({
   selector: 'app-home',
@@ -32,13 +33,25 @@ export class HomeComponent {
   selectedPerson = signal<PersonIdentifier | undefined>(undefined);
   isLoading = signal<boolean>(false);
 
-  constructor(private dialogService: MatDialog, private router: Router) {}
+  constructor(
+    private personService: PersonService,
+    private dialogService: MatDialog,
+    private router: Router
+  ) {}
 
   onPersonSelected(person: PersonIdentifier | undefined) {
     if (!person) return;
 
     this.router.navigate(['polityk', person.link], {
       state: { id: person.id },
+    });
+  }
+
+  onGetRandomPersonButtonClicked() {
+    this.personService.getAll().subscribe((persons) => {
+      const randomIndex = Math.floor(Math.random() * persons.length);
+      const randomPerson = persons[randomIndex];
+      this.onPersonSelected(randomPerson);
     });
   }
 

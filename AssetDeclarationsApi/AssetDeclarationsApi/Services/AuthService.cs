@@ -86,7 +86,7 @@ namespace AssetDeclarationsApi.Services
                 issuer: _config.GetValue<string>("AppSettings:Issuer"),
                 audience: _config.GetValue<string>("AppSettings:Audience"),
                 claims: claims,
-                expires: DateTime.UtcNow,
+                expires: DateTime.UtcNow.AddHours(3),
                 signingCredentials: creds);
 
             return new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);
