@@ -1,8 +1,14 @@
 <main>
-  <app-person-autocomplete
-    class="person-autocomplete"
-    [minimumMatchingLetters]="2"
-    (personSelected)="onPersonSelected($event)"
-  />
+  <div class="search-container">
+    <app-person-autocomplete
+      class="person-autocomplete"
+      [minimumMatchingLetters]="2"
+      (personSelected)="onPersonSelected($event)"
+    />
+    <button mat-fab extended>
+      <mat-icon>shuffle</mat-icon>
+      Losuj
+    </button>
+  </div>
   <highlights-carousel (personClicked)="onHighlightPersonClicked($event)" />
 </main>

@@ -10,13 +10,17 @@ import { HighlightsCarouselComponent } from '../../components/highlights-carouse
 import { MatDialog } from '@angular/material/dialog';
 import { PersonHighlight } from '../../model/personHighlight.interface';
 import { PersonIdentifier } from '../../model/personIdentifier.interface';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-home',
   imports: [
     PersonAutocompleteComponent,
+    MatButtonModule,
     MatCardModule,
     MatGridListModule,
+    MatIconModule,
     CommonModule,
     MatProgressSpinnerModule,
     HighlightsCarouselComponent,
