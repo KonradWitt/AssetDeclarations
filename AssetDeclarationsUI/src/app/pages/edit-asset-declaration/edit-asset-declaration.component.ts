@@ -124,6 +124,13 @@ export class EditAssetDeclarationComponent {
     this.updateAssetDeclaration();
   }
 
+  onPersonalPropertiesChanged(personalProperties: any[]) {
+    if (!this.assetDeclaration()) return;
+
+    this.assetDeclaration()!.personalProperties = personalProperties;
+    this.updateAssetDeclaration();
+  }
+
   private updateAssetDeclaration(): void {
     if (!this.assetDeclaration()) return;
 

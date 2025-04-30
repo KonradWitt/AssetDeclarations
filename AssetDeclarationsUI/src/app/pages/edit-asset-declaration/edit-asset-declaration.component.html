@@ -189,6 +189,22 @@
         </content>
       </card>
     </div>
+
+     <!--Mienie osobiste -->
+     <div class="card-container">
+      <card title="Mienie osobiste" class="card">
+        <content>
+          <app-data-grid
+            [columns]="[
+              { key: 'description', header: 'Opis', type: 'text' },
+              { key: 'value', header: 'Wartość', type: 'number' }
+            ]"
+            [data]="assetDeclaration.personalProperties"
+            (dataChange)="onPersonalPropertiesChanged($event)"
+          ></app-data-grid>
+        </content>
+      </card>
+    </div>
   </mat-tab>
   } }
 </mat-tab-group>
