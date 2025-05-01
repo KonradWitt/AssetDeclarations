@@ -1,5 +1,4 @@
 import {
-  AfterViewInit,
   Component,
   computed,
   inject,
@@ -7,14 +6,12 @@ import {
   output,
   signal,
   ViewChild,
-  viewChild,
 } from '@angular/core';
 import { Carousel, CarouselModule } from 'primeng/carousel';
-import { Person } from '../../model/person.interface';
 import { PersonService } from '../../services/person.service';
-import { delay } from 'rxjs';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 import { PersonHighlight } from '../../model/personHighlight.interface';
+import { HostListener } from '@angular/core';
 
 @Component({
   selector: 'highlights-carousel',
@@ -28,7 +25,16 @@ export class HighlightsCarouselComponent implements OnInit {
   persons = signal<PersonHighlight[] | undefined>([]);
   carouselPersons = computed(() => Array(100).fill(this.persons()).flat());
   personClicked = output<PersonHighlight>();
-  @ViewChild('carousel') carousel!: Carousel;
+
+  windowWidth = signal<number>(0);
+  numVisible = computed(() => {
+    return Math.floor(this.windowWidth() / 350);
+  });
+
+  numScroll = computed(() => {
+    if (this.numVisible() <= 3) return 1;
+    else return 2;
+  });
 
   constructor() {}
 
@@ -36,6 +42,13 @@ export class HighlightsCarouselComponent implements OnInit {
     this.personService.getHighlightsPersons().subscribe((persons) => {
       this.persons.set(persons);
     });
+
+    this.windowWidth.set(window.innerWidth);
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: UIEvent): void {
+    this.windowWidth.set((event.target as Window).innerWidth);
   }
 
   onPersonClicked(personHighlight: PersonHighlight): void {

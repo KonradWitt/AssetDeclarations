@@ -1,15 +1,16 @@
 @if(this.persons()) {
 <p-carousel
   [value]="carouselPersons()!"
-  [numVisible]="4"
-  [numScroll]="2"
+  [numVisible]="this.numVisible()"
+  [numScroll]="this.numScroll()"
   [autoplayInterval]="2500"
-  [showNavigators]="false"
+  [showNavigators]="true"
+  [showIndicators]="true"
 >
   <ng-template let-person #item>
     <a class="person-container" (click)="onPersonClicked(person)">
       <h3>{{ person.fullName }}</h3>
-      <img class="profile-picture" [src]="person.imageUrl" />
+      <img [src]="person.imageUrl" />
       <h4>Majątek: {{ person.netWorth | numberSpace }} zł</h4>
     </a>
   </ng-template>
