@@ -1,45 +1,56 @@
-<div class="histogram-container">
-  Poniższy wykres ilustruje ilu polityków posiada ile nieruchomości o wartości powyżej
-  <input
-    matInput
-    type="number"
-    min="0"
-    step="10000"
-    [ngModel]="minValue()"
-    (ngModelChange)="updateMinValue($event)"
-  />
-  zł*. Kliknij na wykres, aby zobaczyć polityków należących do wybranej grupy.
-  <div class="explanation-text">
-    *Celem wyłączenia z analizy nieruchomości typu "miejsce postojowe" lub
-    podobnych.
-  </div>
-  <div class="row">
-    <div class="column">
-      <div class="chart-container">
-        <canvas
-          baseChart
-          [data]="this.barChartData()"
-          [options]="this.barChartOptions"
-          [type]="'bar'"
-        >
-        </canvas>
-      </div>
-    </div>
-    <div class="column">
-      @if(this.selectedRealEstateNumber() != undefined) {
-      <h4>
-        Politycy posiadający
-        {{ this.selectedRealEstateNumber() }}
-        @if(this.selectedRealEstateNumber() == 1){ nieruchomość: }
-        @else{nieruchomości:}
-      </h4>
-      <div class="scroller">
-        @for(person of this.selectedPersons(); track person.id) {
-        <span>- {{ person.fullName }}</span>
-        <br />
-        }
-      </div>
-      }
-    </div>
-  </div>
+Poniższy wykres ilustruje ilu polityków posiada ile nieruchomości o wartości
+powyżej
+<input
+  matInput
+  type="number"
+  min="0"
+  step="10000"
+  [ngModel]="minValue()"
+  (ngModelChange)="updateMinValue($event)"
+/>
+zł*.
+<div class="explanation-text">
+  *Celem wyłączenia z analizy nieruchomości typu "miejsce postojowe" lub
+  podobnych.
 </div>
+<div class="chart-container">
+  <div class="buttons-container">
+    <button
+      mat-fab
+      (click)="onButtonPreviousClicked()"
+      [disabled]="this.currentDataIndex() <= 0"
+    >
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <button
+      mat-fab
+      (click)="onButtonNextClicked()"
+      [disabled]="this.currentDataIndex() >= this.maxDataIndex() - 1"
+    >
+      <mat-icon>arrow_forward</mat-icon>
+    </button>
+  </div>
+  <canvas
+    baseChart
+    [data]="this.barChartData()"
+    [options]="this.barChartOptions"
+    [type]="'bar'"
+  >
+  </canvas>
+</div>
+@if(this.selectedRealEstateNumber() != undefined) {
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Lista polityków posiadających
+      {{ this.selectedRealEstateNumber() }}
+      @if(this.selectedRealEstateNumber() == 1){ nieruchomość: }
+      @else{nieruchomości:}</mat-panel-title
+    >
+  </mat-expansion-panel-header>
+  @for(person of this.selectedPersons(); track person.id) {
+  <span>- {{ person.fullName }}</span>
+  <br />
+  }
+</mat-expansion-panel>
+}

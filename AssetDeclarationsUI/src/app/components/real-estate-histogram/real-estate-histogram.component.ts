@@ -1,4 +1,14 @@
-import { Component, computed, OnInit, signal } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  computed,
+  effect,
+  OnChanges,
+  OnInit,
+  signal,
+  SimpleChanges,
+  ViewChild,
+} from '@angular/core';
 import { Person } from '../../model/person.interface';
 import { ActiveElement, Chart, ChartConfiguration, ChartEvent } from 'chart.js';
 import { BaseChartDirective } from 'ng2-charts';
@@ -6,10 +16,20 @@ import { RealEstateService } from '../../services/real-estate.service';
 import { PersonRealEstateCount } from '../../model/personRealEstateCount.interface';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @Component({
   selector: 'app-real-estate-histogram',
-  imports: [BaseChartDirective, MatInputModule, FormsModule],
+  imports: [
+    BaseChartDirective,
+    MatInputModule,
+    FormsModule,
+    MatButtonModule,
+    MatIconModule,
+    MatExpansionModule,
+  ],
   templateUrl: './real-estate-histogram.component.html',
   styleUrl: './real-estate-histogram.component.scss',
 })
@@ -37,6 +57,13 @@ export class RealEstateHistogramComponent implements OnInit {
       ],
     } as ChartConfiguration<'bar'>['data'];
   });
+
+  currentDataIndex = signal<number>(0);
+  maxDataIndex = computed(() => {
+    return this.barChartData()?.labels?.length ?? 0;
+  });
+
+  @ViewChild(BaseChartDirective) chart: BaseChartDirective | undefined;
 
   barChartOptions: ChartConfiguration<'bar'>['options'] = {
     maintainAspectRatio: false,
@@ -80,6 +107,9 @@ export class RealEstateHistogramComponent implements OnInit {
       .getCountPerPerson(this.minValue())
       .subscribe((result) => {
         this.updateHistogram(result);
+        setTimeout(() => {
+          this.selectChartIndex(0);
+        }, 100);
       });
   }
 
@@ -125,21 +155,36 @@ export class RealEstateHistogramComponent implements OnInit {
     elements: ActiveElement[],
     chart: Chart
   ): void {
+    console.log(chart);
     if (!elements || elements.length < 1) return;
 
-    const selectedBar = elements[0].index;
+    const dataIndex = elements[0].index;
+
+    this.selectChartIndex(dataIndex);
+  }
+
+  onButtonNextClicked() {
+    this.selectChartIndex(this.currentDataIndex() + 1);
+  }
+  onButtonPreviousClicked() {
+    this.selectChartIndex(this.currentDataIndex() - 1);
+  }
+
+  private selectChartIndex(index: number): void {
+    console.log(this.chart?.datasets);
+    if (this.chart?.data?.datasets === undefined) {
+      return;
+    }
+
     this.selectedRealEstateNumber.set(
-      Array.from(this.histogramData().keys())[selectedBar]
+      Array.from(this.histogramData().keys())[index]
     );
 
     this.selectedPersons.set(
       this.histogramData().get(this.selectedRealEstateNumber()!) ?? []
     );
 
-    const datasetIndex = elements[0].datasetIndex;
-    const dataIndex = elements[0].index;
-
-    const dataset = chart.data.datasets[datasetIndex];
+    const dataset = this.chart.data.datasets[0];
 
     const highlightColor = '#333';
     const defaultColor = Chart.defaults.backgroundColor.toString();
@@ -153,8 +198,9 @@ export class RealEstateHistogramComponent implements OnInit {
 
     dataset.backgroundColor = dataset.backgroundColor.map(() => defaultColor);
 
-    (dataset.backgroundColor as string[])[dataIndex] = highlightColor;
+    (dataset.backgroundColor as string[])[index] = highlightColor;
 
-    chart.update();
+    this.currentDataIndex.set(index);
+    this.chart.update();
   }
 }
