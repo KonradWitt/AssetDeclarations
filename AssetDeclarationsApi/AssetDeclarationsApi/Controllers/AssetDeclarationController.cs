@@ -21,7 +21,7 @@ namespace AssetDeclarationsApi.Controllers
         }
 
 
-        [Authorize]
+        [Authorize(Roles = "ADMIN")]
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] AssetDeclaration assetDeclaration)
         {

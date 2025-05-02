@@ -42,9 +42,7 @@ export class LoginComponent {
 
     this.authService.login({ userName: email, password: password }).subscribe({
       next: (user) => {
-        if (user) {
-          this.router.navigate(['']);
-        }
+        this.router.navigate(['']);
       },
       error: (err) => {
         this.errorMessage.set('Niepoprawny login lub hasło. Spróbuj ponownie.');

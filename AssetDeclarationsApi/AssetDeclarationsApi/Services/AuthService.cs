@@ -47,7 +47,7 @@ namespace AssetDeclarationsApi.Services
         {
             var user = await _dataService.GetUserByUserNameAsync(request.UserName);
 
-            if (user is null)
+            if (user is null || !user.IsActive)
             {
                 return null;
             }
@@ -76,6 +76,7 @@ namespace AssetDeclarationsApi.Services
             {
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.Role, user.IsAdmin ? "ADMIN": "USER" )
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config.GetValue<string>("AppSettings:SecurityKey")!));

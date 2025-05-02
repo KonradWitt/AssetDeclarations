@@ -149,7 +149,8 @@ export class EditAssetDeclarationComponent {
         console.error('Update failed:', err),
           this.snackBar.open(
             'Wystąpił błąd podczas zapisywania danych. Spróbuj zalogować się ponownie.',
-            'OK'
+            'OK',
+            { duration: 5000 }
           );
       },
     });

@@ -6,7 +6,7 @@
     routerLinkActive="active-link"
     [routerLinkActiveOptions]="{ exact: true }"
   >
-    {{ link.label }}
+    {{ link.data!['label'] }}
   </a>
   }
   <span class="spacer"></span>
