@@ -164,10 +164,20 @@ export class RealEstateHistogramComponent implements OnInit {
   }
 
   onButtonNextClicked() {
-    this.selectChartIndex(this.currentDataIndex() + 1);
+    let newIndex = this.currentDataIndex() + 1;
+    while (this.histogramData().get(newIndex)?.length === 0) {
+      newIndex++;
+    }
+
+    this.selectChartIndex(newIndex);
   }
   onButtonPreviousClicked() {
-    this.selectChartIndex(this.currentDataIndex() - 1);
+    let newIndex = this.currentDataIndex() - 1;
+    while (this.histogramData().get(newIndex)?.length === 0) {
+      newIndex--;
+    }
+
+    this.selectChartIndex(newIndex);
   }
 
   private selectChartIndex(index: number): void {
