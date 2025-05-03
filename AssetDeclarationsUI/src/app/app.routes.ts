@@ -25,6 +25,11 @@ export class AuthGuard implements CanActivate {
     const isLoggedIn = this.authService.isLoggedIn();
     const isAdmin = this.authService.isAdminLoggedIn();
 
+    console.log(route);
+    console.log(isLoggedIn);
+    console.log(isAdmin);
+    console.log(requiresAdmin);
+
     if ((requiresAdmin && isAdmin) || (!requiresAdmin && isLoggedIn)) {
       return true;
     }
@@ -42,12 +47,7 @@ export const routes: Routes = [
     canActivate: [AuthGuard],
     data: { label: 'Znajdź polityka' },
   },
-  { path: 'polityk', component: PersonComponent, canActivate: [AuthGuard] },
-  {
-    path: 'polityk/:link',
-    component: PersonComponent,
-    canActivate: [AuthGuard],
-  },
+  { path: 'polityk/:link', component: PersonComponent, canActivate: [AuthGuard] },
   {
     path: 'nieruchomosci',
     component: RealEstateComponent,
@@ -67,4 +67,5 @@ export const routes: Routes = [
     canActivate: [AuthGuard],
     data: { label: 'Edytuj', authRole: 'ADMIN' },
   },
+  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];

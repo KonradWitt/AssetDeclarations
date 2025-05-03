@@ -37,11 +37,18 @@ export class AuthService {
   });
 
   isLoggedIn = computed<boolean>(() => {
-    return this.decodedToken() !== null;
+    if (!this.decodedToken()?.exp) {
+      return false;
+    }
+
+    const currentTime = Date.now() / 1000;
+    return this.decodedToken()!.exp! > currentTime;
   });
 
   isAdminLoggedIn = computed<boolean>(() => {
-    return this.decodedToken()?.[CLAIM_KEYS.role] === 'ADMIN';
+    return (
+      this.isLoggedIn() && this.decodedToken()?.[CLAIM_KEYS.role] === 'ADMIN'
+    );
   });
 
   constructor(private httpClient: HttpClient) {}

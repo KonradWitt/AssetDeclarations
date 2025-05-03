@@ -52,7 +52,6 @@ export class PersonComponent {
     private route: ActivatedRoute,
     private personService: PersonService
   ) {
-    this.selectedPerson.set(undefined);
     const navigationState = this.router?.getCurrentNavigation()?.extras?.state;
     if (navigationState) {
       const id = navigationState['id'];
@@ -63,9 +62,10 @@ export class PersonComponent {
         return;
       } else {
         this.isLoading.set(true);
-        this.personService
-          .getPersonByLink(routedId)
-          .subscribe((person) => this.loadPerson(person.id));
+        this.personService.getPersonByLink(routedId).subscribe({
+          next: (person) => this.loadPerson(person.id),
+          error: (err) => this.router.navigate(['polityk']),
+        });
       }
     }
   }

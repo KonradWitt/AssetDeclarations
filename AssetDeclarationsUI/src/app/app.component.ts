@@ -43,6 +43,7 @@ export class AppComponent implements OnInit {
   });
 
   isLoggedIn = computed(() => this.authService.isLoggedIn());
+  userName = computed(() => this.authService.userName());
 
   constructor(
     private dialogService: MatDialog,
@@ -53,7 +54,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.authService.logout();
     if (sessionStorage.getItem(this.warning_key) != 'true') {
       this.dialogService.open(AiContentWarningDialogComponent);
       sessionStorage.setItem(this.warning_key, 'true');
