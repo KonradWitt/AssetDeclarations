@@ -1,3 +1,4 @@
+@if(this.isPreviewActive()) {
 <mat-toolbar>
   @for(link of displayedNavLinks(); track link.path) {
   <a
@@ -26,3 +27,9 @@
     <router-outlet></router-outlet>
   </div>
 </mat-tab-nav-panel>
+} @else {
+<mat-form-field>
+  <mat-label>Preview pass</mat-label>
+  <input matInput type="password" [(ngModel)]="this.password" />
+</mat-form-field>
+}

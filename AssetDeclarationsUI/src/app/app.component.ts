@@ -9,6 +9,8 @@ import { Chart } from 'chart.js';
 import { AuthService } from './services/auth.service';
 import { MatIconModule } from '@angular/material/icon';
 import { routes } from './app.routes';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +21,8 @@ import { routes } from './app.routes';
     RouterModule,
     MatButtonModule,
     MatIconModule,
+    MatInputModule,
+    FormsModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
@@ -44,6 +48,10 @@ export class AppComponent implements OnInit {
 
   isLoggedIn = computed(() => this.authService.isLoggedIn());
   userName = computed(() => this.authService.userName());
+  password = signal<string>('');
+  isPreviewActive = computed(() => {
+    return this.password() === 'preview.1234';
+  });
 
   constructor(
     private dialogService: MatDialog,
