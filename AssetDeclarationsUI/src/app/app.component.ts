@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { MatDrawer, MatSidenavModule } from '@angular/material/sidenav';
 import { NgTemplateOutlet } from '@angular/common';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -34,8 +35,6 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 })
 export class AppComponent implements OnInit {
   private readonly warning_key = 'ai_content_warning_displayed';
-
-  title = 'AssetDeclarationsUI';
 
   isMobile = signal<boolean>(true);
 
@@ -64,8 +63,10 @@ export class AppComponent implements OnInit {
     private dialogService: MatDialog,
     private authService: AuthService,
     private router: Router,
-    private breakpointObserver: BreakpointObserver
+    private breakpointObserver: BreakpointObserver,
+    private titleService: Title
   ) {
+    this.titleService.setTitle("Zawód Polityk");
     Chart.defaults.backgroundColor = '#007bff';
     this.breakpointObserver
       .observe([Breakpoints.Handset])
