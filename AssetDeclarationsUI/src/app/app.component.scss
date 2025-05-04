@@ -3,7 +3,9 @@
 }
 
 .router-wrapper {
-  margin: 16px 8px
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 a {

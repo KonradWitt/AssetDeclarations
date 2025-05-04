@@ -1,56 +1,52 @@
-<main>
-  @if(this.selectedPerson() && this.lastDeclaration()) {
-  <div class="container">
-    <div class="column">
-      <div>
-        <app-personal-data-card [person]="this.selectedPerson()!" />
-      </div>
-      <div>
-        <app-declarations-card
-          [declarations]="this.selectedPerson()!.assetDeclarations"
-        />
-      </div>
-      <div>
-        <app-income-card [incomes]="lastDeclaration()!.incomes" />
-      </div>
-      <div>
-        <app-business-activities-card
-          [businessActivities]="lastDeclaration()!.businessActivities"
-        />
-      </div>
+@if(this.selectedPerson() && this.lastDeclaration()) {
+<div class="container">
+  <div class="column">
+    <div>
+      <app-personal-data-card [person]="this.selectedPerson()!" />
     </div>
-    <div class="column">
-      <div>
-        <app-currencies-card
-          [cashPositions]="lastDeclaration()!.cashPositions"
-        />
-      </div>
-      <div>
-        <app-real-estate-card [realEstate]="lastDeclaration()!.realEstate" />
-      </div>
-      <div>
-        <app-securities-card
-          [securities]="lastDeclaration()!.securityPositions"
-        ></app-securities-card>
-      </div>
+    <div>
+      <app-declarations-card
+        [declarations]="this.selectedPerson()!.assetDeclarations"
+      />
     </div>
-    <div class="column">
-      <div>
-        <app-personal-properties-card
-          [personalProperties]="lastDeclaration()!.personalProperties"
-        />
-      </div>
-      <div>
-        <app-liabilities-card [liabilities]="lastDeclaration()!.liabilities" />
-      </div>
-      <div>
-        <app-receivables-card [receivables]="lastDeclaration()!.receivables" />
-      </div>
+    <div>
+      <app-income-card [incomes]="lastDeclaration()!.incomes" />
+    </div>
+    <div>
+      <app-business-activities-card
+        [businessActivities]="lastDeclaration()!.businessActivities"
+      />
     </div>
   </div>
-  } @else if (this.isLoading()) {
-  <div class="loading-container">
-    <mat-spinner />
+  <div class="column">
+    <div>
+      <app-currencies-card [cashPositions]="lastDeclaration()!.cashPositions" />
+    </div>
+    <div>
+      <app-real-estate-card [realEstate]="lastDeclaration()!.realEstate" />
+    </div>
+    <div>
+      <app-securities-card
+        [securities]="lastDeclaration()!.securityPositions"
+      ></app-securities-card>
+    </div>
   </div>
-  }
-</main>
+  <div class="column">
+    <div>
+      <app-personal-properties-card
+        [personalProperties]="lastDeclaration()!.personalProperties"
+      />
+    </div>
+    <div>
+      <app-liabilities-card [liabilities]="lastDeclaration()!.liabilities" />
+    </div>
+    <div>
+      <app-receivables-card [receivables]="lastDeclaration()!.receivables" />
+    </div>
+  </div>
+</div>
+} @else if (this.isLoading()) {
+<div class="loading-container">
+  <mat-spinner />
+</div>
+}

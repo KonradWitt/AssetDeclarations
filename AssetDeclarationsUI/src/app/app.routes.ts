@@ -44,21 +44,18 @@ export const routes: Routes = [
     path: '',
     pathMatch: 'full',
     component: HomeComponent,
-    canActivate: [AuthGuard],
     data: { label: 'Znajdź polityka' },
   },
-  { path: 'polityk/:link', component: PersonComponent, canActivate: [AuthGuard] },
+  { path: 'polityk/:link', component: PersonComponent},
   {
     path: 'nieruchomosci',
     component: RealEstateComponent,
-    canActivate: [AuthGuard],
     data: { label: 'Przegląd nieruchomości' },
   },
   { path: 'login', component: LoginComponent },
   {
     path: 'partie',
     component: PartiesComponent,
-    canActivate: [AuthGuard],
     data: { label: 'Porównanie partii' },
   },
   {
