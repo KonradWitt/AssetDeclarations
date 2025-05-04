@@ -1,15 +1,38 @@
-@if(this.isPreviewActive()) {
-<mat-toolbar>
+<ng-template #navLinks let-toggle="toggle">
   @for(link of displayedNavLinks(); track link.path) {
   <a
     mat-button
     [routerLink]="link.path"
     routerLinkActive="active-link"
     [routerLinkActiveOptions]="{ exact: true }"
+    (click)="toggle?.()"
   >
     {{ link.data!["label"] }}
   </a>
   }
+</ng-template>
+
+@if(this.isPreviewActive()) { @if(this.isMobile()) {
+
+<button mat-icon-button (click)="drawer.toggle()">
+  <mat-icon>menu</mat-icon>
+</button>
+<mat-drawer-container class="container" autosize>
+  <mat-drawer #drawer class="sidenav" mode="over">
+    <ng-container
+      *ngTemplateOutlet="navLinks; context: getDrawerToggleContext(drawer)"
+    ></ng-container>
+  </mat-drawer>
+  <mat-tab-nav-panel #tabPanel>
+    <div class="router-wrapper">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-tab-nav-panel>
+</mat-drawer-container>
+
+} @else {
+<mat-toolbar>
+  <ng-container *ngTemplateOutlet="navLinks"></ng-container>
   <span class="spacer"></span>
   @if(isLoggedIn()) {
   <button mat-icon-button (click)="onLogoutClicked()">
@@ -27,7 +50,7 @@
     <router-outlet></router-outlet>
   </div>
 </mat-tab-nav-panel>
-} @else {
+} } @else {
 <mat-form-field>
   <mat-label>Preview pass</mat-label>
   <input matInput type="password" [(ngModel)]="this.password" />
