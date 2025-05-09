@@ -128,6 +128,13 @@ namespace AssetDeclarationsApi.Controllers
                 AssetDeclarations = request.AssetDeclarations?.Select(ad => ad.MapToEntity()).ToList(),
             };
 
+            if (person is not null && person.AssetDeclarations is not null)
+            {
+                foreach (var ad in person.AssetDeclarations)
+                {
+                    ad.CalculateNetValue();
+                }
+            }
             var createdPerson = await _dataService.AddAsync(person);
 
             return CreatedAtAction(nameof(Get), new { id = createdPerson.Id }, createdPerson);

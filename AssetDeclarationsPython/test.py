@@ -1,3 +1,4 @@
+from datetime import datetime
 import os
 import requests
 import api_keys
@@ -7,15 +8,15 @@ import json
 
 gemini = GeminiWrapper(api_keys.GEMINI)
 
-main_directory = r'C:\Users\wittk\source\repos\AssetDeclarations\Data'
-
+#main_directory = r'C:\Users\wittk\source\repos\AssetDeclarations\Data'
+main_directory = r'C:\Users\wittk\source\repos\AssetDeclarations\AssetDeclarationsPython\downloads'
 
 def list_subdirs(path):
     return [os.path.join(path, name) for name in os.listdir(path)
             if os.path.isdir(os.path.join(path, name))]
 
 
-for person_directory in list_subdirs(main_directory) [-10:]:
+for person_directory in list_subdirs(main_directory):
     print(person_directory)
     pdf = None
     csv = None
@@ -36,20 +37,34 @@ for person_directory in list_subdirs(main_directory) [-10:]:
         break
 
     response = gemini.prompt_with_files(prompt.task, pdf, csv, 0)
+    now = datetime.now()
+    file_name = now.strftime("%Y-%m-%d_%H-%M-%S")
+    file_path = os.path.join(person_directory, file_name)
+    file_output = ""
+
+
     if (response.startswith('err')):
         print(response)
-    data = response.strip().removeprefix("```json").removesuffix("```").strip()
-
-    url = 'https://localhost:7212/api/Person/Create'
-
-    headers = {
-        "Content-Type": "application/json"
-    }
-
-    response = requests.post(url, data=data, headers=headers, verify=False)
-
-    if response.status_code == 201:
-        print("OK")
+        file_output = response
+        file_path = file_path + ".txt"
     else:
-        print("Status Code:", response.status_code)
-        print("Response Body:", response.text)
+        data = response.strip().removeprefix("```json").removesuffix("```").strip()
+        file_output = data
+        file_path = file_path + ".json"
+        
+        url = 'https://localhost:7212/api/Person/Create'
+
+        headers = {
+            "Content-Type": "application/json"
+        }
+
+        post_response = requests.post(url, data=data, headers=headers, verify=False)
+
+        if post_response.status_code == 201:
+            print("OK")
+        else:
+            print("Status Code:", post_response.status_code)
+            print("Response Body:", post_response.text)
+
+    with open(file_path, "w", encoding="utf-8") as file:
+        file.write(file_output)
