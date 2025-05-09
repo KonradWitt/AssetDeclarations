@@ -191,7 +191,7 @@ export class RealEstateHistogramComponent implements OnInit {
     );
 
     this.selectedPersons.set(
-      this.histogramData().get(this.selectedRealEstateNumber()!) ?? []
+      this.histogramData().get(this.selectedRealEstateNumber()!)?.sort((a, b) => a.lastName.localeCompare(b.lastName)) ?? []
     );
 
     const dataset = this.chart.data.datasets[0];

@@ -15,6 +15,8 @@ import { MatDrawer, MatSidenavModule } from '@angular/material/sidenav';
 import { NgTemplateOutlet } from '@angular/common';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Title } from '@angular/platform-browser';
+import { isDevMode } from '@angular/core';
+
 
 @Component({
   selector: 'app-root',
@@ -56,7 +58,7 @@ export class AppComponent implements OnInit {
   userName = computed(() => this.authService.userName());
   password = signal<string>('');
   isPreviewActive = computed(() => {
-    return this.password() === 'preview.1234';
+    return this.password() === 'preview.1234' || isDevMode();
   });
 
   constructor(
