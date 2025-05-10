@@ -12,17 +12,18 @@ import { PersonService } from '../../services/person.service';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 import { PersonHighlight } from '../../model/personHighlight.interface';
 import { HostListener } from '@angular/core';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @Component({
   selector: 'highlights-carousel',
-  imports: [Carousel, CarouselModule, NumberSpacePipe],
+  imports: [Carousel, CarouselModule, NumberSpacePipe, MatProgressSpinnerModule],
   templateUrl: './highlights-carousel.component.html',
   styleUrl: './highlights-carousel.component.scss',
 })
 export class HighlightsCarouselComponent implements OnInit {
   private readonly personService = inject(PersonService);
 
-  persons = signal<PersonHighlight[] | undefined>([]);
+  persons = signal<PersonHighlight[] | undefined>(undefined);
   carouselPersons = computed(() => Array(100).fill(this.persons()).flat());
   personClicked = output<PersonHighlight>();
 

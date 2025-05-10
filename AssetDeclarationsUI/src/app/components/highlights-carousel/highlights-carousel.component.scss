@@ -23,3 +23,10 @@ img {
 h3 {
   height: 50px;
 }
+
+.spinner-container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
