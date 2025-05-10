@@ -8,6 +8,7 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 interface PartyNetWorth {
   party: Party;
   averageNetWorth: number;
+  medianNetWorth: number;
 }
 
 @Component({
@@ -22,7 +23,7 @@ export class PartiesNetWorthChartComponent implements OnInit {
   barChartOptions: ChartConfiguration<'bar'>['options'] = {
     maintainAspectRatio: false,
     plugins: {
-      legend: { display: false },
+      legend: { display: true, labels: { font: { size: 16 } } },
       tooltip: {
         enabled: false,
       },
@@ -34,7 +35,6 @@ export class PartiesNetWorthChartComponent implements OnInit {
         },
       },
       y: {
-        
         min: 0,
         ticks: {
           font: { size: 16 },
@@ -62,10 +62,19 @@ export class PartiesNetWorthChartComponent implements OnInit {
     ) as PartyNetWorth[];
 
     this.barChartData.set({
-      labels: sortedParties.map((p) => p.party?.abbreviation ?? p.party?.name ?? ''),
+      labels: sortedParties.map(
+        (p) => p.party?.abbreviation ?? p.party?.name ?? ''
+      ),
       datasets: [
         {
+          label: 'Średnia',
           data: sortedParties.map((p) => p.averageNetWorth),
+          //default chart color
+        },
+        {
+          label: 'Mediana',
+          data: sortedParties.map((p) => p.medianNetWorth),
+          backgroundColor: 'rgb(255, 99, 132)',
         },
       ],
     } as ChartConfiguration<'bar'>['data']);

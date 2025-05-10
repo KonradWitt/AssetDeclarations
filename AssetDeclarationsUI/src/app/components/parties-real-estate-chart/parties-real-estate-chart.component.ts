@@ -62,7 +62,9 @@ export class PartiesRealEstateChartComponent implements OnInit {
     ) as PartyRealEstateCount[];
 
     this.barChartData.set({
-      labels: sortedParties.map((p) => p.party?.abbreviation ?? p.party?.name ?? ''),
+      labels: sortedParties.map(
+        (p) => p.party?.abbreviation ?? p.party?.name ?? ''
+      ),
       datasets: [
         {
           data: sortedParties.map((p) => p.averageRealEstateCount),

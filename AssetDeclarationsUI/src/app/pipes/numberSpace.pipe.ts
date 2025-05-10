@@ -8,11 +8,15 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'numberSpace',
 })
 export class NumberSpacePipe implements PipeTransform {
-  transform(value: number): string | null {
+  transform(value: number, threshold?: number): string | null {
     if (value == null) {
       return null;
     }
-    
+
+    if (threshold && value < threshold) {
+      return value.toString();
+    }
+
     value = Math.round(value);
     var result: string = '';
 

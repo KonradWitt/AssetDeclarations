@@ -203,7 +203,7 @@ namespace AssetDeclarationsApi.Services
             return await _context.Users.FirstOrDefaultAsync(u => u.UserName == userName);
         }
 
-        public async Task<List<(Party Party, decimal AverageNetValue)>> GetAverageNetWorthPerPartyAsync()
+        public async Task<List<(Party Party, decimal AverageNetValue, decimal MedianNetValue)>> GetAverageNetWorthPerPartyAsync()
         {
             var query = await _context.Persons
             .Select(p => new
@@ -216,14 +216,16 @@ namespace AssetDeclarationsApi.Services
             .Select(group => new
             {
                 Party = group.Key,
-                AverageNetValue = group.Average(x => x.LatestAssetDeclaration!.NetValue)
+                AverageNetValue = group.Average(x => x.LatestAssetDeclaration!.NetValue),
+                MedianNetValue = GetMedian(group.Select(x => x.LatestAssetDeclaration!.NetValue))
             })
             .ToListAsync();
 
-            var result = query.Select(x => (x.Party, x.AverageNetValue)).ToList();
+            var result = query.Select(x => (x.Party, x.AverageNetValue, x.MedianNetValue)).ToList();
 
             return result;
         }
+
 
         public async Task<List<(Party Party, double AverageRealEstateCount)>> GetAverageRealEstateCountPerPartyAsync(decimal minValue)
         {
@@ -245,6 +247,25 @@ namespace AssetDeclarationsApi.Services
             var result = query.Select(x => (x.Party, x.AverageRealEstateCount)).ToList();
 
             return result;
+        }
+
+        private static decimal GetMedian(IEnumerable<decimal> input)
+        {
+            var sortedList = input.OrderBy(x => x).ToList();
+            int count = sortedList.Count;
+            if (count == 0)
+            {
+                return 0;
+            }
+
+            if (count % 2 == 0)
+            {
+                return (sortedList[count / 2 - 1] + sortedList[count / 2]) / 2;
+            }
+            else
+            {
+                return sortedList[count / 2];
+            }
         }
 
     }

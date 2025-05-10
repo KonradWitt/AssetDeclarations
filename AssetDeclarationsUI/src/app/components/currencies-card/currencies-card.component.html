@@ -9,7 +9,7 @@
       <ng-container matColumnDef="currencyValue">
         <th mat-header-cell *matHeaderCellDef class="value-cell">Waluta</th>
         <td mat-cell *matCellDef="let element" class="value-cell">
-          {{ (element.currencyValue | numberSpace) ?? "-" }}
+          {{ (element.currencyValue | numberSpace : 100) ?? "-" }}
         </td>
       </ng-container>
 
@@ -25,7 +25,7 @@
           Wartość w zł
         </th>
         <td mat-cell *matCellDef="let element" class="value-cell">
-          {{ (element.baseValue | numberSpace) ?? "-" }} zł
+          {{ (element.baseValue | numberSpace : 100) ?? "-" }} zł
         </td>
       </ng-container>
 

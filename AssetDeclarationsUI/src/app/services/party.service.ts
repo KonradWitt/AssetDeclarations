@@ -13,11 +13,11 @@ export class PartyService {
   constructor(private http: HttpClient) {}
 
   getAvgNetWorthPerParty(): Observable<
-    { party: Party; averageNetWorth: number }[]
+    { party: Party; averageNetWorth: number; medianNetWorth: number }[]
   > {
-    return this.http.get<{ party: Party; averageNetWorth: number }[]>(
-      `${environment.apiUrl}/${this.url}/GetAverageNetWorth`
-    );
+    return this.http.get<
+      { party: Party; averageNetWorth: number; medianNetWorth: number }[]
+    >(`${environment.apiUrl}/${this.url}/GetAverageNetWorth`);
   }
 
   getAvgRealEstateCountPerParty(

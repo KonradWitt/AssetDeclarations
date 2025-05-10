@@ -24,7 +24,8 @@ namespace AssetDeclarationsApi.Controllers
             var response = result.Select(x => new GetAverageNetWorthResponse()
             {
                 Party = x.Party.MapToDTO(),
-                AverageNetWorth = x.AverageNetValue
+                AverageNetWorth = x.AverageNetValue,
+                MedianNetWorth = x.MedianNetValue
             });
             return Ok(response);
         }

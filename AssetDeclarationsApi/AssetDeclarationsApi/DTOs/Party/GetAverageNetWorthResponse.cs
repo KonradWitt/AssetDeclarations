@@ -4,5 +4,7 @@
     {
         public PartyDTO? Party { get; set; }
         public decimal? AverageNetWorth { get; set; }
+
+        public decimal? MedianNetWorth { get; set; }
     }
 }
