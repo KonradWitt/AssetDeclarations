@@ -42,8 +42,8 @@ export class PersonComponent {
   isLoading = signal<boolean>(false);
   selectedPerson = signal<Person | undefined>(undefined);
   lastDeclaration = computed(() => {
-    return this.selectedPerson()?.assetDeclarations?.sort((x) =>
-      new Date(x.date).getTime()
+    return this.selectedPerson()?.assetDeclarations?.sort(
+      (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
     )[this.selectedPerson()!.assetDeclarations!.length - 1];
   });
 
@@ -52,34 +52,18 @@ export class PersonComponent {
     private route: ActivatedRoute,
     private personService: PersonService
   ) {
-    const navigationState = this.router?.getCurrentNavigation()?.extras?.state;
-    if (navigationState) {
-      const id = navigationState['id'];
-      this.loadPerson(id);
+    const routedId = this.route.snapshot.paramMap.get('link');
+    if (routedId) {
+      this.isLoading.set(true);
+      this.personService.getPersonByLink(routedId).subscribe({
+        next: (person) => {
+          this.selectedPerson.set(person);
+          this.isLoading.set(false);
+        },
+        error: (err) => this.router.navigate(['polityk']),
+      });
     } else {
-      var routedId = this.route.snapshot.paramMap.get('link');
-      if (routedId == null) {
-        return;
-      } else {
-        this.isLoading.set(true);
-        this.personService.getPersonByLink(routedId).subscribe({
-          next: (person) => this.loadPerson(person.id),
-          error: (err) => this.router.navigate(['polityk']),
-        });
-      }
+      this.router.navigate(['polityk']);
     }
-  }
-
-  private loadPerson(id: number) {
-    this.selectedPerson.set(undefined);
-    this.isLoading.set(true);
-    this.personService.getPerson(id).subscribe((person) => {
-      this.isLoading.set(false);
-      if (person == null) {
-        this.router.navigate(['polityk']);
-      } else {
-        this.selectedPerson.set(person);
-      }
-    });
   }
 }
