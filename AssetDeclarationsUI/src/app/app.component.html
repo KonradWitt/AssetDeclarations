@@ -17,7 +17,7 @@
 <button mat-icon-button (click)="drawer.toggle()">
   <mat-icon>menu</mat-icon>
 </button>
-<mat-drawer-container class="container" autosize>
+<mat-drawer-container class="container">
   <mat-drawer #drawer class="sidenav" mode="over">
     <ng-container
       *ngTemplateOutlet="navLinks; context: getDrawerToggleContext(drawer)"
