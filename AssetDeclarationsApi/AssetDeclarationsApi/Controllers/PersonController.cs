@@ -3,6 +3,7 @@ using AssetDeclarationsApi.DTOs.Person;
 using AssetDeclarationsApi.Entities;
 using AssetDeclarationsApi.Mappers;
 using AssetDeclarationsApi.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.WebSockets;
@@ -110,6 +111,7 @@ namespace AssetDeclarationsApi.Controllers
 
 
         [HttpPost]
+        [Authorize(Roles = "ADMIN")]
         public async Task<ActionResult<CreateResponse>> Create([FromBody] CreateRequest request)
         {
             if (request == null)
