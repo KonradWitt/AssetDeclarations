@@ -3,7 +3,6 @@ import { Party } from './party.interface';
 import { RealEstate } from './realEstate.interface';
 
 export interface Person {
-  id: number;
   link: string;
   fullName: string;
   lastName: string;

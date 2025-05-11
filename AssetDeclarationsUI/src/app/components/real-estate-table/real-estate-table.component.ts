@@ -35,9 +35,7 @@ export class RealEstateTableComponent implements OnInit {
   }
 
   onRowClicked(row: { person: Person; realEstate: RealEstate }) {
-    this.router.navigate(['polityk', row.person.link], {
-      state: { id: row.person.id },
-    });
+    this.router.navigate(['polityk', row.person.link]);
   }
 
   onPaginatorChanged($event: PageEvent) {

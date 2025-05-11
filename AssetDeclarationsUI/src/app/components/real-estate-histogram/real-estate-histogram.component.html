@@ -48,7 +48,7 @@ zł*.
       @else{nieruchomości:}</mat-panel-title
     >
   </mat-expansion-panel-header>
-  @for(person of this.selectedPersons(); track person.id) {
+  @for(person of this.selectedPersons(); track person.link) {
   <span>- {{ person.fullName }}</span>
   <br />
   }

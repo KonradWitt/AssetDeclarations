@@ -20,12 +20,22 @@ export class PersonService {
     );
   }
 
-  getPerson(id: number): Observable<Person> {
-    return this.http.get<Person>(`${environment.apiUrl}/${this.url}/Get/${id}`);
+  getAllPaginated(
+    page: number,
+    pageSize: number
+  ): Observable<PersonIdentifier[]> {
+    return this.http.get<PersonIdentifier[]>(
+      `${environment.apiUrl}/${this.url}/GetAllPaginated`,
+      {
+        params: { page: page, pageSize: pageSize },
+      }
+    );
   }
 
   getPersonByLink(link: string): Observable<Person> {
-    return this.http.get<Person>(`${environment.apiUrl}/${this.url}/GetByLink/${link}`);
+    return this.http.get<Person>(
+      `${environment.apiUrl}/${this.url}/GetByLink/${link}`
+    );
   }
 
   getHighlightsPersons(): Observable<PersonHighlight[]> {
