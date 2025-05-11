@@ -33,7 +33,7 @@ namespace AssetDeclarationsApi.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult<List<GetAllResponse>>> GetAllPaginated([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+        public async Task<ActionResult<List<GetAllResponse>>> GetAllPaginated([FromQuery] int page = 0, [FromQuery] int pageSize = 10)
         {
             var realEstate = await _dataService.GetAllRealEstateAsync(page, pageSize);
 

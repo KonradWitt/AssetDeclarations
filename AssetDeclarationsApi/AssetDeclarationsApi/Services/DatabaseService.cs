@@ -26,6 +26,12 @@ namespace AssetDeclarationsApi.Services
             return await dbSet.FindAsync(id);
         }
 
+        public async Task<int> GetCountAsync<T>() where T : class 
+        {
+            var dbSet = _context.Set<T>();
+            return await dbSet.CountAsync();
+        }
+
         public async Task<T> AddAsync<T>(T entity) where T : class
         {
             var dbSet = _context.Set<T>();
@@ -54,6 +60,11 @@ namespace AssetDeclarationsApi.Services
                 dbSet.Remove(entity);
                 await _context.SaveChangesAsync();
             }
+        }
+
+        public async Task<List<Person>> GetAllPersonsSortedByLastNamePaginated(int page, int pageSize)
+        {
+            return await _context.Persons.Include(x => x.Party).OrderBy(x => x.LastName).Skip(page * pageSize).Take(pageSize).ToListAsync();
         }
 
         public async Task<Person?> GetPersonIncludingDetailsAsync(int id)

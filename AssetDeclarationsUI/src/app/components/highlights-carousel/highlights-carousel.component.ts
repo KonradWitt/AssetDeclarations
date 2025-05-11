@@ -29,7 +29,7 @@ export class HighlightsCarouselComponent implements OnInit {
 
   windowWidth = signal<number>(0);
   numVisible = computed(() => {
-    return Math.floor(this.windowWidth() / 350);
+    return Math.floor(this.windowWidth() / 300);
   });
 
   numScroll = computed(() => {

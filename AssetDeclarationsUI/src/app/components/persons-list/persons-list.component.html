@@ -1,0 +1,13 @@
+@if(this.persons()) {
+<mat-list>
+  @for (person of this.persons(); track $index) {
+  <mat-list-item>
+      <img matListItemAvatar [src]="person.imageUrl" />
+      <span matListItemTitle>{{ person.fullName }}</span>
+      <span matListItemLine>{{
+        person.party.abbreviation ?? person.party.name
+      }}</span>
+  </mat-list-item>
+  }
+</mat-list>
+}

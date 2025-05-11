@@ -5,6 +5,7 @@ import { delay, map, Observable, of } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { PersonHighlight } from '../model/personHighlight.interface';
 import { PersonIdentifier } from '../model/personIdentifier.interface';
+import { PersonListed } from '../model/personListed.interface';
 
 @Injectable({
   providedIn: 'root',
@@ -23,12 +24,18 @@ export class PersonService {
   getAllPaginated(
     page: number,
     pageSize: number
-  ): Observable<PersonIdentifier[]> {
-    return this.http.get<PersonIdentifier[]>(
-      `${environment.apiUrl}/${this.url}/GetAllPaginated`,
+  ): Observable<PersonListed[]> {
+    return this.http.get<PersonListed[]>(
+      `${environment.apiUrl}/${this.url}/GetAllAlphabeticalPagineted`,
       {
         params: { page: page, pageSize: pageSize },
       }
+    );
+  }
+
+  getCount() : Observable<number>{
+    return this.http.get<number>(
+      `${environment.apiUrl}/${this.url}/GetCount`
     );
   }
 

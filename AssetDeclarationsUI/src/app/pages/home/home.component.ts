@@ -13,6 +13,7 @@ import { PersonIdentifier } from '../../model/personIdentifier.interface';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { PersonService } from '../../services/person.service';
+import { PersonsListComponent } from '../../components/persons-list/persons-list.component';
 
 @Component({
   selector: 'app-home',
@@ -25,6 +26,7 @@ import { PersonService } from '../../services/person.service';
     CommonModule,
     MatProgressSpinnerModule,
     HighlightsCarouselComponent,
+    PersonsListComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',

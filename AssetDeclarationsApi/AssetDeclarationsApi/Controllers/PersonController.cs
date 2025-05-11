@@ -83,7 +83,29 @@ namespace AssetDeclarationsApi.Controllers
                 return NotFound();
             }
 
-            var response = persons.Select(p => new GetAllResponse() {FullName = p.FullName, Link = p.Link }).ToList();
+            var response = persons.Select(p => new GetAllResponse() { FullName = p.FullName, Link = p.Link }).ToList();
+
+
+            return Ok(response);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<GetAllResponse>>> GetAllAlphabeticalPagineted([FromQuery] int page = 0, [FromQuery] int pageSize = 10)
+        {
+            var persons = await _dataService.GetAllPersonsSortedByLastNamePaginated(page, pageSize);
+
+            if (persons is null)
+            {
+                return NotFound();
+            }
+
+            var response = persons.Select(p => new GetAllAlphabeticalResponse()
+            {
+                FullName = p.FullName,
+                Link = p.Link,
+                ImageUrl = p.ImageUrl,
+                Party = p.Party.MapToDTO()
+            }).ToList();
 
 
             return Ok(response);
@@ -103,6 +125,12 @@ namespace AssetDeclarationsApi.Controllers
             });
 
             return Ok(response);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<int>> GetCount()
+        {
+            return Ok(await _dataService.GetCountAsync<Person>());
         }
 
 
