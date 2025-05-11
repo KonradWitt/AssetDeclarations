@@ -35,7 +35,6 @@ namespace AssetDeclarationsApi.Controllers
 
             var response = new GetResponse()
             {
-                Id = person.Id,
                 LastName = person.LastName,
                 FullName = person.FullName,
                 Link = person.Link,
@@ -61,7 +60,6 @@ namespace AssetDeclarationsApi.Controllers
 
             var response = new GetResponse()
             {
-                Id = person.Id,
                 LastName = person.LastName,
                 FullName = person.FullName,
                 Link = person.Link,
@@ -85,7 +83,7 @@ namespace AssetDeclarationsApi.Controllers
                 return NotFound();
             }
 
-            var response = persons.Select(p => new GetAllResponse() { Id = p.Id, FullName = p.FullName, Link = p.Link }).ToList();
+            var response = persons.Select(p => new GetAllResponse() {FullName = p.FullName, Link = p.Link }).ToList();
 
 
             return Ok(response);
@@ -98,7 +96,6 @@ namespace AssetDeclarationsApi.Controllers
 
             var response = persons.Select(person => new GetHighlightsResponse()
             {
-                Id = person.Id,
                 FullName = person.FullName,
                 Link = person.Link,
                 ImageUrl = person.ImageUrl,

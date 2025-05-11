@@ -15,7 +15,6 @@ public static class EntityToDTO
 
         return new PersonDTO()
         {
-            Id = p.Id,
             FirstName = p.FirstName,
             LastName = p.LastName,
             FullName = p.FullName,

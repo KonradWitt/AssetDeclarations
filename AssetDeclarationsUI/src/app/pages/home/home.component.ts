@@ -42,9 +42,7 @@ export class HomeComponent {
   onPersonSelected(person: PersonIdentifier | undefined) {
     if (!person) return;
 
-    this.router.navigate(['polityk', person.link], {
-      state: { id: person.id },
-    });
+    this.router.navigate(['polityk', person.link]);
   }
 
   onGetRandomPersonButtonClicked() {
@@ -56,8 +54,6 @@ export class HomeComponent {
   }
 
   onHighlightPersonClicked(personHighlight: PersonHighlight) {
-    this.router.navigate(['polityk', personHighlight.link], {
-      state: { id: personHighlight.id },
-    });
+    this.router.navigate(['polityk', personHighlight.link]);
   }
 }

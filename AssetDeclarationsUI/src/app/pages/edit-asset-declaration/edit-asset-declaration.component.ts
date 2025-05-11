@@ -67,7 +67,7 @@ export class EditAssetDeclarationComponent {
 
   onPersonSelected(person: PersonIdentifier) {
     this.personService
-      .getPerson(person.id)
+      .getPersonByLink(person.link)
       .subscribe((result) => this.person.set(result));
   }
 
