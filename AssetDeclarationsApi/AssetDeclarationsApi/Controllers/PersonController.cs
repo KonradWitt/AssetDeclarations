@@ -90,9 +90,9 @@ namespace AssetDeclarationsApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<GetAllResponse>>> GetAllAlphabeticalPagineted([FromQuery] int page = 0, [FromQuery] int pageSize = 10)
+        public async Task<ActionResult<List<GetAllAlphabeticalResponse>>> GetAllAlphabeticalPagineted([FromQuery] int page = 0, [FromQuery] int pageSize = 10)
         {
-            var persons = await _dataService.GetAllPersonsSortedByLastNamePaginated(page, pageSize);
+            var persons = await _dataService.GetAllPersonsAlphabeticallyPaginated(page, pageSize);
 
             if (persons is null)
             {
@@ -101,10 +101,11 @@ namespace AssetDeclarationsApi.Controllers
 
             var response = persons.Select(p => new GetAllAlphabeticalResponse()
             {
-                FullName = p.FullName,
-                Link = p.Link,
-                ImageUrl = p.ImageUrl,
-                Party = p.Party.MapToDTO()
+                FullName = p.person.FullName,
+                Link = p.person.Link,
+                ImageUrl = p.person.ImageUrl,
+                Party = p.person.Party.MapToDTO(),
+                NetWorth = p.netWorth
             }).ToList();
 
 

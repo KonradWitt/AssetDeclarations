@@ -1,8 +1,44 @@
-img {
-  object-fit: cover;
+.table-container {
+  max-width: 500px;
+  table {
+    background-color: transparent;
+  }
 }
 
-mat-list-item:hover
-{
-    background-color: gainsboro;
+.clickable-row {
+  cursor: pointer;
+}
+
+.clickable-row:hover {
+  background-color: #f5f5f5;
+}
+
+.person-container {
+  display: flex;
+  padding: 4px 0px;
+  img {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .name-party-container {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .name {
+      color: var(--color-header);
+      font-weight: 500;
+    }
+    .party {
+      font-size: 12px;
+    }
+  }
+}
+
+.value-cell {
+  white-space: nowrap;
+  text-align: right;
 }

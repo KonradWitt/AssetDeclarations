@@ -13,7 +13,7 @@ namespace AssetDeclarationsApi.Services
         Task UpdateAsync<T>(T entity) where T : class;
         Task DeleteAsync<T>(int id) where T : class;
 
-        Task<List<Person>> GetAllPersonsSortedByLastNamePaginated(int page, int pageSize);
+        Task<List<(Person person, decimal netWorth)>> GetAllPersonsAlphabeticallyPaginated(int page, int pageSize);
         Task<Person?> GetPersonIncludingDetailsAsync(int id);
         Task<Person?> GetPersonIncludingDetailsByLinkAsync(string link);
         Task<IEnumerable<Person>> GetHighlightsAsync();

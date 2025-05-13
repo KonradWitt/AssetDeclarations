@@ -1,13 +1,41 @@
 @if(this.persons()) {
-<mat-list>
-  @for (person of this.persons(); track $index) {
-  <mat-list-item>
-      <img matListItemAvatar [src]="person.imageUrl" />
-      <span matListItemTitle>{{ person.fullName }}</span>
-      <span matListItemLine>{{
-        person.party.abbreviation ?? person.party.name
-      }}</span>
-  </mat-list-item>
-  }
-</mat-list>
+<div class="table-container">
+  <table mat-table [dataSource]="this.persons()">
+    <ng-container matColumnDef="person">
+      <th mat-header-cell *matHeaderCellDef>Polityk</th>
+      <td mat-cell *matCellDef="let element" class="person-cell">
+        <div class="person-container">
+          <img [src]="element.imageUrl" />
+          <div class="name-party-container">
+            <span class="name"> {{ element.fullName }} </span>
+            <span class="party"> {{ element.party.name }} </span>
+          </div>
+        </div>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="netWorth">
+      <th mat-header-cell *matHeaderCellDef>Majątek</th>
+      <td mat-cell *matCellDef="let element" class="value-cell">
+        {{ element.netWorth | numberSpace }} zł
+      </td>
+      <td></td
+    ></ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="['person', 'netWorth']"></tr>
+    <tr
+      mat-row
+      class="clickable-row"
+      *matRowDef="let row; columns: ['person', 'netWorth']"
+      (click)="onRowClicked(row)"
+    ></tr>
+  </table>
+  <mat-paginator
+  [length]="this.totalCount()"
+  [pageSizeOptions]="[10, 25, 50]"
+  (page)="onPaginatorChanged($event)"
+>
+</mat-paginator>
+</div>
+
 }

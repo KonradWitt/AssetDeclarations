@@ -1,6 +1,7 @@
 ﻿using AssetDeclarationsApi.Data;
 using AssetDeclarationsApi.Entities;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
 namespace AssetDeclarationsApi.Services
@@ -26,7 +27,7 @@ namespace AssetDeclarationsApi.Services
             return await dbSet.FindAsync(id);
         }
 
-        public async Task<int> GetCountAsync<T>() where T : class 
+        public async Task<int> GetCountAsync<T>() where T : class
         {
             var dbSet = _context.Set<T>();
             return await dbSet.CountAsync();
@@ -62,9 +63,18 @@ namespace AssetDeclarationsApi.Services
             }
         }
 
-        public async Task<List<Person>> GetAllPersonsSortedByLastNamePaginated(int page, int pageSize)
+        public async Task<List<(Person,decimal)>> GetAllPersonsAlphabeticallyPaginated(int page, int pageSize)
         {
-            return await _context.Persons.Include(x => x.Party).OrderBy(x => x.LastName).Skip(page * pageSize).Take(pageSize).ToListAsync();
+            var queryResult = await _context.Persons.Include(x => x.Party).OrderBy(x => x.LastName).Skip(page * pageSize).Take(pageSize)
+                .Select(p => new
+                {
+                    Person = p,
+                    NetWorth = p.AssetDeclarations
+                        .OrderByDescending(ad => ad.Date)
+                        .FirstOrDefault().NetValue,
+                }).ToListAsync();
+
+            return queryResult.Select(x => (x.Person, x.NetWorth)).ToList();
         }
 
         public async Task<Person?> GetPersonIncludingDetailsAsync(int id)
