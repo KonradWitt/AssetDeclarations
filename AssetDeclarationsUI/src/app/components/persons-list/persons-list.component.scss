@@ -42,3 +42,14 @@
   white-space: nowrap;
   text-align: right;
 }
+
+.loading-container{
+  max-width: 500px;
+  .skeleton-container
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+}

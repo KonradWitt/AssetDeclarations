@@ -17,6 +17,14 @@
 </p-carousel>
 } @else {
 <div class="spinner-container">
-  <mat-spinner mode="indeterminate" />
+  <ngx-skeleton-loader
+    [count]="this.numVisible()"
+    [theme]="{
+            width: '250px',
+            height: '300px',
+            margin: '10px',
+            'border-radius': '16px',
+          }"
+  />
 </div>
 }

@@ -5,7 +5,6 @@ import {
   OnInit,
   output,
   signal,
-  ViewChild,
 } from '@angular/core';
 import { Carousel, CarouselModule } from 'primeng/carousel';
 import { PersonService } from '../../services/person.service';
@@ -13,10 +12,17 @@ import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 import { PersonHighlight } from '../../model/personHighlight.interface';
 import { HostListener } from '@angular/core';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 
 @Component({
   selector: 'highlights-carousel',
-  imports: [Carousel, CarouselModule, NumberSpacePipe, MatProgressSpinnerModule],
+  imports: [
+    Carousel,
+    CarouselModule,
+    NumberSpacePipe,
+    MatProgressSpinnerModule,
+    NgxSkeletonLoaderModule,
+  ],
   templateUrl: './highlights-carousel.component.html',
   styleUrl: './highlights-carousel.component.scss',
 })
@@ -40,11 +46,10 @@ export class HighlightsCarouselComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
+    this.windowWidth.set(window.innerWidth);
     this.personService.getHighlightsPersons().subscribe((persons) => {
       this.persons.set(persons);
     });
-
-    this.windowWidth.set(window.innerWidth);
   }
 
   @HostListener('window:resize', ['$event'])

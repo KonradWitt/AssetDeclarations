@@ -6,16 +6,19 @@ import { MatTableModule } from '@angular/material/table';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
 import { MatPaginatorModule, PageEvent } from '@angular/material/paginator';
 import { Router } from '@angular/router';
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
+
 
 @Component({
   selector: 'app-persons-list',
-  imports: [MatListModule, MatTableModule, NumberSpacePipe, MatPaginatorModule],
+  imports: [MatListModule, MatTableModule, NumberSpacePipe, MatPaginatorModule, NgxSkeletonLoaderModule],
   templateUrl: './persons-list.component.html',
   styleUrl: './persons-list.component.scss',
 })
 export class PersonsListComponent implements OnInit {
   totalCount = signal<number>(0);
-  persons = signal<PersonListed[]>([]);
+  persons = signal<PersonListed[] | undefined>(undefined);
+
   constructor(private personService: PersonService, private router: Router) {}
 
   ngOnInit(): void {

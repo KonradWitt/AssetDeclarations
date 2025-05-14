@@ -1,6 +1,6 @@
 @if(this.persons()) {
 <div class="table-container">
-  <table mat-table [dataSource]="this.persons()">
+  <table mat-table [dataSource]="this.persons()!">
     <ng-container matColumnDef="person">
       <th mat-header-cell *matHeaderCellDef>Polityk</th>
       <td mat-cell *matCellDef="let element" class="person-cell">
@@ -31,11 +31,31 @@
     ></tr>
   </table>
   <mat-paginator
-  [length]="this.totalCount()"
-  [pageSizeOptions]="[10, 25, 50]"
-  (page)="onPaginatorChanged($event)"
->
-</mat-paginator>
+    [length]="this.totalCount()"
+    [pageSizeOptions]="[10, 25, 50]"
+    (page)="onPaginatorChanged($event)"
+  >
+  </mat-paginator>
+</div>
+} @else {
+<div class="loading-container">
+  @for(item of [].constructor(5); track $index) {
+  <div class="skeleton-container">
+    <ngx-skeleton-loader
+      [theme]="{ width: '50px',
+            height: '50px',
+            'border-radius': '25px',
+          }"
+    />
+    <ngx-skeleton-loader
+      [theme]="{
+            width: '200px',
+            height: '25px',
+            'border-radius': '16px',
+          }"
+    />
+  </div>
+  }
 </div>
 
 }
