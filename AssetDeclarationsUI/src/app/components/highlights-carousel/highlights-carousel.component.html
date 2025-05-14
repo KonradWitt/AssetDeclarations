@@ -8,11 +8,11 @@
   [showIndicators]="true"
 >
   <ng-template let-person #item>
-    <a class="person-container" (click)="onPersonClicked(person)">
+    <div class="person-container" (click)="onPersonClicked(person)">
       <h3>{{ person.fullName }}</h3>
       <img [src]="person.imageUrl" />
       <h4>Majątek: {{ person.netWorth | numberSpace }} zł</h4>
-    </a>
+    </div>
   </ng-template>
 </p-carousel>
 } @else {
