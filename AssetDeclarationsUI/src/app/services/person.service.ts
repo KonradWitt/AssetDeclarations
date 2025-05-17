@@ -26,7 +26,7 @@ export class PersonService {
     pageSize: number
   ): Observable<PersonListed[]> {
     return this.http.get<PersonListed[]>(
-      `${environment.apiUrl}/${this.url}/GetAllAlphabeticalPagineted`,
+      `${environment.apiUrl}/${this.url}/GetList`,
       {
         params: { page: page, pageSize: pageSize },
       }

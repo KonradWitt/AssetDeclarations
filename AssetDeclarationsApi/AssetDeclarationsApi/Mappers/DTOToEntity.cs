@@ -1,10 +1,33 @@
 ﻿using AssetDeclarationsApi.DTOs;
 using AssetDeclarationsApi.Entities;
+using Azure.Core;
 
 namespace AssetDeclarationsApi.Mappers
 {
     public static class DTOToEntity
     {
+        public static Person MapToEntity(this PersonDTO dto)
+        {
+            if(dto is null)
+            {
+                return null;
+            }
+
+            var person = new Person()
+            {
+                FirstName = dto.FirstName,
+                LastName = dto.LastName,
+                DateOfBirth = dto.DateOfBirth ?? default,
+                PlaceOfBirth = dto.PlaceOfBirth,
+                ImageUrl = dto.ImageUrl,
+                PartyId = dto.PartyId,
+                AssetDeclarations = dto.AssetDeclarations?.Select(ad => ad.MapToEntity()).ToList(),
+            };
+
+            return person;
+        }
+
+
         public static AssetDeclaration MapToEntity(this AssetDeclarationDTO dto)
         {
             if (dto is null)

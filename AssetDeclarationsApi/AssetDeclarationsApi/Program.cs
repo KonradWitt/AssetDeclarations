@@ -1,3 +1,7 @@
+using FastEndpoints;
+using FluentValidation;
+using FastEndpoints.Swagger;
+
 using AssetDeclarationsApi.Data;
 using AssetDeclarationsApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -30,6 +34,14 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 });
 
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("ADMIN", policy => policy.RequireRole("ADMIN"));
+});
+
+builder.Services.AddFastEndpoints().SwaggerDocument();
+
+
 builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 builder.Services.AddOpenApi();
 builder.Services.AddCors(options => options.AddPolicy("LocalPolicy", policy => { policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader(); }));
@@ -39,7 +51,7 @@ var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseOpenApi(c => c.Path = "/openapi/{documentName}.json");
     app.MapScalarApiReference(options => { options.WithDefaultHttpClient(ScalarTarget.CSharp, ScalarClient.HttpClient); });
     app.UseCors("LocalPolicy");
 }
@@ -49,9 +61,9 @@ else
 }    
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
 
+app.UseFastEndpoints();
 app.MapControllers();
 app.MapFallbackToFile("index.html");
 
