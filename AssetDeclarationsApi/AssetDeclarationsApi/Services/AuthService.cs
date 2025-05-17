@@ -4,6 +4,7 @@ using AssetDeclarationsApi.Entities;
 using Azure.Core;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration.UserSecrets;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -15,15 +16,33 @@ namespace AssetDeclarationsApi.Services
     {
         private readonly IConfiguration _config;
         private readonly IDatabaseService _dataService;
-        public AuthService(IConfiguration config, IDatabaseService dataService)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public AuthService(IConfiguration config, IDatabaseService dataService, IHttpContextAccessor httpContextAccessor)
         {
             _config = config;
             _dataService = dataService;
+            _httpContextAccessor = httpContextAccessor;
         }
 
-        public Task<User> GetUserAsync(int id)
+        public Task<User?> GetUserAsync(int id)
         {
             return _dataService.GetByIdAsync<User>(id);
+        }
+
+        public async Task<User?> GetAuthenticatedUserAsync()
+        {
+            var user = _httpContextAccessor.HttpContext?.User;
+            var idClaim = user?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (int.TryParse(idClaim, out var userId))
+            {
+                return await GetUserAsync(userId);
+            }
+            else
+            {
+                return null;
+            }
+
         }
 
         public async Task<RegisterResponse?> RegisterAsync(RegisterRequest request)
@@ -92,5 +111,7 @@ namespace AssetDeclarationsApi.Services
 
             return new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);
         }
+
+
     }
 }

@@ -13,11 +13,10 @@ export class AssetDeclarationServiceService {
   constructor(private http: HttpClient) {}
 
   update(
-    id: number,
     assetDeclaration: AssetDeclaration
   ): Observable<AssetDeclaration> {
     return this.http.put<AssetDeclaration>(
-      `${environment.apiUrl}/${this.url}/Update/${id}`,
+      `${environment.apiUrl}/${this.url}/Update`,
       assetDeclaration
     );
   }

@@ -138,7 +138,7 @@ export class EditAssetDeclarationComponent {
 
     const ad = this.assetDeclaration()!;
 
-    this.assetDeclarationService.update(ad.id, ad).subscribe({
+    this.assetDeclarationService.update(ad).subscribe({
       next: () => {
         this.snackBar.open('Dane zostały zaktualizowane.', 'OK', {
           duration: 2000,

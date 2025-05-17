@@ -23,7 +23,7 @@ interface TokenPayload extends JwtPayload {
   providedIn: 'root',
 })
 export class AuthService {
-  private readonly url = 'Auth';
+  private readonly url = 'api/Auth';
   private readonly tokenKey = 'auth_token';
 
   private token = signal<string | null>(localStorage.getItem(this.tokenKey));

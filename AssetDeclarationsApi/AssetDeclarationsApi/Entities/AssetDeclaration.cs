@@ -10,14 +10,14 @@ namespace AssetDeclarationsApi.Entities
         public string DocumentUrl { get; set; }
         public decimal NetValue { get; set; }
 
-        public ICollection<CashPosition> CashPositions { get; set; }
-        public ICollection<SecurityPosition> SecurityPositions { get; set; }
-        public ICollection<RealEstate> RealEstate { get; set; }
-        public ICollection<Liability> Liabilities { get; set; }
-        public ICollection<PersonalProperty> PersonalProperties { get; set; }
-        public ICollection<Income> Incomes { get; set; }
-        public ICollection<Receivable> Receivables { get; set; }
-        public ICollection<BusinessActivity> BusinessActivities { get; set; }
+        public List<CashPosition> CashPositions { get; set; }
+        public List<SecurityPosition> SecurityPositions { get; set; }
+        public List<RealEstate> RealEstate { get; set; }
+        public List<Liability> Liabilities { get; set; }
+        public List<PersonalProperty> PersonalProperties { get; set; }
+        public List<Income> Incomes { get; set; }
+        public List<Receivable> Receivables { get; set; }
+        public List<BusinessActivity> BusinessActivities { get; set; }
 
         public void CalculateNetValue()
         {
