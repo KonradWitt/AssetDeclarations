@@ -22,18 +22,23 @@ for link in links:
         repeat = True
 
         with SeleniumSession(link) as session:
-            session.click_element_by_id('osw')
 
             deputyNameXPath = '//*[@id="title_content"]/h1'
             deputyName = session.get_text_from_element_by_xpath(
                 deputyNameXPath)
-            print(deputyName)
+            if not deputyName:
+                deputyName = datetime.now.strftime("%m/%d/%Y, %H:%M:%S")
+                
 
             directory = fr'C:\Users\wittk\source\repos\AssetDeclarations\AssetDeclarationsPython\downloads\{deputyName}'
-            if os.path.exists(directory):
-                shutil.rmtree(directory)
             if not os.path.exists(directory):
                 os.makedirs(directory)
+            else:
+                print(f"Skipping {deputyName}")
+                break
+            
+            session.click_element_by_id('osw')
+                
             with open(directory + r'\output.csv', 'w', newline='', encoding='utf8') as csvfile:
                 writer = csv.writer(csvfile, delimiter=';',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
@@ -44,18 +49,18 @@ for link in links:
                     imgXpath, 'src')
                 if not imgUrl:
                     imgUrl = 'err'
-                # print(imgUrl)
+                print(imgUrl)
 
-                pdfXpath = '//*[@id="view:_id1:_id2:facetMain:_id191:_id258:1:_id263"]'
+                pdfXpath = '//*[@id="view:_id1:_id2:facetMain:_id191:_id258:2:_id263"]'
                 pdfUrl = session.get_attribute_from_element_by_xpath(
                     pdfXpath, 'href')
                 if not pdfUrl:
                     pdfUrl = 'err'
-                # print(pdfUrl)
+                print(pdfUrl)
                 
                 partyXPath = '//*[@id="view:_id1:_id2:facetMain:_id108:klub"]'
                 party = session.get_text_from_element_by_xpath(partyXPath)
-                #print(party)
+                print(party)
 
                 writer.writerow([deputyName, party, pdfUrl, imgUrl])
                 if (pdfUrl != 'err'):
