@@ -1,0 +1,75 @@
+{
+  "firstName": "Dorota",
+  "lastName": "Łoboda",
+  "dateOfBirth": "1975-08-19T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/59377A22BE03A617C1258A51003B9F12/$File/222.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F1BAB22FD190AFC3C1258C7B0041E7DA/%24File/OSW102_222.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 4019.22,
+          "baseValue": 4019.22
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 70,96 m²",
+          "value": 850000.0,
+          "legalTitle": "własność (objęte małżeńską wspólnością majątkową od 28.08.2018)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 36,57 m²",
+          "value": 430000.0,
+          "legalTitle": "własność (darowizna, majątek osobisty)"
+        },
+        {
+          "description": "Działka rekreacyjna o powierzchni 2280 m²",
+          "value": 400000.0,
+          "legalTitle": "3/10 własności nabyte 12.12.2011 (majątek osobisty)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny zaciągnięty w BPH w 2008 roku na 25 lat, do spłaty na dzień 31.12.2024",
+          "value": 40348.58,
+          "currency": "CHF"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód NISSAN QASHQAI, rok produkcji 2008",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Praca na etacie",
+          "yearlyValue": 188645.37
+        },
+        {
+          "description": "Działalność wykonywana osobiście (dieta parlamentarna)",
+          "yearlyValue": 12099.96
+        },
+        {
+          "description": "Inne źródła",
+          "yearlyValue": 1291.21
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Fundacje i stowarzyszenia prowadzące działalność gospodarczą",
+          "businessType": "fundacja/stowarzyszenie",
+          "description": "Udział w fundacjach i stowarzyszeniach",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

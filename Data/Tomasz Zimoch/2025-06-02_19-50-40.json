@@ -1,0 +1,121 @@
+{
+  "firstName": "Tomasz",
+  "lastName": "Zimoch",
+  "dateOfBirth": "1957-10-30T00:00:00",
+  "placeOfBirth": "Łódź",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/006372B2FC31941CC1258A51003BA347/$File/455.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A4BB0248F5C694B5C1258C7E00347574/%24File/OSW102_455.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 1221.88,
+          "baseValue": 1221.88,
+          "description": "środki pieniężne zgromadzone na koncie"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 881775.84,
+          "baseValue": 881775.84,
+          "description": "oszczędności wspólnie z żoną"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 232025.73,
+          "baseValue": 232025.73,
+          "description": "ubezpieczenie na życie Generali"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 90545.07,
+          "baseValue": 90545.07,
+          "description": "IKZE"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 105373.21,
+          "baseValue": 105373.21,
+          "description": "Fundusz Santander Stabilnego Wzrostu"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje GPW",
+          "quantity": "25 szt.",
+          "value": 1210.50
+        },
+        {
+          "name": "Akcje JSW",
+          "quantity": "75 szt.",
+          "value": 1828.50
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 52,9 m²",
+          "value": 470000.0,
+          "legalTitle": "współwłasność z żoną"
+        },
+        {
+          "description": "Mieszkanie 70,04 m²",
+          "value": 450000.0,
+          "legalTitle": "współwłasność z byłą żoną"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Raiffeisen Bank International na zakup mieszkania w 2007 roku, pozostało do spłaty we frankach szwajcarskich",
+          "value": 30007.6
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Citroen C4 Grand Picasso, rok 2017",
+          "value": null
+        },
+        {
+          "description": "Skuter Honda Forza 125, rok 2023",
+          "value": null
+        },
+        {
+          "description": "Samochód Citroen C3 Aircross, rok 2019 (własność żony)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Umowa o pracę Westa Druk",
+          "yearlyValue": 103159.02
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 209047.88
+        },
+        {
+          "description": "Krajowa Rada Sądownictwa",
+          "yearlyValue": 133539.15
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 78464.58
+        },
+        {
+          "description": "Dieta poselska (w tym nieopodatkowana 36.000PLN)",
+          "yearlyValue": 45466.16
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Jednoosobowa działalność gospodarcza Tomasz Zimoch",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "usługi dziennikarskie i wydawnicze",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

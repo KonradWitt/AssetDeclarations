@@ -1,0 +1,123 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Sałek",
+  "dateOfBirth": "1975-06-29T00:00:00",
+  "placeOfBirth": "Skierniewice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1D5ADEFC234A1A46C1258A51003BA0D8/$File/322.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-15T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7A3C496C2E76F6E1C1258C74005206BF/%24File/OSW102_322.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 360000.0,
+          "baseValue": 360000.0,
+          "description": "wspólnota małżeńska"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 147000.0,
+          "baseValue": 147000.0,
+          "description": "majątek odrębny"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 23000.0,
+          "baseValue": 23000.0,
+          "description": "PZU IKZE (wspólnota małżeńska)"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 60500.0,
+          "baseValue": 60500.0,
+          "description": "Pracownicze Plany Kapitałowe (wspólnota małżeńska)"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1030.0,
+          "baseValue": 4429.0,
+          "description": "wspólnota małżeńska (przeliczone po kursie 4.3 PLN/EUR)"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 600.0,
+          "baseValue": 2340.0,
+          "description": "wspólnota małżeńska (przeliczone po kursie 3.9 PLN/USD)"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w Banku Spółdzielczym w Skierniewicach",
+          "quantity": "3",
+          "value": 1900.0,
+          "description": "wspólnota małżeńska"
+        },
+        {
+          "name": "Udział w SKOK Stefczyka",
+          "quantity": "1",
+          "value": 50.0,
+          "description": "wspólnota małżeńska"
+        },
+        {
+          "name": "Udziały w SKOK Wołomin",
+          "quantity": "32",
+          "value": 960.0,
+          "description": "wspólnota małżeńska"
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 80,32 m² (z dwoma miejscami garażowymi i komórką lokatorską)",
+          "value": 565000.0,
+          "legalTitle": "współwłasność - wspólnota majątkowa - akt notarialny"
+        },
+        {
+          "description": "Ziemia rolna 40,14 ha",
+          "value": 900000.0,
+          "legalTitle": "własność (wspólnota małżeńska w tym 14 ha majątek odrębny)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Hyundai i20 (rok produkcji 2011)",
+          "value": 9000.0
+        },
+        {
+          "description": "Samochód osobowy Fiat Panda (rok produkcji 2019)",
+          "value": 25000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Kancelaria Prezydenta RP (trzynasta pensja za 2024r.)",
+          "yearlyValue": 12350.71
+        },
+        {
+          "description": "Sejm RP - uposażenie",
+          "yearlyValue": 176330.0
+        },
+        {
+          "description": "Sejm RP - dieta nieopodatkowana",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Sejm RP - dieta opodatkowana",
+          "yearlyValue": 9466.15
+        },
+        {
+          "description": "Sejm RP - służbowe podróże zagraniczne",
+          "yearlyValue": 658.35
+        },
+        {
+          "description": "Dywidenda z Banku Spółdzielczego (wspólnota małżeńska)",
+          "yearlyValue": 100.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

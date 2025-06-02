@@ -1,0 +1,103 @@
+{
+  "firstName": "Czesław",
+  "lastName": "Hoc",
+  "dateOfBirth": "1954-02-22T00:00:00",
+  "placeOfBirth": "Jelenin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/410C5B497532FA93C1258A51003B9D5D/$File/130.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/76C76F46E6B0DEABC1258C7B00305C6B/%24File/OSW102_130.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 88000.0,
+          "baseValue": 88000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 257700.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 8930.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Ubezpieczeniowy Fundusz Kapitałowy PZU (USD)",
+          "quantity": null,
+          "value": 6700.0
+        },
+        {
+          "name": "Jednostki uczestnictwa w Funduszach Inwestycyjnych TFI PEKAO S.A.",
+          "quantity": null,
+          "value": 253300.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 85 m²",
+          "value": 400000.0,
+          "legalTitle": "własnościowe – małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Lokal mieszkalny - mieszkanie 62,34 m²",
+          "value": 375000.0,
+          "legalTitle": "własnościowe – małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Nieruchomość gruntowa z budynkiem gospodarczym (18 m²) i domem w budowie (planowana pow. użytkowa 55 m²) na działce 3655 m²",
+          "value": 500000.0,
+          "legalTitle": "własnościowe – majątek odrębny"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy BMW X3, rok produkcji 2018",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy BMW 420D, rok produkcji 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Emerytura byłego posła do Parlamentu Europejskiego (EUR)",
+          "yearlyValue": 15938.28
+        },
+        {
+          "description": "Przychód z umowy o pracę w Regionalnym Szpitalu w Kołobrzegu (Poradnia Endokrynologiczna)",
+          "yearlyValue": 22420.0
+        },
+        {
+          "description": "Emerytura brutto ZUS",
+          "yearlyValue": 110400.76
+        },
+        {
+          "description": "Uposażenie brutto posła na Sejm RP",
+          "yearlyValue": 149637.03
+        },
+        {
+          "description": "Dieta brutto posła na Sejm RP (w tym dieta nieopodatkowana 36 000,00 zł)",
+          "yearlyValue": 45359.26
+        },
+        {
+          "description": "Przychód (dochód) z tytułu odsetek kapitałowych od umowy pożyczki udzielonej osobie fizycznej",
+          "yearlyValue": 6922.63
+        },
+        {
+          "description": "Przychód (dochód) z tytułu odkupienia lub konwersji jednostek uczestnictwa w Funduszach Inwestycyjnych TFI PEKAO S.A.",
+          "yearlyValue": 8264.65
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

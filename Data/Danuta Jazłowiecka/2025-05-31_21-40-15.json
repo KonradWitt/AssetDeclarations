@@ -1,0 +1,85 @@
+{
+  "firstName": "Danuta",
+  "lastName": "Jazłowiecka",
+  "dateOfBirth": "1957-05-19T00:00:00",
+  "placeOfBirth": "Opole",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/58C3AC3FF63D7D6CC1258A51003B9D9D/$File/143.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/512A88D02388C94CC1258C7E003AC2CA/%24File/OSW102_143.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 35000.0,
+          "baseValue": 35000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 62000.0,
+          "baseValue": 266600.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 160 m²",
+          "value": 1200000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 58,85 m² + 12,85 m²",
+          "value": 340000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Gospodarstwo rolne (nieużytki) o powierzchni 0,1602 ha",
+          "value": 50000.0,
+          "legalTitle": "8/10 współwłasność"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 0,074 ha",
+          "value": 60000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka sejmowa na remont mieszkania (2023)",
+          "value": 40000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volvo XC 60 z 2018 r.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 161394.76
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 44931.73
+        },
+        {
+          "description": "Dieta wyjazdowa",
+          "yearlyValue": 1225.73
+        },
+        {
+          "description": "Emerytura PL",
+          "yearlyValue": 83259.12
+        },
+        {
+          "description": "Emerytura PE",
+          "yearlyValue": 44107.98
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

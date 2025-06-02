@@ -1,0 +1,121 @@
+{
+  "firstName": "Andrzej",
+  "lastName": "Adamczyk",
+  "dateOfBirth": "1959-01-04T00:00:00",
+  "placeOfBirth": "Krzeszowice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/88B85DA957FD27D3C1258A51003B9AFF/$File/001.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F17F8ED3BC67C5F0C1258C7C002871EA/%24File/OSW102_001.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 595000.0,
+          "baseValue": 595000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 3400.0,
+          "baseValue": 14620.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 420.0,
+          "baseValue": 1638.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje spółki PLO – Polski Holding Nieruchomości",
+          "quantity": null,
+          "value": 827.82
+        },
+        {
+          "name": "Udziały Spółka z o.o. Agrokompleks w Sance",
+          "quantity": "342",
+          "value": 17100.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 187,1 m²",
+          "value": 560000.0,
+          "legalTitle": "Właściciel"
+        },
+        {
+          "description": "Mieszkanie 37 m²",
+          "value": 310000.0,
+          "legalTitle": "własność odrębna żony nabyta w drodze spadku"
+        },
+        {
+          "description": "Działki budowlane nr 1 i 2 o łącznej powierzchni 19,78 A",
+          "value": 375000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Udziały w działkach drogowych nr 3 i 5 o łącznej powierzchni 2,982 A",
+          "value": 2200.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Udział w działce drogowej nr 4 o powierzchni 0,365 A",
+          "value": 440.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Udział w działce drogowej nr 6 o powierzchni 1 A",
+          "value": 550.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka budowlana nr 7 o powierzchni 6,77 A",
+          "value": 130000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Udział w działce nr 8 o powierzchni 0,30 A",
+          "value": 2200.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka nr 9 o powierzchni 0,46 A",
+          "value": 8800.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Volkswagen Passat 2,0 TDI, rok produkcji 2005",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Audi A6, rok produkcji 2013",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45252.38
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 146532.32
+        },
+        {
+          "description": "Dochód z Ministerstwa Infrastruktury",
+          "yearlyValue": 255802.34
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 94390.44
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

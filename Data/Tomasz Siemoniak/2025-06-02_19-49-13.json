@@ -1,0 +1,88 @@
+{
+  "firstName": "Tomasz",
+  "lastName": "Siemoniak",
+  "dateOfBirth": "1967-07-02T00:00:00",
+  "placeOfBirth": "Wałbrzych",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E1888A42C7862347C1258A51003BA11F/$File/337.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EF8A10E9F8EDE61CC1258C7B00423AD0/%24File/OSW102_337.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 35000.00,
+          "baseValue": 35000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 46,4 m²",
+          "value": 400000.00,
+          "legalTitle": "własność obciążona kredytem hipotecznym"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 49,8 m²",
+          "value": 550000.00,
+          "legalTitle": "własność obciążona kredytem hipotecznym"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 27 m²",
+          "value": 540000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 111 m²",
+          "value": 1500000.00,
+          "legalTitle": "własność obciążona kredytem hipotecznym"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w mBank na zakup mieszkania, pierwotna kwota 36500 CHF, stan zadłużenia na 31.12.2024: 8168,96 CHF, przeniesiony z BPH, zaciągnięty w 1999, spłata do 2025.",
+          "value": 8168.96,
+          "currency": "CHF"
+        },
+        {
+          "description": "Kredyt hipoteczny w mBank na zakup mieszkania, pierwotna kwota 76246,10 CHF, stan zadłużenia na 31.12.2024: 38608,41 CHF, przeniesiony z BOŚ, zaciągnięty w 2000, spłata do 2035.",
+          "value": 38608.41,
+          "currency": "CHF"
+        },
+        {
+          "description": "Kredyt hipoteczny w mBank na zakup mieszkania, pierwotna kwota 177537,38 CHF, stan zadłużenia na 31.12.2024: 112432,84 CHF, zaciągnięty w 2004, spłata do 2035.",
+          "value": 112432.84,
+          "currency": "CHF"
+        },
+        {
+          "description": "Możliwość debetu w banku PEKAO SA.",
+          "value": 12000.00,
+          "currency": "PLN"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Dacia Duster, rok produkcji 2022.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna z Kancelarii Sejmu.",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dochód z Kancelarii Prezesa Rady Ministrów (KPRM).",
+          "yearlyValue": 244112.64
+        },
+        {
+          "description": "Dochód z najmu mieszkań.",
+          "yearlyValue": 54000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

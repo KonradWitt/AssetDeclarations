@@ -1,0 +1,73 @@
+{
+  "firstName": "Izabela",
+  "lastName": "Leszczyna",
+  "dateOfBirth": "1962-09-03T00:00:00",
+  "placeOfBirth": "Częstochowa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/82428D66285350D6C1258A51003B9EE8/$File/212.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2D41199F083657A9C1258C7B004D8299/%24File/OSW102_212.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.0,
+          "baseValue": 10000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 85 m²",
+          "value": 400000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny wobec Banku Millenium na zakup mieszkania dla córki (współkredytobiorca z córką)",
+          "value": 97000.0,
+          "currency": "CHF"
+        },
+        {
+          "description": "Kredyt hipoteczny wobec PKO BP na zakup mieszkania (współkredytobiorca z mężem)",
+          "value": 65000.0,
+          "currency": "PLN"
+        },
+        {
+          "description": "Kredyt na zakup samochodu wobec TOYOTA Bank",
+          "value": 90000.0,
+          "currency": "PLN"
+        },
+        {
+          "description": "Karta kredytowa VISA ING",
+          "value": 35000.0,
+          "currency": "PLN"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy LEXUS NR, rok produkcji 2024",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.27
+        },
+        {
+          "description": "ZUS",
+          "yearlyValue": 87045.62
+        },
+        {
+          "description": "Ministerstwo Zdrowia",
+          "yearlyValue": 245137.02
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

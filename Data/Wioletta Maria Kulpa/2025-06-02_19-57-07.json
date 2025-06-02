@@ -1,0 +1,75 @@
+{
+  "firstName": "Wioletta",
+  "lastName": "Kulpa",
+  "dateOfBirth": "1874-12-08T00:00:00",
+  "placeOfBirth": "Prudnik",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D5720E48AA55CE42C1258B46005B743A/$File/476.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2019-04-27T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/62FEF68AE1C38E49C1258C7B00443D75/%24File/OSW102_476.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 92428.74,
+          "baseValue": 92428.74
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 90000.0,
+          "baseValue": 342891.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 120 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka niezabudowana 1548 m², objęta miejscowym planem zagospodarowania przestrzennego",
+          "value": 177000.0,
+          "legalTitle": "odrębna własność"
+        },
+        {
+          "description": "Działka niezabudowana",
+          "value": 10000.0,
+          "legalTitle": "odrębna własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy MG HS Excite",
+          "value": 100000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu umowy o pracę",
+          "yearlyValue": 241388.26
+        },
+        {
+          "description": "Diety z tytułu podróży służbowych",
+          "yearlyValue": 12454.00
+        },
+        {
+          "description": "Uposażenie posła",
+          "yearlyValue": 188286.48
+        },
+        {
+          "description": "Diety parlamentarne nieopodatkowane",
+          "yearlyValue": 6078.88
+        },
+        {
+          "description": "Diety parlamentarne opodatkowane",
+          "yearlyValue": 4855.86
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

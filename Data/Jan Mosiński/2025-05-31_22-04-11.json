@@ -1,0 +1,90 @@
+{
+  "firstName": "Jan",
+  "lastName": "Mosiński",
+  "dateOfBirth": "1956-10-19T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CBF81230AF351A7EC1258A51003B9F80/$File/247.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-15T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/71051EB5B24A8A84C1258C7500449083/%24File/OSW102_247.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 22088.90,
+          "baseValue": 22088.90
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 105158.32,
+          "baseValue": 105158.32
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbu Państwa",
+          "quantity": "54",
+          "value": 55119.35
+        },
+        {
+          "name": "Akcje Fururunotex SA",
+          "quantity": "85 Akcji",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 72,85 m²",
+          "value": 300000.0,
+          "legalTitle": "Małżeńska wspólnota mieszkaniowa"
+        },
+        {
+          "description": "Udział w gruncie pod budynkiem mieszkalnym 117,35 m²",
+          "value": null,
+          "legalTitle": "Udział w gruncie pod budynkiem mieszkalnym (KSM-L) mieszkania we współwłasności będącego małżeńską wspólnotą majątkową"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Volvo XC 90",
+          "value": null,
+          "year": 2005
+        },
+        {
+          "description": "Samochód Mercedes Benz S 500",
+          "value": null,
+          "year": 2008
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Kancelaria Sejmu RP, Dieta parlamentarna",
+          "yearlyValue": 47699.13
+        },
+        {
+          "description": "Ministerstwo Sprawiedliwości",
+          "yearlyValue": 58370.76
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 128440.42
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 169870.43
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Jasnogórska Fundacja Pro-Patria Bastion św. Rocha",
+          "businessType": "Fundacja",
+          "description": "Członek zarządu (od 01.11.1999, rezygnacja 03.01.2024 r.)",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

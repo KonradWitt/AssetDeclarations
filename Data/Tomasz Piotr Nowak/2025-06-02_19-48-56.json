@@ -1,0 +1,110 @@
+{
+  "firstName": "Tomasz",
+  "lastName": "Nowak",
+  "dateOfBirth": "1956-12-22T00:00:00",
+  "placeOfBirth": "Kwidzyn",
+  "position": "Poseł na Sejm RP",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/36FC439A9DF0C0ECC1258A51003B9FD6/$File/265.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2024-04-16T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2F85BC4B70DB7B96C1258C770035C7A0/%24File/OSW102_265.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 71287.06,
+          "baseValue": 71287.06
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 10042.29,
+          "baseValue": 40570.09
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 10910.22,
+          "baseValue": 47189.09
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Fundusze inwestycyjne PKO",
+          "value": 232311.62
+        },
+        {
+          "name": "Obligacje skarbowe",
+          "value": 202252.00
+        },
+        {
+          "name": "JOYKYE",
+          "value": 78171.33
+        },
+        {
+          "name": "Allianz",
+          "value": 10882.10
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 263,40 m²",
+          "value": 785000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 1060 m² (10 arów i 60 m²), na której posadowiony jest dom i garaż 51m², z instalacją fotowoltaiczną 8.16Kw",
+          "value": 32700.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 0,1518 ha (1518 m²)",
+          "value": 70000.00,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Auris, rok 2008 (współwłasność)",
+          "value": null
+        },
+        {
+          "description": "Samochód Fiat 500, rok 2021 (współwłasność)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 203199.25
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45678.92
+        },
+        {
+          "description": "Dieta parlamentarna (część nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta parlamentarna (część opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Zwrot kosztów służbowych podróży zagranicznych",
+          "yearlyValue": 952.53
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 101049.60
+        },
+        {
+          "description": "Dochód ze sprzedaży samochodu",
+          "yearlyValue": 45000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

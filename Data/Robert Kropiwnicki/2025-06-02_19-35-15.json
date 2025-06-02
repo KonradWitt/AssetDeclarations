@@ -1,0 +1,171 @@
+{
+  "firstName": "Robert",
+  "lastName": "Kropiwnicki",
+  "dateOfBirth": "1974-07-23T00:00:00",
+  "placeOfBirth": "Legnica",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A77C738BCE9C6AA3C1258A51003B9E79/$File/188.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/32B4657325DB8895C1258C750044E7F3/%24File/OSW102_188.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 637094.0,
+          "baseValue": 637094.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 580.0,
+          "baseValue": 2494.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 210.0,
+          "baseValue": 840.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Indywidualne Konto Zabezpieczenia Emerytalnego IKZE",
+          "quantity": null,
+          "value": 9300.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 100 m²",
+          "value": 550000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 42 m²",
+          "value": 252000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 41 m²",
+          "value": 246000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 37 m²",
+          "value": 220000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 46 m²",
+          "value": 276000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 44 m²",
+          "value": 264000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 46 m²",
+          "value": 276000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 34 m²",
+          "value": 186000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 59 m²",
+          "value": 354000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 53 m²",
+          "value": 318000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 86 m²",
+          "value": 388000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 54 m²",
+          "value": 324000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Grunty 4.22 ha",
+          "value": 450000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Garaż 16 m²",
+          "value": 20000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w Santander Bank S.A.",
+          "value": 63000.0
+        },
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w ING Bank Śląski S.A. (w CHF)",
+          "value": 122000.0
+        },
+        {
+          "description": "Kredyt w rachunku bieżącym w Santander Bank S.A.",
+          "value": 60000.0
+        },
+        {
+          "description": "Wpisy hipoteki jako zabezpieczenie pożyczki dla spółki MK Zarządzanie (3 wpisy)",
+          "value": null
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód SKODA SUPERB rok 2013",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 48099.96
+        },
+        {
+          "description": "Dochód z funkcji sekretarza stanu",
+          "yearlyValue": 210131.11
+        },
+        {
+          "description": "Dochód z funkcji członka Komisji Weryfikacyjnej",
+          "yearlyValue": 163291.0
+        },
+        {
+          "description": "Przychód z najmu mieszkań",
+          "yearlyValue": 142134.70
+        },
+        {
+          "description": "Dieta członka Krajowej Rady Sądownictwa",
+          "yearlyValue": 176544.9
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Legnickie Centrum Biznesu sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "24 udziały objęte wkładem niepieniężnym w postaci lokalu użytkowego, stanowiące mniej niż 10% wszystkich udziałów.",
+          "income": 0.0
+        },
+        {
+          "businessName": "LCB Nieruchomości sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "5 udziałów, stanowiące mniej niż 10% wszystkich udziałów.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

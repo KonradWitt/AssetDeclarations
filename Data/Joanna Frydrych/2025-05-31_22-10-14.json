@@ -1,0 +1,83 @@
+{
+  "firstName": "Joanna",
+  "lastName": "Frydrych",
+  "dateOfBirth": "1978-01-13T00:00:00",
+  "placeOfBirth": "Krośnie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/690BC789DCF04AD0C1258A51003B9C7E/$File/082.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F39E4C1A5668BBAEC1258C7700350D47/%24File/OSW102_082.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 7000.00,
+          "baseValue": 7000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 67,18 m²",
+          "value": 974000.00,
+          "legalTitle": "majątkowa wspólność małżeńska"
+        },
+        {
+          "description": "Działka 1,3899 ha (udział 6718/1675456)",
+          "value": 974000.00,
+          "legalTitle": "majątkowa wspólność małżeńska"
+        },
+        {
+          "description": "Działka - miejsce parkingowe 0,0241 ha",
+          "value": 25000.00,
+          "legalTitle": "majątkowa wspólność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w Nowy Bank BFG SA, oprocentowanie zmienne 6,54%, spłata do 07.08.2038, w ramach małżeńskiej wspólności majątkowej",
+          "value": 165148.00
+        },
+        {
+          "description": "Pożyczka z FŚS w Kancelarii Sejmu, spłata do 04.2025",
+          "value": 13480.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Ranault Koleos, rok prod. 2008",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Nissan Qashqai, rok prod. 2008",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Peugeot 407, rok prod. 2004",
+          "value": null
+        },
+        {
+          "description": "Motocykl Suzuki Boulevard C50, rok prod. 2009",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie z tytułu zatrudnienia",
+          "yearlyValue": 202764.11
+        },
+        {
+          "description": "Dieta poselska (nieopodatkowana i opodatkowana)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychody z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 257.43
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

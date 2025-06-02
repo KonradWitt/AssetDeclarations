@@ -1,0 +1,61 @@
+{
+  "firstName": "Elżbieta",
+  "lastName": "Polak",
+  "dateOfBirth": "1959-09-06T00:00:00",
+  "placeOfBirth": "Przemków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/517331ADCE6735D3C1258A51003BA07B/$File/300.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/123066DEE6A93699C1258C760048AB12/%24File/OSW102_300.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 207125.19,
+          "baseValue": 207125.19
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 162,8 m²",
+          "value": 600000.0,
+          "legalTitle": "objęty małżeńską wspólnotą majątkową, współwłasność z mężem Erwinem Polakiem"
+        },
+        {
+          "description": "Działka pod domem o powierzchni 568 m²",
+          "value": null,
+          "legalTitle": "objęta małżeńską wspólnotą majątkową, współwłasność z mężem Erwinem Polakiem"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z ZFŚS Sejm RP",
+          "value": 33700.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Zatrudnienie w Urzędzie Marszałkowskim Województwa Lubuskiego w Zielonej Górze",
+          "yearlyValue": 16711.76
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 130119.31
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

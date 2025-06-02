@@ -1,0 +1,66 @@
+{
+  "firstName": "Wiesław",
+  "lastName": "Szczepański",
+  "dateOfBirth": "1960-06-01T00:00:00",
+  "placeOfBirth": "Chrośnica, gm. Zbąszyń",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/33B300F7CD95C612C1258A51003BA19C/$File/364.jpg",
+  "partyId": 3,
+  "employmentDetails": "Ministerstwo Spraw Wewnętrznych i Administracji, Sekretarz Stanu",
+  "assetDeclarations": [
+    {
+      "date": "2023-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/DF0BEEA39CBE1FB5C1258C7400522282/%24File/OSW102_364.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 206018.76,
+          "baseValue": 206018.76,
+          "description": null
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 490000.00,
+          "baseValue": 490000.00,
+          "description": "Lokaty terminowe"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w spółce ALKA Sp. z o.o. (w likwidacji od 2000 r.)",
+          "quantity": "140",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 203,04 m² na działce 8446 m²",
+          "value": 1200000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy SKODA FABIA, rok produkcji 2021 (pojemność silnika nieczytelna)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie z MSWiA",
+          "yearlyValue": 224119.17
+        },
+        {
+          "description": "Dieta poselska (brutto)",
+          "yearlyValue": 47966.35
+        },
+        {
+          "description": "Dochód ze sprzedaży samochodu osobowego SKODA SUPERB (sprzedaż z dnia 21.10.2022)",
+          "yearlyValue": 52000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "firstName": "Weronika",
+  "lastName": "Smarduch",
+  "dateOfBirth": "1990-04-08T00:00:00",
+  "placeOfBirth": "Rabka-Zdrój",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B8DDD20D53C2567BC1258A51003BA147/$File/345.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-04T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/5538636091FE81C4C1258C6200429BE0/%24File/OSW102_345.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 35073.34,
+          "baseValue": 35073.34
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Karta kredytowa w Banku Polskim PKO",
+          "value": 12000.00
+        },
+        {
+          "description": "Pożyczka gotówkowa w Banku Polskim PKO (dowolny cel i spłata kredytu)",
+          "value": 27761.99
+        },
+        {
+          "description": "Pożyczka gotówkowa w Banku Polskim PKO (dowolny cel)",
+          "value": 36327.11
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Mazda 2, rok 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 161201.88
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 12099.96
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Centrum Analiz Finansowych Weronika Smarduch",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "działalność gospodarcza zawieszona od 2023r.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

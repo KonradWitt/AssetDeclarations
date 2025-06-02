@@ -1,0 +1,70 @@
+{
+  "firstName": "Grzegorz",
+  "lastName": "Matusiak",
+  "dateOfBirth": "1961-02-24T00:00:00",
+  "placeOfBirth": "Jaworzno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/81C97454148A0602C1258A51003B9F4B/$File/236.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2024-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1DE450FA831A2A56C1258C7C00356CAC/%24File/OSW102_236.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 21000.0,
+          "baseValue": 21000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2000.0,
+          "baseValue": 8640.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udział w Banku Spółdzielczym Jastrzębie-Zdrój",
+          "quantity": null,
+          "value": 330.0
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Kancelarii Sejmu",
+          "value": 23000.0
+        },
+        {
+          "description": "Pożyczka z Kasy Zapomogowo Pożyczkowej PKZP KWK Borynia – Zofiówka",
+          "value": 28000.0
+        },
+        {
+          "description": "Zobowiązanie z tytułu kart PKO",
+          "value": 55042.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota RAV4 Hybrid, rok 2020",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 148781.93
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45145.50
+        },
+        {
+          "description": "Zadośćuczynienie",
+          "yearlyValue": 20000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "firstName": "Jan",
+  "lastName": "Ardanowski",
+  "dateOfBirth": "1961-02-11T00:00:00",
+  "placeOfBirth": "Czernikowo",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1F993385037025B8C1258A51003B9B19/$File/006.jpg",
+  "partyId": 9,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/39F000F16F25C948C1258C7600524BBC/%24File/OSW102_006.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 38000.0,
+          "baseValue": 38000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 200 m²",
+          "value": 700000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Gospodarstwo rolne wielokierunkowe o powierzchni 14,23 ha, zabudowane domem mieszkalnym, budynkiem inwentarskim i magazynowo-składowym",
+          "value": 2900000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na remont domu w BS Grębocin",
+          "value": 135400.63
+        },
+        {
+          "description": "Pożyczka na remont domu z Sejmu",
+          "value": 37400.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Opel Astra, rok 2020",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Hyundai Tucson, rok 2013 (własność żony)",
+          "value": null
+        },
+        {
+          "description": "Ciągnik Ursus C-360, rok 1986",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z gospodarstwa rolnego",
+          "yearlyValue": 15000.0
+        },
+        {
+          "description": "Przychód żony z najmu magazynu za 2024",
+          "yearlyValue": 42050.0
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 8611.07
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 146644.18
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

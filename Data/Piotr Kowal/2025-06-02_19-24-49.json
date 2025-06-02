@@ -1,0 +1,86 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Kowal",
+  "dateOfBirth": "1992-11-05T00:00:00",
+  "placeOfBirth": "Włocławek",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B76041CD3D83931AC1258B46005B7429/$File/472.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-27T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/77BD2DD9806A9ABAC1258C7C00474F30/%24File/OSW102_472.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 140000.00,
+          "baseValue": 140000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 156,90 m²",
+          "value": 500000.00,
+          "legalTitle": "współwłasność, małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 62,19 m²",
+          "value": 420000.00,
+          "legalTitle": "współwłasność, majątek odrębny"
+        },
+        {
+          "description": "Działki zabudowane nieruchomością (domem) o łącznej powierzchni 0,1929 ha",
+          "value": 200000.00,
+          "legalTitle": "współwłasność, małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt 60/40 na zakup samochodu osobowego Hyundai Tuscon",
+          "value": 52520.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Hyundai Tuscon, rok 2023",
+          "value": null
+        },
+        {
+          "description": "Samochód Skoda Octavia, rok 2020",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Umowa zlecenie",
+          "yearlyValue": 10728.00
+        },
+        {
+          "description": "Umowa o pracę",
+          "yearlyValue": 68324.17
+        },
+        {
+          "description": "Dieta radnego",
+          "yearlyValue": 23885.49
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 23508.01
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 101802.06
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Opec – Termo Sp. z o.o. Grudziądz",
+          "businessType": "spółka handlowa",
+          "description": "Członek rady nadzorczej od 04.08.2023 r. do 24.06.2024 r.",
+          "income": 18167.60
+        }
+      ]
+    }
+  ]
+}

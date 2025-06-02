@@ -1,0 +1,41 @@
+{
+  "firstName": "Anna",
+  "lastName": "Krupka",
+  "dateOfBirth": "1981-10-30T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1DC615A37E957358C1258A51003B9E87/$File/191.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9E9A1116439CD20EC1258C7B004F45A9/%24File/OSW102_191.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 619493.03,
+          "baseValue": 619493.03
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Ministerstwo Sportu i Turystyki",
+          "yearlyValue": 125550.25
+        },
+        {
+          "description": "Sejm - uposażenie",
+          "yearlyValue": 130755.76
+        },
+        {
+          "description": "Dieta",
+          "yearlyValue": 45355.27
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

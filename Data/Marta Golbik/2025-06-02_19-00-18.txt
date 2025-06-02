@@ -1,0 +1,1 @@
+error: Last name mismatch between OCR document ('Crolbile') and CSV data ('Golbik'). According to instructions, this is an unresolvable discrepancy that requires returning an error.

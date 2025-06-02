@@ -1,0 +1,77 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Paszyk",
+  "dateOfBirth": null,
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/14D1CD1EC793E294C1258A51003BA02C/$File/283.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EA5DAC2B92362C16C1258C7C002957F9/%24File/OSW102_283.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 33515.21,
+          "baseValue": 33515.21
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 190 m²",
+          "value": 1750000.0,
+          "legalTitle": "Współwłasność"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 935 m²",
+          "value": null,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w BNP Paribas",
+          "value": 175000.0
+        },
+        {
+          "description": "Kredyt hipoteczny w BNP Paribas z 2016 roku",
+          "value": 50000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota C-HR, rok produkcji 2021",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta poselska (opodatkowana)",
+          "yearlyValue": 8466.16
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 68234.54
+        },
+        {
+          "description": "Wynagrodzenie z tytułu pełnionej funkcji Ministra",
+          "yearlyValue": 158163.94
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Fundacja Prawa i Rozwoju",
+          "businessType": "Fundacja",
+          "description": "Członek Rady Kuratorów",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "firstName": "Tadeusz",
+  "lastName": "Samborski",
+  "dateOfBirth": "1945-08-08T00:00:00",
+  "placeOfBirth": "Gańczaracy koło Lwowa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F7D42BBE88F374D6C1258A51003BA0E1/$File/324.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/0437DE58630DD0CCC1258C760042A452/%24File/OSW102_324.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 295300.0,
+          "baseValue": 295300.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 4000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 42,10 m²",
+          "value": 300000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie 35,20 m²",
+          "value": 250000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Grunty rolne 5,15 ha",
+          "value": 180200.0,
+          "legalTitle": "Darowizna"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Emerytura",
+          "yearlyValue": 173860.08
+        },
+        {
+          "description": "Wynajem mieszkania",
+          "yearlyValue": 18000.0
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.06
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na podróże zagraniczne",
+          "yearlyValue": 1563.34
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150492.13
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

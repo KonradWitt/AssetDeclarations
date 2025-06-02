@@ -1,0 +1,68 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Tchórzewski",
+  "dateOfBirth": "1950-05-19T00:00:00",
+  "placeOfBirth": "Rzążenie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7D2E83F76D225EBBC1258A51003BA207/$File/386.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9FF1619720AF4D6AC1258C750045689D/%24File/OSW102_386.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 256000.0,
+          "baseValue": 256000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2620.0,
+          "baseValue": null
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 410.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały SOW „Pallasie” sp. z o.o.",
+          "quantity": "176",
+          "value": 17600.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 131,75 m² na działce 1665 m²",
+          "value": 600000.0,
+          "legalTitle": "współwłasność z żoną"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy VOLVO, rok 2018",
+          "value": 100000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150492.13
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 190166.86
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

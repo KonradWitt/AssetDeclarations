@@ -1,0 +1,109 @@
+{
+  "id": null,
+  "firstName": "Elżbieta",
+  "lastName": "Duda",
+  "dateOfBirth": "1962-11-20T00:00:00",
+  "placeOfBirth": "Skole",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/C06C01EC6B0D5ED2C1258A51003B9C4D/$File/072.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/79176B58D5D82A3EC1258C76004634E9/%24File/OSW102_072.pdf",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 17655.63,
+          "baseValue": 17655.63
+        }
+      ],
+      "securityPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Amundi",
+          "quantity": null,
+          "value": 117048.02
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "IKE",
+          "quantity": null,
+          "value": 45613.26
+        }
+      ],
+      "realEstate": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dom o powierzchni 170 m²",
+          "value": 650000.0,
+          "legalTitle": "Własność (spadek po rodzicach)"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Działka rolna o powierzchni 2124.88 m²",
+          "value": 50000.0,
+          "legalTitle": "Własność (spadek po rodzicach)"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Działka o powierzchni 17.190 ha",
+          "value": 300000.0,
+          "legalTitle": "Własność (spadek po rodzicach)"
+        }
+      ],
+      "liabilities": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Spłata kredytu we frankach",
+          "value": null
+        }
+      ],
+      "personalProperties": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód Ford, rok produkcji 2016 (współwłasność małżeńska)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150492.13
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta parlamentarna (w tym nieopodatkowane 36 000,00 zł)",
+          "yearlyValue": 45573.04
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Emerytura",
+          "yearlyValue": 47341.00
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dochód z wynajmu",
+          "yearlyValue": 11000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

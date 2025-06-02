@@ -1,0 +1,80 @@
+{
+  "firstName": "Tomasz",
+  "lastName": "Kostuś",
+  "dateOfBirth": "1974-03-07T00:00:00",
+  "placeOfBirth": "Kluczbork",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1BE07972DA49F991C1258A51003B9E36/$File/175.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-17T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FB79E631AAE66BDEC1258C6F0057D913/%24File/OSW102_175.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 66583.44,
+          "baseValue": 66583.44
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1413.82,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 78.21,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 180 m²",
+          "value": 650000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka, na której stoi dom, powierzchnia 8,5 ara",
+          "value": 180000.00,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczno-budowlany w Bank Pekao S.A. na budowę domu",
+          "value": 277022.82
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Mazda CX5, rok 2015",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy BMW 320D, rok 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 204791.52
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 1052.04
+        },
+        {
+          "description": "Należność z tytułu umowy zlecenie",
+          "yearlyValue": 2640.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

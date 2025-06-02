@@ -1,0 +1,84 @@
+{
+  "id": null,
+  "firstName": "Anna",
+  "lastName": "Wojciechowska",
+  "dateOfBirth": "1960-02-29T00:00:00",
+  "placeOfBirth": "Suwałki",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CAD9B8726EDF4142C1258A51003BA2DD/$File/431.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8EA895B2440552ACC1258C7C003754C6/%24File/OSW102_431.pdf",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 47034.35,
+          "baseValue": 47034.35
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "USD",
+          "currencyValue": 3085.41,
+          "baseValue": 12341.64
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "EUR",
+          "currencyValue": 10168.14,
+          "baseValue": 43723.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Przychód z tytułu zwiększenia limitu nieopodatkowanego",
+          "yearlyValue": 6591.43
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Uposażenie",
+          "yearlyValue": 162720.80
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Emerytura",
+          "yearlyValue": 34450.82
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

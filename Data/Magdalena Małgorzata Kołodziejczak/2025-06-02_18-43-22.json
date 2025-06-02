@@ -1,0 +1,85 @@
+{
+  "firstName": "Magdalena",
+  "lastName": "Kołodziejczak",
+  "dateOfBirth": "1958-06-19T00:00:00",
+  "placeOfBirth": "Dąbrówka",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/FC3BA9AF5FD665E1C1258A51003B9E1A/$File/169.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-14T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8F3768B412593BC9C1258C750045C271/%24File/OSW102_169.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 272000.0,
+          "baseValue": 272000.0
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 4590.0,
+          "baseValue": 23363.1
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "TFI (fundusz inwestycyjny)",
+          "quantity": null,
+          "value": 101937.71
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 35 m² wraz z udziałami w działce na której stoi budynek",
+          "value": 600000.0,
+          "legalTitle": "własność (mieszkanie); współwłasność (udziały w działce)"
+        },
+        {
+          "description": "Miejsce postojowe w hali garażowej",
+          "value": 50000.0,
+          "legalTitle": "współwłasność w 1/89 części z osobami obcymi"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny wobec Santander Bank",
+          "value": 38116.81
+        },
+        {
+          "description": "Pożyczka wobec Sejmu",
+          "value": 23680.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volkswagen Golf 6, rok 2009",
+          "value": 15000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Emerytura",
+          "yearlyValue": 108262.56
+        },
+        {
+          "description": "Dochód z najmu",
+          "yearlyValue": 22000.0
+        },
+        {
+          "description": "Dochód z tytułu zatrudnienia",
+          "yearlyValue": 14795.05
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 160967.19
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

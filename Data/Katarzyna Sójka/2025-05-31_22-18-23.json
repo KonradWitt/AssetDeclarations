@@ -1,0 +1,74 @@
+{
+  "firstName": "Katarzyna",
+  "lastName": "Sójka",
+  "dateOfBirth": "1986-02-05T00:00:00",
+  "placeOfBirth": "Ostrów Wielkopolski",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/3D15562D4E1BDE37C1258A51003BA167/$File/353.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9B56FD68B3E2620CC1258C7C00472CF0/%24File/OSW102_353.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 48000.00,
+          "baseValue": 48000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 550.00,
+          "baseValue": 2365.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Niezabudowana działka o powierzchni 0,2322 ha, nabyta 13.02.2017 od Skarbu Państwa - Państwowe Gospodarstwo Leśne Lasy Państwowe",
+          "value": 60000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,2441 ha",
+          "value": 60000.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt gotówkowy zaciągnięty w banku PKO BP",
+          "value": 101049.54
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 160329.49
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9252.38
+        },
+        {
+          "description": "Umowy zlecenia",
+          "yearlyValue": 18750.00
+        },
+        {
+          "description": "Wynagrodzenie MZ",
+          "yearlyValue": 31342.10
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 1527.91
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Masełko",
+  "dateOfBirth": "1980-07-07T00:00:00",
+  "placeOfBirth": "Stubczyce",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/08EAC1E9C7A576D6C1258B1700256E6D/$File/466.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-03T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8C8E6DD99A3F16DFC1258C61004E6797/%24File/OSW102_466.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 276573.84,
+          "baseValue": 276573.84,
+          "description": "Zaliczka na poczet zakupu mieszkania i dochód współmałżonka"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 479.87,
+          "baseValue": 2063.44,
+          "description": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Papiery wartościowe",
+          "quantity": "142035",
+          "value": 104355.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 55,43 m²",
+          "value": 250000.0,
+          "legalTitle": "Własność, małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie 8,80 m²",
+          "value": 400000.0,
+          "legalTitle": "Własność, małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Nieruchomość 15,81 m²",
+          "value": 15450.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania",
+          "value": 77238.25
+        },
+        {
+          "description": "Kredyt udzielony",
+          "value": 122000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Opel Meriva, rok produkcji 2016",
+          "value": null
+        },
+        {
+          "description": "Samochód Mercedes A-klasa, rok produkcji 2012",
+          "value": null
+        },
+        {
+          "description": "Samochód Mitsubishi Colt, rok produkcji 2012",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z zatrudnienia w Starostwie Powiatowym",
+          "yearlyValue": 184875.50
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 100673.72
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 28778.72
+        },
+        {
+          "description": "Dochód z wynajmu mieszkania",
+          "yearlyValue": 8800.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Opolski Regionalny Fundusz Poręczeń Kredytowych sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Były członek zarządu, były członek rady nadzorczej (od marzec 2021 do maj 2023)",
+          "income": 2093.83
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "firstName": "Włodzimierz",
+  "lastName": "Skalik",
+  "dateOfBirth": "1959-06-10T00:00:00",
+  "placeOfBirth": "Radomsko",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7C0D86497541D844C1258A51003BA12F/$File/340.jpg",
+  "partyId": 4,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9F3263D67C043065C1258C7C0057CEFC/%24File/OSW102_340.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 465000.0,
+          "baseValue": 465000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2450.0,
+          "baseValue": 10535.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 160.0,
+          "baseValue": 624.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały WILGA Sp. z o.o.",
+          "quantity": "50",
+          "value": null
+        },
+        {
+          "name": "Udziały WILGA INWESTYCJE Sp. z o.o.",
+          "quantity": "25",
+          "value": null
+        },
+        {
+          "name": "Udziały PREMIUM-MEDIA.PL Sp. z o.o.",
+          "quantity": "95",
+          "value": null
+        },
+        {
+          "name": "Udziały DAYTONA Sp. z o.o.",
+          "quantity": "50",
+          "value": null
+        },
+        {
+          "name": "Udziały PREMIUM-MEDIA Sp. z o.o.",
+          "quantity": "25",
+          "value": null
+        },
+        {
+          "name": "Udziały INSTAL-KONSORCJUM Sp. z o.o.",
+          "quantity": "62",
+          "value": null
+        },
+        {
+          "name": "Udziały P&A Sp. z o.o. W LIKWIDACJI",
+          "quantity": "60",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 270 m²",
+          "value": 1080000.0,
+          "legalTitle": "współwłasność majątkowa małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 67 m²",
+          "value": 270000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działki leśno-budowlane o łącznej powierzchni ok. 9 900 m2",
+          "value": 495000.0,
+          "legalTitle": "współwłasność majątkowa małżeńska"
+        },
+        {
+          "description": "Grunt rolny – łąki o powierzchni 560 m2 w 1/3 części",
+          "value": 1200.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Grunt rolny o powierzchni 1973 m2",
+          "value": 40400.0,
+          "legalTitle": "współwłasność majątkowa małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka",
+          "value": 23755.79
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy RENAULT SCENIC III, rok produkcji 2011",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy SKODA OCTAVIA, rok produkcji 2013",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy SUZUKI JIMNY, rok produkcji 2008",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150064.58
+        },
+        {
+          "description": "Dochód z działalności gospodarczej",
+          "yearlyValue": 0.00
+        },
+        {
+          "description": "Dochód z udziałów w WILGA Sp. z o.o.",
+          "yearlyValue": 339504.00
+        },
+        {
+          "description": "Dochód z udziałów w WILGA INWESTYCJE Sp. z o.o.",
+          "yearlyValue": 0.00
+        },
+        {
+          "description": "Dochód z udziałów w PREMIUM-MEDIA.PL Sp. z o.o.",
+          "yearlyValue": 0.00
+        },
+        {
+          "description": "Dochód z udziałów w DAYTONA Sp. z o.o.",
+          "yearlyValue": 0.00
+        },
+        {
+          "description": "Dochód z udziałów w PREMIUM-MEDIA Sp. z o.o.",
+          "yearlyValue": 20.00
+        },
+        {
+          "description": "Dochód z udziałów w INSTAL-KONSORCJUM Sp. z o.o.",
+          "yearlyValue": 0.00
+        },
+        {
+          "description": "Dochód z udziałów w P&A Sp. z o.o. W LIKWIDACJI",
+          "yearlyValue": 0.00
+        },
+        {
+          "description": "Dochód z zarządzania działalnością gospodarczą",
+          "yearlyValue": 0.00
+        },
+        {
+          "description": "Dochód z Fundacji Osuchowa",
+          "yearlyValue": 0.00
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Pożyczka udzielona WILGA INWESTYCJE Sp. z o.o.",
+          "value": 200000.0
+        }
+      ],
+      "businessActivities": [
+        {
+          "businessName": "PREMIUM-MEDIA.PL Sp. z o.o. Sp. k.",
+          "businessType": "spółka komandytowa",
+          "description": "Wkład wniesiony 19 000,- złotych",
+          "income": 0.00
+        },
+        {
+          "businessName": "WILGA Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek zarządu od 1990 roku",
+          "income": 0.00
+        },
+        {
+          "businessName": "WILGA INWESTYCJE Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek zarządu od 2013 roku",
+          "income": 0.00
+        },
+        {
+          "businessName": "PREMIUM-MEDIA Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek zarządu od 2023 roku",
+          "income": 0.00
+        },
+        {
+          "businessName": "Fundacja Osuchowa",
+          "businessType": "fundacja",
+          "description": "Członek zarządu od 2015 roku",
+          "income": 0.00
+        }
+      ]
+    }
+  ]
+}

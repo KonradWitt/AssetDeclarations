@@ -1,0 +1,70 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Kubów",
+  "dateOfBirth": "1984-07-22T00:00:00",
+  "placeOfBirth": "Lubin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A61818C13E27B03DC1258A51003B9EA2/$File/197.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1621CAE10EC207D9C1258C7500460DE3/%24File/OSW102_197.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 560000.0,
+          "baseValue": 560000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje BIOTON S.A.",
+          "quantity": "15",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 51,8 m²",
+          "value": 270000.0,
+          "legalTitle": "Współwłasność 1/6 (spadek)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Zegarek IWC Portofino IW356506",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45252.40
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 157070.97
+        },
+        {
+          "description": "Zwiększenie limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 417.18
+        },
+        {
+          "description": "Wynagrodzenie Kancelaria Prezesa Rady Ministrów",
+          "yearlyValue": 18028.45
+        },
+        {
+          "description": "Sprzedaż 1/2 udziału w nieruchomości",
+          "yearlyValue": 192000.00
+        },
+        {
+          "description": "Sprzedaż 1/2 udziału w samochodzie osobowym",
+          "yearlyValue": 1500.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

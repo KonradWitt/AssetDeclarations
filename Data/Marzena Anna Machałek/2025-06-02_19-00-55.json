@@ -1,0 +1,96 @@
+{
+  "firstName": "Marzena",
+  "lastName": "Machałek",
+  "dateOfBirth": "1960-08-29T00:00:00",
+  "placeOfBirth": "Wrocław",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E28DC8985A1194CEC1258A51003B9F1F/$File/225.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-14T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/06E054BD42AFBD91C1258C6C004BE602/%24File/OSW102_225.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 51226.35,
+          "baseValue": 51226.35
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 9061.41,
+          "baseValue": 9061.41
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 167.30,
+          "baseValue": null
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 50000.00,
+          "baseValue": 50000.00
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje skarbowe czteroletnie",
+          "quantity": null,
+          "value": 256875.00
+        },
+        {
+          "name": "Obligacje skarbowe trzyletnie",
+          "quantity": null,
+          "value": 146286.00
+        },
+        {
+          "name": "Fundusze inwestycyjne PKO TFI",
+          "quantity": null,
+          "value": 94425.89
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 55,08 m²",
+          "value": 350000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Miejsce postojowe - garaż podziemny 31,43 m² (udział w części wspólnej)",
+          "value": 27000.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód TOYOTA AURIS, rok produkcji 2006",
+          "value": 12000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z Ministerstwa Edukacji i Nauki",
+          "yearlyValue": 115867.60
+        },
+        {
+          "description": "Dieta parlamentarna (Kancelaria Sejmu)",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Uposażenie poselskie (Kancelaria Sejmu)",
+          "yearlyValue": 127093.29
+        },
+        {
+          "description": "Świadczenie emerytalne ZUS",
+          "yearlyValue": 105692.96
+        },
+        {
+          "description": "Odsetki z Obligacji Skarbu Państwa",
+          "yearlyValue": 39285.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "firstName": "Przemysław",
+  "lastName": "Wipler",
+  "dateOfBirth": "1978-07-15T00:00:00",
+  "placeOfBirth": "Piekary Śląskie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2FAA9015C7F24223C1258A51003BA2BC/$File/424.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F1B8E66CE86580BAC1258C7C002A0DDC/%24File/OSW102_424.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 729000.00,
+          "baseValue": 729000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 5000.00,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje Figene Capital S.A.",
+          "quantity": "5270027",
+          "value": 2571773.18
+        },
+        {
+          "name": "Akcje Play of Battle S.A.",
+          "quantity": "16505",
+          "value": 1650.50
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 301,12 m² na działce 1624 m²",
+          "value": 4500000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie 71,81 m²",
+          "value": 2050000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie 68,79 m²",
+          "value": 1966000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie 59,98 m²",
+          "value": 1320000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie 59,37 m²",
+          "value": 1305000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Nieruchomość gruntowa 1971 m²",
+          "value": 2400000.00,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w mBanku",
+          "value": 859365.71
+        },
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w PKO BP",
+          "value": 600000.00
+        },
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w PKO BP",
+          "value": 600000.00
+        },
+        {
+          "description": "Pożyczka od Fundacji Rodzinnej RW",
+          "value": 350000.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Audi Q7, 2017 r.",
+          "value": null
+        },
+        {
+          "description": "Rower Specialized SPEC TARMAC SL7 PRO ETAP ABLN/SPCTFLR 2021",
+          "value": null
+        },
+        {
+          "description": "Zegarek Tag Heuer Carrera",
+          "value": null
+        },
+        {
+          "description": "Zegarek Panerai Radiomir",
+          "value": null
+        },
+        {
+          "description": "Zegarek Panerai Luminor Marina",
+          "value": null
+        },
+        {
+          "description": "Zegarek Graham Chronofighter Vintage Bear Edition",
+          "value": null
+        },
+        {
+          "description": "Obraz Patryk Paliwoda",
+          "value": null
+        },
+        {
+          "description": "Obraz Patryk Paliwoda",
+          "value": null
+        },
+        {
+          "description": "Obraz Patryk Paliwoda",
+          "value": null
+        },
+        {
+          "description": "Obraz Sabina Maria Grzyb „Dom nad Jeziorem”",
+          "value": null
+        },
+        {
+          "description": "Obraz Rafał Olbiński „Superiority of Consequences”",
+          "value": null
+        },
+        {
+          "description": "Obraz Rafał Olbiński „Natura Rzeczywistości”",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Przychód z tytułu wynajmu mieszkań (PIT-28)",
+          "yearlyValue": 133200.00
+        },
+        {
+          "description": "Uposażenie poselskie (Kancelaria Sejmu)",
+          "yearlyValue": 188242.94
+        },
+        {
+          "description": "Dieta parlamentarna (Kancelaria Sejmu)",
+          "yearlyValue": 44824.83
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Pożyczka gotówkowa udzielona Tomaszowi Karolakowi",
+          "value": 20000.00
+        }
+      ],
+      "businessActivities": [
+        {
+          "businessName": "Wipler Doradztwo Przemysław Wipler",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Wynajem i zarządzanie nieruchomościami własnymi lub dzierżawionymi. W roku ubiegłym poniesiono stratę.",
+          "income": null
+        },
+        {
+          "businessName": "NFI Magna Polonia S.A.",
+          "businessType": "spółka handlowa",
+          "description": "Członek rady nadzorczej od 29 czerwca 2023 r.",
+          "income": 5750.00
+        },
+        {
+          "businessName": "Mentzen S.A.",
+          "businessType": "spółka handlowa",
+          "description": "Członek rady nadzorczej od 10 kwietnia 2024 r.",
+          "income": null
+        },
+        {
+          "businessName": "Fundacja Dobry Rząd",
+          "businessType": "fundacja",
+          "description": "Członek zarządu od 24 maja 2023 r.",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "firstName": "Konrad",
+  "lastName": "Berkowicz",
+  "dateOfBirth": "1984-05-27T00:00:00",
+  "placeOfBirth": "Kraków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/84853743072D47B3C1258A51003B9B4A/$File/016.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2DB46E6B2BD1542FC1258C810038FA45/%24File/OSW102_016.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 11203.0,
+          "baseValue": 11203.0
+        },
+        {
+          "currency": "Kryptowaluty",
+          "currencyValue": 148000.0,
+          "baseValue": 148000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Kredyt w Alior Bank",
+          "value": 29918.96
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Rav4 2007",
+          "value": null
+        },
+        {
+          "description": "Samochód BMW X3 2019",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 177979.79
+        },
+        {
+          "description": "Dieta nieopodatkowana",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta opodatkowana",
+          "yearlyValue": 9359.27
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

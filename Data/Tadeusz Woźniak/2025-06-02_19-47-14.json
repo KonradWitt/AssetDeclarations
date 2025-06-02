@@ -1,0 +1,92 @@
+{
+  "firstName": "Tadeusz",
+  "lastName": "Woźniak",
+  "dateOfBirth": "1960-01-15T00:00:00",
+  "placeOfBirth": "Kutno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/20ED89187E97EFF4C1258A51003BA2FA/$File/437.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C2950FCDF49B8AD7C1258C75006E4655/%24File/OSW102_437.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 33200.0,
+          "baseValue": 33200.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 7200.0,
+          "baseValue": 31114.8
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 516.0,
+          "baseValue": 2090.49
+        },
+        {
+          "currency": "ILS",
+          "currencyValue": 200.0,
+          "baseValue": 215.9
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 58.5 m²",
+          "value": 1200000.0,
+          "legalTitle": "Wspólność ustawowa majątkowa małżeńska"
+        },
+        {
+          "description": "Mieszkanie 28.6 m² z piwnicą 44 m² oraz udziałem w działce 0.0304 ha",
+          "value": 130000.0,
+          "legalTitle": "1/2 wspólność ustawowa majątkowa małżeńska"
+        },
+        {
+          "description": "Działka rolna 600 m² z altanką 35 m²",
+          "value": 65000.0,
+          "legalTitle": "Wspólność ustawowa majątkowa małżeńska"
+        },
+        {
+          "description": "Działka pod garażem 20 m²",
+          "value": 7500.0,
+          "legalTitle": "Współwłasność ułamkowa 1/2 (małżeńska)"
+        },
+        {
+          "description": "Inna nieruchomość",
+          "value": 15005.0,
+          "legalTitle": "Wspólność ustawowa majątkowa małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych dla p. T. z dnia 19 lipca 2024 r. na zakup mieszkania",
+          "value": 50000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Mazda 6, rok prod. 2013",
+          "value": null
+        },
+        {
+          "description": "Zbiór monet, banknotów i znaczków pocztowych",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 166311.60
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

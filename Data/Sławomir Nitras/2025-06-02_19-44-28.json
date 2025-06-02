@@ -1,0 +1,73 @@
+{
+  "firstName": "Sławomir",
+  "lastName": "Nitras",
+  "dateOfBirth": "1973-04-26T00:00:00",
+  "placeOfBirth": "Połczyn Zdrój",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E8A4401018F24A04C1258A51003B9FCB/$File/262.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EAB58C9385668BB8C1258C7C00420349/%24File/OSW102_262.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 88000.0,
+          "baseValue": 88000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 29000.0,
+          "baseValue": 124700.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 7000.0,
+          "baseValue": 27300.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje skarbowe",
+          "quantity": null,
+          "value": 90000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 153 m² wraz z garażem o powierzchni 27,11 m² i komórką lokatorską o powierzchni 5,09 m²",
+          "value": 2000000.0,
+          "legalTitle": "współwłasność małżeńska 1/2"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Raiffeisen Bank na zakup mieszkania, pierwotna kwota 250 000 EUR, pozostało do spłaty ok. 34 000 EUR (w sporze sądowym)",
+          "value": 34000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód BMW 1, rocznik 2016",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45038.61
+        },
+        {
+          "description": "Wynagrodzenie z Ministerstwa Sportu i Turystyki",
+          "yearlyValue": 249432.79
+        },
+        {
+          "description": "Przychody z tytułu zwiększenia limitów na służbowe podróże zagraniczne",
+          "yearlyValue": 4849.95
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

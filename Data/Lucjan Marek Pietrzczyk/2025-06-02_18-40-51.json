@@ -1,0 +1,73 @@
+{
+  "firstName": "Lucjan",
+  "lastName": "Pietrzczyk",
+  "dateOfBirth": "1960-03-24T00:00:00",
+  "placeOfBirth": "Bilcza",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A4CBF497258F25CAC1258A51003BA05C/$File/293.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/62E28652CB418480C1258C740051F9C7/%24File/OSW102_293.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 107664.89,
+          "baseValue": 107664.89,
+          "description": "Środki pieniężne w walucie polskiej"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 38144.09,
+          "baseValue": 38144.09,
+          "description": "Ubezpieczenie Nationale Nederlanden Superkapitał Rachunek Dodatkowy"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom jednorodzinny o powierzchni 180 m² na działce budowlanej o powierzchni 0.10 ha",
+          "value": 800000.00,
+          "legalTitle": "Wspólność majątkowa małżeńska"
+        },
+        {
+          "description": "Działka rolna o powierzchni 0.11 ha",
+          "value": 100000.00,
+          "legalTitle": "Wspólność majątkowa małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt konsumencki w Banku Spółdzielczym w Kielcach (do spłacenia kapitału: 21198.40 zł, odsetek: 14713.19 zł)",
+          "value": 35911.59
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Trafic 1.9 DCI, rok produkcji 2006",
+          "value": 19000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Dieta nieopodatkowana",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta opodatkowana",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Inne wynagrodzenie ze stosunku pracy",
+          "yearlyValue": 6307.68
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

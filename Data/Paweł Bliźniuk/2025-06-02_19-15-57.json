@@ -1,0 +1,76 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Bliźniuk",
+  "dateOfBirth": "1986-10-11T00:00:00",
+  "placeOfBirth": "Łódź",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/05DC28670A43E66EC1258A51003B9B58/$File/019.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2024-12-31T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/97C48A01ECFD1E2EC1258C7C00392615/%24File/OSW102_019.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 430000.0,
+          "baseValue": 430000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "PPK fundusz PPK PEKAO 2045",
+          "quantity": null,
+          "value": 16685.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 35 m²",
+          "value": 110000.0,
+          "legalTitle": "wartość z aktu notarialnego z 2013 roku"
+        },
+        {
+          "description": "Mieszkanie 60,34 m² wraz z prawem do korzystania z miejsca w hali garażowej",
+          "value": 403108.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt gotówkowy w Santander Bank Polska SA (okres kredytowania 24 miesiące)",
+          "value": 26728.29
+        },
+        {
+          "description": "Kredyt mieszkaniowy w Santander Bank Polska SA (okres kredytowania miesięczny)",
+          "value": 229852.27
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota RAV4 Hybrid, rok 2024 (najem długoterminowy)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45678.92
+        },
+        {
+          "description": "Przychody z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 1266.08
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 167306.22
+        },
+        {
+          "description": "Inne świadczenia (w tym z zagranicznego funduszu)",
+          "yearlyValue": 6002.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

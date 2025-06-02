@@ -1,0 +1,107 @@
+{
+  "firstName": "Magdalena",
+  "lastName": "Sroka",
+  "dateOfBirth": "1979-07-15T00:00:00",
+  "placeOfBirth": "Gdańsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2E1A6BD928650978C1258A51003BA16C/$File/354.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8619024262E973C7C1258C7E0038FDC0/%24File/OSW102_354.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 270000.0,
+          "baseValue": 270000.0,
+          "description": "majątek osobisty"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 250.0,
+          "baseValue": null,
+          "description": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1300.0,
+          "baseValue": null,
+          "description": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 208,67 m²",
+          "value": 900000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 56,52 m²",
+          "value": 600000.0,
+          "legalTitle": "własność, majątek osobisty"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 1080 m²",
+          "value": null,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 7700 m²",
+          "value": null,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Lokal mieszkalny o powierzchni 108,2 m²",
+          "value": null,
+          "legalTitle": "majątek osobisty w 80% udziałów"
+        },
+        {
+          "description": "Działka o powierzchni 8100 m²",
+          "value": null,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup działki budowlanej pod budowę domu, zaciągnięty w 2010 roku w DBank",
+          "value": 12496.68
+        },
+        {
+          "description": "Kredyt hipoteczny na budowę domu, zaciągnięty w 2011 roku w DBank",
+          "value": 52264.0
+        },
+        {
+          "description": "Kredyt hipoteczny na zakup lokalu mieszkalnego, zaciągnięty w 2006 roku w Banku Millennium",
+          "value": 54428.47
+        },
+        {
+          "description": "Zobowiązanie podatkowe z tytułu VAT",
+          "value": null
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Drukarka osobista i instalacja fotowoltaiczna na budynku mieszkalnym",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie poselskie",
+          "yearlyValue": 204212.26
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychód z tytułu wynajmu nieruchomości",
+          "yearlyValue": 2700.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

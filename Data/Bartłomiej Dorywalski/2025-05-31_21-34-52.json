@@ -1,0 +1,79 @@
+{
+  "firstName": "Bartłomiej",
+  "lastName": "Dorywalski",
+  "dateOfBirth": "1979-08-16T00:00:00",
+  "placeOfBirth": "Włoszczowa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/FB43092C669B2D16C1258A51003B9C3F/$File/069.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C644F8D09F72EEE5C1258C7500458DB4/%24File/OSW102_069.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 113000.0,
+          "baseValue": 113000.0
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 100000.0,
+          "baseValue": 450000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 20000.0,
+          "baseValue": 86000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 10000.0,
+          "baseValue": 40000.0
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 10000.0,
+          "baseValue": 50000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 170 m²",
+          "value": 200000.0,
+          "legalTitle": "Własność (darowizna)"
+        },
+        {
+          "description": "Dom o powierzchni 103 m²",
+          "value": 400000.0,
+          "legalTitle": "Własność (postanowienie sądu)"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 7140 m²",
+          "value": 225000.0,
+          "legalTitle": "Własność (darowizna, zamiana, sprzedaż, postanowienie sądu)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Volkswagen Tiguan, rok produkcji 2022",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 170373.43
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [],
+      "acquiredAssetsFromState": []
+    }
+  ]
+}

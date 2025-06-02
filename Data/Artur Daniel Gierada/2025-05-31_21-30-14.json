@@ -1,0 +1,161 @@
+{
+  "firstName": "Artur",
+  "lastName": "Gierada",
+  "dateOfBirth": "1979-04-21T00:00:00",
+  "placeOfBirth": "Kielce",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7E797CDAD2CF6BD4C1258A51003B9CB4/$File/096.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/35A2539B6EF5B048C1258C7B00435182/%24File/OSW102_096.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 91000.0,
+          "baseValue": 91000.0,
+          "description": "Środki pieniężne zgromadzone w walucie polskiej"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 19500.0,
+          "baseValue": 19500.0,
+          "description": "Polisa ubezpieczeniowa Warta Diamentowa Przyszłość"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Allegro",
+          "quantity": "15",
+          "value": 407.40
+        },
+        {
+          "name": "Amica",
+          "quantity": "10",
+          "value": 519.0
+        },
+        {
+          "name": "ATC Cargo",
+          "quantity": "58",
+          "value": 817.80
+        },
+        {
+          "name": "Bras",
+          "quantity": "1056",
+          "value": 242.88
+        },
+        {
+          "name": "CCC",
+          "quantity": "10",
+          "value": 1838.0
+        },
+        {
+          "name": "Columbus",
+          "quantity": "17",
+          "value": 119.34
+        },
+        {
+          "name": "Genxone",
+          "quantity": "16",
+          "value": 99.20
+        },
+        {
+          "name": "PZU",
+          "quantity": "10",
+          "value": 458.40
+        },
+        {
+          "name": "Remosrsol",
+          "quantity": "90",
+          "value": 712.80
+        },
+        {
+          "name": "Saultech",
+          "quantity": "243",
+          "value": 272.16
+        },
+        {
+          "name": "SNT Verese",
+          "quantity": "142",
+          "value": 641.84
+        },
+        {
+          "name": "Tauron",
+          "quantity": "943",
+          "value": 3544.73
+        },
+        {
+          "name": "KGHM",
+          "quantity": "11",
+          "value": 1265.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 109 m² wraz z 2 miejscami garażowymi 25 m²",
+          "value": 1000000.0,
+          "legalTitle": "właściciel"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 35,5 m²",
+          "value": 250000.0,
+          "legalTitle": "współwłasność w 50%"
+        },
+        {
+          "description": "Garaż Murowany 20 m²",
+          "value": 60000.0,
+          "legalTitle": "współwłasność 50%"
+        },
+        {
+          "description": "Działka Budowlana o powierzchni 505 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność - 25% udziału"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt Hipoteczny w Banku PKO BP",
+          "value": 408000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Kamień Szlachetny Brylant",
+          "value": 11000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta Parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 173076.71
+        },
+        {
+          "description": "Przychód z najmu - dzierżawy",
+          "yearlyValue": 44723.0
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Wierzytelność od Anny Śliwakowskiej",
+          "value": 80000.0
+        },
+        {
+          "description": "Wierzytelność od Tomasza Słodkowskiego",
+          "value": 40000.0
+        }
+      ],
+      "businessActivities": [
+        {
+          "businessName": "Kancelaria Bright Broker Sp. Z O.O.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Udziały w spółce handlowej (67 udziałów)",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

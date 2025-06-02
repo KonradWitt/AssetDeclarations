@@ -1,0 +1,51 @@
+{
+  "firstName": "Paulina",
+  "lastName": "Matysiak",
+  "dateOfBirth": "1984-10-02T00:00:00",
+  "placeOfBirth": "Kutno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0705DEA5B9AACE7BC1258A51003B9F5A/$File/239.jpg",
+  "partyId": 8,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/286284D355C0E407C1258C7C00490525/%24File/OSW102_239.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 88707.20,
+          "baseValue": 88707.20
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 30.00,
+          "baseValue": 150.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 39.78,
+          "baseValue": 171.05
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie - SEJM RP",
+          "yearlyValue": 180048.58
+        },
+        {
+          "description": "Dieta parlamentarna - SEJM RP",
+          "yearlyValue": 45359.28
+        },
+        {
+          "description": "Rada Programowa TVP POLONIA (\"TELEWIZJA POLSKA\" SPÓŁKA AKCYJNA W LIKWIDACJI)",
+          "yearlyValue": 1014.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

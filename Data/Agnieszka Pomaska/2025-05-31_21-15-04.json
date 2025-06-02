@@ -1,0 +1,136 @@
+{
+  "firstName": "Agnieszka",
+  "lastName": "Pomaska",
+  "dateOfBirth": "1980-01-08T00:00:00",
+  "placeOfBirth": "Gdynia",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/96BA822CA78CCBB9C1258A51003BA082/$File/302.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/AC6CAE793991FE2EC1258C81003AE8D5/%24File/OSW102_302.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 275000.0,
+          "baseValue": 275000.0,
+          "description": "Środki pieniężne w walucie polskiej (małżeńska wspólność majątkowa)"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 11000.0,
+          "baseValue": 11000.0,
+          "description": "Polisa na życie"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 3900.0,
+          "baseValue": 16770.0,
+          "description": "Środki pieniężne w walucie obcej"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 400.0,
+          "baseValue": 1560.0,
+          "description": "Środki pieniężne w walucie obcej"
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 300.0,
+          "baseValue": 1500.0,
+          "description": "Środki pieniężne w walucie obcej"
+        },
+        {
+          "currency": "SEK",
+          "currencyValue": 1350.0,
+          "baseValue": 486.0,
+          "description": "Środki pieniężne w walucie obcej"
+        },
+        {
+          "currency": "HUF",
+          "currencyValue": 77000.0,
+          "baseValue": 847.0,
+          "description": "Środki pieniężne w walucie obcej"
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 300.0,
+          "baseValue": 1320.0,
+          "description": "Środki pieniężne w walucie obcej"
+        },
+        {
+          "currency": "NOK",
+          "currencyValue": 7419.0,
+          "baseValue": 2670.84,
+          "description": "Środki pieniężne w walucie obcej"
+        },
+        {
+          "currency": "DKK",
+          "currencyValue": 4700.0,
+          "baseValue": 2726.0,
+          "description": "Środki pieniężne w walucie obcej"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "1% udziałów PM Experts Spółka z o.o.",
+          "quantity": "1%",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 69,5 m²",
+          "value": 450000.0,
+          "legalTitle": "Udział w wysokości 1/6 z tytułu spadku"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 43,13 m²",
+          "value": 770000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka rolna o powierzchni 1132 m² (niezabudowana)",
+          "value": 100000.0,
+          "legalTitle": "Udział w wysokości 1/6 z tytułu spadku"
+        },
+        {
+          "description": "Domek letniskowy drewniany o powierzchni 30 m²",
+          "value": 10000.0,
+          "legalTitle": "Udział w wysokości 1/6 z tytułu spadku"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Volvo V60, rok produkcji 2016 (małżeńska wspólność majątkowa)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 4811.66
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 193632.37
+        },
+        {
+          "description": "Dochód z wynajmu mieszkania (wspólny z mężem)",
+          "yearlyValue": 31137.0
+        },
+        {
+          "description": "Dochód z 1% udziałów PM Experts Spółka z o.o.",
+          "yearlyValue": 224.37
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

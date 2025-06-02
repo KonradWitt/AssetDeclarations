@@ -1,0 +1,96 @@
+{
+  "firstName": "Marek",
+  "lastName": "Chmielewski",
+  "dateOfBirth": "1962-05-06T00:00:00",
+  "placeOfBirth": "Dzierżoniów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4923A4556E1FF643C1258A51003B9BC4/$File/041.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/30E7A7A0417EF91FC1258C7500455FA8/%24File/OSW102_041.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 260000.0,
+          "baseValue": 260000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 7100.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 500.0,
+          "baseValue": null
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 1200.0,
+          "baseValue": null
+        },
+        {
+          "currency": "CZK",
+          "currencyValue": 10200.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 218 m² wraz z działką o powierzchni 0,22 ha",
+          "value": 600000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Pawilon handlowy o powierzchni 46 m² wraz z działkami o powierzchni 12 m², 15 m² i 0,0623 ha (użytkowanie wieczyste) oraz działką o powierzchni 164 m² (własność)",
+          "value": 150000.0,
+          "legalTitle": "własność i użytkowanie wieczyste"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 45,75 m² oraz udział związany z własnością przedmiotowego lokalu w nieruchomości wspólnej (832/10000 części)",
+          "value": 210000.0,
+          "legalTitle": "80% udziału we własności"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 52,40 m² oraz udział związany z własnością przedmiotowego lokalu w nieruchomości wspólnej (1306/10000 części)",
+          "value": 200000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 58,51 m² oraz udział związany z własnością przedmiotowego lokalu w nieruchomości wspólnej (1736/10000 części)",
+          "value": 265000.0,
+          "legalTitle": "80% udziału we własności"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy KIA Stonic, rok produkcji 2021",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód ze stosunku pracy",
+          "yearlyValue": 153613.28
+        },
+        {
+          "description": "Dochód z najmu",
+          "yearlyValue": 24000.00
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 48099.96
+        },
+        {
+          "description": "Odsetki od lokat",
+          "yearlyValue": 204.16
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

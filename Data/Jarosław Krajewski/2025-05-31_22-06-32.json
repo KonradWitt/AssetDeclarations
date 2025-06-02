@@ -1,0 +1,86 @@
+{
+  "firstName": "Jarosław",
+  "lastName": "Krajewski",
+  "dateOfBirth": "1983-03-09T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/8D79621FFA858C0DC1258B470039B80C/$File/488.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FFCF5A9817BB168FC1258C76004B0C89/%24File/OSW102_488.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 3500.0,
+          "baseValue": 3500.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 500.0,
+          "baseValue": 2160.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "IKZE",
+          "value": 52600.0
+        },
+        {
+          "name": "PPK",
+          "value": 1600.0
+        },
+        {
+          "name": "Obligacje skarbowe",
+          "value": 350000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Udział 3/16 w spadku (nieruchomość), w trakcie postępowania dot. podziału masy spadkowej, położenie w gminie Wieliszew (wartość nieznana, około 1200 zł)",
+          "value": 1200.0,
+          "legalTitle": "współwłasność (spadek)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Kadjar, rok 2016",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie (brutto)",
+          "yearlyValue": 46000.0
+        },
+        {
+          "description": "Dochód z tytułu pełnienia obowiązków społecznych i obywatelskich",
+          "yearlyValue": 6000.0
+        },
+        {
+          "description": "Odprawa",
+          "yearlyValue": 33900.0
+        },
+        {
+          "description": "Dieta radnego woj. mazowieckiego",
+          "yearlyValue": 6800.0
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 23568.01
+        },
+        {
+          "description": "Przychody z tytułu zbycia akcji spółek zagranicznych",
+          "yearlyValue": 716.23
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 137038.39
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

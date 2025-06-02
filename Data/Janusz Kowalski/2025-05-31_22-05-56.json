@@ -1,0 +1,115 @@
+{
+  "firstName": "Janusz",
+  "lastName": "Kowalski",
+  "dateOfBirth": "1978-04-11T00:00:00",
+  "placeOfBirth": "Opole",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0BF6D3A8348D6024C1258A51003B9E52/$File/180.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-03T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8E58A463CC94D105C1258C580041AADF/%24File/OSW102_180.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 41000.00,
+          "baseValue": 41000.00
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje Mirbud S.A.",
+          "quantity": "150",
+          "value": 1782.00
+        },
+        {
+          "name": "Akcje Molecure S.A.",
+          "quantity": "400",
+          "value": 4040.00
+        },
+        {
+          "name": "Akcje Synthaverse S.A.",
+          "quantity": "900",
+          "value": 4068.00
+        },
+        {
+          "name": "Akcje Lubawa S.A.",
+          "quantity": "68",
+          "value": 297.84
+        },
+        {
+          "name": "IKZE (5994 akcji Synthaverse S.A. oraz środki pieniężne)",
+          "quantity": null,
+          "value": 27142.88
+        },
+        {
+          "name": "IKE (14 akcji 11 Bit Studios S.A. i 10 obligacji Skarbu Państwa)",
+          "quantity": null,
+          "value": 3396.54
+        },
+        {
+          "name": "PKO Bank Polski OFE",
+          "quantity": null,
+          "value": 82244.73
+        },
+        {
+          "name": "PPK (TFI PZU S.A.)",
+          "quantity": null,
+          "value": 12274.40
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 86,40 m² (wraz z pomieszczeniami przynależnymi o łącznej powierzchni 25,70 m² oraz udziałem w nieruchomości wspólnej)",
+          "value": 860000.00,
+          "legalTitle": "współwłasność małżeńska ustawowa (bezudziałowa)"
+        },
+        {
+          "description": "Udział wynoszący 1/23 w nieruchomości gruntowej (użytkowanie wieczyste, 312 m², miejsce parkingowe naziemne) oraz udział wynoszący 1/328 w nieruchomości gruntowej (użytkowanie wieczyste, 924 m², droga dojazdowa)",
+          "value": 22000.00,
+          "legalTitle": "współwłasność małżeńska ustawowa (bezudziałowa)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny mieszkaniowy wobec PKO Bank Hipoteczny S.A. (zadłużenie na dzień 31.12.2024 r.)",
+          "value": 493073.46
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda CRV, rok 2016",
+          "value": 70000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu pełnienia funkcji sekretarza stanu w Ministerstwie Rolnictwa i Rozwoju Wsi",
+          "yearlyValue": 66724.68
+        },
+        {
+          "description": "Dochód z tytułu sprawowania mandatu posła na Sejm RP - dieta parlamentarna",
+          "yearlyValue": 41552.61
+        },
+        {
+          "description": "Dochód z tytułu sprawowania mandatu posła na Sejm RP - uposażenie",
+          "yearlyValue": 145256.40
+        },
+        {
+          "description": "Dochód z PKO Zabezpieczenie Emerytalne SFIO",
+          "yearlyValue": 5.79
+        },
+        {
+          "description": "Dochód z PKO Parasolowy FIO",
+          "yearlyValue": 34.57
+        },
+        {
+          "description": "Dochód z tytułu praw autorskich - Zysk i S-ka Wydawnictwo spółka jawna Tadeusz Zysk, Aldona Zysk",
+          "yearlyValue": 90.49
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

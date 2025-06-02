@@ -1,0 +1,115 @@
+{
+  "firstName": "Jerzy",
+  "lastName": "Materna",
+  "dateOfBirth": "1956-03-25T00:00:00",
+  "placeOfBirth": "Zielona Góra",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/FF795886426BD341C1258A51003B9F46/$File/235.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/5D8B5289A72CE3B5C1258C7600493EF2/%24File/OSW102_235.pdf",
+      "cashPositions": [
+        {
+          "description": "Aviva",
+          "currency": "PLN",
+          "currencyValue": 5500.0,
+          "baseValue": 5500.0
+        },
+        {
+          "description": "Środki pieniężne",
+          "currency": "PLN",
+          "currencyValue": 220000.0,
+          "baseValue": 220000.0
+        },
+        {
+          "description": "PKU IKLE",
+          "currency": "PLN",
+          "currencyValue": 64565.0,
+          "baseValue": 64565.0
+        },
+        {
+          "description": "PKO Obligacje Samorządowe",
+          "currency": "PLN",
+          "currencyValue": 5312552.0,
+          "baseValue": 5312552.0
+        },
+        {
+          "description": null,
+          "currency": "EUR",
+          "currencyValue": 500.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni około 200 m²",
+          "value": 500000.0,
+          "legalTitle": "Spadek po matce"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 51,2 m²",
+          "value": 300000.0,
+          "legalTitle": "Spadek po żonie, 1/12 udziału w całości"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 103,82 m²",
+          "value": 500000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 49,3 m²",
+          "value": 300000.0,
+          "legalTitle": "Spółdzielcze własnościowe prawo do lokalu"
+        },
+        {
+          "description": "Lokal handlowy o powierzchni 170,80 m² z gruntem o powierzchni 110 m², nabyty 03.04.2023",
+          "value": 450117.27,
+          "legalTitle": "Własność - nabycie od miasta"
+        },
+        {
+          "description": "Lokal użytkowy o powierzchni 66,8 m², nabyty 10.12.2024",
+          "value": 227602.5,
+          "legalTitle": "Własność - nabycie od miasta tytułem zamiany za lokal mieszkalny o powierzchni 40,6 m² (zgodnie z art. 6 ustawy z dnia 21.08.1997)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w rachunku bankowym PKO BP (obrotowy)",
+          "value": 40000.0
+        },
+        {
+          "description": "Kredyt w ratach (24 raty) w Banku PKO BP",
+          "value": 99000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota RAV-4, rok produkcji 2020",
+          "value": 140000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 169945.88
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.25
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 10205.55
+        },
+        {
+          "description": "Emerytura ZUS",
+          "yearlyValue": 122640.12
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

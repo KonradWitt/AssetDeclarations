@@ -1,0 +1,87 @@
+{
+  "firstName": "Jarosław",
+  "lastName": "Urbaniak",
+  "dateOfBirth": "1966-08-07T00:00:00",
+  "placeOfBirth": "Ostrów Wielkopolski",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/64712EB3AC781CF6C1258A51003BA255/$File/403.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/146BB4FB9219B4AEC1258C76005AE4D7/%24File/OSW102_403.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 510000.0,
+          "baseValue": 510000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2.04,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbu Państwa",
+          "quantity": null,
+          "value": 350468.99
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 239 m²",
+          "value": 800000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 33.2 m²",
+          "value": 106210.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 30.2 m²",
+          "value": 210798.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 49 m²",
+          "value": 320000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 1403 m²",
+          "value": 210000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Peugeot 208, rok produkcji 2020",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 201584.94
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45639.92
+        },
+        {
+          "description": "Dieta członka KES",
+          "yearlyValue": 82538.72
+        },
+        {
+          "description": "Przychód z najmu",
+          "yearlyValue": 62300.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

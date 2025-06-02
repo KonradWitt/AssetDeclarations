@@ -1,0 +1,81 @@
+{
+  "firstName": "Michał",
+  "lastName": "Krawczyk",
+  "dateOfBirth": "1978-03-21T00:00:00",
+  "placeOfBirth": "Lublin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/67AFC059A914ED96C1258A51003B9E75/$File/187.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CDC28FE9A0B668DCC1258C810038D91B/%24File/OSW102_187.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 12000.0,
+          "baseValue": 12000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 300.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 173 m²",
+          "value": 700000.0,
+          "legalTitle": "1/2 udziału, nabyta na podstawie umowy darowizny"
+        },
+        {
+          "description": "1/2 udziału w nieruchomości o pow. 667 m² zabudowanej domem",
+          "value": 90000.0,
+          "legalTitle": "1/2 udziału, nabyta na podstawie umowy darowizny (majątek osobisty)"
+        },
+        {
+          "description": "1/18 udziału w nieruchomości o pow. 667 m² zabudowanej domem",
+          "value": 9900.0,
+          "legalTitle": "1/18 udziału, nabyta na podstawie umowy darowizny (majątek osobisty)"
+        },
+        {
+          "description": "Grunt rolny 5441 m²",
+          "value": 300000.0,
+          "legalTitle": "Nabyta na podstawie umowy darowizny (majątek osobisty)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka od Beatrycze Kawałek",
+          "value": 34000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Kia Sportage, rok 2016",
+          "value": 35000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 181703.64
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dieta parlamentarna opodatkowana",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Dieta parlamentarna nieopodatkowana",
+          "yearlyValue": 36000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

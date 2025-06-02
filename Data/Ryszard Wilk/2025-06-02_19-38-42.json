@@ -1,0 +1,115 @@
+{
+  "firstName": "Ryszard",
+  "lastName": "Wilk",
+  "dateOfBirth": "1987-03-24T00:00:00",
+  "placeOfBirth": "Krymizy - Zding",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/82FA6D51A1E97A50C1258A51003BA2B1/$File/422.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D3B15250B311AC65C1258C7A004401D4/%24File/OSW102_422.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 5000.0,
+          "baseValue": 5000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Kryptowaluty",
+          "value": 215000.0,
+          "quantity": null
+        },
+        {
+          "name": "Akcje CD-Projekt",
+          "quantity": "26",
+          "value": null
+        },
+        {
+          "name": "Akcje Orlen",
+          "quantity": "59",
+          "value": null
+        },
+        {
+          "name": "Akcje PKO BP",
+          "quantity": "17",
+          "value": null
+        },
+        {
+          "name": "Akcje XDD Marten",
+          "quantity": "25",
+          "value": 1000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Budynek handlowy, piętrowy, murowany na działce 0,06 ha",
+          "value": 210000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie 65,51 m²",
+          "value": 550000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka rolna 0,2547 ha",
+          "value": 21600.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka 0,0519 ha",
+          "value": 213600.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka 0,0841 ha",
+          "value": 21960.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt gotówkowy w PKO BP",
+          "value": 11084.35
+        },
+        {
+          "description": "Kredyt hipoteczny w PKO BP",
+          "value": 278080.28
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Audi Q7, rok 2008",
+          "value": 40000.0
+        },
+        {
+          "description": "Łódź 10 m",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynajem nieruchomości",
+          "yearlyValue": 51120.0
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 146644.18
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 8611.07
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

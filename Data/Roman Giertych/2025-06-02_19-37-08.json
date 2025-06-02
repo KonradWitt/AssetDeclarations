@@ -1,0 +1,112 @@
+{
+  "firstName": "Roman",
+  "lastName": "Giertych",
+  "dateOfBirth": "1971-02-27T00:00:00",
+  "placeOfBirth": "Śrem",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B2665390D3A249F7C1258A51003B9CB9/$File/097.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CA3ECC03DB2E53AFC1258C77004141BC/%24File/OSW102_097.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 17720.53,
+          "baseValue": 17720.53
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 61000.00,
+          "baseValue": 61000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 224149.07,
+          "baseValue": 973500.00
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 1899.00,
+          "baseValue": 8717.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 12000.00,
+          "baseValue": 52113.60
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 8000.00,
+          "baseValue": 31452.00
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje Kancelaria Adwokacka Roman Giertych S.K.A.",
+          "quantity": "2",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 60.02 m² wraz z komórką lokatorską o powierzchni 3.96 m²",
+          "value": 1550000.00,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka od Kancelaria Adwokacka Roman Giertych S.K.A. na zakup mieszkania, oprocentowanie zmienne",
+          "value": 991185.44
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Ford Galaxy, rok 2013",
+          "value": 15000.00
+        },
+        {
+          "description": "Szabla",
+          "value": 15000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Prawa autorskie",
+          "yearlyValue": 12855.51
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 44717.96
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Wierzytelność",
+          "value": 194886.16
+        }
+      ],
+      "businessActivities": [
+        {
+          "businessName": "Kancelaria Adwokacka Roman Giertych S.K.A.",
+          "businessType": "spółka komandytowo-akcyjna",
+          "description": "Wkład w spółce komandytowo-akcyjnej w wysokości 48 000 zł.",
+          "income": null
+        },
+        {
+          "businessName": "Jednoosobowa Działalność Gospodarcza Roman Giertych",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Działalność prawnicza (PKD 69.10.Z)",
+          "income": 2470463.07
+        },
+        {
+          "businessName": "Kancelaria Adwokacka Roman Giertych S.K.A.",
+          "businessType": "spółka komandytowo-akcyjna",
+          "description": "Pełnienie funkcji komplementariusza w spółce komandytowo-akcyjnej.",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "firstName": "Jan",
+  "lastName": "Kanthak",
+  "dateOfBirth": "1991-09-20T00:00:00",
+  "placeOfBirth": "Gdańsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/8101A04BAF69398BC1258A51003B9DD2/$File/154.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/72236E2C11440AFFC1258C7C004262F0/%24File/OSW102_154.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 35000.0,
+          "baseValue": 35000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 4000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Współkredytobiorca na zakup mieszkania w banku PKO BP",
+          "value": 843397.52
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Ministerstwo Aktywów Państwowych",
+          "yearlyValue": 63414.0
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 124306.15
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.27
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 1765.52
+        },
+        {
+          "description": "Najem powierzchni reklamowej",
+          "yearlyValue": 9961.83
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

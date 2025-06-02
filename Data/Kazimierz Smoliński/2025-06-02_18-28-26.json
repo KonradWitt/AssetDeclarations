@@ -1,0 +1,105 @@
+{
+  "firstName": "Kazimierz",
+  "lastName": "Smoliński",
+  "dateOfBirth": "1955-07-15T00:00:00",
+  "placeOfBirth": "Malbork",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/63B1ACB38924F0BAC1258A51003BA14B/$File/346.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/021274F763E4327BC1258C76004E9A54/%24File/OSW102_346.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 118600.0,
+          "baseValue": 118600.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 3629.0,
+          "baseValue": null
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 13587.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Pekao TFI S.A. Fundusz Obligacji",
+          "quantity": null,
+          "value": 285550.61
+        },
+        {
+          "name": "Akcje ORLEN S.A.",
+          "quantity": "360",
+          "value": 17936.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 260 m²",
+          "value": 700000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 86 m²",
+          "value": 400000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 1250 m²",
+          "value": 300000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 67 m² z domem 82 m², udział 672/1000",
+          "value": 150000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Działka o powierzchni 1547 m² z mieszkaniem 54 m², udział 161/1000",
+          "value": 230000.0,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w Santander Bank Polska S.A.",
+          "value": 99153.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dochód z akcji ORLEN S.A.",
+          "yearlyValue": 0.0
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 173580.13
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 82887.0
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Dochód nieopodatkowany",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dochód opodatkowany",
+          "yearlyValue": 9573.04
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

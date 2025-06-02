@@ -1,0 +1,90 @@
+{
+  "firstName": "Anna",
+  "lastName": "Żukowska",
+  "dateOfBirth": "1983-06-11T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1C0BDD6D7D43D907C1258A51003BA35A/$File/460.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/AA818F100A6ADBF7C1258C7C00577182/%24File/OSW102_460.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 3827.13,
+          "baseValue": 3827.13,
+          "description": "ROR"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 6200.00,
+          "baseValue": 6200.00,
+          "description": "Gotówka"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Polisa \"Ochrona Plus\" Nationale Nederlanden",
+          "value": 446527.31,
+          "quantity": null
+        },
+        {
+          "name": "OFE ING Nationale Nederlanden",
+          "value": 53147.55,
+          "quantity": null
+        },
+        {
+          "name": "Udziały w GUMMIPOL SP. Z O.O.",
+          "value": 1056219.00,
+          "quantity": "11"
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Pożyczka na cele konsumpcyjne w Banku Handlowym",
+          "value": 128952.65
+        },
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych",
+          "value": 23800.00
+        },
+        {
+          "description": "Kredyt w Santander Bank",
+          "value": 14000.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Fabia BAHIA, rok prod. 2019",
+          "value": null
+        },
+        {
+          "description": "Zabudowa kuchenna z silnikiem i sprzętem AGD (współwłasność)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 191431.95
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 47966.35
+        },
+        {
+          "description": "Diety z Krajowej Rady Sądownictwa",
+          "yearlyValue": 148527.65
+        },
+        {
+          "description": "Dochód z udziałów w GUMMIPOL SP. Z O.O.",
+          "yearlyValue": 0.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

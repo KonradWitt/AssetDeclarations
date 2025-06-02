@@ -1,0 +1,93 @@
+{
+  "firstName": "Czesław",
+  "lastName": "Mroczek",
+  "dateOfBirth": "1964-07-20T00:00:00",
+  "placeOfBirth": "Katowice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/FF13AB62D7E9D3E7C1258A51003B9F8C/$File/249.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/94546CC62396CA31C1258C7C0057F60E/%24File/OSW102_249.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 69000.0,
+          "baseValue": 69000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Fundusz Kapitałowy ING",
+          "quantity": null,
+          "value": 65000.0
+        },
+        {
+          "name": "IKE",
+          "quantity": null,
+          "value": 69000.0
+        },
+        {
+          "name": "IKZE",
+          "quantity": null,
+          "value": 52000.0
+        },
+        {
+          "name": "Obligacje skarbowe",
+          "quantity": null,
+          "value": 260100.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 264 m²",
+          "value": 550000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 408 m²",
+          "value": 250000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 1.48 ha",
+          "value": 75000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 3646 m²",
+          "value": 500000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 906 m²",
+          "value": null,
+          "legalTitle": "udział 3/10 we współwłasności"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes Benz C180, rok 2016",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie w MSWiA",
+          "yearlyValue": 220576.26
+        },
+        {
+          "description": "Dieta poselska opodatkowana",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta poselska nieopodatkowana",
+          "yearlyValue": 9573.04
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

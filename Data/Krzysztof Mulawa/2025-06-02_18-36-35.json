@@ -1,0 +1,120 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Mulawa",
+  "dateOfBirth": "1985-06-24T00:00:00",
+  "placeOfBirth": "Siedlce",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/EB7A31E13ABBD442C1258A51003B9FA4/$File/254.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1A99E5C27B9AA184C1258C7C0041EB01/%24File/OSW102_254.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 22700.0,
+          "baseValue": 22700.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 49000.0,
+          "baseValue": 49000.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 44310.87,
+          "baseValue": 44310.87
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 97.0,
+          "baseValue": null
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 210.0,
+          "baseValue": null
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 25.0,
+          "baseValue": null
+        },
+        {
+          "currency": "PHP",
+          "currencyValue": 14800.0,
+          "baseValue": null
+        },
+        {
+          "currency": "CNY",
+          "currencyValue": 225.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbu Państwa",
+          "quantity": null,
+          "value": 501520.21
+        },
+        {
+          "name": "Akcje różnych spółek",
+          "quantity": null,
+          "value": 100875.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Działka o powierzchni 700 m² (udział 4/5)",
+          "value": 210000.0,
+          "legalTitle": "Współwłasność (darowizna, udział 4/5)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 55,11 m²",
+          "value": 826500.20,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Banku Pekao S.A. (kredytobiorcy Justyna i Krzysztof Mulawa)",
+          "value": 225395.92
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Auris, rok 2012",
+          "value": 18000.25
+        },
+        {
+          "description": "Samochód Ford Escape, rok 2014",
+          "value": 56000.25
+        },
+        {
+          "description": "Kolekcja monet",
+          "value": 27000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Premia roczna 2023 (Bausch Health)",
+          "yearlyValue": 19764.19
+        },
+        {
+          "description": "Wynagrodzenie z tytułu urlopu",
+          "yearlyValue": 27927.46
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 188564.61
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45252.39
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

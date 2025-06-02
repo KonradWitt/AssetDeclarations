@@ -1,0 +1,92 @@
+{
+  "firstName": "Robert",
+  "lastName": "Jagła",
+  "dateOfBirth": "1868-05-29T00:00:00",
+  "placeOfBirth": "Żarów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/9B0F8410AF7B59B7C1258BCC005138E5/$File/494.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/66A78A8BD3B96A69C1258C7C004607E2/%24File/OSW102_494.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 125000.0,
+          "baseValue": 125000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 126 m² na działce",
+          "value": 800000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne (grunty orne) o powierzchni 1.68 ha",
+          "value": 65000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Inna nieruchomość (dom) o powierzchni 65 m²",
+          "value": 80000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Inna nieruchomość (dom) o powierzchni 60 m²",
+          "value": 70000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na samochód w BNP Paribas, do spłaty do 05.12.2025",
+          "value": 15900.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volkswagen Passat CC, rok 2008",
+          "value": 24000.0
+        },
+        {
+          "description": "Samochód Porsche Cayenne 3.0E Hybrid, rok 2010",
+          "value": 102000.0
+        },
+        {
+          "description": "Samochód Fiat Ducato 14, rok 1993",
+          "value": 35000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z pracy (FRW)",
+          "yearlyValue": 193697.46
+        },
+        {
+          "description": "Zasiłek chorobowy",
+          "yearlyValue": 98153.88
+        },
+        {
+          "description": "Dieta radnego sejmiku",
+          "yearlyValue": 15687.70
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 4218.69
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 60707.88
+        },
+        {
+          "description": "Inny dochód",
+          "yearlyValue": 1078.88
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

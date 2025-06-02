@@ -1,0 +1,53 @@
+{
+  "firstName": "Olga",
+  "lastName": "Semeniuk-Patkowska",
+  "dateOfBirth": "1988-12-05T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/8BA1A7DA8205A27EC1258A51003BA106/$File/332.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/853CEEAEDE03C1C3C1258C7C0046F967/%24File/OSW102_332.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 5000.0,
+          "baseValue": 5000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 82,1 m²",
+          "value": 1100000.0,
+          "legalTitle": "prawo własności"
+        },
+        {
+          "description": "Miejsce postojowe w garażu podziemnym",
+          "value": 45000.0,
+          "legalTitle": "prawo własności"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt gotówkowy w PKO BP",
+          "value": 100000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 149209.48
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45252.39
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "firstName": "Maja",
+  "lastName": "Nowak",
+  "dateOfBirth": "1987-07-07T00:00:00",
+  "placeOfBirth": "Nowa Sól",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/09FF021ACFA28FD0C1258A51003B9FD3/$File/264.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/B5FC68229DEB73F9C1258C810037DB83/%24File/OSW102_264.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 130087.16,
+          "baseValue": 130087.16
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 168614.90
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

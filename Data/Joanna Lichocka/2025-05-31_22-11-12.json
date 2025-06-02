@@ -1,0 +1,121 @@
+{
+  "firstName": "Joanna",
+  "lastName": "Lichocka",
+  "dateOfBirth": "1969-11-21T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2812B8896578E98BC1258A51003B9EEF/$File/213.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/00A5391E2B50426AC1258C7C00574439/%24File/OSW102_213.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 15000.0,
+          "baseValue": 15000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2000.0,
+          "baseValue": 8040.4
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Lokal mieszkalny o powierzchni 118,32 m², plus zaadaptowane poddasze ok 60 m²",
+          "value": 1800000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 152,35 m²",
+          "value": 2700000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 126,40 m²",
+          "value": 2300000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Udział 20/1310 w hali garażowej o powierzchni 2830 m²",
+          "value": 40000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka rolno-usługowa o powierzchni 1,1018 ha",
+          "value": 3305400.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka rolno-usługowa o powierzchni 1975 m²",
+          "value": 395000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Udział ½ w działce rolno-usługowej o powierzchni 409 m²",
+          "value": 61350.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działki rolno-budowlane o łącznej powierzchni 3200 m², 2000 m², 2000 m², 290 m² oraz udział ¾ w działce 598 m²",
+          "value": 4000000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w banku Pekao SA",
+          "value": 72000.0
+        },
+        {
+          "description": "Pożyczka w banku Pekao SA",
+          "value": 63000.0
+        },
+        {
+          "description": "Pożyczka od Brata",
+          "value": 50000.0
+        },
+        {
+          "description": "Pożyczka od Rodziców z 2023 roku",
+          "value": 200000.0
+        },
+        {
+          "description": "Pożyczka remontowa z Sejmu",
+          "value": 35000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda C-RV, rok 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 172297.48
+        },
+        {
+          "description": "Wynagrodzenie z Rady Mediów Narodowych",
+          "yearlyValue": 92619.13
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45252.38
+        },
+        {
+          "description": "Prawa autorskie",
+          "yearlyValue": 7162.98
+        },
+        {
+          "description": "Przychody z najmu",
+          "yearlyValue": 254733.10
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "firstName": "Bolesław",
+  "lastName": "Piecha",
+  "dateOfBirth": "1954-09-19T00:00:00",
+  "placeOfBirth": "RUBOVIKU",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0EB085916310CABEC1258A51003BA043/$File/288.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-09T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2846EA87A476E04EC1258C52005CC360/%24File/OSW102_288.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 450000.00,
+          "baseValue": 450000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 45750.00,
+          "baseValue": 196725.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 91,58 m²",
+          "value": 500000.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Yaris, rok 2020",
+          "value": null
+        },
+        {
+          "description": "Samochód Lexus ES 300h, rok 2023, w leasingu",
+          "value": 62000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150064.58
+        },
+        {
+          "description": "Dieta poselska na Sejm R.P.",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Emerytura ZUS",
+          "yearlyValue": 105907.36
+        },
+        {
+          "description": "Emerytura z Parlamentu Europejskiego",
+          "yearlyValue": 92007.18
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

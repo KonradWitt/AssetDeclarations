@@ -1,0 +1,72 @@
+{
+  "firstName": "Iwona",
+  "lastName": "Hartwich",
+  "dateOfBirth": "1970-09-06T00:00:00",
+  "placeOfBirth": "Rypin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E62AF340C31BAB0BC1258A51003B9D4C/$File/127.jpg",
+  "partyId": 1,
+  "employmentDetails": "Poseł na Sejm X kadencji",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E08D9D2560032E36C1258C7600422230/%24File/OSW102_127.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 104533.04,
+          "baseValue": 104533.04
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 50000.00,
+          "baseValue": 50000.00,
+          "description": "Lokata terminowa (mobilna)"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 527.33,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 51.57 m²",
+          "value": 500000.00,
+          "legalTitle": "Współwłasność małżeńska, własnościowe prawo do lokalu"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Volkswagen Passat, rok produkcji 2016 (współwłasność małżeńska)",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Mini One, rok produkcji 2016 (współwłasność małżeńska)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 150919.68
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "firstName": "Urszula",
+  "lastName": "Rusecka",
+  "dateOfBirth": "1966-09-11T00:00:00",
+  "placeOfBirth": "Kraków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6B005B2C054BB77BC1258A51003BA0BB/$File/315.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E5D03DAFFC147049C1258C7C00480A5F/%24File/OSW102_315.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.0,
+          "baseValue": 10000.0,
+          "description": null
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 370000.0,
+          "baseValue": 370000.0,
+          "description": "Środki na lokatach ze sprzedaży działki w 2017r - współwłasność małżeńska"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 90000.0,
+          "baseValue": 90000.0,
+          "description": "Lokata roczna - współwłasność małżeńska"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 100 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka 52a",
+          "value": 250000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka 4a",
+          "value": 20000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka mieszkaniowa z Funduszu Świadczeń Socjalnych dla Posłów do spłaty na 31.12.2024r.",
+          "value": 27200.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Land Rover Discovery, rok 2007",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Dieta Rady Ochrony Pracy",
+          "yearlyValue": 15271.20
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 173580.13
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

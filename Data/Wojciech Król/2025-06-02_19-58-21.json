@@ -1,0 +1,85 @@
+{
+  "firstName": "Wojciech",
+  "lastName": "Król",
+  "dateOfBirth": "1957-04-22T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/FE0FB95D82D8DC06C1258A51003B9E83/$File/190.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/222791AE596186F3C1258C7C00353916/%24File/OSW102_190.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 30000.0,
+          "baseValue": 30000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w spółce Mohieldów",
+          "quantity": "360",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 109,5 m²",
+          "value": 1400000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka 55,61 m²",
+          "value": 400000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 40,39 m²",
+          "value": 500000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Banku BZ WBK",
+          "value": 148336.0
+        },
+        {
+          "description": "Kredyt samochodowy w PKO BP",
+          "value": 316063.14
+        },
+        {
+          "description": "Pożyczka prywatna",
+          "value": 85000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 196603.18
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 186741.70
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 22000.0
+        },
+        {
+          "description": "Inne",
+          "yearlyValue": 117000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

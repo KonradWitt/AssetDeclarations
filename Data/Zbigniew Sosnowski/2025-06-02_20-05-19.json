@@ -1,0 +1,69 @@
+{
+  "firstName": "Zbigniew",
+  "lastName": "Sosnowski",
+  "dateOfBirth": "1963-12-10T00:00:00",
+  "placeOfBirth": "Rypin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E6F9F49AF1B6942BC1258A51003BA160/$File/351.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7FC64CF03CCEF7EEC1258C7600467D50/%24File/OSW102_351.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 18900.64,
+          "baseValue": 18900.64
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 300 m²",
+          "value": 500000.0,
+          "legalTitle": "Współwłasność majątkowa"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 0.67 ha",
+          "value": 70000.0,
+          "legalTitle": "Współwłasność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w PKO SA w Brodnicy na budowę domu mieszkalnego",
+          "value": 31789.75
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volvo S-60, rok produkcji 2010",
+          "value": 18000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z Urzędu Marszałkowskiego",
+          "yearlyValue": 15025.74
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 194201.79
+        },
+        {
+          "description": "Dieta parlamentarna (w tym nieopodatkowana i opodatkowana)",
+          "yearlyValue": 45679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Zarząd Oddziału Wojewódzkiego Związku Ochotniczych Straży Pożarnych RP",
+          "businessType": "Stowarzyszenie",
+          "description": "Członek zarządu od 2007 r.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "firstName": "Elżbieta",
+  "lastName": "Gelert",
+  "dateOfBirth": "1955-04-22T00:00:00",
+  "placeOfBirth": "Golańsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/3BF5DC7C5CF3D4B3C1258A51003B9CB0/$File/094.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/23DE3977BADBEA2FC1258C750045F75E/%24File/OSW102_094.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 528644.40,
+          "baseValue": 528644.40
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 137 m² na działce 570 m²",
+          "value": 900000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 475 m²",
+          "value": null,
+          "legalTitle": "dzierżawa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód VW Touran, rok 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z zatrudnienia w Szpitalu Wojewódzkim w Elblągu",
+          "yearlyValue": 621111.07
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

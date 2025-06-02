@@ -1,0 +1,105 @@
+{
+  "firstName": "Andrzej",
+  "lastName": "Grzyb",
+  "dateOfBirth": "1956-08-23T00:00:00",
+  "placeOfBirth": "Siedlinowie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0814DADB7F9DCB88C1258A51003B9D2B/$File/120.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/63FBF57C1DA23BFFC1258C750045ABF4/%24File/OSW102_120.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 20396.84,
+          "baseValue": 20396.84
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 176828.34,
+          "baseValue": 760361.86
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Polisa ubezpieczeniowa Allianz, UFK 1001, 45713 JF",
+          "quantity": null,
+          "value": 119166.06
+        },
+        {
+          "name": "Udziały w Spółdzielni Rolnik",
+          "quantity": "3",
+          "value": 3000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 240 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 13,67 ha z budynkiem składowym i garażami",
+          "value": 1258100.0,
+          "legalTitle": null
+        },
+        {
+          "description": "Dwie działki budowlane o łącznej powierzchni 0,3764 ha",
+          "value": 135500.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda CRV, rok produkcji 2018",
+          "value": null
+        },
+        {
+          "description": "Samochód VW Tiguan, rok produkcji 2018",
+          "value": null
+        },
+        {
+          "description": "Ciągnik MF 5420, rok produkcji 2011",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 202852.80
+        },
+        {
+          "description": "Dieta parlamentarna (w tym nieopodatkowana 36 000,00 zł i opodatkowana 9 466,16 zł)",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Przychody z tytułu podróży zagranicznych",
+          "yearlyValue": 2385.96
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 104222.14
+        },
+        {
+          "description": "Dochód z umowy zlecenia",
+          "yearlyValue": 814.00
+        },
+        {
+          "description": "Świadczenie emerytalne (EUR)",
+          "yearlyValue": 182279.32
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Ochotnicza Straż Pożarna (OSP)",
+          "businessType": "Stowarzyszenie",
+          "description": "Członek zarządu od 2011 roku, działalność społeczna",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "firstName": "Franciszek",
+  "lastName": "Sterczewski",
+  "dateOfBirth": "1988-03-17T00:00:00",
+  "placeOfBirth": "Poznań",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/13A6A1B69037F2B5C1258A51003BA179/$File/357.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2024-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EAC119F7682854C6C1258C7C006F5099/%24File/OSW102_357.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 11632.12,
+          "baseValue": 11632.12
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 61,52 m² (+komórka lokatorska 2,03 m² i miejsce w hali garażowej)",
+          "value": 1100000.0,
+          "legalTitle": "współwłasność obciążona kredytem hipotecznym"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Santander Bank Polska S.A.",
+          "value": 600000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150064.58
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

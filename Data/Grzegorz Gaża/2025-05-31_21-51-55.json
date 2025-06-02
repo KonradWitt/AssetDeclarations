@@ -1,0 +1,117 @@
+{
+  "firstName": "Grzegorz",
+  "lastName": "Gaża",
+  "dateOfBirth": "1972-03-23T00:00:00",
+  "placeOfBirth": "Pszczyna",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E6D7EDD74964CE75C1258A51003B9CAB/$File/093.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-21T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/ADB5624265C7EDD6C1258C7B0047D629/%24File/OSW102_093.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 25700.00,
+          "baseValue": 25700.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 117.00,
+          "baseValue": 503.10
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w CLEAR.COM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA",
+          "quantity": "udziały",
+          "value": 987068.10
+        },
+        {
+          "name": "Udziały w ASTRA POLAND SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "quantity": "25",
+          "value": 25000.00
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 271 m²",
+          "value": 1210000.00,
+          "legalTitle": "mój majątek odrębny"
+        },
+        {
+          "description": "3/32 udziału w domu o powierzchni 146 m²",
+          "value": 13687.50,
+          "legalTitle": "mój majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 93 m²",
+          "value": 220000.00,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Gospodarstwo rolne (grunty rolne) o powierzchni 2,3106 ha",
+          "value": 577650.00,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "3/32 udziału w gospodarstwie rolnym o powierzchni 0,2690 ha (budynek gospodarczy)",
+          "value": 4959.38,
+          "legalTitle": "mój majątek odrębny"
+        },
+        {
+          "description": "Działka zabudowana domem i garażem o powierzchni 0,4174 ha",
+          "value": 520000.00,
+          "legalTitle": "mój majątek odrębny"
+        },
+        {
+          "description": "3/32 udziału w działce zabudowanej o powierzchni 0,1090 ha",
+          "value": 10218.75,
+          "legalTitle": "mój majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w DNB BANK POLSKA (budowa domu)",
+          "value": 94511.78
+        },
+        {
+          "description": "Limit kredytu odnawialnego w Millenium (bieżące wydatki)",
+          "value": 13376.98
+        },
+        {
+          "description": "Limit kredytu odnawialnego w PKO BP SA (bieżące wydatki)",
+          "value": 32431.77
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 151781.93
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 47431.91
+        },
+        {
+          "description": "Przychody z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 1017.23
+        },
+        {
+          "description": "Wynajem nieruchomości",
+          "yearlyValue": 24000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "CLEAR.COM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA",
+          "businessType": "spółka komandytowa",
+          "description": "Uczestnictwo w spółce komandytowej",
+          "income": 0.00
+        }
+      ]
+    }
+  ]
+}

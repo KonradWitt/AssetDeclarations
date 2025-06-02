@@ -1,0 +1,58 @@
+{
+  "firstName": "Robert",
+  "lastName": "Warwas",
+  "dateOfBirth": "1976-08-13T00:00:00",
+  "placeOfBirth": "Jaworzno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/ED9B41515F5BC09CC1258A51003BA26F/$File/409.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/B48445F12037EF25C1258C7C006F60B8/%24File/OSW102_409.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 290370.0,
+          "baseValue": 290370.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "III FILAR PPE",
+          "quantity": null,
+          "value": 39780.88
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 50,7 m²",
+          "value": 165000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy SKODA OCTAVIA z 2020 r.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "TAURON Polska Energia SA - przychód",
+          "yearlyValue": 2790.90
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "firstName": "Barbara",
+  "lastName": "Nowacka",
+  "dateOfBirth": "1975-05-10T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/27D8F383544E2F2FC1258A51003B9FCE/$File/263.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F14F9B3F5223AB49C1258C7B003C73D8/%24File/OSW102_263.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 86125.34,
+          "baseValue": 86125.34
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1374.32,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Segment w bliźniaku o powierzchni 162 m²",
+          "value": 3000000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 137 m²",
+          "value": 2500000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Obraz T. Axentowicz (olej)",
+          "value": 25000.0
+        },
+        {
+          "description": "Obraz F. Żmurko (olej)",
+          "value": 20000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z tytułu pełnienia funkcji ministra edukacji",
+          "yearlyValue": 248737.06
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

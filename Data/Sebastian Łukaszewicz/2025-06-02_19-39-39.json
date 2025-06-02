@@ -1,0 +1,105 @@
+{
+  "firstName": "Sebastian",
+  "lastName": "Łukaszewicz",
+  "dateOfBirth": "1991-02-09T00:00:00",
+  "placeOfBirth": "Białystok",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CDD107EDA143F197C1258A51003B9F1A/$File/224.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C72454ABD3E8F510C1258C810037A78B/%24File/OSW102_224.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 20000.0,
+          "baseValue": 20000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 0.99,
+          "baseValue": 4.257
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 183 m²",
+          "value": 700000.0,
+          "legalTitle": "własność, majątek odrębny"
+        },
+        {
+          "description": "Dom w zabudowie bliźniaczej o powierzchni 135 m²",
+          "value": 741500.0,
+          "legalTitle": "½ własności, majątek odrębny"
+        },
+        {
+          "description": "Gospodarstwo rolne ogólnotowarowe o powierzchni 12 ha, zabudowa zagrodowa",
+          "value": 1000000.0,
+          "legalTitle": "własność, majątek odrębny"
+        },
+        {
+          "description": "Działka zabudowana budynkiem mieszkalnym (pkt. II.1) o powierzchni 3335 m²",
+          "value": 200000.0,
+          "legalTitle": "własność, majątek odrębny"
+        },
+        {
+          "description": "Działka zabudowana budynkiem mieszkalnym (pkt. II.2) o powierzchni 0,0318 ha",
+          "value": 8500.0,
+          "legalTitle": "½ własności, majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka od osoby fizycznej",
+          "value": 55500.0
+        },
+        {
+          "description": "Podatek od czynności cywilnoprawnych do Urzędu Skarbowego",
+          "value": 68000.0
+        },
+        {
+          "description": "Kredyt hipoteczny zaciągnięty wspólnie z małżonką w banku PKO BP",
+          "value": 297852.89
+        },
+        {
+          "description": "Kredyt mieszkaniowy hipoteczny zaciągnięty wspólnie z małżonką w banku PKO BP",
+          "value": 796500.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 143547.04
+        },
+        {
+          "description": "Dodatkowe wynagrodzenie roczne (tzw. trzynastka) za 2023 rok",
+          "yearlyValue": 17265.68
+        },
+        {
+          "description": "Dochód z umowy o pracę (zaległa wypłata)",
+          "yearlyValue": 131.74
+        },
+        {
+          "description": "Dochód z działalności wykonywanej osobiście (umowy o dzieło, obowiązki społeczne/obywatelskie)",
+          "yearlyValue": 7114.63
+        },
+        {
+          "description": "Dopłaty z ARiMR",
+          "yearlyValue": 22569.82
+        },
+        {
+          "description": "Dieta parlamentarzysty",
+          "yearlyValue": 39301.02
+        },
+        {
+          "description": "Darowizna od matki",
+          "yearlyValue": 30000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

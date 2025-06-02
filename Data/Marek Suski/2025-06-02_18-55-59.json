@@ -1,0 +1,77 @@
+{
+  "firstName": "Marek",
+  "lastName": "Suski",
+  "dateOfBirth": "1958-06-11T00:00:00",
+  "placeOfBirth": "Grójec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/15ABE0CF49467D6FC1258A51003BA18A/$File/360.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F61B32BAF88A8997C1258C750044D451/%24File/OSW102_360.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 420303.83,
+          "baseValue": 420303.83
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2229.0,
+          "baseValue": null
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 149.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 465.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Polisa ubezpieczeniowa na życie Generali",
+          "quantity": null,
+          "value": 80776.21
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 100 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Volkswagen Passat, rok 2015",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Świadczenie emerytalne",
+          "yearlyValue": 94453.29
+        },
+        {
+          "description": "Dochód z tytułu wykonywania mandatu posła",
+          "yearlyValue": 183420.99
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 47699.13
+        },
+        {
+          "description": "Dieta z tytułu pełnienia funkcji członka Rady Programowej PR",
+          "yearlyValue": 5000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

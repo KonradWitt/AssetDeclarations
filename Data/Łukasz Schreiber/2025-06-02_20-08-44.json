@@ -1,0 +1,59 @@
+{
+  "firstName": "Łukasz",
+  "lastName": "Schreiber",
+  "dateOfBirth": "1987-05-26T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/DBDC698B48D385C4C1258A51003BA0FF/$File/330.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-12-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/DB11B6D5C13AD83DC1258C7B004789AD/%24File/OSW102_330.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 21500.0,
+          "baseValue": 21500.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Kredyt w Alior Bank",
+          "value": 100000.0
+        },
+        {
+          "description": "Kredyt w PEKAO SA",
+          "value": 125000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Biblioteka (ok. 14 tys. książek)",
+          "value": 45000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45145.50
+        },
+        {
+          "description": "Dochód nieopodatkowany",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 172830.76
+        },
+        {
+          "description": "Umowa o dzieło (książka/narzędzia)",
+          "yearlyValue": 37000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

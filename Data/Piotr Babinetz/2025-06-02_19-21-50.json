@@ -1,0 +1,103 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Babinetz",
+  "dateOfBirth": "1969-09-09T00:00:00",
+  "placeOfBirth": "Krosno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5F342EBF7A3EB797C1258A51003B9B31/$File/011.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2DDC097B762C55E8C1258C8100398906/%24File/OSW102_011.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 45252.54,
+          "baseValue": 45252.54
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 265.0,
+          "baseValue": null
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 410.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom w budowie",
+          "value": 475000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 62 m²",
+          "value": 330000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka budowlana przynależna do mieszkania w domu wielorodzinnym",
+          "value": 30000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Dwie działki gruntu (0,1720 ha) przeznaczone pod zabudowę mieszkaniowo-usługową",
+          "value": 520000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka (0,0707 ha) stanowiąca drogę wewnętrzną (udział 2/10)",
+          "value": 34000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny 'Własny Kąt' w PKO Bank Polski S.A. na zakup działek pod zabudowę mieszkaniową",
+          "value": 332080.19
+        },
+        {
+          "description": "Poręczenie pożyczki z Zakładowego Funduszu Świadczeń Socjalnych dla innego posła",
+          "value": 50000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Księgozbiór",
+          "value": null
+        },
+        {
+          "description": "Kolekcja płyt CD",
+          "value": null
+        },
+        {
+          "description": "Samochód Ford Galaxy, rok produkcji 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.28
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 149637.03
+        },
+        {
+          "description": "Wynagrodzenie z Rady Mediów Narodowych",
+          "yearlyValue": 93236.48
+        },
+        {
+          "description": "Umowa ekspercka z Instytutem Felczaka",
+          "yearlyValue": 1714.75
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

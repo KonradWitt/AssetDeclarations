@@ -1,0 +1,80 @@
+{
+  "firstName": "Władysław",
+  "lastName": "Kurowski",
+  "dateOfBirth": "1960-04-14T00:00:00",
+  "placeOfBirth": "Myślenice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5D6F41AEADB07110C1258A51003B9EC1/$File/203.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-16T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/BEF2E2C832F44CB1C1258C7500451F62/%24File/OSW102_203.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 79000.0,
+          "baseValue": 79000.0,
+          "description": "Środki pieniężne zgromadzone w walucie polskiej"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 49782.28,
+          "baseValue": 49782.28,
+          "description": "Środki zgromadzone w ramach ubezpieczenia emerytalnego w III filarze"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 120 m² posadowiony na działce budowlanej o powierzchni 2370 m²",
+          "value": 550000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 1.82 ha z lasem o powierzchni 0.96 ha, z budynkiem gospodarczym",
+          "value": 300000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Zakładowego Funduszu Świadczeń Socjalnych (ZFŚS)",
+          "value": 32300.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Peugeot 508-kombi, rok 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 170373.43
+        },
+        {
+          "description": "Dochód z tytułu pełnienia obowiązków społecznych i obywatelskich (diety opodatkowane i nieopodatkowane)",
+          "yearlyValue": 52350.37
+        },
+        {
+          "description": "Inkaso",
+          "yearlyValue": 8505.60
+        },
+        {
+          "description": "Dochód z gospodarstwa rolnego",
+          "yearlyValue": 500.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Gospodarstwo rolne",
+          "businessType": "gospodarstwo rolne",
+          "description": "Prowadzenie gospodarstwa rolnego",
+          "income": 500.0
+        }
+      ]
+    }
+  ]
+}

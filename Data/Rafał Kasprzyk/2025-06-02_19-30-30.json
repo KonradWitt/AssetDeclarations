@@ -1,0 +1,95 @@
+{
+  "firstName": "Rafał",
+  "lastName": "Kasprzyk",
+  "dateOfBirth": "1971-08-27T00:00:00",
+  "placeOfBirth": "Busko-Zdrój",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5920CB4EDD159B0FC1258A51003B9DE3/$File/158.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F5906E78F19A4CF8C1258C7C002857DD/%24File/OSW102_158.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 200200.00,
+          "baseValue": 200200.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 4600.00,
+          "baseValue": 19780.00
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 3000.00,
+          "baseValue": 15000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 148 m² na działce 176.30 m²",
+          "value": 1376000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 1.2115 ha (0.6965 ha przeliczeniowego)",
+          "value": 120000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Miejsce postojowe na parkingu wielopoziomowym o powierzchni 12.5 m²",
+          "value": 20000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 198 m²",
+          "value": 100000.00,
+          "legalTitle": null
+        },
+        {
+          "description": "Działka o powierzchni 903 m²",
+          "value": 46000.00,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup domu w Banku Spółdzielczym w Kielcach, termin spłaty 2036 rok, oprocentowanie 8.37%",
+          "value": 204101.34
+        },
+        {
+          "description": "Kredyt hipoteczny na zakup domu w Unicaja Banco Hispania, termin spłaty 2039 rok, oprocentowanie 3.156%",
+          "value": 160708.41
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda CRV, rok produkcji 2009",
+          "value": 35000.00
+        },
+        {
+          "description": "Samochód Opel Insignia, rok produkcji 2014",
+          "value": 15000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 12099.96
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 202126.47
+        },
+        {
+          "description": "Inne dochody",
+          "yearlyValue": 491.49
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

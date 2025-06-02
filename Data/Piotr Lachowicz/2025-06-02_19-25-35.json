@@ -1,0 +1,94 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Lachowicz",
+  "dateOfBirth": "1967-09-29T00:00:00",
+  "placeOfBirth": "Nowy Sącz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/3AE9AB7624C777E8C1258A51003B9ECE/$File/206.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/93EF7D424D277F85C1258C7500447B94/%24File/OSW102_206.pdf",
+      "employmentDetails": "Poseł na Sejm RP. Urząd Miasta Nowego Sącza - dyrektor Urzędu – urlop na okres sprawowania mandatu.",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 319590.14,
+          "baseValue": 319590.14
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 4382.99,
+          "baseValue": 18846.86
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbu Państwa",
+          "quantity": null,
+          "value": 100000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 119 m²",
+          "value": 150000.0,
+          "legalTitle": "współwłasność w ¼ z członkiem rodziny (spadek)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 46,1 m²",
+          "value": 300000.0,
+          "legalTitle": "spółdzielcze własnościowe prawo do lokalu (małżeńska wspólność majątkowa)"
+        },
+        {
+          "description": "Działka o powierzchni 0,0653 ha, na której znajduje się dom wskazany w pkt II.1",
+          "value": 50000.0,
+          "legalTitle": "współwłasność w ¼ z członkiem rodziny (spadek)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda HR-V, rok produkcji 2016 (własność odrębna)",
+          "value": null
+        },
+        {
+          "description": "Samochód KIA Stonic, rok produkcji 2019 (współwłasność z członkiem rodziny 50%, małżeńska wspólność majątkowa)",
+          "value": null
+        },
+        {
+          "description": "Biżuteria osobista (złoty krzyżyk z łańcuszkiem, złoty sygnet herbowy, złoty zegarek IWC Schaffhausen) (własność odrębna)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie Posła RP",
+          "yearlyValue": 154676.01
+        },
+        {
+          "description": "Dieta parlamentarna opodatkowana",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Dieta parlamentarna nieopodatkowana",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Przychody z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 402.72
+        },
+        {
+          "description": "Dochody z Urzędu Miasta Nowego Sącza (13. pensja za 2023 r.)",
+          "yearlyValue": 13730.39
+        },
+        {
+          "description": "Odsetki od Obligacji Skarbu Państwa i lokat bankowych",
+          "yearlyValue": 10804.42
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

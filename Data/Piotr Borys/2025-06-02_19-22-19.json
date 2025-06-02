@@ -1,0 +1,102 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Borys",
+  "dateOfBirth": "1976-01-11T00:00:00",
+  "placeOfBirth": "Bolesławiec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7C146C7E97C925CBC1258A51003B9B88/$File/029.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/B36DF6A2A142DD4FC1258C7C00567C41/%24File/OSW102_029.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 17000.0,
+          "baseValue": 17000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni użytkowej 220m² + garaż 56m² na działce o powierzchni 0,1545 ha",
+          "value": 750000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 3,717 ha - grunty rolne wraz z zabudowaniami",
+          "value": 2400000.0,
+          "legalTitle": "własność (współwłasność)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na budowę domu w PKO BP (po przewalutowaniu kredytu frankowego z 2006 roku)",
+          "value": 190000.0
+        },
+        {
+          "description": "Karta kredytowa (limit)",
+          "value": 18000.0
+        },
+        {
+          "description": "Eko kredyt na inwestycję ekologiczną",
+          "value": 8000.0
+        },
+        {
+          "description": "Kredyt w Santander Bank Polska na zakup Dacia Spring (pozostało do spłaty)",
+          "value": 52000.0
+        },
+        {
+          "description": "Kredyt płynnościowy w PKO BP",
+          "value": 18000.0
+        },
+        {
+          "description": "Kredyt w PKO BP",
+          "value": 48000.0
+        },
+        {
+          "description": "Zobowiązanie za odkupienie ½ udziału w nieruchomości (działka 3,717 ha) w kwocie 201 600 EUR wobec Kseni Dowhań-Domańskiej i Igora Kruczka",
+          "value": 201600.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Dacia Spring (elektryk) z 2022 roku",
+          "value": 60000.0
+        },
+        {
+          "description": "Samochód Chevrolet Cruze z 2011 roku",
+          "value": 16000.0
+        },
+        {
+          "description": "Samochód Volvo XC90 z 2011 roku",
+          "value": 38000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 11832.74
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Wynagrodzenie z funkcji Sekretarza Stanu",
+          "yearlyValue": 227571.33
+        },
+        {
+          "description": "Dochód z tytułu najmu powierzchni (bez małżonki)",
+          "yearlyValue": 103850.0
+        },
+        {
+          "description": "Dochód z gospodarstwa rolnego (dzierżawa łąk) - łącznie z 2 współdzierżawcami (4 osoby)",
+          "yearlyValue": 9470.93
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

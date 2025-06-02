@@ -1,0 +1,64 @@
+{
+  "firstName": "Jarosław",
+  "lastName": "Kaczyński",
+  "dateOfBirth": "1949-06-18T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5490C443EC8E1C8FC1258A51003B9DB6/$File/148.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-09T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/6E7C36491C255A35C1258C6F0057F01C/%24File/OSW102_148.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 380944.00,
+          "baseValue": 380944.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom ok. 150 m²",
+          "value": 2200000.0,
+          "legalTitle": "współwłasność - 1/3 domu"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w Kasie SKOK im. Stefczyka",
+          "value": 45404.47
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie ze stosunku pracy w KPRM",
+          "yearlyValue": 37065.34
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 132321.10
+        },
+        {
+          "description": "Dieta Parlamentarna",
+          "yearlyValue": 45359.26
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 138343.04
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Fundacja Instytut im. Lecha Kaczyńskiego",
+          "businessType": "Fundacja",
+          "description": "Przewodniczący Rady Fundacji od 1997 r.",
+          "income": 0.0
+        }
+      ],
+      "acquiredPropertyFromState": null
+    }
+  ]
+}

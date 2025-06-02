@@ -1,0 +1,83 @@
+{
+  "firstName": "Bartłomiej",
+  "lastName": "Wróblewski",
+  "dateOfBirth": "1975-03-13T00:00:00",
+  "placeOfBirth": "Poznań",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F1853B4624460BB5C1258A51003BA307/$File/440.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A04E00F8797DA29CC1258C7E00397461/%24File/OSW102_440.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 113758.7,
+          "baseValue": 113758.7
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 50.0,
+          "baseValue": 200.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Indywidualne ubezpieczenie na życie Nationale Nederlanden",
+          "quantity": null,
+          "value": 30000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni użytkowej 213,1 m²",
+          "value": 1100000.0,
+          "legalTitle": "własność (z żoną)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 47,79 m²",
+          "value": 300000.0,
+          "legalTitle": "spółdzielcze własnościowe prawo do lokalu"
+        },
+        {
+          "description": "Dwie działki o łącznej powierzchni 0,5956 ha",
+          "value": 416920.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Trzy działki o łącznej powierzchni 0,9423 ha (teren na drogi dojazdowe)",
+          "value": 20000.0,
+          "legalTitle": "udział we własności"
+        },
+        {
+          "description": "Dwie działki o łącznej powierzchni 0,0786 ha, na których znajduje się dom",
+          "value": 509000.0,
+          "legalTitle": "własność (z żoną)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Audi A1, rok produkcji 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie (Kancelaria Sejmu)",
+          "yearlyValue": 162463.65
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 44717.94
+        },
+        {
+          "description": "Dochód z wynajmu mieszkania",
+          "yearlyValue": 29808.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

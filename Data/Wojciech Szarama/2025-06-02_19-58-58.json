@@ -1,0 +1,129 @@
+{
+  "id": null,
+  "firstName": "Wojciech",
+  "lastName": "Szarama",
+  "dateOfBirth": "1955-12-16T00:00:00",
+  "placeOfBirth": "Bytom",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/273EFE9199072011C1258A51003BA198/$File/363.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A6BFCA28F6F34A47C1258C7E003961D8/%24File/OSW102_363.pdf",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 30000.0,
+          "baseValue": 30000.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 55000.0,
+          "baseValue": 55000.0,
+          "description": "IKZE"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "EUR",
+          "currencyValue": 200.0,
+          "baseValue": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "USD",
+          "currencyValue": 1200.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Obligacje Skarbowe",
+          "quantity": null,
+          "value": 950000.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Akcje PL TUI S.A.",
+          "quantity": "935",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dom o powierzchni 165 m²",
+          "value": 950000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Działka o powierzchni 125 m²",
+          "value": 300000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód Opel Astra 2.0, rok 2015",
+          "value": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód Mercedes A200, rok 2023",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Uposażenie",
+          "yearlyValue": 188972.05
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta ROP",
+          "yearlyValue": 67982.90
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta",
+          "yearlyValue": 45543.04
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Ryczałt podróży",
+          "yearlyValue": 394.90
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Wynajem biura",
+          "yearlyValue": 20000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

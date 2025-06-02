@@ -1,0 +1,78 @@
+{
+  "firstName": "Arkadiusz",
+  "lastName": "Sikora",
+  "dateOfBirth": "1973-06-20T00:00:00",
+  "placeOfBirth": "Głubczyce",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4DD5BC13DCC8EA89C1258A51003BA12A/$File/339.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-20T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/827EE69A7E8D4758C1258C75006E24FA/%24File/OSW102_339.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 52500.0,
+          "baseValue": 52500.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 4892.16,
+          "baseValue": 4892.16
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 500.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Papiery wartościowe (Bioton, LESS, ONESANO, SANWIL)",
+          "quantity": "różne ilości akcji",
+          "value": 25150.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 165,49 m² wraz z dwoma budynkami gospodarczymi na gruntach o powierzchni 0,3 ha",
+          "value": 263581.0,
+          "legalTitle": "współwłasność 1/10"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 100,2 m²",
+          "value": 550000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy (wspólnie z małżonką) na 25 lat w PKO BP S.A. (oprocentowanie stałe 2,67%)",
+          "value": 375217.15
+        },
+        {
+          "description": "Pożyczka z Zakładowego Funduszu Świadczeń Socjalnych (oprocentowanie 2%)",
+          "value": 20400.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód SKODA OCTAVIA KOMBI 1.6, rok produkcji 2008",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 191665.63
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 48099.96
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

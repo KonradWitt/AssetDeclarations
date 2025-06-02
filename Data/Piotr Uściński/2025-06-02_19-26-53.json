@@ -1,0 +1,114 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Uściński",
+  "dateOfBirth": "1977-05-20T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A5B40A66FE363964C1258A51003BA25E/$File/405.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/DCE46A0DE8F6C0A4C1258C7C003A3058/%24File/OSW102_405.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 217000.00,
+          "baseValue": 217000.00,
+          "description": null
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 26989.12,
+          "baseValue": 26989.12,
+          "description": "PPK"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 400.00,
+          "baseValue": 1720.00,
+          "description": null
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 80.00,
+          "baseValue": 400.00,
+          "description": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 337 m² wraz z działką",
+          "value": 1230000.00,
+          "legalTitle": "3/10 własność (majątek odrębny), 6/10 własność (małżeńska wspólność majątkowa)"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 6,3557 ha",
+          "value": 200000.00,
+          "legalTitle": "własność (małżeńska wspólność majątkowa)"
+        },
+        {
+          "description": "Działki z udziałem w drodze o powierzchni 2149 m² oraz ½ udziału w działce o powierzchni 231 m²",
+          "value": 95000.00,
+          "legalTitle": "własność (małżeńska wspólność majątkowa)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w mBank z 2007 roku, w związku z zakupem udziału w nieruchomości",
+          "value": 176049.03
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Audi A4, rok 2017",
+          "value": null
+        },
+        {
+          "description": "Samochód Citroen C5, rok 2007",
+          "value": null
+        },
+        {
+          "description": "Samochód Ford Edge, rok 2020",
+          "value": null
+        },
+        {
+          "description": "Samochód Mercedes 313, rok 2000",
+          "value": null
+        },
+        {
+          "description": "Przyczepa kempingowa Hobby 460, rok 1992",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z Ministerstwa Rozwoju i Technologii (MRIT)",
+          "yearlyValue": 56420.66
+        },
+        {
+          "description": "Dochód z wykładów na UTH",
+          "yearlyValue": 11200.00
+        },
+        {
+          "description": "Nagroda jubileuszowa (za 20 lat pracy)",
+          "yearlyValue": 12356.00
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Dieta poselska (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta poselska (opodatkowana)",
+          "yearlyValue": 12099.96
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

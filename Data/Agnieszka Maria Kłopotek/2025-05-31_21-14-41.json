@@ -1,0 +1,89 @@
+{
+  "firstName": "Agnieszka",
+  "lastName": "Kłopotek",
+  "dateOfBirth": "1969-04-09T00:00:00",
+  "placeOfBirth": "Tarnów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4685C16063D2E17BC1258A51003B9E03/$File/164.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/52E72C71629DFF60C1258C75006DE994/%24File/OSW102_164.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 16800.0,
+          "baseValue": 16800.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom",
+          "value": 600000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie",
+          "value": null,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Budynek gospodarczy z domem",
+          "value": null,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Działka",
+          "value": 40000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Działka",
+          "value": 50000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w Banku Kasa Oszczędności, Financial Services",
+          "value": 434452.5
+        },
+        {
+          "description": "Pożyczka od Funduszu",
+          "value": 40000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Kodiaq, rok 2019",
+          "value": null
+        },
+        {
+          "description": "Samochód Skoda Kamiq, rok 2021",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu zatrudnienia",
+          "yearlyValue": 1985.5
+        },
+        {
+          "description": "Dochód z tytułu zatrudnienia (PIT 11)",
+          "yearlyValue": 193461.43
+        },
+        {
+          "description": "Dochód z najmu/dzierżawy nieruchomości",
+          "yearlyValue": 9543.04
+        },
+        {
+          "description": "Dochód (PIT 34)",
+          "yearlyValue": 204419.992
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "firstName": "Lidia",
+  "lastName": "Czechak",
+  "dateOfBirth": "1976-02-03T00:00:00",
+  "placeOfBirth": "Jarocin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0F37D104A2750A53C1258B4600586829/$File/468.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1531BE436224C9B0C1258C750042EA08/%24File/OSW102_468.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 352135.93,
+          "baseValue": 352135.93
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 36762.36,
+          "baseValue": 36762.36,
+          "description": "PPK"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały MANUAL PRINT S.P. z o.o.",
+          "quantity": "5%",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 160 m²",
+          "value": 500000.00,
+          "legalTitle": "własność – majątek odrębny"
+        },
+        {
+          "description": "Działka 0,14 ar pod domem; garaż (stan surowy zamknięty)",
+          "value": null,
+          "legalTitle": "własność - majątek odrębny"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód LEXUS IS 200t, rok 2015",
+          "value": null
+        },
+        {
+          "description": "Samochód SUBARU FORESTER, rok 2006",
+          "value": null
+        },
+        {
+          "description": "Przyczepa kempingowa Kanus, rok 2005",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z tytułu zatrudnienia w Starostwie Powiatowym w Jarocinie",
+          "yearlyValue": 214773.68
+        },
+        {
+          "description": "Dieta parlamentarna z tytułu zatrudnienia przez Kancelarię Sejmu",
+          "yearlyValue": 23508.01
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 88286.48
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

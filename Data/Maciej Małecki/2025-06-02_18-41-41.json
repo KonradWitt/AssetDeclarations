@@ -1,0 +1,124 @@
+{
+  "firstName": "Maciej",
+  "lastName": "Małecki",
+  "dateOfBirth": "1974-10-09T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/96E205F6600CFAB5C1258A51003B9F33/$File/230.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2EABCE1C8F04577CC1258C76005153EE/%24File/OSW102_230.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 294000.0,
+          "baseValue": 294000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 112 m² (rok budowy 1970)",
+          "value": null,
+          "legalTitle": "własność - przekazany w rodzinie"
+        },
+        {
+          "description": "Mieszkanie 63 m²",
+          "value": 450000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 25 m²",
+          "value": 220000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 25 m²",
+          "value": 220000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 48 m²",
+          "value": 330000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Garaż murowany",
+          "value": 40000.0,
+          "legalTitle": null
+        },
+        {
+          "description": "Gospodarstwo rolne 1.93 ha",
+          "value": 150000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Gospodarstwo rolne 17.7468 ha",
+          "value": null,
+          "legalTitle": "własność - przekazane w rodzinie"
+        },
+        {
+          "description": "Nieruchomość 0.38 ha",
+          "value": 180000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Nieruchomość 0.0776 ha z domem (rok budowy ok. 1950, w trakcie remontu/rozbudowy)",
+          "value": 380000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Nieruchomość 0.0781 ha",
+          "value": 120000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Nieruchomość 0.1 ha",
+          "value": 40000.0,
+          "legalTitle": null
+        },
+        {
+          "description": "Nieruchomość 0.1 ha",
+          "value": 40000.0,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód WV Passat 2.0 TDI, rok produkcji 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie (Sejm RP)",
+          "yearlyValue": 170443.07
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45145.49
+        },
+        {
+          "description": "Przychód z tytułu limitu na zagraniczne podróże służbowe",
+          "yearlyValue": 151.31
+        },
+        {
+          "description": "Dochód z Ministerstwa Aktywów Państwowych",
+          "yearlyValue": 44974.95
+        },
+        {
+          "description": "Dochód z wynajmu mieszkań",
+          "yearlyValue": 35400.0
+        },
+        {
+          "description": "Dopłaty rolne",
+          "yearlyValue": 1743.39
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

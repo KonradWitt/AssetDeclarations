@@ -1,0 +1,88 @@
+{
+  "firstName": "Katarzyna",
+  "lastName": "Kierzek-Koperska",
+  "dateOfBirth": "1974-06-09T00:00:00",
+  "placeOfBirth": "Września",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CE492A8261291EB4C1258A51003B9DF3/$File/161.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-21T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/783BD01AD12F72FCC1258C740051D051/%24File/OSW102_161.pdf",
+      "position": "Poseł na Sejm RP",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 7945.36,
+          "baseValue": 7945.36
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 265.31,
+          "baseValue": 1140.83
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 70 m²",
+          "value": 1000000.0,
+          "legalTitle": "WŁASNOŚĆ - MAJĄTEK OSOBISTY"
+        },
+        {
+          "description": "Mieszkanie 42 m² (80% udziału) oraz udział w hali garażowej (1/46)",
+          "value": 500000.0,
+          "legalTitle": "80% UDZIAŁU W MIESZKANIU + UDZIAŁ W HALI GARAŻOWEJ 1/46 MAJĄTEK OSOBISTY"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w mBank",
+          "value": 191731.12
+        },
+        {
+          "description": "Kredyt konsumpcyjny w BNP Paribas",
+          "value": 10017.17
+        },
+        {
+          "description": "Kredyt konsumpcyjny w Alior Bank",
+          "value": 35741.58
+        },
+        {
+          "description": "Pożyczka z FGŚP",
+          "value": 11666.70
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Renault Captur, rok produkcji 2023",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 185160.57
+        },
+        {
+          "description": "Dieta poselska (wolna od podatku)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta poselska (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Najem lokalu mieszkalnego",
+          "yearlyValue": 16700.0
+        },
+        {
+          "description": "Wynagrodzenie za realizację celów zarządczych w WFR Sp. z o.o. (za okres 01.01-18.10.2023)",
+          "yearlyValue": 42236.25
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "firstName": "Andrzej",
+  "lastName": "Gut-Mostowy",
+  "dateOfBirth": "1960-10-30T00:00:00",
+  "placeOfBirth": "Zakopane",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/443031D2BE4CF7AFC1258A51003B9D30/$File/121.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/324F1077F9E256E8C1258C81003A3D37/%24File/OSW102_121.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 4600000.0,
+          "baseValue": 4600000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 8000.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 3000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 340 m²",
+          "value": 2580000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 90 m²",
+          "value": 1500000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działki o różnej powierzchni",
+          "value": 21530000.0,
+          "legalTitle": "współwłasność/własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes G, rok 1994",
+          "value": null
+        },
+        {
+          "description": "Samochód Jeep Wrangler, rok 2015",
+          "value": null
+        },
+        {
+          "description": "Samochód BMW 7, rok 2017",
+          "value": null
+        },
+        {
+          "description": "Samochód Mercedes L, rok 2024",
+          "value": null
+        },
+        {
+          "description": "Kamper Hymer Grand Canyon, rok 2024",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 43969.75
+        },
+        {
+          "description": "Przychody z najmu",
+          "yearlyValue": 3128415.66
+        },
+        {
+          "description": "MSST",
+          "yearlyValue": 62613.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Sabota Api Bożena Gut-Mostowy, M. Furman",
+          "businessType": "spółka cywilna",
+          "description": "Udział 10%",
+          "income": 634381.44
+        }
+      ]
+    }
+  ]
+}

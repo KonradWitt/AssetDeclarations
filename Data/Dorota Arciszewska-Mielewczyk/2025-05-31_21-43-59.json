@@ -1,0 +1,98 @@
+{
+  "firstName": "Dorota",
+  "lastName": "Arciszewska-Mielewczyk",
+  "dateOfBirth": "1968-02-16T00:00:00",
+  "placeOfBirth": "Gdynia",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6C60F1F6FA445241C1258A51003B9B15/$File/005.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8AF7DF39ACDEDA11C1258C7E0038CDF1/%24File/OSW102_005.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 488604.0,
+          "baseValue": 488604.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w Polskie Północne Pierze i Puch sp. z o.o. w Borczu",
+          "quantity": "5346",
+          "value": null
+        },
+        {
+          "name": "Udziały w IBS Sp. z o.o. w Borczu",
+          "quantity": "1282",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 563 m²",
+          "value": 6500000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 236,61 m² wraz z udziałem w nieruchomości wspólnej",
+          "value": 400000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 1.42 ha",
+          "value": 480000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 0.1001 ha",
+          "value": 50000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy w PKO",
+          "value": 227126.59
+        },
+        {
+          "description": "Kredyt w rachunku karty kredytowej",
+          "value": 24077.0
+        },
+        {
+          "description": "Zobowiązania wchodzące w skład masy spadkowej po zmarłym mężu (przedmiot sporu z ZUS)",
+          "value": 313526.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes Benz CLA 180, rok prod. 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Przychody ze stosunku pracy i działalności wykonywanej osobiście (Sejm RP, w tym dieta parlamentarna)",
+          "yearlyValue": 199755.0
+        },
+        {
+          "description": "Przychody ze stosunku pracy i działalności wykonywanej osobiście (Polskie Linie Oceaniczne S.A.)",
+          "yearlyValue": 144219.61
+        },
+        {
+          "description": "Przychody z najmu prywatnego",
+          "yearlyValue": 72000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Energa-Operator S.A.",
+          "businessType": "spółka handlowa",
+          "description": "Członek Rady Nadzorczej Energa-Operator S.A. (od 13.05.2022r do 06.05.2024)",
+          "income": 35189.38
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "firstName": "Jacek",
+  "lastName": "Osuch",
+  "dateOfBirth": "1958-08-23T00:00:00",
+  "placeOfBirth": "Kusav",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E0C27F628A2AC43CC1258A51003BA014/$File/278.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C2C3C507D610AC14C1258C750046BBFB/%24File/OSW102_278.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 400000.0,
+          "baseValue": 400000.0,
+          "description": "w tym lokaty"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje",
+          "quantity": null,
+          "value": 334000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 160 m²",
+          "value": 100066.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie",
+          "value": 260000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka rolna o powierzchni 1233 m²",
+          "value": 80000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka rolno-leśna o powierzchni 5217 m²",
+          "value": 30000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Corolla, rok 2022",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45526.16
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 139388.11
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

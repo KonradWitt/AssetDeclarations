@@ -1,0 +1,71 @@
+{
+  "firstName": "Grzegorz",
+  "lastName": "Piechowiak",
+  "dateOfBirth": "1963-09-14T00:00:00",
+  "placeOfBirth": "Piła",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E4BFFC29660D5703C1258A51003BA048/$File/289.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/B5884AA1E477239EC1258C6000446057/%24File/OSW102_289.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 185470.16,
+          "baseValue": 185470.16
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1000.0,
+          "baseValue": 4300.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 320 m²",
+          "value": 1000000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka pod domem o powierzchni 1362 m²",
+          "value": 200000.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w EUR na budowę domu w Santander Bank",
+          "value": 32263.08
+        },
+        {
+          "description": "Pożyczka z Kancelarii Sejmu",
+          "value": 40000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Peugeot 508, rok 2016",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Peugeot 3008, rok 2020",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska, uposażenie i praca na etacie",
+          "yearlyValue": 213193.12
+        },
+        {
+          "description": "Działalność wykonywana osobiście",
+          "yearlyValue": 9359.27
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

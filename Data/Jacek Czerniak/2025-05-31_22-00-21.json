@@ -1,0 +1,81 @@
+{
+  "firstName": "Jacek",
+  "lastName": "Czerniak",
+  "dateOfBirth": "1964-08-30T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/628F5A74FB5FAEAAC1258A51003B9C16/$File/059.jpg",
+  "partyId": 3,
+  "position": "Sekretarz Stanu",
+  "employer": "Ministerstwo Rolnictwa i Rozwoju Wsi",
+  "address": null,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EECE489E74BAAADEC1258C7B0041CFF1/%24File/OSW102_059.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 100000.0,
+          "baseValue": 100000.0,
+          "description": null
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 32202.70,
+          "baseValue": 32202.70,
+          "description": "Kapitał emerytalny (żona)"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Garaż 500 m²",
+          "value": 20000.0,
+          "legalTitle": "wspólność majątkowa małżeńska"
+        },
+        {
+          "description": "Działka 500 m²",
+          "value": 20000.0,
+          "legalTitle": "wspólność majątkowa małżeńska"
+        },
+        {
+          "description": "2 budynki użytkowe",
+          "value": 100000.0,
+          "legalTitle": "wspólność majątkowa małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń dla Posłów (pierwotna kwota 40 000 PLN), do spłaty",
+          "value": 24480.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda CX-5, rok produkcji 2015",
+          "value": 80000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z zatrudnienia (Ministerstwo Rolnictwa i Rozwoju Wsi)",
+          "yearlyValue": 207097.27
+        },
+        {
+          "description": "Dochód z zatrudnienia (Kancelaria Sejmu)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dieta parlamentarna (w tym nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Uposażenie poselskie (nieopodatkowane)",
+          "yearlyValue": 12099.196
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

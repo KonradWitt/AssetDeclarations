@@ -1,0 +1,210 @@
+{
+  "firstName": "Artur",
+  "lastName": "Łącki",
+  "dateOfBirth": "1961-12-05T00:00:00",
+  "placeOfBirth": "Trzebiatów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B215702E27FC6CCAC1258A51003B9F0B/$File/220.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/ADBEA4C640C718C1C1258C8400366EEA/%24File/OSW102_220.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 1142393.38,
+          "baseValue": 1142393.38
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 483163.20,
+          "baseValue": 2077601.76
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 8.29,
+          "baseValue": 33.16
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje skarbowe",
+          "quantity": null,
+          "value": 2000000.0,
+          "currency": "PLN"
+        },
+        {
+          "name": "Wierzytelności",
+          "quantity": null,
+          "value": 600000.0,
+          "currency": "PLN"
+        },
+        {
+          "name": "Akcje",
+          "quantity": null,
+          "value": 450000.0,
+          "currency": "EUR"
+        },
+        {
+          "name": "Udziały Baltic Gryf Apartments Spółka z o.o.",
+          "quantity": "150",
+          "value": null,
+          "currency": null
+        },
+        {
+          "name": "Akcje RP Staszów SA",
+          "quantity": "11034",
+          "value": null,
+          "currency": null
+        },
+        {
+          "name": "Akcje RP Przeworsk PSA",
+          "quantity": "1492767",
+          "value": null,
+          "currency": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 350 m² na działce 1385 m²",
+          "value": 2500000.0,
+          "legalTitle": "współwłasność małżeńska",
+          "currency": "PLN"
+        },
+        {
+          "description": "Dom o powierzchni 250 m² na działce 584 m²",
+          "value": 1500000.0,
+          "legalTitle": "własność",
+          "currency": "PLN"
+        },
+        {
+          "description": "Dwa mieszkania (66 m² i 22 m² z gankiem + 29 m²), pięć mieszkań (66 m² z tarasem), ogród, 7 miejsc garażowych, magazyn",
+          "value": 2500000.0,
+          "legalTitle": "współwłasność małżeńska",
+          "currency": "EUR"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 132,50 m²",
+          "value": 250000.0,
+          "legalTitle": "współwłasność małżeńska",
+          "currency": "EUR"
+        },
+        {
+          "description": "Gospodarstwo rolne (użytki zielone) o powierzchni 1,47 ha, niezabudowane",
+          "value": 75000.0,
+          "legalTitle": "własność",
+          "currency": "PLN"
+        },
+        {
+          "description": "Nieruchomości: 25786 m² (współwłasność małżeńska), 6051 m² działki budowlane (własność + udziały w drodze dojazdowej), 4860 m² (własność)",
+          "value": 64000000.0,
+          "legalTitle": "współwłasność małżeńska, własność",
+          "currency": "PLN"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt inwestycyjny w Santander",
+          "value": 291107.98,
+          "currency": "EUR"
+        },
+        {
+          "description": "Kredyt mieszkaniowy",
+          "value": 96796.63,
+          "currency": "PLN"
+        },
+        {
+          "description": "Pożyczki inwestycyjne w Polskiej Fundacji Przedsiębiorczości Szczecin",
+          "value": 49916.00,
+          "currency": "PLN"
+        },
+        {
+          "description": "Pożyczki inwestycyjne w Polskiej Fundacji Przedsiębiorczości Szczecin",
+          "value": 509000.00,
+          "currency": "PLN"
+        },
+        {
+          "description": "Zobowiązanie wobec Gminy Rewal",
+          "value": 24554.77,
+          "currency": "PLN"
+        },
+        {
+          "description": "Zobowiązanie wobec Starostwa Gryfice",
+          "value": 186410.00,
+          "currency": "PLN"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes EQC, rok 2020",
+          "value": null
+        },
+        {
+          "description": "Samochód Land Rover Range Rover, rok 2019",
+          "value": null
+        },
+        {
+          "description": "Samochód Jeep Grand Cherokee, rok 2016",
+          "value": null
+        },
+        {
+          "description": "Samochód BMW 4 Cabrio, rok 2014",
+          "value": null
+        },
+        {
+          "description": "Samochód Infiniti Q50, rok 2015",
+          "value": null
+        },
+        {
+          "description": "Zegarki (IWC, Rolex, Rado, Hublot, Geneve)",
+          "value": null
+        },
+        {
+          "description": "Obraz olejny - antyk",
+          "value": null
+        },
+        {
+          "description": "Grafika (1 sztuka)",
+          "value": null
+        },
+        {
+          "description": "Rzeźby (2 sztuki)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (PIT R)",
+          "yearlyValue": 47966.35
+        },
+        {
+          "description": "Dochód (PIT 11)",
+          "yearlyValue": 173580.13
+        },
+        {
+          "description": "Dochód (PIT 38)",
+          "yearlyValue": 112173.80
+        },
+        {
+          "description": "Dochód (PIT 37)",
+          "yearlyValue": 183153.17
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Baltic Gryf Apartments Spółka z o.o. Spółka komandytowa",
+          "businessType": "spółka komandytowa",
+          "description": "Wniesiony wkład: 1000,00 zł",
+          "income": 0.0
+        },
+        {
+          "businessName": "Baltic Gryf Apartments Spółka z o.o.",
+          "businessType": "spółka z o.o.",
+          "description": "Członek zarządu od 25.08.2017, siedziba: Szczecin ul. Aleja Papieża Jana Pawła II 19/2, PKD 55.10.Z",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "firstName": "Michał",
+  "lastName": "Kołodziejczak",
+  "dateOfBirth": "1988-09-14T00:00:00",
+  "placeOfBirth": "Sieradz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CB80F5200C99F999C1258A51003B9E1F/$File/170.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7D8FDDD23B65386AC1258C7A003D393D/%24File/OSW102_170.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 417205.70,
+          "baseValue": 417205.70
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w Nowoczesny Rolnik Sp. z o.o.",
+          "quantity": "95",
+          "value": null
+        },
+        {
+          "name": "Udziały w Startup Rolniczy Sp. z o.o.",
+          "quantity": "950",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Gospodarstwo rolne o powierzchni 28.8 ha",
+          "value": 8100000.00,
+          "legalTitle": "własność, współwłasność, dzierżawa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt inwestycyjny na zakup ziemi w Banku Spółdzielczym, spłata do 30.06.2036",
+          "value": 312000.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Ciągnik rolniczy John Deere 6095M, rok 2017",
+          "value": null
+        },
+        {
+          "description": "Rozrzutnik obornika Pronar N262/1, rok 2017",
+          "value": null
+        },
+        {
+          "description": "Przyczepa samozbierająca Pöttinger Europrofi 5000, rok 2013",
+          "value": null
+        },
+        {
+          "description": "Wyposażenie gospodarstwa rolnego (maszyny i urządzenia rolnicze)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dochód z Kancelarii Sejmu",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Deputaty z Agencji Mienia Wojskowego",
+          "yearlyValue": 9703.13
+        },
+        {
+          "description": "Zatrudnienie w Ministerstwie Rolnictwa i Rozwoju Wsi",
+          "yearlyValue": 18399.60
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Gospodarstwo rolne Michała Kołodziejczaka",
+          "businessType": "gospodarstwo rolne",
+          "description": "Prowadzenie gospodarstwa rolnego",
+          "income": -55044.52
+        },
+        {
+          "businessName": "Nowoczesny Rolnik Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 15.03.2020",
+          "income": null
+        },
+        {
+          "businessName": "Startup Rolniczy Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 23.06.2020",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

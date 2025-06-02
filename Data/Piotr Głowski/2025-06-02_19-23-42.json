@@ -1,0 +1,98 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Głowski",
+  "dateOfBirth": "1967-07-22T00:00:00",
+  "placeOfBirth": "Bydgoszcz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1E3365F3DCB5C3D1C1258A51003B9CD0/$File/102.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-16T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/3C9A31021E8E039BC1258C7500442FDA/%24File/OSW102_102.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 605000.0,
+          "baseValue": 605000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 27500.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 29500.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 400 m² na działce 9336 m²",
+          "value": 1500000.0,
+          "legalTitle": "współwłasność (objęte małżeńską wspólnością majątkową)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 55 m²",
+          "value": 250000.0,
+          "legalTitle": "współwłasność (objęte małżeńską wspólnością majątkową)"
+        },
+        {
+          "description": "Gospodarstwo rolne (ogólnorolne) o powierzchni 86 ha, zabudowane budynkami mieszkalnymi i gospodarczymi",
+          "value": 300000.0,
+          "legalTitle": "współwłasność (objęte małżeńską wspólnością majątkową), gospodarstwo rodzinne, dzierżawa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 54 m²",
+          "value": 1000000.0,
+          "legalTitle": "współwłasność (objęte małżeńską wspólnością majątkową)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w banku PEKAO SA na zakup nieruchomości, objęty małżeńską wspólnością majątkową",
+          "value": 175336.0
+        },
+        {
+          "description": "Kredyt w banku SGB na działalność bieżącą gospodarstwa rolnego Magdaleny Głowskiej, objęty wspólnością majątkową",
+          "value": 200000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Nissan Navara, rok produkcji 2004",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Land Rover, rok produkcji 2013",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z umowy o pracę",
+          "yearlyValue": 206018.22
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Dochód z najmu i dzierżawy",
+          "yearlyValue": 25892.79
+        },
+        {
+          "description": "Inne dochody",
+          "yearlyValue": 402.72
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "firstName": "Jacek",
+  "lastName": "Niedźwiedzki",
+  "dateOfBirth": "1975-06-13T00:00:00",
+  "placeOfBirth": "Suwałki",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/46F47EEFE04DE2BAC1258A51003B9FBD/$File/259.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/5D1E1B99606EBB56C1258C76004E86C9/%24File/OSW102_259.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 45000.00,
+          "baseValue": 45000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 7.31,
+          "baseValue": 31.43
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 69 m²",
+          "value": 400000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 58 m²",
+          "value": 320000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 685 m²",
+          "value": 130000.00,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na budowę domu zaciągnięty w Banku Spółdzielczym w Suwałkach",
+          "value": 61375.84
+        },
+        {
+          "description": "Pożyczka zaciągnięta w Kancelarii Sejmu",
+          "value": 16800.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Subaru Legacy, rok 2009",
+          "value": null
+        },
+        {
+          "description": "Samochód Kia Rio, rok 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 154064.27
+        },
+        {
+          "description": "Rada Programowa Polskiego Radia Białystok",
+          "yearlyValue": 3042.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

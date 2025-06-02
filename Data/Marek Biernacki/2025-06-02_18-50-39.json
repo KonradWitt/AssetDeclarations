@@ -1,0 +1,72 @@
+{
+  "firstName": "Marek",
+  "lastName": "Biernacki",
+  "dateOfBirth": "1959-04-28T00:00:00",
+  "placeOfBirth": "Sopot",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/EB0C25FB0B308221C1258A51003B9B53/$File/018.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2024-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/BE9665FE3FCB790FC1258C750044DBFB/%24File/OSW102_018.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 773500.0,
+          "baseValue": 773500.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 5000.0,
+          "baseValue": 20204.5
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1000.0,
+          "baseValue": 4339.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 253 m²",
+          "value": 700000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 1095 m²",
+          "value": 90000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 1127 m²",
+          "value": 215000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Mitsubishi Eclipse Cross",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 58547.16
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 183489.66
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "firstName": "Agnieszka",
+  "lastName": "Wojciechowska van Heukelom",
+  "dateOfBirth": "1964-08-30T00:00:00",
+  "placeOfBirth": "Poznań",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/942CEE001C9A9938C1258A51003BA2E0/$File/432.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A3901AC8509654A2C1258C7700352E86/%24File/OSW102_432.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 23856.10,
+          "baseValue": 23856.10
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 7.30,
+          "baseValue": 31.39
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 98.2 m²",
+          "value": 236000.00,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie 73 m²",
+          "value": 438000.00,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Gospodarstwo rolne 348 m²",
+          "value": 10000.00,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Inna nieruchomość 53 m²",
+          "value": 318000.00,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP",
+          "value": 52512.00,
+          "currency": "CHF"
+        },
+        {
+          "description": "Kredyt hipoteczny w ABN Amro",
+          "value": 95094.00,
+          "currency": "EUR"
+        },
+        {
+          "description": "Kaucja",
+          "value": 37400.00,
+          "currency": "PLN"
+        },
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych",
+          "value": null,
+          "currency": "PLN"
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 105469.08
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 46332.81
+        },
+        {
+          "description": "Świadczenie emerytalne",
+          "yearlyValue": 51721.01
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 7
+}

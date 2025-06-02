@@ -1,0 +1,105 @@
+{
+  "firstName": "Ryszard",
+  "lastName": "Petru",
+  "dateOfBirth": "1972-07-06T00:00:00",
+  "placeOfBirth": "Wrocław",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/92C7176690BF223AC1258A51003BA038/$File/286.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1D2B218B284BB95CC1258C7A002B1FB5/%24File/OSW102_286.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 60474.0,
+          "baseValue": 60474.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 20379.0,
+          "baseValue": 87629.7
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 75.0,
+          "baseValue": 375.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 12.0,
+          "baseValue": 46.8
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały PETRU I ZIENTEK CAPITAL PARTNERS sp. z o.o.",
+          "quantity": "25",
+          "value": 12500.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 380 m², wraz z działką o pow. 0,0422 ha",
+          "value": 5000000.0,
+          "legalTitle": "współwłasność (udział 1/2)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 98,52 m², w tym miejsce postojowe w garażu wielostanowiskowym",
+          "value": 4000000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 72,7 m², w tym miejsce postojowe",
+          "value": 1500000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w mBank",
+          "value": 298464.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Rower Specialized",
+          "value": 14000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Przychód z jednoosobowej działalności gospodarczej „Petru Finanse”",
+          "yearlyValue": 2379101.91
+        },
+        {
+          "description": "Dieta parlamentarna (Sejm RP)",
+          "yearlyValue": 45201.03
+        },
+        {
+          "description": "Dochód z wynajmu mieszkania",
+          "yearlyValue": 181200.0
+        },
+        {
+          "description": "Prawa autorskie i inne",
+          "yearlyValue": 4188.44
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Petru Finanse",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Prowadzenie jednoosobowej działalności gospodarczej",
+          "income": 2379101.91
+        },
+        {
+          "businessName": "Fundacja INSTYTUT MYŚLI LIBERALNEJ",
+          "businessType": "fundacja",
+          "description": "Członek zarządu fundacji",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

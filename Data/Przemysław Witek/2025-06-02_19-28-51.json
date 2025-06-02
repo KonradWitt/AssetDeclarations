@@ -1,0 +1,96 @@
+{
+  "firstName": "Przemysław",
+  "lastName": "Witek",
+  "dateOfBirth": "1978-03-16T00:00:00",
+  "placeOfBirth": "Lubliniec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/66F216A5E20EE117C1258A51003BA2D3/$File/429.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A133737E7B9E6F44C1258C7C0047A204/%24File/OSW102_429.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 2543.59,
+          "baseValue": 2543.59,
+          "description": "Na rachunku bankowym"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 12320.0,
+          "baseValue": 12320.0,
+          "description": "Gotówka"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 400258.31,
+          "baseValue": 400258.31,
+          "description": "Kwota składek na ubezpieczenie emerytalne"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 162698.72,
+          "baseValue": 162698.72,
+          "description": "Subkonto emerytalne"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 120 m² wraz z działką 700 m²",
+          "value": null,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP",
+          "value": 110759.94
+        },
+        {
+          "description": "Pożyczka gotówkowa w PKO BP",
+          "value": 66726.40
+        },
+        {
+          "description": "Pożyczka gotówkowa w PKO BP",
+          "value": 15892.30
+        },
+        {
+          "description": "Pożyczka gotówkowa w PKO BP",
+          "value": 41900.26
+        },
+        {
+          "description": "Karta kredytowa MasterCard Platinum w PKO BP (limit)",
+          "value": 11000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "3 zegarki (Raolo, Maurice Lacroix)",
+          "value": null
+        },
+        {
+          "description": "Kolekcja obrazów DIETA MÜLLER BERG",
+          "value": null
+        },
+        {
+          "description": "Zestaw muzyczny Cambridge Audio",
+          "value": null
+        },
+        {
+          "description": "Płaszcz Burberry",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu wykonywania mandatu posła (Sejm RP)",
+          "yearlyValue": 164109.57
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "firstName": "Katarzyna",
+  "lastName": "Ueberhan",
+  "dateOfBirth": "1975-08-26T00:00:00",
+  "placeOfBirth": "Poznań",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F78FD9B26999376FC1258A51003BA252/$File/402.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/0055A79EF0664CF4C1258C81004932B1/%24File/OSW102_402.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 2500.00,
+          "baseValue": 2500.00
+        },
+        {
+          "currency": "AUD",
+          "currencyValue": 20.00,
+          "baseValue": 53.00
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 50.00,
+          "baseValue": 202.50
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 100.00,
+          "baseValue": 430.00
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały AKTEX sp. z o.o.",
+          "quantity": null,
+          "value": 2000.00
+        },
+        {
+          "name": "Udziały QBE sp. z o.o.",
+          "quantity": null,
+          "value": 5000.00
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 75 m²",
+          "value": 850000.00,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Budynek użytkowy wraz z gruntem i nieużytkami rolnymi, 250 m²",
+          "value": 480000.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Zobowiązanie z tytułu przeniesienia odpowiedzialności ze zmarłej osoby na spadkobiercę (należność główna, odsetki, koszty)",
+          "value": 80000.00
+        },
+        {
+          "description": "Wspólny kredyt hipoteczny w ING SA",
+          "value": 209000.00
+        },
+        {
+          "description": "Wspólny kredyt hipoteczny w PKO SA",
+          "value": 510000.00
+        },
+        {
+          "description": "Pożyczka gotówkowa",
+          "value": 40000.00
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 204791.64
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 48099.96
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "AKTEX sp. z o.o.",
+          "businessType": "spółka z o.o.",
+          "description": "Prokura w zawieszonej, nieprowadzącej działalności spółce",
+          "income": null
+        },
+        {
+          "businessName": "QBE sp. z o.o.",
+          "businessType": "spółka z o.o.",
+          "description": "Członek zarządu (spółka założona w 2014 r., nie podjęła działalności, złożono wnioski o wykreślenie)",
+          "income": null
+        },
+        {
+          "businessName": "Fundacja Republika Różnorodności",
+          "businessType": "fundacja",
+          "description": "Członek zarządu (od 2018 roku, nie prowadzi działalności gospodarczej)",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

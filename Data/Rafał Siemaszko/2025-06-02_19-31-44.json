@@ -1,0 +1,91 @@
+{
+  "firstName": "Rafał",
+  "lastName": "Siemaszko",
+  "dateOfBirth": "1986-09-11T00:00:00",
+  "placeOfBirth": "Wejherowo",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7074D8F637C02683C1258A51003BA11B/$File/336.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4E89627F6CA5EDD2C1258C7C003B805E/%24File/OSW102_336.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 49068.19,
+          "baseValue": 49068.19,
+          "description": "Środki pochodzące z kredytu hipotecznego"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 2500.0,
+          "baseValue": 2500.0,
+          "description": "Gotówka"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "IKZE",
+          "quantity": "1",
+          "value": 10193.84
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 136,45 m² na działce 386,5 m²",
+          "value": 900000.0,
+          "legalTitle": "1/2 własności"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 48,32 m²",
+          "value": 647000.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka na cele mieszkaniowe",
+          "value": 42000.0
+        },
+        {
+          "description": "Kredyt hipoteczny w PKO BP",
+          "value": 719276.82
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy KIA SPORTAGE, rok produkcji 2014",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy RENAULT MEGANE, rok produkcji 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Praca na etacie",
+          "yearlyValue": 150492.13
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45543.04
+        },
+        {
+          "description": "Inne dochody (nieokreślone)",
+          "yearlyValue": 9543.04
+        },
+        {
+          "description": "Inne dochody (nieopodatkowane)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Wypłata z Ubezpieczeniowego Funduszu Kapitałowego (UFK)",
+          "yearlyValue": 58693.20
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

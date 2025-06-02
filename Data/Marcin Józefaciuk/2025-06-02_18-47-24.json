@@ -1,0 +1,71 @@
+{
+  "firstName": "Marcin",
+  "lastName": "Józefaciuk",
+  "dateOfBirth": "1982-10-17T00:00:00",
+  "placeOfBirth": "Łódź",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6DF43C5AA6C4E71EC1258A51003B9DA6/$File/145.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2D50C097547B3F61C1258C7600496924/%24File/OSW102_145.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 85000.0,
+          "baseValue": 85000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 116,61 m²",
+          "value": 600000.0,
+          "legalTitle": "współwłaściciel (1/6 części)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 42,72 m²",
+          "value": 400000.0,
+          "legalTitle": "właściciel"
+        },
+        {
+          "description": "Miejsce parkingowe o powierzchni 12 m²",
+          "value": 15000.0,
+          "legalTitle": "właściciel"
+        },
+        {
+          "description": "Działka pod domem o powierzchni 222 m²",
+          "value": 45000.0,
+          "legalTitle": "współwłaściciel (1/6 części)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Sztabki złota inwestycyjnego",
+          "value": 15000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Umowa zlecenie",
+          "yearlyValue": 1408.0
+        },
+        {
+          "description": "Umowa o pracę",
+          "yearlyValue": 7973.06
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

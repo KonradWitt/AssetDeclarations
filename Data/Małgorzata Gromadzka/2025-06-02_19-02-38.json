@@ -1,0 +1,100 @@
+{
+  "firstName": "Małgorzata",
+  "lastName": "Gromadzka",
+  "dateOfBirth": "1985-03-24T00:00:00",
+  "placeOfBirth": "Tarnogród",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/ED181C74B1648554C1258A51003B9D22/$File/118.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/3427E3AB9BEF9783C1258C76004456FA/%24File/OSW102_118.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 28000.0,
+          "baseValue": 28000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 120 m² wraz z działką 0,25 ha",
+          "value": 450000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Gospodarstwo rolne budowlane 7,51 ha",
+          "value": 460000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Budynek gospodarczy 40 m²",
+          "value": 100000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Las 0,93 ha",
+          "value": 15000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt gotówkowy",
+          "value": 85101.23
+        },
+        {
+          "description": "Kredyt hipoteczny",
+          "value": 155358.0
+        },
+        {
+          "description": "Kredyt inwestycyjny",
+          "value": 30855.27
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Ciągnik sadowniczy Renault Ergos 130, rok produkcji 2000",
+          "value": null
+        },
+        {
+          "description": "Samochód Opel Vivaro, rok produkcji 2006",
+          "value": null
+        },
+        {
+          "description": "Quad CF Moto 625, rok produkcji 2024",
+          "value": null
+        },
+        {
+          "description": "Rozrzutnik sadowniczy Comer Comer, model GR40",
+          "value": null
+        },
+        {
+          "description": "Kosiarka mała KUHN TYP HDS M16, Goryczkowa sadownicza TURBOMATIC",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu zatrudnienia w Urzędzie Miasta Biłgoraja (inspektor ds. społecznych i zdrowia)",
+          "yearlyValue": 38575.75
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 152419.68
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 15679.92
+        },
+        {
+          "description": "Przychód z tytułu zryczałtowanego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 291.60
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

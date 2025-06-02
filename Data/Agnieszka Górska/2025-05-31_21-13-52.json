@@ -1,0 +1,77 @@
+{
+  "firstName": "Agnieszka",
+  "lastName": "Górska",
+  "dateOfBirth": "1976-01-01T00:00:00",
+  "placeOfBirth": "Skarżysko-Kamienna",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/8488DA4935EB193AC1258A51003B9D05/$File/113.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4DB8CAE2B9AED1DAC1258C7C003906DC/%24File/OSW102_113.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 210000000.0,
+          "baseValue": 210000000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 100 m²",
+          "value": 450000.0,
+          "legalTitle": "Akt własności"
+        },
+        {
+          "description": "Dom o powierzchni 128 m²",
+          "value": 500000.0,
+          "legalTitle": "Akt własności"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 104 m²",
+          "value": 150000.0,
+          "legalTitle": "Akt własności"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 100 m²",
+          "value": 150000.0,
+          "legalTitle": "Akt własności"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 120 m²",
+          "value": 200000.0,
+          "legalTitle": "Akt własności"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Sejmu",
+          "value": 29750.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód BMW Serii 3, rok 2019",
+          "value": null
+        },
+        {
+          "description": "Samochód Citroen Berlingo, rok 2011",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 35540.53
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 149209.48
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

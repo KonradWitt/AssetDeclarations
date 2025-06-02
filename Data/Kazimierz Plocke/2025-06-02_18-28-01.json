@@ -1,0 +1,75 @@
+{
+  "firstName": "Kazimierz",
+  "lastName": "Plocke",
+  "dateOfBirth": "1958-05-03T00:00:00",
+  "placeOfBirth": "Domatowo",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/C3B1F10475CC4894C1258A51003BA066/$File/295.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-31T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/96909E7CA8E5DAC1C1258C6000539955/%24File/OSW102_295.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 240620.28,
+          "baseValue": 240620.28
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 14753.91,
+          "baseValue": 14753.91,
+          "description": "Polisa Ubezpieczeniowa w AVIVA"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 290 m² wraz z działką o łącznej powierzchni 2697 m² i 3 domkami letniskowymi",
+          "value": 850000.0,
+          "legalTitle": "wspólność majątkowa"
+        },
+        {
+          "description": "Działka o powierzchni 1080 m² z domem mieszkalnym o powierzchni 140 m² i garażem wolnostojącym (nabyta 28 lipca 2010 r.)",
+          "value": 550000.0,
+          "legalTitle": "wspólność majątkowa"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 34,89 m² (umowa deweloperska z 31 sierpnia 2023 r.)",
+          "value": 584274.70,
+          "legalTitle": "wspólność majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Mitsubishi ASX 1.6 Petrol, rok produkcji 2012",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 195109.51
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 141277.38
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Wynajem pokoi gościnnych",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Działalność gospodarcza prowadzona przez żonę Marię",
+          "income": 191777.0
+        }
+      ]
+    }
+  ]
+}

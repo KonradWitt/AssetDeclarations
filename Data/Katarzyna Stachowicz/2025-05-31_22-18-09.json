@@ -1,0 +1,90 @@
+{
+  "firstName": "Katarzyna",
+  "lastName": "Stachowicz",
+  "dateOfBirth": "1977-07-18T00:00:00",
+  "placeOfBirth": "Sosnowiec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/82B121B8CF899408C1258B25002C6A25/$File/467.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1FA554E0870D5C83C1258C760048D754/%24File/OSW102_467.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 50000.00,
+          "baseValue": 50000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 10000.00,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 45,70 m²",
+          "value": 250000.00,
+          "legalTitle": "właściciel"
+        },
+        {
+          "description": "Działka budowlana 6040 m²",
+          "value": 300000.00,
+          "legalTitle": "Współwłaściciel"
+        },
+        {
+          "description": "Działka budowlana 4700 m² z zabudowaniami (budynek i drogi)",
+          "value": 950000.00,
+          "legalTitle": "Współwłaściciel"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Zegarek Cartier, rok 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z Urzędu Marszałkowskiego w Katowicach",
+          "yearlyValue": 4147.70
+        },
+        {
+          "description": "Dochód z Wojewódzkiego Funduszu Ochrony Środowiska i Gospodarki Wodnej w Katowicach",
+          "yearlyValue": 58587.07
+        },
+        {
+          "description": "Dieta parlamentarna z Kancelarii Sejmu",
+          "yearlyValue": 27939.63
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 100863.12
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "RPNIK Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek zarządu, prezes wiceprezes zarządu (09.01.2019-30.09.2023)",
+          "income": 31362.50
+        },
+        {
+          "businessName": "Wojkowickie Wody Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek rady nadzorczej (26.11.2018-17.05.2024)",
+          "income": 10706.49
+        },
+        {
+          "businessName": "Fundacja Katarzyny Stachowicz Pokonaj Raka",
+          "businessType": "fundacja",
+          "description": "Prezes Zarządu (od 23.05.2022)",
+          "income": 0.00
+        }
+      ]
+    }
+  ]
+}

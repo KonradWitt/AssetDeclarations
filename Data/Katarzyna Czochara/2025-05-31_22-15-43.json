@@ -1,0 +1,93 @@
+{
+  "firstName": "Katarzyna",
+  "lastName": "Czochara",
+  "dateOfBirth": "1969-11-03T00:00:00",
+  "placeOfBirth": "Biała Prudnicka",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2A83C547DC7F04BEC1258A51003B9C23/$File/062.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/29940B76A08214AEC1258C7B004C396A/%24File/OSW102_062.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 4500.0,
+          "baseValue": 4500.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 158000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 350 m²",
+          "value": 1250000.0,
+          "legalTitle": "wspólność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne (hodowla jeleni europejskich) o powierzchni 1.12 ha",
+          "value": 95000.0,
+          "legalTitle": "wspólność małżeńska"
+        },
+        {
+          "description": "Działka pod domem o powierzchni 1130 m²",
+          "value": null,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 5700 m²",
+          "value": null,
+          "legalTitle": "dzierżawa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na remont domu w PKO SA",
+          "value": 29396.38,
+          "currency": "CHF"
+        },
+        {
+          "description": "Karta kredytowa limit w PKO BP",
+          "value": 35000.0,
+          "currency": "PLN"
+        },
+        {
+          "description": "Pożyczka celowa KSS dla posłów",
+          "value": 23596.0,
+          "currency": "PLN"
+        },
+        {
+          "description": "Odroczenie",
+          "value": 23594.86,
+          "currency": "PLN"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Nissan Juke, rok 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45649.92
+        },
+        {
+          "description": "Ryczałt na biuro poselskie",
+          "yearlyValue": 9679.19
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 158743.81
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

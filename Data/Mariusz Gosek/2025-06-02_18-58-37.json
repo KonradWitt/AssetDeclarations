@@ -1,0 +1,60 @@
+{
+  "firstName": "Mariusz",
+  "lastName": "Gosek",
+  "dateOfBirth": "1982-08-20T00:00:00",
+  "placeOfBirth": "Kielce",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CB531DBD5E4839ABC1258A51003B9CF4/$File/109.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/68CE0A251CCDC759C1258C7B004059C1/%24File/OSW102_109.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 103480.00,
+          "baseValue": 103480.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 42 m²",
+          "value": 350000.00,
+          "legalTitle": "Samodzielna własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Corolla, rok produkcji 2017",
+          "value": null
+        },
+        {
+          "description": "Samochód Toyota Camry, rok produkcji 2024",
+          "value": 40813.46
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 44504.18
+        },
+        {
+          "description": "Dochód nieopodatkowany",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dochód opodatkowany",
+          "yearlyValue": 8504.18
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 168808.11
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

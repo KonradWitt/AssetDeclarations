@@ -1,0 +1,72 @@
+{
+  "firstName": "Dariusz",
+  "lastName": "Matecki",
+  "dateOfBirth": "1985-05-20T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/166BB3247603D533C1258A51003B9F43/$File/234.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-05-21T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D0E01D117823BFD7C1258C9100575623/%24File/OSW102_234.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 23211.0,
+          "baseValue": 23211.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 20000.0,
+          "baseValue": 20000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 100.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje Mirbud S.A.",
+          "quantity": "7500",
+          "value": 2.3
+        },
+        {
+          "name": "Obligacje skarbowe",
+          "quantity": null,
+          "value": 181411.38
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup domu, udzielony 23.11.2020 w Alior Banku. Stan zadłużenia na 31.12.2023 r.",
+          "value": 245596.43
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volkswagen Golf, rok 2013",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 44220.53
+        },
+        {
+          "description": "Wynagrodzenie",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Przychody z tytułu najmu",
+          "yearlyValue": 3000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

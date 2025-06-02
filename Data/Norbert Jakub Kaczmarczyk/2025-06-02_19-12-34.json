@@ -1,0 +1,81 @@
+{
+  "firstName": "Norbert",
+  "lastName": "Kaczmarczyk",
+  "dateOfBirth": "1989-11-16T00:00:00",
+  "placeOfBirth": "Prosiecznica",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B32AEA936AD4F605C1258A51003B9DAB/$File/146.jpg",
+  "partyId": 7,
+  "occupation": "Poseł na Sejm RP",
+  "employer": "Właściciel Gospodarstwa Rolnego",
+  "residence": null,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1807C9858FB713CFC1258C750044C4BF/%24File/OSW102_146.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 25968.0,
+          "baseValue": 25968.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 304.2 m² na działce 0.59 ha",
+          "value": null,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie",
+          "value": null,
+          "legalTitle": null
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 17.23 ha, w tym 15.93 ha o wartości 250000 zł i 1.29 ha o wartości 100000 zł, położone w Dzięgielowie. Zabudowa: mieszkalna.",
+          "value": 350000.0,
+          "legalTitle": "Własność, majątek odrębny"
+        },
+        {
+          "description": "Inna nieruchomość (budynek gospodarczy) o powierzchni 86.49 m² na działce 0.59 ha, adres: Pratico 1.",
+          "value": 707804.2,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Pług obracalny Sukow 4.555 Skib Pottinger, rok produkcji 2017",
+          "value": 70000.0
+        },
+        {
+          "description": "Maszyny budowlane i projektowe, wykorzystywane samodzielnie oraz wspólnie z ACFP. Kuma 15, rok produkcji 2017",
+          "value": 30000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (w tym 36000 zł nieopodatkowane, 9573.04 zł opodatkowane)",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 173828.39
+        },
+        {
+          "description": "Dopłata",
+          "yearlyValue": 28997.14
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Gospodarstwo Rolne",
+          "businessType": "Działalność rolnicza",
+          "description": "Właściciel gospodarstwa rolnego",
+          "income": 12000.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Piątkowski",
+  "dateOfBirth": "1969-09-03T00:00:00",
+  "placeOfBirth": "Zgierz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4E489C24F810A722C1258B46005B7451/$File/481.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CF340A42A7B61145C1258C760041D597/%24File/OSW102_481.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 127823.82,
+          "baseValue": 127823.82,
+          "description": "Środki pieniężne zgromadzone w walucie polskiej (wartość polis, IKE, stanowiące małżeńską wspólność majątkową)"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 41465.03,
+          "baseValue": 41465.03,
+          "description": "Środki pieniężne na rachunkach bankowych (stanowiące małżeńską wspólność majątkową)"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2172.11,
+          "baseValue": 9340.07,
+          "description": "Środki pieniężne zgromadzone w walucie obcej (stanowiące małżeńską wspólność majątkową)"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 150 m²",
+          "value": 750000.0,
+          "legalTitle": "współwłasność małżeńska (wartość domu nie uwzględnia wartości gruntu ponieważ położony jest na działce, która jest wyłączną własnością małżonki)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 47 m²",
+          "value": 550000.0,
+          "legalTitle": "współwłasność małżeńska (wraz z udziałem w hali garażowej o powierzchni 25,36 m2 oraz udziałem w gruncie o powierzchni 55,47 m2)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 52 m²",
+          "value": 580000.0,
+          "legalTitle": "współwłasność małżeńska (wraz z miejscem garażowym o powierzchni 27,50 m2 oraz udziałem w gruncie o powierzchni 149 m2)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 105,51 m²",
+          "value": 735000.0,
+          "legalTitle": "współwłasność małżeńska (wraz z udziałem w gruncie wynoszącym 125/1000 części nieruchomości wspólnej wielkości 0,1568 ha) zakupione z środków pochodzących ze sprzedaży nieruchomości będącej wyłączną wartością współmałżonki"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w TOYOTA BANK zaciągnięty na zakup samochodu",
+          "value": 62010.20
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Volvo V60 rocznik 2011 (współwłasność małżeńska)",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Toyota CHR rocznik 2018 (sprzedany w lipcu 2024, współwłasność małżeńska)",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Toyota RAV4 rocznik 2021 (zakupiony w sierpniu 2024, współwłasność małżeńska)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochody z tytułu zatrudnienia",
+          "yearlyValue": 174642.61
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 24718.03
+        },
+        {
+          "description": "Dochód z działalności wykonywanej osobiście (obowiązki społeczne i obywatelskie)",
+          "yearlyValue": 4839.96
+        },
+        {
+          "description": "Dochód ze sprzedaży samochodu Toyota CHR",
+          "yearlyValue": 79000.00
+        },
+        {
+          "description": "Dochody małżonki z tytułu zatrudnienia",
+          "yearlyValue": 156642.45
+        },
+        {
+          "description": "Dochody małżonki z działalności wykonywanej osobiście",
+          "yearlyValue": 240.00
+        },
+        {
+          "description": "Inne dochody małżonki",
+          "yearlyValue": 573.60
+        },
+        {
+          "description": "Przychody małżonki z najmu lub dzierżawy",
+          "yearlyValue": 25458.55
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

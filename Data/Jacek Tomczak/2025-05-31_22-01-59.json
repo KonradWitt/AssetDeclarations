@@ -1,0 +1,61 @@
+{
+  "firstName": "Jacek",
+  "lastName": "Tomczak",
+  "dateOfBirth": "1972-07-17T00:00:00",
+  "placeOfBirth": "Poznań",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F65CB5AC32255A84C1258A51003BA218/$File/390.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/68499322E2643E03C1258C810037816E/%24File/OSW102_390.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 29244.87,
+          "baseValue": 29244.87
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 250 m²",
+          "value": 470000.00,
+          "legalTitle": "udział we współwłasności"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 335 m²",
+          "value": 10000.00,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Dacia Duster 2011",
+          "value": null
+        },
+        {
+          "description": "Samochód Land Rover Range Rover Sport 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 0.00
+        },
+        {
+          "description": "Diety poselskie",
+          "yearlyValue": 45359.28
+        },
+        {
+          "description": "Wynagrodzenie z tytułu zatrudnienia w Ministerstwie Rozwoju i Technologii",
+          "yearlyValue": 224418.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

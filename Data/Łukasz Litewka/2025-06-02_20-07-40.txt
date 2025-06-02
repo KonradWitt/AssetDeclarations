@@ -1,0 +1,1 @@
+error: The first name and last name extracted from the OCR document ("aitenka Lukave") do not match the first name and last name provided in the CSV data ("Łukasz Litewka"). This is a direct contradiction and not a case of a missing second name. According to the instructions, I must return an error in this scenario.

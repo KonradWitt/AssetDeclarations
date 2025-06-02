@@ -1,0 +1,86 @@
+{
+  "firstName": "Fryderyk",
+  "lastName": "Kapinos",
+  "dateOfBirth": "1961-10-31T00:00:00",
+  "placeOfBirth": "Mielec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F531ED7973C47675C1258A51003B9DD7/$File/155.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/90B6E25C258C647BC1258C7600489031/%24File/OSW102_155.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.0,
+          "baseValue": 10000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 140 m²",
+          "value": 450000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 55 m²",
+          "value": 260000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Pawilon handlowy o powierzchni ok. 34 m²",
+          "value": 302022.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka niezabudowana o powierzchni 0,37 ha",
+          "value": 10000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Garaż o powierzchni 20 m²",
+          "value": 58000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Rola niezabudowana nabyta od KOWR",
+          "value": null,
+          "legalTitle": "Własność (nabycie od KOWR)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych",
+          "value": 27200.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda Civic, rok 2006",
+          "value": null
+        },
+        {
+          "description": "Samochód Toyota RAV4, rok 2023",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z wynajmu nieruchomości",
+          "yearlyValue": 18000.0
+        },
+        {
+          "description": "Diety parlamentarne (w tym 36000,00 zł nieopodatkowane, 9573,04 zł opodatkowane)",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150487.13
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

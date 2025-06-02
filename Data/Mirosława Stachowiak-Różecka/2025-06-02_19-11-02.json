@@ -1,0 +1,64 @@
+{
+  "firstName": "Mirosława",
+  "lastName": "Stachowiak-Różecka",
+  "dateOfBirth": "1973-07-03T00:00:00",
+  "placeOfBirth": "Krapkowice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5BA94D6C16084CA6C1258A51003BA171/$File/355.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/22C799CD65FD0BD6C1258C76004994FA/%24File/OSW102_355.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 23000.0,
+          "baseValue": 23000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 167 m² na działce 1200 m²",
+          "value": 900000.0,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny",
+          "value": 450000.0
+        },
+        {
+          "description": "Kredyt gotówkowy",
+          "value": 35000.0
+        },
+        {
+          "description": "Pożyczka",
+          "value": 27000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Wynagrodzenie",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 9573.04
+        },
+        {
+          "description": "Przychód",
+          "yearlyValue": 173580.13
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

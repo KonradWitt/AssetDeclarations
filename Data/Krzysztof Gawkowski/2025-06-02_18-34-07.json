@@ -1,0 +1,83 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Gawkowski",
+  "dateOfBirth": "1980-04-11T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5A273D88344561CCC1258A51003B9C9D/$File/090.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2024-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1BA71790C2850D0FC1258C6E002F4000/%24File/OSW102_090.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 187200.0,
+          "baseValue": 187200.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 350.0,
+          "baseValue": 1512.53
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 200.0,
+          "baseValue": 808.18
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 251,59 m² na działkach o łącznym obszarze 0,1766 ha",
+          "value": 1100000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny z dnia 20.05.2013 w Banku Pekao SA (współkredytobiorca Angelika Rybak-Gawkowska)",
+          "value": 450000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Biblioteka domowa (książki)",
+          "value": 22000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z Kancelarii Prezesa Rady Ministrów",
+          "yearlyValue": 241657.64
+        },
+        {
+          "description": "Uposażenie poselskie (Sejm RP)",
+          "yearlyValue": 66.28
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana i nieopodatkowana)",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Dochód z Uczelni Techniczno-Handlowej (umowa o pracę)",
+          "yearlyValue": 33365.69
+        },
+        {
+          "description": "Stypendium z Uczelni Techniczno-Handlowej",
+          "yearlyValue": 13396.27
+        },
+        {
+          "description": "Dochód z praw autorskich (Helion SA)",
+          "yearlyValue": 130.0
+        },
+        {
+          "description": "Dochód z praw autorskich (Joanna Zimny Bookplan.pl)",
+          "yearlyValue": 2713.03
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

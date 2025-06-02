@@ -1,0 +1,1 @@
+error: Last name mismatch. CSV provides 'Piekarska' while the OCR document shows 'Pieluaska'. According to instructions, this requires an error.

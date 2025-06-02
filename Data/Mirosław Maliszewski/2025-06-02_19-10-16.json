@@ -1,0 +1,117 @@
+{
+  "firstName": "Mirosław",
+  "lastName": "Maliszewski",
+  "dateOfBirth": "1968-02-28T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/39FEF8E20AD7EF7AC1258A51003B9F2D/$File/229.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EB4E8EE7B734BB7EC1258C7E003630DD/%24File/OSW102_229.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 230000.0,
+          "baseValue": 230000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 3.0,
+          "baseValue": 12.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 200.0,
+          "baseValue": 860.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 400 m²",
+          "value": 1100000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne sadownicze o powierzchni 18,80 ha z zabudową gospodarczą",
+          "value": 2800000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w Banku Spółdzielczym Grójec",
+          "value": 100000.0
+        },
+        {
+          "description": "Karta kredytowa w Citi Bank",
+          "value": 20000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy MAZDA 6, rok 2015",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy MAZDA 3, rok 2018 (współwłasność z córką)",
+          "value": null
+        },
+        {
+          "description": "Ciągnik rolniczy URSUS, rok 1995",
+          "value": null
+        },
+        {
+          "description": "Platforma sadownicza, rok 2018",
+          "value": null
+        },
+        {
+          "description": "Opryskiwacz sadowniczy, rok 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Limit na podróże zagraniczne",
+          "yearlyValue": 171.42
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 181703.64
+        },
+        {
+          "description": "Umowy o dzieło",
+          "yearlyValue": 58732.00
+        },
+        {
+          "description": "Prawa autorskie",
+          "yearlyValue": 1769.60
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Związek Sadowników RP",
+          "businessType": "Stowarzyszenie",
+          "description": "Członek zarządu od 1999 roku",
+          "income": 0.0
+        },
+        {
+          "businessName": "Gospodarstwo rolne sadownicze",
+          "businessType": "Gospodarstwo rolne",
+          "description": "Przychód z gospodarstwa rolnego",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

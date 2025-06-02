@@ -1,0 +1,108 @@
+{
+  "id": null,
+  "firstName": "Zofia",
+  "lastName": "Czernow",
+  "dateOfBirth": "1950-06-30T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7782F56137136C3DC1258A51003B9C1B/$File/060.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-18T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/609D2F77B14F0268C1258C750045CC11/%24File/OSW102_060.pdf",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 385325.45,
+          "baseValue": 385325.45
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "USD",
+          "currencyValue": 2836.0,
+          "baseValue": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "EUR",
+          "currencyValue": 62483.20,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Obligacje skarbowe, fundusze inwestycyjne",
+          "quantity": null,
+          "value": 584488.83
+        }
+      ],
+      "realEstate": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Mieszkanie o powierzchni 130 m²",
+          "value": 450000.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód Toyota Yaris, rok 2020",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45649.92
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 183888.88
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Inne podróże służbowe",
+          "yearlyValue": 418.84
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Emerytura",
+          "yearlyValue": 105136.22
+        }
+      ],
+      "receivables": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Pożyczka dla syna Michała",
+          "value": 184000.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Pożyczka dla córki Anny",
+          "value": 158000.0
+        }
+      ],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "firstName": "Aleksandra",
+  "lastName": "Leo",
+  "dateOfBirth": "1981-03-28T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/716937407A712E52C1258A51003B9EE4/$File/211.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/52CC6AFDEDBFA424C1258C7C0056EF37/%24File/OSW102_211.pdf",
+      "description": "Posłanka na Sejm X kadencji",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 172364.92,
+          "baseValue": 172364.92
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 111 m²",
+          "value": 3700000.0,
+          "legalTitle": "50% udział w spółdzielczym własnościowym prawie do lokalu mieszkalnego"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania wskazanego w pkt 2, zaciągnięty w BNP Paribas. Aktualne oprocentowanie 7,08%. Spłata kredytu do marca 2048 r.",
+          "value": 725607.49
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Zegarek marki Rolex, model Cellini, rok 2011",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska opodatkowana",
+          "yearlyValue": 9573.04
+        },
+        {
+          "description": "Dieta poselska nieopodatkowana",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 178421.01
+        },
+        {
+          "description": "Dochody z tytułu najmu",
+          "yearlyValue": 57742.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

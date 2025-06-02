@@ -1,0 +1,120 @@
+{
+  "firstName": "Katarzyna",
+  "lastName": "Osos",
+  "dateOfBirth": "1980-11-17T00:00:00",
+  "placeOfBirth": "Świebodzin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/763B5BED5B744BCEC1258A51003BA010/$File/277.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-03T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E873992A75E7030BC1258C61004DFDED/%24File/OSW102_277.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 68590.0,
+          "baseValue": 68590.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1220.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 3450.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 240 m² wraz z działką o pow. 0,1624 ha i udziałem w drodze wynoszącym 20/280 w działce o pow. 0,1697 ha",
+          "value": 1001000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Budynek mieszkalny o powierzchni 52,5 m² wraz z działką o pow. 0,0488 ha",
+          "value": 270000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Budynek mieszkalny o powierzchni 52,5 m² wraz z działką o pow. 0,0727 ha",
+          "value": 270000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Budynek mieszkalny o powierzchni 52,5 m² wraz z działką o pow. 0,0549 ha",
+          "value": 270000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Budynek mieszkalny o powierzchni 52,5 m² wraz z działką o pow. 0,0531 ha",
+          "value": 280000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Budynek mieszkalny o powierzchni 52,5 m² wraz z działką o pow. 0,0531 ha",
+          "value": 280000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka rolna o powierzchni 0,0532 ha",
+          "value": 20000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka rolna o powierzchni 0,0897 ha",
+          "value": 25000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka rolna o powierzchni 0,0745 ha",
+          "value": 25000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Grunt rolny o powierzchni 0,6426 ha",
+          "value": 25000.0,
+          "legalTitle": "własność – majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka nieoprocentowana zaciągnięta przez współmałżonka od rodziny na budowę",
+          "value": 175000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód VW Passat, rok produkcji 2011",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 189399.60
+        },
+        {
+          "description": "Dieta parlamentarna (całkowita)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychód z wynajmu",
+          "yearlyValue": 77000.0
+        },
+        {
+          "description": "Świadczenie z programu 800+",
+          "yearlyValue": 19200.0
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 173.85
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

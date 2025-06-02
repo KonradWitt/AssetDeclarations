@@ -1,0 +1,58 @@
+{
+  "firstName": "Witold",
+  "lastName": "Tumanowicz",
+  "dateOfBirth": "1986-01-06T00:00:00",
+  "placeOfBirth": "Lublin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A9C17A3212A4D450C1258A51003BA244/$File/399.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/AA6A091BC50006E0C1258C7C004AEC55/%24File/OSW102_399.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 53211.22,
+          "baseValue": 53211.22,
+          "description": "Środki na rachunkach bankowych"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 38007.0,
+          "baseValue": 38007.0,
+          "description": "Środki w gotówce"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Kredyt na zakup samochodu w Santander Consumer Bank SA",
+          "value": 59483.15
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Miejsce grzebalne na cmentarzu",
+          "value": 16200.0
+        },
+        {
+          "description": "Samochód Mazda 2 Hybrid, rok 2022",
+          "value": 89900.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 158914.93
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 9573.04
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

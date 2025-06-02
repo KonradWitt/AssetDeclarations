@@ -1,0 +1,45 @@
+{
+  "firstName": "Aleksandra",
+  "lastName": "Kot",
+  "dateOfBirth": "2000-02-17T00:00:00",
+  "placeOfBirth": "Rzeszowie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/BAED442352D76169C1258B490028E9AA/$File/491.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E617D9AEFC4FF657C1258C76005F0C1B/%24File/OSW102_491.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 27271.00,
+          "baseValue": 27271.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 89536.48
+        },
+        {
+          "description": "Dieta",
+          "yearlyValue": 23240.79
+        },
+        {
+          "description": "Umowa o pracę",
+          "yearlyValue": 18935.69
+        },
+        {
+          "description": "Dieta radnej",
+          "yearlyValue": 8341.22
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

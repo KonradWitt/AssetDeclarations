@@ -1,0 +1,99 @@
+{
+  "firstName": "Waldemar",
+  "lastName": "Sługocki",
+  "dateOfBirth": "1971-09-09T00:00:00",
+  "placeOfBirth": "Sulechów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/BC6FD110431E199BC1258A51003BA142/$File/344.jpg",
+  "partyId": 1,
+  "position": "Poseł na Sejm RP, Profesor nadzwyczajny",
+  "employer": "Uniwersytet Zielonogórski",
+  "address": null,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/B9436977CE9EE791C1258C7B0041388C/%24File/OSW102_344.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 160000.0,
+          "baseValue": 160000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 500.0,
+          "baseValue": 2150.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 162,8 m² na działce 757 m²",
+          "value": 420000.0,
+          "legalTitle": "współwłasność 50%"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 48,7 m²",
+          "value": 235000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 30 m² oraz udział w nieruchomości wspólnej",
+          "value": 250000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych (Kancelaria Sejmu, zaciągnięta w 2024 r.)",
+          "value": 34000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Fiat 500L (rok prod. 2012) – współwłasność",
+          "value": null
+        },
+        {
+          "description": "Samochód Mercedes ML 350 (rok prod. 2012)",
+          "value": null
+        },
+        {
+          "description": "Motocykl Triumph Legend TT (rok prod. 1998)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie z Kancelarii Sejmu RP",
+          "yearlyValue": 68687.97
+        },
+        {
+          "description": "Dieta parlamentarna z Kancelarii Sejmu RP",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Zwiększenie limitu na służbowe podróże zagraniczne z Kancelarii Sejmu RP",
+          "yearlyValue": 435.12
+        },
+        {
+          "description": "Dochód z Ministerstwa Rozwoju i Technologii",
+          "yearlyValue": 158047.19
+        },
+        {
+          "description": "Dochód z Uniwersytetu Zielonogórskiego",
+          "yearlyValue": 93540.94
+        },
+        {
+          "description": "Dochód z wynajmu mieszkania",
+          "yearlyValue": 21600.00
+        },
+        {
+          "description": "Częściowy zwrot spłaconych rat kredytowych z ugody sądowej z Bankiem Millennium S.A.",
+          "yearlyValue": 72000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

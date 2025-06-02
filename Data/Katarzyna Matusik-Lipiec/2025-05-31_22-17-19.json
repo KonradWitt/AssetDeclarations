@@ -1,0 +1,66 @@
+{
+  "firstName": "Katarzyna",
+  "lastName": "Matusik-Lipiec",
+  "dateOfBirth": "1975-06-29T00:00:00",
+  "placeOfBirth": "Gorlice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CD6AC8E08E892FFEC1258A51003B9F51/$File/237.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FDA53A5834F26E41C1258C7B003CB558/%24File/OSW102_237.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 14900.00,
+          "baseValue": 14900.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 650.00,
+          "baseValue": 2795.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 45.41 m²",
+          "value": 112500.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Solidarności Społecznej",
+          "value": 29750.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Octavia",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 166386.58
+        },
+        {
+          "description": "Dieta parlamentarna nieopodatkowana",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta parlamentarna opodatkowana",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "MPGO",
+          "yearlyValue": 46633.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

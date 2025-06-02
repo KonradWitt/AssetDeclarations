@@ -1,0 +1,111 @@
+{
+  "firstName": "Kacper",
+  "lastName": "Płażyński",
+  "dateOfBirth": "1989-05-10T00:00:00",
+  "placeOfBirth": "Gdańsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D531AF79EB3729AEC1258A51003BA06F/$File/297.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2015-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7B093E724F831523C1258C840060950C/%24File/OSW102_297.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 199000.0,
+          "baseValue": 199000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 600.0,
+          "baseValue": 2429.94
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 500.0,
+          "baseValue": 1870.0
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 115.0,
+          "baseValue": 641.7
+        },
+        {
+          "currency": "DKK",
+          "currencyValue": 1710.0,
+          "baseValue": 928.53
+        },
+        {
+          "currency": "NOK",
+          "currencyValue": 1700.0,
+          "baseValue": 826.2
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni ok. 250 m² z działką o powierzchni ok. 590 m² (1/8 udziału)",
+          "value": 270000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 39 m² z miejscem postojowym w hali garażowej oraz komórką lokatorską (1/8 udziału)",
+          "value": 100000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 54 m² z miejscem postojowym w hali garażowej oraz komórką lokatorską",
+          "value": 850000.0,
+          "legalTitle": "WŁASNOŚĆ"
+        },
+        {
+          "description": "Działka rolna z prawem do zabudowy siedliskowej o powierzchni 4,04 ha",
+          "value": 370000.0,
+          "legalTitle": "MAŁŻEŃSKA WSPÓLNOŚĆ MAJĄTKOWA"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Ford Focus, rok produkcji 2010",
+          "value": null
+        },
+        {
+          "description": "Samochód Kia Sorento, rok produkcji 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 196240.46
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 1656.14
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Prawa autorskie",
+          "yearlyValue": 4860.53
+        },
+        {
+          "description": "Dochód z Komisji Wyborczej (mąż zaufania)",
+          "yearlyValue": 280.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "FUNDACJA DLA GDAŃSKA I POMORZA",
+          "businessType": "fundacja",
+          "description": "Członek zarządu",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

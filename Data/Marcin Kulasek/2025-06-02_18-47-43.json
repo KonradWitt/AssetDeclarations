@@ -1,0 +1,75 @@
+{
+  "firstName": "Marcin",
+  "lastName": "Kulasek",
+  "dateOfBirth": "1976-04-04T00:00:00",
+  "placeOfBirth": "Jędrzejów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/178FED21DF0C1FE3C1258A51003B9EB6/$File/201.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7BB4BA757130C451C1258C7B00309706/%24File/OSW102_201.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 42226.12,
+          "baseValue": 42226.12
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 700.00,
+          "baseValue": null
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 100.00,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 82,2 m²",
+          "value": 400000.00,
+          "legalTitle": "własność 50%"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Banku BPH (wspólnie z małżonką) na zakup mieszkania, pozostało do spłaty na dzień 31.12.2024 r.",
+          "value": 59861.77
+        },
+        {
+          "description": "Kredyt gotówkowy konsolidacyjno-konsumpcyjny w Santander Bank Polska (wspólnie z małżonką) na spłatę wcześniejszych kredytów, pozostało do spłaty na dzień 31.12.2024 r.",
+          "value": 56057.43
+        },
+        {
+          "description": "Pożyczka na cele mieszkaniowe z Kancelarii Sejmu, pozostało do spłaty na dzień 31.12.2024 r.",
+          "value": 29750.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Yaris Hybrid 1.5 z 2018 roku",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu pełnienia funkcji Sekretarza Stanu w Ministerstwie Aktywów Państwowych",
+          "yearlyValue": 181965.32
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 368.27
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Lipiec",
+  "dateOfBirth": "1959-10-11T00:00:00",
+  "placeOfBirth": "Starachowice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4A753DE9EA04A3EEC1258A51003B9EF3/$File/214.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9FDF2552AE1ED70AC1258C7C004632D0/%24File/OSW102_214.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 441861.56,
+          "baseValue": 441861.56
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 500.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Gospodarstwo rolne: grunty orne powierzchnia: 2,26 ha",
+          "value": 100000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Opel Corsa 2017 r.",
+          "value": null
+        },
+        {
+          "description": "Samochód Opel Astra 2015 r.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 165456.50
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 18742.01
+        },
+        {
+          "description": "Udział w spadku",
+          "yearlyValue": 59667.00
+        },
+        {
+          "description": "Sprzedaż samochodu Opel Astra V 2016 r.",
+          "yearlyValue": 16000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

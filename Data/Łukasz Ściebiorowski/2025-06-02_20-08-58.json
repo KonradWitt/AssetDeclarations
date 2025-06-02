@@ -1,0 +1,59 @@
+{
+  "firstName": "Łukasz",
+  "lastName": "Ściebiorowski",
+  "dateOfBirth": "1980-03-13T00:00:00",
+  "placeOfBirth": "Piekary Śląskie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D1A6519D3043CD12C1258A51003BA1E6/$File/379.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-31T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D77B8B7D84B7AF21C1258C600053B00E/%24File/OSW102_379.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 152397.70,
+          "baseValue": 152397.70
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 9903.63,
+          "baseValue": 9903.63
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Ford Focus III rocznik 2011",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Nagrody okolicznościowe wynikające z zatrudnienia",
+          "yearlyValue": 6597.50
+        },
+        {
+          "description": "Ekwiwalenty sędziowskie sędziego sportowego",
+          "yearlyValue": 192.00
+        },
+        {
+          "description": "Ekwiwalenty sędziowskie sędziego sportowego (ryczałt)",
+          "yearlyValue": 502.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

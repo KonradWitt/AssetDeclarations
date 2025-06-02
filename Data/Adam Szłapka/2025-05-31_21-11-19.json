@@ -1,0 +1,227 @@
+{
+  "firstName": "Adam",
+  "lastName": "Szłapka",
+  "dateOfBirth": "1984-12-06T00:00:00",
+  "placeOfBirth": "Kościan",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B2921559B76C3779C1258A51003BA1BD/$File/371.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9437D774E4F8F395C1258C7A004C69AC/%24File/OSW102_371.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 109048.21,
+          "baseValue": 109048.21
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Papiery wartościowe (łącznie)",
+          "quantity": null,
+          "value": 227739.18
+        },
+        {
+          "name": "Jednostki uczestnictwa funduszu inwestycyjnego Santander",
+          "quantity": null,
+          "value": 58708.86
+        },
+        {
+          "name": "Akcje 3RGames S.A.",
+          "quantity": "2800",
+          "value": null
+        },
+        {
+          "name": "Akcje Adiuvo Investments S.A.",
+          "quantity": "1915",
+          "value": null
+        },
+        {
+          "name": "Akcje Agora S.A.",
+          "quantity": "500",
+          "value": null
+        },
+        {
+          "name": "Akcje Allegro Sp. z o.o.",
+          "quantity": "37",
+          "value": null
+        },
+        {
+          "name": "Akcje Amica S.A.",
+          "quantity": "10",
+          "value": null
+        },
+        {
+          "name": "Akcje Apis S.A.",
+          "quantity": "58000",
+          "value": null
+        },
+        {
+          "name": "Akcje ATON-HT S.A.",
+          "quantity": "4570",
+          "value": null
+        },
+        {
+          "name": "Akcje BoomBit S.A.",
+          "quantity": "29",
+          "value": null
+        },
+        {
+          "name": "Akcje CCC S.A.",
+          "quantity": "774",
+          "value": null
+        },
+        {
+          "name": "Akcje Clean& Carbon Energy S.A.",
+          "quantity": "420",
+          "value": null
+        },
+        {
+          "name": "Akcje Coal Energy S.A.",
+          "quantity": "3420",
+          "value": null
+        },
+        {
+          "name": "Akcje Cognor S.A.",
+          "quantity": "490",
+          "value": null
+        },
+        {
+          "name": "Akcje DINO Polska S.A.",
+          "quantity": "11",
+          "value": null
+        },
+        {
+          "name": "Akcje Grupa Azoty S.A.",
+          "quantity": "205",
+          "value": null
+        },
+        {
+          "name": "Akcje Investment Friends Capital SE",
+          "quantity": "2",
+          "value": null
+        },
+        {
+          "name": "Akcje Jeronimo Martins Polska S.A.",
+          "quantity": "25",
+          "value": null
+        },
+        {
+          "name": "Akcje Jastrzębska Spółka Węglowa S.A.",
+          "quantity": "80",
+          "value": null
+        },
+        {
+          "name": "Akcje Lubawa S.A.",
+          "quantity": "280",
+          "value": null
+        },
+        {
+          "name": "Akcje Mera S.A.",
+          "quantity": "493",
+          "value": null
+        },
+        {
+          "name": "Akcje Molecure S.A.",
+          "quantity": "105",
+          "value": null
+        },
+        {
+          "name": "Akcje Moonlit S.A.",
+          "quantity": "5072",
+          "value": null
+        },
+        {
+          "name": "Akcje Oponeo.pl S.A.",
+          "quantity": "51",
+          "value": null
+        },
+        {
+          "name": "Akcje Pepco Poland sp. z o.o.",
+          "quantity": "481",
+          "value": null
+        },
+        {
+          "name": "Akcje Photon Energy N.V.",
+          "quantity": "253",
+          "value": null
+        },
+        {
+          "name": "Akcje PKP Cargo S.A.",
+          "quantity": "564",
+          "value": null
+        },
+        {
+          "name": "Akcje Sleepz AG",
+          "quantity": "200",
+          "value": null
+        },
+        {
+          "name": "Akcje Stem Cells Spin S.A.",
+          "quantity": "5133",
+          "value": null
+        },
+        {
+          "name": "Akcje Sunex S.A.",
+          "quantity": "635",
+          "value": null
+        },
+        {
+          "name": "Akcje Text S.A.",
+          "quantity": "109",
+          "value": null
+        },
+        {
+          "name": "Akcje Topmedica (upadłość)",
+          "quantity": "3700",
+          "value": null
+        },
+        {
+          "name": "Akcje Zabka Group S.A.",
+          "quantity": "401",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Lokal mieszkalny o powierzchni 106,47 m² wraz z pomieszczeniami przynależnymi (dwie komórki gospodarcze, piwnica) oraz udziałem w prawie własności gruntu o powierzchni 783 m².",
+          "value": 390000.00,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 54,60 m²",
+          "value": 513000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Udział 1/6 w mieszkaniu o powierzchni 52 m²",
+          "value": 45000.00,
+          "legalTitle": "spadek"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Przychód z tytułu pracy w KPRM",
+          "yearlyValue": 237412.34
+        },
+        {
+          "description": "Przychód z tytułu pełnienia mandatu posła na Sejm (dieta parlamentarna)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 238.62
+        },
+        {
+          "description": "Dochód z odpłatnego zbycia papierów wartościowych",
+          "yearlyValue": 29.84
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

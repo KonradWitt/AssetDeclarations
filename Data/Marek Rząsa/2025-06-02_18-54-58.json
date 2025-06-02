@@ -1,0 +1,104 @@
+{
+  "firstName": "Marek",
+  "lastName": "Rząsa",
+  "dateOfBirth": "1957-10-04T00:00:00",
+  "placeOfBirth": "Rzeszów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5EB7177269EE3852C1258A51003BA0CD/$File/319.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-11T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/00EA0C60F2351143C1258C690037641A/%24File/OSW102_319.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 309000.0,
+          "baseValue": 309000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 400.0,
+          "baseValue": 1720.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 750.0,
+          "baseValue": 2925.0
+        },
+        {
+          "currency": "CAD",
+          "currencyValue": 150.0,
+          "baseValue": 427.5
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 150.0,
+          "baseValue": 667.5
+        },
+        {
+          "currency": "DKK",
+          "currencyValue": 300.0,
+          "baseValue": 171.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 77,3 m²",
+          "value": 600000.0,
+          "legalTitle": "spółdzielcze własnościowe"
+        },
+        {
+          "description": "Działka-nieużytek rolny 10 arów",
+          "value": 10000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Boks garażowy 17,4 m²",
+          "value": 25000.0,
+          "legalTitle": "spółdzielczy własnościowy"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Kancelarii Sejmu",
+          "value": 24000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Toyota Corolla 2014 r.",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Hyundai i20 2015 r.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Należności z tytułu stosunku pracy (PIT-11)",
+          "yearlyValue": 189399.60
+        },
+        {
+          "description": "Należności z tytułu emerytury (PIT 40A)",
+          "yearlyValue": 93014.22
+        },
+        {
+          "description": "Dieta nieopodatkowana z tytułu pełnienia obowiązków społecznych i obywatelskich",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta opodatkowana z tytułu pełnienia obowiązków społecznych i obywatelskich (dieta posła na Sejm RP)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Inne źródła (zwiększenie limitu na służbowe podróże zagraniczne)",
+          "yearlyValue": 3453.57
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "firstName": "Marek",
+  "lastName": "Gzik",
+  "dateOfBirth": "1971-09-03T00:00:00",
+  "placeOfBirth": "Gliwice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/9848BA03E481F692C1258A51003B9D3F/$File/124.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-10T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/24D7A4FC0CD4330AC1258C6C004BFF06/%24File/OSW102_124.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 79300.0,
+          "baseValue": 79300.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 15000.0,
+          "baseValue": 64500.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 10000.0,
+          "baseValue": 39000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 137 m²",
+          "value": 800000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka zabudowana domem o powierzchni 540 m²",
+          "value": 200000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka niezabudowana o powierzchni 967 m²",
+          "value": 200000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka niezabudowana o powierzchni 1000 m²",
+          "value": 400000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Opel Insignia 2017 r.",
+          "value": null
+        },
+        {
+          "description": "Samochód Ford Fiesta 2011 r.",
+          "value": null
+        },
+        {
+          "description": "Samochód Renault Clio 2017 r. (współwłasność żony i syna)",
+          "value": null
+        },
+        {
+          "description": "Samochód Opel Mokka 2021 r.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z umowy o pracę",
+          "yearlyValue": 467092.60
+        },
+        {
+          "description": "Dochód z umów zleconych",
+          "yearlyValue": 10254.62
+        },
+        {
+          "description": "Dochód z umów uwzględniających prawa autorskie",
+          "yearlyValue": 27255.71
+        },
+        {
+          "description": "Diety w związku ze sprawowaniem mandatu posła na Sejm RP",
+          "yearlyValue": 47832.74
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "firstName": "Waldemar",
+  "lastName": "Andzel",
+  "dateOfBirth": "1977-09-17T00:00:00",
+  "placeOfBirth": "Radom",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/826485BE9B9CEF50C1258A51003B9B12/$File/004.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-11T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/DFD540EFE3A42F24C1258C690044AD00/%24File/OSW102_004.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 1435000.00,
+          "baseValue": 1435000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 3120.00,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2500.00,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Fundusze",
+          "quantity": null,
+          "value": 24443.11
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 85,30 m²",
+          "value": 367000.00,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Corolla, rok produkcji 2015",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z Rady Programowej Kancelarii Sejmu",
+          "yearlyValue": 3042.00
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 165824.05
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Przychód z tytułu podnajmu lokalu",
+          "yearlyValue": 3631.34
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

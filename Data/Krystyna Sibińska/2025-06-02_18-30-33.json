@@ -1,0 +1,56 @@
+{
+  "firstName": "Krystyna",
+  "lastName": "Sibińska",
+  "dateOfBirth": "1962-06-12T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0872F5159C8F58FDC1258A51003BA111/$File/334.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-20T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/6BCD5163C90C83E1C1258C76005239F4/%24File/OSW102_334.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 120000.00,
+          "baseValue": 120000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 217,75 m² na działkach o łącznej powierzchni 0,1778 ha",
+          "value": 950000.00,
+          "legalTitle": "Współwłasność małżeńska majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na budowę, wspólnie z małżonkiem, w PKO BP",
+          "value": 55681.07
+        },
+        {
+          "description": "Pożyczka z FSS",
+          "value": 28750.00
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45679.81
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 193888.97
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 38722.28
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

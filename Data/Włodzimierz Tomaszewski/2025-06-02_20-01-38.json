@@ -1,0 +1,99 @@
+{
+  "firstName": "Włodzimierz",
+  "lastName": "Tomaszewski",
+  "dateOfBirth": "1956-11-16T00:00:00",
+  "placeOfBirth": "Łódź",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B980F53BED21B228C1258B46005B7465/$File/486.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-27T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C35C932D303E53A3C1258C7C0057C025/%24File/OSW102_486.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 444607.68,
+          "baseValue": 444607.68
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1044.26,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Jednostki uczestnictwa w funduszu inwestycyjnym",
+          "quantity": "5,577",
+          "value": 1043.57
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 49 m²",
+          "value": 300000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie 70 m²",
+          "value": 350000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie 58,90 m²",
+          "value": 198000.0,
+          "legalTitle": "spadek po rodzicach współwłasność prawo do ½"
+        },
+        {
+          "description": "Działka rekreacyjna z domkiem letniskowym i pomieszczeniami gospodarczymi 1500 m²",
+          "value": 230000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Działka niezbudowana (użytek rolny) 1905 m²",
+          "value": 15000.0,
+          "legalTitle": "spadek po rodzicach współwłasność prawo do ½"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Audi A4 (rocznik 2008)",
+          "value": null
+        },
+        {
+          "description": "Samochód Honda HR-V (rocznik 2017)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochody z tytułu diety radnego oraz diety parlamentarnej",
+          "yearlyValue": 10356.07
+        },
+        {
+          "description": "Dochody z tytułu uposażenia poselskiego",
+          "yearlyValue": 126516.40
+        },
+        {
+          "description": "Dochody z tytułu rozliczenia pracy w KPRM",
+          "yearlyValue": 83749.04
+        },
+        {
+          "description": "Dochody z tytułu emerytury mamy",
+          "yearlyValue": 2288.16
+        },
+        {
+          "description": "Dochody z tytułu emerytury",
+          "yearlyValue": 148654.16
+        },
+        {
+          "description": "Dochody żony z tytułu wynagrodzenia za pracę oraz emerytury",
+          "yearlyValue": 383344.34
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Bejda",
+  "dateOfBirth": "1962-10-13T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/132F5DA2FDEEF91CC1258A51003B9B45/$File/015.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D43AEA8D55EFCFBCC1258C770041201A/%24File/OSW102_015.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 588000.0,
+          "baseValue": 588000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 295 m²",
+          "value": 470000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka 1.78 ha",
+          "value": 130100.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Zobowiązanie wobec kredytu synów Piotra i Michała Bejdy, stan na 31.12.2024",
+          "value": 627875.0
+        },
+        {
+          "description": "Limit w karcie kredytowej",
+          "value": 15000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy BMW Z3, rok 2001",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta Parlamentarna",
+          "yearlyValue": 45679.89
+        },
+        {
+          "description": "Przychód ze zbycia nieruchomości",
+          "yearlyValue": 25477.0
+        },
+        {
+          "description": "Dieta Rady Ochrony Pracy",
+          "yearlyValue": 15271.20
+        },
+        {
+          "description": "Dochód - uposażenie MON",
+          "yearlyValue": 237586.66
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Pożyczka udzielona synom Piotrowi i Michałowi Bejdom",
+          "value": 70000.0
+        },
+        {
+          "description": "Darowizna udzielona synowi Michałowi Bejdzie",
+          "value": 50000.0
+        }
+      ],
+      "businessActivities": []
+    }
+  ]
+}

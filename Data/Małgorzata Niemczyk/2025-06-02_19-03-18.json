@@ -1,0 +1,203 @@
+{
+  "firstName": "Małgorzata",
+  "lastName": "Niemczyk",
+  "dateOfBirth": "1969-10-25T00:00:00",
+  "placeOfBirth": "Łódź",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CBF36176745DF22CC1258A51003B9FC0/$File/260.jpg",
+  "employmentDetails": "UML DSWS podinspektor",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7D9577CE8836FA04C1258C75006DFEC2/%24File/OSW102_260.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 23487.00,
+          "baseValue": 23487.00
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 16386.00,
+          "baseValue": 16386.00
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 4000.00,
+          "baseValue": 4000.00
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Kapitalna przyszłość nr 2295990",
+          "quantity": null,
+          "value": 21660.00
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 49,74 m²",
+          "value": 315000.00,
+          "legalTitle": "majątek odrębny – objęty sporem o podział majątku - kwestionuje były mąż"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 143,60 m²",
+          "value": 1350000.00,
+          "legalTitle": "majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 81,20 m²",
+          "value": 750000.00,
+          "legalTitle": "majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie wraz z miejscem postojowym o powierzchni 31,60 m²",
+          "value": 385000.00,
+          "legalTitle": "majątek odrębny – objęty sporem o podział majątku – kwestionuje były mąż"
+        },
+        {
+          "description": "Mieszkanie wraz z miejscem postojowym o powierzchni 31,20 m²",
+          "value": 385000.00,
+          "legalTitle": "majątek odrębny – objęty sporem o podział majątku - kwestionuje były mąż"
+        },
+        {
+          "description": "Mieszkanie wraz z miejscem postojowym o powierzchni 31,70 m²",
+          "value": 385000.00,
+          "legalTitle": "majątek odrębny – objęty sporem o podział majątku – kwestionuje były mąż"
+        },
+        {
+          "description": "Mieszkanie wraz z miejscem parkingowym o powierzchni 32,00 m²",
+          "value": 340000.00,
+          "legalTitle": "ustawowa wspólnota majątkowa wg aktu not. – objęty sporem o podział majątku – kwestionuje były mąż"
+        },
+        {
+          "description": "Mieszkanie wraz z miejscem parkingowym o powierzchni 32,00 m²",
+          "value": 340000.00,
+          "legalTitle": "ustawowa wspólnota majątkowa wg aktu not. – objęty sporem o podział majątku – kwestionuje były mąż"
+        },
+        {
+          "description": "Mieszkanie wraz z zewnętrznym miejscem postojowym o powierzchni 32,00 m²",
+          "value": 305000.00,
+          "legalTitle": "ustawowa wspólnota majątkowa wg aktu not. – objęty sporem o podział majątku – kwestionuje były mąż"
+        },
+        {
+          "description": "Mieszkanie wraz z zewnętrznym miejscem postojowym o powierzchni 32,00 m²",
+          "value": 305000.00,
+          "legalTitle": "ustawowa wspólnota majątkowa wg aktu not. – objęty sporem o podział majątku – kwestionuje były mąż"
+        },
+        {
+          "description": "Działka rekreacyjna o powierzchni 1000,00 m²",
+          "value": 120000.00,
+          "legalTitle": "współwłasność z mamą – objęte sporem o podział majątku – kwestionuje były mąż"
+        },
+        {
+          "description": "Lokal niemieszkalny wraz z miejscem postojowym o powierzchni 25,20 m²",
+          "value": 352833.35,
+          "legalTitle": "majątek odrębny"
+        },
+        {
+          "description": "Lokal niemieszkalny (zakup ratalny) wraz z miejscem postojowym o powierzchni 25,34 m²",
+          "value": 354654.65,
+          "legalTitle": "majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w banku PKO BP",
+          "value": 159415.87
+        },
+        {
+          "description": "Kredyt hipoteczny w banku PKO BP",
+          "value": 337131.20
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód VW Scirocco 2.0 TDI, rok produkcji 2011",
+          "value": null
+        },
+        {
+          "description": "Samochód Fiat Punto, rok produkcji 2012",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód uposażenie poselskie",
+          "yearlyValue": 189399.60
+        },
+        {
+          "description": "Przychód dieta parlamentarna",
+          "yearlyValue": 48099.06
+        },
+        {
+          "description": "Dochód netto z tytułu najmu",
+          "yearlyValue": 175638.23
+        },
+        {
+          "description": "Przychód odsetki",
+          "yearlyValue": 14.70
+        },
+        {
+          "description": "Dochód umowa zlecenie AZS",
+          "yearlyValue": 400.00
+        },
+        {
+          "description": "Dochód z wyroku sądowego (akt XIIC616/22)",
+          "yearlyValue": 70000.00
+        },
+        {
+          "description": "Odszkodowanie (akt XVIIIC300/23)",
+          "yearlyValue": 16324.58
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Pożyczka nieoprocentowana udzielona mężowi (Robert Cichoń) na dofinansowanie działalności",
+          "value": 53117.06
+        },
+        {
+          "description": "Pożyczka nieoprocentowana udzielona mężowi (Robert Cichoń) na dofinansowanie działalności",
+          "value": 15000.00
+        },
+        {
+          "description": "Pożyczka nieoprocentowana udzielona mężowi (Robert Cichoń) na dofinansowanie działalności",
+          "value": 24000.00
+        },
+        {
+          "description": "Pożyczka nieoprocentowana udzielona mężowi (Robert Cichoń) na dofinansowanie działalności",
+          "value": 23000.00
+        },
+        {
+          "description": "Pożyczka nieoprocentowana udzielona mężowi (Robert Cichoń) na dofinansowanie działalności",
+          "value": 23000.00
+        },
+        {
+          "description": "Pożyczka nieoprocentowana udzielona mężowi (Robert Cichoń) na dofinansowanie działalności",
+          "value": 25000.00
+        },
+        {
+          "description": "Pożyczka nieoprocentowana udzielona mężowi (Robert Cichoń) na dofinansowanie działalności",
+          "value": 27000.00
+        },
+        {
+          "description": "Pożyczka nieoprocentowana udzielona mężowi (Robert Cichoń) na dofinansowanie działalności",
+          "value": 18000.00
+        },
+        {
+          "description": "Pożyczka nieoprocentowana udzielona mężowi (Robert Cichoń) na dofinansowanie działalności",
+          "value": 23000.00
+        },
+        {
+          "description": "Pożyczka nieoprocentowana udzielona mężowi (Robert Cichoń) na dofinansowanie działalności",
+          "value": 37000.00
+        },
+        {
+          "description": "Pożyczka nieoprocentowana udzielona mężowi (Robert Cichoń) na dofinansowanie działalności",
+          "value": 24000.00
+        }
+      ],
+      "businessActivities": []
+    }
+  ]
+}

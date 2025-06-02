@@ -1,0 +1,59 @@
+{
+  "firstName": "Agnieszka",
+  "lastName": "Dziemianowicz-Bąk",
+  "dateOfBirth": "1984-01-20T00:00:00",
+  "placeOfBirth": "Wrocław",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/35C545C5FF2BCB95C1258A51003B9C61/$File/076.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/BA94CB64642B4E9CC1258C7C002C5AFD/%24File/OSW102_076.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 63553.29,
+          "baseValue": 63553.29
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 6.22,
+          "baseValue": 24.88
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 130 m² na działce 1100 m²",
+          "value": 574000.0,
+          "legalTitle": "własność, majątek odrębny"
+        },
+        {
+          "description": "Nieruchomość niezabudowana 1588 m²",
+          "value": 74000.0,
+          "legalTitle": "majątek odrębny"
+        },
+        {
+          "description": "Nieruchomość niezabudowana 1866 m²",
+          "value": 81000.0,
+          "legalTitle": "wspólność ustawowa małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt odnawialny w Banku mBank S.A.",
+          "value": 0.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta za sprawowanie mandatu Posłanki na Sejm RP",
+          "yearlyValue": 45573.04
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

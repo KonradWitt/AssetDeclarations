@@ -1,0 +1,88 @@
+{
+  "firstName": "Michał",
+  "lastName": "Kowalski",
+  "dateOfBirth": "1976-05-04T00:00:00",
+  "placeOfBirth": "Puck",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B9E5AA333792FEE3C1258B46005B742C/$File/473.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/363A73BA4ADA3788C1258C76004D5A44/%24File/OSW102_473.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 955529.86,
+          "baseValue": 955529.86
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Budynek mieszkalno-usługowy 130 m² wraz z budynkiem usługowym (pokoje wczasowe) 146 m²",
+          "value": 2000000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Budynek gospodarczy parterowy 75 m² oraz budynek usługowy parterowy 200 m²",
+          "value": 500000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 48 m²",
+          "value": 500000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 38 m²",
+          "value": 400000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Nieruchomości gruntowe na terenie Gminy, w tym łącznie ponad 2,50 ha z pełnym prawem własności oraz 8560 m² z udziałami od 17,5% do 20%",
+          "value": 10500000.0,
+          "legalTitle": "własność i udziały"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Millennium Bank",
+          "value": 19342.00
+        },
+        {
+          "description": "Zobowiązanie pieniężne z aktu notarialnego (zakup działki rolnej) w Kancelarii Notarialnej Anna Marciniak, do spłaty we wrześniu 2025 r.",
+          "value": 300000.00
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dochód z wynajmu nieruchomości",
+          "yearlyValue": 313050.0
+        },
+        {
+          "description": "Wynagrodzenie ze stosunku pracy (Centralny Ośrodek Sportu)",
+          "yearlyValue": 46656.08
+        },
+        {
+          "description": "Uposażenie poselskie (Kancelaria Sejmu)",
+          "yearlyValue": 88286.48
+        },
+        {
+          "description": "Dieta radnego powiatu puckiego (okres 01.01.2024 - 30.04.2023)",
+          "yearlyValue": 5010.36
+        },
+        {
+          "description": "Dieta poselska (czerwiec 2024 - grudzień 2024)",
+          "yearlyValue": 24718.03
+        },
+        {
+          "description": "Świadczenie z Zakładu Ubezpieczeń Społecznych w Gdańsku",
+          "yearlyValue": 11262.82
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Bosak",
+  "dateOfBirth": "1982-06-13T00:00:00",
+  "placeOfBirth": "Zielona Góra",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/834067691A2AB864C1258A51003B9B9E/$File/033.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C8175AE9CA556075C1258C7C003995C4/%24File/OSW102_033.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 239338.01,
+          "baseValue": 239338.01
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1.52,
+          "baseValue": 6.54
+        },
+        {
+          "currency": "BTC",
+          "currencyValue": 0.05774,
+          "baseValue": 14435.0
+        },
+        {
+          "currency": "ETH",
+          "currencyValue": 0.0287,
+          "baseValue": 344.4
+        },
+        {
+          "currency": "ETHW",
+          "currencyValue": 0.03899,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Działka o powierzchni 1968 m²",
+          "value": 806880.0,
+          "legalTitle": "współwłasność z 2018"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Volvo V60, rok 2012",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45252.39
+        },
+        {
+          "description": "Diety w podróży",
+          "yearlyValue": 666.49
+        },
+        {
+          "description": "Wynagrodzenie",
+          "yearlyValue": 230324.96
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

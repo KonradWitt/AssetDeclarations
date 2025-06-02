@@ -1,0 +1,119 @@
+{
+  "firstName": "Michał",
+  "lastName": "Moskal",
+  "dateOfBirth": "1994-05-06T00:00:00",
+  "placeOfBirth": "Janów Lubelski",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F878404A472BBFECC1258A51003B9F86/$File/248.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2015-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/635A09B61CA12819C1258C7C0056DBA7/%24File/OSW102_248.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 75000.0,
+          "baseValue": 75000.0
+        },
+        {
+          "currency": "APECOIN",
+          "currencyValue": 250.0,
+          "baseValue": 241.0,
+          "description": "Kontrakt CFD"
+        },
+        {
+          "currency": "CARDANO",
+          "currencyValue": 320.0,
+          "baseValue": 308.0,
+          "description": "Kontrakt CFD"
+        },
+        {
+          "currency": "STELLAR",
+          "currencyValue": 5000.0,
+          "baseValue": 2140.0,
+          "description": "Kontrakt CFD"
+        },
+        {
+          "currency": "RIPPLE",
+          "currencyValue": 600.0,
+          "baseValue": 1875.0,
+          "description": "Kontrakt CFD"
+        },
+        {
+          "currency": "ETHEREUM",
+          "currencyValue": 0.16,
+          "baseValue": 521.0,
+          "description": "Kontrakt CFD"
+        },
+        {
+          "currency": "TSLA.US",
+          "currencyValue": 16.0,
+          "baseValue": 6394.0,
+          "description": "Kontrakt CFD"
+        },
+        {
+          "currency": "ADBE.US",
+          "currencyValue": 14.0,
+          "baseValue": 6233.0,
+          "description": "Kontrakt CFD"
+        },
+        {
+          "currency": "NVDA.US",
+          "currencyValue": 15.0,
+          "baseValue": 1869.0,
+          "description": "Kontrakt CFD"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 110 m²",
+          "value": 764000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 56 m²",
+          "value": 720000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Działka grunt orny i lasy 724/1 o powierzchni 0,5748 ha",
+          "value": 55000.0,
+          "legalTitle": "własność działki"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w BOS bank",
+          "value": 557024.40
+        },
+        {
+          "description": "Kredyt w Kancelarii Sejmu",
+          "value": 34000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Superb, rok produkcji 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 46095.81
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 144506.43
+        },
+        {
+          "description": "Dochód z Kancelarii Prezesa Rady Ministrów",
+          "yearlyValue": 7421.60
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

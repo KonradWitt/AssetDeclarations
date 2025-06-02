@@ -1,0 +1,111 @@
+{
+  "firstName": "Sylwia",
+  "lastName": "Bielawska",
+  "dateOfBirth": "1975-04-27T00:00:00",
+  "placeOfBirth": "Głuszyca",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CA8C0E162635E186C1258A51003B9B4E/$File/017.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-20T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D009694B9F346FF8C1258C7C00713C6A/%24File/OSW102_017.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 6351.97,
+          "baseValue": 6351.97
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 18071.21,
+          "baseValue": 18071.21
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 53011.70,
+          "baseValue": 53011.70
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 350.0,
+          "baseValue": 1505.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 150.0,
+          "baseValue": 585.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje skarbowe",
+          "value": 133890.0,
+          "quantity": null
+        },
+        {
+          "name": "WARTA Ubezpieczeniowy Fundusz Kapitałowy",
+          "value": 15799.47,
+          "quantity": null
+        },
+        {
+          "name": "Santander dłużny krótkoterminowy",
+          "value": 17504.25,
+          "quantity": null
+        },
+        {
+          "name": "Santander Prestiż Alfa",
+          "value": 58370.19,
+          "quantity": null
+        },
+        {
+          "name": "Santander obligacji uniwersalny",
+          "value": 101848.85,
+          "quantity": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 182 m² na 3 działkach o łącznej powierzchni 0,0531 ha",
+          "value": 720000.0,
+          "legalTitle": "½ udziału na prawach własności ustawowej"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Megane Grande Tour 2019",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 152109.25
+        },
+        {
+          "description": "Dochód z Urzędu Miejskiego w Wałbrzychu",
+          "yearlyValue": 15593.42
+        },
+        {
+          "description": "Sprzedaż samochodu Renault Modus (luty 2024 r.)",
+          "yearlyValue": 4500.00
+        },
+        {
+          "description": "Sprzedaż samochodu Renault Clio (sierpień 2024 r.)",
+          "yearlyValue": 40000.00
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Pożyczka udzielona siostrze na cele działalności gospodarczej",
+          "value": 50000.0
+        }
+      ],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "firstName": "Anna",
+  "lastName": "Milczanowska",
+  "dateOfBirth": "1958-07-18T00:00:00",
+  "placeOfBirth": "Radomsko",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B10EAF6936839D3CC1258A51003B9F68/$File/242.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/3FEF21D411C735B3C1258C75006DF56B/%24File/OSW102_242.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 2500.0,
+          "baseValue": 2500.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 137 m² na działce o powierzchni 641 m²",
+          "value": 600000.0,
+          "legalTitle": "współwłasność rodzinna"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "PKO BP Kredyt mieszkaniowy (pozostało do spłaty)",
+          "value": 15167.10
+        },
+        {
+          "description": "PKO BP pożyczka gotówkowa (pozostało do spłaty)",
+          "value": 133299.00
+        },
+        {
+          "description": "PKO BP pożyczka gotówkowa (pozostało do spłaty)",
+          "value": 37658.92
+        },
+        {
+          "description": "PKO BP limit odnawialny",
+          "value": 21400.00
+        },
+        {
+          "description": "Pożyczka z Kancelarii Sejmu RP (pozostało do spłaty)",
+          "value": 27200.00
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 150492.13
+        },
+        {
+          "description": "Dieta nieopodatkowana",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta opodatkowana",
+          "yearlyValue": 9573.04
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 77804.58
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

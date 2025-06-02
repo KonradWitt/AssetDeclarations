@@ -1,0 +1,103 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Habura",
+  "dateOfBirth": "1956-06-02T00:00:00",
+  "placeOfBirth": "Pabianice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/381E0DA10E32AE95C1258A51003B9D44/$File/125.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-01T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/834BC51ED23F9D4AC1258C5F004714CB/%24File/OSW102_125.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 81422.02,
+          "baseValue": 81422.02
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 20650.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 100130.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbu Państwa, IKZE",
+          "quantity": null,
+          "value": 607461.02
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 2900 m²",
+          "value": 5040.0,
+          "legalTitle": "Własność; majątek objęty małżeńską wspólnością majątkową"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 30 m²",
+          "value": 168000.02,
+          "legalTitle": "Własność, majątek objęty małżeńską wspólnością majątkową"
+        },
+        {
+          "description": "Działka z mieszkaniami o powierzchni 410 m²",
+          "value": 182000.04,
+          "legalTitle": "Własność, majątek objęty małżeńską wspólnością majątkową"
+        },
+        {
+          "description": "Domek letniskowy o powierzchni 45,0 m²",
+          "value": 30000.02,
+          "legalTitle": "Własność, majątek objęty małżeńską wspólnością majątkową"
+        },
+        {
+          "description": "Działka letniskowa o powierzchni 1400,0 m²",
+          "value": 84000.02,
+          "legalTitle": "Własność, majątek objęty małżeńską wspólnością majątkową"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Peugeot 107, rok produkcji 2013",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150000.68
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dochód ze Starostwa Powiatowego",
+          "yearlyValue": 17156.33
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 103938.34
+        },
+        {
+          "description": "Najem pomieszczeń",
+          "yearlyValue": 13200.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Łódzka Spółka Infrastrukturalna Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek rady nadzorczej od 28.08.2021 do 31.10.2023",
+          "income": 32580.24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "firstName": "Adrian",
+  "lastName": "Zandberg",
+  "dateOfBirth": "1979-12-04T00:00:00",
+  "placeOfBirth": "Aalborg (Dania)",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/96F518997D078CD3C1258A51003BA310/$File/442.jpg",
+  "partyId": 8,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/5ABCAE10BF5D56C8C1258C7C0049D6A5/%24File/OSW102_442.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 110000.0,
+          "baseValue": 110000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbu Państwa, trzyletnie",
+          "quantity": null,
+          "value": 90000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 95 m²",
+          "value": 1600000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Ford Focus, rok 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 167842.60
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45145.50
+        },
+        {
+          "description": "Dochód z Rady Ochrony Pracy",
+          "yearlyValue": 5090.40
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

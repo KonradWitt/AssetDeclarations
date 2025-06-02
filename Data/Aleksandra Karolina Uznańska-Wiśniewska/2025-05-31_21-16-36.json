@@ -1,0 +1,67 @@
+{
+  "firstName": "Aleksandra",
+  "lastName": "Uznańska-Wiśniewska",
+  "dateOfBirth": "1994-05-27T00:00:00",
+  "placeOfBirth": "Łódź",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/41C74A0BB9F3FA1DC1258A51003BA2C1/$File/425.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/BBEF45CA5A49A52FC1258C7600516975/%24File/OSW102_425.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 256456.06,
+          "baseValue": 256456.06
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 700.0,
+          "baseValue": 2800.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 500.0,
+          "baseValue": 2150.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 132,88 m²",
+          "value": 1300000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Inna nieruchomość 52,77 m²",
+          "value": 280000.0,
+          "legalTitle": "własnościowe spółdzielcze prawo do lokalu"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Jeep-Wrangler Sahara 2D, rok produkcji 2015",
+          "value": 90000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Honorarium za nauczanie (Collegium Civitas)",
+          "yearlyValue": 800.0
+        },
+        {
+          "description": "Wynagrodzenie (Kancelaria Sejmu)",
+          "yearlyValue": 152637.93
+        },
+        {
+          "description": "Dieta Parlamentarna",
+          "yearlyValue": 47699.13
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

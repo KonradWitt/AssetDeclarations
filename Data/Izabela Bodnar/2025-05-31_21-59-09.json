@@ -1,0 +1,100 @@
+{
+  "firstName": "Izabela",
+  "lastName": "Bodnar",
+  "dateOfBirth": "1975-02-13T00:00:00",
+  "placeOfBirth": "Lubliniec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7D1C374993FF7D71C1258A51003B9B6B/$File/023.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/999E1309C7116245C1258C7600484FC2/%24File/OSW102_023.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 235000.0,
+          "baseValue": 235000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 12200.0,
+          "baseValue": 52460.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 42000.0,
+          "baseValue": 168000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Fundusze Inwestycyjne Amundi Parasolowy",
+          "quantity": null,
+          "value": 9107.21
+        },
+        {
+          "name": "Akcje Credit Agricole S.A (pakiet pracowniczy)",
+          "quantity": null,
+          "value": 4000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 250 m² na działce 538 m²",
+          "value": 3500000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka rolna 0,4109 ha",
+          "value": 821800.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka rolna 0,3153 ha",
+          "value": 630600.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Banku BNP Paribas S.A. (CHF)",
+          "value": 172000.0
+        },
+        {
+          "description": "Kredyt hipoteczny wspólny z małżonkiem w Santander Bank Polska (EUR)",
+          "value": 219703.0
+        },
+        {
+          "description": "Karta kredytowa VISA GOLD Credit Agricole",
+          "value": 25400.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Sprzęt techniczny",
+          "value": 35000.0
+        },
+        {
+          "description": "Meble",
+          "value": 80000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie ze stosunku pracy",
+          "yearlyValue": 163994.55
+        },
+        {
+          "description": "Dieta",
+          "yearlyValue": 45359.27
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na podróże zagraniczne",
+          "yearlyValue": 167.73
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

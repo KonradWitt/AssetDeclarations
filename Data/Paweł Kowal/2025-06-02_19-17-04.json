@@ -1,0 +1,170 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Kowal",
+  "dateOfBirth": "1975-07-22T00:00:00",
+  "placeOfBirth": "Rzeszów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0449DE8C2204D435C1258A51003B9E44/$File/178.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-26T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/771DB437E01250E4C1258C7C003653FC/%24File/OSW102_178.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 82000.0,
+          "baseValue": 82000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 6000.0,
+          "baseValue": 25800.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1600.0,
+          "baseValue": 6240.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Polisa w Citibank (Na dobre życie)",
+          "value": 106000.0
+        },
+        {
+          "name": "Polisa na dobre życie MetLife",
+          "value": 19000.0
+        },
+        {
+          "name": "Polisa PKO życie",
+          "value": 87000.0
+        },
+        {
+          "name": "Polisy w Nationale Nederlanden (6 polis)",
+          "value": 197000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 175,08 m²",
+          "value": 2000000.0,
+          "legalTitle": "własność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 18,45 m²",
+          "value": 360000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 0,7654 ha z udziałem w drodze towarzyszącej, zabudowa mieszkalna i gospodarcza ok. 100 m²",
+          "value": 900000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy hipoteczny w PKO BP",
+          "value": 1238000.0
+        },
+        {
+          "description": "Pożyczka w Citi Bank",
+          "value": 108000.0
+        },
+        {
+          "description": "Pożyczka w Alior Bank",
+          "value": 116000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie w Sejmie RP",
+          "yearlyValue": 178960.79
+        },
+        {
+          "description": "Diety poselskie w Sejmie RP",
+          "yearlyValue": 44824.86
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne (Sejm RP)",
+          "yearlyValue": 8418.15
+        },
+        {
+          "description": "Koszty podróży osób niebędących pracownikami KPRM",
+          "yearlyValue": 952.69
+        },
+        {
+          "description": "Przychody ze stosunku pracy i pokrewnych (Muzeum Powstania Warszawskiego)",
+          "yearlyValue": 62214.29
+        },
+        {
+          "description": "Instytut Studiów Politycznych Polskiej Akademii Nauk",
+          "yearlyValue": 66708.0
+        },
+        {
+          "description": "Kolegium Europy w Natolinie (dawniej Kolegium Europejskie)",
+          "yearlyValue": 24920.78
+        },
+        {
+          "description": "Honorarium autorskie GIS Geopolitical Intelligence",
+          "yearlyValue": 5160.0
+        },
+        {
+          "description": "Uniwersytet Warszawski",
+          "yearlyValue": 15800.44
+        },
+        {
+          "description": "Honoraria autorskie Agora i Agora Książka i muzyka (via agencja Kairos Beata Stasińska)",
+          "yearlyValue": 18474.91
+        },
+        {
+          "description": "Nagroda za książkę (Abakanowicz) Biblioteka Raczyńskich, Nagroda im. J. Łukasiewicza",
+          "yearlyValue": 7200.0
+        },
+        {
+          "description": "Uniwersytet Civitas (dawniej Collegium Civitas)",
+          "yearlyValue": 600.0
+        },
+        {
+          "description": "Fundacja Sztuki Kreatywna Przestrzeń",
+          "yearlyValue": 750.0
+        },
+        {
+          "description": "Zjednoczenie Lemków w Gorlicach",
+          "yearlyValue": 550.0
+        },
+        {
+          "description": "SGH",
+          "yearlyValue": 1050.0
+        },
+        {
+          "description": "Przychód z wynajmu mieszkania",
+          "yearlyValue": 17180.0
+        },
+        {
+          "description": "Świadczenie wychowawcze (Rodzina 800+) i inne świadczenia",
+          "yearlyValue": 18613.40
+        },
+        {
+          "description": "Dochody żony",
+          "yearlyValue": 132667.14
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Jednoosobowa działalność gospodarcza",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Działalność zawieszona",
+          "income": null
+        },
+        {
+          "businessName": "Alventa SA",
+          "businessType": "spółka handlowa",
+          "description": "Członek i wiceprzewodniczący Rady Nadzorczej od 21 lipca 2017",
+          "income": 105095.14
+        }
+      ]
+    }
+  ]
+}

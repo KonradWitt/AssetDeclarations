@@ -1,0 +1,55 @@
+{
+  "firstName": "Bożenna",
+  "lastName": "Hołownia",
+  "dateOfBirth": "1953-07-27T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/9D9615120857F378C1258B460059229D/$File/470.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/94F757AAFA0F39B8C1258C7E00345668/%24File/OSW102_470.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 36999.29,
+          "baseValue": 36999.29
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 64 m²",
+          "value": null,
+          "legalTitle": "umowa z Urzędem Miasta st. Warszawy (mieszkanie komunalne)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Aygo, rok produkcji 2008",
+          "value": null
+        },
+        {
+          "description": "Elektryczny wózek inwalidzki, rok zakupu 2024",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Emerytura",
+          "yearlyValue": 38720.16
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Caritas Polska",
+          "businessType": "fundacja/stowarzyszenie prowadzące działalność gospodarczą",
+          "description": "Członek zarządu/rady nadzorczej/komisji rewizyjnej",
+          "income": 6767.28
+        }
+      ]
+    }
+  ]
+}

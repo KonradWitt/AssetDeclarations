@@ -1,0 +1,58 @@
+{
+  "firstName": "Filip",
+  "lastName": "Kaczyński",
+  "dateOfBirth": "1987-11-19T00:00:00",
+  "placeOfBirth": "Sucha Beskidzka",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4F743440F4E83E1CC1258A51003B9DAE/$File/147.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D9276E7AE05E5E28C1258C820034A9BF/%24File/OSW102_147.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 241000.0,
+          "baseValue": 241000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 8.12,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1.39,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 48,03 m², wraz z przynależną do niego piwnicą o pow. użytkowej 5,3 m²",
+          "value": 280000.0,
+          "legalTitle": "1/2 udziału we współwłasności spółdzielczego własnościowego prawa do lokalu mieszkalnego (majątek odrębny – rozdzielność majątkowa małżeńska)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód SEAT EXEO, rok produkcji 2009",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 170373.43
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

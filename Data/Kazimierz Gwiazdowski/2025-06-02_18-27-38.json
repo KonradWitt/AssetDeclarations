@@ -1,0 +1,71 @@
+{
+  "firstName": "Kazimierz",
+  "lastName": "Gwiazdowski",
+  "dateOfBirth": "1962-06-10T00:00:00",
+  "placeOfBirth": "Radziłów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6F14DBE5201528F4C1258A51003B9D34/$File/122.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D6C020FAFFF215E8C1258C76004BC80C/%24File/OSW102_122.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 41200.00,
+          "baseValue": 41200.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 220 m²",
+          "value": 360000.00,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne ogólnotowarowe o powierzchni 19,98 ha z budynkami murowanymi",
+          "value": 250000.00,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Stodoła o powierzchni 180 m², budynek inwentarski o powierzchni 180 m², garaż o powierzchni 80 m²",
+          "value": 125000.00,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych (pozostało do spłaty)",
+          "value": 23800.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Toyota Avensis 2.0, rok produkcji 2005",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Dochód nieopodatkowany",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dochód opodatkowany",
+          "yearlyValue": 9466.15
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 173152.58
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "firstName": "Dorota",
+  "lastName": "Niedziela",
+  "dateOfBirth": "1964-08-20T00:00:00",
+  "placeOfBirth": "Oświęcim",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/04D351DBECE04FAAC1258A51003B9FB8/$File/258.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/70BB8EDB1B7BBD0AC1258C760042F81D/%24File/OSW102_258.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 58500.00,
+          "baseValue": 58500.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 176,1 m²",
+          "value": 350000.00,
+          "legalTitle": "WŁASNOŚĆ"
+        },
+        {
+          "description": "Działka o powierzchni 0,1676 ha z budynkiem gospodarczym o powierzchni 112,4 m²",
+          "value": 250000.00,
+          "legalTitle": "WŁASNOŚĆ"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka na cele mieszkaniowe z Funduszu Świadczeń Socjalnych",
+          "value": 16000.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Hyundai Tucson, rok 2024",
+          "value": null
+        },
+        {
+          "description": "Samochód Volvo V60, rok 2011 (współwłasność)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychody z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 262.59
+        },
+        {
+          "description": "Wynagrodzenie",
+          "yearlyValue": 238053.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

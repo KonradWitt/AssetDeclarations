@@ -1,0 +1,79 @@
+{
+  "firstName": "Małgorzata",
+  "lastName": "Tracz",
+  "dateOfBirth": "1985-12-08T00:00:00",
+  "placeOfBirth": "Bolesławiec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/25458E2367B36FE4C1258A51003BA22E/$File/394.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/238C21B1425F2B57C1258C760047CC7F/%24File/OSW102_394.pdf",
+      "cashPositions": [
+        {
+          "description": null,
+          "currency": "PLN",
+          "currencyValue": 72500.0,
+          "baseValue": 72500.0
+        },
+        {
+          "description": "Książeczka mieszkaniowa PKO",
+          "currency": "PLN",
+          "currencyValue": 60.0,
+          "baseValue": 60.0
+        },
+        {
+          "description": null,
+          "currency": "GBP",
+          "currencyValue": 200.0,
+          "baseValue": 1000.0
+        },
+        {
+          "description": null,
+          "currency": "EUR",
+          "currencyValue": 8500.0,
+          "baseValue": 36720.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Budowa domu (planowana powierzchnia 137,59 mkw) na działkach o łącznej powierzchni 1556 mkw",
+          "value": 670000.0,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych dla posłów (pozostało do spłaty)",
+          "value": 42000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 163539.40
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Dieta z tytułu wykonywania obowiązków członkini zarządu European Green Party",
+          "yearlyValue": 13824.0
+        },
+        {
+          "description": "Dodatek telekomunikacyjny z tytułu wykonywania obowiązków członkini zarządu European Green Party",
+          "yearlyValue": 3480.6
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

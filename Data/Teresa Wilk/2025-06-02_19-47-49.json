@@ -1,0 +1,67 @@
+{
+  "firstName": "Teresa",
+  "lastName": "Wilk",
+  "dateOfBirth": "1952-10-29T00:00:00",
+  "placeOfBirth": "Elbląg",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/52DB556BAD902BD5C1258A51003BA2B4/$File/423.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-20T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/569AD98AEFB8DCF7C1258C750043A554/%24File/OSW102_423.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 400000.0,
+          "baseValue": 400000.0,
+          "description": "Konto wspólne z synem Tomaszem Wilk"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 91,9 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność udział 4/6"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 58,27 m²",
+          "value": 300000.0,
+          "legalTitle": "współwłasność udział 4/6"
+        },
+        {
+          "description": "Działka stanowiąca drogę",
+          "value": 2344.0,
+          "legalTitle": "współwłasność, udział 4/84"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy TOYOTA C-HR, rok produkcji 2020",
+          "value": 100000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 150492.13
+        },
+        {
+          "description": "Inne dochody",
+          "yearlyValue": 105.28
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 79721.98
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

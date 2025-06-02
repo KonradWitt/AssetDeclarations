@@ -1,0 +1,85 @@
+{
+  "firstName": "Janusz",
+  "lastName": "Cichoń",
+  "dateOfBirth": "1957-01-07T00:00:00",
+  "placeOfBirth": "Bytom",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1C403FA4485CC462C1258A51003B9BE9/$File/049.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7739869C270306E2C1258C7500458704/$File/OSW102_049.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 173500.0,
+          "baseValue": 173500.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 30438.0,
+          "baseValue": 131790.54
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 40972.0,
+          "baseValue": 164707.44
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Papiery wartościowe",
+          "quantity": null,
+          "value": 300000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 170 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Gospodarstwo rolne rodzinne o powierzchni 2.70 ha z domem i budynkami gospodarczymi (garaż, stodoła, obora, pracownia pszczelarska)",
+          "value": 650000.0,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Suzuki Grand Vitara, rok produkcji 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 201584.94
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Emerytura ZUS",
+          "yearlyValue": 160441.11
+        },
+        {
+          "description": "Dochód z umowy zlecenia (P.W.R.iK)",
+          "yearlyValue": 598.50
+        },
+        {
+          "description": "Dochód z gospodarstwa rolnego",
+          "yearlyValue": 6000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

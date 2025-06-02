@@ -1,0 +1,70 @@
+{
+  "firstName": "Grzegorz",
+  "lastName": "Lorek",
+  "dateOfBirth": "1970-10-03T00:00:00",
+  "placeOfBirth": "Piotrków Trybunalski",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/585585A81D3690C0C1258A51003B9EFB/$File/216.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2015-04-19T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A24198B3A4C0BD07C1258C7C00496C40/%24File/OSW102_216.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 85100.0,
+          "baseValue": 85100.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni użytkowej 158 m² na działce 142 m² z budynkiem gospodarczym 40 m²",
+          "value": 650000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 110 m²",
+          "value": 200000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt konsumpcyjny udzielony na remont domu w PKO BP SA",
+          "value": 26797.65
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód VW Golf, rok produkcji 2014",
+          "value": 17000.0
+        },
+        {
+          "description": "Samochód Audi A6, rok produkcji 2012",
+          "value": 120000.0
+        },
+        {
+          "description": "Zabudowa kuchenna, meble i sprzęt AGD",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Wynagrodzenie za pracę",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 164463.47
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

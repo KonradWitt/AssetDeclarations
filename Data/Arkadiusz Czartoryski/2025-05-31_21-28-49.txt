@@ -1,0 +1,1 @@
+error: The name extracted from the OCR document ("Adin Croton") does not match the name provided in the CSV ("Arkadiusz Czartoryski"). According to the instructions, if the name information from the CSV and the asset declaration document does not match (beyond a second name difference), an error should be returned.

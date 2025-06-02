@@ -1,0 +1,62 @@
+{
+  "firstName": "Kinga",
+  "lastName": "Gajewska",
+  "dateOfBirth": "1990-07-22T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B756E714380E1179C1258A51003B9C8F/$File/087.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/5AA529D235F156A9C1258C7600482564/%24File/OSW102_087.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 50000.0,
+          "baseValue": 50000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 800.0,
+          "baseValue": 3200.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 100.0,
+          "baseValue": 430.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni użytkowej 165,77 m², powierzchni dodatkowej 90,86 m², wiata z dwoma ścianami, położony na dwóch działkach ewidencyjnych o łącznej powierzchni 0,171 ha (0,0427 ha i 0,1283 ha)",
+          "value": 900000.0,
+          "legalTitle": "własność (majątek własny)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Audi Q7, rok 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 200584.95
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Dochód z funduszy inwestycyjnych",
+          "yearlyValue": 8457.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "firstName": "Artur",
+  "lastName": "Chojecki",
+  "dateOfBirth": "1974-04-19T00:00:00",
+  "placeOfBirth": "Elbląg",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7EC15187A16FB3EBC1258A51003B9BCF/$File/043.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E511D0F884A650C7C1258C7C0056B456/%24File/OSW102_043.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.0,
+          "baseValue": 10000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 56.5 m²",
+          "value": 450000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup, Bank PKO BP (z 2005 r.)",
+          "value": 30000.0
+        },
+        {
+          "description": "Pożyczka konsumpcyjna, Kasa Stefczyka (z 2022 r.)",
+          "value": 130000.0
+        },
+        {
+          "description": "Pożyczka, Kancelaria Sejmu (z 2024 r.)",
+          "value": 24000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie posła",
+          "yearlyValue": 154025.59
+        },
+        {
+          "description": "Dieta parlamentarna (w tym nieopodatkowana 36000, opodatkowana 9359.27)",
+          "yearlyValue": 45359.27
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

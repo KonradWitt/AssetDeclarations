@@ -1,0 +1,65 @@
+{
+  "firstName": "Władysław",
+  "lastName": "Bartoszewski",
+  "dateOfBirth": "1955-10-22T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/422B987C325121DCC1258A51003B9B3C/$File/013.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9C3FFCE43E8C9CC2C1258C7C0057A01F/%24File/OSW102_013.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 8246.26,
+          "baseValue": 8246.26
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje Santander S.A. (Hiszpania)",
+          "quantity": "462",
+          "value": 8798.0
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Karta kredytowa (zadłużenie)",
+          "value": 49868.60
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes Benz GLE 450, rok 2016",
+          "value": 115000.0
+        },
+        {
+          "description": "Zegarek Patek Philippe, kupiony w 1987 roku",
+          "value": 42000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z Ministerstwa Spraw Zagranicznych",
+          "yearlyValue": 190806.07
+        },
+        {
+          "description": "Dieta parlamentarna (Sejm RP)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dochód z akcji Santander S.A.",
+          "yearlyValue": 880.0
+        },
+        {
+          "description": "Dochody z tytułu zajęć i świadczenia podróży zagranicznych",
+          "yearlyValue": 305.46
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

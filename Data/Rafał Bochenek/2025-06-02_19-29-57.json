@@ -1,0 +1,54 @@
+{
+  "firstName": "Rafał",
+  "lastName": "Bochenek",
+  "dateOfBirth": "1986-08-14T00:00:00",
+  "placeOfBirth": "Kraków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2F98B85799D3FBFFC1258A51003B9B66/$File/022.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/014B2E861080AE16C1258C840036150B/%24File/OSW102_022.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 750000.0,
+          "baseValue": 750000.0,
+          "description": "środki pieniężne zgromadzone w walucie polskiej (w tym ze sprzedaży działek)"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Działka o powierzchni 0,16 ha",
+          "value": 80000.0,
+          "legalTitle": "majątkowa wspólność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 0,1894 ha",
+          "value": 115000.0,
+          "legalTitle": "majątkowa wspólność małżeńska"
+        },
+        {
+          "description": "Udział 1/126 w działce o powierzchni 0,3453 ha",
+          "value": 15000.0,
+          "legalTitle": "majątek osobisty (umowa darowizny)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 194957.81
+        },
+        {
+          "description": "Dieta parlamentarna (w tym opodatkowana – 9.145,51 zł)",
+          "yearlyValue": 45145.51
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

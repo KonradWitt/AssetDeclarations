@@ -1,0 +1,85 @@
+{
+  "firstName": "Klaudia",
+  "lastName": "Jachira",
+  "dateOfBirth": "1988-05-31T00:00:00",
+  "placeOfBirth": "Wrocław",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2095612A64CDA22AC1258A51003B9D84/$File/138.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4267022D03A18777C1258C7600466A7E/%24File/OSW102_138.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 47000.0,
+          "baseValue": 47000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1500.0,
+          "baseValue": 6450.0
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 180.0,
+          "baseValue": 900.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2000.0,
+          "baseValue": 8000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 34,5 m²",
+          "value": 400000.0,
+          "legalTitle": "Własność potwierdzona aktem notarialnym"
+        },
+        {
+          "description": "Mieszkanie 56,24 m²",
+          "value": 650000.0,
+          "legalTitle": "Własność poświadczona aktem notarialnym"
+        },
+        {
+          "description": "Mieszkanie 47,10 m²",
+          "value": 900000.0,
+          "legalTitle": "Własność potwierdzona aktem notarialnym"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Clio 2 Storia, rok 2008",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Dieta parlamentarna opodatkowana",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Dieta parlamentarna niepodlegająca opodatkowaniu",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dochód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 531.15
+        },
+        {
+          "description": "Przychód z tytułu najmu lokalu mieszkalnego",
+          "yearlyValue": 25800.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

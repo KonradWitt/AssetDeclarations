@@ -1,0 +1,75 @@
+{
+  "firstName": "Radosław",
+  "lastName": "Fogiel",
+  "dateOfBirth": "1982-02-16T00:00:00",
+  "placeOfBirth": "Radom",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/12936E561D314FC6C1258A51003B9C6E/$File/079.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F05BD862CF6DF2D8C1258C7E00346692/%24File/OSW102_079.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 281674.66,
+          "baseValue": 281674.66
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 367.38,
+          "baseValue": 1451.96
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 39,47 m²",
+          "value": 325000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 54,34 m²",
+          "value": 550000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka konsumpcyjna w Alior Banku SA, oprocentowanie 13,90% w stosunku rocznym",
+          "value": 103538.31
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Megane, rok 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 44931.72
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 5632.62
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 171014.83
+        },
+        {
+          "description": "Dochód z tytułu pełnienia obowiązków społecznych i obywatelskich",
+          "yearlyValue": 12178.69
+        },
+        {
+          "description": "Dochód z tytułu najmu",
+          "yearlyValue": 34200.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

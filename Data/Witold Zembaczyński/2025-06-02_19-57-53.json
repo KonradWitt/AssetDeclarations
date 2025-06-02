@@ -1,0 +1,63 @@
+{
+  "firstName": "Witold",
+  "lastName": "Zembaczyński",
+  "dateOfBirth": "1980-12-28T00:00:00",
+  "placeOfBirth": "Opole",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/3D17129337D68D86C1258A51003BA328/$File/448.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/046923F8671EBBF1C1258C75006E4DF2/%24File/OSW102_448.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 8050.0,
+          "baseValue": 8050.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje ORLEN S.A.",
+          "quantity": "10",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 185 m²",
+          "value": 480000.0,
+          "legalTitle": "Współwłasność rodzinna 2/12 części na domu i działce o pow. 0,0604 Ha, w tym 0,0072 Ha odrębnej własności"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych",
+          "value": 29750.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód LEXUS RX 300, rok 2004",
+          "value": null
+        },
+        {
+          "description": "Samochód MERCEDES-BENZ E 350 CDI, rok 2011",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 179536.26
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

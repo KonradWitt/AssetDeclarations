@@ -1,0 +1,85 @@
+{
+  "firstName": "Rafał",
+  "lastName": "Romanowski",
+  "dateOfBirth": "1978-07-15T00:00:00",
+  "placeOfBirth": "Ciechanów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D083D7A6DED86855C1258B6300231BDC/$File/492.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1364F68474BB49E0C1258C7B003076CC/%24File/OSW102_492.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 548579.60,
+          "baseValue": 548579.60
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 101590.12,
+          "baseValue": 436837.52
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały Agro Idea spółka z ograniczoną odpowiedzialnością",
+          "quantity": "4",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Działka budowlana-kóna, powierzchnia 0,3757 ha",
+          "value": 49000.0,
+          "legalTitle": "własność współmałżeńska"
+        },
+        {
+          "description": "Działka rolna, powierzchnia 0,5800 ha",
+          "value": 57000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka rolna zabudowana, powierzchnia 0,0900 ha",
+          "value": 155000.0,
+          "legalTitle": "własność współmałżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Opel Meriva, rok produkcji 2015",
+          "value": 34000.0
+        },
+        {
+          "description": "Samochód Toyota Aygo, rok produkcji 2019",
+          "value": 30000.0
+        },
+        {
+          "description": "Samochód Mazda 3, rok produkcji 2023",
+          "value": 129000.0
+        },
+        {
+          "description": "Zasoby pieniężne (darowizna od ojca)",
+          "value": 280000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z Parlamentu Europejskiego",
+          "yearlyValue": 2449.58
+        },
+        {
+          "description": "Uposażenie poselskie z Kancelarii Sejmu",
+          "yearlyValue": 113939.76
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 20197.01
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "firstName": "Bartłomiej",
+  "lastName": "Pejo",
+  "dateOfBirth": "1985-04-04T00:00:00",
+  "placeOfBirth": "Świdnik",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/88826A5EB07A7628C1258A51003BA035/$File/285.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/6450C9C1D76084BEC1258C7C0049BB74/%24File/OSW102_285.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 25000.0,
+          "baseValue": 25000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1500.0,
+          "baseValue": 6450.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1000.0,
+          "baseValue": 3900.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 120 m² z działką 1174 m² (17/24 udziału) z altaną niemieszkalną",
+          "value": 600000.0,
+          "legalTitle": "majątek odrębny"
+        },
+        {
+          "description": "Cztery działki niezabudowane o łącznej powierzchni 1406 m² (438 m², 170 m², 528 m², 270 m²)",
+          "value": 300000.0,
+          "legalTitle": "majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO Bank Polski Hipoteczny na zakup domu z działką (20 lat)",
+          "value": 192718.66
+        },
+        {
+          "description": "Kredyt odnawialny w PKO BP",
+          "value": 57455.06
+        },
+        {
+          "description": "Limit karty kredytowej w PKO BP",
+          "value": 19800.0
+        },
+        {
+          "description": "Kredyt odnawialny w mBank",
+          "value": 30700.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Motocykl Suzuki Bandit GSF 650, rok produkcji 2007",
+          "value": null
+        },
+        {
+          "description": "Motocykl WSK 125 M06B3 KOS, rok produkcji 1981",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Uposażenie parlamentarne",
+          "yearlyValue": 183405.50
+        },
+        {
+          "description": "Wynagrodzenie z tytułu umowy o pracę",
+          "yearlyValue": 14481.47
+        },
+        {
+          "description": "Wynagrodzenie z tytułu umowy zlecenia",
+          "yearlyValue": 48372.95
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

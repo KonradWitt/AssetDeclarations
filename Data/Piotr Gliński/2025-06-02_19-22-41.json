@@ -1,0 +1,97 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Gliński",
+  "dateOfBirth": "1954-04-20T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F4E2413F78B75C7FC1258A51003B9CC9/$File/100.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FA012015E25707F4C1258C7C003BA12D/%24File/OSW102_100.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 28000.0,
+          "baseValue": 28000.0,
+          "description": "PKO BP"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 18000.0,
+          "baseValue": 18000.0,
+          "description": "CITY HANDLOWY (współwłasność z żoną)"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2000.0,
+          "baseValue": null,
+          "description": "współwłasność z żoną"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje w Funduszach PKO",
+          "quantity": null,
+          "value": 347200.74
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom ok. 400 m² położony na działce 515 m²",
+          "value": 3000000.0,
+          "legalTitle": "1/2 własności domu i działki (wraz z siostrą)"
+        },
+        {
+          "description": "Mieszkanie 58 m²",
+          "value": 450000.0,
+          "legalTitle": "współwłasność z żoną i po 1/2"
+        },
+        {
+          "description": "Działka rolna nieuprawiana (Vi VII 11. ziemi) 1,27 ha",
+          "value": 15000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Obraz E. Plumika pt. „Wesołych Świąt” z 1981 r.",
+          "value": 50000.0
+        },
+        {
+          "description": "Samochód Toyota Avensis ARL, rok 2008 (współwłasność z żoną)",
+          "value": 10000.0
+        },
+        {
+          "description": "Samochód Toyota Yaris, rok 2011 (współwłasność z żoną)",
+          "value": 10000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45038.61
+        },
+        {
+          "description": "Uposażenie posła",
+          "yearlyValue": 150613.89
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 157789.04
+        },
+        {
+          "description": "Odprawa emerytalna KPRM",
+          "yearlyValue": 218973.27
+        },
+        {
+          "description": "Dochód z IfiS PAN",
+          "yearlyValue": 2464.24
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

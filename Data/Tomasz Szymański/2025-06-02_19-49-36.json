@@ -1,0 +1,81 @@
+{
+  "firstName": "Tomasz",
+  "lastName": "Szymański",
+  "dateOfBirth": "1978-04-24T00:00:00",
+  "placeOfBirth": "Grudziądz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/67286ECED48921E9C1258A51003BA1DD/$File/377.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/BC6A0216469C2DC5C1258C7B004043BC/%24File/OSW102_377.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 440404.83,
+          "baseValue": 440404.83
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "PPK TFI PZU S.A.",
+          "quantity": null,
+          "value": 5725.59
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 160 m² na działce 1263 m²",
+          "value": 500000.0,
+          "legalTitle": "majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 36,4 m²",
+          "value": 140000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 47,3 m²",
+          "value": 250000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 48 m²",
+          "value": 250000.0,
+          "legalTitle": "majątek odrębny"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Superb, rok produkcji 2019",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Wynagrodzenie Sekretarza Stanu w MSWiA",
+          "yearlyValue": 194402.44
+        },
+        {
+          "description": "Dochód z tytułu najmu mieszkania",
+          "yearlyValue": 22400.00
+        },
+        {
+          "description": "Świadczenie wychowawcze „Rodzina 800 plus”",
+          "yearlyValue": 19200.00
+        },
+        {
+          "description": "Dochód z tytułu sprzedaży auta",
+          "yearlyValue": 25300.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "firstName": "Konrad",
+  "lastName": "Frysztak",
+  "dateOfBirth": "1986-02-15T00:00:00",
+  "placeOfBirth": "Radom",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/278F7B9E14D12C0CC1258A51003B9C7F/$File/083.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EC1E0F1CCC754858C1258C7600434940/%24File/OSW102_083.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.00,
+          "baseValue": 10000.00
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 15000.00,
+          "baseValue": 15000.00
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 615.49,
+          "baseValue": 2461.96
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1669.43,
+          "baseValue": 7178.549
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 121,40 m²",
+          "value": 712362.00,
+          "legalTitle": "akt notarialny; księga wieczysta; udział 1/2; majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 72,55 m²",
+          "value": 461176.00,
+          "legalTitle": "akt notarialny; księga wieczysta; udział 1/2; majątek odrębny"
+        },
+        {
+          "description": "Działka pod domem o powierzchni 320 m²",
+          "value": 712362.00,
+          "legalTitle": "akt notarialny; księga wieczysta; udział 1/2; majątek odrębny"
+        },
+        {
+          "description": "Udział w nieruchomości z pkt. II.2 (7255/900813)",
+          "value": 461176.00,
+          "legalTitle": "akt notarialny; księga wieczysta; udział 1/2; majątek odrębny"
+        },
+        {
+          "description": "Miejsce postojowe w parkingu podziemnym (udział 1/85)",
+          "value": 31126.00,
+          "legalTitle": "akt notarialny; księga wieczysta; małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP na zakup mieszkania",
+          "value": 155090.46
+        },
+        {
+          "description": "Kredyt hipoteczny w PEKAO S.A. na zakup domu wraz z działką",
+          "value": 445740.63
+        },
+        {
+          "description": "Pożyczka gotówkowa konsolidacyjna w PEKAO S.A.",
+          "value": 108329.96
+        },
+        {
+          "description": "Karta kredytowa w PEKAO S.A. (limit 38.000 zł)",
+          "value": 11737.22
+        },
+        {
+          "description": "Limit w rachunku bieżącym konsumpcyjny w PEKAO S.A. (limit 11.800 zł)",
+          "value": 11290.43
+        },
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych na remont",
+          "value": 23800.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Audi 80, rok produkcji 1994",
+          "value": null
+        },
+        {
+          "description": "Samochód Volkswagen Multivan, rok produkcji 2015",
+          "value": null
+        },
+        {
+          "description": "Samochód Toyota Highlander, rok produkcji 2024 (najem długoterminowy)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 4531.07
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 202019.32
+        },
+        {
+          "description": "Wynajem mieszkania",
+          "yearlyValue": 28650.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

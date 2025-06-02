@@ -1,0 +1,72 @@
+{
+  "firstName": "Aleksandra",
+  "lastName": "Gajewska",
+  "dateOfBirth": "1983-08-22T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/375D9F1D4963C981C1258A51003B9C8A/$File/086.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-08T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/56B8C6EFED8E4E3AC1258C68004137D6/%24File/OSW102_086.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 80000.0,
+          "baseValue": 80000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 45000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Udział w nieruchomości gruntowej o powierzchni 186 ha",
+          "value": 70000.0,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Lexus, rok produkcji 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45513.04
+        },
+        {
+          "description": "Dieta opodatkowana",
+          "yearlyValue": 953.00
+        },
+        {
+          "description": "Dieta nieopodatkowana",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Wynagrodzenie z tytułu zatrudnienia (MEiPS)",
+          "yearlyValue": 18516.08
+        },
+        {
+          "description": "Zwrot kosztów podróży zagranicznych",
+          "yearlyValue": 1382.51
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Działalność gospodarcza",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Agencja reklamowa",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

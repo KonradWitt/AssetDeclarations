@@ -1,0 +1,63 @@
+{
+  "firstName": "Tomasz",
+  "lastName": "Zieliński",
+  "dateOfBirth": "1967-07-20T00:00:00",
+  "placeOfBirth": "Józefów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/62EA6DD39CEF1120C1258A51003BA33F/$File/453.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-08T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/26AC01987FA4C22CC1258C76004FA2E0/%24File/OSW102_453.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 52893.24,
+          "baseValue": 52893.24
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Fundusze inwestycyjne",
+          "value": 310161.83,
+          "quantity": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Działka las o powierzchni 1.13 ha",
+          "value": 21000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka las o powierzchni 0.5857 ha",
+          "value": 9000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Yaris, rok 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna Sejm RP",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 162642.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 262.67
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

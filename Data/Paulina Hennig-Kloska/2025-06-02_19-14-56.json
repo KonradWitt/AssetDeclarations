@@ -1,0 +1,67 @@
+{
+  "firstName": "Paulina",
+  "lastName": "Hennig-Kloska",
+  "dateOfBirth": "1977-10-05T00:00:00",
+  "placeOfBirth": "Gniezno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7FA1BFE5B9219648C1258A51003B9D52/$File/128.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D83DE740CD05F73BC1258C7C003806BC/%24File/OSW102_128.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 643000.0,
+          "baseValue": 643000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 152.39,
+          "baseValue": 658.32
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 140 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność we wspólnocie majątkowej"
+        },
+        {
+          "description": "Mieszkanie 52,42 m²",
+          "value": 300000.0,
+          "legalTitle": "współwłasność we wspólnocie majątkowej"
+        },
+        {
+          "description": "Działka zabudowana 500 m²",
+          "value": 100000.0,
+          "legalTitle": "własność we wspólnocie majątkowej"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Kia Sportage, rok 2022",
+          "value": 109000.0
+        },
+        {
+          "description": "Samochód osobowy Citroen C3, rok 2018",
+          "value": 30000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z Ministerstwa Klimatu i Środowiska",
+          "yearlyValue": 246581.97
+        },
+        {
+          "description": "Dieta parlamentarna z Kancelarii Sejmu",
+          "yearlyValue": 48099.96
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

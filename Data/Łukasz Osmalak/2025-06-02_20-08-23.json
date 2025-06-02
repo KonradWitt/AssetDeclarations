@@ -1,0 +1,61 @@
+{
+  "firstName": "Łukasz",
+  "lastName": "Osmalak",
+  "dateOfBirth": "1977-06-17T00:00:00",
+  "placeOfBirth": "Mikołów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/00850794576C084EC1258A51003BA009/$File/276.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C9E027071AB3CFE4C1258C760048C23D/%24File/OSW102_276.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 12000.0,
+          "baseValue": 12000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 200 m²",
+          "value": 800000.0,
+          "legalTitle": "wyrok sądu z dnia 19.06.2006 1/12 domu"
+        },
+        {
+          "description": "Mieszkanie 50,85 m²",
+          "value": 280000.0,
+          "legalTitle": "Akt notarialny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "PKO BP",
+          "value": 134000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Kancelaria sejmu dieta",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Kancelaria sejmu wynagrodzenie",
+          "yearlyValue": 174007.68
+        },
+        {
+          "description": "Wynajem mieszkania",
+          "yearlyValue": 16700.0
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 964.53
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

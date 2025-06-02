@@ -1,0 +1,107 @@
+{
+  "id": null,
+  "firstName": "Mariusz",
+  "lastName": "Krystian",
+  "dateOfBirth": "1976-09-18T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/92CBC3402D33CD7DC1258A51003B9E8F/$File/193.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/58A84BDA8C077219C1258C76004A7E27/%24File/OSW102_193.pdf",
+      "employmentDetails": "Poseł na Sejm RP",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 1248.01,
+          "baseValue": 1248.01
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dom o powierzchni 159 m²",
+          "value": 400000.0,
+          "legalTitle": "współwłasność majątkowa"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Gospodarstwo rolne indywidualne o powierzchni 2,6727 ha",
+          "value": 1280000.0,
+          "legalTitle": "współwłasność majątkowa"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Budynki gospodarcze (7,50 m², 7,50 m²), budynek (135 m²) oraz działka",
+          "value": 40000.0,
+          "legalTitle": "współwłasność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Kredyt gotówkowy w BS Bieżun",
+          "value": 117551.78
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Kredyt inwestycyjny w BS Bieżun",
+          "value": 70258.19
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Pożyczka hipoteczna w PKO BP O/Ładowice",
+          "value": 59358.22
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Pożyczka gotówkowa w PKO BP O/Ładowice",
+          "value": 38473.58
+        }
+      ],
+      "personalProperties": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód osobowy Mazda CX-9, rok produkcji 2019",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.15
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Wynagrodzenie poselskie",
+          "yearlyValue": 154453.14
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dochód z wynajmu",
+          "yearlyValue": 156461.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

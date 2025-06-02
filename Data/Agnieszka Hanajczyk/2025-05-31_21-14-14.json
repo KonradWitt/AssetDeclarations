@@ -1,0 +1,86 @@
+{
+  "firstName": "Agnieszka",
+  "lastName": "Hanajczyk",
+  "dateOfBirth": "1963-01-12T00:00:00",
+  "placeOfBirth": "Gdynia",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D58275752982E3EEC1258A51003B9D47/$File/126.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9973737379D29FDBC1258C7B0042F124/%24File/OSW102_126.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 8557.38,
+          "baseValue": 8557.38
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 14889.57,
+          "baseValue": 14889.57
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbu Państwa",
+          "quantity": null,
+          "value": 8159.6
+        },
+        {
+          "name": "Fundusze Inwestycyjne",
+          "quantity": null,
+          "value": 1087.08
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 63 m²",
+          "value": 400000.0,
+          "legalTitle": "współwłasność małżeńska, odrębny majątek"
+        },
+        {
+          "description": "Budynek mieszkalny na działce 1000 m²",
+          "value": 136305.0,
+          "legalTitle": "dzierżawa"
+        },
+        {
+          "description": "Działka 700 m² z magazynem i technologią hodowli ryb",
+          "value": 31000.0,
+          "legalTitle": "umowa dzierżawy"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Audi A3, rok 2006",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Świadczenie emerytalne ZUS",
+          "yearlyValue": 88781.84
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 189398.60
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 48099.96
+        },
+        {
+          "description": "Dochód nieopodatkowany",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dochód ze spółki",
+          "yearlyValue": 9679.82
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

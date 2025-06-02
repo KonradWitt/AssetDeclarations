@@ -1,0 +1,67 @@
+{
+  "firstName": "Cezary",
+  "lastName": "Tomczyk",
+  "dateOfBirth": "1984-08-25T00:00:00",
+  "placeOfBirth": "Gryfice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/35EDDCBE7943563DC1258A51003BA221/$File/392.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/275976C482F21DB5C1258C7B0040BF16/%24File/OSW102_392.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 95000.00,
+          "baseValue": 95000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 76,49 m², z 2 miejscami w garażu podziemnym, udział związany z własnością 7649/250269",
+          "value": 1100000.0,
+          "legalTitle": "własność (wspólność małżeńska)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni ok. 58 m², udział 1/6",
+          "value": 250000.0,
+          "legalTitle": "własność (wspólność małżeńska)"
+        },
+        {
+          "description": "Rodzinny Ogródek Działkowy o powierzchni ok. 600 m²",
+          "value": 30000.0,
+          "legalTitle": "Prawo do użytkowania działki ROD"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny zaciągnięty w PKO BP na 372 miesiące na warunkach komercyjnych",
+          "value": 705000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Fiat 500 (2016)",
+          "value": null
+        },
+        {
+          "description": "Przyczepa kempingowa Adria 542 (2006)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Dochód ze stosunku pracy",
+          "yearlyValue": 213713.01
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

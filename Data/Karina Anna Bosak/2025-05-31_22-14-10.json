@@ -1,0 +1,78 @@
+{
+  "firstName": "Karina",
+  "lastName": "Bosak",
+  "dateOfBirth": "1988-07-08T00:00:00",
+  "placeOfBirth": "Szulelinve",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4EC62CCC3758A576C1258A51003B9B99/$File/032.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2021-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/344F62E1E5280D15C1258C76004BEB52/%24File/OSW102_032.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 68725.51,
+          "baseValue": 68725.51
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 103.58,
+          "baseValue": 472.09
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Mokate",
+          "quantity": null,
+          "value": 175580.69
+        },
+        {
+          "name": "Ubezpieczenie na życie (inwestycja)",
+          "quantity": null,
+          "value": 6107.94
+        },
+        {
+          "name": "Fundusze zarządzane",
+          "quantity": null,
+          "value": 1168531.00
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Działka o powierzchni 1860 m²",
+          "value": 806880.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 830 m²",
+          "value": 340300.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód MERCEDES-BENZ B120, rok produkcji 2005",
+          "value": null
+        },
+        {
+          "description": "Samochód Volvo V60, rok produkcji 2012",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie i diety poselskie (netto)",
+          "yearlyValue": 182990.15
+        },
+        {
+          "description": "Inne dochody",
+          "yearlyValue": 9679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

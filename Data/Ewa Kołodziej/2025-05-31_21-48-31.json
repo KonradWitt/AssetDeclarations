@@ -1,0 +1,79 @@
+{
+  "firstName": "Ewa",
+  "lastName": "Kołodziej",
+  "dateOfBirth": "1978-09-02T00:00:00",
+  "placeOfBirth": "Katowice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/41AC024518B8E78AC1258A51003B9E14/$File/168.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F70D827766A198F7C1258C760041E6DE/%24File/OSW102_168.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 372000.0,
+          "baseValue": 372000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 5046.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 23,40 m²",
+          "value": 150000.0,
+          "legalTitle": "własność (kupno)"
+        },
+        {
+          "description": "Mieszkanie 27,50 m²",
+          "value": 150000.0,
+          "legalTitle": "własność (kupno)"
+        },
+        {
+          "description": "Mieszkanie 30,08 m²",
+          "value": 150000.0,
+          "legalTitle": "własność (kupno)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Citroen C3 Pluriel (2003)",
+          "value": null
+        },
+        {
+          "description": "Samochód Citroen C3 Pluriel (2006)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na podróże zagraniczne",
+          "yearlyValue": 1559.41
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 160891.33
+        },
+        {
+          "description": "Wynajem nieruchomości",
+          "yearlyValue": 18210.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

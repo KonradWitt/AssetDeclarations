@@ -1,0 +1,66 @@
+{
+  "firstName": "Anna",
+  "lastName": "Schmidt",
+  "dateOfBirth": "1978-11-11T00:00:00",
+  "placeOfBirth": "Jarosław",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/C56360CB21C7578AC1258A51003BA0FA/$File/329.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-05T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2E265CC018DDFF50C1258C44003F0342/%24File/OSW102_329.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 50000.0,
+          "baseValue": 50000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 110 m²",
+          "value": 250000.0,
+          "legalTitle": "WŁASNOŚĆ"
+        },
+        {
+          "description": "Działka o powierzchni 200 m² wraz z częściami wspólnymi (strych, klatka schodowa, piwnica) przynależącymi do mieszkania",
+          "value": 110000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w Banku PKO S.A.",
+          "value": 137000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód KIA SPORTAGE, rok produkcji 2021",
+          "value": 80000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie w MRiPS",
+          "yearlyValue": 77717.34
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 113189.76
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

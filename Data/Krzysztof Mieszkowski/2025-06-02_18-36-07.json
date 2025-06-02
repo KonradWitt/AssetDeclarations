@@ -1,0 +1,59 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Mieszkowski",
+  "dateOfBirth": "1956-05-19T00:00:00",
+  "placeOfBirth": "Geowie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CA7A539C67C82708C1258B46005B7448/$File/479.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8D01904FC8BC9720C1258C750044E276/%24File/OSW102_479.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 18766.18,
+          "baseValue": 18766.18
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Kredyt w Kancelarii Sejmu",
+          "value": 37400.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód VOLVO V60, rok produkcji 2016",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 23508.00
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 126516.40
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 95429.69
+        },
+        {
+          "description": "Redaktor Naczelny Notatnik Terminalny",
+          "yearlyValue": 10638.00
+        },
+        {
+          "description": "Członek Rady Artystycznej POA",
+          "yearlyValue": 6168.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

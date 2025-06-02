@@ -1,0 +1,1 @@
+error: Nie można poprawnie wyekstrahować daty urodzenia. W dokumencie OCR widnieje "3111", co nie jest kompletną ani poprawną datą w formacie DD.MM.RRRR. Brakuje roku oraz format jest niejasny (np. "31.11" byłoby niepoprawne, ponieważ listopad ma 30 dni).

@@ -1,0 +1,54 @@
+{
+  "firstName": "Grzegorz",
+  "lastName": "Płaczek",
+  "dateOfBirth": "1978-05-13T00:00:00",
+  "placeOfBirth": "Tarnowskie Góry",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/AA0B655778226688C1258A51003BA06A/$File/296.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D8B09C9A5303FF0BC1258C76005091BA/%24File/OSW102_296.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 690.33,
+          "baseValue": 690.33
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 58.62,
+          "baseValue": 58.62
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Kancelarii Sejmu (na 12 miesięcy)",
+          "value": 13480.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Fundacja Nowe Spektrum",
+          "businessType": "fundacja",
+          "description": "Prezes zarządu od lipca 2021 r.",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

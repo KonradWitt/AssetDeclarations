@@ -1,0 +1,91 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Kandyba",
+  "dateOfBirth": "1969-10-13T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D0880D5E99E91B73C1258A51003B9DCD/$File/153.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-05-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/049FB93A48856749C1258C7C0036F826/%24File/OSW102_153.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 94004.0,
+          "baseValue": 94004.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały ENERGY INVEST GROUP",
+          "quantity": "10",
+          "value": null
+        },
+        {
+          "name": "Udziały TP FOOD SP Z O.O.",
+          "quantity": "1000",
+          "value": null
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny",
+          "value": 88300.0
+        },
+        {
+          "description": "Kredyt konsumencki",
+          "value": 28000.0
+        },
+        {
+          "description": "Leasing urządzeń",
+          "value": 213300.0
+        },
+        {
+          "description": "Kredyt w Tigark",
+          "value": 65000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Ford Kuga",
+          "value": null
+        },
+        {
+          "description": "Samochód Fiat Talento, rok 2020",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 153808.24
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45678.82
+        },
+        {
+          "description": "Dochód związany z urlopem bezpłatnym/zwolnieniem lekarskim (13-tka za 2023)",
+          "yearlyValue": 194021.10
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "PJA INTERNATIONAL PIOTR KANDYBA",
+          "businessType": "Jednoosobowa działalność gospodarcza",
+          "description": "Właściciel",
+          "income": -22583.22
+        },
+        {
+          "businessName": "TP FOOD SP Z O.O.",
+          "businessType": "Spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek zarządu od 2005",
+          "income": 21.0
+        }
+      ]
+    }
+  ]
+}

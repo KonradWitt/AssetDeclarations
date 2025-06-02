@@ -1,0 +1,91 @@
+{
+  "firstName": "Ewa",
+  "lastName": "Leniart",
+  "dateOfBirth": "1976-08-27T00:00:00",
+  "placeOfBirth": "Dylągówka",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A776AFE8B9B24DD2C1258A51003B9EE2/$File/210.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E4C72CB44483DAEBC1258C76005128BC/%24File/OSW102_210.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 229726.73,
+          "baseValue": 229726.73
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 14136.0,
+          "baseValue": 56544.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje",
+          "quantity": null,
+          "value": 13000.0
+        },
+        {
+          "name": "IKE i IKZE",
+          "quantity": null,
+          "value": 46836.58
+        },
+        {
+          "name": "Polisy",
+          "quantity": null,
+          "value": 26890.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 170 m² i 115,4 m²",
+          "value": 630000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 55,4 m² z balkonem 5,91 m²",
+          "value": 600000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ"
+        },
+        {
+          "description": "Trzy działki o łącznej powierzchni 6200 m² (0,62 ha)",
+          "value": 155000.0,
+          "legalTitle": "WŁASNOŚĆ"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota RAV 4, rok produkcji 2022",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z Uniwersytetu Rzeszowskiego",
+          "yearlyValue": 115582.58
+        },
+        {
+          "description": "Dieta parlamentarna (Kancelaria Sejmu)",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Uposażenie (Kancelaria Sejmu)",
+          "yearlyValue": 152953.14
+        },
+        {
+          "description": "Dochód z najmu mieszkania",
+          "yearlyValue": 24000.0
+        },
+        {
+          "description": "Przychód z ubezpieczenia",
+          "yearlyValue": 521.56
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

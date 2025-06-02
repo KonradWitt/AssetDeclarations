@@ -1,0 +1,81 @@
+{
+  "firstName": "Elżbieta",
+  "lastName": "Gapińska",
+  "dateOfBirth": "1960-10-03T00:00:00",
+  "placeOfBirth": "Procu",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E5075AD988B49EF1C1258A51003B9C95/$File/088.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CAC1FB66C6FEFC8AC1258C760051056E/%24File/OSW102_088.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 170000.0,
+          "baseValue": 170000.0,
+          "description": "Współwłasność małżeńska"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 5000.0,
+          "baseValue": 21500.0,
+          "description": "Współwłasność małżeńska"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 3000.0,
+          "baseValue": 12000.0,
+          "description": "Współwłasność małżeńska"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 250 m². Wartość łączna z działką (408 m²) wynosi 600 000 PLN.",
+          "value": null,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 408 m². Wartość wliczona w wartość domu.",
+          "value": null,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na rozbudowę domu w Getin Bank. Pierwotna kwota: 55 077,88 CHF. Kwota do spłaty: 25 400 CHF.",
+          "value": 25400.0,
+          "currency": "CHF"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Mazda 6, rok 2020",
+          "value": null,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 174255.94
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 68937.68
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

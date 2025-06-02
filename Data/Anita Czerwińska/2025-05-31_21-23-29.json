@@ -1,0 +1,67 @@
+{
+  "firstName": "Anita",
+  "lastName": "Czerwińska",
+  "dateOfBirth": "1970-01-13T00:00:00",
+  "placeOfBirth": null,
+  "address": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/9D0A497EC0D0F218C1258A51003B9C1E/$File/061.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4DADD71AE1FE9287C1258C7B00419A9E/%24File/OSW102_061.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 125000.0,
+          "baseValue": 125000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 153 m²",
+          "value": 1000000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka 527 m², grunt rolny",
+          "value": 1000000.0,
+          "legalTitle": "współwłasność, spadek, majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych",
+          "value": 34000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Ford S-MAX Trend, rok 2009",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Dieta ROP",
+          "yearlyValue": 15271.20
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 124983.40
+        },
+        {
+          "description": "Inne dochody (IMRPITS)",
+          "yearlyValue": 30921.44
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

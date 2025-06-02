@@ -1,0 +1,94 @@
+{
+  "firstName": "Michał",
+  "lastName": "Jaros",
+  "dateOfBirth": "1981-01-26T00:00:00",
+  "placeOfBirth": "Aleksandrów Kujawski",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6B020212A5F923B0C1258A51003B9D92/$File/141.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/02E251F5D148AEBFC1258C8400358B41/%24File/OSW102_141.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 75000.0,
+          "baseValue": 75000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 5000.0,
+          "baseValue": 20000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2500.0,
+          "baseValue": 10750.0
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 5500.0,
+          "baseValue": 22550.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Polisa w UNUM ŻYCIE TUIR S.A.",
+          "quantity": null,
+          "value": 24393.68
+        },
+        {
+          "name": "Jednostki uczestnictwa w polisie w ALLIANZ ŻYCIE POLSKA S.A.",
+          "quantity": null,
+          "value": 30602.44
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 123,66 m² położony na działce 664 m²",
+          "value": 785000.0,
+          "legalTitle": "Współwłasność – wspólność majątkowa małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 41,63 m²",
+          "value": 365000.0,
+          "legalTitle": "Własność, wielkość udziału 34/10000"
+        },
+        {
+          "description": "Działka z budynkiem o powierzchni 0,6851 hektara",
+          "value": null,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 149737.09
+        },
+        {
+          "description": "Przychód z tytułu wynajmu mieszkania",
+          "yearlyValue": 28800.0
+        },
+        {
+          "description": "Dochód z tytułu pełnienia funkcji Sekretarza Stanu w Ministerstwie Rozwoju i Technologii",
+          "yearlyValue": 47244.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "FUNDACJA „VOLLEY WROCŁAW”",
+          "businessType": "Fundacja",
+          "description": "Członek rady nadzorczej od 20 czerwca 2016 r. Funkcję pełniona społecznie.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

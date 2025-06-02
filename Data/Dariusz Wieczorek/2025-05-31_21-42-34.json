@@ -1,0 +1,113 @@
+{
+  "firstName": "Dariusz",
+  "lastName": "Wieczorek",
+  "dateOfBirth": "1965-05-23T00:00:00",
+  "placeOfBirth": "Szczecin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CBDF6607FAAF1BDCC1258A51003BA2A1/$File/419.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E31888F904A85881C1258C75004788F1/%24File/OSW102_419.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 50000.0,
+          "baseValue": 50000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 10000.0,
+          "baseValue": 43000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 240 m² na działce o powierzchni 1447 m²",
+          "value": 1200000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 54 m²",
+          "value": 350000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne (agroturystyka) o powierzchni 0,71 ha z budynkiem mieszkalnym",
+          "value": 250000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Działka rolna o powierzchni 1,644 a (164,4 m²)",
+          "value": 35000.0,
+          "legalTitle": "Współwłasność małżeńska wraz z udziałem w częściach wspólnych nieruchomości (drogi dojazdowe, piwnica, balkon, garaż, miejsce parkingowe)"
+        },
+        {
+          "description": "Dom letniskowy o powierzchni 1468 m²",
+          "value": 900000.0,
+          "legalTitle": "Współwłasność małżeńska wraz z udziałem w częściach wspólnych nieruchomości (drogi dojazdowe, piwnica, balkon, garaż, miejsce parkingowe)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 23,55 m²",
+          "value": 350000.0,
+          "legalTitle": "Współwłasność małżeńska wraz z udziałem w częściach wspólnych nieruchomości (drogi dojazdowe, piwnica, balkon, garaż, miejsce parkingowe)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 51,01 m²",
+          "value": 381000.0,
+          "legalTitle": "Współwłasność małżeńska wraz z udziałem w częściach wspólnych nieruchomości (drogi dojazdowe, piwnica, balkon, garaż, miejsce parkingowe)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 41,87 m²",
+          "value": 350000.0,
+          "legalTitle": "Współwłasność małżeńska wraz z udziałem w częściach wspólnych nieruchomości (drogi dojazdowe, piwnica, balkon, garaż, miejsce parkingowe)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup domu w PKO BP",
+          "value": 458000.0
+        },
+        {
+          "description": "Pożyczka z Kancelarii Sejmu",
+          "value": 29750.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód BMW 118i, rok prod. 2020",
+          "value": 80000.0
+        },
+        {
+          "description": "Samochód Mercedes SLK 200, rok prod. 1997",
+          "value": 15000.0
+        },
+        {
+          "description": "Samochód BMW X5 4.5e, rok prod. 2021",
+          "value": 230000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dochód z umowy o pracę (Ministerstwo Nauki i Szkolnictwa Wyższego)",
+          "yearlyValue": 211028.0
+        },
+        {
+          "description": "Nagroda jubileuszowa",
+          "yearlyValue": 30889.08
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "firstName": "Iwona",
+  "lastName": "Arent",
+  "dateOfBirth": "1968-06-04T00:00:00",
+  "placeOfBirth": "Olsztyn",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/ED28016248310EC0C1258A51003B9B1E/$File/007.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A24C6FFCD86AE7B3C1258C76004A4897/%24File/OSW102_007.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 0.0,
+          "baseValue": 0.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1600.0,
+          "baseValue": 6880.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 200.0,
+          "baseValue": 780.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "IKZE; Polisa Emerytalna",
+          "quantity": null,
+          "value": 17024.71
+        },
+        {
+          "name": "Akcje Energa S.A.",
+          "quantity": "2961",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 67.5 m²",
+          "value": 400000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 53.4 m²",
+          "value": 350000.0,
+          "legalTitle": "Spółdzielcze Własnościowe Prawo do Lokalu"
+        },
+        {
+          "description": "Garaż 20.4 m²",
+          "value": 35000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Nieruchomość gruntowa 0.1027 ha zabudowana budynkiem 50 m²",
+          "value": 250000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP na zakup mieszkania",
+          "value": 149250.53
+        },
+        {
+          "description": "Pożyczka gotówkowa w Banku Pekao S.A. na cele osobiste",
+          "value": 34157.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 188116.95
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45359.26
+        },
+        {
+          "description": "Przychód z tytułu zużycia limitu na służbowe podróże",
+          "yearlyValue": 5304.61
+        },
+        {
+          "description": "Dieta z Rady Programowej TVP S.A. w likwidacji",
+          "yearlyValue": 2028.0
+        },
+        {
+          "description": "Ulga za wykorzystanie energii elektrycznej (Energa S.A.)",
+          "yearlyValue": 1878.82
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "firstName": "Zbigniew",
+  "lastName": "Rau",
+  "dateOfBirth": "1955-02-03T00:00:00",
+  "placeOfBirth": "Łódź",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A415A9182AE9FDF7C1258A51003BA0A2/$File/310.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1C22B687D1936CA4C1258C770036101A/%24File/OSW102_310.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 224928.41,
+          "baseValue": 224928.41
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1600.0,
+          "baseValue": 6400.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbu Państwa",
+          "quantity": null,
+          "value": 160000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni około 160 m²",
+          "value": 450000.0,
+          "legalTitle": "własność odrębna"
+        },
+        {
+          "description": "Dom o powierzchni 330 m²",
+          "value": 900000.0,
+          "legalTitle": "własność odrębna"
+        },
+        {
+          "description": "Działka letniskowa o powierzchni około 2200 m²",
+          "value": 90000.0,
+          "legalTitle": "własność odrębna"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Corolla, rok 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 11565.52
+        },
+        {
+          "description": "Dochód z Ministerstwa Spraw Zagranicznych",
+          "yearlyValue": 702700.03
+        },
+        {
+          "description": "Emerytura ZUS",
+          "yearlyValue": 112522.08
+        },
+        {
+          "description": "Dochód z najmu",
+          "yearlyValue": 95415.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

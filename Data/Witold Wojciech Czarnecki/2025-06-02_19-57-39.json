@@ -1,0 +1,82 @@
+{
+  "firstName": "Witold",
+  "lastName": "Czarnecki",
+  "dateOfBirth": "1953-04-12T00:00:00",
+  "placeOfBirth": "Murowana Goślina",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/74C30DC3FD5DCB1FC1258A51003B9C04/$File/055.jpg",
+  "partyId": 7,
+  "employmentDetails": "Zatrudniony na Uniwersytecie Zielonogórskim na stanowisku starszego wykładowcy, obecnie na urlopie bezpłatnym.",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/3DBCD30D0233D462C1258C7C0041BB00/%24File/OSW102_055.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 480000.0,
+          "baseValue": 480000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 33300.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 46600.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbu Państwa",
+          "quantity": null,
+          "value": 20000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 67,7 m²",
+          "value": 460000.0,
+          "legalTitle": "Własność samodzielna lokalu mieszkalnego w budynku wielorodzinnym (współwłasność małżeńska) w nieruchomości wspólnej: 19/100"
+        },
+        {
+          "description": "Lokal mieszkalny 26,9 m² z przynależnym lokalem",
+          "value": 150000.0,
+          "legalTitle": "Własność lokalu mieszkalnego z przynależnym lokalem, odrębny majątek mojej żony"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód KIA CEED, rok 2007",
+          "value": 10000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 149637.03
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.27
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 7000.00
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9359.22
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 115665.80
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

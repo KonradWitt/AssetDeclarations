@@ -1,0 +1,1 @@
+error: The last name extracted from the OCR document ("Picky Katurny") does not match the last name provided in the CSV data ("Kałużny"). According to the instructions, if the information in the CSV and the asset declaration document does not match (and it's not merely a difference due to a second name), an error should be returned.

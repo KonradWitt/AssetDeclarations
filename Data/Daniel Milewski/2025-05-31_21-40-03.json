@@ -1,0 +1,75 @@
+{
+  "firstName": "Daniel",
+  "lastName": "Milewski",
+  "dateOfBirth": "1989-11-22T00:00:00",
+  "placeOfBirth": "Chicago (USA)",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/227828CC521320B8C1258A51003B9F6F/$File/243.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D6D8D283C432A2F4C1258C7C006CC07B/%24File/OSW102_243.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 345320.0,
+          "baseValue": 345320.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 20305.0,
+          "baseValue": 80204.75
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2575.0,
+          "baseValue": 10943.75
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Działka leśna o powierzchni 0,3756 ha",
+          "value": 195000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działki budowlane o powierzchni 0,2691 ha oraz 2/8 udziału w działce przeznaczonej na drogę wewnętrzną o powierzchni 0,1025 ha",
+          "value": 1800000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z FŚS",
+          "value": 50500.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 190051.65
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Przychody z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 1599.24
+        },
+        {
+          "description": "Darowizny od rodziców",
+          "yearlyValue": 100000.0
+        },
+        {
+          "description": "Dochód z umowy o pracę (prawa autorskie)",
+          "yearlyValue": 18627.13
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

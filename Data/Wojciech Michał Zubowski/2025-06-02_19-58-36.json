@@ -1,0 +1,83 @@
+{
+  "firstName": "Wojciech",
+  "lastName": "Zubowski",
+  "dateOfBirth": "1979-11-12T00:00:00",
+  "placeOfBirth": "Wrocław",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7624EB03DD7090E5C1258A51003BA34F/$File/457.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FCA1CA80E61FCCF9C1258C7600454001/%24File/OSW102_457.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 4000.0,
+          "baseValue": 4000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 120 m²",
+          "value": 740000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie 64 m²",
+          "value": 310000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 36 m²",
+          "value": 190000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na zakup domu w PKO BP",
+          "value": 520000.0
+        },
+        {
+          "description": "Pożyczka od rodziny na zakup auta",
+          "value": 16000.0
+        },
+        {
+          "description": "Pożyczka z Kancelarii Sejmu na remont domu",
+          "value": 40000.0
+        },
+        {
+          "description": "Linia kredytowa w PKO BP",
+          "value": 10000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Fiat Bravo 2011",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 187937.04
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45573.0
+        },
+        {
+          "description": "Świadczenie z tytułu opłacanego ubezpieczenia zdrowotnego",
+          "yearlyValue": 330.0
+        },
+        {
+          "description": "Przychód z tytułu wynajmu mieszkań",
+          "yearlyValue": 36480.87
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

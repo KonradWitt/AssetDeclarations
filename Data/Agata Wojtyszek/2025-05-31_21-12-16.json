@@ -1,0 +1,48 @@
+{
+  "firstName": "Agata",
+  "lastName": "Wojtyszek",
+  "dateOfBirth": "1964-10-23T00:00:00",
+  "placeOfBirth": "Stare Chęciny",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4796D5BE0A7EFA5EC1258A51003BA2E6/$File/433.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C2261FB3E33E19CBC1258C760041F54B/%24File/OSW102_433.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10600.0,
+          "baseValue": 10600.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 51.47 m²",
+          "value": 200000001.0,
+          "legalTitle": "własnościowe, współwłasność z małżonkiem"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Ford Ka MY 13, rok produkcji 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 150064.58
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

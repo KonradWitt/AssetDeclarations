@@ -1,0 +1,1 @@
+error: Mismatch between last name in CSV ("Borowiak") and last name in asset declaration ("BODOWIAK"). According to instructions, this is an error and processing cannot continue.

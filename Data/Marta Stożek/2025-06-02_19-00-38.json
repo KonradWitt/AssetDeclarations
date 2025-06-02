@@ -1,0 +1,59 @@
+{
+  "firstName": "Marta",
+  "lastName": "Stożek",
+  "dateOfBirth": null,
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D22A1F845017C5D5C1258B46005B745D/$File/484.jpg",
+  "partyId": 8,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/71168BDCD180795EC1258C7C0046E65E/%24File/OSW102_484.pdf",
+      "cashPositions": [],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Zobowiązanie gospodarcze wobec AK PARTNER Sp. z o.o. Sp.K.",
+          "value": 27000.0
+        },
+        {
+          "description": "Zobowiązanie związane z czynszem mieszkaniowym komunalnym wobec Gminy Wrocław",
+          "value": 74450.50
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu umowy o pracę",
+          "yearlyValue": 96127.00
+        },
+        {
+          "description": "Diety",
+          "yearlyValue": 34124.06
+        },
+        {
+          "description": "Diety z tytułu delegacji",
+          "yearlyValue": 29043.41
+        },
+        {
+          "description": "Diety nieopodatkowane",
+          "yearlyValue": 24143.12
+        },
+        {
+          "description": "Diety opodatkowane",
+          "yearlyValue": 4810.46
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Dyngs spółka z ograniczoną odpowiedzialnością",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Siedziba: ul. Kołłątaja 48/15, 50-202 Wrocław. Spółka nie prowadziła działalności.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "firstName": "Henryk",
+  "lastName": "Szopiński",
+  "dateOfBirth": "1962-09-15T00:00:00",
+  "placeOfBirth": "Złotów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B0EEE63EBE9450BAC1258A51003BA1C2/$File/372.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-18T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E6B798198ACA78B1C1258C750044CCA3/%24File/OSW102_372.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 50011.79,
+          "baseValue": 50011.79,
+          "legalTitle": "odrębna własność"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 535267.49,
+          "baseValue": 535267.49,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 300 m² na działce 0,4032 ha (grunty rolne zabudowane)",
+          "value": 600000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne ogólnorolne 1,07 ha z budynkiem mieszkalnym i gospodarczym",
+          "value": 300000.00,
+          "legalTitle": "Majątek własny"
+        },
+        {
+          "description": "Budynek mieszkalny 150 m²",
+          "value": 250000.00,
+          "legalTitle": "majątek własny"
+        },
+        {
+          "description": "Budynek gospodarczy 160 m²",
+          "value": 50000.00,
+          "legalTitle": "majątek własny"
+        },
+        {
+          "description": "Magazyn 295 m²",
+          "value": 300000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Lokal użytkowy 125,38 m²",
+          "value": 85000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana 800 m²",
+          "value": 60000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Grunt w użytkowaniu wieczystym 58 m²",
+          "value": 8000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka/zaplecze magazynu 76 m²",
+          "value": 3300.00,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód ciężarowy Fiat Ducato 2,3 Multi Jet (2008)",
+          "value": null,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Samochód osobowy Mercedes S 600 (2004)",
+          "value": null,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Samochód ciężarowy Renault Trafic (2007)",
+          "value": null,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Dieta poselska (w tym kwota nieopodatkowana)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Umowy o dzieło/zlecenie",
+          "yearlyValue": 12369.78
+        },
+        {
+          "description": "Prawa autorskie",
+          "yearlyValue": 33.30
+        },
+        {
+          "description": "Dochód z gospodarstwa rolnego",
+          "yearlyValue": 6.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

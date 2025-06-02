@@ -1,0 +1,100 @@
+{
+  "firstName": "Joanna",
+  "lastName": "Kluzik-Rostkowska",
+  "dateOfBirth": "1965-12-14T00:00:00",
+  "placeOfBirth": "Chojnice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2FC142EA9B79E152C1258A51003B9DFE/$File/163.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9578449D7C36E5D2C1258C7600527922/%24File/OSW102_163.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 50000.0,
+          "baseValue": 50000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1800.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje Total E&P Polska",
+          "quantity": null,
+          "value": null
+        },
+        {
+          "name": "Akcje Wawel",
+          "quantity": null,
+          "value": null
+        },
+        {
+          "name": "Akcje Dom Development",
+          "quantity": null,
+          "value": null
+        },
+        {
+          "name": "Akcje KGHM Polska Miedź",
+          "quantity": null,
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 110 m² na działce 2432 m²",
+          "value": 200000.0,
+          "legalTitle": "1/2 własność małżeńska"
+        },
+        {
+          "description": "Budynek gospodarczy 207 m² na działce 1363 m², działka rolna 160 m²",
+          "value": 317500.0,
+          "legalTitle": "1/2 własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Zobowiązanie z tytułu hipoteki",
+          "value": null
+        },
+        {
+          "description": "Kredyt samochodowy Toyota RAV4",
+          "value": null
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Klacz, Sisi, polski koń szlachetnej półkrwi, data urodzenia 25.04.2009",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie parlamentarne",
+          "yearlyValue": 211171.83
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45678.92
+        },
+        {
+          "description": "Przychód z tytułu wynajmu",
+          "yearlyValue": 631.28
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 97163.74
+        },
+        {
+          "description": "Dochód ze spółek (Orlen, PKO BP)",
+          "yearlyValue": 500.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

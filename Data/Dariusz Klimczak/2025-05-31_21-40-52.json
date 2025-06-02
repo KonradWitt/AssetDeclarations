@@ -1,0 +1,135 @@
+{
+  "firstName": "Dariusz",
+  "lastName": "Klimczak",
+  "dateOfBirth": "1980-06-17T00:00:00",
+  "placeOfBirth": "Rawa Mazowiecka",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B03DBB9F2ECF73F3C1258A51003B9DF8/$File/162.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CC842D0BB0276EBCC1258C7C00397C5E/%24File/OSW102_162.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 33800.0,
+          "baseValue": 33800.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 75.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 105.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 180,6 m² na działce rolnej 4,63 ha",
+          "value": 300000.0,
+          "legalTitle": "Współwłasność w udziale 1/3, majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 65,45 m²",
+          "value": 460000.0,
+          "legalTitle": "Własność notarialna, majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 36,94 m²",
+          "value": 400000.0,
+          "legalTitle": "Własność notarialna, współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 27,94 m²",
+          "value": 550000.0,
+          "legalTitle": "Własność notarialna, współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne ogólnoużytkowe o powierzchni 4,63 ha z zabudową: obora, budynek gospodarczy",
+          "value": 50000.0,
+          "legalTitle": "Własność notarialna, współwłasność w 1/3, majątek odrębny"
+        },
+        {
+          "description": "Miejsce postojowe o powierzchni 14 m²",
+          "value": 24400.0,
+          "legalTitle": "Własność notarialna, majątek odrębny"
+        },
+        {
+          "description": "Stanowisko parkingowe o powierzchni 14 m²",
+          "value": 25000.0,
+          "legalTitle": "Własność notarialna, współwłasność małżeńska"
+        },
+        {
+          "description": "Udział w garażu wielostanowiskowym o powierzchni 14 m²",
+          "value": 31000.0,
+          "legalTitle": "Własność notarialna, współwłasność małżeńska"
+        },
+        {
+          "description": "Nieruchomość gruntowa niezabudowana o powierzchni 0,1134 ha",
+          "value": 190000.0,
+          "legalTitle": "Własność notarialna, współwłasność małżeńska"
+        },
+        {
+          "description": "Nieruchomość gruntowa niezabudowana o powierzchni 0,0978 ha",
+          "value": 160000.0,
+          "legalTitle": "Własność notarialna, współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy w Getin Noble Bank S.A. (obecnie VeloBank S.A.)",
+          "value": 202644.52
+        },
+        {
+          "description": "Kredyt mieszkaniowy w Bank Spółdzielczy w Białej Rawskiej",
+          "value": 48033.49
+        },
+        {
+          "description": "Pożyczka na cele mieszkaniowe w Sejmie RP",
+          "value": 29750.0
+        },
+        {
+          "description": "Kredyt na zakup nieruchomości gruntowych niezabudowanych w Banku Spółdzielczym w Białej Rawskiej",
+          "value": 235582.64
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Clio, rok produkcji 2013",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (Sejm RP)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dochód z Ministerstwa Infrastruktury (PIT 11)",
+          "yearlyValue": 237760.75
+        },
+        {
+          "description": "Przychód z wynajmu (PIT 28)",
+          "yearlyValue": 59529.89
+        },
+        {
+          "description": "Odsetki od kaucji na rachunku (PIT-11)",
+          "yearlyValue": 181.07
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Gospodarstwo rolne",
+          "businessType": "ogólnoużytkowe",
+          "description": "Prowadzenie gospodarstwa rolnego ogólnoużytkowego o powierzchni 4,63 ha",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

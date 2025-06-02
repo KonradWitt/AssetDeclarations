@@ -1,0 +1,42 @@
+{
+  "firstName": "Katarzyna",
+  "lastName": "Kotula",
+  "dateOfBirth": "1977-07-01T00:00:00",
+  "placeOfBirth": "Gdynia",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6AB4327DF00E9765C1258A51003B9E40/$File/177.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/39792D574BC941DFC1258C7C00579582/%24File/OSW102_177.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 60000.0,
+          "baseValue": 60000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 5000.0,
+          "baseValue": 21500.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie z KPRM",
+          "yearlyValue": 213171.00
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

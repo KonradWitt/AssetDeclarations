@@ -1,0 +1,110 @@
+{
+  "id": null,
+  "firstName": "Anna",
+  "lastName": "Paluch",
+  "dateOfBirth": "1960-03-31T00:00:00",
+  "placeOfBirth": "Nowy Targ",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/02F246BA10256104C1258B744D/$File/480.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/11EA0C369778E268C1258C7C00477287/%24File/OSW102_480.pdf",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 30000.0,
+          "baseValue": 30000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dom w budowie, powierzchnia 180m²",
+          "value": 740000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Działka leśna o powierzchni ok. 1 ha",
+          "value": 50000.0,
+          "legalTitle": "Nieuregulowany stan prawny"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Działka budowlana o powierzchni 0.0847 ha",
+          "value": 120000.0,
+          "legalTitle": "Umowa sprzedaży-ustanowienie hipoteki kaucyjnej"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Działka budowlana o powierzchni 0.0735 ha",
+          "value": 70000.0,
+          "legalTitle": "Umowa sprzedaży – ustanowienie hipoteki"
+        }
+      ],
+      "liabilities": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Kredyt hipoteczny w Pienińskim Banku Spółdzielczym",
+          "value": 202500.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Fortepian",
+          "value": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód osobowy Toyota Yaris, rok produkcji 2013",
+          "value": 24000.0
+        }
+      ],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 23508.01
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 88286.48
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Świadczenie emerytalne",
+          "yearlyValue": 70792.10
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "businessName": "Małopolskie Dworce Autobusowe S.A.",
+          "businessType": "spółka akcyjna",
+          "description": "byłam członkiem Zarządu Spółki do dn. 25.06.2024 r.",
+          "income": 225201.31
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "firstName": "Szymon",
+  "lastName": "Giżyński",
+  "dateOfBirth": "1956-03-08T00:00:00",
+  "placeOfBirth": "Częstochowa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/9BAE53FA4450F671C1258A51003B9CC4/$File/099.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8EDEBFCFF54057FBC1258C7B0043F6E3/%24File/OSW102_099.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 45000.0,
+          "baseValue": 45000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały Gometa Częstochowska Sp. z o.o.",
+          "quantity": "50",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 120 m² na działce 295 m²",
+          "value": 600000.0,
+          "legalTitle": "współwłasność z żoną Urszulą Giżyńską"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 73,22 m²",
+          "value": 420000.0,
+          "legalTitle": "współwłasność z żoną Urszulą Giżyńską"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 74,4 m²",
+          "value": 530000.0,
+          "legalTitle": "współwłasność z żoną Urszulą Giżyńską"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 135954.0
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45543.04
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 156558.80
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Fundacja Na Rzecz Utworzenia Muzeum Kresów Wschodnich w Częstochowie",
+          "businessType": "fundacja",
+          "description": "Prezes Zarządu od 11.1999, funkcja wyłącznie honorowa i społeczna",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

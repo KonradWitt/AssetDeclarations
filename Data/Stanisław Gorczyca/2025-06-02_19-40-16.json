@@ -1,0 +1,132 @@
+{
+  "firstName": "Stanisław",
+  "lastName": "Gorczyca",
+  "dateOfBirth": "1958-07-27T00:00:00",
+  "placeOfBirth": "Miłomłyn",
+  "position": "Poseł na Sejm",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/29429B588A49D758C1258A51003B9CF0/$File/108.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-05-08T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/79A01D62AFB3397DC1258C7A0043C492/%24File/OSW102_108.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 42510.20,
+          "baseValue": 42510.20
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2500.00,
+          "baseValue": null
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2400.00,
+          "baseValue": null
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 200000.00,
+          "baseValue": 200000.00,
+          "description": "Lokata PKO S.A."
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje",
+          "quantity": null,
+          "value": 50000.00
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 374 m²",
+          "value": 1500000.00,
+          "legalTitle": "Wspólnota majątkowa"
+        },
+        {
+          "description": "Mieszkanie 36 m²",
+          "value": 400000.00,
+          "legalTitle": "Majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie 32.6 m²",
+          "value": 450000.00,
+          "legalTitle": "Majątek odrębny"
+        },
+        {
+          "description": "Gospodarstwo rolne PROD. ROLNO- ŚRODOWISKOWA 10,62 ha, brak zabudowy",
+          "value": 300000.00,
+          "legalTitle": "Majątek odrębny"
+        },
+        {
+          "description": "Działka budowlana 3093 m²",
+          "value": 100000.00,
+          "legalTitle": "Wspólnota majątkowa"
+        },
+        {
+          "description": "Działka zieleń chroniona 1800 m²",
+          "value": 20000.00,
+          "legalTitle": "Wspólnota majątkowa"
+        },
+        {
+          "description": "Działka rolno-budowlana 1450 m²",
+          "value": 100000.00,
+          "legalTitle": "Wspólnota majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Land Cruiser 2007",
+          "value": null
+        },
+        {
+          "description": "Samochód Toyota Land Cruiser 2013",
+          "value": null
+        },
+        {
+          "description": "Łódź motorowa MAZURY 560, rok produkcji 2024",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z gospodarstwa rolnego",
+          "yearlyValue": 0.00
+        },
+        {
+          "description": "Dopłaty obszarowe",
+          "yearlyValue": 10119.62
+        },
+        {
+          "description": "Dopłata bezpośrednia",
+          "yearlyValue": 4337.17
+        },
+        {
+          "description": "Dochód z Urzędu Miasta Olsztyna (trzynastka za 2024 rok)",
+          "yearlyValue": 12456.18
+        },
+        {
+          "description": "Uposażenie i dieta z Kancelarii Sejmu",
+          "yearlyValue": 200907.20
+        },
+        {
+          "description": "Emerytura ZUS Elbląg",
+          "yearlyValue": 146926.78
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "OTBS sp. z o.o. w Olsztynie",
+          "businessType": "spółka handlowa (sp. z o.o.)",
+          "description": null,
+          "income": 0.00
+        }
+      ]
+    }
+  ]
+}

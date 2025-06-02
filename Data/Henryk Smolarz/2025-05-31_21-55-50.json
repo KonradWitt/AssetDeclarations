@@ -1,0 +1,221 @@
+{
+  "firstName": "Henryk",
+  "lastName": "Smolarz",
+  "dateOfBirth": "1969-09-03T00:00:00",
+  "placeOfBirth": "Lublin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/DBAC97E874B83145C1258B6300231BF0/$File/493.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/AE0DD2005137036FC1258C7500478E1A/%24File/OSW102_493.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 678000.0,
+          "baseValue": 678000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 5000.0,
+          "baseValue": 21500.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Rynek Hurtowy Elizówka",
+          "quantity": "10",
+          "value": 1000.0
+        },
+        {
+          "name": "KYS",
+          "quantity": "1041",
+          "value": 1041.0
+        },
+        {
+          "name": "Bioceltix",
+          "quantity": "700",
+          "value": 61320.0
+        },
+        {
+          "name": "Benefit",
+          "quantity": "60",
+          "value": 173700.0
+        },
+        {
+          "name": "INGBSK",
+          "quantity": "30",
+          "value": 7245.0
+        },
+        {
+          "name": "Kinopol",
+          "quantity": "2000",
+          "value": 43000.0
+        },
+        {
+          "name": "Kruk",
+          "quantity": "200",
+          "value": 83160.0
+        },
+        {
+          "name": "Lubawa",
+          "quantity": "9000",
+          "value": 39402.0
+        },
+        {
+          "name": "Mostalzab",
+          "quantity": "10000",
+          "value": 52000.0
+        },
+        {
+          "name": "Newag",
+          "quantity": "2500",
+          "value": 105750.0
+        },
+        {
+          "name": "Pragmaink",
+          "quantity": "883",
+          "value": 3320.08
+        },
+        {
+          "name": "Rainbow",
+          "quantity": "500",
+          "value": 66700.0
+        },
+        {
+          "name": "Unimot",
+          "quantity": "500",
+          "value": 71800.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 70 m²",
+          "value": 300000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Dom o powierzchni 70 m²",
+          "value": 300000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Dom o powierzchni 300 m²",
+          "value": 800000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Dom o powierzchni 150 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 57,098 ha z zabudową zagrodową",
+          "value": 7000000.0,
+          "legalTitle": "własność, współwłasność, dzierżawa"
+        },
+        {
+          "description": "Las o powierzchni 1,7 ha",
+          "value": 20000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt preferencyjny 2% z dopłatą ARiMR w Banku Spółdzielczym w Niemcach na prowadzenie produkcji rolniczej",
+          "value": 100000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Ciągnik Pronar 1121 A, rok produkcji 2004",
+          "value": null
+        },
+        {
+          "description": "Ciągnik CASE105, rok produkcji 2012",
+          "value": null
+        },
+        {
+          "description": "Samochód Audi A4, rok produkcji 2009",
+          "value": null
+        },
+        {
+          "description": "Samochód Mercedes-Benz E220D, rok produkcji 2016",
+          "value": null
+        },
+        {
+          "description": "Ciągnik Deutz-Fahr Agrotron, rok produkcji 2011",
+          "value": null
+        },
+        {
+          "description": "Maszyna rolnicza Agromasz PO5, rok produkcji 2017",
+          "value": null
+        },
+        {
+          "description": "Maszyna rolnicza Agromax P336/18, rok produkcji 2017",
+          "value": null
+        },
+        {
+          "description": "Maszyna rolnicza Agromax U 292/3, rok produkcji 2017",
+          "value": null
+        },
+        {
+          "description": "Maszyna rolnicza Agromax U401/1, rok produkcji 2017",
+          "value": null
+        },
+        {
+          "description": "Maszyna rolnicza Agromasz SN 300, rok produkcji 2017",
+          "value": null
+        },
+        {
+          "description": "Maszyna rolnicza Unia Kombi XL 5,6, rok produkcji 2017",
+          "value": null
+        },
+        {
+          "description": "Maszyna rolnicza SB/1, rok produkcji 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Zatrudnienie w Urzędzie Gminy Niemce",
+          "yearlyValue": 23404.41
+        },
+        {
+          "description": "Zatrudnienie w Krajowym Ośrodku Wsparcia Rolnictwa",
+          "yearlyValue": 389045.14
+        },
+        {
+          "description": "Dochód z GPW Ventures Asset Management Spółka z ograniczoną odpowiedzialnością KOWR Ventures ASI Spółka Komandytowo-Akcyjna",
+          "yearlyValue": 5892.60
+        },
+        {
+          "description": "Dochód z odpłatnego zbycia papierów wartościowych",
+          "yearlyValue": 104789.31
+        },
+        {
+          "description": "Dieta z Kancelarii Sejmu",
+          "yearlyValue": 21205.36
+        },
+        {
+          "description": "Dochód z gospodarstwa rolnego",
+          "yearlyValue": 332619.47
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Wierzytelności",
+          "value": 220000.0
+        }
+      ],
+      "businessActivities": [
+        {
+          "businessName": "GPW Ventures Asset Management Spółka z ograniczoną odpowiedzialnością KOWR Ventures ASI Spółka Komandytowo-Akcyjna",
+          "businessType": "Spółka z ograniczoną odpowiedzialnością, Spółka Komandytowo-Akcyjna",
+          "description": null,
+          "income": 5892.60
+        }
+      ]
+    }
+  ]
+}

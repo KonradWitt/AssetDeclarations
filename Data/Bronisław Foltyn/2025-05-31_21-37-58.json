@@ -1,0 +1,83 @@
+{
+  "firstName": "Bronisław",
+  "lastName": "Foltyn",
+  "dateOfBirth": "1974-08-12T00:00:00",
+  "placeOfBirth": "Bielsko-Biała",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/AB55DEFCFBAB8B14C1258A51003B9C74/$File/080.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C7C2043C181D3917C1258C7C00476336/%24File/OSW102_080.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 23994.26,
+          "baseValue": 23994.26
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 216,48 m²",
+          "value": 2600000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Dom o powierzchni 461,87 m²",
+          "value": 6100000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 56,00 m²",
+          "value": 450000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Nieruchomość zabudowana o powierzchni 1992 m²",
+          "value": 72000.0,
+          "legalTitle": "współwłasność, udział 1/3 nieruchomości zabudowanej"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt gotówkowy w Alior Bank",
+          "value": 29411.96
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Gitara Gibson Les Paul Standard",
+          "value": null
+        },
+        {
+          "description": "Samochód Honda Civic 2023",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.28
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 149637.03
+        },
+        {
+          "description": "Dochód z najmu nieruchomości",
+          "yearlyValue": 48000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Spółka cywilna",
+          "businessType": "spółka cywilna",
+          "description": "Udział 50%, zawieszona od listopada 2023 r.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

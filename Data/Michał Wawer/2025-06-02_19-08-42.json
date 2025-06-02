@@ -1,0 +1,47 @@
+{
+  "firstName": "Michał",
+  "lastName": "Wawer",
+  "dateOfBirth": "1989-04-01T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/789234FD841EF986C1258A51003BA281/$File/412.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-07T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/0EB27E2775D19DCCC1258C65003CB57C/%24File/OSW102_412.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 62008.84,
+          "baseValue": 62008.84,
+          "description": "Środki pieniężne w walucie polskiej (małżeńska wspólność majątkowa)"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda Civic (2014)",
+          "value": null
+        },
+        {
+          "description": "Złoto inwestycyjne (50 gram)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

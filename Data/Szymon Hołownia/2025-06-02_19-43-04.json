@@ -1,0 +1,103 @@
+{
+  "firstName": "Szymon",
+  "lastName": "Hołownia",
+  "dateOfBirth": "1976-09-03T00:00:00",
+  "placeOfBirth": "Białystok",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D80BB954BF78E0CDC1258A51003B9D69/$File/133.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F70A4EBFE94966C2C1258C7C0062220B/%24File/OSW102_133.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.0,
+          "baseValue": 10000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 7000.0,
+          "baseValue": 28210.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 9000.0,
+          "baseValue": 39051.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Jednostki Funduszy Inwestycyjnych PKO TFI / PKO TFE",
+          "quantity": null,
+          "value": 91062.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 254,19 m²",
+          "value": 2898000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 64,51 m² wraz z udziałem w garażu",
+          "value": 1620000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Siedlisko wiejskie o powierzchni 1,65 ha (działka 1584 m², nieruchomość 116,6 m²) z udziałem w drodze",
+          "value": 554100.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Santander Bank Polska na zakup domu (wspólnie z małżonką)",
+          "value": 1447752.37
+        },
+        {
+          "description": "Kredyt hipoteczny w mBanku na zakup mieszkania (wspólnie z małżonką)",
+          "value": 546799.07
+        },
+        {
+          "description": "Karta kredytowa mBank",
+          "value": 25000.0
+        },
+        {
+          "description": "Kredyt odnawialny w rachunku PKO BP",
+          "value": 25000.0
+        },
+        {
+          "description": "Pożyczka na cele mieszkaniowe z funduszu świadczeń socjalnych Kancelarii Sejmu",
+          "value": 36125.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Ikona współczesna (współwłasność małżeńska)",
+          "value": 20000.0
+        },
+        {
+          "description": "Obraz współczesny (współwłasność małżeńska)",
+          "value": 12000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 1371.73
+        },
+        {
+          "description": "Wynagrodzenie",
+          "yearlyValue": 247208.85
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

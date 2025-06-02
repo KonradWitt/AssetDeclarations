@@ -1,0 +1,87 @@
+{
+  "firstName": "Barbara",
+  "lastName": "Bartuś",
+  "dateOfBirth": "1967-07-03T00:00:00",
+  "placeOfBirth": "Gorlice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1810FE92FD939D5BC1258A51003B9B40/$File/014.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CC7D8BF18A355EDEC1258C760051821B/%24File/OSW102_014.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 87608.32,
+          "baseValue": 87608.32
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 83446.83,
+          "baseValue": 83446.83
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 53325.17,
+          "baseValue": 53325.17
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1000.0,
+          "baseValue": 4300.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje skarbowe",
+          "quantity": "1088",
+          "value": 117979.74
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 120 m²",
+          "value": 450000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 78,71 m²",
+          "value": 700000.0,
+          "legalTitle": "współwłasność małżeńska ¼ części"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 2,9448 ha z budynkami gospodarczymi",
+          "value": 250000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda Jazz z 2018 r.",
+          "value": null
+        },
+        {
+          "description": "Samochód Mitsubishi Space Star z 2021 r.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 3734.78
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 204088.13
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

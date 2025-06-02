@@ -1,0 +1,78 @@
+{
+  "firstName": "Dominika",
+  "lastName": "Chorosińska",
+  "dateOfBirth": "1978-12-28T00:00:00",
+  "placeOfBirth": "Elbląg",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/8D886543A0002604C1258A51003B9BD6/$File/045.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/856CB02E51C02CA5C1258C7C00424D69/%24File/OSW102_045.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 17500.00,
+          "baseValue": 17500.00
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 2385.00,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 97,98 m²",
+          "value": 700000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 45,50 m²",
+          "value": 300000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka rolna, udział 1/35, o powierzchni 35 ha",
+          "value": 1200000.00,
+          "legalTitle": "użytkowanie wieczyste"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny",
+          "value": 62837.45,
+          "currency": "CHF"
+        },
+        {
+          "description": "Pożyczka na cele mieszkaniowe z Funduszu Świadczeń Poselskich",
+          "value": 34000.00,
+          "currency": "PLN"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volvo V-70, rok 2007",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 44931.74
+        },
+        {
+          "description": "Wynagrodzenie",
+          "yearlyValue": 147513.07
+        },
+        {
+          "description": "Umowy z tytułu prawa autorskiego",
+          "yearlyValue": 11612.46
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

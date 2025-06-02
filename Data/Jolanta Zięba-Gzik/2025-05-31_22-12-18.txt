@@ -1,0 +1,1 @@
+error: Imię i nazwisko w pliku CSV ('Jolanta Zięba-Gzik') nie zgadza się z imieniem i nazwiskiem w dokumencie OCR ('Modauto ligbe-gait Zięba'). Zgodnie z instrukcją, należy zwrócić błąd w takiej sytuacji.

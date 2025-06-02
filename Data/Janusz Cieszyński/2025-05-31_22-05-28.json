@@ -1,0 +1,268 @@
+{
+  "firstName": "Janusz",
+  "lastName": "Cieszyński",
+  "dateOfBirth": "1988-05-06T00:00:00",
+  "placeOfBirth": "Wrocław",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2BE2E1DB3D373386C1258A51003B9BF3/$File/051.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/614EA300AF55F2FFC1258C7E00341CE1/%24File/OSW102_051.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.0,
+          "baseValue": 10000.0,
+          "description": "Gotówka (majątek odrębny)"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 1877.93,
+          "baseValue": 1877.93,
+          "description": "Rachunek bieżący (ROR, majątek odrębny)"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 393136.04,
+          "baseValue": 393136.04,
+          "description": "Konto oszczędnościowe (majątek odrębny)"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 5131.18,
+          "baseValue": 5131.18,
+          "description": "IKZE (majątek odrębny)"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 24.06,
+          "baseValue": 24.06,
+          "description": "Rachunek maklerski (majątek odrębny)"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 17.79,
+          "baseValue": 17.79,
+          "description": "Rachunek obligacje skarbowe (majątek odrębny)"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 17.76,
+          "baseValue": 76.37,
+          "description": "Majątek odrębny (przeliczone po kursie 4.30 PLN/EUR)"
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 0.92,
+          "baseValue": 4.60,
+          "description": "Majątek odrębny (przeliczone po kursie 5.00 PLN/GBP)"
+        },
+        {
+          "currency": "CZK",
+          "currencyValue": 2500.0,
+          "baseValue": 425.0,
+          "description": "Majątek odrębny (przeliczone po kursie 0.17 PLN/CZK)"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 3611.66,
+          "baseValue": 14446.64,
+          "description": "Majątek odrębny (przeliczone po kursie 4.00 PLN/USD)"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 50350.11,
+          "baseValue": 50350.11,
+          "description": "Rachunek bieżący (ROR, majątek wspólny)"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 500.0,
+          "baseValue": 2150.0,
+          "description": "Majątek wspólny (przeliczone po kursie 4.30 PLN/EUR)"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 4.80,
+          "baseValue": 19.20,
+          "description": "Majątek wspólny (przeliczone po kursie 4.00 PLN/USD)"
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 1.05,
+          "baseValue": 5.25,
+          "description": "Majątek wspólny (przeliczone po kursie 5.00 PLN/GBP)"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcja Mentzen",
+          "quantity": "1",
+          "value": 38.75
+        },
+        {
+          "name": "Akcja Newag",
+          "quantity": "1",
+          "value": 42.30
+        },
+        {
+          "name": "Jednostki ETFSP500-C (IKZE)",
+          "quantity": "15",
+          "value": 3820.50
+        },
+        {
+          "name": "Akcje PEKAO SA (IKZE)",
+          "quantity": "8",
+          "value": 1103.20
+        },
+        {
+          "name": "Akcje Orlen SA (IKZE)",
+          "quantity": "189",
+          "value": 8920.80
+        },
+        {
+          "name": "Akcje Żabka SA (IKZE)",
+          "quantity": "19",
+          "value": 365.75
+        },
+        {
+          "name": "Jednostki CSKR",
+          "quantity": "15",
+          "value": 2028.98,
+          "currency": "USD"
+        },
+        {
+          "name": "Jednostki IUIT",
+          "quantity": "100",
+          "value": 3413.0,
+          "currency": "USD"
+        },
+        {
+          "name": "Jednostki SBIO",
+          "quantity": "50",
+          "value": 2225.50,
+          "currency": "USD"
+        },
+        {
+          "name": "Jednostki SGLD",
+          "quantity": "6",
+          "value": 1502.70,
+          "currency": "USD"
+        },
+        {
+          "name": "Jednostki USPY",
+          "quantity": "100",
+          "value": 2851.50,
+          "currency": "USD"
+        },
+        {
+          "name": "Jednostki VUAA",
+          "quantity": "20",
+          "value": 2248.0,
+          "currency": "USD"
+        },
+        {
+          "name": "Obligacje skarbowe (majątek odrębny)",
+          "quantity": null,
+          "value": 841950.17
+        },
+        {
+          "name": "Obligacje skarbowe 3-letnie o stałym oprocentowaniu 6,40% (majątek wspólny)",
+          "quantity": "914",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Udział w hali garażowej i nieruchomości gruntowej (teren osiedlowy)",
+          "value": 20000.0,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka od Aleksandry Wysłouch-Cieszyńskiej",
+          "value": 356000.0
+        },
+        {
+          "description": "Pożyczka od Barbary Hulanickiej",
+          "value": 96000.0
+        },
+        {
+          "description": "Kredyt hipoteczny w banku PKO BP (oprocentowanie 8,34%)",
+          "value": 471793.48
+        },
+        {
+          "description": "Spłata zobowiązania wobec Beaty Cieszyńskiej (umowa z dnia 10.11.2023)",
+          "value": 48243.0
+        },
+        {
+          "description": "Leasing samochodu Skoda Octavia (Masterlease Polska, miesięczna rata)",
+          "value": 3305.86
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda Civic, rok produkcji 2012",
+          "value": null
+        },
+        {
+          "description": "Dzieło sztuki",
+          "value": 50000.0
+        },
+        {
+          "description": "Złote monety",
+          "value": 120000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z Ministerstwa Cyfryzacji",
+          "yearlyValue": 22096.49
+        },
+        {
+          "description": "Uposażenie z Kancelarii Sejmu",
+          "yearlyValue": 93022.34
+        },
+        {
+          "description": "Dieta z Kancelarii Sejmu (w tym opodatkowana dieta)",
+          "yearlyValue": 47966.35
+        },
+        {
+          "description": "Dochód z Uczelni Łazarskiego",
+          "yearlyValue": 1140.0
+        },
+        {
+          "description": "Przychód z działalności gospodarczej (opodatkowany ryczałtem)",
+          "yearlyValue": 72812.78
+        },
+        {
+          "description": "Dochód z najmu",
+          "yearlyValue": 16960.0
+        },
+        {
+          "description": "Dywidenda z papierów wartościowych",
+          "yearlyValue": 0.96
+        },
+        {
+          "description": "Dywidenda z papierów wartościowych (IKZE)",
+          "yearlyValue": 551.21
+        },
+        {
+          "description": "Dochody żony w ramach wspólnoty majątkowej (PIT-37 i PIT-36L)",
+          "yearlyValue": 343830.59
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "CNJ Janusz Cieszyński",
+          "businessType": "Działalność gospodarcza",
+          "description": "Działalność związana z oprogramowaniem (kod PKD 62.01.Z)",
+          "income": 72812.78
+        }
+      ]
+    }
+  ]
+}

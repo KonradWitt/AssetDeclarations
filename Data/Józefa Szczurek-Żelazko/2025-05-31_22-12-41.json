@@ -1,0 +1,105 @@
+{
+  "firstName": "Józefa",
+  "lastName": "Szczurek-Żelazko",
+  "dateOfBirth": "1961-03-14T00:00:00",
+  "placeOfBirth": "Nowy Sącz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D82FD82E557AB29FC1258A51003BA1A9/$File/367.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/882F8356DD49825BC1258C7C004718C5/%24File/OSW102_367.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 275300.0,
+          "baseValue": 275300.0,
+          "description": "środki pieniężne, małżeńska wspólność majątkowa"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 11000.0,
+          "baseValue": null,
+          "description": "środki pieniężne, małżeńska wspólność majątkowa"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 12400.0,
+          "baseValue": null,
+          "description": "środki pieniężne, małżeńska wspólność majątkowa"
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 4000.0,
+          "baseValue": null,
+          "description": "środki pieniężne, małżeńska wspólność majątkowa"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 79666.78,
+          "baseValue": 79666.78,
+          "description": "IKZE, małżeńska wspólność majątkowa"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 87 m²",
+          "value": 400000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka o powierzchni 21 arów",
+          "value": 220000.0,
+          "legalTitle": "Własność odrębna"
+        },
+        {
+          "description": "Garaż o powierzchni 24 m²",
+          "value": 12000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Domek gospodarczy o powierzchni 16,5 m²",
+          "value": 12000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Zobowiązanie z tytułu umowy najmu długoterminowego samochodu z PRIME CAR MANAGEMENT S.A.",
+          "value": 31067.01
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota CHR, rok produkcji 2022",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Emerytura ZUS",
+          "yearlyValue": 77196.24
+        },
+        {
+          "description": "Umowa o dzieło",
+          "yearlyValue": 1596.00
+        },
+        {
+          "description": "Uposażenie posła (Sejm RP)",
+          "yearlyValue": 163111.85
+        },
+        {
+          "description": "Dieta parlamentarna (Sejm RP)",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Przychód z tytułu zwiększenia limitu na służbową podróż zagraniczną (Sejm RP)",
+          "yearlyValue": 946.61
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

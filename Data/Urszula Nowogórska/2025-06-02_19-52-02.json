@@ -1,0 +1,80 @@
+{
+  "firstName": "Urszula",
+  "lastName": "Nowogórska",
+  "dateOfBirth": "1978-09-29T00:00:00",
+  "placeOfBirth": "Limanowa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B1698A3654729CDFC1258A51003B9FE1/$File/267.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/80C8BB5EB4E21056C1258C75006E064C/%24File/OSW102_267.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 99144.40,
+          "baseValue": 99144.40
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 45000.00,
+          "baseValue": 45000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Gospodarstwo rolne o powierzchni 1,36 ha",
+          "value": 60000.00,
+          "legalTitle": "Majątek odrębny"
+        },
+        {
+          "description": "Działka o powierzchni 0,15 ha, na której stoi dom",
+          "value": 20000.00,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Działka zabudowana o powierzchni 0,07 ha",
+          "value": 350000.00,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt inwestycyjny na działalność gospodarczą, umowa z dnia 19.11.2015, saldo na 31.12.2024",
+          "value": 124040.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Smart Fortwo, rok produkcji 2009",
+          "value": null
+        },
+        {
+          "description": "Samochód Mercedes-Benz C-207, rok produkcji 2015",
+          "value": null
+        },
+        {
+          "description": "Samochód Mercedes-Benz E-220D 4MATIC, rok produkcji 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45649.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 200473.24
+        },
+        {
+          "description": "Zwrot kosztów malowania / szkoda samochodowa",
+          "yearlyValue": 350.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

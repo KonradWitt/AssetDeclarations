@@ -1,0 +1,73 @@
+{
+  "firstName": "Alicja",
+  "lastName": "Łepkowska-Gołaś",
+  "dateOfBirth": "1983-01-01T00:00:00",
+  "placeOfBirth": "Łomża",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A897D437ACE39E7FC1258A51003B9F0F/$File/221.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/237D3C04BB43F561C1258C76004DB2E0/%24File/OSW102_221.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 41053.73,
+          "baseValue": 41053.73
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 2000.00,
+          "baseValue": 2000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 300.00,
+          "baseValue": 1290.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Pożyczka gotówkowa w Alior Bank",
+          "value": 7858.00
+        },
+        {
+          "description": "Pożyczka z KFS (Sejm)",
+          "value": 27200.00
+        },
+        {
+          "description": "Kredyt ratalny w Alior Bank",
+          "value": 2555.00
+        },
+        {
+          "description": "Kredyt ratalny w Alior Bank",
+          "value": 2818.47
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volkswagen T-Cross, rok produkcji 2019",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Przychody z tytułu umów",
+          "yearlyValue": 502.16
+        },
+        {
+          "description": "Wynagrodzenie z tytułu podróży zagranicznych",
+          "yearlyValue": 163.11
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

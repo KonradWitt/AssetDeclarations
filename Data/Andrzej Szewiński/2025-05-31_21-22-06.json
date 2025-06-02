@@ -1,0 +1,109 @@
+{
+  "firstName": "Andrzej",
+  "lastName": "Szewiński",
+  "dateOfBirth": "1970-02-20T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/633E08C727D1AD5DC1258A51003BA1B9/$File/370.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/138A46571EABBD83C1258C75006E2D2C/%24File/OSW102_370.pdf",
+      "position": "Poseł na Sejm",
+      "employer": "Sejm RP",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 36000.0,
+          "baseValue": 36000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1000.0,
+          "baseValue": 4000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 35500.0,
+          "baseValue": 142000.0,
+          "legalTitle": "Własność, majątek odrębny, spadek"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "PAK PRO 5-letni W PSF SFIO SUBF.PEKAO STRATEGII GLOBALNEJ - DYNAMICZY",
+          "quantity": "818.415",
+          "value": 14076.74,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 248 m² (udział 1/6)",
+          "value": 200000.0,
+          "legalTitle": "Własność, majątek odrębny, spadek"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 34.14 m²",
+          "value": 450000.0,
+          "legalTitle": "Własność, majątek odrębny"
+        },
+        {
+          "description": "Działka o powierzchni 8793 m² (na której posadowiony jest dom z pkt II.1, udział 1/6)",
+          "value": 740000.0,
+          "legalTitle": "Współwłasność (udział 1/6), własność, majątek odrębny, spadek"
+        },
+        {
+          "description": "Budynek gospodarczy o powierzchni 75 m² (posadowiony na działce z pkt II.4.a, udział 1/6)",
+          "value": 6000.0,
+          "legalTitle": "Współwłasność (udział 1/6), własność, majątek odrębny, spadek"
+        },
+        {
+          "description": "Hala o powierzchni 240 m² (posadowiona na działce z pkt II.4.a, udział 1/6)",
+          "value": 34000.0,
+          "legalTitle": "Współwłasność (udział 1/6), własność, majątek odrębny, spadek"
+        },
+        {
+          "description": "Dom o powierzchni 140 m² (udział 1/6)",
+          "value": 40000.0,
+          "legalTitle": "Współwłasność (udział 1/6), własność, majątek odrębny, spadek"
+        },
+        {
+          "description": "Działka o powierzchni 6900 m² (na której posadowiony jest dom z pkt II.4.d, udział 1/6)",
+          "value": 30000.0,
+          "legalTitle": "Współwłasność (udział 1/6), własność, majątek odrębny, spadek"
+        },
+        {
+          "description": "Działka niezabudowana (budowlana) o powierzchni 1185 m²",
+          "value": 90000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy PEUGEOT 508 SW, 1997cm³, rok produkcji 2015",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie - Sejm RP",
+          "yearlyValue": 173407.74
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.28
+        },
+        {
+          "description": "Przychód z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 3271.49
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

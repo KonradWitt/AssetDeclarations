@@ -1,0 +1,68 @@
+{
+  "firstName": "Maciej",
+  "lastName": "Konieczny",
+  "dateOfBirth": "1980-10-14T00:00:00",
+  "placeOfBirth": "Gliwice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/AD6682BC5D330930C1258A51003B9E27/$File/172.jpg",
+  "partyId": 8,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/6F8DB058F18870A3C1258C7C004A1EDF/%24File/OSW102_172.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 2763.0,
+          "baseValue": 2763.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 35 m²",
+          "value": 600000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w mBank",
+          "value": 222136.44
+        },
+        {
+          "description": "Kredyt gotówkowy w mBank",
+          "value": 52846.84
+        },
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych",
+          "value": 23800.0
+        },
+        {
+          "description": "Wspólny kredyt samochodowy z małżonką w Toyota Bank Polska S.A.",
+          "value": 52018.17
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 184944.76
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 704.09
+        },
+        {
+          "description": "Dochód z wynajmu mieszkania",
+          "yearlyValue": 26400.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

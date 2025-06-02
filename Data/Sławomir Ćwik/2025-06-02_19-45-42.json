@@ -1,0 +1,208 @@
+{
+  "firstName": "Sławomir",
+  "lastName": "Ćwik",
+  "dateOfBirth": "1972-01-21T00:00:00",
+  "placeOfBirth": "Zamość",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D8650F8A422958E7C1258A51003B9C26/$File/063.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F877FD4406FD5CB5C1258C830032E502/%24File/OSW102_063.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.0,
+          "baseValue": 10000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 14130.0,
+          "baseValue": 60759.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 60890.0,
+          "baseValue": 237471.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje spółek publicznych notowanych na Giełdzie Papierów Wartościowych w Warszawie",
+          "quantity": null,
+          "value": 2790000.0
+        },
+        {
+          "name": "Akcje Apator SA",
+          "quantity": "720",
+          "value": null
+        },
+        {
+          "name": "Akcje CD Projekt SA",
+          "quantity": "1600",
+          "value": null
+        },
+        {
+          "name": "Akcje Cormay SA",
+          "quantity": "37930",
+          "value": null
+        },
+        {
+          "name": "Akcje MCI SA",
+          "quantity": "97050",
+          "value": null
+        },
+        {
+          "name": "Akcje Mercator SA",
+          "quantity": "835",
+          "value": null
+        },
+        {
+          "name": "Akcje PKPCARGO SA",
+          "quantity": "722",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 165 m²",
+          "value": 840000.0,
+          "legalTitle": "współwłasność z żoną 1/2"
+        },
+        {
+          "description": "Dom o powierzchni 35 m²",
+          "value": 125000.0,
+          "legalTitle": "własność majątek odrębny"
+        },
+        {
+          "description": "Dom o powierzchni 70 m²",
+          "value": 40000.0,
+          "legalTitle": "współwłasność z żoną 1/2"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 77,8 m²",
+          "value": 420000.0,
+          "legalTitle": "współwłasność z żoną 1/2"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 139 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność z żoną 1/2"
+        },
+        {
+          "description": "Gospodarstwo rolne (produkcja roślinna) o powierzchni 16,18 ha (19,75 ha przeliczeniowych), bez zabudowy",
+          "value": 400000.0,
+          "legalTitle": "współwłasność z żoną 1/2"
+        },
+        {
+          "description": "Gospodarstwo rolne (produkcja roślinna) o powierzchni 2,04 ha (2,62 ha przeliczeniowych), zabudowane budynkiem mieszkalnym o pow. 35m²",
+          "value": 60000.0,
+          "legalTitle": "własność, majątek odrębny"
+        },
+        {
+          "description": "Działka pod domem (z pkt 1) o powierzchni 0,0663 ha",
+          "value": 210000.0,
+          "legalTitle": "współwłasność z żoną 1/2"
+        },
+        {
+          "description": "Działka pod domem (z pkt 3) o powierzchni 0,30 ha",
+          "value": 20000.0,
+          "legalTitle": "współwłasność z żoną 1/2"
+        },
+        {
+          "description": "3 działki budowlane o łącznej powierzchni 0,24 ha",
+          "value": 240000.0,
+          "legalTitle": "współwłasność z żoną 1/2"
+        },
+        {
+          "description": "Działki zalesione o powierzchni 1,83 ha",
+          "value": 60000.0,
+          "legalTitle": "współwłasność z żoną 1/2"
+        },
+        {
+          "description": "Działki zalesione o powierzchni 2,91 ha",
+          "value": 90000.0,
+          "legalTitle": "współwłasność 1/2, majątek odrębny"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 0,0767 ha",
+          "value": 50000.0,
+          "legalTitle": "współwłasność z żoną 1/2"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Limit kredytowy w rachunku bieżącym w ramach działalności ENERGOTON Sławomir Ćwik, udzielony przez Nest Bank S.A.",
+          "value": 12740.38
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes W212, rok 2009",
+          "value": null
+        },
+        {
+          "description": "Samochód BMW F10, rok 2012",
+          "value": null
+        },
+        {
+          "description": "Samochód Mercedes W222, rok 2014",
+          "value": null
+        },
+        {
+          "description": "Samochód Man TGE, rok 2020",
+          "value": null
+        },
+        {
+          "description": "Samochód Fiat Ducato, rok 2020",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Przychód z najmu lokalu mieszkalnego (współwłasność 1/2)",
+          "yearlyValue": 7656.00
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 196033.84
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 47565.52
+        },
+        {
+          "description": "Dochód z dywidend (brutto)",
+          "yearlyValue": 2032.00
+        },
+        {
+          "description": "Dochód z dywidend (netto)",
+          "yearlyValue": 1646.00
+        },
+        {
+          "description": "Dochód ze sprzedaży akcji",
+          "yearlyValue": 9153.69
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Niezapłacony czynsz dzierżawny z gospodarstwa rolnego (pkt II.6)",
+          "value": null
+        },
+        {
+          "description": "Niezapłacony czynsz dzierżawny z gospodarstwa rolnego (pkt II.7)",
+          "value": null
+        }
+      ],
+      "businessActivities": [
+        {
+          "businessName": "Sławomir Ćwik ENERGOTON",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Usługi",
+          "income": -108397.51,
+          "revenue": 429273.18
+        }
+      ]
+    }
+  ]
+}

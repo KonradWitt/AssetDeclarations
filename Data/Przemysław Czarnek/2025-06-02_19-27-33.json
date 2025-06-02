@@ -1,0 +1,64 @@
+{
+  "firstName": "Przemysław",
+  "lastName": "Czarnek",
+  "dateOfBirth": "1977-06-11T00:00:00",
+  "placeOfBirth": "KOŁO",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0CBAAA2F081F434AC1258A51003B9C07/$File/056.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/938838F48AE16C54C1258C7B00476E9E/%24File/OSW102_056.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 15000.0,
+          "baseValue": 15000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Udział w spadku po Jerzym Pakuckim (5%), składający się z domu z działką oraz mieszkania o pow. ok. 40m².",
+          "value": 60000.0,
+          "legalTitle": "Udział w spadku"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na budowę domu (pozostało do spłaty 74900 CHF)",
+          "value": 74900.0
+        },
+        {
+          "description": "Pożyczka Sejmowa",
+          "value": 40000.0
+        },
+        {
+          "description": "Pożyczka (pozostało do spłaty)",
+          "value": 20000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie i dieta poselska (Sejm RP)",
+          "yearlyValue": 126153.58
+        },
+        {
+          "description": "Wynagrodzenie z Katolickiego Uniwersytetu Lubelskiego (umowa o dzieło/prawa autorskie)",
+          "yearlyValue": 101784.94
+        },
+        {
+          "description": "Świadczenie 800+",
+          "yearlyValue": 9600.0
+        },
+        {
+          "description": "Wynagrodzenie z European Central Academy (umowa o dzieło/prawa autorskie)",
+          "yearlyValue": 34485.31
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

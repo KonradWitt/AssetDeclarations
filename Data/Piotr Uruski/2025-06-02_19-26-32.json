@@ -1,0 +1,87 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Uruski",
+  "dateOfBirth": "1976-08-11T00:00:00",
+  "placeOfBirth": "Sanok",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/672E154FDB3990C0C1258A51003BA25A/$File/404.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EB83B70A4860A84DC1258C810049802B/%24File/OSW102_404.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 45000.0,
+          "baseValue": 45000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 7470.0,
+          "baseValue": 29880.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Środki z PPE i wpłaty na rachunku IKE",
+          "quantity": null,
+          "value": 22000.0
+        },
+        {
+          "name": "Obligacje Skarbowe",
+          "quantity": null,
+          "value": 60000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Lokal mieszkalny o powierzchni 150,90 m²",
+          "value": 450000.0,
+          "legalTitle": "Własność odrębna"
+        },
+        {
+          "description": "72/100 części działki o powierzchni 0,0595 ha, na której posadowiony jest budynek wymieniony w części II.1",
+          "value": 45000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka gruntowa o powierzchni 1,05 ha",
+          "value": 200000.0,
+          "legalTitle": "Współwłasność z małżonką"
+        },
+        {
+          "description": "Nieruchomość gruntowa o powierzchni 0,30 ha",
+          "value": 160000.0,
+          "legalTitle": "Współwłasność z małżonką"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Opel Corsa, rok produkcji 2014",
+          "value": null
+        },
+        {
+          "description": "Samochód Audi Q5, rok produkcji 2019",
+          "value": null
+        },
+        {
+          "description": "Samochód Volkswagen Polo, rok produkcji 2010",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (w tym nieopodatkowana i opodatkowana)",
+          "yearlyValue": 44824.84
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 147499.28
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "firstName": "Daria",
+  "lastName": "Gosek-Popiołek",
+  "dateOfBirth": "1985-04-16T00:00:00",
+  "placeOfBirth": "Sosnowiec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/C0B2B8A64FCA4972C1258A51003B9CF7/$File/110.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9F874570220515B1C1258C81003818C0/%24File/OSW102_110.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 5261.03,
+          "baseValue": 5261.03
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 70 m²",
+          "value": 100000.0,
+          "legalTitle": "spółdzielcze, własnościowe prawo do lokalu, kredyt hipoteczny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na mieszkanie w banku Millenium",
+          "value": 137953.90
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 47832.74
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 196488.84
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

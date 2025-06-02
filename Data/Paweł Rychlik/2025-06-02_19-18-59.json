@@ -1,0 +1,84 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Rychlik",
+  "dateOfBirth": "1986-12-16T00:00:00",
+  "placeOfBirth": "Wieluń",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/C2C655E3D3F4F9EAC1258A51003BA0C8/$File/318.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/B018B0B19CF7EEAFC1258C7A0044228B/%24File/OSW102_318.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 31242.24,
+          "baseValue": 31242.24
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 192 m²",
+          "value": 400000.0,
+          "legalTitle": "Współwłasność (7/8)"
+        },
+        {
+          "description": "Mieszkanie 55 m²",
+          "value": 240000.0,
+          "legalTitle": "Własność odrębna"
+        },
+        {
+          "description": "Dom ~150 m²",
+          "value": 640000.0,
+          "legalTitle": "Własność odrębna"
+        },
+        {
+          "description": "Las 0,3 ha",
+          "value": 5000.0,
+          "legalTitle": "Współwłasność (1/8)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy w Rejonowym Banku Spółdzielczym w Lututowie",
+          "value": 194503.23
+        },
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych",
+          "value": 23800.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Avensis 2.0 Diesel, rok 2010 (współwłasność)",
+          "value": 40000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 41766.38
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 140373.43
+        },
+        {
+          "description": "Wynajem",
+          "yearlyValue": 4200.0
+        },
+        {
+          "description": "Dieta opodatkowana",
+          "yearlyValue": 8766.38
+        },
+        {
+          "description": "Dieta nieopodatkowana",
+          "yearlyValue": 33000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

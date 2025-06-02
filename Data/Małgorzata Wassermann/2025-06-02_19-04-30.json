@@ -1,0 +1,104 @@
+{
+  "id": null,
+  "firstName": "Małgorzata",
+  "lastName": "Wassermann",
+  "dateOfBirth": "1978-03-16T00:00:00",
+  "placeOfBirth": "Kraków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0D28F75E333B3A7CC1258A51003BA27A/$File/411.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FCF6A25C8F7CE29DC1258C7500438E05/%24File/OSW102_411.pdf",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 203365.44,
+          "baseValue": 203365.44
+        }
+      ],
+      "securityPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Obligacje Skarbowe",
+          "quantity": null,
+          "value": 401120.00
+        }
+      ],
+      "realEstate": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dom 65.10 m²",
+          "value": 780000.00,
+          "legalTitle": "Własność"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Mieszkanie 38.84 m²",
+          "value": 715000.00,
+          "legalTitle": "Własność"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samodzielny lokal mieszkalny 197.09 m²",
+          "value": 1200000.00,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód Honda Civic, rok produkcji 2014",
+          "value": 42000.00
+        }
+      ],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Uposażenie",
+          "yearlyValue": 174007.68
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta nieopodatkowana",
+          "yearlyValue": 36000.00
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta opodatkowana",
+          "yearlyValue": 9679.00
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Najem",
+          "yearlyValue": 57400.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "businessName": "Kancelaria Adwokacka",
+          "businessType": "Jednoosobowa działalność gospodarcza",
+          "description": "Kancelaria Adwokacka",
+          "income": -7263.00
+        }
+      ]
+    }
+  ]
+}

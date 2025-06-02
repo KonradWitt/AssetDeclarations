@@ -1,0 +1,110 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Gadowski",
+  "dateOfBirth": "1962-08-14T00:00:00",
+  "placeOfBirth": "Bochnia",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/098930E7800FDA27C1258A51003B9C87/$File/085.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/DF6A3329998F3D35C1258C76005C6B80/%24File/OSW102_085.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 61932.31,
+          "baseValue": 61932.31
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2300.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 3000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbowe",
+          "quantity": null,
+          "value": 20236.0
+        },
+        {
+          "name": "Ubezpieczenie na życie z funduszem kapitałowym",
+          "quantity": null,
+          "value": 180414.09
+        },
+        {
+          "name": "Polisa emerytalna (IŻOMA)",
+          "quantity": null,
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni ok. 190 m² na działce o powierzchni 0.0588 ha, wybudowany w 1993 roku",
+          "value": 9.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 1.99 ha (dzierżawa)",
+          "value": 19900.0,
+          "legalTitle": "współwłasność małżeńska, podarowane przez rodziców"
+        },
+        {
+          "description": "Działka o powierzchni 0.115 ha z domem o powierzchni 160 m²",
+          "value": 450000.0,
+          "legalTitle": "współwłasność małżeńska, podarowane przez rodziców"
+        },
+        {
+          "description": "Instalacja fotowoltaiczna wolnostojąca na działce nr 2",
+          "value": 22000.0,
+          "legalTitle": "współwłasność małżeńska, podarowane przez rodziców"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Zakładowego Funduszu Świadczeń Socjalnych na cele mieszkaniowe z Kancelarii Sejmu",
+          "value": 29750.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy VW Passat, rok produkcji 2017",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Audi Q3, rok produkcji 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie (brutto)",
+          "yearlyValue": 201977.94
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dieta Rady Europy (brutto)",
+          "yearlyValue": 64742.40
+        },
+        {
+          "description": "Inne dochody związane z limitami na służbowe podróże zagraniczne",
+          "yearlyValue": 2221.17
+        },
+        {
+          "description": "Świadczenie z PZU z tytułu trwałego uszczerbku na zdrowiu",
+          "yearlyValue": 880.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "firstName": "Anna",
+  "lastName": "Cicholska",
+  "dateOfBirth": "1962-02-04T00:00:00",
+  "placeOfBirth": "Ciechanów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5CC5EE8ADA61976FC1258A51003B9BE6/$File/048.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D323C347587F19DEC1258C76004A646A/%24File/OSW102_048.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 85000.0,
+          "baseValue": 85000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje skarbowe",
+          "quantity": "10000",
+          "value": 10000220.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom",
+          "value": 450000.0,
+          "legalTitle": "wspólność ustawowa majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w PKO BP SA",
+          "value": 55100.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Citigo Ambition, rok 2019",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45649.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dochody z tytułu zatrudnienia",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Świadczenie emerytalne",
+          "yearlyValue": 92133.38
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

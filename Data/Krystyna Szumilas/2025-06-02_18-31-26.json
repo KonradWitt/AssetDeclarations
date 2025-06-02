@@ -1,0 +1,91 @@
+{
+  "firstName": "Krystyna",
+  "lastName": "Szumilas",
+  "dateOfBirth": "1956-06-28T00:00:00",
+  "placeOfBirth": "Knurów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5E1F1D722011455BC1258A51003BA1CD/$File/374.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/45623AE4CA9C2D7AC1258C75006E3429/%24File/OSW102_374.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 39444.36,
+          "baseValue": 39444.36,
+          "description": "Środki pieniężne w walucie polskiej"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 66047.04,
+          "baseValue": 66047.04,
+          "description": "IKZE Dobrowolny Fundusz Emerytalny"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 52938.50,
+          "baseValue": 52938.50,
+          "description": "PAK PRO 5-letni Program Inwestycyjny"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w Banku Spółdzielczym w Knurowie",
+          "quantity": "13",
+          "value": 5590.05
+        },
+        {
+          "name": "Akcje Santander Bank Polska SA",
+          "quantity": "5",
+          "value": 2288.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 220,49 m²",
+          "value": 900000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 58,2 m²",
+          "value": 250000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka o powierzchni 1593 m², na której stoi dom",
+          "value": 300000.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych",
+          "value": 23800.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volkswagen Golf, rok produkcji 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Emerytura",
+          "yearlyValue": 165176.36
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 201584.94
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

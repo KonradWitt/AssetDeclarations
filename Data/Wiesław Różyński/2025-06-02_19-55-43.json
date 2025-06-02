@@ -1,0 +1,98 @@
+{
+  "firstName": "Wiesław",
+  "lastName": "Różyński",
+  "dateOfBirth": "1968-06-26T00:00:00",
+  "placeOfBirth": "Biłgoraj",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/8CB86FE75AAE370DC1258A51003BA0B8/$File/314.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2024-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4C48096B7B0721D3C1258C7E0039DAE0/%24File/OSW102_314.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 57782.56,
+          "baseValue": 57782.56
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 230 m²",
+          "value": 600000.0,
+          "legalTitle": "własność - majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 56,2 m²",
+          "value": 700000.0,
+          "legalTitle": "własność małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Gospodarstwo rolne indywidualne o powierzchni 4,7806 ha, zabudowa murowana",
+          "value": 200000.0,
+          "legalTitle": "własność - majątek odrębny"
+        },
+        {
+          "description": "Las o powierzchni 0,17 ha",
+          "value": 1800.0,
+          "legalTitle": "własność - majątek odrębny"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 401 m²",
+          "value": 15000.0,
+          "legalTitle": "własność - małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Nieruchomość gruntowa o powierzchni 0,36 ha",
+          "value": 25000.0,
+          "legalTitle": "własność - majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy „Mój Dom” w Banku Spółdzielczym w Biłgoraju (małżeńska wspólność majątkowa)",
+          "value": 78362.0
+        },
+        {
+          "description": "Pożyczka z FŚS dla posłów w Kancelarii Sejmu (małżeńska wspólność majątkowa)",
+          "value": 13480.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volvo XC60, rok produkcji 2017 (własność, małżeńska wspólność majątkowa)",
+          "value": null
+        },
+        {
+          "description": "Samochód Mitsubishi ASX, rok produkcji 2011 (własność, małżeńska wspólność majątkowa)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu zatrudnienia (małżeńska wspólność majątkowa)",
+          "yearlyValue": 213997.11
+        },
+        {
+          "description": "Dieta poselska (małżeńska wspólność majątkowa)",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Dochód z tytułu zatrudnienia żony (małżeńska wspólność majątkowa)",
+          "yearlyValue": 84546.81
+        },
+        {
+          "description": "Dochód z wynajmu mieszkania",
+          "yearlyValue": 33690.00
+        },
+        {
+          "description": "Dochód z gospodarstwa rolnego",
+          "yearlyValue": 0.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "firstName": "Marek",
+  "lastName": "Wesoły",
+  "dateOfBirth": "1972-05-03T00:00:00",
+  "placeOfBirth": "Ruda Śląska",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E873316BAEB4DE3EC1258A51003BA293/$File/416.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/90D68B59602A256BC1258C750044FA2D/%24File/OSW102_416.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 55780.00,
+          "baseValue": 55780.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Apartament 75 m²",
+          "value": 693596.00,
+          "legalTitle": "Własność na podstawie aktu notarialnego (małżeńska wspólność majątkowa)"
+        },
+        {
+          "description": "Mieszkanie 49,04 m²",
+          "value": 97987.00,
+          "legalTitle": "Własność na podstawie aktu notarialnego (małżeńska wspólność majątkowa)"
+        },
+        {
+          "description": "Mieszkanie 38 m²",
+          "value": 80000.00,
+          "legalTitle": "Własność na podstawie aktu notarialnego (małżeńska wspólność majątkowa)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP (małżeńska wspólność majątkowa)",
+          "value": 497903.32
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Grand Scenic (2009)",
+          "value": 12000.00
+        },
+        {
+          "description": "Samochód Opel Mocca (2016)",
+          "value": 56000.00
+        },
+        {
+          "description": "Samochód Opel Grandland (2019)",
+          "value": 84000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta Poselska",
+          "yearlyValue": 47431.91
+        },
+        {
+          "description": "Uposażenie Poselskie (Kancelaria Sejmu)",
+          "yearlyValue": 124483.75
+        },
+        {
+          "description": "Dochód z Ministerstwa Aktywów Państwowych",
+          "yearlyValue": 50446.67
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Jednoosobowa działalność gospodarcza",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Zawieszona od V. 2022",
+          "income": 0.00
+        }
+      ]
+    }
+  ]
+}

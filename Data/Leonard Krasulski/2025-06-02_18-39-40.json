@@ -1,0 +1,56 @@
+{
+  "firstName": "Leonard",
+  "lastName": "Krasulski",
+  "dateOfBirth": "1950-11-08T00:00:00",
+  "placeOfBirth": "Sopot",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D4FC1C1E8016C69DC1258A51003B9E6A/$File/185.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-12T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/302B858A81FD2466C1258C690037DAE7/%24File/OSW102_185.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 300000.0,
+          "baseValue": 300000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 78 m²",
+          "value": 400000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka rekreacyjna - budowlana 800 m², domek typ Holenderski",
+          "value": 100000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9038.62
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 190083.78
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 101411.82
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

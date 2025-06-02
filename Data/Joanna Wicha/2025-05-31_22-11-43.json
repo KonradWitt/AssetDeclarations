@@ -1,0 +1,42 @@
+{
+  "firstName": "Joanna",
+  "lastName": "Wicha",
+  "dateOfBirth": "1966-10-09T00:00:00",
+  "placeOfBirth": "Biała Podlaska",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/66D9204DCC660075C1258A51003BA298/$File/417.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-05T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7418BC2A3E7F404BC1258C45005D9361/%24File/OSW102_417.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 59900.0,
+          "baseValue": 59900.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Mazda 3, rok 2009",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 163539.40
+        },
+        {
+          "description": "Dieta",
+          "yearlyValue": 45679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

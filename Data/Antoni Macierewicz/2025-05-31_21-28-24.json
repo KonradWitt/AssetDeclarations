@@ -1,0 +1,74 @@
+{
+  "firstName": "Antoni",
+  "lastName": "Macierewicz",
+  "dateOfBirth": "1948-08-03T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/BD6151046C5E8687C1258A51003B9F22/$File/226.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/826D8E3904A82F90C1258C7C006CAFA6/%24File/OSW102_226.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 9037.85,
+          "baseValue": 9037.85
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 484045.40,
+          "baseValue": 484045.40,
+          "description": "Konta i lokaty żony"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbowe DET.",
+          "quantity": null,
+          "value": 407811.50
+        },
+        {
+          "name": "Fundusze PROTFI",
+          "quantity": null,
+          "value": 457376.97
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 55 m²",
+          "value": 650000.0,
+          "legalTitle": "Spółdzielcze własnościowe, własność żony"
+        },
+        {
+          "description": "Działka 0,0935 ha z domem drewnianym 40 m²",
+          "value": 90000.0,
+          "legalTitle": "Własność żony"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Corolla, rok 2022",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 33618.63
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 148354.38
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 101919.30
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

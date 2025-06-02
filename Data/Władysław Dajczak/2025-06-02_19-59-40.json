@@ -1,0 +1,75 @@
+{
+  "firstName": "Władysław",
+  "lastName": "Dajczak",
+  "dateOfBirth": "1959-07-10T00:00:00",
+  "placeOfBirth": "Międzyrzecz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/32FDE3E0D5F1F71AC1258A51003B9C2B/$File/064.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/3C50CAA2EDDEA242C1258C760050E854/%24File/OSW102_064.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 320000.0,
+          "baseValue": 320000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 140 m²",
+          "value": 700000.0,
+          "legalTitle": "własność małżeńska"
+        },
+        {
+          "description": "Działka zabudowana domem mieszkalnym 254 m²",
+          "value": 36000.0,
+          "legalTitle": "własność - wspólność majątkowa"
+        },
+        {
+          "description": "Dom 100 m²",
+          "value": 400000.0,
+          "legalTitle": "wspólność majątkowa, darowizna"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt samochodowy w Bank Toyota Polska S.A. Szczecin, oprocentowanie 10,54%, termin spłaty 23.04.2025, wspólność majątkowa",
+          "value": 42772.70
+        },
+        {
+          "description": "Umowa leasingu konsumenckiego na Toyota Corolla Sedan, zawarta 01.05.2024, okres 36 miesięcy, rata miesięczna 1941,26 zł, wykup 1133,77 zł, wspólność majątkowa",
+          "value": 86473.21
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Lexus NX300H, rok prod. 2017, wspólność majątkowa",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Toyota Corolla Sedan, rok prod. 2023, wspólność majątkowa",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie Marszałka Sejmu RP",
+          "yearlyValue": 191233.24
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 66339.01
+        },
+        {
+          "description": "Inne diety",
+          "yearlyValue": 9679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

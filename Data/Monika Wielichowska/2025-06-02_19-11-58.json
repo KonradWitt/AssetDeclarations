@@ -1,0 +1,59 @@
+{
+  "firstName": "Monika",
+  "lastName": "Wielichowska",
+  "dateOfBirth": "1973-10-04T00:00:00",
+  "placeOfBirth": "Nowa Ruda",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/04FCAF7BA3D394CDC1258A51003BA2AC/$File/421.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/371362E61036145AC1258C7600428AC5/%24File/OSW102_421.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 170000.0,
+          "baseValue": 170000.0,
+          "description": "Środki pieniężne w walucie polskiej (majątek odrębny)"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 308 m²",
+          "value": 850000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 3800 m²",
+          "value": 250000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych Kancelarii Sejmu",
+          "value": 18160.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota RAV Hybrid (2019)",
+          "value": 110000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (opodatkowana i nieopodatkowana)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 250937.35
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 1
+}

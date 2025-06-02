@@ -1,0 +1,81 @@
+{
+  "firstName": "Jarosław",
+  "lastName": "Zieliński",
+  "dateOfBirth": "1960-09-20T00:00:00",
+  "placeOfBirth": "Szwajcaria",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/FD1DA0981D4D7952C1258A51003BA33B/$File/452.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/DEA881436C017381C1258C76004921CF/%24File/OSW102_452.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 350000.0,
+          "baseValue": 350000.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 175000.0,
+          "baseValue": 175000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni ok. 250 m²",
+          "value": 350000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 5,01 ha (grunty nieużytkowane 3,47 ha, grunty użytkowane 1,54 ha) z zabudową siedliskową i budynkami gospodarczymi",
+          "value": 200000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 3080 m²",
+          "value": 130000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 2863 m² (odrębna własność żony)",
+          "value": 120000.0,
+          "legalTitle": "odrębna własność żony (darowizna)"
+        },
+        {
+          "description": "Dom jednorodzinny w stanie surowym w budowie o powierzchni 168 m²",
+          "value": 850000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Chevrolet AVEO, rok produkcji 2008",
+          "value": null
+        },
+        {
+          "description": "Samochód Audi Q5, rok produkcji 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z gospodarstwa rolnego (jednolita płatność obszarowa)",
+          "yearlyValue": 1533.41
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 163539.40
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

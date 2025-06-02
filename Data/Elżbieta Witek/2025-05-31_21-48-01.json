@@ -1,0 +1,69 @@
+{
+  "firstName": "Elżbieta",
+  "lastName": "Witek",
+  "dateOfBirth": "1957-12-17T00:00:00",
+  "placeOfBirth": "Jaworze",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6F7E748067B321BAC1258A51003BA2CF/$File/428.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/3D52DADC645FFB62C1258C7600446FB6/%24File/OSW102_428.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 80000.0,
+          "baseValue": 80000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 134.61,
+          "baseValue": 578.82
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 63 m²",
+          "value": 400000.0,
+          "legalTitle": "Spółdzielcze własnościowe"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Linia kredytowa w PKO BP",
+          "value": 13000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 130292.61
+        },
+        {
+          "description": "Wynagrodzenie Marszałka",
+          "yearlyValue": 92072.05
+        },
+        {
+          "description": "Dieta opodatkowana",
+          "yearlyValue": 8504.18
+        },
+        {
+          "description": "Dieta nieopodatkowana",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Świadczenie emerytalne",
+          "yearlyValue": 79227.42
+        },
+        {
+          "description": "Dochód ze sprzedaży 1/2 mieszkania (własność męża)",
+          "yearlyValue": 80500.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

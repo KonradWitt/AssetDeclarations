@@ -1,0 +1,107 @@
+{
+  "firstName": "Mateusz",
+  "lastName": "Morawiecki",
+  "dateOfBirth": "1968-06-20T00:00:00",
+  "placeOfBirth": "Wrocław",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6C55F59B66F8DEECC1258A51003B9F7B/$File/246.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2024-12-31T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FB27254BAC2B26FBC1258C7C0057D9DE/%24File/OSW102_246.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 276784.95,
+          "baseValue": 276784.95
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje skarbowe",
+          "quantity": null,
+          "value": 3887000.80
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni ok. 150 m² na działce o powierzchni ok. 0,46 ha, wraz z zabudowaniami gospodarczymi i domkami letniskowymi.",
+          "value": 2100000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 72,4 m².",
+          "value": 1300000.0,
+          "legalTitle": "własnościowe"
+        },
+        {
+          "description": "Dom całoroczny o powierzchni ok. 100 m² na działce budowlanej o powierzchni ok. 3100 m² (w tym współwłasność działki z wyłącznością dysponowania ok. 300 m²), wraz z zabudowaniami gospodarczymi i sanitariatami.",
+          "value": 4300000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Segment (szeregówka) o powierzchni ok. 180 m² na działce o powierzchni ok. 400 m². Posiadam 50% własności.",
+          "value": 800000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Działka rolna o powierzchni ok. 2 ha.",
+          "value": 200000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Zabudowa kuchenna",
+          "value": 60000.0
+        },
+        {
+          "description": "Meble (zestaw 1)",
+          "value": 80000.0
+        },
+        {
+          "description": "Meble (zestaw 2)",
+          "value": 100000.0
+        },
+        {
+          "description": "Meble i zabudowa po remoncie (zestaw 3)",
+          "value": 115000.0
+        },
+        {
+          "description": "Sprzęt techniczny (zestaw 1)",
+          "value": 15000.0
+        },
+        {
+          "description": "Sprzęt techniczny (zestaw 2)",
+          "value": 15000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu zatrudnienia w KPRM",
+          "yearlyValue": 37278.29
+        },
+        {
+          "description": "Dieta parlamentarna (Sejm)",
+          "yearlyValue": 45694.98
+        },
+        {
+          "description": "Dochód z tytułu wykonywania mandatu posła",
+          "yearlyValue": 150671.51
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Prawo do odroczonych premii (część wynagrodzenia) z tytułu zatrudnienia w Banku Zachodnim WBK (Santander), należnych na podstawie umowy o pracę zakończonej 16.11.2015 r.",
+          "value": null
+        },
+        {
+          "description": "Pożyczka udzielona osobie fizycznej (siostrze)",
+          "value": 300000.0
+        }
+      ],
+      "businessActivities": []
+    }
+  ]
+}

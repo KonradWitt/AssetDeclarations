@@ -1,0 +1,82 @@
+{
+  "firstName": "Karolina",
+  "lastName": "Pawliczak",
+  "dateOfBirth": "1976-06-15T00:00:00",
+  "placeOfBirth": "Godzieszach Kielkich",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/575707AEDEC28F1BC1258A51003BA030/$File/284.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-01-10T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/5EFCF9732CFEC726C1258C7C0046D00D/%24File/OSW102_284.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 50000.0,
+          "baseValue": 50000.0,
+          "description": "Wspólność majątkowa małżeńska"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Polisa ubezpieczeniowa na życie",
+          "quantity": null,
+          "value": 245416.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 200 m²",
+          "value": 700000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 23.5 m²",
+          "value": 150000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Działka gruntowa o powierzchni 1200 m², na której posadowiony jest dom",
+          "value": 120000.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny",
+          "value": 34378.71
+        },
+        {
+          "description": "Pożyczka w Kancelarii Sejmu",
+          "value": 29750.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Hyundai i30, rok 2021",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 189196.79
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45678.92
+        },
+        {
+          "description": "Z tytułu kosztów uposażenia",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Wynagrodzenie ze stosunku pracy",
+          "yearlyValue": 3906.20
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

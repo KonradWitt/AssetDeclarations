@@ -1,0 +1,88 @@
+{
+  "firstName": "Lidia",
+  "lastName": "Burzyńska",
+  "dateOfBirth": "1964-08-27T00:00:00",
+  "placeOfBirth": "Rzeki Wielkie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/547C652A4D1758E5C1258A51003B9BBF/$File/040.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/BA08B6FA08EC6B74C1258C7C00291C7A/%24File/OSW102_040.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 49368.88,
+          "baseValue": 49368.88
+        },
+        {
+          "currency": "UNKNOWN",
+          "currencyValue": 111286.0,
+          "baseValue": null
+        },
+        {
+          "currency": "UNKNOWN",
+          "currencyValue": 48584.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Gospodarstwo rolne (grunty rolne 2.7546 ha, dom 170 m²)",
+          "value": 428000.0,
+          "legalTitle": "współwłasność rodzinna"
+        },
+        {
+          "description": "Garaż o powierzchni 45 m²",
+          "value": 8339.0,
+          "legalTitle": "1/6 udziału w nabytym majątku"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Umowa deweloperska",
+          "value": 546404.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód SUZUKI VITARA, rok 2016",
+          "value": null
+        },
+        {
+          "description": "Samochód TOYOTA YARIS, rok 2019",
+          "value": null
+        },
+        {
+          "description": "Ciągnik rolniczy URSUS MF235, rok 1980",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 160463.78
+        },
+        {
+          "description": "Inne źródła",
+          "yearlyValue": 21294.0
+        },
+        {
+          "description": "Dieta nieopodatkowana",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta opodatkowana",
+          "yearlyValue": 9573.04
+        },
+        {
+          "description": "Emerytura ZUS",
+          "yearlyValue": 30829.41
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

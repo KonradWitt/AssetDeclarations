@@ -1,0 +1,81 @@
+{
+  "firstName": "Zbigniew",
+  "lastName": "Kuźmiuk",
+  "dateOfBirth": "1950-09-19T00:00:00",
+  "placeOfBirth": "Komorowie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/242A52E83E9AFEECC1258A51003B9EC6/$File/204.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-14T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/817A6B9B66B1CEABC1258C6C004BC564/%24File/OSW102_204.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 68200.0,
+          "baseValue": 68200.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 425700.0,
+          "baseValue": 1702800.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 7962000.0,
+          "baseValue": 34236600.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje skarbowe",
+          "quantity": null,
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 130 m²",
+          "value": 800000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 51 m²",
+          "value": 950000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Volkswagen Arteon, rok 2019",
+          "value": null
+        },
+        {
+          "description": "Samochód Volkswagen Golf, rok 2016",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z tytułu zatrudnienia w Sejmie RP (01.01-31.07)",
+          "yearlyValue": 83344.0
+        },
+        {
+          "description": "Wynagrodzenie z tytułu zatrudnienia w Sejmie RP (01.09-31.12)",
+          "yearlyValue": 175140.0
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 18000.0
+        },
+        {
+          "description": "Prawa autorskie",
+          "yearlyValue": 138.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

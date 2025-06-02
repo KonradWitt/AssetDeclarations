@@ -1,0 +1,76 @@
+{
+  "firstName": "Maciej",
+  "lastName": "Wróbel",
+  "dateOfBirth": "1983-10-16T00:00:00",
+  "placeOfBirth": "Giżycku",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A9BD2A8B1A476EEBC1258A51003BA302/$File/439.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/BE4ADA6203E24AA7C1258C760063052F/%24File/OSW102_439.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 31000.0,
+          "baseValue": 31000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1600.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 68 m²",
+          "value": 540000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie 48 m²",
+          "value": 312000.0,
+          "legalTitle": "własność i współwłasność małżeńska"
+        },
+        {
+          "description": "Miejsce garażowe w garażu podziemnym 8 m²",
+          "value": 35000.0,
+          "legalTitle": "własność i współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Banku Millennium (denominowany z CHF do PLN)",
+          "value": 64200.0
+        },
+        {
+          "description": "Kredyt hipoteczny w mBanku (w EUR)",
+          "value": 269557.47
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Superb, rok 2018, leasing",
+          "value": 114000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu uposażenia poselskiego",
+          "yearlyValue": 164078.44
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Dochód z tytułu umowy zlecenia za prowadzenie zajęć na Uniwersytecie Warmińsko-Mazurskim",
+          "yearlyValue": 2736.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

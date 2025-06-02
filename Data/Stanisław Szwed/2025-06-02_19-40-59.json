@@ -1,0 +1,77 @@
+{
+  "firstName": "Stanisław",
+  "lastName": "Szwed",
+  "dateOfBirth": "1955-04-12T00:00:00",
+  "placeOfBirth": "Bielsko-Biała",
+  "description": "Poseł X kadencji Sejmu RP",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6C4E86846E27CD30C1258A51003BA1D2/$File/375.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/708B012CA2C3EA58C1258C7500437F69/%24File/OSW102_375.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 154000.0,
+          "baseValue": 154000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 3000.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 221.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Fundusze inwestycyjne IKE",
+          "quantity": null,
+          "value": 146400.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 48,53 m²",
+          "value": 200000.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Karoq 4x4, rok 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 128420.19
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Emerytura ZUS",
+          "yearlyValue": 224309.54
+        },
+        {
+          "description": "Okres wypowiedzenia + odprawa emerytalna (Ministerstwo Rodziny i Polityki Społecznej)",
+          "yearlyValue": 241308.61
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

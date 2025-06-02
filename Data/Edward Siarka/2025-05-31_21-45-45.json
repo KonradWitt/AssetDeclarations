@@ -1,0 +1,78 @@
+{
+  "firstName": "Edward",
+  "lastName": "Siarka",
+  "dateOfBirth": "1963-01-07T00:00:00",
+  "placeOfBirth": "Rabka Zdrój",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/BAFD02B6594E7F96C1258A51003BA10D/$File/333.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2015-03-10T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/5AAEBAD814FC3FDDC1258C7A00453E3B/%24File/OSW102_333.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 90000.0,
+          "baseValue": 90000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 150 m²",
+          "value": 500000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Gospodarstwo rolne ekstensywne o powierzchni 3.05 ha, zabudowa garażowo-gospodarcza",
+          "value": 200000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Grunty leśne o powierzchni 0.14 ha w powiecie gorlickim",
+          "value": 160000.0,
+          "legalTitle": "Małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Suzuki Grand Vitara, rok 2011",
+          "value": null
+        },
+        {
+          "description": "Samochód Skoda Superb, rok 2018",
+          "value": null
+        },
+        {
+          "description": "Samochód Dacia Duster, rok 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 34153.06
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 27000.00
+        },
+        {
+          "description": "Dochód z tytułu pełnienia funkcji posła",
+          "yearlyValue": 7153.06
+        },
+        {
+          "description": "Umowa o pracę w Ministerstwie Środowiska",
+          "yearlyValue": 111051.25
+        },
+        {
+          "description": "Dochód z Ministerstwa Środowiska",
+          "yearlyValue": 71854.22
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

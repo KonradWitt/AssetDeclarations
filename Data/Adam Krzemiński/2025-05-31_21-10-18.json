@@ -1,0 +1,98 @@
+{
+  "firstName": "Adam",
+  "lastName": "Krzemiński",
+  "dateOfBirth": "1975-01-14T00:00:00",
+  "placeOfBirth": "Ciechanów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/04D9BD777303B8BCC1258A51003B9E9A/$File/195.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-10T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/69ECD79AED00CE2EC1258C5200297255/%24File/OSW102_195.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 124300.0,
+          "baseValue": 124300.0
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 25.0,
+          "baseValue": 112.5
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 25.79,
+          "baseValue": 110.997
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 25.0,
+          "baseValue": 100.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 120 m² na działce 0,0740 ha",
+          "value": 750000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 53,10 m² wraz z miejscem postojowym w garażu podziemnym",
+          "value": 425000.0,
+          "legalTitle": "wspólność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 50,58 m²",
+          "value": 270000.0,
+          "legalTitle": "majątek osobisty (Umowa Darowizny od matki)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z ZFŚS",
+          "value": 40800.0
+        },
+        {
+          "description": "Zobowiązanie z tytułu wynajmu samochodu (29 rat po 3183,70 zł)",
+          "value": 92327.3
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Toyota Rav4, rok produkcji 2021",
+          "value": null
+        },
+        {
+          "description": "Motocykl Suzuki V-Strom DL650, rok produkcji 2011",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie parlamentarzysty",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9672.92
+        },
+        {
+          "description": "Przychód z najmu lokalu mieszkalnego",
+          "yearlyValue": 10000.0
+        },
+        {
+          "description": "Dochód z tytułu dodatkowego wynagrodzenia (tzw. 'trzynastka') z Centrum Usług Wspólnych",
+          "yearlyValue": 9567.50
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

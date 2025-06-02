@@ -1,0 +1,89 @@
+{
+  "firstName": "Henryk",
+  "lastName": "Kowalczyk",
+  "dateOfBirth": "1958-07-15T00:00:00",
+  "placeOfBirth": "Żabianka",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A7E3E42ACA93FF2BC1258A51003B9E49/$File/179.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1A07BDF6F1F0CCD4C1258C760041995F/%24File/OSW102_179.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 88380.0,
+          "baseValue": 88380.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 10.0,
+          "baseValue": 43.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbu Państwa (Henryk Kowalczyk)",
+          "quantity": null,
+          "value": 260000.0
+        },
+        {
+          "name": "Obligacje Skarbu Państwa (Hanna Kowalczyk)",
+          "quantity": null,
+          "value": 270000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 120 m²",
+          "value": 350000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Działki rolne i budowlane o łącznej powierzchni 12568 m² (w tym działka rolna 0.99 ha - majątek odrębny, działka budowlana 1464 m² - wspólność małżeńska, działka budowlana z domem 1204 m² - wspólność małżeńska)",
+          "value": 200000.0,
+          "legalTitle": "Mieszany (majątek odrębny i wspólność małżeńska)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Corolla, rok produkcji 2020",
+          "value": 65204.0
+        },
+        {
+          "description": "Samochód Toyota Aygo, rok produkcji 2022",
+          "value": 55718.0
+        },
+        {
+          "description": "Samochód Toyota Corolla, rok produkcji 2010",
+          "value": 18835.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 202722.82
+        },
+        {
+          "description": "Wyrównanie KARM za 2023",
+          "yearlyValue": 5830.62
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9359.28
+        },
+        {
+          "description": "Świadczenie emerytalne",
+          "yearlyValue": 162366.38
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "firstName": "Robert",
+  "lastName": "Dowhan",
+  "dateOfBirth": "1967-07-14T00:00:00",
+  "placeOfBirth": "Lubsko",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/21A3E677F573ACEDC1258A51003B9C45/$File/070.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-21T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/34A9AD74D7D880C5C1258C760051C533/%24File/OSW102_070.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 915483.39,
+          "baseValue": 915483.39
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 147.37,
+          "baseValue": null
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 1040.0,
+          "baseValue": null
+        },
+        {
+          "currency": "UNKNOWN",
+          "currencyValue": 5876.83,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 11200.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w POKONAĆ RAKAS",
+          "quantity": "70",
+          "value": null
+        },
+        {
+          "name": "Udziały w ESZAMPAN",
+          "quantity": "20",
+          "value": 8200.0
+        },
+        {
+          "name": "Udziały w AMBER SPIRITS CORP",
+          "quantity": "50%",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 486 m²",
+          "value": 5000000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 66.58 m² z gruntem wspólnym 10.63 m² i 10.02 m² oraz częściami wspólnymi 12.92 m²",
+          "value": 2000000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Apartament o powierzchni 160 m²",
+          "value": 3500000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Lokal użytkowy o powierzchni 250.60 m² z gruntem 1569 m²",
+          "value": 300000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Lokal użytkowy o powierzchni 55.10 m² z gruntem 82.34 m²",
+          "value": 150000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Budynek biurowo-usługowy o powierzchni 373.50 m² z gruntem 835 m²",
+          "value": 1000000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 534 m²",
+          "value": 400000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 1858 m²",
+          "value": 2500000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 504 m²",
+          "value": 500000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 278 m²",
+          "value": 500000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 2746 m²",
+          "value": 1000000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 7200 m²",
+          "value": 200000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 1407 m²",
+          "value": 50000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 3.65 m²",
+          "value": 200000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 63146 m²",
+          "value": 7000000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 68648 m²",
+          "value": 3000000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z 14.10.2020",
+          "value": 1000000.0
+        },
+        {
+          "description": "Pożyczka z 08.12.2020",
+          "value": 300000.0
+        },
+        {
+          "description": "Pożyczka od DOWHAN Sp 200 z 13.08.2021",
+          "value": 200000.0
+        },
+        {
+          "description": "Pożyczka od JASIEŃ W OBROŃCÓW Z",
+          "value": 68320.0
+        },
+        {
+          "description": "Poręczenie kredytu dla Santander Bank Polska",
+          "value": 34500000.0
+        },
+        {
+          "description": "Kredyt obrotowy (oprocentowanie 7.15%)",
+          "value": 15000000.0
+        },
+        {
+          "description": "Kredyt rewolwingowy (oprocentowanie 7.1%)",
+          "value": 2300000.0
+        },
+        {
+          "description": "Kredyt inwestycyjny (oprocentowanie 7.45%)",
+          "value": 6000000.0
+        },
+        {
+          "description": "Umowa poręczenia",
+          "value": 6000000.0
+        },
+        {
+          "description": "Hipoteka na nieruchomości",
+          "value": 8150000.0
+        },
+        {
+          "description": "Pożyczka dla DOWHAN JAROSŁAW KOM",
+          "value": 2000000.0
+        },
+        {
+          "description": "Kredyt mieszkaniowy (do spłaty)",
+          "value": 1287449.79
+        },
+        {
+          "description": "Kredyt mieszkaniowy (do spłaty)",
+          "value": 818000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Zegarki Makka Ulysse Nardin (2 szt.)",
+          "value": 160000.0
+        },
+        {
+          "description": "Jacuzzi",
+          "value": 50000.0
+        },
+        {
+          "description": "Quad",
+          "value": 40000.0
+        },
+        {
+          "description": "Mienie ruchome (2 szt.)",
+          "value": 80000.0
+        },
+        {
+          "description": "Mienie ruchome (2 szt.)",
+          "value": 100000.0
+        },
+        {
+          "description": "Mienie ruchome (1 szt.)",
+          "value": 60000.0
+        },
+        {
+          "description": "Zegarek Graham",
+          "value": 40000.0
+        },
+        {
+          "description": "Zegarek Chapard",
+          "value": 15000.0
+        },
+        {
+          "description": "Wyposażenie domu (meble, obrazy, AGD, RTV)",
+          "value": 600000.0
+        },
+        {
+          "description": "Skuter wodny Sea Doo (rok 2020)",
+          "value": 100000.0
+        },
+        {
+          "description": "Samochód Porsche Turbo Cayenne (rok 2012)",
+          "value": 200000.0
+        },
+        {
+          "description": "Samochód Porsche Turbo S II Cabrio",
+          "value": 1200000.0
+        },
+        {
+          "description": "Samochód BMW (rok 2021)",
+          "value": 70000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z umów najmu",
+          "yearlyValue": 234892.6
+        },
+        {
+          "description": "Odsetki od pożyczek",
+          "yearlyValue": 434.0
+        },
+        {
+          "description": "Zaliczka na poczet zysku",
+          "yearlyValue": 100450.0
+        },
+        {
+          "description": "Wypłata zysku za 2025 rok",
+          "yearlyValue": 69316.3
+        },
+        {
+          "description": "Wypłata zysku",
+          "yearlyValue": 100073.0
+        },
+        {
+          "description": "Wypłata zysku",
+          "yearlyValue": 100000.0
+        },
+        {
+          "description": "Uposażenie poselskie (Sejm)",
+          "yearlyValue": 148354.38
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45354.38
+        },
+        {
+          "description": "Przychód z tytułu służb podróży",
+          "yearlyValue": 2462.0
+        },
+        {
+          "description": "Przychód z tytułu służb podróży",
+          "yearlyValue": 1106.38
+        },
+        {
+          "description": "Odsetki od pożyczki dla Browar Za Miastem Sp.kom",
+          "yearlyValue": 47777.1
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Robert Dowhan",
+          "businessType": "Jednoosobowa działalność gospodarcza",
+          "description": "Prowadzenie działalności gospodarczej",
+          "income": -91686.08
+        },
+        {
+          "businessName": "DOWHAN SP 200",
+          "businessType": "Spółka z o.o.",
+          "description": "Prezes Zarządu; Dochód z udziału w spółce",
+          "income": 0.0
+        },
+        {
+          "businessName": "POKONAĆ RAKA G. 200",
+          "businessType": "Spółka z o.o.",
+          "description": "Prezes Zarządu; Dochód z tytułu pełnienia funkcji Prezesa Zarządu",
+          "income": 0.0
+        },
+        {
+          "businessName": "E. SZAMPAN",
+          "businessType": "Spółka z o.o.",
+          "description": "Prezes Zarządu",
+          "income": null
+        },
+        {
+          "businessName": "BROWAR ZA MIASTEM",
+          "businessType": "Spółka z o.o.",
+          "description": "Rada Nadzorcza; Członek komisji rewizyjnej; Dochód z tytułu pełnienia funkcji członka komisji rewizyjnej",
+          "income": 0.0
+        },
+        {
+          "businessName": "ZCD Sp 200",
+          "businessType": "Spółka z o.o.",
+          "description": "Dochód z udziału w spółce",
+          "income": 0.0
+        },
+        {
+          "businessName": "MENTOL Sp 200",
+          "businessType": "Spółka z o.o.",
+          "description": "Dochód z udziału w spółce",
+          "income": 0.0
+        },
+        {
+          "businessName": "MENTOL Sp 200 cp kom W LIKWIDACJI",
+          "businessType": "Spółka komandytowa w likwidacji",
+          "description": "Dochód z udziału w spółce",
+          "income": 0.0
+        },
+        {
+          "businessName": "TARONHAN DOWHHAN & Kom",
+          "businessType": "Spółka komandytowa",
+          "description": "Dochód z tytułu pełnienia funkcji członka zarządu",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

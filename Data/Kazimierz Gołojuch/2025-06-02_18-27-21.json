@@ -1,0 +1,73 @@
+{
+  "firstName": "Kazimierz",
+  "lastName": "Gołojuch",
+  "dateOfBirth": "1964-02-05T00:00:00",
+  "placeOfBirth": "Jarosław",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E0DD774EEDDE3130C1258A51003B9CE2/$File/105.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/DAA6948A780045E3C1258C76005C071C/%24File/OSW102_105.pdf",
+      "cashPositions": [],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 114 m²",
+          "value": 450000.0,
+          "legalTitle": "majątek odrębny"
+        },
+        {
+          "description": "Gospodarstwo rolne 2.81 ha, zabudowania gospodarcze",
+          "value": 320000.0,
+          "legalTitle": "majątek odrębny, współwłasność majątkowa"
+        },
+        {
+          "description": "Las 0.31 ha",
+          "value": 50000.0,
+          "legalTitle": "majątek odrębny (przepisany przez rodziców)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych",
+          "value": 23800.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Megane, rok prod. 2010, współwłasność małżeńska",
+          "value": null
+        },
+        {
+          "description": "Samochód Toyota Avensis, rok prod. 2010, współwłasność małżeńska",
+          "value": null
+        },
+        {
+          "description": "Ciągnik C-330-3M, rok prod. 1988, współwłasność małżeńska",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Dochód z tytułu likwidacji limitu",
+          "yearlyValue": 1213.38
+        },
+        {
+          "description": "Świadczenia podróży zagranicznych",
+          "yearlyValue": 165884.05
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 165884.05
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

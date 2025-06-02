@@ -1,0 +1,80 @@
+{
+  "firstName": "Grzegorz",
+  "lastName": "Macko",
+  "dateOfBirth": "1992-09-06T00:00:00",
+  "placeOfBirth": "Wałbrzych",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/95CA67789C75747DC1258B46005B743F/$File/477.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/224D5B3989C2A185C1258C7600507AD8/%24File/OSW102_477.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 55000.0,
+          "baseValue": 55000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 400.0,
+          "baseValue": 1720.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "PPK PKO TFI SA",
+          "quantity": null,
+          "value": 36200.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 48,3 m²",
+          "value": 500000.0,
+          "legalTitle": "SPÓŁDZIELCZE-WŁASNOŚCIOWE, 50% UDZIAŁÓW"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny zaciągnięty w 2019 roku w Banku ING na zakup mieszkania, współkredytobiorca",
+          "value": 78800.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Superb, rok produkcji 2016, 1/3 udziałów",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 88286.48
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 23508.01
+        },
+        {
+          "description": "Dieta radnego Sejmiku Województwa Dolnośląskiego",
+          "yearlyValue": 3153.73
+        },
+        {
+          "description": "Dochód z tytułu stosunku pracy w Urzędzie Marszałkowskim Województwa Dolnośląskiego",
+          "yearlyValue": 189366.51
+        },
+        {
+          "description": "Dochód z tytułu zasiadania w Radzie Nadzorczej Wałbrzyskiej Specjalnej Strefy Ekonomicznej „Invest-Park” w Wałbrzychu",
+          "yearlyValue": 1504.56
+        },
+        {
+          "description": "Dochód z tytułu zasiadania w Radzie Nadzorczej KGHM Cuprum CBR we Wrocławiu",
+          "yearlyValue": 27580.98
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

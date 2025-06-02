@@ -1,0 +1,158 @@
+{
+  "id": null,
+  "firstName": "Andrzej",
+  "lastName": "Kosztowniak",
+  "dateOfBirth": "1976-03-31T00:00:00",
+  "placeOfBirth": "Radom",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/AA385454CF0B6012C1258A51003B9E3B/$File/176.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1218583731C98047C1258C7500450F84/%24File/OSW102_176.pdf",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 256343.0,
+          "baseValue": 256343.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "CHF",
+          "currencyValue": 5000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dom o powierzchni 169,53 m²",
+          "value": 740000.0,
+          "legalTitle": "współwłasność do ½ domu"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Mieszkanie o powierzchni 56,50 m² wraz z garażem podziemnym",
+          "value": 360000.0,
+          "legalTitle": "prawo własności (własność odrębna)"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Gospodarstwo rolne niezabudowane o powierzchni 1,02 ha",
+          "value": 20000.0,
+          "legalTitle": "darowizna dziadków (własność odrębna)"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "½ działki pod domem",
+          "value": 130000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Działka o powierzchni 1181 m²",
+          "value": 120000.0,
+          "legalTitle": "własność odrębna"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Działka o powierzchni 564 m² (położona pod drogą)",
+          "value": 20000.0,
+          "legalTitle": "własność odrębna"
+        }
+      ],
+      "liabilities": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Kredyt hipoteczny na budowę domu w banku WBK, pozostało do spłaty",
+          "value": 64394.40
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Zobowiązanie z umowy leasingu operacyjnego (samochód osobowy)",
+          "value": 98450.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Pożyczka z FSS, pozostało do spłaty",
+          "value": 25500.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód Mercedes 129, rok 1992",
+          "value": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód Honda Civic, rok 2007",
+          "value": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód Subaru WRX, rok 2019",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Uposażenie poselskie (Sejm)",
+          "yearlyValue": 168867.62
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta parlamentarna (Sejm)",
+          "yearlyValue": 45573.04
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Zajęcia dydaktyczne (UTH Radom)",
+          "yearlyValue": 20873.82
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dochód z Ministerstwa Finansów",
+          "yearlyValue": 32535.32
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dochód z najmu mieszkania",
+          "yearlyValue": 8418.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Przychód z gospodarstwa rolnego (osiągnięta strata)",
+          "yearlyValue": 0.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

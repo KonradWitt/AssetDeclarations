@@ -1,0 +1,65 @@
+{
+  "firstName": "Barbara",
+  "lastName": "Oliwiecka",
+  "dateOfBirth": "1977-01-07T00:00:00",
+  "placeOfBirth": "Kalisz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E9870BD5CF656A5CC1258A51003B9FF7/$File/272.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7FA2DCFF1F843280C1258C8500374B72/%24File/OSW102_272.pdf",
+      "employmentDetails": "Poseł na Sejm RP",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 18600.00,
+          "baseValue": 18600.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 80 m²",
+          "value": 300000.00,
+          "legalTitle": "Majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 22.4 m²",
+          "value": 5000.00,
+          "legalTitle": "Majątek odrębny"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 1.01 ha z zabudowaniami gospodarczymi",
+          "value": 40000.00,
+          "legalTitle": "Majątek odrębny"
+        },
+        {
+          "description": "Inna nieruchomość: Stodoła i pomieszczenia gospodarcze o powierzchni 70 m²",
+          "value": 700000.00,
+          "legalTitle": "Majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w CHF, oprocentowanie 3.79%",
+          "value": 34938.53,
+          "currency": "CHF"
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 170496.07
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 24060.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

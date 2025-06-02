@@ -1,0 +1,76 @@
+{
+  "firstName": "Łukasz",
+  "lastName": "Kmita",
+  "dateOfBirth": "1985-11-07T00:00:00",
+  "placeOfBirth": "Olkusz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6447B8DCBDD6D97EC1258A51003B9E07/$File/165.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/6D203C965FDA8FA2C1258C7B0042283E/%24File/OSW102_165.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 28000.0,
+          "baseValue": 28000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 180.0,
+          "baseValue": null
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 520.0,
+          "baseValue": null
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 5300.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Lokal mieszkalny o powierzchni ok. 90 m² wraz z garażem i komórką lokatorską",
+          "value": 650000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy na zakup lokalu mieszkalnego w Santander Bank Polska",
+          "value": 200000.0
+        },
+        {
+          "description": "Pożyczka w Kancelarii Sejmu na zakup lokalu mieszkalnego",
+          "value": 50000.0
+        },
+        {
+          "description": "Pożyczka od rodziny Żony na zakup lokalu mieszkalnego",
+          "value": 78000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Toyota Corolla, rok produkcji 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie i dieta poselska (Kancelaria Sejmu)",
+          "yearlyValue": 160445.07
+        },
+        {
+          "description": "Dochód z wynajmu lokalu mieszkalnego (własność Żony)",
+          "yearlyValue": 35000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "firstName": "Urszula",
+  "lastName": "Zielińska",
+  "dateOfBirth": "1977-10-03T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/58B980BAD44E627BC1258A51003BA336/$File/451.jpg",
+  "partyId": 1,
+  "currentEmployer": "Ministerstwo Klimatu i Środowiska; Kancelaria Sejmu; Haleon Poland spółka z o.o.",
+  "currentPosition": "Sekretarz Stanu; Posłanka na Sejm RP X Kadencji; Urlop bezpłatny na okres sprawowania mandatu poselskiego",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E5B038BEC04FE49DC1258C7E00344701/%24File/OSW102_451.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 3944.01,
+          "baseValue": 3944.01
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 151455.11,
+          "baseValue": 151455.11,
+          "description": "Ubezpieczenie emerytalne III filar, Polska"
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 183.90,
+          "baseValue": null,
+          "description": "Konto w Wlk. Brytanii"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 475.00,
+          "baseValue": null,
+          "description": "Gotówka"
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 67195.85,
+          "baseValue": null,
+          "description": "Pracownicze fundusze emerytalne Wlk. Brytania"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje GSK \"long term incentive\"",
+          "quantity": "664 szt.",
+          "value": 8948.85
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 46 m²",
+          "value": 211173.0,
+          "legalTitle": "Akt własności - współwłasność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 47 m²",
+          "value": 756587.0,
+          "legalTitle": "spółdzielcze własnościowe"
+        },
+        {
+          "description": "Gospodarstwo rolne (użytki rolne) o powierzchni 0,2594 ha z domem mieszkalnym i zabudową gospodarczą",
+          "value": 74257.0,
+          "legalTitle": "akt własności - współwłasność"
+        },
+        {
+          "description": "Lasy o powierzchni 0,36 ha",
+          "value": 74257.0,
+          "legalTitle": "akt własności - współwłasność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód VW Beetle, rok produkcji 2005",
+          "value": 10000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie z Ministerstwa Klimatu i Środowiska",
+          "yearlyValue": 192764.10
+        },
+        {
+          "description": "Uposażenie poselskie (dieta parlamentarna)",
+          "yearlyValue": 47699.13
+        },
+        {
+          "description": "Dochód z Haleon Poland spółka z o.o. (urlop bezpłatny)",
+          "yearlyValue": 0.20
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

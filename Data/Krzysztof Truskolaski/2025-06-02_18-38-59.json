@@ -1,0 +1,100 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Truskolaski",
+  "dateOfBirth": "1990-07-25T00:00:00",
+  "placeOfBirth": "Białystok",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/50AE536B5028A15BC1258A51003BA236/$File/396.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/B4D59FB6278F86B3C1258C760048633A/%24File/OSW102_396.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": -52616.66,
+          "baseValue": -52616.66
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 100181.80,
+          "baseValue": 100181.80
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 69625.30,
+          "baseValue": 69625.30
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 5296.73,
+          "baseValue": 5296.73
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2651.14,
+          "baseValue": 11390.90
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1505.45,
+          "baseValue": 5871.26
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom w zabudowie szeregowej z garażem o powierzchni 122,81 m²",
+          "value": 750000.0,
+          "legalTitle": "½ Własności – majątek odrębny"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 1,0891 ha",
+          "value": 135160.0,
+          "legalTitle": "własność- majątek odrębny"
+        },
+        {
+          "description": "Niezabudowana działka o powierzchni 0,0634 ha",
+          "value": 200000.0,
+          "legalTitle": "Własność- małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na samochód AUDI Q7 w VOLKSWAGEN BANK",
+          "value": 126020.21
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "½ udziału w samochodzie Volkswagen Passat 2.0, rok 2015",
+          "value": 32500.0
+        },
+        {
+          "description": "Samochód Audi Q7, rok 2022",
+          "value": 280000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 199874.66
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 4420.91
+        },
+        {
+          "description": "Świadczenie wychowawcze Rodzina „800+”",
+          "yearlyValue": 9600.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

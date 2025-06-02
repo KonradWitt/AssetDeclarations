@@ -1,0 +1,116 @@
+{
+  "firstName": "Urszula",
+  "lastName": "Koszutska",
+  "dateOfBirth": "1959-02-05T00:00:00",
+  "placeOfBirth": "Ruda Śląska",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4E7C41CDB22971EAC1258B46005B7421/$File/471.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F7B9C4B88DBBF22BC1258C76004D7D3E/%24File/OSW102_471.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 54043.27,
+          "baseValue": 54043.27
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 4691.69,
+          "baseValue": 4691.69
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1123.03,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 150 m²",
+          "value": 892500.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Dom w budowie o powierzchni 100 m², ½ udziału",
+          "value": 500000.00,
+          "legalTitle": "½ udziału we własności"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 36 m²",
+          "value": 216000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 6000 m²",
+          "value": 300000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,06 ha (600 m²) zabudowana domem (pkt II.2), ½ udziału",
+          "value": 223200.00,
+          "legalTitle": "½ udziału we własności"
+        },
+        {
+          "description": "Działka o powierzchni 1000 m² zabudowana domem (pkt II.1)",
+          "value": 255000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 644 m² wraz z udziałami w działkach drogowych (1/6 w 130m², 1/40 w 152m²)",
+          "value": 184500.00,
+          "legalTitle": "½ udziału we własności"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy BMW, rok produkcji 2015",
+          "value": 45000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z zatrudnienia - Poradnia psychologiczno-pedagogiczna",
+          "yearlyValue": 82472.84
+        },
+        {
+          "description": "Dochód z zatrudnienia - Kancelaria Sejmu",
+          "yearlyValue": 93126.44
+        },
+        {
+          "description": "Dochód z zatrudnienia - Urząd Miejski Zabrze",
+          "yearlyValue": 2649.60
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 91894.18
+        },
+        {
+          "description": "Dochód z zatrudnienia - Urząd Marszałkowski Województwa Śląskiego",
+          "yearlyValue": 4993.90
+        },
+        {
+          "description": "Dochód z najmu mieszkania",
+          "yearlyValue": 8000.00
+        },
+        {
+          "description": "Diety - Telewizja Polska S.A. w likwidacji",
+          "yearlyValue": 1690.00
+        },
+        {
+          "description": "Diety - Kancelaria Sejmu",
+          "yearlyValue": 18668.05
+        },
+        {
+          "description": "Diety - Urząd Marszałkowski Województwa Śląskiego",
+          "yearlyValue": 21000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

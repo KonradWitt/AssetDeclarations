@@ -1,0 +1,53 @@
+{
+  "firstName": "Łukasz",
+  "lastName": "Horbatowski",
+  "dateOfBirth": "1980-05-14T00:00:00",
+  "placeOfBirth": "Głogów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/3DBD7DAF89886BAEC1258A51003B9D76/$File/135.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9CAD17228DB7D373C1258C750045BB13/%24File/OSW102_135.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 92000.0,
+          "baseValue": 92000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Działka letniskowa z domkiem letniskowym o powierzchni 298 m²",
+          "value": 200000.0,
+          "legalTitle": "własność - majątek wspólny na prawach małżeńskiej wspólności ustawowej"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 0,1818 ha",
+          "value": 56485.0,
+          "legalTitle": "własność – majątek wspólny na prawach małżeńskiej wspólności ustawowej"
+        },
+        {
+          "description": "Nieruchomość gruntowa, grunt orny o powierzchni 0.6208 ha",
+          "value": 20000.0,
+          "legalTitle": "własność – majątek wspólny na prawach małżeńskiej wspólności ustawowej"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (Poseł na Sejm RP)",
+          "yearlyValue": 47565.52
+        },
+        {
+          "description": "Wynagrodzenie poselskie (uposażenie)",
+          "yearlyValue": 154342.71
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

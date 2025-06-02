@@ -1,0 +1,146 @@
+{
+  "firstName": "Marek",
+  "lastName": "Matuszewski",
+  "dateOfBirth": "1959-08-14T00:00:00",
+  "placeOfBirth": "ZGIERZ",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E88C284E29B2419BC1258A51003B9F56/$File/238.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/214B1EE5F202CA95C1258C81004920F1/%24File/OSW102_238.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 1032.56,
+          "baseValue": 1032.56
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 280403.75,
+          "baseValue": 280403.75
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 194,35 m²",
+          "value": 673000.00,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ"
+        },
+        {
+          "description": "Działka o powierzchni 0,4115 ha",
+          "value": 650170.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0672 ha",
+          "value": 106176.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0376 ha",
+          "value": 59408.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0423 ha",
+          "value": 66834.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0566 ha",
+          "value": 89428.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0177 ha",
+          "value": 27966.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0128 ha",
+          "value": 20224.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0178 ha",
+          "value": 28124.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0111 ha",
+          "value": 17538.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0055 ha",
+          "value": 8690.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0041 ha",
+          "value": 6478.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0078 ha",
+          "value": 19000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0051 ha",
+          "value": 9100.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,1124 ha",
+          "value": 177592.00,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Działka o powierzchni 0,1024 ha",
+          "value": 161792.00,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Dom mieszkalny o powierzchni 304 m²",
+          "value": 2100000.00,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na cele mieszkaniowe w mBank, oprocentowanie 4,99%",
+          "value": 176283.04
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Megane, rok produkcji 2010, współwłasność z córką",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 48099.96
+        },
+        {
+          "description": "Przychody z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 707.70
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 173580.13
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 30241.38
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

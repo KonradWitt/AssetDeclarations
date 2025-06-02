@@ -1,0 +1,74 @@
+{
+  "firstName": "Magdalena",
+  "lastName": "Filipek-Sobczak",
+  "dateOfBirth": "1983-09-01T00:00:00",
+  "placeOfBirth": "Lublin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5AA5C4847CC6367EC1258A51003B9C69/$File/078.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/0D2BAB0F821EA707C1258C760044027F/%24File/OSW102_078.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 113000.0,
+          "baseValue": 113000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2023.0,
+          "baseValue": 8740.56
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 228 m²",
+          "value": 600000.0,
+          "legalTitle": "własność, wspólność majątkowa małżeńska"
+        },
+        {
+          "description": "Grunt o powierzchni 0,32 ha z posadowionym domem",
+          "value": 350000.0,
+          "legalTitle": "użytkowanie wieczyste"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Hyundai Kona, rok produkcji 2018, wspólność majątkowa małżeńska",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Audi A5, rok produkcji 2019, wspólność majątkowa małżeńska",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie ze stosunku pracy (dodatkowe wynagrodzenie roczne - 13 pensja)",
+          "yearlyValue": 9192.74
+        },
+        {
+          "description": "Świadczenie pieniężne z programu „800+”",
+          "yearlyValue": 19200.00
+        },
+        {
+          "description": "Świadczenie pieniężne z programu „Dobry start”",
+          "yearlyValue": 300.00
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 149209.48
+        },
+        {
+          "description": "Dieta parlamentarna (w tym nieopodatkowana i opodatkowana)",
+          "yearlyValue": 45252.38
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

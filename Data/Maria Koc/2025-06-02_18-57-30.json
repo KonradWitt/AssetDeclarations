@@ -1,0 +1,78 @@
+{
+  "firstName": "Maria",
+  "lastName": "Koc",
+  "dateOfBirth": "1964-08-22T00:00:00",
+  "placeOfBirth": "Prudnik",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/3CF8F2D98DA14888C1258A51003B9E0F/$File/167.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7EAED34AE2E4BE23C1258C7B00420755/%24File/OSW102_167.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 20000.0,
+          "baseValue": 20000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 270 m²",
+          "value": 500000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 7.30 ha z domem i zabudowaniami gospodarczymi",
+          "value": 100000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Grunty rolne o powierzchni 2.05 ha",
+          "value": 50000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt rolniczy w Banku Spółdzielczym, do spłaty do 1 marca 2029 roku",
+          "value": 80000.0
+        },
+        {
+          "description": "Zadłużenie na karcie kredytowej",
+          "value": 35000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Hyundai Kona, rok 2022",
+          "value": 30000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie parlamentarne za rok 2024",
+          "yearlyValue": 150670.96
+        },
+        {
+          "description": "Dieta parlamentarna za rok 2024",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Dieta wypłacona",
+          "yearlyValue": 712.37
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Gospodarstwo rolne",
+          "businessType": "rolne",
+          "description": "Dochód z gospodarstwa rolnego",
+          "income": 5000.0
+        }
+      ]
+    }
+  ]
+}

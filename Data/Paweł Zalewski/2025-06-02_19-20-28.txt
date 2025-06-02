@@ -1,0 +1,1 @@
+error: The name extracted from the OCR document ("Peurs Kseven Jolash-") does not match the name provided in the CSV data ("Paweł Zalewski"). According to the instructions, if the first name and last name from the OCR and CSV do not match (beyond just the presence of a second name), an error should be returned.

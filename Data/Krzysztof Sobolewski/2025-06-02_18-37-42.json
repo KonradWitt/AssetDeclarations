@@ -1,0 +1,74 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Sobolewski",
+  "dateOfBirth": "1978-09-20T00:00:00",
+  "placeOfBirth": "Radymno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/BD35697E61103703C1258A51003BA155/$File/348.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-18T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F3DC248AE5B66C0CC1258C51004848EA/%24File/OSW102_348.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 3000.0,
+          "baseValue": 3000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 44 m²",
+          "value": 440000.0,
+          "legalTitle": "współwłasność 50% udziału"
+        },
+        {
+          "description": "Miejsce postojowe 6 m²",
+          "value": 30000.0,
+          "legalTitle": "współwłasność 50% udziału"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy w Bank Spółdzielczy w Lubeni",
+          "value": 195000.0
+        },
+        {
+          "description": "Pożyczka w Sejmie RP",
+          "value": 33000.0
+        },
+        {
+          "description": "Pożyczka gotówkowa",
+          "value": 44800.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód HYUNDAI i30 1.6 CRDi, rok produkcji 2009 (współwłasność 90% udziału)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z umowy o pracę",
+          "yearlyValue": 10000.0
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 44611.07
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 138926.82
+        },
+        {
+          "description": "Przychód z najmu mieszkania",
+          "yearlyValue": 12880.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

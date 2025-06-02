@@ -1,0 +1,101 @@
+{
+  "firstName": "Tadeusz",
+  "lastName": "Tomaszewski",
+  "dateOfBirth": "1959-02-21T00:00:00",
+  "placeOfBirth": "Niechanowe",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/30F003CC5209A720C1258A51003BA213/$File/389.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/849BE5486B898F3BC1258C590052ED03/%24File/OSW102_389.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 225000.0,
+          "baseValue": 225000.0,
+          "description": "Środki pieniężne - wspólność majątkowa małżeńska (żona)"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 225000.0,
+          "baseValue": 225000.0,
+          "description": "Środki pieniężne - majątek odrębny"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 16505.0,
+          "baseValue": null,
+          "description": null
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 25044.0,
+          "baseValue": null,
+          "description": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Jednostki uczestnictwa PRO-Towarzystwo Inwestycyjnych Funduszy",
+          "quantity": null,
+          "value": 33648.0
+        },
+        {
+          "name": "Inne papiery wartościowe",
+          "quantity": null,
+          "value": 14915.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 146,40 m²",
+          "value": 729313.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 122 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 1205 m²",
+          "value": 40000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 1106 m² wraz z udziałem w nieruchomości o powierzchni 7608 m² pełniącej funkcję drogi wewnętrznej",
+          "value": 80000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Fiat Tipo 1.4, rok produkcji 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 193785.47
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dochód z podróży zagranicznych",
+          "yearlyValue": 1067.47
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 132192.38
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

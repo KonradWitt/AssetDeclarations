@@ -1,0 +1,75 @@
+{
+  "firstName": "Bożena",
+  "lastName": "Borys-Szopa",
+  "dateOfBirth": "1954-03-11T00:00:00",
+  "placeOfBirth": "Lędziny",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/AF0FCAF22AFF8F3FC1258A51003B9B8D/$File/030.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-02T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FBFA714B34FF4208C1258C600053755F/%24File/OSW102_030.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 300293.08,
+          "baseValue": 300293.08
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 76,4 m²",
+          "value": 275000.0,
+          "legalTitle": "Własność (spadek po rodzicach)"
+        },
+        {
+          "description": "Mieszkanie 61,7 m²",
+          "value": 175000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Działka 494 m² z domem",
+          "value": null,
+          "legalTitle": "Własność (spadek po rodzicach)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych",
+          "value": 40000.0
+        },
+        {
+          "description": "Pozostałe zadłużenie na dzień 31.12.2014",
+          "value": 27200.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód MAZDA CX3, rok produkcji 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (Kancelaria Sejmu)",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Dieta poselska (opodatkowana)",
+          "yearlyValue": 60222.40
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150492.73
+        },
+        {
+          "description": "Emerytura ZUS",
+          "yearlyValue": 84018.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

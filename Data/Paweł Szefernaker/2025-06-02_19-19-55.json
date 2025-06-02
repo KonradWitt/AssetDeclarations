@@ -1,0 +1,73 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Szefernaker",
+  "dateOfBirth": "1987-02-27T00:00:00",
+  "placeOfBirth": "SZCZECIN",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6C8ABCBC664345A1C1258A51003BA1AE/$File/368.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C7419B6D450CB706C1258C7C0056CA88/%24File/OSW102_368.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 79000.0,
+          "baseValue": 79000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "PRACOWNICZE PLANY KAPITAŁOWE (PPK)",
+          "quantity": null,
+          "value": 27604.11
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 86,4 m²",
+          "value": 1185000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ Z ŻONĄ"
+        },
+        {
+          "description": "Miejsce parkingowe w hali garażowej, udział wynoszący 100/24100 części w lokalu niemieszkalnym stanowiącym garaż o pow. 4129,10 m²",
+          "value": 40000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ Z ŻONĄ"
+        },
+        {
+          "description": "Współużytkowanie wieczyste nieruchomości gruntowej (działka 51/1 o obszarze 0,31 ha), udział wynoszący 300/203700 części",
+          "value": null,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ Z ŻONĄ"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w Banku PKO BP, zaciągnięty na 30 lat",
+          "value": 550431.60
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód KIA CARENS, rok produkcji 2013",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie wypłacone przez MSWIA",
+          "yearlyValue": 24588.44
+        },
+        {
+          "description": "Uposażenie parlamentarne w związku z pełnieniem funkcji Posła na Sejm RP",
+          "yearlyValue": 159507.04
+        },
+        {
+          "description": "Dieta parlamentarna w związku z pełnieniem funkcji Posła na Sejm RP (w tym opodatkowana 9 466,15 ZŁ)",
+          "yearlyValue": 45466.15
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "firstName": "Andrzej",
+  "lastName": "Gawron",
+  "dateOfBirth": "1965-01-06T00:00:00",
+  "placeOfBirth": "Kochcice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E6C3B0F621A66DF4C1258A51003B9CA8/$File/092.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1E8B090B9EE347BDC1258C7C0048D364/%24File/OSW102_092.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 25700.00,
+          "baseValue": 25700.00,
+          "description": "Środki pieniężne zgromadzone w walucie polskiej (wspólność majątkowa z żoną Krystyną Gawron)"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 50000.00,
+          "baseValue": 50000.00,
+          "description": "Lokata Terminowa „Mobilna” w PKO BP (wspólność majątkowa z żoną Krystyną Gawron)"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 3839.58,
+          "baseValue": null,
+          "description": "Środki pieniężne zgromadzone w walucie obcej (wspólność majątkowa z żoną Krystyną Gawron)"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 105 m² i 100 m² na działce 0,0955 ha",
+          "value": 540000.00,
+          "legalTitle": "Wspólność majątkowa z Krystyną Gawron"
+        },
+        {
+          "description": "Działka o powierzchni 0,0089 ha",
+          "value": 4000.00,
+          "legalTitle": "Własność Andrzej Gawron"
+        },
+        {
+          "description": "Działka o powierzchni 0,1288 ha",
+          "value": 70000.00,
+          "legalTitle": "Wspólność majątkowa małżeńska z Krystyną Gawron"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt odnawialny na cele bieżące w PKO BP",
+          "value": 30000.00
+        },
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych w Kancelarii Sejmu",
+          "value": 23800.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Scenic, rok produkcji 2009",
+          "value": 10000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta Parlamentarna",
+          "yearlyValue": 45359.27
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 149637.03
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

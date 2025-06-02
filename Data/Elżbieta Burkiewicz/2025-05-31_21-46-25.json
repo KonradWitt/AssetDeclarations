@@ -1,0 +1,100 @@
+{
+  "firstName": "Elżbieta",
+  "lastName": "Burkiewicz",
+  "dateOfBirth": "1964-10-17T00:00:00",
+  "placeOfBirth": "Mielec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6F65B0A3B35C063DC1258A51003B9BBA/$File/039.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/6400E1F894B82965C1258C81003728D7/%24File/OSW102_039.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 36831.69,
+          "baseValue": 36831.69
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2583.0,
+          "baseValue": 11096.9
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2846.39,
+          "baseValue": 11100.92
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 156 m²",
+          "value": 1200000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 66 m²",
+          "value": 950000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka leśna o powierzchni 15 arów",
+          "value": 210000.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania z dnia 08.11.2019, kapitał do spłaty na dzień 28.04.2025",
+          "value": 237751.48
+        },
+        {
+          "description": "Kredyt z Kancelarii Sejmu z dnia 13.11.2024 na cele mieszkaniowe, oprocentowanie 2%",
+          "value": 40000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "50% udziałów we własności samochodu Audi A4, rok produkcji 2016",
+          "value": 30000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 172725.03
+        },
+        {
+          "description": "Działalność wykonywana osobiście",
+          "yearlyValue": 9359.27
+        },
+        {
+          "description": "Inne źródła",
+          "yearlyValue": 608.55
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Eldan Sp. z o.o. Sp. k.",
+          "businessType": "spółka komandytowa",
+          "description": "49,50% udziałów",
+          "income": -299343.89
+        },
+        {
+          "businessName": "Wabex Sp. z o.o.",
+          "businessType": "spółka z o.o.",
+          "description": "500 udziałów po 500 zł każdy, 50% udziałów",
+          "income": -223278.22
+        },
+        {
+          "businessName": "Eldan Sp. z o.o.",
+          "businessType": "spółka z o.o.",
+          "description": "25 udziałów o wartości 2500 zł, 50% udziałów",
+          "income": -3563.19
+        }
+      ]
+    }
+  ]
+}

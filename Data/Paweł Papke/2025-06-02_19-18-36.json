@@ -1,0 +1,84 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Papke",
+  "dateOfBirth": "1977-02-13T00:00:00",
+  "placeOfBirth": "Starogard Gdański",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/131681086D16CC5FC1258A51003BA022/$File/281.jpg",
+  "partyId": 1,
+  "employmentDetails": "Poseł na Sejm RP, Członek Zarządu Polskiego Związku Piłki Siatkowej",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-17T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/562D13B6E70A7A66C1258C740051E99F/%24File/OSW102_281.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 46000.0,
+          "baseValue": 46000.0,
+          "description": "Środki pieniężne"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 142560.65,
+          "baseValue": 142560.65,
+          "description": "Polisa na życie Nationale Nederlanden"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 423,30 m²",
+          "value": 2100000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka budowlana 1402 m²",
+          "value": 450000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka rolna 2948 m²",
+          "value": 60000.0,
+          "legalTitle": "½ własności"
+        },
+        {
+          "description": "Działka rolna 1591 m²",
+          "value": 30000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Udział w działce niezabudowanej (grunt pod drogę) 3/32 o powierzchni 4828 m²",
+          "value": null,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Udział w działce niezabudowanej (grunt pod drogę) 1/6 o powierzchni 304 m²",
+          "value": null,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Dieta Parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Umowa zlecenie z Polskiego Związku Piłki Siatkowej",
+          "yearlyValue": 192400.0
+        },
+        {
+          "description": "Umowa zlecenie z Olsztyńską Szkołą Wyższą",
+          "yearlyValue": 1800.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

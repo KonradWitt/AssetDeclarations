@@ -1,0 +1,74 @@
+{
+  "firstName": "Tadeusz",
+  "lastName": "Chrzan",
+  "dateOfBirth": "1963-09-14T00:00:00",
+  "placeOfBirth": "Grodzisk Dolny",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/45C252308ACE6091C1258A51003B9BDB/$File/046.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EC48CA74677ED1B6C1258C7C00371555/%24File/OSW102_046.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 225113.61,
+          "baseValue": 225113.61
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Las 0,15 ha i działka rolna 0,32 ha",
+          "value": 10000.0,
+          "legalTitle": "własność (majątek odrębny)"
+        },
+        {
+          "description": "Nieruchomość budowlana 0,2337 ha",
+          "value": 350000.0,
+          "legalTitle": "współwłasność ustawowa ½ z inną osobą – małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka zaciągnięta w 2024 r. z ZFŚS Kancelarii Sejmu",
+          "value": 34000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy SUZUKI GRAND VITARA, rok produkcji: 2006",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy HYUNDAI I20, rok produkcji: 2015",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy MERCEDES GLB 200, rok produkcji: 2023 (przedmiot leasingu - Biuro Poselskie)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9252.38
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 946.61
+        },
+        {
+          "description": "Uposażenie z tytułu sprawowania mandatu posła",
+          "yearlyValue": 149209.48
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

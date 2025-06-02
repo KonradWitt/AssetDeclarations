@@ -1,0 +1,102 @@
+{
+  "firstName": "Teresa",
+  "lastName": "Pamuła",
+  "dateOfBirth": "1956-12-28T00:00:00",
+  "placeOfBirth": "Lubaczów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CA8D829A4AB276B1C1258A51003BA01C/$File/280.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C7FE400EF1FF07CFC1258C76004367A9/%24File/OSW102_280.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 14372.0,
+          "baseValue": 14372.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 202.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 200 m² w budowie",
+          "value": 750000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Dom o powierzchni 59 m²",
+          "value": 170000.0,
+          "legalTitle": "własność (spadek)"
+        },
+        {
+          "description": "Działka o powierzchni 1395 m²",
+          "value": 80000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 1691 m²",
+          "value": 80000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Działka (las) o powierzchni 4504 m²",
+          "value": 20000.0,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w Santander Bank Polska S.A. z dnia 10.05.2023r",
+          "value": 198394.95
+        },
+        {
+          "description": "Kredyt w PKO BP z dnia 09.07.2024r",
+          "value": 117606.14
+        },
+        {
+          "description": "Kredyt w PKO BP z dnia 09.02.2024r",
+          "value": 123876.46
+        },
+        {
+          "description": "Zobowiązanie z tytułu wynajmu samochodu",
+          "value": 38512.44
+        },
+        {
+          "description": "Pożyczka z dnia 01.05.2024r",
+          "value": 30600.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Corolla, rok produkcji 2016",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 170373.43
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 85325.88
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Świadczenie z Powiatowego Centrum Pomocy Rodzinie",
+          "yearlyValue": 13457.26
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

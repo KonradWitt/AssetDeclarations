@@ -1,0 +1,75 @@
+{
+  "firstName": "Marek",
+  "lastName": "Hok",
+  "dateOfBirth": "1953-06-15T00:00:00",
+  "placeOfBirth": "VOSZALI ME",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/943C08D2E41015B1C1258A51003B9D65/$File/132.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-26T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C7887ABB006FDA9FC1258C7B004F5EF7/%24File/OSW102_132.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 236100.00,
+          "description": "małżeńska wspólność majątkowa"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 314.51,
+          "description": "małżeńska wspólność majątkowa"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Inna nieruchomość, powierzchnia 1260 m²",
+          "value": 250000.00,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na budowę domu jednorodzinnego w Banku PKO BP, udzielony do 31.12.2024",
+          "value": 66974.47,
+          "currency": "CHF"
+        },
+        {
+          "description": "Zobowiązanie w PLN do 05.2029",
+          "value": 16134.00,
+          "currency": "PLN"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes Benz A 20, rok produkcji 2021, małżeńska wspólność majątkowa",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z tytułu zatrudnienia",
+          "yearlyValue": 194554.14
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.30
+        },
+        {
+          "description": "Ryczałt na pokrycie kosztów",
+          "yearlyValue": 122659.72
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Prywatna Praktyka Lekarska",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Prywatna praktyka lekarska",
+          "income": 19295.27
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "firstName": "Joanna",
+  "lastName": "Mucha",
+  "dateOfBirth": "1976-04-12T00:00:00",
+  "placeOfBirth": "Płońsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/ED0766D33B6CC8FCC1258A51003B9F9A/$File/252.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-11T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1FADFC103ACC62C4C1258C6F00580164/%24File/OSW102_252.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 49000.0,
+          "baseValue": 49000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 117 m²",
+          "value": 528750.0,
+          "legalTitle": "WŁASNOŚĆ"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Poręczenie wekslowe kredytu dla partii Polska 2050 Szymona Hołowni, kredyt przyznany przez BS w Ostrowi Mazowieckiej",
+          "value": 50000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Fiat 500x, rok produkcji 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dochód z Ministerstwa Edukacji Narodowej",
+          "yearlyValue": 205180.98
+        },
+        {
+          "description": "Dochód z Uniwersytetu SWPS",
+          "yearlyValue": 6336.00
+        },
+        {
+          "description": "Dochód z Collegium Civitas",
+          "yearlyValue": 1200.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

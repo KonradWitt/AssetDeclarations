@@ -1,0 +1,84 @@
+{
+  "firstName": "Marcin",
+  "lastName": "Grabowski",
+  "dateOfBirth": "1881-04-06T00:00:00",
+  "placeOfBirth": "Ostrołęka",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/EA722CA833662C42C1258A51003B9D15/$File/116.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/57454052FEB18FC1C1258C75006DCF16/%24File/OSW102_116.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 235277.0,
+          "baseValue": 235277.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 115 m² z budynkiem gospodarczym 35 m², garażem 24 m² na działce 5463 m²",
+          "value": 500000.0,
+          "legalTitle": "Własność odrębna"
+        },
+        {
+          "description": "Mieszkanie 32.30 m²",
+          "value": 100000.0,
+          "legalTitle": "Własność odrębna"
+        },
+        {
+          "description": "Lokal usługowy 6.3 m²",
+          "value": 6170000.0,
+          "legalTitle": "Własność odrębna"
+        },
+        {
+          "description": "Nieruchomość rolna 43.65 m²",
+          "value": 580000.0,
+          "legalTitle": "Wspólność majątkowa małżeńska"
+        },
+        {
+          "description": "Mieszkanie 88.88 m²",
+          "value": null,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Citroen C4 Picasso, rok 2014 (wspólność majątkowa małżeńska)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Inne dochody (nieopodatkowane)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Odsetki",
+          "yearlyValue": 9406.75
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 151564.58
+        },
+        {
+          "description": "Przychody z najmu",
+          "yearlyValue": 62100.00
+        },
+        {
+          "description": "Dochód z Mazowieckiego Urzędu Wojewódzkiego w Warszawie",
+          "yearlyValue": 6643.96
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

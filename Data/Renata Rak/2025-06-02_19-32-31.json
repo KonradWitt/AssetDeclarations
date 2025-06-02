@@ -1,0 +1,96 @@
+{
+  "firstName": "Renata",
+  "lastName": "Rak",
+  "dateOfBirth": "1973-06-29T00:00:00",
+  "placeOfBirth": "Szczecinek",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/622747F112B01A31C1258A51003BA09B/$File/308.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-05-07T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C36557BE69698EB4C1258C76005ACCA8/%24File/OSW102_308.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 94202.11,
+          "baseValue": 94202.11
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 229.41,
+          "baseValue": 229.41
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 589.13,
+          "baseValue": 2533.26
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 276,44 m²",
+          "value": 980000.0,
+          "legalTitle": "własność, małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 71,3 m²",
+          "value": 280000.0,
+          "legalTitle": "własność, małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka o powierzchni 0,1256 ha z udziałem w działce drogowej 1/6 o pow. 493 m²",
+          "value": 160000.0,
+          "legalTitle": "własność, małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Nieruchomość gruntowa (działka 118) o powierzchni 7769 m² zabudowana budynkiem o powierzchni 511,45 m²",
+          "value": 900000.0,
+          "legalTitle": "dziedziczenie"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka hipoteczna na cel mieszkaniowy z Banku PKO BP, zaciągnięta w styczniu 2012, oprocentowanie roczne 7,7644%, na 15 lat, objęta małżeńską wspólnością majątkową.",
+          "value": 22633.10
+        },
+        {
+          "description": "Leasing operacyjny samochodu VOLVO S90 (rok produkcji 2020), objęty małżeńską wspólnością majątkową.",
+          "value": 10756.79
+        },
+        {
+          "description": "Pożyczka z FŚS (Fundusz Świadczeń Socjalnych) z kwietnia 2024, objęta małżeńską wspólnością majątkową.",
+          "value": 34000.0
+        },
+        {
+          "description": "Karta kredytowa",
+          "value": 85000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dodatkowe roczne wynagrodzenie",
+          "yearlyValue": 483.36
+        },
+        {
+          "description": "Uposażenie poselskie (Sejm)",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Diety poselskie (Sejm)",
+          "yearlyValue": 45679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Działalność jednoosobowa",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Zawieszona od 29.12.2023r. Przedmiot działalności: Realizacja projektów budowlanych związanych ze wznoszeniem budynków (41.10.Z), Roboty budowlane związane ze wznoszeniem budynków mieszkalnych i niemieszkalnych (41.20.Z), Działalność w zakresie architektury (71.11.Z), Działalność w zakresie inżynierii i związane z nią doradztwo techniczne (71.12.Z).",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "firstName": "Sławomir",
+  "lastName": "Zawiślak",
+  "dateOfBirth": "1963-06-09T00:00:00",
+  "placeOfBirth": "Krasnobród",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0C200BB9A43E2CD9C1258A51003BA320/$File/446.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E2F78CE34A0D68B9C1258C76004CC62D/%24File/OSW102_446.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 16031.81,
+          "baseValue": 16031.81
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 130 m²",
+          "value": 450000.0,
+          "legalTitle": "Współwłasność"
+        },
+        {
+          "description": "Działka o powierzchni 1028 m² z budynkiem mieszkalnym",
+          "value": 50000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Budynek gospodarczy o powierzchni 35 m² z altaną",
+          "value": 50000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 944 m²",
+          "value": 50000.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Niewykorzystany kredyt odnawialny w PKO BP",
+          "value": 45000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Honda HR-V AS Elegance, rok 2022",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 165566.84
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9359.28
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

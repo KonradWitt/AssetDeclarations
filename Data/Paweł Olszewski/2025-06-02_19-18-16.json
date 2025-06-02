@@ -1,0 +1,74 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Olszewski",
+  "dateOfBirth": "1979-12-11T00:00:00",
+  "placeOfBirth": "Bydgoszcz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/C6BF98403DC0F5C7C1258A51003BA002/$File/274.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F608DEC1F46BFCD8C1258C7C00378E74/%24File/OSW102_274.pdf",
+      "position": "Poseł na Sejm RP, Sekretarz Stanu w Ministerstwie Cyfryzacji",
+      "employer": "Skraw Mech sp z o.o (Pesa Bydgoszcz SA) (urlop bezpłatny)",
+      "address": null,
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 140000.0,
+          "baseValue": 140000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 106 m²",
+          "value": 192000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 94 m²",
+          "value": 500000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Miejsce parkingowe o powierzchni 12,5 m²",
+          "value": 30000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP za zakup nieruchomości",
+          "value": 160000.0
+        },
+        {
+          "description": "Kredyt hipoteczny w PKO BP za zakup części nieruchomości",
+          "value": 90000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Wynajęty samochód Skoda Scala, rok produkcji 2023",
+          "value": null
+        },
+        {
+          "description": "Mini Cooper, rok produkcji 2015",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Wynagrodzenie za pracę",
+          "yearlyValue": 242332.20
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

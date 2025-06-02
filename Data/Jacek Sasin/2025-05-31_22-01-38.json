@@ -1,0 +1,89 @@
+{
+  "firstName": "Jacek",
+  "lastName": "Sasin",
+  "dateOfBirth": "1969-11-06T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CD7D0E6A634285EDC1258A51003BA0E6/$File/325.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/71472B8D52F4C01AC1258C7C00580C9F/%24File/OSW102_325.pdf",
+      "cashPositions": [
+        {
+          "description": null,
+          "currency": "PLN",
+          "currencyValue": 210000.0,
+          "baseValue": 210000.0
+        },
+        {
+          "description": "PPK",
+          "currency": "PLN",
+          "currencyValue": 27000.0,
+          "baseValue": 27000.0
+        },
+        {
+          "description": "ALIANZ UBEZPIECZENIE NA ŻYCIE",
+          "currency": "PLN",
+          "currencyValue": 24000.0,
+          "baseValue": 24000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 187,1 m²",
+          "value": 850000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ W 1/3"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 790 m²",
+          "value": 550000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ W 1/3"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka hipoteczna w mBank",
+          "value": 28440.0,
+          "currency": "CHF"
+        },
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych dla Posłów",
+          "value": 51000.0,
+          "currency": "PLN"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Škoda Octavia, rok 2024",
+          "value": 40000.0
+        },
+        {
+          "description": "Obraz Jakuba Napieraja",
+          "value": 15000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Kancelaria Sejmu RP (Uposażenie poselskie)",
+          "yearlyValue": 169978.44
+        },
+        {
+          "description": "Kancelaria Sejmu RP (Dieta poselska)",
+          "yearlyValue": 45038.61
+        },
+        {
+          "description": "Kancelaria Prezesa Rady Ministrów",
+          "yearlyValue": 88.41
+        },
+        {
+          "description": "Ministerstwo Aktywów Państwowych",
+          "yearlyValue": 19960.87
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

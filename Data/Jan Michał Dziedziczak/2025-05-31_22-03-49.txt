@@ -1,0 +1,1 @@
+error: The first name extracted from the CSV ("Jan") does not match the first name found in the OCR document ("Michał"). According to the instructions, this is an error condition unless the difference is due to the inclusion of a second name, which is not the case here as the primary first name differs.

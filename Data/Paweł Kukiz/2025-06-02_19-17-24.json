@@ -1,0 +1,84 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Kukiz",
+  "dateOfBirth": "1963-06-24T00:00:00",
+  "placeOfBirth": "Paczków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/C0F10D2FA5125F1CC1258A51003B9EB2/$File/200.jpg",
+  "partyId": 9,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/09A270744DAE2C1CC1258C850049A6B1/%24File/OSW102_200.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 12112.44,
+          "baseValue": 12112.44
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 450 m²",
+          "value": 2000000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 36 m²",
+          "value": 650000.0,
+          "legalTitle": "Spółdzielcze prawo własności"
+        },
+        {
+          "description": "Łąka 0,6 ha",
+          "value": 25000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w ING na budowę domu",
+          "value": 20162.76
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Audi Q7, rok 2009",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 46763.86
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 146044.18
+        },
+        {
+          "description": "Prawa autorskie",
+          "yearlyValue": 70964.72
+        },
+        {
+          "description": "Dochód z działalności wykonywanej osobiście",
+          "yearlyValue": 8611.10
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Działalność muzyczna",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Zawieszona od dnia 03-03-2016",
+          "income": 8611.10
+        },
+        {
+          "businessName": "Stowarzyszenie na Rzecz Nowej Konstytucji KUKIZ'15",
+          "businessType": "stowarzyszenie",
+          "description": "Członek zarządu od 09-12-2015r.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

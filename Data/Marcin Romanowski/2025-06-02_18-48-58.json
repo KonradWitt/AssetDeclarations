@@ -1,0 +1,59 @@
+{
+  "firstName": "Marcin",
+  "lastName": "Romanowski",
+  "dateOfBirth": "1976-01-20T00:00:00",
+  "placeOfBirth": "Skrwilno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/8D5BEAF6EF5EFCD9C1258A51003BA0A9/$File/311.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-26T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4421579347D66526C1258C7B004DBFBF/%24File/OSW102_311.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 30000.0,
+          "baseValue": 30000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 6000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Zabezpieczenie na rachunku bankowym w związku z postępowaniem karnym i politycznymi prześladowaniami.",
+          "value": 114710489.40
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Kancelaria Sejmu - dieta parlamentarna",
+          "yearlyValue": 43862.87
+        },
+        {
+          "description": "Kancelaria Sejmu - uposażenie",
+          "yearlyValue": 131398.06
+        },
+        {
+          "description": "Kancelaria Sejmu - przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 732.49
+        },
+        {
+          "description": "AKSIM (wykłady, umowa zlecenia)",
+          "yearlyValue": 1976.89
+        },
+        {
+          "description": "Ministerstwo Sprawiedliwości (ekwiwalent za urlop oraz zwrot składek ZUS)",
+          "yearlyValue": 40810.98
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

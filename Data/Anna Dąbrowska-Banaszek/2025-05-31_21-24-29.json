@@ -1,0 +1,73 @@
+{
+  "firstName": "Anna",
+  "lastName": "Dąbrowska-Banaszek",
+  "dateOfBirth": "1961-04-14T00:00:00",
+  "placeOfBirth": "Chełm",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/67C0821A5AA43E9FC1258A51003B9C2F/$File/065.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2020-03-04T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9EFFB288DDC0D28AC1258C43003679F6/%24File/OSW102_065.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 99463.89,
+          "baseValue": 99463.89
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 71,9 m²",
+          "value": 250000.0,
+          "legalTitle": "właściciel"
+        },
+        {
+          "description": "Mieszkanie 48,93 m²",
+          "value": 180000.0,
+          "legalTitle": "współwłaściciel (1/2 własności)"
+        },
+        {
+          "description": "Garaż murowany, szeregowa zabudowa 19,0 m²",
+          "value": 12000.0,
+          "legalTitle": "współwłaściciel (1/2 własności)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda HR-V 1,5 Executive 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 86769.18
+        },
+        {
+          "description": "Działalność wykonywana osobiście",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Dieta parlamentarna nieopodatkowana",
+          "yearlyValue": 36000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Gabinet Lekarski Anna Dąbrowska-Banaszek",
+          "businessType": "Indywidualna Specjalistyczna Praktyka Lekarska",
+          "description": "Usługi medyczne",
+          "income": 11328.97
+        }
+      ]
+    }
+  ]
+}

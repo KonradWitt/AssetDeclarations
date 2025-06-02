@@ -1,0 +1,193 @@
+{
+  "firstName": "Michał",
+  "lastName": "Połuboczek",
+  "dateOfBirth": "1982-10-24T00:00:00",
+  "placeOfBirth": "Olecko",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CD6CD5B9DDBADC96C1258B470039B81D/$File/490.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/69E61874A99392A6C1258C7B00530481/%24File/OSW102_490.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 32000.21,
+          "baseValue": 32000.21
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w MERWIS sp. z o.o.",
+          "quantity": "20",
+          "value": 1000.00
+        },
+        {
+          "name": "Udziały w ROYAL DRONE sp. z o.o.",
+          "quantity": "40",
+          "value": 4000.00
+        },
+        {
+          "name": "Udziały w ROYAL FINANCE sp. z o.o.",
+          "quantity": "100",
+          "value": 5000.00
+        },
+        {
+          "name": "Udziały w ALFA sp. z o.o.",
+          "quantity": "50",
+          "value": 5000.00
+        },
+        {
+          "name": "Udziały w BETA sp. z o.o.",
+          "quantity": "100",
+          "value": 5000.00
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 120 m²",
+          "value": 2500000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Miejsce postojowe w wielostanowiskowym lokalu garażowym o powierzchni 15 m²",
+          "value": 40000.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt odnawialny w mBank",
+          "value": 52193.00
+        },
+        {
+          "description": "Karta kredytowa w mBank",
+          "value": 106575.00
+        },
+        {
+          "description": "Karta kredytowa w mBank",
+          "value": 54001.00
+        },
+        {
+          "description": "Karta kredytowa w Bank Handlowy Centrala Pion Bankowości Detalicznej",
+          "value": 31100.00
+        },
+        {
+          "description": "Kredyt mieszkaniowy w Hexa Bank Spółdzielczy",
+          "value": 1036472.10
+        },
+        {
+          "description": "Pożyczka od przedsiębiorstwa na cele prowadzonej działalności gospodarczej",
+          "value": 200000.00
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "UNIO VERDE GROMADKA sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 8 marca 2024 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "TWM CONSULTING sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 3 lutego 2017 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "ROYAL DRONE sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek zarządu od 6 września 2016 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "ROYAL FINANCE sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 30 lipca 2010 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "ALFA sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek zarządu od 11 kwietnia 2014 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "BETA sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 30 kwietnia 2014 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "SKOK NA SOK SA",
+          "businessType": "spółka akcyjna",
+          "description": "Członek rady nadzorczej od 10 lutego 2016 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "PARK ENERGII SŁONECZNEJ PARAFII RZYMSKOKATOLICKIEJ MATKI BOŻEJ RÓŻAŃCOWEJ W ZABRATÓWCE sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 19 sierpnia 2022 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "PARK ENERGII SŁONECZNEJ PARAFII RZYMSKOKATOLICKIEJ ŚWIĘTEGO ŁUKASZA EWANGELISTY W MROWLI sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 19 sierpnia 2022 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "PARK ENERGII SŁONECZNEJ PARAFII RZYMSKOKATOLICKIEJ ŚWIĘTEJ ANNY W NIEWODNEJ sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 19 sierpnia 2022 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "PARK ENERGII SŁONECZNEJ PARAFII RZYMSKOKATOLICKIEJ PRZEMIENIENIA PAŃSKIEGO W ŻYZNOWIE sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 19 sierpnia 2022 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "PARK ENERGII SŁONECZNEJ PARAFII RZYMSKOKATOLICKIEJ ŚWIĘTEGO JÓZEFA ROBOTNIKA W GLINIKU POLSKIM sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 19 sierpnia 2022 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "PARK ENERGII SŁONECZNEJ PARAFII RZYMSKOKATOLICKIEJ NARODZENIA NAJŚWIĘTSZEJ MARYI PANNY W GORLICACH-FARZE sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 19 sierpnia 2022 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "PARK ENERGII SŁONECZNEJ PARAFII RZYMSKOKATOLICKIEJ WNIEBOWZIĘCIA NAJŚWIĘTSZEJ MARYI PANNY W KRASNEM sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 19 sierpnia 2022 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "PARK ENERGII SŁONECZNEJ PARAFII RZYMSKOKATOLICKIEJ ŚWIĘTEGO MAKSYMILIANA KOLBE W KREMPNEJ sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 19 sierpnia 2022 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "PARK ENERGII SŁONECZNEJ PARAFII RZYMSKOKATOLICKIEJ NAJŚWIĘTSZEJ MARYI PANNY KRÓLOWEJ POLSKI W PIĄTKOWEJ sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 19 sierpnia 2022 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "PARK ENERGII SŁONECZNEJ PARAFII RZYMSKOKATOLICKIEJ ŚWIĘTEGO JÓZEFA RZEMIEŚLNIKA W PRZEDBORZU sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Prezes zarządu od 19 sierpnia 2022 r.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

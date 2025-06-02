@@ -1,0 +1,122 @@
+{
+  "firstName": "Zbigniew",
+  "lastName": "Ziejewski",
+  "dateOfBirth": "1958-11-28T00:00:00",
+  "placeOfBirth": "Mora",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/94F7F271C6C48B70C1258A51003BA331/$File/450.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/79E189B490760EFCC1258C760045F488/%24File/OSW102_450.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 43995.13,
+          "baseValue": 43995.13,
+          "description": "ROR"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 315651.50,
+          "baseValue": 315651.50,
+          "description": "Rachunek bieżący"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 3211.08,
+          "baseValue": 3211.08,
+          "description": "Rachunek oszczędnościowy"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 210 m²",
+          "value": 510000.00,
+          "legalTitle": "własność prywatna"
+        },
+        {
+          "description": "Gospodarstwo rolne (produkcja roślinna) o powierzchni 90.46 ha, 9.83 ha, 7.69 ha (niezabudowane)",
+          "value": 481000.00,
+          "legalTitle": "własność prywatna"
+        },
+        {
+          "description": "Garaż samochodowy o powierzchni 48 m²",
+          "value": 59000.00,
+          "legalTitle": "własność prywatna"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy TOYOTA CHR - Hybryda, rok produkcji 2018",
+          "value": 137000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z gospodarstwa rolnego",
+          "yearlyValue": 333677.79
+        },
+        {
+          "description": "Dywidenda od P.P.U.H. ZIEMAR sp. z o.o.",
+          "yearlyValue": 100077.04
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.27
+        },
+        {
+          "description": "Dochód opodatkowany (źródło nieokreślone)",
+          "yearlyValue": 9359.27
+        },
+        {
+          "description": "Dochód nieopodatkowany (źródło nieokreślone)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Przychód z tytułu świadczenia lub na służbowe podróże zagraniczne",
+          "yearlyValue": 946.61
+        },
+        {
+          "description": "Dieta z Rolniczej Izby Rolniczej",
+          "yearlyValue": 2040.00
+        },
+        {
+          "description": "Wynagrodzenie z tytułu umowy pracy z MRP",
+          "yearlyValue": 204019.12
+        },
+        {
+          "description": "Wypłata z PZU na życie",
+          "yearlyValue": 1375.00
+        },
+        {
+          "description": "Wypłata odszkodowań",
+          "yearlyValue": 75818.93
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "ZIEMAR Agro-Nasiona sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Zarządzanie działalnością gospodarczą, producent rzepaku i zbóż",
+          "income": null
+        },
+        {
+          "businessName": "Biskupiec",
+          "businessType": "nieokreślona",
+          "description": "Zarządzanie działalnością gospodarczą, producent rzepaku i zbóż",
+          "income": null
+        },
+        {
+          "businessName": "P.P.U.H. ZIEMAR Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek zarządu (Prezes Zarządu) od 15.02.1994",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

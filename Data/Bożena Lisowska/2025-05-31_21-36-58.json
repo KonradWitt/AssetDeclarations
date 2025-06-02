@@ -1,0 +1,117 @@
+{
+  "firstName": "Bożena",
+  "lastName": "Lisowska",
+  "dateOfBirth": "1963-04-14T00:00:00",
+  "placeOfBirth": "Lublin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1DE7330C86EBA402C1258B470039B81A/$File/489.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-18T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/B8DB888FBC3CB68FC1258C75004349AC/%24File/OSW102_489.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 20000.0,
+          "baseValue": 20000.0,
+          "description": "Współwłasność małżeńska"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 525 m²",
+          "value": 2500000.0,
+          "legalTitle": "współwłasność małżeńska - własność"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 4752 m²",
+          "value": 472500.0,
+          "legalTitle": "współwłasność małżeńska - własność"
+        },
+        {
+          "description": "Działka przemysłowa o powierzchni 4833 m²",
+          "value": 1300000.0,
+          "legalTitle": "współwłasność małżeńska - własność"
+        },
+        {
+          "description": "Działka leśna o powierzchni 855 m²",
+          "value": 1300000.0,
+          "legalTitle": "współwłasność małżeńska - własność"
+        },
+        {
+          "description": "Działka leśna o powierzchni 855 m²",
+          "value": 1300000.0,
+          "legalTitle": "współwłasność małżeńska - własność"
+        },
+        {
+          "description": "Działka rolna o powierzchni 2900 m²",
+          "value": 15000.0,
+          "legalTitle": "współwłasność małżeńska - własność"
+        },
+        {
+          "description": "Działka rolna o powierzchni 2200 m²",
+          "value": 15000.0,
+          "legalTitle": "współwłasność małżeńska - własność"
+        },
+        {
+          "description": "Działka rekreacyjna o powierzchni 510 m²",
+          "value": 30000.0,
+          "legalTitle": "współwłasność małżeńska - własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy udzielony przez Deutsche Bank, współkredytobiorca, zobowiązanie w 1/2 z synem, termin spłaty do 2029 roku",
+          "value": 51132.96,
+          "currency": "CHF"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Antyki, współwłasność małżeńska",
+          "value": 20000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta radnego Sejmiku Województwa Lubelskiego (opodatkowana)",
+          "yearlyValue": 6038.67
+        },
+        {
+          "description": "Dieta radnego Sejmiku Województwa Lubelskiego (nieopodatkowana)",
+          "yearlyValue": 18805.24
+        },
+        {
+          "description": "Emerytura ZUS",
+          "yearlyValue": 16939.84
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 87858.93
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 18668.05
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 6049.98
+        },
+        {
+          "description": "Wynagrodzenie za panel - Stowarzyszenie Centrum Wolontariatu we Włodawie",
+          "yearlyValue": 400.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Firma Domo-System",
+          "businessType": "spółka jawna",
+          "description": "Współwłaściciel, produkcja osłon i dekoracji okiennych (żaluzje, rolety, pergole), do 24 czerwca 2024 roku",
+          "income": -177373.30
+        }
+      ]
+    }
+  ]
+}

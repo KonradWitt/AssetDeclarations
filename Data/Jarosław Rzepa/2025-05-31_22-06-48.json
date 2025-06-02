@@ -1,0 +1,80 @@
+{
+  "firstName": "Jarosław",
+  "lastName": "Rzepa",
+  "dateOfBirth": "1972-08-22T00:00:00",
+  "placeOfBirth": "Szamotuły",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/61ED544855969B3FC1258A51003BA0D0/$File/320.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-26T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/42CDD26E67C313E2C1258C7C0028E035/%24File/OSW102_320.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 30000.0,
+          "baseValue": 30000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2.36,
+          "baseValue": 10.15
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 163 m²",
+          "value": 1020000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie 49,7 m²",
+          "value": 415000.0,
+          "legalTitle": "spółdzielcze mieszkanie lokatorskie"
+        },
+        {
+          "description": "Działka budowlana 1504 m²",
+          "value": 75000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt Hipoteczny w Banku PKO BP na budowę domu",
+          "value": 539534.88
+        },
+        {
+          "description": "Karta Kredytowa City Handlowy",
+          "value": 34768.96
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Yaris, rok 2021",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 186461.90
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.28
+        },
+        {
+          "description": "Przychody z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 2273.92
+        },
+        {
+          "description": "Wynajem mieszkania",
+          "yearlyValue": 9400.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

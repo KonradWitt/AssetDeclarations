@@ -1,0 +1,76 @@
+{
+  "firstName": "Przemysław",
+  "lastName": "Drabek",
+  "dateOfBirth": "1979-10-02T00:00:00",
+  "placeOfBirth": "Bielsko-Biała",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/984654A16A2C6BF5C1258A51003B9C4A/$File/071.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-02T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9FED5C52D080E809C1258C600053856C/%24File/OSW102_071.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 83000.0,
+          "baseValue": 83000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 200.0,
+          "baseValue": 800.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom w budowie 131,16 m²",
+          "value": 750000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie 68,10 m²",
+          "value": 640000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana 0,0775 ha",
+          "value": 225000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na budowę domu",
+          "value": 420000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Audi A6, rok 2014",
+          "value": null
+        },
+        {
+          "description": "Samochód Dacia Duster, rok 2012 (samochód żony)",
+          "value": null
+        },
+        {
+          "description": "Prawo do działki ROD",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 149637.03
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.27
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

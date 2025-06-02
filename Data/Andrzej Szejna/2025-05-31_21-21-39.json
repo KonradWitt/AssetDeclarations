@@ -1,0 +1,84 @@
+{
+  "firstName": "Andrzej",
+  "lastName": "Szejna",
+  "dateOfBirth": "1973-01-01T00:00:00",
+  "placeOfBirth": "Końsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/9AA09E9D47C1FBF5C1258A51003BA1B4/$File/369.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2015-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E1D41E468BDB088DC1258C7C004B0322/%24File/OSW102_369.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 181000.0,
+          "baseValue": 181000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2000.0,
+          "baseValue": 8135.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 185 m²",
+          "value": 500000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Hyundai Santa Fe, rok produkcji 2018",
+          "value": null
+        },
+        {
+          "description": "Motocykl Suzuki Intruder, rok produkcji 2004",
+          "value": null
+        },
+        {
+          "description": "Rower elektryczny Ketmender, rok produkcji 2022",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu zatrudnienia w Ministerstwie Spraw Zagranicznych (MSZ)",
+          "yearlyValue": 227852.75
+        },
+        {
+          "description": "Dieta poselska z Sejmu RP",
+          "yearlyValue": 45678.82
+        },
+        {
+          "description": "Dochód z tytułu zatrudnienia (nieczytelne źródło)",
+          "yearlyValue": 81679.12
+        },
+        {
+          "description": "Dochód nieopodatkowany",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Przychód z tytułu wykonania funkcji w P.S. Inbank",
+          "yearlyValue": 351.56
+        },
+        {
+          "description": "Dochód (nieczytelne źródło, PIT-11)",
+          "yearlyValue": 9675.12
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Rada Fundacji Aktywne Kujawsko-Pomorskie",
+          "businessType": "Fundacja",
+          "description": "Członek rady nadzorczej (honorowo) od 2022",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

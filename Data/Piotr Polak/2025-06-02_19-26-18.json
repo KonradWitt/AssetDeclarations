@@ -1,0 +1,79 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Polak",
+  "dateOfBirth": "1961-01-20T00:00:00",
+  "placeOfBirth": "Grabince",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/50F4768E691B2C46C1258A51003BA080/$File/301.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8730509B99C23723C1258C75006E1C01/%24File/OSW102_301.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 222189.58,
+          "baseValue": 222189.58,
+          "description": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1480.0,
+          "baseValue": 5905.2,
+          "description": null
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 44000.0,
+          "baseValue": 44000.0,
+          "description": "Środki na koncie zlikwidowanej firmy ZIELPOL"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 110 m²",
+          "value": 400000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne rolno-sadownicze o powierzchni 11,13 ha z zabudowaniami (przechowalnia z garażem, garaż, budynek gospodarczy, stodoła)",
+          "value": 375000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka rolno-budowlana o powierzchni 0,41 ha",
+          "value": 100000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód SKODA KAMIQ, rok 2023",
+          "value": null
+        },
+        {
+          "description": "Ciągnik URSUS C-330, rok 1990",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 165884.05
+        },
+        {
+          "description": "Dieta parlamentarzysty (w tym opodatkowana i nieopodatkowana)",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Dopłaty bezpośrednie",
+          "yearlyValue": 0.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

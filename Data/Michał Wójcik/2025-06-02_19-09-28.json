@@ -1,0 +1,97 @@
+{
+  "firstName": "Michał",
+  "lastName": "Wójcik",
+  "dateOfBirth": "1971-04-17T00:00:00",
+  "placeOfBirth": "Kraków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/9E235D8F4E264CC3C1258A51003BA2FE/$File/438.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CA98B640BFFA42A3C1258C81003A9ADC/%24File/OSW102_438.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 218170.0,
+          "baseValue": 218170.0,
+          "description": "Środki pieniężne zgromadzone w walucie polskiej"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 4271.4,
+          "baseValue": 4271.4,
+          "description": "Środki finansowe na rachunku inwestycyjnym"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "ORLEN",
+          "quantity": "376",
+          "value": 17747.2
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 200 m² wraz z gruntem o pow. 447 m²",
+          "value": 540000.0,
+          "legalTitle": "współwłasność (spadek przejęty przez małżonkę pozostającą we wspólnocie majątkowej małżeńskiej)"
+        },
+        {
+          "description": "Domek o powierzchni 26 m² wraz z gruntem o pow. 2300 m²",
+          "value": 19000.0,
+          "legalTitle": "współwłasność 1/6 (spadek)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni całkowitej 57,56 m²",
+          "value": 30000.0,
+          "legalTitle": "współwłasność 1/6 (spadek), spółdzielcze własnościowe prawo do lokalu mieszkalnego"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 51,51 m²",
+          "value": 456312.0,
+          "legalTitle": "prawo własności lokalu mieszkalnego (spadek), wraz z przysługującym mu ułamkowym udziałem w nieruchomości wspólnej, którą stanowi prawo użytkowania wieczystego gruntu oraz części budynku i urządzenia, które nie służą wyłącznie do użytku właścicieli lokali wynoszącym 41/1000 części"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 42,78 m²",
+          "value": 220000.0,
+          "legalTitle": "własnościowe spółdzielcze prawo do lokalu mieszkalnego, spadek przejęty przez małżonkę pozostającą we wspólnocie majątkowej małżeńskiej"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes Benz C180 Kompressor, rok produkcji 2009",
+          "value": null
+        },
+        {
+          "description": "Samochód Mini BMW Mini 1.6, rok produkcji 2010 (współwłasność)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 169945.88
+        },
+        {
+          "description": "Dochód z Kancelarii Prezesa Rady Ministrów",
+          "yearlyValue": 22798.24
+        },
+        {
+          "description": "Dochód z najmu okazjonalnego",
+          "yearlyValue": 27450.00
+        },
+        {
+          "description": "Strata z akcji ORLEN (różnica pomiędzy wartością rachunku inwestycyjnego pomiędzy 31.12.2023 a 31.12.2024)",
+          "yearlyValue": -5616.40
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

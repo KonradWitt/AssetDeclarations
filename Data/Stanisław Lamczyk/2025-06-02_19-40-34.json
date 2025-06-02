@@ -1,0 +1,82 @@
+{
+  "firstName": "Stanisław",
+  "lastName": "Lamczyk",
+  "dateOfBirth": "1957-08-12T00:00:00",
+  "placeOfBirth": "Brusy",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7A6AB3CD5257F3FCC1258A51003B9ED2/$File/207.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4E422D0801EE2627C1258C76005BEEF8/%24File/OSW102_207.pdf",
+      "cashPositions": [
+        {
+          "currency": "USD",
+          "currencyValue": 30000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "PKO IKZE",
+          "quantity": null,
+          "value": 9423.62
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 358 m²",
+          "value": 1500000.0,
+          "legalTitle": "wspólnota majątkowa"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 1000 m²",
+          "value": 200000.0,
+          "legalTitle": "wspólnota majątkowa"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 1041 m²",
+          "value": 150000.0,
+          "legalTitle": "wspólnota majątkowa"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 1042 m²",
+          "value": 150000.0,
+          "legalTitle": "wspólnota majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka",
+          "value": 27200.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Meble",
+          "value": 150000.0
+        },
+        {
+          "description": "Obrazy",
+          "value": 20000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 170380.38
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45145.51
+        },
+        {
+          "description": "Dochody z tytułu wykonywanej osobiście funkcji parlamentarnych",
+          "yearlyValue": 11431.91
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

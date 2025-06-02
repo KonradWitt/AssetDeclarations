@@ -1,0 +1,102 @@
+{
+  "firstName": "Andrzej",
+  "lastName": "Domański",
+  "dateOfBirth": "1981-08-27T00:00:00",
+  "placeOfBirth": "Kraków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1B4A63B19A767EA9C1258A51003B9C3A/$File/068.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7E5D3886B8379DF3C1258C7B004F5017/%24File/OSW102_068.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 548430.0,
+          "baseValue": 548430.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 19500.0,
+          "baseValue": 76843.65
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 75200.0,
+          "baseValue": 326764.0
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 7100.0,
+          "baseValue": 32915.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Papiery wartościowe (akcje, obligacje)",
+          "quantity": null,
+          "value": 829074.0
+        },
+        {
+          "name": "Udziały Auxilius Pharma sp. z o.o.",
+          "quantity": "158",
+          "value": null
+        },
+        {
+          "name": "Udziały Voyager2 sp. z o.o.",
+          "quantity": "13",
+          "value": null
+        },
+        {
+          "name": "Akcje Solution SCA",
+          "quantity": "1680",
+          "value": null
+        },
+        {
+          "name": "Akcje Accenture (NYSE - NASDAQ)",
+          "quantity": "285",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 104,8 m²",
+          "value": 2493000.0,
+          "legalTitle": "WŁASNOŚĆ"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 40 m² wraz z miejscem parkingowym",
+          "value": 730000.0,
+          "legalTitle": "WŁASNOŚĆ"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Rower Colnago CX Zero 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z Kancelarii Sejmu za 2024 r.",
+          "yearlyValue": 9573.04
+        },
+        {
+          "description": "Dochód z Ministerstwa Finansów za 2024 r.",
+          "yearlyValue": 242013.51
+        },
+        {
+          "description": "Przychód z tytułu najmu mieszkania za 2024 r.",
+          "yearlyValue": 43420.0
+        },
+        {
+          "description": "Dochód z akcji Accenture",
+          "yearlyValue": 5794.68
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

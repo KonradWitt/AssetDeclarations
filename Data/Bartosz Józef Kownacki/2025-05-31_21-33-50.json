@@ -1,0 +1,77 @@
+{
+  "firstName": "Bartosz",
+  "lastName": "Kownacki",
+  "dateOfBirth": "1979-08-11T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/24A54A20FC3810C1C1258A51003B9E55/$File/181.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D974FADAC770FF9AC1258C7600427925/%24File/OSW102_181.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 250000.0,
+          "baseValue": 250000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1000.0,
+          "baseValue": 4323.5
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 15500.0,
+          "baseValue": 62759.5
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "III filar IKE W PKO BP",
+          "quantity": null,
+          "value": 140580.65
+        },
+        {
+          "name": "III filar w ING NN wraz z polisa na życie",
+          "quantity": null,
+          "value": 58369.17
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom ok. 200 m² na działce 2101 m²",
+          "value": 1250000.0,
+          "legalTitle": "Własność (majątek odrębny)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "SKODA KODIAQ (rok produkcji 2020)",
+          "value": 135000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 173580.13
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Przychody z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 1369.95
+        },
+        {
+          "description": "Najem nieruchomości",
+          "yearlyValue": 84000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

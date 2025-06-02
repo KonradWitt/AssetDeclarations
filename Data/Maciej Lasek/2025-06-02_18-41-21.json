@@ -1,0 +1,85 @@
+{
+  "firstName": "Maciej",
+  "lastName": "Lasek",
+  "dateOfBirth": "1967-06-15T00:00:00",
+  "placeOfBirth": "Elbląg",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/87021D12C460A2E1C1258A51003B9ED9/$File/208.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FA0C51819B2B040CC1258C7C004215FB/%24File/OSW102_208.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 245119.27,
+          "baseValue": 245119.27
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 248 m² na działce 1055 m², plus 1/5 udziału w drodze dojazdowej do posesji",
+          "value": 780000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt odnawialny w PKO BP, zobowiązanie we wspólnocie majątkowej",
+          "value": 23000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Ford Mondeo, rok produkcji 2010, współwłasność małżeńska",
+          "value": 25000.0
+        },
+        {
+          "description": "Samochód BMW 118D, rok produkcji 2010, współwłasność małżeńska",
+          "value": 25000.0
+        },
+        {
+          "description": "Samochód Land Rover Discovery 2, rok produkcji 2000, współwłasność małżeńska",
+          "value": 30000.0
+        },
+        {
+          "description": "Samochód Honda Civic, rok produkcji 2009, współwłasność małżeńska",
+          "value": 16000.0
+        },
+        {
+          "description": "Samolot Cessna F150M, rok produkcji 1977, 30% udziału, współwłasność małżeńska",
+          "value": 96000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie nauczyciela akademickiego (umowa o pracę)",
+          "yearlyValue": 71820.90
+        },
+        {
+          "description": "Wynagrodzenie z umowy o pracę w MFiPR (do końca czerwca 2024)",
+          "yearlyValue": 125020.29
+        },
+        {
+          "description": "Wynagrodzenie z umowy o pracę w MI (od lipca 2024)",
+          "yearlyValue": 108709.56
+        },
+        {
+          "description": "Dochód z tytułu praw autorskich Wydawnictwo Znak",
+          "yearlyValue": 234.66
+        },
+        {
+          "description": "Dieta poselska (część nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Opodatkowana część diety poselskiej",
+          "yearlyValue": 11966.35
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

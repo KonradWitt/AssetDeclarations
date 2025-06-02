@@ -1,0 +1,78 @@
+{
+  "firstName": "Zbigniew",
+  "lastName": "Hoffmann",
+  "dateOfBirth": "1963-07-05T00:00:00",
+  "placeOfBirth": "Poznań",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B9FF4E0240886E82C1258A51003B9D62/$File/131.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/33BA9F949BAFBE83C1258C7A004EBB96/%24File/OSW102_131.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 30000.0,
+          "baseValue": 30000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 100.0,
+          "baseValue": 400.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 32,8 m²",
+          "value": 150000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Zobowiązanie z tytułu karty kredytowej Mastercard Platinum w PKO BP S.A.",
+          "value": 25500.0
+        },
+        {
+          "description": "Pożyczka gotówkowa w PKO BP S.A.",
+          "value": 64000.0
+        },
+        {
+          "description": "Zobowiązanie z tytułu kredytu odnawialnego dla rachunku bankowego w PKO BP S.A.",
+          "value": 37000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Audi A4, rok produkcji 2004",
+          "value": null
+        },
+        {
+          "description": "Samochód Volkswagen Passat, rok produkcji 2020",
+          "value": null
+        },
+        {
+          "description": "Zegarek",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu wynagrodzenia za pracę w Kancelarii Prezesa Rady Ministrów",
+          "yearlyValue": 22798.24
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 47699.13
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 151081.31
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

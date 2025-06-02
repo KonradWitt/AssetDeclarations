@@ -1,0 +1,101 @@
+{
+  "firstName": "Anita",
+  "lastName": "Kucharska-Dziedzic",
+  "dateOfBirth": "1972-01-21T00:00:00",
+  "placeOfBirth": "Wołczyn",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E909C64D8FDD6C51C1258A51003B9EA8/$File/198.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/965F8A9224D0D7CDC1258C580041BB7A/%24File/OSW102_198.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 75000.00,
+          "baseValue": 75000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 3000.00,
+          "baseValue": 12925.50
+        },
+        {
+          "currency": "DKK",
+          "currencyValue": 1300.00,
+          "baseValue": 750.36
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 550.00,
+          "baseValue": 2189.28
+        },
+        {
+          "currency": "CAD",
+          "currencyValue": 170.00,
+          "baseValue": 496.06
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje skarbowe",
+          "quantity": null,
+          "value": 515000.00
+        },
+        {
+          "name": "IKZE",
+          "quantity": null,
+          "value": 27588.50
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 148,8 m² na działce 635 m²",
+          "value": 700000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 699 m²",
+          "value": 100000.00,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Karta kredytowa",
+          "value": 10000.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volvo V70, rok 2007",
+          "value": 20000.00
+        },
+        {
+          "description": "Księgozbiór",
+          "value": 16000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 189399.60
+        },
+        {
+          "description": "Dieta parlamentarna nieopodatkowana",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta parlamentarna opodatkowana",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 1044.91
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

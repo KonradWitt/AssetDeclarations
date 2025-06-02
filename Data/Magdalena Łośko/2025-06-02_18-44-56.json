@@ -1,0 +1,56 @@
+{
+  "firstName": "Magdalena",
+  "lastName": "Łośko",
+  "dateOfBirth": "1984-08-30T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/117D320F65F49EF7C1258AB0002B1B32/$File/462.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2024-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1E7E4A6EC15455E5C1258C810037F1B5/%24File/OSW102_462.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 286852.33,
+          "baseValue": 286852.33
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 121.06 m²",
+          "value": 650000.0,
+          "legalTitle": "Współwłasność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes, rok 2012",
+          "value": null
+        },
+        {
+          "description": "Samochód Skoda Octavia, rok 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 42649.07
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 225549.40
+        },
+        {
+          "description": "Dochód z tytułu pełnienia funkcji parlamentarnej",
+          "yearlyValue": 5887.44
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

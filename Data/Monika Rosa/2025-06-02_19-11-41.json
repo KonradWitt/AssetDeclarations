@@ -1,0 +1,91 @@
+{
+  "firstName": "Monika",
+  "lastName": "Rosa",
+  "dateOfBirth": "1986-04-24T00:00:00",
+  "placeOfBirth": "Czeladź",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/BD8F0A3D3C70BC7FC1258A51003BA0B2/$File/313.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D0A642CB979E71DEC1258C76005C5760/%24File/OSW102_313.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 260000.0,
+          "baseValue": 260000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 47,88 m²",
+          "value": 400000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie ok. 64 m²",
+          "value": 300000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 62,83 m²",
+          "value": 280000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 58,41 m²",
+          "value": 420000.0,
+          "legalTitle": "1/3 własności"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Mieszkaniowy kredyt hipoteczny w ING Bank Śląski",
+          "value": 154477.76
+        },
+        {
+          "description": "Karta kredytowa Mastercard w mBank",
+          "value": 20000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy MINI JCW, rok produkcji 2019",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Skoda Rapid, rok produkcji 2016",
+          "value": null
+        },
+        {
+          "description": "Zegarek Tag Heuer",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 187496.35
+        },
+        {
+          "description": "Dochód z wynajmu nieruchomości",
+          "yearlyValue": 26142.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Fundacja Instytut Nowoczesności",
+          "businessType": "fundacja",
+          "description": "Członkini Rady Fundacji",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

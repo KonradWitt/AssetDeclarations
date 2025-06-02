@@ -1,0 +1,142 @@
+{
+  "firstName": "Marcin",
+  "lastName": "Skonieczka",
+  "dateOfBirth": "1978-11-09T00:00:00",
+  "placeOfBirth": "Chełmno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/91223D4AFB15ACB7C1258A51003BA132/$File/341.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/0B5DB6C3E7038792C1258C7B004C9843/%24File/OSW102_341.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 25113.58,
+          "baseValue": 25113.58,
+          "description": "małżeńska wspólność majątkowa"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 13.29,
+          "baseValue": 57.15,
+          "description": "małżeńska wspólność majątkowa (przeliczone po kursie 1 EUR = 4.30 PLN)"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Indywidualne Konto Zabezpieczenia Emerytalnego",
+          "quantity": null,
+          "value": 22341.95,
+          "description": "małżeńska wspólność majątkowa"
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 233 m² na gruncie o powierzchni 0,3768 ha",
+          "value": 1135875.00,
+          "legalTitle": "użyczenie przez rodziców"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 110,07 m²",
+          "value": 912590.37,
+          "legalTitle": "własność - majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 22,64 m²",
+          "value": 187708.24,
+          "legalTitle": "własność - wspólność ustawowa majątkowa małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 98,53 m²",
+          "value": 816912.23,
+          "legalTitle": "własność - wspólność ustawowa majątkowa małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 121,17 m²",
+          "value": 1004620.47,
+          "legalTitle": "własność - wspólność ustawowa majątkowa małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 121,17 m²",
+          "value": 1004620.47,
+          "legalTitle": "własność - wspólność ustawowa majątkowa małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 30,4846 ha",
+          "value": 2361520.02,
+          "legalTitle": "własność - majątek odrębny"
+        },
+        {
+          "description": "Działka o powierzchni 0,5593 ha",
+          "value": 748705.00,
+          "legalTitle": "własność - majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Santander Bank Polska, cel: zakup mieszkań, zadłużenie na dzień 31.12.2024 r.",
+          "value": 206059.55
+        },
+        {
+          "description": "Kredyt hipoteczny w mBank, cel: zakup mieszkania, zadłużenie na dzień 31.12.2024 r.",
+          "value": 151674.06
+        },
+        {
+          "description": "Kredyt hipoteczny w mBank, cel: remont mieszkania, zadłużenie na dzień 31.12.2024 r.",
+          "value": 220121.38
+        },
+        {
+          "description": "Pożyczka zabezpieczona hipoteką w BS w Brodnicy, cel: remont mieszkania, zadłużenie na dzień 31.12.2024 r.",
+          "value": 126643.20
+        },
+        {
+          "description": "Kredyt inwestorski z premią remontową BGK w PKO BP, zaciągnięty przez wspólnotę mieszkaniową, cel: finansowanie przedsięwzięcia remontowego, zadłużenie na dzień 31.12.2024 r.",
+          "value": 330707.24
+        },
+        {
+          "description": "Kredyt konsumencki w Volkswagen Bank GmbH, cel: zakup pojazdu, zadłużenie na dzień 31.12.2024 r.",
+          "value": 94636.61
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Seat Alhambra, rok produkcji 2017",
+          "value": 57900.00
+        },
+        {
+          "description": "Samochód osobowy Volkswagen Tiguan, rok produkcji 2024",
+          "value": 149500.00
+        },
+        {
+          "description": "Ciągnik NEW Holland TD5010, rok produkcji 2012",
+          "value": 122000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 178435.10
+        },
+        {
+          "description": "Wynagrodzenie ze stosunku pracy",
+          "yearlyValue": 15471.35
+        },
+        {
+          "description": "Wynajem nieruchomości",
+          "yearlyValue": 17548.50
+        },
+        {
+          "description": "Dochód z gospodarstwa rolnego (EFRROW)",
+          "yearlyValue": 1872.63
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

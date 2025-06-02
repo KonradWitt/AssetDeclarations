@@ -1,0 +1,76 @@
+{
+  "firstName": "Rafał",
+  "lastName": "Weber",
+  "dateOfBirth": "1981-09-01T00:00:00",
+  "placeOfBirth": "Tarnobrzeg",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/FDFF4932277EA622C1258A51003BA28F/$File/415.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/DA43939DDCACD1FEC1258C7C00423706/%24File/OSW102_415.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.00,
+          "baseValue": 10000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 127 m²",
+          "value": 900000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 49 m²",
+          "value": 114500.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 302 m² (integralna część mieszkania z pkt 2)",
+          "value": null,
+          "legalTitle": null
+        },
+        {
+          "description": "Grunty orne 1327 m²",
+          "value": 35000.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych Kancelarii Sejmu RP",
+          "value": 46750.00
+        },
+        {
+          "description": "Pożyczka gotówkowa w AliorBank",
+          "value": 52909.16
+        },
+        {
+          "description": "Pożyczka na zakup samochodu",
+          "value": 32000.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Corolla, rok 2024",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z tytułu zatrudnienia w Ministerstwie Infrastruktury na stanowisku Sekretarza Stanu oraz uposażenie poselskie",
+          "yearlyValue": 238497.20
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 11832.74
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

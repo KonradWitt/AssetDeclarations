@@ -1,0 +1,87 @@
+{
+  "firstName": "Anna",
+  "lastName": "Pieczarka",
+  "dateOfBirth": "1977-02-15T00:00:00",
+  "placeOfBirth": "Tuchów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/DD9B16C949789A8CC1258A51003BA04E/$File/290.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A5687182C3318179C1258C7C0047EB52/%24File/OSW102_290.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 461500.0,
+          "baseValue": 461500.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 170 m² na działce 0,07 ha",
+          "value": 400000.0,
+          "legalTitle": "własność, umowa darowizny od rodziców"
+        },
+        {
+          "description": "Mieszkanie 56 m²",
+          "value": 115000.0,
+          "legalTitle": "ekspektatywa prawa do lokalu, wątpliwe ostateczne nabycie lokalu z uwagi na sytuację finansową dewelopera - w 2016 roku wpłacono 80000 zł"
+        },
+        {
+          "description": "Mieszkanie 60,50 m²",
+          "value": 420000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 0,13 ha",
+          "value": 28600.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 0,13 ha",
+          "value": 26400.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 0,20 ha",
+          "value": 41800.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 0,0358 ha",
+          "value": 6506.70,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 0,0194 ha",
+          "value": 3530.10,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Mitsubishi Outlander, rok prod. 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 173152.58
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Działalność wykonywana osobiście",
+          "yearlyValue": 95024.03
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

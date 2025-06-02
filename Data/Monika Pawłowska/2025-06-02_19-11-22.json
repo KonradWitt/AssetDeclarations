@@ -1,0 +1,56 @@
+{
+  "firstName": "Monika",
+  "lastName": "Pawłowska",
+  "dateOfBirth": "1983-06-15T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/8E1E9CFD670D1394C1258ACA0031D1C3/$File/463.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-10-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/0E9B6FC0E6BF362AC1258C7200410433/%24File/OSW102_463.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.0,
+          "baseValue": 10000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 90 m²",
+          "value": 150000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Superb, rok 2009",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Przychody z tytułu zatrudnienia",
+          "yearlyValue": 125766.40
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 37548.40
+        },
+        {
+          "description": "Dochód z tytułu opodatkowania ryczałtem od przychodów ewidencjonowanych",
+          "yearlyValue": 7549.40
+        },
+        {
+          "description": "Dochód z tytułu nieopodatkowanego",
+          "yearlyValue": 30000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

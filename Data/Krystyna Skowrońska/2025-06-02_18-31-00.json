@@ -1,0 +1,83 @@
+{
+  "firstName": "Krystyna",
+  "lastName": "Skowrońska",
+  "dateOfBirth": "1954-07-22T00:00:00",
+  "placeOfBirth": "Melcu",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A431CD5597520704C1258A51003BA137/$File/342.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/44CC49EF709E35F1C1258C7B00437A6C/%24File/OSW102_342.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 675128.64,
+          "baseValue": 675128.64
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udział członkowski BS Przecław",
+          "quantity": null,
+          "value": 12300.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 140 m²",
+          "value": 800000.0,
+          "legalTitle": "Własność odrębna nabyta w drodze spadku"
+        },
+        {
+          "description": "Budynek gospodarczo-mieszkalny z garażem, powierzchnia mieszkalna 35 m², działka 758 m²",
+          "value": 150000.0,
+          "legalTitle": "Własność odrębna nabyta w drodze spadku"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Sejmu",
+          "value": 23800.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Opel Mokka, rok 2019",
+          "value": null
+        },
+        {
+          "description": "Meble, biżuteria złota",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Świadczenie ZUS",
+          "yearlyValue": 151178.72
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 149285.28
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Bank Spółdzielczy w Przecławiu",
+          "businessType": "bank spółdzielczy",
+          "description": "Prezes Zarządu",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

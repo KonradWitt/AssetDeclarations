@@ -1,0 +1,61 @@
+{
+  "firstName": "Michał",
+  "lastName": "Woś",
+  "dateOfBirth": "1991-02-08T00:00:00",
+  "placeOfBirth": "Racibórz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/11463714805E105EC1258A51003BA2F0/$File/435.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2015-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7EAACAFB672CFA50C1258C7E0038EFB8/%24File/OSW102_435.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.0,
+          "baseValue": 10000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 250 m² z garażem ok. 47 m² położony na dwóch działkach o łącznej powierzchni 0,3483 ha",
+          "value": 850000.0,
+          "legalTitle": "własność (31/100 majątek odrębny, 63/100 ustawowa wspólność majątkowa małżeńska)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z ZFŚS",
+          "value": 9000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Mazda CX-5, rok 2019",
+          "value": 80000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu zatrudnienia (Ministerstwo Sprawiedliwości)",
+          "yearlyValue": 62575.15
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 172257.86
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 8611.07
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

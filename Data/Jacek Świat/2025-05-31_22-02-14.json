@@ -1,0 +1,59 @@
+{
+  "firstName": "Jacek",
+  "lastName": "Świat",
+  "dateOfBirth": "1955-12-16T00:00:00",
+  "placeOfBirth": "Wrocław",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/43CEA9718A7A2447C1258A51003BA1FD/$File/384.jpg",
+  "partyId": 7,
+  "address": null,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C816D23B971465FFC1258C750045DB23/%24File/OSW102_384.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 84027.62,
+          "baseValue": 84027.62
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Fundusze inwestycyjne SANTANDER",
+          "quantity": null,
+          "value": 637339.73
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 63 m²",
+          "value": 700000.0,
+          "legalTitle": "przeniesienie własności lokalu mieszkalnego"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy JEEP Avenger, rok 2024",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 159962.50
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Dochód z inwestycji kapitałowych",
+          "yearlyValue": 7515.47
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

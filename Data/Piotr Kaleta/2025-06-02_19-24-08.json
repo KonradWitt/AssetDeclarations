@@ -1,0 +1,78 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Kaleta",
+  "dateOfBirth": "1968-06-25T00:00:00",
+  "placeOfBirth": "Kalisz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/28D91566D8C2A31FC1258A51003B9DBB/$File/149.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-21T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/0C66DEB0E1310DD8C1258C760041BA22/%24File/OSW102_149.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 400000.00,
+          "baseValue": 400000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni około 180 m²",
+          "value": 300000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 5,08 ha z budynkiem gospodarczym",
+          "value": 170000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Dom w budowie o powierzchni około 200 m²",
+          "value": 300000.00,
+          "legalTitle": "spadek po zmarłym ŚP. Teściu, 1/4 udziału"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Mercedes-Benz 190 E, rok 1990",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Honda City, rok 2006",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Citroen C5, rok 2009",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Honda HRV (samochód Żony)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dopłaty obszarowe z gospodarstwa rolnego",
+          "yearlyValue": 2839.71
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Wynagrodzenie Żony",
+          "yearlyValue": 94539.68
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

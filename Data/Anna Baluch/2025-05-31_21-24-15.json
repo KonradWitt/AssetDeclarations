@@ -1,0 +1,75 @@
+{
+  "firstName": "Anna",
+  "lastName": "Baluch",
+  "dateOfBirth": "1973-06-03T00:00:00",
+  "placeOfBirth": "Kraśnik",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/45796EE1E8C9D961C1258A8A00468674/$File/461.jpg",
+  "partyId": 7,
+  "employmentDetails": "Poseł na Sejm RP",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9954ADB60B09EB13C1258C8100384CDC/%24File/OSW102_461.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 86395.89,
+          "baseValue": 86395.89
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych dla posłów",
+          "value": 33000.0
+        },
+        {
+          "description": "Pożyczka hipoteczna wobec współkredytobiorców: Janina Bień, Wojciech Bień, Anna Bień (Baluch)",
+          "value": 56365.53
+        },
+        {
+          "description": "Kredyt konsolidacyjny",
+          "value": 25283.072
+        },
+        {
+          "description": "Kredyt preferencyjny UP - utrzymanie płynności gospodarstwa rolnego męża Piotra Balucha",
+          "value": 80000.0
+        },
+        {
+          "description": "Kredyt gotówkowy",
+          "value": 111247.19
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z Krajowego Ośrodka Wsparcia Rolnictwa",
+          "yearlyValue": 14966.25
+        },
+        {
+          "description": "Dochód z działalności wykonywanej osobiście w Urzędzie Marszałkowskim Województwa Lubelskiego (art. 13 pkt 2, 4-9 ustawy)",
+          "yearlyValue": 1026.20
+        },
+        {
+          "description": "Dochód z Urzędu Marszałkowskiego Województwa Lubelskiego (kwota wolna od podatku)",
+          "yearlyValue": 5147.31
+        },
+        {
+          "description": "Wynagrodzenie z tytułu zatrudnienia w Kancelarii Sejmu RP",
+          "yearlyValue": 165463.67
+        },
+        {
+          "description": "Dochód z działalności wykonywanej osobiście w Kancelarii Sejmu RP (art. 13 pkt 2, 4-9 ustawy)",
+          "yearlyValue": 11699.13
+        },
+        {
+          "description": "Dochód z Kancelarii Sejmu RP (kwota wolna od podatku)",
+          "yearlyValue": 36000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

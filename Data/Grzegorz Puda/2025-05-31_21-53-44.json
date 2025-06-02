@@ -1,0 +1,73 @@
+{
+  "firstName": "Grzegorz",
+  "lastName": "Puda",
+  "dateOfBirth": "1982-07-13T00:00:00",
+  "placeOfBirth": "Bielsko-Biała",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/40EA7FA7C515E80FC1258A51003BA094/$File/306.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/246689326B810AE4C1258C7600439CA1/%24File/OSW102_306.pdf",
+      "employmentDetails": "Poseł na Sejm RP, Ministerstwo Funduszy i Polityki Regionalnej",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 175800.00,
+          "baseValue": 175800.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1985.08,
+          "baseValue": 8535.84
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "PPK",
+          "quantity": null,
+          "value": 33681.04
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 196 m² z budynkiem gospodarczym",
+          "value": 710000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Limit zadłużenia w koncie osobistym w ING Bank Śląski",
+          "value": 35000.0
+        },
+        {
+          "description": "Kredyt hipoteczny na zakup nieruchomości w PKO BP, pozostało do spłaty",
+          "value": 321461.01
+        },
+        {
+          "description": "Pożyczka, pozostało do spłaty",
+          "value": 29790.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Citroën C4 GP, rok 2008",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z działalności parlamentarnej",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Wynagrodzenie z tytułu pracy w Ministerstwie Funduszy i Polityki Regionalnej",
+          "yearlyValue": 66613.48
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

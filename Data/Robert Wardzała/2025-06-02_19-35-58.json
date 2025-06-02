@@ -1,0 +1,98 @@
+{
+  "firstName": "Robert",
+  "lastName": "Wardzała",
+  "dateOfBirth": "1975-10-12T00:00:00",
+  "placeOfBirth": "Tarnów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/C8BA44ECFA14C5C2C1258A51003BA26B/$File/408.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C56DA64AAD9B2420C1258C76004F7CE9/%24File/OSW102_408.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 225000.0,
+          "baseValue": 225000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 20000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 235 m²",
+          "value": 400000.0,
+          "legalTitle": "małżeńska wspólność majątkowa - własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 29.4 m²",
+          "value": 480000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni ok. 210 m² zabudowana domem",
+          "value": 260000.0,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes SL550, rok produkcji 2007",
+          "value": null
+        },
+        {
+          "description": "Samochód BMW M550ixdrive, rok produkcji 2019",
+          "value": null
+        },
+        {
+          "description": "Samochód Mercedes AMG C43 4Matic, rok produkcji 2017",
+          "value": null
+        },
+        {
+          "description": "Samochód Volvo XC60, rok produkcji 2021",
+          "value": null
+        },
+        {
+          "description": "3 motocykle żużlowe",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Dodatkowe wynagrodzenie za 2023r. od Prezesa Zarządu TKP S.A.",
+          "yearlyValue": 8000.05
+        },
+        {
+          "description": "Odprawa po rezygnacji z funkcji w związku z objęciem mandatu posła w roku 2023 od Prezesa TKP S.A.",
+          "yearlyValue": 34908.02
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Firma \"Roma\" Robert Wardzała",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": null,
+          "income": 1201.1
+        }
+      ]
+    }
+  ]
+}

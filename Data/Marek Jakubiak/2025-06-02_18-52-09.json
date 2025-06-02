@@ -1,0 +1,160 @@
+{
+  "firstName": "Marek",
+  "lastName": "Jakubiak",
+  "dateOfBirth": "1959-04-30T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2DFBF3852DF12CC8C1258A51003B9D89/$File/139.jpg",
+  "partyId": 9,
+  "assetDeclarations": [
+    {
+      "date": "2025-05-12T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/259509A4F699C451C1258C88003A122C/%24File/OSW102_139.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 320000.0,
+          "baseValue": 320000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 40000.0,
+          "baseValue": 160000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały Browary Regionalne Jakubiak sp. z o.o.",
+          "quantity": "100%",
+          "value": 60000000.0
+        },
+        {
+          "name": "Udziały Gambrynus Sp z o.o.",
+          "quantity": "3.37%",
+          "value": 96000.0
+        },
+        {
+          "name": "Udziały Browar Lwówek",
+          "quantity": "0.17%",
+          "value": 18700.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 120 m²",
+          "value": 700000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 153,52 m²",
+          "value": 3400000.0,
+          "legalTitle": "współwłasność 50%"
+        },
+        {
+          "description": "Trzy miejsca garażowe",
+          "value": 150000.0,
+          "legalTitle": "współwłasność 50%"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 123 m²",
+          "value": 3500000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka przemysłowa o powierzchni 3200 m²",
+          "value": 400000.0,
+          "legalTitle": "wieczyste użytkowanie"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Gaz 69, rok 1972 (zabytek)",
+          "value": 50000.0
+        },
+        {
+          "description": "Samochód Mercedes W 107, rok 1984 (zabytek)",
+          "value": 70000.0
+        },
+        {
+          "description": "Obraz olejny autorstwa Jan Styka",
+          "value": 80000.0
+        },
+        {
+          "description": "Obraz olejny autorstwa Wojciech Kossak",
+          "value": 70000.0
+        },
+        {
+          "description": "Obraz olejny autorstwa Cz. Wasilewski",
+          "value": 20000.0
+        },
+        {
+          "description": "Obraz olejny autorstwa Władysław Chmieliński",
+          "value": 20000.0
+        },
+        {
+          "description": "Szkic Wojciech Kossak 'głowa konia'",
+          "value": 10000.0
+        },
+        {
+          "description": "Szkic Jan Matejko 'Hucułowie'",
+          "value": 35000.0
+        },
+        {
+          "description": "Akwarela W. Chmieliński",
+          "value": 10000.0
+        },
+        {
+          "description": "Zegarek IWC",
+          "value": 35000.0
+        },
+        {
+          "description": "Zegarek Frederique Constans (złoty)",
+          "value": 16000.0
+        },
+        {
+          "description": "Zegarek Frederique Constans",
+          "value": 19000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Odprawa emerytalna",
+          "yearlyValue": 9466.15
+        },
+        {
+          "description": "Dochód nieopodatkowany",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dochód opodatkowany",
+          "yearlyValue": 9466.15
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 188544.50
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 42545.28
+        },
+        {
+          "description": "Prawa autorskie",
+          "yearlyValue": 4333.50
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": null,
+          "businessType": "Członkostwo w zarządzie (działalność gospodarcza)",
+          "description": "Były członek zarządu w 2023 roku",
+          "income": 12369.78
+        }
+      ]
+    }
+  ]
+}

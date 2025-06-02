@@ -1,0 +1,85 @@
+{
+  "firstName": "Łukasz",
+  "lastName": "Mejza",
+  "dateOfBirth": "1997-05-15T00:00:00",
+  "placeOfBirth": "Gorzów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/3B53B3A85F805017C1258A51003B9F5D/$File/240.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2024-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D8C9A74C56F6B370C1258C84003732D4/%24File/OSW102_240.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 150000.0,
+          "baseValue": 150000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1500.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 200.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały VINCI ELO ENERLY Sp. z o.o.",
+          "quantity": "9",
+          "value": null
+        },
+        {
+          "name": "Udziały WROZUFE Sp. z o.o.",
+          "quantity": "4",
+          "value": null
+        },
+        {
+          "name": "Udziały MERA BUSINESS GROUP Sp. z o.o.",
+          "quantity": "9",
+          "value": null
+        },
+        {
+          "name": "Udziały ONE LOVE UROLEAN Sp. z o.o.",
+          "quantity": "1600",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie wraz z pomieszczeniem przynależnym o powierzchni 21,46 m²",
+          "value": 550000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 143223.78
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 44183.53
+        },
+        {
+          "description": "Dochód z udziałów w spółkach handlowych (wynagrodzenie)",
+          "yearlyValue": 491710.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "FUTURE WOLVES, WEAR MELA",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "działalność transportowa",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

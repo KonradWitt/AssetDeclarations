@@ -1,0 +1,89 @@
+{
+  "firstName": "Anna",
+  "lastName": "Gembicka",
+  "dateOfBirth": "1991-11-07T00:00:00",
+  "placeOfBirth": "Włocławek",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D15DB40ED6BBA684C1258A51003B9CB1/$File/095.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-05-12T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9863216440A5886CC1258C7C0037AB87/%24File/OSW102_095.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 8000.0,
+          "baseValue": 8000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 101 m²",
+          "value": 420000.0,
+          "legalTitle": "własność, majątek odrębny, rozdzielność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 38,5 m²",
+          "value": 570000.0,
+          "legalTitle": "spółdzielcze własnościowe prawo do lokalu, majątek odrębny, rozdzielność majątkowa"
+        },
+        {
+          "description": "Działka o powierzchni 1037 m² i parterowy budynek niemieszkalny (garaż) o powierzchni 99 m²",
+          "value": null,
+          "legalTitle": "własność, majątek odrębny, rozdzielność majątkowa"
+        },
+        {
+          "description": "Udział w wysokości 1/5 w nieruchomości - mieszkanie o powierzchni 63,33 m² (wraz z piwnicą o powierzchni 2,23 m²)",
+          "value": 95800.0,
+          "legalTitle": "własność, majątek odrębny, rozdzielność majątkowa"
+        },
+        {
+          "description": "Korzystanie z piwnicy usytuowanej na kondygnacji -1 oraz z loggi",
+          "value": null,
+          "legalTitle": "korzystanie, majątek odrębny, rozdzielność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka sejmowa",
+          "value": 46750.0
+        },
+        {
+          "description": "Pożyczka od ojca Wacława Gembickiego",
+          "value": 25000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Pompa insulinowa Medtronic MiniMed 780G",
+          "value": 21475.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Przychody z najmu nieruchomości (dom)",
+          "yearlyValue": 20400.0
+        },
+        {
+          "description": "Przychody z najmu nieruchomości (mieszkanie)",
+          "yearlyValue": 30354.0
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 158716.88
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45145.50
+        },
+        {
+          "description": "Dochód z tytułu zatrudnienia",
+          "yearlyValue": 14216.24
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

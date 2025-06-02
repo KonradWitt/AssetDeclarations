@@ -1,0 +1,91 @@
+{
+  "firstName": "Grzegorz",
+  "lastName": "Woźniak",
+  "dateOfBirth": "1968-12-18T00:00:00",
+  "placeOfBirth": "Garwolin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/709DC3D00048196EC1258A51003BA2F4/$File/436.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/444E97E21269224FC1258C75006EE14C/%24File/OSW102_436.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 198000.0,
+          "baseValue": 198000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 930.0,
+          "baseValue": 4000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 640.0,
+          "baseValue": 2560.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni około 260 m²",
+          "value": 490000.0,
+          "legalTitle": "Akt notarialny, Repertorium"
+        },
+        {
+          "description": "Gospodarstwo rolne mieszane o powierzchni 8.9117 ha",
+          "value": 120000.0,
+          "legalTitle": "Akt notarialny, współwłasność małżeńska"
+        },
+        {
+          "description": "1/5 udziału w użytkach rolnych o powierzchni 1.7221 ha",
+          "value": 17000.0,
+          "legalTitle": "1/5 udziałów"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 2560 m² pod budowę mieszkalną",
+          "value": 133000.0,
+          "legalTitle": "Akt notarialny"
+        },
+        {
+          "description": "Teren przemysłowy o powierzchni 2101 m²",
+          "value": 35000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w PKO BP na potrzeby bieżące",
+          "value": 20000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Superb, rok 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie (brutto)",
+          "yearlyValue": 150492.13
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Dochód nieopodatkowany",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dochód opodatkowany",
+          "yearlyValue": 9573.04
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

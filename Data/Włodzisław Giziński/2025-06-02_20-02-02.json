@@ -1,0 +1,89 @@
+{
+  "firstName": "Włodzisław",
+  "lastName": "Giziński",
+  "dateOfBirth": "1952-10-19T00:00:00",
+  "placeOfBirth": "Działdowo",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/FEB917C16D738FAAC1258A51003B9CBE/$File/098.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-19T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/26953531981957EBC1258C7C0041895F/%24File/OSW102_098.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 35000.0,
+          "baseValue": 35000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "20% udziałów w kapitale zakładowym Centrum Medyczne Gizińscy sp. z o.o.",
+          "quantity": "20%",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 380 m²",
+          "value": 2000000.0,
+          "legalTitle": "WŁASNOŚĆ ŻONY, GOSPODARSTWO DOMOWE WSPÓLNE"
+        },
+        {
+          "description": "Gospodarstwo rolne (łąki leśne) o powierzchni 2,5 ha, zabudowane domem mieszkalnym 250 m², domem mieszkalnym 120 m² i budynkami gospodarczymi 70 m²",
+          "value": 1000000.0,
+          "legalTitle": "AKT WŁASNOŚCI, WSPÓŁWŁASNOŚCI 50%"
+        },
+        {
+          "description": "Budynek usługowy o powierzchni 1.100 m²",
+          "value": 3000000.0,
+          "legalTitle": "AKT WŁASNOŚCI, WSPÓŁWŁASNOŚĆ 34%"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na bieżącą działalność firmy (Prywatna Praktyka Lekarska) zaciągnięty w BNP Paribas Bank Polska Spółka Akcyjna z siedzibą w Warszawie",
+          "value": 201681.86
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dzierżawa",
+          "yearlyValue": 16470.0
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 83184.06
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 150742.13
+        },
+        {
+          "description": "Przychody z tytułu pełnienia obowiązków społecznych i obywatelskich (opodatkowane)",
+          "yearlyValue": 11966.35
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "CENTRUM MEDYCZNE GIZIŃSCY K.GIZIŃSKA, W.GIZIŃSKI, J.GIZIŃSKI, A.GIZIŃSKA, L.GIZIŃSKI",
+          "businessType": "spółka cywilna",
+          "description": "Uczestnictwo w spółce cywilnej",
+          "income": 6588.0
+        },
+        {
+          "businessName": "PRYWATNA PRAKTYKA LEKARSKA WŁODZISŁAW GIZIŃSKI",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Praktyka lekarska ogólna (PKD 8621Z)",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

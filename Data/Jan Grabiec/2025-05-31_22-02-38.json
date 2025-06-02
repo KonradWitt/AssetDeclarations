@@ -1,0 +1,91 @@
+{
+  "firstName": "Jan",
+  "lastName": "Grabiec",
+  "dateOfBirth": "1972-11-02T00:00:00",
+  "placeOfBirth": "Legionowo",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E4009FEF0047E88DC1258A51003B9D10/$File/115.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CDA39E1BCDEAE4A7C1258C7C004B2704/%24File/OSW102_115.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 150000.0,
+          "baseValue": 150000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1000.0,
+          "baseValue": 4300.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1000.0,
+          "baseValue": 3900.0
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 100.0,
+          "baseValue": 500.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 121,4 m² z działką 178 m²",
+          "value": 660000.0,
+          "legalTitle": "wspólność małżeńska"
+        },
+        {
+          "description": "Dom o powierzchni 239,85 m² z działką 855 m² (wartość ½ udziału)",
+          "value": 70000.0,
+          "legalTitle": "wspólność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 832 m² z udziałem w drodze 832/53218 m²",
+          "value": 76000.0,
+          "legalTitle": "wspólność małżeńska"
+        },
+        {
+          "description": "Działka rekreacyjna o powierzchni 1489 m² wraz z domkiem 70 m²",
+          "value": 250000.0,
+          "legalTitle": "wspólność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup domu w Banku Pekao S.A.",
+          "value": 312000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Ford Fiesta, rok produkcji 2012",
+          "value": null
+        },
+        {
+          "description": "Samochód Honda Odyssey, rok produkcji 2015",
+          "value": null
+        },
+        {
+          "description": "Samochód Opel Insignia, rok produkcji 2016",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 48099.96
+        },
+        {
+          "description": "Wynagrodzenie w Kancelarii Prezesa Rady Ministrów",
+          "yearlyValue": 246292.65
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

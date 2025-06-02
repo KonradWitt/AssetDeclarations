@@ -1,0 +1,106 @@
+{
+  "firstName": "Patryk",
+  "lastName": "Wicher",
+  "dateOfBirth": "1986-03-09T00:00:00",
+  "placeOfBirth": "Nowy Sącz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E267950047B826B1C1258A51003BA29D/$File/418.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/75626230ABA92FC0C1258C750044EDA0/%24File/OSW102_418.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 5008.56,
+          "baseValue": 5008.56
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 700.92,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Otwarty Fundusz Emerytalny Nationale Nederlanden",
+          "quantity": "859,8466",
+          "value": 58400.78
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom jednorodzinny w trakcie budowy, powierzchnia użytkowa 321,40 m²",
+          "value": 1400000.0,
+          "legalTitle": "małżeńska wspólnota majątkowa"
+        },
+        {
+          "description": "Mieszkanie, powierzchnia użytkowa 93,24 m²",
+          "value": 601555.0,
+          "legalTitle": "małżeńska wspólnota majątkowa"
+        },
+        {
+          "description": "Działka niezabudowana i nieuzbrojona (nr zamazany)",
+          "value": 180000.0,
+          "legalTitle": "małżeńska wspólnota majątkowa"
+        },
+        {
+          "description": "Działka stanowiąca drogę dojazdową wewnętrzną, współwłasność w 2/10 (nr zamazany)",
+          "value": 153750.0,
+          "legalTitle": "małżeńska wspólnota majątkowa"
+        },
+        {
+          "description": "Działka stanowiąca łąki trwałe i pastwiska trwałe, udział ½ części (nr zamazany)",
+          "value": 112500.0,
+          "legalTitle": "małżeńska wspólnota majątkowa"
+        },
+        {
+          "description": "Lokal niemieszkalny (nr zamazany)",
+          "value": 248911.14,
+          "legalTitle": "małżeńska wspólnota majątkowa"
+        },
+        {
+          "description": "Miejsce postojowe w garażu wielostanowiskowym (nr zamazany)",
+          "value": 33292.50,
+          "legalTitle": "małżeńska wspólnota majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Międzyzakładowej Kasy Zapomogowo-pożyczkowej w Nowym Sączu (na cele budowlane, zaciągnięta przez współmałżonka)",
+          "value": 8800.0
+        },
+        {
+          "description": "Pożyczka z Zespołu Szkół nr 4 w Nowym Sączu (na cele budowlane, zaciągnięta przez współmałżonka)",
+          "value": 20570.0
+        },
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych dla posłów z Kancelarii Sejmu (na cele budowlane)",
+          "value": 34000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Ford Fiesta, rok produkcji 2012",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 169945.88
+        },
+        {
+          "description": "Dochód z umowy zlecenie",
+          "yearlyValue": 2250.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

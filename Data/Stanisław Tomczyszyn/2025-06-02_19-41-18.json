@@ -1,0 +1,100 @@
+{
+  "firstName": "Stanisław",
+  "lastName": "Tomczyszyn",
+  "dateOfBirth": "1959-08-26T00:00:00",
+  "placeOfBirth": "Żagań",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6786B96CFC71A4D3C1258A51003BA229/$File/393.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/6955ABDF9834A385C1258C7500457F8E/%24File/OSW102_393.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 163611.08,
+          "baseValue": 163611.08
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Polisa na życie T.U. Aviva",
+          "quantity": null,
+          "value": 54219.65
+        },
+        {
+          "name": "Akcje Zielonogórskiego Rynku Rolno-Towarowego S.A.",
+          "quantity": "29",
+          "value": 2900.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 116 m²",
+          "value": 200000.0,
+          "legalTitle": "współwłasność 1/2 udziału z siostrą"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 38 m²",
+          "value": 120000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne ogólnorolne o powierzchni 0,88 ha (działka 105/1), zabudowa: murowana-budynki gospodarcze",
+          "value": 100000.0,
+          "legalTitle": "własność - majątek odrębny"
+        },
+        {
+          "description": "Działka o powierzchni 0,19 ha",
+          "value": 30000.0,
+          "legalTitle": "współwłasność z siostrą"
+        },
+        {
+          "description": "Działka o powierzchni 0,88 ha",
+          "value": 15000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Strych o powierzchni 20,70 m², 2 piwnice o łącznej powierzchni 38,60 m², garaż z 2 pomieszczeniami o łącznej powierzchni 47,70 m², udział 53/100 części we wspólnych częściach budynku i gruncie o powierzchni 0,1585 ha",
+          "value": 75000.0,
+          "legalTitle": "udział ułamkowy we własności"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy HYUNDAI I30 CLASSIC+, rok produkcji 2013",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z gospodarstwa rolnego",
+          "yearlyValue": 0.0
+        },
+        {
+          "description": "Dochód z akcji Zielonogórskiego Rynku Rolno-Towarowego S.A.",
+          "yearlyValue": 0.0
+        },
+        {
+          "description": "Dochód z tytułu zatrudnienia (trzynastka)",
+          "yearlyValue": 16361.23
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 175406.69
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 40707.88
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

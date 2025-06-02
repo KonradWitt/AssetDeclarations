@@ -1,0 +1,99 @@
+{
+  "firstName": "Norbert",
+  "lastName": "Pietrykowski",
+  "dateOfBirth": "1973-12-17T00:00:00",
+  "placeOfBirth": "Mława",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6E6D72569C5A6378C1258A51003BA057/$File/292.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-10T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E769A303471AA92BC1258C68003DDDC9/%24File/OSW102_292.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 40000.0,
+          "baseValue": 40000.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 10000.0,
+          "baseValue": 10000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 43 m²",
+          "value": 250000.0,
+          "legalTitle": "współwłasność z małżonką"
+        },
+        {
+          "description": "Działka 281 m²",
+          "value": 75000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Nieruchomość 97 m² (1/4 udziału)",
+          "value": null,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Nieruchomość 102.5 m²",
+          "value": 150000.0,
+          "legalTitle": null
+        },
+        {
+          "description": "Nieruchomość 95.18 m²",
+          "value": 145000.0,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka w Banku Ochrony Środowiska",
+          "value": 42384.22
+        },
+        {
+          "description": "Pożyczka z Kancelarii Sejmu, termin spłaty 31.12.2024",
+          "value": 42000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Zegarek Omega H282564341",
+          "value": null
+        },
+        {
+          "description": "Rower elektryczny Sinus Tria 07 eco",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45252.38
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 154382.91
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "DIA SERVICE Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "50% udziałów, nabytych 01.07.2024 aktem notarialnym Rep. A nr 3892/2024",
+          "income": 5364.05
+        },
+        {
+          "businessName": "AWIMED Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek rady nadzorczej, 20% udziałów",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

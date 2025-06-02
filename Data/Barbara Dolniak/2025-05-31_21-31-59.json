@@ -1,0 +1,118 @@
+{
+  "firstName": "Barbara",
+  "lastName": "Dolniak",
+  "dateOfBirth": "1960-09-12T00:00:00",
+  "placeOfBirth": "Bytom",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4C9AC7EB68DBE505C1258A51003B9C37/$File/067.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/198D854A1D7D933AC1258C7C0048BAE6/%24File/OSW102_067.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 160000.00,
+          "baseValue": 160000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 5095.00,
+          "baseValue": 21908.50
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 6495.64,
+          "baseValue": 25982.56
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje ENEA S.A.",
+          "quantity": "469",
+          "value": null
+        },
+        {
+          "name": "Akcje PKO BP S.A.",
+          "quantity": "264",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 200 m²",
+          "value": 950000.00,
+          "legalTitle": "współwłasność 3/4"
+        },
+        {
+          "description": "Zabudowana działka gruntu o powierzchni 2718 m²",
+          "value": 160000.00,
+          "legalTitle": "współwłasność 3/4"
+        },
+        {
+          "description": "Niezabudowana działka gruntu o powierzchni 1190 m²",
+          "value": 65000.00,
+          "legalTitle": "współwłasność 3/4"
+        },
+        {
+          "description": "Niezabudowana działka gruntu o powierzchni 1387 m²",
+          "value": 15000.00,
+          "legalTitle": "współwłasność 1/4"
+        },
+        {
+          "description": "Niezabudowana działka gruntu o powierzchni 919 m²",
+          "value": 13000.00,
+          "legalTitle": "współwłasność 1/4"
+        },
+        {
+          "description": "Zabudowana działka gruntu o powierzchni 363 m²",
+          "value": 36000.00,
+          "legalTitle": "współwłasność 1/4"
+        },
+        {
+          "description": "Dom o powierzchni 64 m²",
+          "value": 140000.00,
+          "legalTitle": "współwłasność 1/4"
+        },
+        {
+          "description": "Garaż o powierzchni 42 m²",
+          "value": 30000.00,
+          "legalTitle": "współwłasność 3/4"
+        },
+        {
+          "description": "Garaż o powierzchni 23 m²",
+          "value": 15000.00,
+          "legalTitle": "współwłasność 1/4"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych dla Posłów",
+          "value": 29750.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Mercedes CLS (C218) rok produkcji 2012",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z Sejmu",
+          "yearlyValue": 196668.01
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 141232.72
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

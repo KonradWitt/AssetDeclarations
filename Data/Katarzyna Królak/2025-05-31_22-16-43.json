@@ -1,0 +1,91 @@
+{
+  "firstName": "Katarzyna",
+  "lastName": "Królak",
+  "dateOfBirth": "1971-03-01T00:00:00",
+  "placeOfBirth": "Iława",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/EF5C3AF94B36B841C1258B46005B7435/$File/475.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/5501080723E58989C1258C7E00392D3D/%24File/OSW102_475.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 250000.0,
+          "baseValue": 250000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Lokal mieszkalno-użytkowy o powierzchni 188m² na nieruchomości gruntowej o powierzchni 671m²",
+          "value": 2000000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni łącznej 66,50m² (w tym 46,25m² mieszkanie, 3,5m² piwnica lokatorska, 16,75m² garaż)",
+          "value": 250000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 48,3m²",
+          "value": 100000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 50m²",
+          "value": 100000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt obrotowy na rachunku bankowym z tytułu prowadzenia działalności gospodarczej",
+          "value": 89728.88
+        },
+        {
+          "description": "Kredyt hipoteczny zaciągnięty w 2019 roku z Fundacji Rozwoju Regionu Łukta na zakup lokalu mieszkalno-użytkowego",
+          "value": 106418.77
+        },
+        {
+          "description": "Umowa deweloperska i umowa zobowiązująca z 2023 roku z Usługi Ogólnobudowlane Adam Krawczyk na promesę ustanowienia odrębnej własności lokalu mieszkalnego (68,61m² z komórką lokatorską 2,1m² i balkonem 12,5m²) wraz z miejscem postojowym w hali garażowej",
+          "value": 45000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Volkswagen UP!, rok produkcji 2019",
+          "value": 40000.0
+        },
+        {
+          "description": "Samochód osobowy Volkswagen bus Transporter, rok produkcji 2018",
+          "value": 100000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta Radnej Sejmiku Województwa Warmińsko-Mazurskiego",
+          "yearlyValue": 20557.42
+        },
+        {
+          "description": "Dieta Posła na Sejm RP",
+          "yearlyValue": 24718.03
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 89786.48
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Centrum Szkoleniowo - Konferencyjne ANIMATOR",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Główne PKD: 85.59.B Pozostałe pozaszkolne formy edukacji, gdzie indziej niesklasyfikowane",
+          "income": 87977.92
+        }
+      ]
+    }
+  ]
+}

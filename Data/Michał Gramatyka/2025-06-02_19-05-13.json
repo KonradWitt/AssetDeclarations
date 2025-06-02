@@ -1,0 +1,86 @@
+{
+  "firstName": "Michał",
+  "lastName": "Gramatyka",
+  "dateOfBirth": "1971-10-08T00:00:00",
+  "placeOfBirth": "Katowice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1308C1329F162834C1258A51003B9D1B/$File/117.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/86907366437B69A2C1258C7C004455DF/%24File/OSW102_117.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 292505.0,
+          "baseValue": 292505.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 997.0,
+          "baseValue": 3988.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 6137.0,
+          "baseValue": 26700.95
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Jednostki uczestnictwa w funduszach inwestycyjnych",
+          "quantity": null,
+          "value": 50463.0
+        },
+        {
+          "name": "Polisy ubezpieczeniowe",
+          "quantity": null,
+          "value": 156970.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 210 m² na działce 974 m²",
+          "value": 700000.0,
+          "legalTitle": "współwłasność majątkowa małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Getin Noble Bank na budowę domu jednorodzinnego, pozostało do spłaty w CHF",
+          "value": 128075.0
+        },
+        {
+          "description": "Karta kredytowa z limitem",
+          "value": 20000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Auris HSD, rok produkcji 2015",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Umowa o pracę i uposażenie poselskie",
+          "yearlyValue": 263500.0
+        },
+        {
+          "description": "Działalność wykonywana osobiście",
+          "yearlyValue": 9359.0
+        },
+        {
+          "description": "Prawa autorskie i prawa pokrewne",
+          "yearlyValue": 26947.0
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 47699.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "firstName": "Dariusz",
+  "lastName": "Stefaniuk",
+  "dateOfBirth": "1981-05-10T00:00:00",
+  "placeOfBirth": "Biała Podlaska",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/AFCBDB5C922142B4C1258A51003BA175/$File/356.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/89B5A3F16E109A6DC1258C7B003D769B/%24File/OSW102_356.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 8143.34,
+          "baseValue": 8143.34
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 240 m² wraz z działką",
+          "value": 855000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Nieruchomość gruntowa pod domem 1454 m²",
+          "value": 100000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Nieruchomość gruntowa 1813 m²",
+          "value": 170000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na zakup działek wraz z domem w Bank PKO BP",
+          "value": 220003.02
+        },
+        {
+          "description": "Pożyczka w Sejmie",
+          "value": 29750.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy VW Passat kombi, rok 2012",
+          "value": null
+        },
+        {
+          "description": "Motocykl BMW S1000 XR, rok 2017",
+          "value": null
+        },
+        {
+          "description": "Skuter BMW C400GT, rok 2020",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Subaru Forester, rok 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45252.38
+        },
+        {
+          "description": "Przychód z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 964.53
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 164601.40
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

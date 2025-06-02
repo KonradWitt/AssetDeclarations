@@ -1,0 +1,94 @@
+{
+  "firstName": "Małgorzata",
+  "lastName": "Golińska",
+  "dateOfBirth": "1980-10-30T00:00:00",
+  "placeOfBirth": "Szczecinek",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A063E32F6F3A7F17C1258A51003B9CDD/$File/104.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EC441531F68EF674C1258C7C00366976/%24File/OSW102_104.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 80000.0,
+          "baseValue": 80000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje pracownicze Schneider-Electric Elda S.A.",
+          "quantity": "9,9146",
+          "value": 5366.81
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 157,44m2 z gruntem 352 m² oraz udział wynoszący do 1/15 części w niezabudowanej działce gruntu o obszarze 0,1139ha",
+          "value": 930000.0,
+          "legalTitle": "własność - wspólność majątkowa małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 59,57 m²",
+          "value": 320000.0,
+          "legalTitle": "udział 3/32 - współwłasność, spadek po Ojcu w trakcie trwania małżeństwa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 27,51m² + piwnica 3,19m²",
+          "value": 180000.0,
+          "legalTitle": "współwłasność - udział 3/32 do mieszkania oraz do udziału 13/1000 we współwłasności części wspólnych i współużytkowania wieczystego działki - spadek po Ojcu w trakcie trwania małżeństwa"
+        },
+        {
+          "description": "Garaż o powierzchni 14,69m2",
+          "value": 40000.0,
+          "legalTitle": "udział 3/32 współwłasność, spadek po Ojcu w trakcie trwania małżeństwa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy w PKO BP na zakup nieruchomości wymienionej w pkt II.1 (dom), zaciągnięty na 360 miesięcy na nabycie, wykończenie, wolną kwotę",
+          "value": 270751.91
+        },
+        {
+          "description": "Karta kredytowa w Banku PKO BP S.A. z limitem 25 000 zł",
+          "value": 0.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Nissan Qashqai N-Motion rok prod. 2019",
+          "value": null
+        },
+        {
+          "description": "Motocykl Suzuki DL650 rok prod. 2009",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Ubezpieczenie na życie, Aviva",
+          "yearlyValue": 52000.0
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 47832.74
+        },
+        {
+          "description": "Wynagrodzenie z tytułu stosunku pracy w MKiŚ",
+          "yearlyValue": 73484.58
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 115439.76
+        },
+        {
+          "description": "Łączna wartość środków w PPK",
+          "yearlyValue": 28000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "firstName": "Mirosław",
+  "lastName": "Orliński",
+  "dateOfBirth": "1986-07-21T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5A953B7D01F982E1C1258A51003BA005/$File/275.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4F36E26F134B2D6BC1258C7A003D5185/%24File/OSW102_275.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 45000.00,
+          "baseValue": 45000.00,
+          "description": "Środki pieniężne w walucie polskiej (małżeńska wspólność majątkowa)"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 500.00,
+          "baseValue": null,
+          "description": "Środki pieniężne w walucie obcej (małżeńska wspólność majątkowa)"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 48,5 m²",
+          "value": 342000.00,
+          "legalTitle": "Własność – akt notarialny, majątek odrębny"
+        },
+        {
+          "description": "Mieszkanie 78,58 m²",
+          "value": 1252250.88,
+          "legalTitle": "Własność – akt notarialny, małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Schowek gospodarczy 3,68 m² i dwa miejsca garażowe 25 m²",
+          "value": 94890.00,
+          "legalTitle": "Własność – akt notarialny, małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w Banku PKO BP (małżeńska wspólność majątkowa)",
+          "value": 381262.20
+        },
+        {
+          "description": "Pożyczka z Kancelarii Sejmu na zakup mieszkania (małżeńska wspólność majątkowa)",
+          "value": 50000.00
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Umowa o pracę (nagroda za 2023r.)",
+          "yearlyValue": 12992.82
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 48099.96
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 173586.75
+        },
+        {
+          "description": "Darowizna od brata",
+          "yearlyValue": 35000.00
+        },
+        {
+          "description": "Sprzedaż samochodu",
+          "yearlyValue": 60000.00
+        },
+        {
+          "description": "Sprzedaż działki",
+          "yearlyValue": 210000.00
+        },
+        {
+          "description": "Odszkodowanie od ubezpieczyciela WARTA za uszkodzenie pojazdu",
+          "yearlyValue": 4200.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Krajowe Zrzeszenie LZS",
+          "businessType": "Fundacja/Stowarzyszenie",
+          "description": "Członek Rady Głównej KZ LZS oraz Przewodniczący Mazowieckiego Zrzeszenia LZS",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

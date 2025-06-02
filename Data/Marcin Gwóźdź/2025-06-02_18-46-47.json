@@ -1,0 +1,126 @@
+{
+  "firstName": "Marcin",
+  "lastName": "Gwóźdź",
+  "dateOfBirth": "1977-12-14T00:00:00",
+  "placeOfBirth": "Ząbkowice Śląskie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5D7AE467AF209F61C1258A51003B9D39/$File/123.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/92CEA3F7E94229F5C1258C760050BD78/%24File/OSW102_123.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 24000.0,
+          "baseValue": 24000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 480.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 500.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w spółce CORE Sp z o.o.",
+          "quantity": "9%",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 124 m² posadowiony na działce o pow. 495 m²",
+          "value": 320000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 54,87 m² z piwnicą o pow. 6,42 m² oraz udziałem 4,4% w prawie własności gruntu",
+          "value": 140000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 2,5462 ha z budynkiem mieszkalnym 116,67 m² i pomieszczeniem gospodarczym ok 80m² w złym stanie technicznym",
+          "value": 755000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka o pow. 1185 m²",
+          "value": 100000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Lokal użytkowy o powierzchni 33,34 m²",
+          "value": 1000000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka o pow. 0.55 ha (grunty orne, łąki)",
+          "value": 10000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka o pow. 610 m² zabudowana budynkami usługowymi o pow. 2x215,38 m²",
+          "value": 800000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "½ udziału w działce o pow. 346 m²",
+          "value": 10000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Lokal mieszkalno-usługowy o pow. 90,98 m²",
+          "value": 450000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka o pow. 1354 m²",
+          "value": 50000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka o pow. 1.3599 ha",
+          "value": 55000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód VOLVO XC60, rok 2015",
+          "value": 50000.0
+        },
+        {
+          "description": "Samochód Nissan Navara, rok 2016",
+          "value": 65000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Przychód z Kancelarii Sejmu",
+          "yearlyValue": 169311.60
+        },
+        {
+          "description": "Przychód z działalności wykonywanej osobiście",
+          "yearlyValue": 12099.96
+        },
+        {
+          "description": "Inne źródła",
+          "yearlyValue": 362.24
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 46695.96
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "firstName": "Jerzy",
+  "lastName": "Meysztowicz",
+  "dateOfBirth": "1958-10-01T00:00:00",
+  "placeOfBirth": "Kraków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/FB03734AFB2A20C2C1258B46005B7443/$File/478.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-27T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/ECCA05544110FDD5C1258C7C0028AF02/%24File/OSW102_478.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 480000.0,
+          "baseValue": 480000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 45000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały Ekowatt Spółka Jawna",
+          "quantity": "50%",
+          "value": 2500.0
+        },
+        {
+          "name": "Udziały Combis Spółka z o.o.",
+          "quantity": "870",
+          "value": 349740.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 260 m²",
+          "value": 5600000.0,
+          "legalTitle": "własność w ramach posiadanych udziałów w kamienicy"
+        },
+        {
+          "description": "Kamienica 2000 m² (udział 15%)",
+          "value": 5900000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Kamienica 520 m² (udział 29,90%)",
+          "value": 1900000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Dom wielorodzinny 340 m² (udział 26%)",
+          "value": 1490000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Kamieniczka 120 m² (udział 50%)",
+          "value": 440000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 10 arów (udział 50%)",
+          "value": 95000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 561 m²",
+          "value": 80000.0,
+          "legalTitle": "użytkowanie wieczyste"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Zobowiązanie do Polindus Sp. z o.o. z tytułu wycofania się z umowy kupna",
+          "value": 519857.24
+        },
+        {
+          "description": "Kredyt gotówkowy",
+          "value": 85494.0
+        },
+        {
+          "description": "Limit na karcie kredytowej",
+          "value": 37000.0
+        },
+        {
+          "description": "Limit na karcie kredytowej",
+          "value": 20000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Zegarki (Rolex, Patek Philippe), meble antyczne, obrazy i srebra rodzinne",
+          "value": 300000.0
+        },
+        {
+          "description": "Samochód osobowy LEXUS ES 300h (2018)",
+          "value": 120000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Przychód z najmu lokali (opodatkowany stawką 8,5%)",
+          "yearlyValue": 242645.49
+        },
+        {
+          "description": "Wynagrodzenie poselskie (za okres 6-12.2024)",
+          "yearlyValue": 88286.48
+        },
+        {
+          "description": "Dieta parlamentarna (za okres 6-12.2024)",
+          "yearlyValue": 23508.01
+        },
+        {
+          "description": "Świadczenie emerytalne",
+          "yearlyValue": 64874.76
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Ekowatt Spółka Jawna",
+          "businessType": "spółka jawna",
+          "description": "Udział 50%",
+          "income": 0.0
+        },
+        {
+          "businessName": "Combis Spółka z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Udział 870",
+          "income": 10243.32
+        },
+        {
+          "businessName": "Centrum Medycyny Profilaktycznej Sp. z o.o.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek rady nadzorczej (od 28.05.2002)",
+          "income": 10000.0
+        },
+        {
+          "businessName": "Fundacja Zamek Zawiszy Czarnego w Rożnowie",
+          "businessType": "fundacja",
+          "description": "Członek zarządu (od 01.10.2013)",
+          "income": 0.0
+        },
+        {
+          "businessName": "Fundacja Związku Polskich Kawalerów Małtańskich",
+          "businessType": "fundacja",
+          "description": "Członek Rady Fundacji (od 2012)",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "firstName": "Robert",
+  "lastName": "Gontarz",
+  "dateOfBirth": "1993-07-02T00:00:00",
+  "placeOfBirth": "Żuromin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7F3368A93476503DC1258A51003B9CEB/$File/107.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/35A947893EC0F613C1258C76004B5982/%24File/OSW102_107.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 49000.0,
+          "baseValue": 49000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje, ETF-y i ETN-y (Apple, Adobe Systems, AMD, Amazon, Broadcom, Bank of America, BlackRock, Berkshire, Cintas, Alphabet, Intel, JPMorgan Chase, Coca-Cola, McDonald's, Meta, Microsoft, Nike, Nvidia, Oracle, Synopsys, Tesla, Take-Two Interactive, Veeva Systems, NASDAQ 100, Core S&P 500, S&P 500 3x Daily Leveraged, NASDAQ 100 3x Daily Leveraged)",
+          "quantity": null,
+          "value": 61001.57
+        },
+        {
+          "name": "Obligacje Skarbu Państwa (3 letnie TOS0727/9)",
+          "quantity": "4250 szt.",
+          "value": 437707.50
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Volkswagen Jetta 2016r.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150064.58
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 47832.74
+        },
+        {
+          "description": "Uprawnienia pracownicze w czasie pobytu na urlopie bezpłatnym na czas sprawowania mandatu posła RP w ENERGA-OPERATOR SA ODDZIAŁ W TORUNIU",
+          "yearlyValue": 5000.00
+        },
+        {
+          "description": "Dochód z akcji, ETF-ów i ETN-ów (dywidenda po opodatkowaniu)",
+          "yearlyValue": 51.05
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

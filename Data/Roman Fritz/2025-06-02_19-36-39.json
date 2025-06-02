@@ -1,0 +1,97 @@
+{
+  "firstName": "Roman",
+  "lastName": "Fritz",
+  "dateOfBirth": "1986-01-03T00:00:00",
+  "placeOfBirth": "Mikołów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7B821DAF8B567A1AC1258A51003B9C79/$File/081.jpg",
+  "partyId": 4,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/481AAEA14FC5F2CDC1258C810038BC76/%24File/OSW102_081.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 132482.80,
+          "baseValue": 132482.80
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 200.00,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Papiery wartościowe (maklerskie)",
+          "quantity": "92,935",
+          "value": 2532.00
+        },
+        {
+          "name": "Udziały ROW INFO SP. Z O.O.",
+          "quantity": "50%",
+          "value": 2500.00
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 128.40 m²",
+          "value": 750000.00,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie 109.44 m²",
+          "value": 500000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 74.97 m²",
+          "value": 500000.00,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Dom mieszkalny 146.22 m²",
+          "value": 900000.00,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Leasing samochodowy VOLKSWAGEN FINANCIAL SERVICES na samochód SKODA SUPERB",
+          "value": 149477.24
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Opel Corsa, rok prod. 2010",
+          "value": 12000.00
+        },
+        {
+          "description": "Samochód VW Polo, rok prod. 2018",
+          "value": 50000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 896.15
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Jednoosobowa działalność gospodarcza",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "pośrednictwo handlowe",
+          "income": 548219.76
+        },
+        {
+          "businessName": "ROW INFO SP. Z O.O.",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek zarządu od 2022 r.",
+          "income": 0.00
+        }
+      ]
+    }
+  ]
+}

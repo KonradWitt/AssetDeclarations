@@ -1,0 +1,91 @@
+{
+  "firstName": "Patryk",
+  "lastName": "Gabriel",
+  "dateOfBirth": "1977-03-29T00:00:00",
+  "placeOfBirth": "Gdańsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D1FD7ECDE3544836C1258A51003B9C84/$File/084.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A8D86F69772657CEC1258C7500480BA9/%24File/OSW102_084.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 20000.0,
+          "baseValue": 20000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 421.0,
+          "baseValue": 1810.30
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 721.0,
+          "baseValue": 2847.95
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 134 m²",
+          "value": 700000.0,
+          "legalTitle": "Własność hipoteczna – małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 39,41 m²",
+          "value": 500000.0,
+          "legalTitle": "Własność hipoteczna – małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 991 m², na której posadowiony jest dom",
+          "value": 150000.0,
+          "legalTitle": "Własność hipoteczna – małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Miejsce postojowe w hali garażowej",
+          "value": 40000.0,
+          "legalTitle": "Własność hipoteczna – małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Komórka lokatorska",
+          "value": 10000.0,
+          "legalTitle": "Własność hipoteczna – małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na budowę domu w PKO BP",
+          "value": 159175.0
+        },
+        {
+          "description": "Pożyczka hipoteczna na zakup mieszkania w PKO BP",
+          "value": 188437.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota CHR, rok produkcji 2020",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu zatrudnienia w Starostwie Powiatowym w Starogardzie (umowa o pracę do 15.10.2023 r.)",
+          "yearlyValue": 15788.61
+        },
+        {
+          "description": "Dochód z tytułu uposażenia poselskiego i diety parlamentarnej z Kancelarii Sejmu",
+          "yearlyValue": 234629.39
+        },
+        {
+          "description": "Dochód z tytułu najmu mieszkania",
+          "yearlyValue": 6340.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

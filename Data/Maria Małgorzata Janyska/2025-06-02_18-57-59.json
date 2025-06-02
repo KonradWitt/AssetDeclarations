@@ -1,0 +1,122 @@
+{
+  "firstName": "Maria",
+  "lastName": "Janyska",
+  "dateOfBirth": "1962-01-16T00:00:00",
+  "placeOfBirth": "Wyrzysk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1C4847E7AFD4C623C1258A51003B9D8D/$File/140.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/B45A2FFFB3575542C1258C75006DE165/%24File/OSW102_140.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 40000.0,
+          "baseValue": 40000.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 198.73,
+          "baseValue": 198.73
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 5808.16,
+          "baseValue": 5808.16
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni: 232 m²",
+          "value": 600000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni: 30,10 m²",
+          "value": 300000.0,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Nieruchomość zabudowana - działka o pow. 129 m², budynek o pow. 220 m²",
+          "value": 240000.0,
+          "legalTitle": "współwłasność małżeńska do ½ całości (współwłasność z inną osobą fizyczną)"
+        },
+        {
+          "description": "Pawilon handlowy o pow. 37 m²",
+          "value": 90000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Pawilon handlowy o pow. 70 m²",
+          "value": 180000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Nieruchomość gruntowa o pow. 1148 m²",
+          "value": 5000.0,
+          "legalTitle": "majątek odrębny"
+        },
+        {
+          "description": "Nieruchomość o pow. 60 m², zabudowana pawilonem handlowym o pow. 36 m²",
+          "value": 135000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Nieruchomość niezabudowana o pow. 0,1039 ha (1039 m²)",
+          "value": 10000.0,
+          "legalTitle": "współwłasność małżeńska (4/10 części w prawie własności nieruchomości działki)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka na instalację fotowoltaiczną w PKO BP/O Czarnków",
+          "value": 3247.44
+        },
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych",
+          "value": 29750.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda FRV, rok prod. 2007",
+          "value": null
+        },
+        {
+          "description": "Samochód BMW X3, rok prod. 2011",
+          "value": null
+        },
+        {
+          "description": "Samochód Audi Q5, rok prod. 2009",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 194420.65
+        },
+        {
+          "description": "Dieta Rady Ochrony Pracy",
+          "yearlyValue": 12400.00
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 106000.80
+        },
+        {
+          "description": "Podnajem mieszkania",
+          "yearlyValue": 2196.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

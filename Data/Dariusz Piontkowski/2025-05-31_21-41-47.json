@@ -1,0 +1,111 @@
+{
+  "firstName": "Dariusz",
+  "lastName": "Piontkowski",
+  "dateOfBirth": "1964-12-17T00:00:00",
+  "placeOfBirth": "Sielec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E9B44357B02F2A41C1258A51003BA061/$File/294.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D5AE164D1729F6D2C1258C760046B1F7/%24File/OSW102_294.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 110000.0,
+          "baseValue": 110000.0,
+          "description": "Środki pieniężne w walucie polskiej (małżeńska wspólność majątkowa)"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1400.0,
+          "baseValue": 5992.7,
+          "description": "Środki pieniężne w walucie obcej"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "IKE - obligacje Skarbu Państwa",
+          "quantity": null,
+          "value": 48000.0,
+          "description": null
+        },
+        {
+          "name": "Obligacje Skarbu Państwa",
+          "quantity": "3000",
+          "value": 300000.0,
+          "description": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "name": "Obligacje Skarbu Państwa",
+          "quantity": "1500",
+          "value": 177459.0,
+          "description": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "name": "IKZE",
+          "quantity": null,
+          "value": 65300.0,
+          "description": "Małżeńska wspólność majątkowa"
+        },
+        {
+          "name": "Ubezpieczenie III filar",
+          "quantity": null,
+          "value": 87000.0,
+          "description": null
+        },
+        {
+          "name": "PPK",
+          "quantity": null,
+          "value": 28000.0,
+          "description": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 48 m²",
+          "value": 300000.0,
+          "legalTitle": "Spółdzielcze własnościowe prawo do lokalu, współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie 45,86 m² (udział 3/32 spadku po ojcu)",
+          "value": 20000.0,
+          "legalTitle": "Spółdzielcze własnościowe prawo do lokalu, udział 3/32 spadku po ojcu"
+        },
+        {
+          "description": "Mieszkanie 48,80 m² (udział 3/32 spadku po ojcu)",
+          "value": 30000.0,
+          "legalTitle": "Odrębna nieruchomość, udział 3/32 spadku po ojcu"
+        },
+        {
+          "description": "Działka rekreacyjna niezabudowana 1117 m²",
+          "value": 16500.0,
+          "legalTitle": "Prawo własności, małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka pracownicza 312 m²",
+          "value": 40000.0,
+          "legalTitle": "Umowa dzierżawy, małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z Ministerstwa Edukacji i Nauki",
+          "yearlyValue": 98859.69
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 158353.62
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 7
+}

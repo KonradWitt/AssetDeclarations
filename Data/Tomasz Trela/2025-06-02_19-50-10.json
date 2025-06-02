@@ -1,0 +1,79 @@
+{
+  "firstName": "Tomasz",
+  "lastName": "Trela",
+  "dateOfBirth": "1979-12-30T00:00:00",
+  "placeOfBirth": "Łódź",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5D54C546A0FDA40AC1258A51003BA231/$File/395.jpg",
+  "employment": "Poseł na Sejm RP X kadencji",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FFE42505CC5D3B1EC1258C810049B325/%24File/OSW102_395.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 100000.0,
+          "baseValue": 100000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Papiery wartościowe i akcje",
+          "description": "Jednostki uczestnictwa funduszy inwestycyjnych (Skarbiec Spółek Wzrostowych, Quercus Ochrony Kapitału, PZU Sejf +, Investor Nowych Technologii, PKO Dóbr Luksusowych Globalny, Quercus Dłużny Krótkoterminowy, Schroder GlobalTarget Return) oraz akcje (GPW FON: 2 szt., LARK: 361 szt., POLIMEX MS: 34 szt.)",
+          "value": 630000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 66 m²",
+          "value": 720000.0,
+          "legalTitle": "Prawo własnościowe do lokalu"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 52,97 m²",
+          "value": 420000.0,
+          "legalTitle": "Spółdzielcze własnościowe prawo do lokalu"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 57,72 m² z komórką lokatorską i miejscem postojowym",
+          "value": 660000.0,
+          "legalTitle": "Prawo własności do lokalu mieszkalnego wraz z udziałem w częściach wspólnych budynku"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP zaciągnięty 28.04.2008 na 40 lat (pierwotna kwota 158 745,43 CHF)",
+          "value": 99699.0,
+          "currency": "CHF"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód BMW Seria 5, rok produkcji 2018",
+          "value": null
+        },
+        {
+          "description": "Zegarki (Maurice Lacroix, Breitling, Omega)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 204915.67
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dochód z wynajmu nieruchomości",
+          "yearlyValue": 18700.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

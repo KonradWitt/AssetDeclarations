@@ -1,0 +1,95 @@
+{
+  "firstName": "Andrzej",
+  "lastName": "Zapałowski",
+  "dateOfBirth": "1966-11-06T00:00:00",
+  "placeOfBirth": "Wałbrzych",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2A8DD450AD69A108C1258A51003BA313/$File/443.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/28488BEDE44954EDC1258C7500454DDA/%24File/OSW102_443.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 55000.0,
+          "baseValue": 55000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 3450.0,
+          "baseValue": 14835.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Gospodarstwo rolne o powierzchni 24,04 ha, zabudowa gospodarcza",
+          "value": 140000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Działka o powierzchni 98451 m² (1/6 udziału)",
+          "value": 180000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Działka o powierzchni 59502 m² (1/8 udziału)",
+          "value": 180000.0,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Land Rover Discovery III (2008)",
+          "value": null
+        },
+        {
+          "description": "Samochód Skoda Superb (2015)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie (Sejm RP)",
+          "yearlyValue": 168943.95
+        },
+        {
+          "description": "Dieta poselska (opodatkowana i nieopodatkowana)",
+          "yearlyValue": 81679.52
+        },
+        {
+          "description": "Dochód opodatkowany",
+          "yearlyValue": 5670.92
+        },
+        {
+          "description": "Dochód z pakietu prawnego",
+          "yearlyValue": 586.86
+        },
+        {
+          "description": "Dochód z umowy o dzieło/zlecenie",
+          "yearlyValue": 20986.48
+        },
+        {
+          "description": "Ryczałt",
+          "yearlyValue": 611.0
+        },
+        {
+          "description": "Dochód z Uniwersytetu",
+          "yearlyValue": 21625.72
+        },
+        {
+          "description": "Inne dochody",
+          "yearlyValue": 10905.62
+        },
+        {
+          "description": "Dochód z gospodarstwa rolnego",
+          "yearlyValue": 565.52
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

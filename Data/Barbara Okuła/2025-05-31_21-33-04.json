@@ -1,0 +1,94 @@
+{
+  "firstName": "Barbara",
+  "lastName": "Okuła",
+  "dateOfBirth": "1973-12-04T00:00:00",
+  "placeOfBirth": "Siemiatycze",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6DE7A139FC3199BCC1258A51003B9FF2/$File/271.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FAB0520BA938631AC1258C7B003086D6/%24File/OSW102_271.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 2580.0,
+          "baseValue": 2580.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 5535.0,
+          "baseValue": 5535.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Polisy na życie",
+          "value": 110325.63
+        },
+        {
+          "name": "Fundusze",
+          "value": 13871.88
+        },
+        {
+          "name": "Akcje giełdowe",
+          "value": 47652.88
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 450 m² na działce 4200 m²",
+          "value": 2500000.0,
+          "legalTitle": "Wspólność majątkowa małżeńska"
+        },
+        {
+          "description": "Siedlisko o powierzchni 2500 m² z zabudowaniami: budynek mieszkalny, gospodarczy, obora, stodoła",
+          "value": 300000.0,
+          "legalTitle": "Wspólność majątkowa małżeńska"
+        },
+        {
+          "description": "Dom o powierzchni 280 m² na działce 820 m²",
+          "value": 250000.0,
+          "legalTitle": "Wspólność majątkowa małżeńska"
+        },
+        {
+          "description": "Dom o powierzchni 160 m² na działce 700 m², udział 12.5% ze spadku",
+          "value": 75000.0,
+          "legalTitle": "Spadek"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na budowę domu w PKO BP",
+          "value": 411366.45
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Aston Martin DBX, rok prod. 2021",
+          "value": 700000.0
+        },
+        {
+          "description": "Samochód Porsche Macan",
+          "value": 76000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 173076.65
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Kwota wolna od podatku",
+          "yearlyValue": 36000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

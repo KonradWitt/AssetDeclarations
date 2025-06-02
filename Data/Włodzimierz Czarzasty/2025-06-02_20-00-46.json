@@ -1,0 +1,126 @@
+{
+  "firstName": "Włodzimierz",
+  "lastName": "Czarzasty",
+  "dateOfBirth": "1960-05-03T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/9A8BF54B87FF7BDDC1258A51003B9C12/$File/058.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D790A9AFAD83761DC1258C7C0028F62D/%24File/OSW102_058.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 133363.21,
+          "baseValue": 133363.21,
+          "description": "Bank Pekao SA"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 538.0,
+          "baseValue": 538.0,
+          "description": "Biuro Maklerskie Millennium"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 50000.0,
+          "baseValue": 50000.0,
+          "description": "Gotówka"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 4731.0,
+          "baseValue": 4731.0,
+          "description": "Bank Pekao SA - Biuro Maklerskie"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 4000.0,
+          "baseValue": null,
+          "description": "Gotówka"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje MULA S.A. w Warszawie",
+          "quantity": "30303",
+          "value": 430302.0
+        },
+        {
+          "name": "Obligacje ROR 125/719 PL 0000116448",
+          "quantity": "1000",
+          "value": 110209.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 255.51 m²",
+          "value": 1500000.0,
+          "legalTitle": "Współwłasność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 25.12 m²",
+          "value": 350000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Nieruchomość zabudowana o powierzchni 0.4932 ha",
+          "value": 2500000.0,
+          "legalTitle": "Współwłasność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Jacht motorowy VH 939",
+          "value": 220000.0
+        },
+        {
+          "description": "Wyposażenie domu",
+          "value": null
+        },
+        {
+          "description": "Obrazy (współwłasność)",
+          "value": null
+        },
+        {
+          "description": "Biblioteka (15 tys. tomów)",
+          "value": null
+        },
+        {
+          "description": "Wyroby ze srebra i złota",
+          "value": null
+        },
+        {
+          "description": "Ubezpieczenie na życie z gwarantowaną emeryturą (wartość wykupu)",
+          "value": 207726.0
+        },
+        {
+          "description": "Indywidualne Konto Emerytalne (IKE) - wartość nagromadzonych środków",
+          "value": 121000.0
+        },
+        {
+          "description": "Działka ogrodowa",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.0
+        },
+        {
+          "description": "Wynagrodzenie",
+          "yearlyValue": 314157.0
+        },
+        {
+          "description": "Wynajem mieszkania",
+          "yearlyValue": 27300.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

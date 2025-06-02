@@ -1,0 +1,119 @@
+{
+  "firstName": "Zbigniew",
+  "lastName": "Bogucki",
+  "dateOfBirth": "1980-01-26T00:00:00",
+  "placeOfBirth": "Góra",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D4A34AD45D836D07C1258A51003B9B74/$File/025.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/396994D6EA5929D7C1258C81003A0D5D/%24File/OSW102_025.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 235488.19,
+          "baseValue": 235488.19
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 36.52,
+          "baseValue": 164.34
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Papiery wartościowe",
+          "quantity": null,
+          "value": 50.40
+        },
+        {
+          "name": "Akcje Gant Development S.A.",
+          "quantity": "720",
+          "value": 50.40
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 78,66 m²",
+          "value": 865260.0,
+          "legalTitle": "własność objęta małżeńską wspólnością majątkową"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 57,62 m²",
+          "value": 633820.0,
+          "legalTitle": "własność objęta małżeńską wspólnością majątkową"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 31,60 m² z komórką lokatorską 3,33 m²",
+          "value": 372600.0,
+          "legalTitle": "własność objęta małżeńską wspólnością majątkową"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 60,70 m² z komórką lokatorską 2,73 m², tarasem i miejscem parkingowym",
+          "value": 485600.0,
+          "legalTitle": "własność objęta małżeńską wspólnością majątkową"
+        },
+        {
+          "description": "Komórka lokatorska o powierzchni 2,01 m²",
+          "value": 12000.0,
+          "legalTitle": "własność objęta małżeńską wspólnością majątkową"
+        },
+        {
+          "description": "Lokal niemieszkalny - garaż wielostanowiskowy podziemny o powierzchni 85,24 m² (prawo do korzystania z trzech miejsc postojowych)",
+          "value": 150000.0,
+          "legalTitle": "własność objęta małżeńską wspólnością majątkową"
+        },
+        {
+          "description": "Udział 1/33 w lokalu niemieszkalnym - garażu wielostanowiskowym (prawo do korzystania z jednego miejsca postojowego o powierzchni 11,50 m²)",
+          "value": 50000.0,
+          "legalTitle": "własność objęta małżeńską wspólnością majątkową"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny indeksowany na zakup mieszkania w PKO Bank Polski S.A.",
+          "value": 102990.94
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Peugeot 207 (rok produkcji 2008)",
+          "value": 10500.0
+        },
+        {
+          "description": "Samochód osobowy KIA Optima (rok produkcji 2016)",
+          "value": 56000.0
+        },
+        {
+          "description": "Monety okolicznościowe i kolekcjonerskie",
+          "value": 30000.0
+        },
+        {
+          "description": "Pompa insulinowa Medtronic Minimed 780G",
+          "value": 23900.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150064.58
+        },
+        {
+          "description": "Przychód z wynajmu miejsc postojowych",
+          "yearlyValue": 3438.82
+        },
+        {
+          "description": "Przychód z wynajmu mieszkań i miejsca postojowego",
+          "yearlyValue": 42850.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "firstName": "Stefan",
+  "lastName": "Krajewski",
+  "dateOfBirth": "1981-06-08T00:00:00",
+  "placeOfBirth": "Zambrów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B8EC19C5D1BCEA71C1258A51003B9E60/$File/183.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/80B8A70A0088E985C1258C7C002A8A09/%24File/OSW102_183.pdf",
+      "cashPositions": [
+        {
+          "description": "Środki pieniężne",
+          "currency": "PLN",
+          "currencyValue": 15000.0,
+          "baseValue": 15000.0
+        },
+        {
+          "description": "Polisa na życie",
+          "currency": "PLN",
+          "currencyValue": 107427.11,
+          "baseValue": 107427.11
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 185 m²",
+          "value": 805000.0,
+          "legalTitle": "własność - małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka o powierzchni 1500 m²",
+          "value": 150000.0,
+          "legalTitle": "własność - małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na budowę domu w Banku Spółdzielczym w Łomży (pierwotna kwota 398.300,00 zł)",
+          "value": 314924.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Ford Mondeo 2.0, rok produkcji 2015",
+          "value": null
+        },
+        {
+          "description": "Samochód ciężarowy Skoda Scala 1.0, rok produkcji 2022",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie Sekretarz Stanu w MRIRW",
+          "yearlyValue": 221084.46
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 425.41
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

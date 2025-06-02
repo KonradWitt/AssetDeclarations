@@ -1,0 +1,118 @@
+{
+  "firstName": "Katarzyna",
+  "lastName": "Lubnauer",
+  "dateOfBirth": "1969-07-24T00:00:00",
+  "placeOfBirth": "Łódź",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/3B19DF53B6608DE3C1258A51003B9F01/$File/218.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/990657AC176FEC14C1258C760043889D/%24File/OSW102_218.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 297734.0,
+          "baseValue": 297734.0
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 68.0,
+          "baseValue": 306.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 535.0,
+          "baseValue": 2300.5
+        },
+        {
+          "currency": "NOK",
+          "currencyValue": 15000.0,
+          "baseValue": 5700.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje skarbowe",
+          "quantity": null,
+          "value": 3116596.10
+        },
+        {
+          "name": "Fundusze inwestycyjne",
+          "quantity": null,
+          "value": 1941147.78
+        },
+        {
+          "name": "Ubezpieczenie na życie (mąż)",
+          "quantity": null,
+          "value": 47677.24
+        },
+        {
+          "name": "Akcje Toya SA",
+          "quantity": "61831",
+          "value": null
+        },
+        {
+          "name": "Akcje PKO BP",
+          "quantity": "462",
+          "value": 27609.12
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 180 m² na działce o powierzchni 726 m² z udziałem w drodze",
+          "value": 1340000.0,
+          "legalTitle": null
+        },
+        {
+          "description": "Mieszkanie o powierzchni 32 m²",
+          "value": 190000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Spółdzielcze własnościowe prawo do lokalu mieszkalnego o powierzchni 54 m² (1/4 udziału)",
+          "value": 210000.0,
+          "legalTitle": "spółdzielcze własnościowe prawo do lokalu"
+        },
+        {
+          "description": "Działki gruntu o łącznej powierzchni 5,08 ha (1/4 udziału), nieużytki rolne V-VI kl.",
+          "value": 150000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Dom mieszkalny letniskowy o powierzchni 48 m² (1/4 udziału)",
+          "value": 100000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Miejsce postojowe w garażu wielostanowiskowym o powierzchni około 20 m² (1/4 udziału)",
+          "value": 10000.0,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Yaris Cross",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie brutto z Ministerstwa Edukacji Narodowej",
+          "yearlyValue": 234733.80
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dochód z akcji Toya SA",
+          "yearlyValue": 0.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

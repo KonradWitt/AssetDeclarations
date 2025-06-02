@@ -1,0 +1,68 @@
+{
+  "firstName": "Marcin",
+  "lastName": "Bosacki",
+  "dateOfBirth": "1970-11-05T00:00:00",
+  "placeOfBirth": "Poznań",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6B65A036E48628FEC1258A51003B9B92/$File/031.jpg",
+  "partyId": 1,
+  "employmentDetails": "Sejm RP, Poseł",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-16T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CF3252FFFD0FD9D0C1258C750045A432/%24File/OSW102_031.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 228484.72,
+          "baseValue": 228484.72
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 104511.64,
+          "baseValue": 104511.64,
+          "description": "IKE"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 695.73,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 120 m² na działce 3000 m², Łódź",
+          "value": 900000.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Obraz Edwarda Dwurnika",
+          "value": 55000.0
+        },
+        {
+          "description": "Zegarek Dubey & Schaldenbrand",
+          "value": 10000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 182375.72
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45038.62
+        },
+        {
+          "description": "Przychód z tytułu zwiększonych limitów na służbowe podróże zagraniczne",
+          "yearlyValue": 19544.62
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

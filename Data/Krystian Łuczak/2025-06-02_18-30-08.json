@@ -1,0 +1,64 @@
+{
+  "firstName": "Krystian",
+  "lastName": "Łuczak",
+  "dateOfBirth": "1975-01-16T00:00:00",
+  "placeOfBirth": "Włocławek",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/14C3DC4DDEE1F2C3C1258A51003B9F16/$File/223.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CFF697E8E4571B64C1258C76004A947A/%24File/OSW102_223.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 150000.00,
+          "baseValue": 150000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 154,39 m²",
+          "value": 300000.00,
+          "legalTitle": "1/2 udziału współwłasność - odrębność majątkowa"
+        },
+        {
+          "description": "Działka o powierzchni 0,0810 ha",
+          "value": 45000.00,
+          "legalTitle": "własność odrębność majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dochód nieopodatkowany",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dochód ze spadku",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Przychody z tytułu użyczenia samochodu służbowego",
+          "yearlyValue": null
+        },
+        {
+          "description": "Diety",
+          "yearlyValue": 507.44
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

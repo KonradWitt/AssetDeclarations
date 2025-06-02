@@ -1,0 +1,81 @@
+{
+  "firstName": "Michał",
+  "lastName": "Cieślak",
+  "dateOfBirth": "1974-12-08T00:00:00",
+  "placeOfBirth": "Dąbrowa Tarnowska",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A5FCB5919CD7C696C1258A51003B9BF7/$File/052.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-20T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4F553E98EE47E3E3C1258C740051C5B2/%24File/OSW102_052.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 95000.0,
+          "baseValue": 95000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 80 m²",
+          "value": 150000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 43 m² z miejscem postojowym",
+          "value": 250000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 3.77 ha, zabudowa murowana",
+          "value": 150000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 44 m² z miejscem postojowym",
+          "value": 600000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie penthouse o powierzchni 127.77 m² z miejscem postojowym w garażu podziemnym, komórką lokatorską 6 m², balkonami i tarasami o powierzchni około 70 m²",
+          "value": 1057000.0,
+          "legalTitle": "Akt notarialny umowa kupna"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy w PKO BP, pozostało do spłaty",
+          "value": 444466.25
+        },
+        {
+          "description": "Pożyczka od bliskiego członka rodziny, udzielona w USD, przeliczona na PLN",
+          "value": 164000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Scenic, rok produkcji 2006",
+          "value": 10000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie (brutto)",
+          "yearlyValue": 161108.55
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 44504.18
+        },
+        {
+          "description": "EFRY AL, MR.",
+          "yearlyValue": 2500.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

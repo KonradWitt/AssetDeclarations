@@ -1,0 +1,88 @@
+{
+  "firstName": "Adrian",
+  "lastName": "Witczak",
+  "dateOfBirth": "1991-03-20T00:00:00",
+  "placeOfBirth": "Tomaszów Mazowiecki",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B2E8E059646C4003C1258A51003BA2C5/$File/426.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7DD3B22F8AD46A95C1258C7C0048EBE0/%24File/OSW102_426.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 450000.0,
+          "baseValue": 450000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1500.0,
+          "baseValue": 6525.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 48,22 m²",
+          "value": 220000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 32,30 m²",
+          "value": 180000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 2910 m²",
+          "value": 85000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 1630 m²",
+          "value": 45000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 1695 m²",
+          "value": 30000.0,
+          "legalTitle": "2/3 własności"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód KIA Sportage, rok produkcji 2015",
+          "value": null
+        },
+        {
+          "description": "Samochód Volvo XC60, rok produkcji 2024 (najem)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Stosunki pracy",
+          "yearlyValue": 11603.07
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.93
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Jednoosobowa działalność gospodarcza",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "usługi edukacyjne i zarządcze - zawieszona z dniem 31.10.2023 r.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "firstName": "Adam",
+  "lastName": "Luboński",
+  "dateOfBirth": "1969-04-30T00:00:00",
+  "placeOfBirth": "Piła",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/57195B7EE88D1E15C1258A51003B9F04/$File/219.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FA292002FB3F1CBEC1258C750044446E/%24File/OSW102_219.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 47768.06,
+          "baseValue": 47768.06
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 67.34,
+          "baseValue": 67.34
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 5000.00,
+          "baseValue": 5000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 18.45,
+          "baseValue": 79.34
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 147 m²",
+          "value": 700000.00,
+          "legalTitle": "wspólnota majątkowa małżeńska"
+        },
+        {
+          "description": "Działka 1088 m²",
+          "value": 130000.00,
+          "legalTitle": "wspólnota majątkowa małżeńska"
+        },
+        {
+          "description": "Warsztat 175 m²",
+          "value": 150000.00,
+          "legalTitle": "wspólnota majątkowa małżeńska"
+        },
+        {
+          "description": "Budynek wolnostojący 60 m²",
+          "value": 40000.00,
+          "legalTitle": "wspólnota majątkowa małżeńska"
+        },
+        {
+          "description": "Działka gruntowa 273 m²",
+          "value": 30000.00,
+          "legalTitle": "wspólnota majątkowa małżeńska"
+        },
+        {
+          "description": "Budynek warsztatowy 200 m²",
+          "value": 370000.00,
+          "legalTitle": "wspólnota majątkowa małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych dla posłów - Kancelaria Sejmu",
+          "value": 37400.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Kabina lakiernicza Euro-kabina nr. seryjny 051/07",
+          "value": 100000.00
+        },
+        {
+          "description": "Sprężarka śrubowa SMART 11 nr. seryjny 100163, 2 szt.",
+          "value": 24000.00
+        },
+        {
+          "description": "Piec pelet TEKLA nr. seryjny 29399",
+          "value": 14000.00
+        },
+        {
+          "description": "Descylarka model ISTC2 numer seryjny G096",
+          "value": 10000.00
+        },
+        {
+          "description": "Samochód Ford Fusion 2017",
+          "value": 70000.00
+        },
+        {
+          "description": "Samochód Toyota Prius 2016",
+          "value": 65000.00
+        },
+        {
+          "description": "Samochód Citroen DS5 2012 (1/2 udziałów)",
+          "value": 43000.00
+        },
+        {
+          "description": "Wyposażenie domu",
+          "value": 130000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie - wiceprezes zarządu Wielkopolskiego Związku Piłki Nożnej w Poznaniu",
+          "yearlyValue": 53169.24
+        },
+        {
+          "description": "Członek zarządu - Cech Rzemiosł Różnych w Pile (funkcja społeczna, bez wynagrodzenia)",
+          "yearlyValue": 0.00
+        },
+        {
+          "description": "Wynagrodzenie - Poseł na Sejm RP - Kancelaria Sejmu",
+          "yearlyValue": 166019.64
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

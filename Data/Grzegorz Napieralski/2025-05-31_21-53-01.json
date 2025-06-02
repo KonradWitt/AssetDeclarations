@@ -1,0 +1,82 @@
+{
+  "firstName": "Grzegorz",
+  "lastName": "Napieralski",
+  "dateOfBirth": "1974-03-18T00:00:00",
+  "placeOfBirth": "Szczecin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0DF3FA597418BFD3C1258A51003B9FB3/$File/257.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7A01E4CB77BFF80CC1258C7A003C9387/%24File/OSW102_257.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 6274.0,
+          "baseValue": 6274.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 156217.0,
+          "baseValue": 156217.0,
+          "description": "Konto oszczędnościowe"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 18500.0,
+          "baseValue": 18500.0,
+          "description": "Fundusz Inwestycyjny"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 65,68 m² z balkonem + tarasem 44,16 m² i miejscem postojowym w hali",
+          "value": 952320.0,
+          "legalTitle": "Umowa deweloperska"
+        },
+        {
+          "description": "1/6 udziału w prawie własności do lokalu mieszkalnego 100 m²",
+          "value": 620000.0,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Umowa deweloperska na mieszkanie wykazane w pkt. 2",
+          "value": null
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Hyundai Tucson, rok produkcji 2024 (najem długoterminowy na Biuro Poselskie)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 964.53
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 188406.57
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

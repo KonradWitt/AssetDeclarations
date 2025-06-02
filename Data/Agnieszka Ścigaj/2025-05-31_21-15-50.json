@@ -1,0 +1,48 @@
+{
+  "firstName": "Agnieszka",
+  "lastName": "Ścigaj",
+  "dateOfBirth": "1981-12-22T00:00:00",
+  "placeOfBirth": "Kałusze",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0749077ADA54D50DC1258A51003BA1EB/$File/380.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FD80E7931C639B39C1258C7C0046B47F/%24File/OSW102_380.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 25000.00,
+          "baseValue": 25000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 123 m²",
+          "value": 350000.00,
+          "legalTitle": "własność, majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP",
+          "value": 140000.00
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie Sejm RP",
+          "yearlyValue": 138668.59
+        },
+        {
+          "description": "KPRM",
+          "yearlyValue": 46935.96
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

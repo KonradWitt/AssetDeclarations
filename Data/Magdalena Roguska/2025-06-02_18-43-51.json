@@ -1,0 +1,119 @@
+{
+  "firstName": "Magdalena",
+  "lastName": "Roguska",
+  "dateOfBirth": "1980-06-22T00:00:00",
+  "placeOfBirth": "Parczew",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B418C279F8CEA0FCC1258B46005B7459/$File/483.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/B412477569CFD2A1C1258C7C005706B6/%24File/OSW102_483.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 270500.0,
+          "baseValue": 270500.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 43.0,
+          "baseValue": 184.9
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbu Państwa",
+          "quantity": "Łącznie wiele sztuk",
+          "value": 198100.0
+        },
+        {
+          "name": "Obligacje korporacyjne (CAV1226, CAV0925, ERB0925, GHE0226)",
+          "quantity": "18 sztuk",
+          "value": 18600.0
+        },
+        {
+          "name": "Obligacje korporacyjne (CAV0526, CPF1227, ERB0925, MVP0825, OBC0226, ETFSP500, GHE0728, GHE1127, UN1026) - IKE męża",
+          "quantity": "66 sztuk",
+          "value": 37960.0
+        },
+        {
+          "name": "IKZE - obligacje (CPF1227, UNI1026) - rachunek maklerski męża",
+          "quantity": "49 sztuk",
+          "value": 8600.0
+        },
+        {
+          "name": "inPZU 2040",
+          "quantity": null,
+          "value": 3000.0
+        },
+        {
+          "name": "PKO Emerytura 2040 Subfundusz",
+          "quantity": null,
+          "value": 450.0
+        },
+        {
+          "name": "PKO Emerytura 2040 Subfundusz (PPK męża)",
+          "quantity": null,
+          "value": 7500.0
+        },
+        {
+          "name": "Obligacje Skarbowe (IKE TOS1027)",
+          "quantity": "100 sztuk",
+          "value": 10100.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 149,86 m² na działce o powierzchni 336 m²",
+          "value": 1400000.0,
+          "legalTitle": "akt notarialny, współwłasność małżeńska"
+        },
+        {
+          "description": "Udział wynoszący 1/12 w działce o powierzchni 667 m² (grunty orne) - Droga dojazdowa",
+          "value": 14450.0,
+          "legalTitle": "akt notarialny, współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Toyota Aygo, rok produkcji 2012",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Ford Kuga, rok produkcji 2021",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Z tytułu umowy o pracę",
+          "yearlyValue": 113240.63
+        },
+        {
+          "description": "Wynagrodzenie z KPRM",
+          "yearlyValue": 53488.45
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 23508.01
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 60112.41
+        },
+        {
+          "description": "Wynagrodzenie z tytułu rady nadzorczej",
+          "yearlyValue": 11874.49
+        },
+        {
+          "description": "Dieta radnej",
+          "yearlyValue": 16754.95
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

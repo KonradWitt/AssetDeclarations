@@ -1,0 +1,76 @@
+{
+  "firstName": "Arkadiusz",
+  "lastName": "Marchewka",
+  "dateOfBirth": "1986-01-18T00:00:00",
+  "placeOfBirth": "Szczecin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/124A7991C75969B9C1258A51003B9F36/$File/231.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/0362026771C62E6BC1258C7B0042BB31/%24File/OSW102_231.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 28500.0,
+          "baseValue": 28500.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Nicolas Games S.A.",
+          "quantity": "500 akcji",
+          "value": 25.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 70,31 m²",
+          "value": 867000.0,
+          "legalTitle": "Własność osobista"
+        },
+        {
+          "description": "Garaż 27,66 m²",
+          "value": 71000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania, PKO Bank Polski z finansowym wsparciem Banku Gospodarstwa Krajowego, okres 30 lat",
+          "value": 196667.50
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Skoda Karoq 2017",
+          "value": null
+        },
+        {
+          "description": "Skoda Octavia 2021",
+          "value": null
+        },
+        {
+          "description": "Moto Guzzi V85 TT 2023",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Wynagrodzenie - Ministerstwo Infrastruktury (sekretarz stanu)",
+          "yearlyValue": 214105.06
+        },
+        {
+          "description": "Wynagrodzenie - Umowa o pracę (1/2 etatu, adiunkt, Uniwersytet Szczeciński)",
+          "yearlyValue": 28645.12
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

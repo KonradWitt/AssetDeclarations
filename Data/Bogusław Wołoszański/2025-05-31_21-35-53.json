@@ -1,0 +1,107 @@
+{
+  "id": null,
+  "firstName": "Bogusław",
+  "lastName": "Wołoszański",
+  "dateOfBirth": "1950-03-22T00:00:00",
+  "placeOfBirth": "Piotrków Trybunalski",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/300E8C08A1FC1CA6C1258A51003BA2EB/$File/434.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C2209C2828644D73C1258C7B003D904F/%24File/OSW102_434.pdf",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 472426.27,
+          "baseValue": 472426.27
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "EUR",
+          "currencyValue": 159289.0,
+          "baseValue": 684942.7
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "USD",
+          "currencyValue": 7062.0,
+          "baseValue": 27541.8
+        }
+      ],
+      "securityPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Akcje Orange i PGNiG",
+          "quantity": null,
+          "value": 27000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dom o powierzchni 400 m² z działką",
+          "value": 2000000.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód Lexus RX",
+          "value": 290000.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Zegarki (Cartier American Tank, Jaeger LeCoultre)",
+          "value": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Obrazy (T. Kantor, Mela Mutter, 2x We Weis, Ajdukienicz)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Emerytura",
+          "yearlyValue": 117818.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45252.39
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Uposażenie parlamentarne",
+          "yearlyValue": 40492.09
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Prawa autorskie",
+          "yearlyValue": 164406.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

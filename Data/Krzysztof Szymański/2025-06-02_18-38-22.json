@@ -1,0 +1,107 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Szymański",
+  "dateOfBirth": "1990-06-21T00:00:00",
+  "placeOfBirth": "Gdańsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F35D3221389E1A15C1258B46005B7460/$File/485.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8BE91EFAF28BEC44C1258C7C005E8424/%24File/OSW102_485.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 20658.39,
+          "baseValue": 20658.39
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 17787.39,
+          "baseValue": 17787.39
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 948.45,
+          "baseValue": 4078.34
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1979.00,
+          "baseValue": 7718.10
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 221045.49,
+          "baseValue": 221045.49,
+          "description": "Kryptowaluty"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały QLEAD SP. Z O.O.",
+          "quantity": "50",
+          "value": 2500.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 110,85 m² z udziałem 1/4 części w prawie własności nieruchomości gruntowej 1002 m²",
+          "value": 1000000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Banku Pekao S.A.",
+          "value": 377633.03
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda CR-V II, rok 2006",
+          "value": null
+        },
+        {
+          "description": "Motocykl Askoll ES3, rok 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 100087.01
+        },
+        {
+          "description": "Dieta parlamentarna nieopodatkowana",
+          "yearlyValue": 18668.05
+        },
+        {
+          "description": "Dieta parlamentarna opodatkowana",
+          "yearlyValue": 4839.96
+        },
+        {
+          "description": "Najem prywatny ruchomości",
+          "yearlyValue": 3202.00
+        },
+        {
+          "description": "Nabycie kryptowalut (strata)",
+          "yearlyValue": -86763.76
+        },
+        {
+          "description": "Dochód z tytułu członkostwa w zarządzie QLEAD SP. Z O.O.",
+          "yearlyValue": 58500.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "QLEAD SP. Z O.O.",
+          "businessType": "Spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek zarządu od 1 lutego 2023 roku do 25 czerwca 2024 roku",
+          "income": 58500.00
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "firstName": "Marzena",
+  "lastName": "Okła-Drewnowicz",
+  "dateOfBirth": "1972-05-20T00:00:00",
+  "placeOfBirth": "Skarżysko-Kamienna",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4B8B53BBC5639EBAC1258A51003B9FF0/$File/270.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7EBEC69DB51CA1A5C1258C7C00358213/%24File/OSW102_270.pdf",
+      "employmentDetails": "KPRM Minister Poseł na Sejm RP.",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 62448.40,
+          "baseValue": 62448.40,
+          "description": "Środki pieniężne w walucie polskiej (IKZE)"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 62 m²",
+          "value": 400000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Grunty rolne (ugór) 1,33 ha",
+          "value": 80000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 34,21 m²",
+          "value": 170000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka ROD",
+          "value": 40000.00,
+          "legalTitle": "dzierżawa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt gotówkowy w PKO BP na remont mieszkania i bieżące wydatki",
+          "value": 48822.66
+        },
+        {
+          "description": "Limit odnawialny w PKO BP",
+          "value": 26100.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Fiat Barchetta 2004 r.",
+          "value": null
+        },
+        {
+          "description": "Samochód KIA Optima 2017 r.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Dochód opodatkowany (bez sprecyzowania źródła)",
+          "yearlyValue": 9466.16
+        },
+        {
+          "description": "Dochód nieopodatkowany (bez sprecyzowania źródła)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Wynagrodzenie za pracę w KPRM",
+          "yearlyValue": 249892.65
+        },
+        {
+          "description": "Dochód z najmu mieszkania",
+          "yearlyValue": 8650.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

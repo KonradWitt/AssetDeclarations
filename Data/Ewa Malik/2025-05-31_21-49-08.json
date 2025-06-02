@@ -1,0 +1,74 @@
+{
+  "firstName": "Ewa",
+  "lastName": "Malik",
+  "dateOfBirth": "1961-01-11T00:00:00",
+  "placeOfBirth": "Sosnowiec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/86EBC233BE47F24BC1258A51003B9F2A/$File/228.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A56300F9975F72B1C1258C76005EF406/%24File/OSW102_228.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 429000.0,
+          "baseValue": 429000.0,
+          "description": "Środki pieniężne w walucie polskiej, w tym 84 968,00 zł zachowku spadku po Ojcu otrzymane w 2024 r."
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Ubezpieczenie na życie FUTURA",
+          "quantity": null,
+          "value": 21600.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 120 m²",
+          "value": 500000.0,
+          "legalTitle": "własność odrębna"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 67,38 m²",
+          "value": 300000.0,
+          "legalTitle": "współwłasność (spółdzielcze własnościowe prawo do lokalu)"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 216 m², na której stoi dom",
+          "value": 60000.0,
+          "legalTitle": "własność odrębna"
+        },
+        {
+          "description": "Działka rolna o powierzchni 7,5 ar",
+          "value": 25000.0,
+          "legalTitle": "własność odrębna"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód HONDA CR-V z 2017 r.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 149637.03
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45359.27
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 70419.10
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

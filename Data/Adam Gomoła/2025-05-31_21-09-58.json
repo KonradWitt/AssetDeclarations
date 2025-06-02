@@ -1,0 +1,53 @@
+{
+  "firstName": "Adam",
+  "lastName": "Gomoła",
+  "dateOfBirth": "1999-01-20T00:00:00",
+  "placeOfBirth": "Opole",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A7687EE5EBEEDA89C1258A51003B9CE5/$File/106.jpg",
+  "partyId": 4,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/304456DDE70A2442C1258C7600487A92/%24File/OSW102_106.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 60000.0,
+          "baseValue": 60000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "IKE",
+          "quantity": null,
+          "value": 600.0
+        },
+        {
+          "name": "IKZE",
+          "quantity": null,
+          "value": 8500.0
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Pożyczka z ZFSS Kancelarii Sejmu (pozostało do spłaty)",
+          "value": 35700.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 166956.50
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

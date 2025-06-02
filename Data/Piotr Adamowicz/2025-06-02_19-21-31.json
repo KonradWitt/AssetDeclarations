@@ -1,0 +1,182 @@
+{
+  "id": null,
+  "firstName": "Piotr",
+  "lastName": "Adamowicz",
+  "dateOfBirth": "1969-06-20T00:00:00",
+  "placeOfBirth": "Gdańsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/333720EB3D781AE7C1258A51003B9B07/$File/002.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D538A8B310AE6530C1258C830032D58E/%24File/OSW102_002.pdf",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 729800.0,
+          "baseValue": 729800.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "EUR",
+          "currencyValue": 1300.0,
+          "baseValue": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "USD",
+          "currencyValue": 3764.0,
+          "baseValue": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "CAD",
+          "currencyValue": 1000.0,
+          "baseValue": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "GBP",
+          "currencyValue": 35.0,
+          "baseValue": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "CZK",
+          "currencyValue": 1000.0,
+          "baseValue": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "CHF",
+          "currencyValue": 406.0,
+          "baseValue": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "CHF",
+          "currencyValue": 150.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Isarlinars TRISA jednostki",
+          "quantity": null,
+          "value": 75800.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "WP1 Prestige Bank Millennium",
+          "quantity": null,
+          "value": 404900.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Polisa Allianz Ubezpieczenie Życie/rolne Plus",
+          "quantity": null,
+          "value": 68400.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Papiery wartościowe (różne)",
+          "quantity": null,
+          "value": 217445.25
+        }
+      ],
+      "realEstate": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Mieszkanie 68,46 m² z piwnicą",
+          "value": 2100000.0,
+          "legalTitle": "Własność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Otwarta linia kredytowa w rachunku MasterCard Gold",
+          "value": null
+        }
+      ],
+      "personalProperties": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód Mitsubishi ASX, rok 2019",
+          "value": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Znak towarowy Matejko",
+          "value": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Prawa autorskie i pokrewne (wartość zależna od negocjacji i zainteresowania rynkiem)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta poselska",
+          "yearlyValue": 45679.92
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Wynagrodzenie poselskie",
+          "yearlyValue": 178219.08
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dywidendy i zyski z giełdy",
+          "yearlyValue": 1234.71
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Operacje na lokatach",
+          "yearlyValue": 248.25
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Prawa autorskie",
+          "yearlyValue": 319.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Przychód z opłat za publikacje (prawa autorskie)",
+          "yearlyValue": null
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

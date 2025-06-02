@@ -1,0 +1,108 @@
+{
+  "firstName": "Barbara",
+  "lastName": "Grygorcewicz",
+  "dateOfBirth": "1963-09-27T00:00:00",
+  "placeOfBirth": "Koszalin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B98886B30BE9CE61C1258B460058DAB9/$File/469.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-09T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1F4F25FF8A5A3484C1258C750043E9C6/%24File/OSW102_469.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 167815.80,
+          "baseValue": 167815.80
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje SP",
+          "quantity": null,
+          "value": 150000.0
+        },
+        {
+          "name": "IKZE",
+          "quantity": null,
+          "value": 37894.84
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 121 m²",
+          "value": 700000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 56 m²",
+          "value": 350000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 64 m²",
+          "value": 400000.0,
+          "legalTitle": "majątek odrębny"
+        },
+        {
+          "description": "Garaż 18,75 m²",
+          "value": 15000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Grunt pod mieszkaniem 1/4 z 360 m²",
+          "value": null,
+          "legalTitle": "użytkowanie wieczyste"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Umowa pożyczki na zakup samochodu z Mojsiuk Motor sp. J.",
+          "value": 54478.14
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Peugeot 408, rok produkcji 2024",
+          "value": 148000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Umowa o pracę",
+          "yearlyValue": 37768.63
+        },
+        {
+          "description": "Umowa zlecenie",
+          "yearlyValue": 19993.42
+        },
+        {
+          "description": "Świadczenie emerytalne ZUS",
+          "yearlyValue": 34147.91
+        },
+        {
+          "description": "Diety radnej rady miasta",
+          "yearlyValue": 16801.70
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 24450.81
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 93126.44
+        },
+        {
+          "description": "Opieka nad osobą będącą pod opieką prawną",
+          "yearlyValue": 4800.00
+        },
+        {
+          "description": "Wynajem nieruchomości",
+          "yearlyValue": 13464.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

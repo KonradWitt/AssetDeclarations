@@ -1,0 +1,79 @@
+{
+  "firstName": "Urszula",
+  "lastName": "Augustyn",
+  "dateOfBirth": "1964-09-01T00:00:00",
+  "placeOfBirth": "Tarnów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A696485329AE1B79C1258A51003B9B2C/$File/010.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/446306A987C1CA10C1258C7C00485B30/%24File/OSW102_010.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 25000.0,
+          "baseValue": 25000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 80 m²",
+          "value": 300000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie 37 m²",
+          "value": 240000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Gospodarstwo rolne (łąka, las) 1.56 ha ze starym domem - siedliskiem",
+          "value": 100000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na zakup pompy ciepła w Banku Ochrony Środowiska",
+          "value": 14529.11
+        },
+        {
+          "description": "Pożyczka remontowa z Funduszu Świadczeń Socjalnych (SEJM)",
+          "value": 24480.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Jeep Compass, rok produkcji 2020",
+          "value": null
+        },
+        {
+          "description": "Samochód Toyota Hilux, rok produkcji 2011",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 186214.39
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 23583.84
+        },
+        {
+          "description": "Odprawa emerytalna",
+          "yearlyValue": 2100.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "firstName": "Marcin",
+  "lastName": "Warchoł",
+  "dateOfBirth": "1930-07-13T00:00:00",
+  "placeOfBirth": "Nisko",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/9732C39AA31EC41EC1258A51003BA268/$File/407.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4F8F6351F1113017C1258C7600520294/%24File/OSW102_407.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 40215.53,
+          "baseValue": 40215.53
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 908.66,
+          "baseValue": 908.66
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 45.55,
+          "baseValue": 45.55
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 31.00,
+          "baseValue": 133.92
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 146 m² na działce 0,0969 ha",
+          "value": 1500000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Działka rolna o powierzchni 1 ha",
+          "value": 64000.0,
+          "legalTitle": null
+        },
+        {
+          "description": "Działka budowlana o powierzchni 12 arów",
+          "value": 6000.0,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych Sejmu",
+          "value": 20500.0
+        },
+        {
+          "description": "Pożyczka z Ministerstwa Sprawiedliwości",
+          "value": 39000.0
+        },
+        {
+          "description": "Pożyczka z Uniwersytetu Warszawskiego",
+          "value": 16200.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Chrysler Town Country, rok 2015",
+          "value": null
+        },
+        {
+          "description": "Samochód Citroen C4, rok 2011",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska (w tym część nieopodatkowana i opodatkowana)",
+          "yearlyValue": 44397.30
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 176085.26
+        },
+        {
+          "description": "Uniwersytet Warszawski - stosunek pracy (bez praw autorskich)",
+          "yearlyValue": 8894.43
+        },
+        {
+          "description": "Uniwersytet Warszawski - stosunek pracy (z prawami autorskimi)",
+          "yearlyValue": 123785.08
+        },
+        {
+          "description": "Państwowa Akademia Nauk Stosowanych w Tarnobrzegu - stosunek pracy (bez praw autorskich)",
+          "yearlyValue": 1292.25
+        },
+        {
+          "description": "Państwowa Akademia Nauk Stosowanych w Tarnobrzegu - stosunek pracy (z prawami autorskimi)",
+          "yearlyValue": 58177.64
+        },
+        {
+          "description": "Ministerstwo Sprawiedliwości - stosunek pracy",
+          "yearlyValue": 1060.93
+        },
+        {
+          "description": "Ministerstwo Sprawiedliwości - prawa autorskie",
+          "yearlyValue": 800.00
+        },
+        {
+          "description": "Przychód z wynajmu mieszkania",
+          "yearlyValue": 13500.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

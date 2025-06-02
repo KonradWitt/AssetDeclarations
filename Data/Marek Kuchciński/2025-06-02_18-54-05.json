@@ -1,0 +1,117 @@
+{
+  "firstName": "Marek",
+  "lastName": "Kuchciński",
+  "dateOfBirth": "1955-08-09T00:00:00",
+  "placeOfBirth": "Przemyśl",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E871DE3231C7A528C1258A51003B9EAD/$File/199.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/DE4A008CD4E0AA3CC1258C770034F627/%24File/OSW102_199.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 31000.00,
+          "baseValue": 31000.00,
+          "description": "Środki pieniężne zgromadzone w walucie polskiej (małżeńska wspólność majątkowa)"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 100.00,
+          "baseValue": 430.00,
+          "description": "Środki pieniężne zgromadzone w walucie obcej (małżeńska wspólność majątkowa)"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 20.00,
+          "baseValue": 78.00,
+          "description": "Środki pieniężne zgromadzone w walucie obcej (małżeńska wspólność majątkowa)"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 130 m²",
+          "value": 850000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 0,09 ha",
+          "value": 160000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Grunty rolne o powierzchni 1,2 ha",
+          "value": 25000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Grunty rolne o powierzchni 4,6 ha",
+          "value": 110000.00,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka gotówkowa z PKO BP",
+          "value": 39839.80
+        },
+        {
+          "description": "Pożyczka z funduszu świadczeń socjalnych poselskich, w związku z remontem domu",
+          "value": 40800.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Honda CRV, rok 2012 (współwłasność małżeńska)",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Hyundai Kona, rok 2021 (współwłasność małżeńska)",
+          "value": null
+        },
+        {
+          "description": "Książki, wydawnictwa, albumy (współwłasność małżeńska)",
+          "value": null
+        },
+        {
+          "description": "Obrazy, grafiki, rzeźby, rysunki (współwłasność małżeńska)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.27
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 473.03
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 149637.03
+        },
+        {
+          "description": "Dochód z Kancelarii Prezesa Rady Ministrów",
+          "yearlyValue": 23048.24
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 75461.78
+        },
+        {
+          "description": "Świadczenie dla działaczy opozycji antykomunistycznej oraz osób represjonowanych z powodów politycznych",
+          "yearlyValue": 20986.48
+        },
+        {
+          "description": "Płatności bezpośrednie",
+          "yearlyValue": 3550.78
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

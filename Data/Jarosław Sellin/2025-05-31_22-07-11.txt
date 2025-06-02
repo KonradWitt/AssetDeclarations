@@ -1,0 +1,1 @@
+error: The last name extracted from the OCR text ("SECLIN") does not match the last name provided in the CSV data ("Sellin"). According to the instructions, if the information in the CSV and the asset declaration do not match (and the difference is not merely the inclusion of a second name), an error should be returned.

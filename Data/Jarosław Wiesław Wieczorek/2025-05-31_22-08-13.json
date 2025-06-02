@@ -1,0 +1,80 @@
+{
+  "firstName": "Jarosław",
+  "lastName": "Wieczorek",
+  "dateOfBirth": "1981-01-27T00:00:00",
+  "placeOfBirth": "Gliwice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/904E0090B8F76BBAC1258A51003BA2A8/$File/420.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/55AC45ECDC1368A6C1258C7C0045F21D/%24File/OSW102_420.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 430000.0,
+          "baseValue": 430000.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 22838.94,
+          "baseValue": 22838.94,
+          "description": "PPK"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 300.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "FI ING AKCJA",
+          "quantity": null,
+          "value": 3522.44
+        },
+        {
+          "name": "FI ING ŚIMP",
+          "quantity": null,
+          "value": 4149.79
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 114 m²",
+          "value": 700000.0,
+          "legalTitle": "współwłasność z żoną – Akt Notarialny"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 185 m² (wartość wliczona w wartość domu z pkt 1)",
+          "value": null,
+          "legalTitle": "współwłasność z żoną – Akt Notarialny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na zakup domu wraz z działką w banku ING Bank Śląski, zaciągnięty w styczniu 2018 roku na 30 lat",
+          "value": 240000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Grande Scenic, rok produkcji 2019",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 176233.85
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45252.38
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

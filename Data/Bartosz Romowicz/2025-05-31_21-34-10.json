@@ -1,0 +1,92 @@
+{
+  "firstName": "Bartosz",
+  "lastName": "Romowicz",
+  "dateOfBirth": "1988-06-14T00:00:00",
+  "placeOfBirth": "Lesko",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/65BF0CF9DFB9F9B0C1258A51003BA0AF/$File/312.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FB70A6A26726DC04C1258C7C00448328/%24File/OSW102_312.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 3225.25,
+          "baseValue": 3225.25
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w spółce Bieszczady.Naturalnie Sp. z o.o",
+          "quantity": "165",
+          "value": 16500.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 65,3 m2",
+          "value": 500000.0,
+          "legalTitle": "małżeńska współwłasność majątkowa"
+        },
+        {
+          "description": "Działka pod nieruchomością opisaną w pkt II.2 o powierzchni 0,2919 ha",
+          "value": 100000.0,
+          "legalTitle": "udział 653/23462 częściach we współwłasności, małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka niezabudowana o powierzchni 0,4246 ha",
+          "value": 80000.0,
+          "legalTitle": "współwłasność w częściach równych, małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup nieruchomości w banku Santander",
+          "value": 83355.60
+        },
+        {
+          "description": "Kredyt konsumpcyjny w banku Santander",
+          "value": 65419.28
+        },
+        {
+          "description": "Kredyt hipoteczny na zakup nieruchomości w banku Santander",
+          "value": 424694.42
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dodatkowe wynagrodzenie roczne z poprzedniego miejsca pracy",
+          "yearlyValue": 16431.09
+        },
+        {
+          "description": "Wyrównanie błędnie obliczonego wynagrodzenia z umowy-zlecenia wykonywanej w 2023 roku",
+          "yearlyValue": 191.42
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 206673.71
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Wynagrodzenie z tytułu członkostwa w zarządzie wspólnoty mieszkaniowej",
+          "yearlyValue": 6000.00
+        },
+        {
+          "description": "Wynagrodzenie małżonka z tytułu umów o pracę",
+          "yearlyValue": 78421.65
+        },
+        {
+          "description": "Wynagrodzenie małżonka z tytułu umowy cywilnoprawnej",
+          "yearlyValue": 17400.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

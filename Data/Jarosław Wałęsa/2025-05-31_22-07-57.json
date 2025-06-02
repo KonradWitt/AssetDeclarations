@@ -1,0 +1,139 @@
+{
+  "firstName": "Jarosław",
+  "lastName": "Wałęsa",
+  "dateOfBirth": "1976-09-13T00:00:00",
+  "placeOfBirth": "Gdańsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/13EAD10557B509A7C1258A51003BA263/$File/406.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-02-20T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D3F6B62EE708A065C1258C45003215DA/%24File/OSW102_406.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 226020.68,
+          "baseValue": 226020.68
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 3299.64,
+          "baseValue": 14188.45
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Schroder ISF EURO Corporate Bond A (Acc)",
+          "quantity": null,
+          "value": 151151.48,
+          "currency": "EUR"
+        },
+        {
+          "name": "Investor Obligacji Skarbowych Krótkoterminowy (Investor SFIO)",
+          "quantity": null,
+          "value": 189843.15,
+          "currency": "PLN"
+        },
+        {
+          "name": "Generali Obligacji Uniwersalny Plus (Generali Fundusze SFIO)",
+          "quantity": null,
+          "value": 160592.19,
+          "currency": "PLN"
+        },
+        {
+          "name": "Schroder ISF EURO Liquidity A (Acc) (EUR)",
+          "quantity": null,
+          "value": 34429.00,
+          "currency": "EUR"
+        },
+        {
+          "name": "Investor Fundamentalny Dywidend i Wzrostu (Investor FIO)",
+          "quantity": null,
+          "value": 85079.07,
+          "currency": "PLN"
+        },
+        {
+          "name": "Schroder ISF Global Energy A (Acc) (EUR)",
+          "quantity": null,
+          "value": 18828.46,
+          "currency": "EUR"
+        },
+        {
+          "name": "Generali Akcje Małych i Średnich Spółek (Generali Fundusze FIO)",
+          "quantity": null,
+          "value": 53133.71,
+          "currency": "PLN"
+        },
+        {
+          "name": "Generali Korona Akcje (Generali Fundusze FIO)",
+          "quantity": null,
+          "value": 50908.71,
+          "currency": "PLN"
+        },
+        {
+          "name": "Skarbiec Rynków Surowcowych (Skarbiec FIO)",
+          "quantity": null,
+          "value": 42167.16,
+          "currency": "PLN"
+        },
+        {
+          "name": "Subfundusz QUERCUS Akumulacji Kapitału",
+          "quantity": null,
+          "value": 56911.02,
+          "currency": "PLN"
+        },
+        {
+          "name": "Subfundusz QUERCUS Global Balanced",
+          "quantity": null,
+          "value": 46599.62,
+          "currency": "PLN"
+        },
+        {
+          "name": "Pekao Obligacji Dolarowych Plus (A)",
+          "quantity": null,
+          "value": 46734.07,
+          "currency": "USD"
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 166 m²",
+          "value": null,
+          "legalTitle": "współwłasność, 1/2 własności"
+        },
+        {
+          "description": "Lokale niemieszkalne (stróżówka) na osiedlu, powierzchnia 15,50 m² i 4,10 m²",
+          "value": null,
+          "legalTitle": "współwłasność, udziały 54/84 i 51/84, z przynależnymi udziałami w nieruchomości wspólnej 155/196 i 41/196"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes GLC, rok 2016",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Netto uposażenie Sejm RP",
+          "yearlyValue": 169777.78
+        },
+        {
+          "description": "Netto dieta Sejm RP",
+          "yearlyValue": 46034.86
+        },
+        {
+          "description": "Dieta na wyjazdy zagraniczne",
+          "yearlyValue": 5687.91
+        },
+        {
+          "description": "Sprzedaż akcji",
+          "yearlyValue": 58000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

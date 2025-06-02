@@ -1,0 +1,71 @@
+{
+  "firstName": "Iwona",
+  "lastName": "Krawczyk",
+  "dateOfBirth": "1965-07-19T00:00:00",
+  "placeOfBirth": "Jawor",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5AB7FA73050E302AC1258A51003B9E6E/$File/186.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/49C39187FDCE8E75C1258C7500446C31/%24File/OSW102_186.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 40000.0,
+          "baseValue": 40000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2200.0,
+          "baseValue": null
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 500.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 349,52 m²",
+          "value": 1200000.0,
+          "legalTitle": "własność odrębna prywatna"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z ZFŚS z Kancelarii Sejmu na remont domu",
+          "value": 40000.0
+        },
+        {
+          "description": "Kredyt samochodowy z Toyota Bank",
+          "value": 174731.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota RAV4, rok 2024",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dodatkowe wynagrodzenie roczne z Urzędu Miasta Lubawka",
+          "yearlyValue": 7519.45
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 173780.04
+        },
+        {
+          "description": "Dieta poselska (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

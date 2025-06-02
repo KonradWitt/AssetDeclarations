@@ -1,0 +1,74 @@
+{
+  "firstName": "Ireneusz",
+  "lastName": "Raś",
+  "dateOfBirth": "1972-09-30T00:00:00",
+  "placeOfBirth": "PROSZOWICE",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/EDEDBACE97EB6EBFC1258A51003BA09F/$File/309.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/67DDE7433CC9D07EC1258C7C006C58A2/%24File/OSW102_309.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 40000.0,
+          "baseValue": 40000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Gospodarstwo rolne (działka) o powierzchni 0.9630 ha, rodzaj zabudowy: brak",
+          "value": 260000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Dom w budowie na działce o powierzchni 0.30 ha (50% udziału) oraz działka o powierzchni 0.0323 ha, adres: ul. Udziały 25/10",
+          "value": null,
+          "legalTitle": "Współwłasność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w Banku Santander na nowych warunkach na zakup samochodu",
+          "value": 45000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Kodiaq, rok 2021",
+          "value": null
+        },
+        {
+          "description": "Rower LOOK 18/5RD, rok 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 8466.16
+        },
+        {
+          "description": "Pensja z Kancelarii Sejmu",
+          "yearlyValue": 225563.23
+        },
+        {
+          "description": "Przychód i dochód z gospodarstwa rolnego",
+          "yearlyValue": 1000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

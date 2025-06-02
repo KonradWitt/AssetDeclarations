@@ -1,0 +1,69 @@
+{
+  "firstName": "Marek",
+  "lastName": "Sawicki",
+  "dateOfBirth": "1958-04-08T00:00:00",
+  "placeOfBirth": "Nowy Sącz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A77B3EA1811D6401C1258A51003BA0EC/$File/326.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A956194532B5D356C1258C7C00283833/%24File/OSW102_326.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 345000.0,
+          "baseValue": 345000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 250 m²",
+          "value": 400000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne 4.00 ha, zabudowa: obora, stodoła (2), piwnica, garaże",
+          "value": 450000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes 4514, rok 1989",
+          "value": null
+        },
+        {
+          "description": "Samochód Ford Focus, rok 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Wynagrodzenie",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Inne dochody",
+          "yearlyValue": 9649.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 201474.40
+        },
+        {
+          "description": "Świadczenie z ZUS",
+          "yearlyValue": 138389.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "firstName": "Jacek",
+  "lastName": "Karnowski",
+  "dateOfBirth": "1963-08-16T00:00:00",
+  "placeOfBirth": "Gdańsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/800DA48DE34B45A5C1258A51003B9DDC/$File/156.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2024-12-31T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D4AD404D22423AA1C1258C7C0039B5A9/%24File/OSW102_156.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 280000.0,
+          "baseValue": 280000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 5100.0,
+          "baseValue": 21930.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 5000.0,
+          "baseValue": 19500.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 46.7 m²",
+          "value": 650000.0,
+          "legalTitle": "współwłasność spółdzielcza (1/4)"
+        },
+        {
+          "description": "Mieszkanie 56.3 m²",
+          "value": 850000.0,
+          "legalTitle": "własność hipoteczna"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Współwłasność Łodzi Żaglowej Conrad 760, 1982 r. (1/2)",
+          "value": 15000.0
+        },
+        {
+          "description": "Samochód osobowy Toyota Proace 2022 r.",
+          "value": 210000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Ministerstwo Funduszy i Polityki Regionalnej, Sekretarz Stanu",
+          "yearlyValue": 154934.20
+        },
+        {
+          "description": "Kancelaria Sejmu",
+          "yearlyValue": 95212.91
+        },
+        {
+          "description": "Dieta Poselska",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 332.41
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

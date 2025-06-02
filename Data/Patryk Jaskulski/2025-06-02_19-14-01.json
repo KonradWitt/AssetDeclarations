@@ -1,0 +1,105 @@
+{
+  "firstName": "Patryk",
+  "lastName": "Jaskulski",
+  "dateOfBirth": "1990-08-18T00:00:00",
+  "placeOfBirth": "SZCZECIN",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2D98280CF8C377BDC1258A51003B9D97/$File/142.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FBD13CC3144023CCC1258C7B0040967C/%24File/OSW102_142.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 23585.39,
+          "baseValue": 23585.39
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 19000.00,
+          "baseValue": 19000.00
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2343.40,
+          "baseValue": 9373.60
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2358.77,
+          "baseValue": 10142.71
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2000.00,
+          "baseValue": 8000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 200.00,
+          "baseValue": 860.00
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje na giełdzie NYSE, NASAD",
+          "quantity": null,
+          "value": 50537.12
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 58,52 m²",
+          "value": 450000.00,
+          "legalTitle": "własność (majątek odrębny)"
+        },
+        {
+          "description": "Mieszkanie 26,89 m²",
+          "value": 160000.00,
+          "legalTitle": "własność (majątek odrębny)"
+        },
+        {
+          "description": "Garaż podziemny 30,91 m², udział wynoszący 1/14 części w hali garażowej podziemnej, 1 miejsce postojowe",
+          "value": 20000.00,
+          "legalTitle": "własność (majątek odrębny)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania",
+          "value": 355491.27
+        },
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych na cele mieszkaniowe z SEJMU RP",
+          "value": 40800.00
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 172573.66
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 48099.96
+        },
+        {
+          "description": "Działalność wykonywana osobiście w ramach obowiązków poselskich",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Inne źródła (Kancelaria Sejmu)",
+          "yearlyValue": 1133.41
+        },
+        {
+          "description": "Wynajem nieruchomości",
+          "yearlyValue": 18000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

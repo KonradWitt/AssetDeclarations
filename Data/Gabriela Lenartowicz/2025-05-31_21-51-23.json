@@ -1,0 +1,67 @@
+{
+  "firstName": "Gabriela",
+  "lastName": "Lenartowicz",
+  "dateOfBirth": "1960-12-12T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/8DB3FFC74A500871C1258A51003B9EDD/$File/209.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8A91D982F940D7C8C1258C76005B20B3/%24File/OSW102_209.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 41400.80,
+          "baseValue": 41400.80
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 58.85,
+          "baseValue": null
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 315.15,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 188 m² na działce siedliskowej o powierzchni 500 m², stanowiąca jedną nieruchomość pod adresem zamieszkania.",
+          "value": 700000.0,
+          "legalTitle": "własność (majątek odrębny)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Poselskich na cele mieszkaniowe",
+          "value": 27200.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy TOYOTA RAV4 Hybrid/PLUGIN (współwłasność), rok produkcji 2024",
+          "value": 250000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska (mandatowa)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 186586.03
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 75886.10
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

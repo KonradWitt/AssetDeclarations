@@ -1,0 +1,78 @@
+{
+  "firstName": "Donald",
+  "lastName": "Tusk",
+  "dateOfBirth": "1957-04-22T00:00:00",
+  "placeOfBirth": "Gdańsk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F74E8BCA785D1D2CC1258A51003BA248/$File/400.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/566928C80B23AAC9C1258C6900412526/%24File/OSW102_400.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 220000.0,
+          "baseValue": 220000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 290000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Polisa na życie ERGO Hestia",
+          "quantity": null,
+          "value": 300000.0
+        },
+        {
+          "name": "Polisy na życie i dożycie Allianz",
+          "quantity": "2",
+          "value": 140000.0
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Zegarek Grand Seiko GMT z 2016 roku",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Emerytura z Komisji Europejskiej",
+          "yearlyValue": 69700.0
+        },
+        {
+          "description": "Emerytura z ZUS",
+          "yearlyValue": 133762.62
+        },
+        {
+          "description": "Emerytura z Belgii",
+          "yearlyValue": 2443.32
+        },
+        {
+          "description": "Prawa autorskie",
+          "yearlyValue": 25078.22
+        },
+        {
+          "description": "Odsetki z oszczędności",
+          "yearlyValue": 94.0
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Wynagrodzenie z Kancelarii Prezesa Rady Ministrów",
+          "yearlyValue": 280788.48
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

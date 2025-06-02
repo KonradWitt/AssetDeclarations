@@ -1,0 +1,72 @@
+{
+  "firstName": "Zbigniew",
+  "lastName": "Ziobro",
+  "dateOfBirth": "1970-08-18T00:00:00",
+  "placeOfBirth": "Kraków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D704D76837686900C1258A51003BA34A/$File/456.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/AD06152FFD662899C1258C7C00581EF6/%24File/OSW102_456.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 476000.0,
+          "baseValue": 476000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2.71,
+          "baseValue": 10.89
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 145.89,
+          "baseValue": 628.51
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom jednorodzinny o powierzchni mieszkalnej 133,15 m², budynek gospodarczy ok. 30 m², domek letniskowo-gospodarczy 34,56 m²",
+          "value": 950000.0,
+          "legalTitle": "własność hipoteczna"
+        },
+        {
+          "description": "Działka rolna o powierzchni 73 ary, niezabudowana",
+          "value": 175000.0,
+          "legalTitle": "własność hipoteczna"
+        },
+        {
+          "description": "Działka leśno-rolna o powierzchni 1,1 ha",
+          "value": 140000.0,
+          "legalTitle": "własność hipoteczna"
+        },
+        {
+          "description": "Działka leśno-rolna o powierzchni 1,4 ha",
+          "value": 170000.0,
+          "legalTitle": "własność hipoteczna"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu pełnienia urzędu Ministra Sprawiedliwości Prokuratora Generalnego",
+          "yearlyValue": 124166.76
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 164601.43
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

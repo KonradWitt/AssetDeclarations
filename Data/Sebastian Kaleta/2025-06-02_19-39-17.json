@@ -1,0 +1,87 @@
+{
+  "firstName": "Sebastian",
+  "lastName": "Kaleta",
+  "dateOfBirth": "1981-07-24T00:00:00",
+  "placeOfBirth": "Tyczyn",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/80C3D2714C16E0A3C1258A51003B9DBF/$File/150.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D27601591FA9F1E1C1258C7B0046D295/%24File/OSW102_150.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 31000.0,
+          "baseValue": 31000.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 30000.0,
+          "baseValue": 30000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 0.0,
+          "baseValue": 0.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 90,19 m²",
+          "value": 1600000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Miejsce garażowe przynależne do nieruchomości",
+          "value": 50000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP na zakup nieruchomości, do spłaty 385 000 zł, termin spłaty do 2050 roku, współwłasność małżeńska.",
+          "value": 385000.0
+        },
+        {
+          "description": "Pożyczka z Funduszu Sprawiedliwości, kwota pierwotna 36000 zł, do spłaty 51000 zł, termin spłaty do października 2026.",
+          "value": 51000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie poselskie",
+          "yearlyValue": 172533.35
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45195.19
+        },
+        {
+          "description": "Inne dochody",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Wynagrodzenie z tytułu członkostwa w radzie nadzorczej",
+          "yearlyValue": 9195.57
+        },
+        {
+          "description": "Inne dochody",
+          "yearlyValue": 507.44
+        },
+        {
+          "description": "Dochód z Ministerstwa Sprawiedliwości",
+          "yearlyValue": 14415.86
+        },
+        {
+          "description": "Dochód z wynajmu powierzchni użytkowej",
+          "yearlyValue": 3459.49
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

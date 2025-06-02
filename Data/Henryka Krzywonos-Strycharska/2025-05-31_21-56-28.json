@@ -1,0 +1,85 @@
+{
+  "firstName": "Henryka",
+  "lastName": "Krzywonos-Strycharska",
+  "dateOfBirth": "1953-03-27T00:00:00",
+  "placeOfBirth": "Olsztyn",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/CC4B65FE9ADE4A46C1258A51003B9E9D/$File/196.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-04T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/BA6B7390772BF18FC1258C51003023E2/%24File/OSW102_196.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 3876.34,
+          "baseValue": 3876.34
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 87.38,
+          "baseValue": 349.52
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 67 m²",
+          "value": 650000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ MAJĄTKOWA Z MĘŻEM"
+        },
+        {
+          "description": "Mieszkanie 32.81 m²",
+          "value": 300000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ MAJĄTKOWA Z MĘŻEM"
+        },
+        {
+          "description": "Mieszkanie 31.7 m²",
+          "value": 300000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ MAJĄTKOWA Z MĘŻEM"
+        },
+        {
+          "description": "Mieszkanie 73 m² plus miejsce w hali garażowej",
+          "value": 760000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ MAJĄTKOWA Z MĘŻEM"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka mieszkaniowa z sejmowego funduszu świadczeń socjalnych",
+          "value": 25500.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy KIA Sportage, rok prod. 2023",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Świadczenie emerytalne",
+          "yearlyValue": 119928.08
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150919.68
+        },
+        {
+          "description": "Świadczenie kombatanckie",
+          "yearlyValue": 20968.48
+        },
+        {
+          "description": "Dochód z wynajmu mieszkania (wspólnie z mężem)",
+          "yearlyValue": 45200.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

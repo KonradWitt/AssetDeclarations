@@ -1,0 +1,81 @@
+{
+  "firstName": "Marek",
+  "lastName": "Sowa",
+  "dateOfBirth": "1967-02-04T00:00:00",
+  "placeOfBirth": "Libiąż",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/90EBB1C7C8E4F064C1258A51003BA164/$File/352.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/05C888EA7D0CBA71C1258C76004202E0/%24File/OSW102_352.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 47000.0,
+          "baseValue": 47000.0,
+          "description": "Wspólnie z żoną"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 25821.72,
+          "baseValue": 25821.72,
+          "description": "Środki własne taty Władysława Sowy na koncie, którego jestem współwłaścicielem"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 850.0,
+          "baseValue": null,
+          "description": "Wspólnie z żoną"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 192 m²",
+          "value": 810000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ Z ŻONĄ"
+        },
+        {
+          "description": "Dom rodzinny 276 m² (w tym mieszkalna 184 m², strych i piwnice 92 m²), garaż 60 m² na działce 0,2982 ha",
+          "value": 410000.0,
+          "legalTitle": "WŁASNOŚĆ"
+        },
+        {
+          "description": "Działka 0,3312 ha z garażem 45 m² i altaną z instalacją fotowoltaiczną 5,94 kWh",
+          "value": 250000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ Z ŻONĄ"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na budowę domu w Banku Pekao S.A., oprocentowanie 6,69% (na 31.12.2024r.), objęty małżeńską wspólnotą majątkową",
+          "value": 15999.56
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota CH-R, rocznik 2024 (kupiony na żonę, sfinansowany ze środków wspólnych, objęty małżeńską wspólnotą majątkową)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie (Sejm RP)",
+          "yearlyValue": 215340.34
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Wierzytelność z tytułu sprzedaży samochodu Opel Insignia",
+          "value": 24500.0
+        }
+      ],
+      "businessActivities": []
+    }
+  ]
+}

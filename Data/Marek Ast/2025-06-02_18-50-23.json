@@ -1,0 +1,66 @@
+{
+  "firstName": "Marek",
+  "lastName": "Ast",
+  "dateOfBirth": "1958-09-27T00:00:00",
+  "placeOfBirth": "Zielona Góra",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B0662576ECDE3E32C1258A51003B9B27/$File/009.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C0A00688ADD8D002C1258C7C003771DD/%24File/OSW102_009.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 695000.0,
+          "baseValue": 695000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 170 m²",
+          "value": 400000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Działka budowlana 700 m²",
+          "value": 800001.0,
+          "legalTitle": "Współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka w Kancelarii Sejmu",
+          "value": 29000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Octavia, rok 2020, współwłasność małżeńska",
+          "value": null
+        },
+        {
+          "description": "Samochód Dacia Duster, rok 2021, współwłasność małżeńska",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 197373.47
+        },
+        {
+          "description": "Emerytura ZUS",
+          "yearlyValue": 140287.66
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "firstName": "Anna",
+  "lastName": "Sobolak",
+  "dateOfBirth": "1979-11-02T00:00:00",
+  "placeOfBirth": "Lublin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/84B748219F0ACE24C1258A51003BA151/$File/347.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D9DE9BD997177F53C1258C810038A6F8/%24File/OSW102_347.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 115000.0,
+          "baseValue": 115000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały Kancelaria Doradztwa i Zarządzania Odpadami sp. z o.o.",
+          "quantity": "95%",
+          "value": 47500.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 157,83 m²",
+          "value": 1025000.0,
+          "legalTitle": "własność odrębna"
+        },
+        {
+          "description": "Zabudowana działka rolna 1546 m² z zabudowaniami gospodarczymi 340 m²",
+          "value": 390000.0,
+          "legalTitle": "małżeńska wspólnota majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt na dom w mBanku (93 152,93 CHF, umowa unieważniona nieprawomocnym wyrokiem sądu I instancji)",
+          "value": 93152.93
+        },
+        {
+          "description": "Leasing w Arval Service Lease (umowa z 09.06.2020 na 60 miesięcy, rata miesięczna 2615,89 zł brutto)",
+          "value": 156953.4
+        },
+        {
+          "description": "Kredyt w rachunku w mBanku",
+          "value": 67666.46
+        },
+        {
+          "description": "Pożyczka gotówkowa od Revolut (małżonka)",
+          "value": 87884.09
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volkswagen Touran 1.9 TDI, rok prod. 2012",
+          "value": 20000.0
+        },
+        {
+          "description": "Samochód Mercedes-Benz GLC Coupe, rok prod. 2020",
+          "value": 180000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150492.13
+        },
+        {
+          "description": "Dieta poselska nieopodatkowana",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta poselska opodatkowana",
+          "yearlyValue": 9679.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

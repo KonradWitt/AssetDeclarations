@@ -1,0 +1,1 @@
+error: The name extracted from the OCR document ('Idristen Bowlik') does not match the name provided in the CSV data ('Zdzisław Gawlik'). This is a significant discrepancy, not just a difference in the presence of a second name.

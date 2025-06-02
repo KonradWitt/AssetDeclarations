@@ -1,0 +1,92 @@
+{
+  "id": null,
+  "firstName": "Urszula",
+  "lastName": "Pasławska",
+  "dateOfBirth": "1977-01-28T00:00:00",
+  "placeOfBirth": "Biskupiec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/91153D4BB38B1894C1258A51003BA027/$File/282.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2FA67E4119511CDCC1258C7E003B7354/%24File/OSW102_282.pdf",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 87000.00,
+          "baseValue": 87000.00
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "USD",
+          "currencyValue": 600.00,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Mieszkanie o powierzchni 48,12 m²",
+          "value": 450000.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.28
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 180420.99
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Przychód z tytułu służbowych podróży zagranicznych",
+          "yearlyValue": 1406.28
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "businessName": "Fundacja Rozwoju",
+          "businessType": "Fundacja",
+          "description": "Członek Rady Kuratorów",
+          "income": 0.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "businessName": "Fundacja Szkoła Liderów",
+          "businessType": "Fundacja",
+          "description": "Członek Rady",
+          "income": 0.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "businessName": "Kościół Ewangelicko-Augsburski Diecezja Mazurska",
+          "businessType": "Związek wyznaniowy",
+          "description": "Członek Synodu",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

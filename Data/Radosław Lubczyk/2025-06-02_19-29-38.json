@@ -1,0 +1,121 @@
+{
+  "firstName": "Radosław",
+  "lastName": "Lubczyk",
+  "dateOfBirth": "1978-07-18T00:00:00",
+  "placeOfBirth": "Szerecinku",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/85A1ABF95E2DB8BBC1258A51003B9EFE/$File/217.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E79CAB540EE14453C1258C76004E5A5B/%24File/OSW102_217.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 20000.0,
+          "baseValue": 20000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 6000.0,
+          "baseValue": 25800.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 180.0,
+          "baseValue": 720.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje KPPD",
+          "quantity": null,
+          "value": 4300.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 174,27 m², stan surowy otwarty",
+          "value": 100000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 90,30 m²",
+          "value": 680000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Lokal niemieszkalny o powierzchni 113,70 m²",
+          "value": 60000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,91 ha",
+          "value": 1000000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,0315 ha",
+          "value": null,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP",
+          "value": 181000.0
+        },
+        {
+          "description": "Limit odnawialny w PKO BP",
+          "value": 48100.0
+        },
+        {
+          "description": "Kredyt hipoteczny w Santander",
+          "value": 163000.0
+        },
+        {
+          "description": "Karta kredytowa w Santander",
+          "value": 30000.0
+        },
+        {
+          "description": "Pożyczka gotówkowa w PKO BP",
+          "value": 49000.0
+        },
+        {
+          "description": "Pożyczka w Nest Bank, do spłaty",
+          "value": 34003.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Motocykl BMW R 1200 C, rok produkcji 2001",
+          "value": 30000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45252.39
+        },
+        {
+          "description": "Dochód nieopodatkowany",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 163980.76
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Radosław Lubczyk",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Praktyka lekarska",
+          "income": 10903.91
+        }
+      ],
+      "farm": null
+    }
+  ]
+}

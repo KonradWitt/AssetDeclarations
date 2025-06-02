@@ -1,0 +1,57 @@
+{
+  "firstName": "Marcin",
+  "lastName": "Horała",
+  "dateOfBirth": "1981-10-02T00:00:00",
+  "placeOfBirth": "Gdynia",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/53DF8AAA9987FE27C1258A51003B9D70/$File/134.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/93AF8682DC094665C1258C75006DD93C/%24File/OSW102_134.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 224000.0,
+          "baseValue": 224000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "PPK w TFI PZU",
+          "value": 41000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 67 m²",
+          "value": 530000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Umowa leasingu operacyjnego samochodu Hyundai Tucson, zawarta z PKO Leasing S.A. do kwietnia 2026 - rata miesięczna ok. 8430 zł brutto",
+          "value": 8430.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie za pracę (Ministerstwo Finansów, Polskie Reprezentacje w Europie)",
+          "yearlyValue": 80200.0
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 112300.0
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45250.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

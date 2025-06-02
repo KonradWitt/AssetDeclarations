@@ -1,0 +1,90 @@
+{
+  "firstName": "Iwona",
+  "lastName": "Karolewska",
+  "dateOfBirth": "1974-03-11T00:00:00",
+  "placeOfBirth": "Lniano",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2A09BA241E0F5720C1258A51003B9DDF/$File/157.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/87AD9A97D2A8491EC1258C7B0040DB28/%24File/OSW102_157.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 41100.00,
+          "baseValue": 41100.00,
+          "description": "Środki pieniężne zgromadzone w walucie polskiej"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 16000.00,
+          "baseValue": 16000.00,
+          "description": "Środki zgromadzone w PPK"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 30800.00,
+          "baseValue": 30800.00,
+          "description": "Indywidualne konta ubezpieczeniowe PZU"
+        },
+        {
+          "currency": "CAD",
+          "currencyValue": 2000.00,
+          "baseValue": null,
+          "description": "Środki pieniężne zgromadzone w walucie obcej"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 150 m²",
+          "value": 1500000.00,
+          "legalTitle": "własność, małżeńska wspólnota majątkowa"
+        },
+        {
+          "description": "Garaż murowany o powierzchni 19,00 m²",
+          "value": 50000.00,
+          "legalTitle": "własność, małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka o powierzchni 1 000 m² z domem do rozbiórki o pow. 170 m² i garażem o pow. 38 m²",
+          "value": 70000.00,
+          "legalTitle": "własność, majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych",
+          "value": 29750.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Yaris Cross, rok produkcji 2024",
+          "value": null
+        },
+        {
+          "description": "Samochód Citroen C5, rok produkcji 2011",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie (Sejm RP)",
+          "yearlyValue": 154767.67
+        },
+        {
+          "description": "Dieta parlamentarna (Sejm RP)",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Dochód ze Starostwa Powiatowego w Świeciu",
+          "yearlyValue": 10254.23
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

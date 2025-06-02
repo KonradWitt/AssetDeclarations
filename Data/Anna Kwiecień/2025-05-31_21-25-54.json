@@ -1,0 +1,83 @@
+{
+  "firstName": "Anna",
+  "lastName": "Kwiecień",
+  "dateOfBirth": "1964-09-30T00:00:00",
+  "placeOfBirth": "Radom",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E196622AA79F90ABC1258A51003B9ECB/$File/205.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2015-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4015A49D200E4B15C1258C760061F1A4/%24File/OSW102_205.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 513232.00,
+          "baseValue": 513232.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1200.00,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje - spokojna inwestycja",
+          "quantity": null,
+          "value": 1992.68
+        },
+        {
+          "name": "Obligacje Skarbowe",
+          "quantity": null,
+          "value": 60000.00
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Socjalnego",
+          "value": 23590.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Auto",
+          "value": 11000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie Posła",
+          "yearlyValue": 165028.95
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45649.92
+        },
+        {
+          "description": "Dochód nieopodatkowany",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dochód opodatkowany",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Dieta z tytułu zasiadania w Radzie Programowej Polskiego Radia",
+          "yearlyValue": 2028.00
+        },
+        {
+          "description": "Odprawa emerytalna",
+          "yearlyValue": 50580.00
+        },
+        {
+          "description": "Inne świadczenia",
+          "yearlyValue": 18997.65
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

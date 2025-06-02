@@ -1,0 +1,274 @@
+{
+  "firstName": "Sławomir",
+  "lastName": "Mentzen",
+  "dateOfBirth": "1986-11-20T00:00:00",
+  "placeOfBirth": "Toruń",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A6DB87BDC0E86CB4C1258A51003B9F62/$File/241.jpg",
+  "partyId": 2,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/526F37EA871B40EBC1258C750043285D/%24File/OSW102_241.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 738014.0,
+          "baseValue": 738014.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 15000.0,
+          "baseValue": 64815.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1500.0,
+          "baseValue": 6075.0
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 165.0,
+          "baseValue": 827.97
+        },
+        {
+          "currency": "BTC",
+          "currencyValue": 33.7,
+          "baseValue": 12987541.9
+        },
+        {
+          "currency": "V-dolce",
+          "currencyValue": 45000.0,
+          "baseValue": 1600.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 6700923.88,
+          "baseValue": 6700923.88,
+          "description": "Środki pieniężne Fundacji Rodzinnej Mentzen"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje Mirbud SA",
+          "quantity": "7500",
+          "value": 89100.0
+        },
+        {
+          "name": "Akcje Figene Capital SA",
+          "quantity": "1000",
+          "value": 488.0
+        },
+        {
+          "name": "Akcje Pure Biologics SA",
+          "quantity": "1450",
+          "value": 24940.0
+        },
+        {
+          "name": "Akcja Mex Polska SA",
+          "quantity": "1",
+          "value": 3.74
+        },
+        {
+          "name": "Akcja Mentzen SA",
+          "quantity": "1",
+          "value": 38.75
+        },
+        {
+          "name": "Akcje Mex Polska SA (Fundacja Rodzinna Mentzen)",
+          "quantity": "11000",
+          "value": 37400.0
+        },
+        {
+          "name": "Akcje Mentzen SA (Fundacja Rodzinna Mentzen)",
+          "quantity": "664400",
+          "value": 25745500.0
+        },
+        {
+          "name": "Udziały Kancelaria Mentzen sp. z o.o.",
+          "quantity": "1000",
+          "value": 7888798.31
+        },
+        {
+          "name": "Udziały Mentzen i Kapica sp. z o.o.",
+          "quantity": "50",
+          "value": 2500.0
+        },
+        {
+          "name": "Udziały Mentzen Holding sp. z o.o. (Fundacja Rodzinna Mentzen)",
+          "quantity": "1092",
+          "value": 4000000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 370 m² na działce 1175 m²",
+          "value": 3500000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 107 m²",
+          "value": 750000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Nieruchomość gruntowa niezabudowana o powierzchni 1500 m²",
+          "value": 2300000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Miejsce postojowe w wielostanowiskowym lokalu garażowym o powierzchni 15 m²",
+          "value": 40000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w PKO BP",
+          "value": 311626.29
+        },
+        {
+          "description": "Pożyczka udzielona przez Fundację Rodzinną Mentzen",
+          "value": 400000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes Coupe Klasy E, rok 2022",
+          "value": 300000.0
+        },
+        {
+          "description": "Samochód Volvo XC 90, rok 2022",
+          "value": 340000.0
+        },
+        {
+          "description": "Zabudowa kuchenna",
+          "value": 120000.0
+        },
+        {
+          "description": "Kanapa",
+          "value": 18400.0
+        },
+        {
+          "description": "Torebka",
+          "value": 17000.0
+        },
+        {
+          "description": "Regał",
+          "value": 17000.0
+        },
+        {
+          "description": "Regał",
+          "value": 22000.0
+        },
+        {
+          "description": "Stół",
+          "value": 12000.0
+        },
+        {
+          "description": "Pozostałe meble i sprzęt elektroniczny",
+          "value": 200000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z jednoosobowej działalności gospodarczej Sławomir Mentzen",
+          "yearlyValue": 470405.12
+        },
+        {
+          "description": "Dochód z tytułu członkostwa w zarządzie Mentzen SA",
+          "yearlyValue": 19500.0
+        },
+        {
+          "description": "Dochód z tytułu członkostwa w zarządzie Kancelaria Mentzen sp. z o.o.",
+          "yearlyValue": 19500.0
+        },
+        {
+          "description": "Dochód z tytułu udziałów w Kancelaria Mentzen sp. z o.o. (zaliczka na poczet dywidendy)",
+          "yearlyValue": 72183.21
+        },
+        {
+          "description": "Świadczenie z Fundacji Rodzinnej Mentzen",
+          "yearlyValue": 3000000.0
+        },
+        {
+          "description": "Dochód z praw autorskich",
+          "yearlyValue": 2393.50
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 9038.52
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Pożyczka udzielona osobie fizycznej",
+          "value": 300000.0
+        },
+        {
+          "description": "Pożyczka udzielona osobie fizycznej",
+          "value": 60000.0
+        },
+        {
+          "description": "Pożyczka udzielona osobie prawnej",
+          "value": 2074000.0
+        },
+        {
+          "description": "Pożyczka udzielona osobie prawnej",
+          "value": 50000.0
+        },
+        {
+          "description": "Pożyczka udzielona osobie fizycznej (Fundacja Rodzinna Mentzen)",
+          "value": 400000.0
+        },
+        {
+          "description": "Pożyczka udzielona osobie prawnej (Fundacja Rodzinna Mentzen)",
+          "value": 715000.0
+        }
+      ],
+      "businessActivities": [
+        {
+          "businessName": "Mentzen Legał sp. komandytowa",
+          "businessType": "spółka komandytowa",
+          "description": "Wkład: 100 zł",
+          "income": 200000.0
+        },
+        {
+          "businessName": "Sławomir Mentzen",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": null,
+          "income": 470405.12
+        },
+        {
+          "businessName": "Mentzen SA",
+          "businessType": "spółka handlowa",
+          "description": "Prezes zarządu od 15 grudnia 2023 r.",
+          "income": 19500.0
+        },
+        {
+          "businessName": "Kancelaria Mentzen sp. z o.o.",
+          "businessType": "spółka handlowa",
+          "description": "Prezes zarządu od 1 grudnia 2023 r.",
+          "income": 19500.0
+        },
+        {
+          "businessName": "Mentzen Holding sp. z o.o.",
+          "businessType": "spółka handlowa",
+          "description": "Prezes zarządu od 24 czerwca 2016 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "Mentzen i Kapica sp. z o.o.",
+          "businessType": "spółka handlowa",
+          "description": "Członek zarządu od 22 listopada 2013 r.",
+          "income": 0.0
+        },
+        {
+          "businessName": "Fundacja Rodzinna Mentzen",
+          "businessType": "fundacja",
+          "description": "Prezes zarządu od 29 października 2024 r.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

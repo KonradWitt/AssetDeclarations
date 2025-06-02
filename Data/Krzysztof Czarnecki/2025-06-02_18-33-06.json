@@ -1,0 +1,53 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Czarnecki",
+  "dateOfBirth": "1955-10-25T00:00:00",
+  "placeOfBirth": "Trzcianka",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D6ED86E8355083EEC1258A51003B9C01/$File/054.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/FDFF5086BAA5D497C1258C750043B902/%24File/OSW102_054.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 426800.00,
+          "baseValue": 426800.00,
+          "description": "Środki pieniężne w walucie polskiej"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 22200.00,
+          "baseValue": 22200.00,
+          "description": "Ubezpieczenie na życie"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Ford Kuga, rok produkcji 2010, wspólność majątkowa",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 170800.98
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Świadczenie emerytalne",
+          "yearlyValue": 98662.44
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

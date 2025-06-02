@@ -1,0 +1,75 @@
+{
+  "firstName": "Jerzy",
+  "lastName": "Polaczek",
+  "dateOfBirth": "1961-08-24T00:00:00",
+  "placeOfBirth": "Piekary Śląskie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F847793C0C4B0E3AC1258A51003BA078/$File/299.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CCBBD2CE1529A2F9C1258C7E00395437/%24File/OSW102_299.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 35200.00,
+          "baseValue": 35200.00,
+          "description": "na IKE małżonki"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 28200.00,
+          "baseValue": 28200.00,
+          "description": "na IKZE"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 1200.00,
+          "baseValue": 1200.00,
+          "description": "na IKE"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 130 m²",
+          "value": 340000.00,
+          "legalTitle": "rozszerzenie wspólności majątkowej małżeńskiej"
+        },
+        {
+          "description": "Działka o powierzchni 1700 m²",
+          "value": 190000.00,
+          "legalTitle": "rozszerzenie wspólności majątkowej małżeńskiej"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt gotówkowy w BPS na 8 lat",
+          "value": 58775.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Opel Astra Notchback, rok 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie (brutto)",
+          "yearlyValue": 150064.58
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 41659.49
+        },
+        {
+          "description": "Przychód z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 532.29
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

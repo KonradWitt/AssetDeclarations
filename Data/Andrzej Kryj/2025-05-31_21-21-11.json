@@ -1,0 +1,117 @@
+{
+  "firstName": "Andrzej",
+  "lastName": "Kryj",
+  "dateOfBirth": null,
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/47F1519F31FBF868C1258A51003B9E8B/$File/192.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/08868F5405979A8BC1258C750043D150/%24File/OSW102_192.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 610000.00,
+          "baseValue": 610000.00
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 25934.00,
+          "baseValue": 25934.00,
+          "description": "TKE BNP PARIBAS"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1400.00,
+          "baseValue": 5600.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 600.00,
+          "baseValue": 2580.00
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje KGHM",
+          "quantity": "39",
+          "value": null
+        },
+        {
+          "name": "Akcje Bank Handlowy",
+          "quantity": "34",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 419 m²",
+          "value": 600000.00,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie 33 m²",
+          "value": 145000.00,
+          "legalTitle": "własnościowe spółdzielcze prawo do lokalu"
+        },
+        {
+          "description": "Działka 3003 m²",
+          "value": 296000.00,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 4066 m²",
+          "value": 25000.00,
+          "legalTitle": "własność - 1/2 udziału"
+        },
+        {
+          "description": "Działka 300 m²",
+          "value": 54000.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka na modernizację domu z Kasy Zapomogowo-Pożyczkowej Sejmu RP, nieoprocentowana",
+          "value": 29640.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Opel Astra IV, rok produkcji 2017",
+          "value": 35000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150492.13
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9573.04
+        },
+        {
+          "description": "Dochód z dywidendy KGHM",
+          "yearlyValue": 58.50
+        },
+        {
+          "description": "Dochód z dywidendy Bank Handlowy",
+          "yearlyValue": 379.10
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "additionalInformation": null
+}

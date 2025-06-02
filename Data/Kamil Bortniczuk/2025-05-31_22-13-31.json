@@ -1,0 +1,99 @@
+{
+  "firstName": "Kamil",
+  "lastName": "Bortniczuk",
+  "dateOfBirth": "1983-06-11T00:00:00",
+  "placeOfBirth": "Głuchołazy",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/A57DDB26B47D6450C1258A51003B9B84/$File/028.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2024-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/6469C921F4606DFAC1258C740051B984/%24File/OSW102_028.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 110000.0,
+          "baseValue": 110000.0
+        },
+        {
+          "currency": "CZK",
+          "currencyValue": 50999.0,
+          "baseValue": 8544.43
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 3000.0,
+          "baseValue": 13635.0
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 2000.0,
+          "baseValue": 10360.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 2900.0,
+          "baseValue": 12151.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 200 m²",
+          "value": 1000000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 74 m²",
+          "value": 1300000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 0,114 ha",
+          "value": 200000.0,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Santander, do spłaty ok. 322 000 zł",
+          "value": 322000.0
+        },
+        {
+          "description": "Kredyt gotówkowy w Santander, do spłaty 45 907 zł",
+          "value": 45907.0
+        },
+        {
+          "description": "Pożyczka w rodzinie na zakup działki, do spłaty 50 000 zł",
+          "value": 50000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Lancia Voyager, rok produkcji 2014",
+          "value": 65200.0
+        },
+        {
+          "description": "Skuter Suzuki Burgman, rok produkcji 2014",
+          "value": 10902.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z tytułu zatrudnienia",
+          "yearlyValue": 55264.24
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 85528.00
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 46095.81
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

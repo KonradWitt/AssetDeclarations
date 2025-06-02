@@ -1,0 +1,70 @@
+{
+  "firstName": "Aleksander",
+  "lastName": "Mrówczyński",
+  "dateOfBirth": "1953-12-09T00:00:00",
+  "placeOfBirth": "Chojnice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E9110C54D1B9A2A5C1258A51003B9F8F/$File/250.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/0BB1353F27065665C1258C580057F5A6/%24File/OSW102_250.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 23226.36,
+          "baseValue": 23226.36
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 254,5 m²",
+          "value": 1100000.00,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Lokal użytkowy o powierzchni 24,2 m²",
+          "value": 60000.00,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Nieruchomość o powierzchni 0,0883 ha (stan surowy zamknięty - dom)",
+          "value": 650000.00,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych dla posłów na budowę domu z dnia 08.02.2024, w wysokości 5000,00 zł",
+          "value": 29750.00
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150492.13
+        },
+        {
+          "description": "Dieta poselska opodatkowana",
+          "yearlyValue": 9573.04
+        },
+        {
+          "description": "Dieta poselska nieopodatkowana",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Dochód z Kancelarii Sejmu",
+          "yearlyValue": 24300.00
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 68648.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

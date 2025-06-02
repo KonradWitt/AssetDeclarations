@@ -1,0 +1,150 @@
+{
+  "firstName": "Ewa",
+  "lastName": "Schädler",
+  "dateOfBirth": "1968-09-13T00:00:00",
+  "placeOfBirth": "Poznań",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/E0A6C4B094EE6F33C1258A51003BA0F1/$File/327.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/5EB20858B02895B9C1258C76004D93CD/%24File/OSW102_327.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 310000.0,
+          "baseValue": 310000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1200.0,
+          "baseValue": 5160.0
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 180000.0,
+          "baseValue": 792000.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały BPZ Sp. z o.o.",
+          "quantity": "17",
+          "value": null
+        },
+        {
+          "name": "Udziały Projekt Mogilno Sp. z o.o.",
+          "quantity": "16",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 100 m²",
+          "value": 150000.0,
+          "legalTitle": "współwłasność udział ½"
+        },
+        {
+          "description": "Mieszkanie 63,2 m²",
+          "value": 285000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Gospodarstwo rolne 12,2 ha, zabudowa: dom mieszkalny 160 m², dom inwentarski/pokoje gościnne 480 m², stodoła gospodarcza 200 m², kotłownia z wiatą garażową",
+          "value": 4460000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Kamienica 380 m²",
+          "value": 2900000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Kamienica 600 m²",
+          "value": 600000.0,
+          "legalTitle": "współwłasność 1/6 udziału"
+        },
+        {
+          "description": "Dom 490 m² (stan surowy otwarty)",
+          "value": 1100000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 0,0438 ha",
+          "value": 250000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka 1,16 ha",
+          "value": 500000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Ssangyoung Tivoli, rok produkcji 2017",
+          "value": 50000.0
+        },
+        {
+          "description": "Samochód Mazda 323F, rok produkcji 1992",
+          "value": 10000.0
+        },
+        {
+          "description": "Pierścionek",
+          "value": 20000.0
+        },
+        {
+          "description": "Kolia",
+          "value": 15000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z gospodarstwa rolnego",
+          "yearlyValue": 8806.70
+        },
+        {
+          "description": "Dochód z udziałów w BPZ Sp. z o.o.",
+          "yearlyValue": 0.0
+        },
+        {
+          "description": "Dochód z udziałów w Projekt Mogilno Sp. z o.o.",
+          "yearlyValue": 0.0
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 187018.48
+        },
+        {
+          "description": "Przychody z tytułu najmu",
+          "yearlyValue": 140990.0
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Udzielone pożyczki",
+          "value": 1282250.98
+        }
+      ],
+      "businessActivities": [
+        {
+          "businessName": "28 WFH 28 SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA",
+          "businessType": "spółka komandytowa",
+          "description": "Wkład wniesiony do spółki: 39 303,00 PLN",
+          "income": 0.0
+        },
+        {
+          "businessName": "BPZ Spółka z ograniczoną odpowiedzialnością",
+          "businessType": "spółka z ograniczoną odpowiedzialnością",
+          "description": "Członek zarządu od 27.12.2006r.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

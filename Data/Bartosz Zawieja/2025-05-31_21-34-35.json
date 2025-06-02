@@ -1,0 +1,63 @@
+{
+  "firstName": "Bartosz",
+  "lastName": "Zawieja",
+  "dateOfBirth": "1978-02-02T00:00:00",
+  "placeOfBirth": "Poznań",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/9561D4221B3E28E4C1258A51003BA318/$File/444.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EB0C7B31962AF68BC1258C7500477B0B/%24File/OSW102_444.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 68527.17,
+          "baseValue": 68527.17,
+          "description": "Środki pieniężne zgromadzone w walucie polskiej, wspólność majątkowa"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 33000.0,
+          "baseValue": 33000.0,
+          "description": "Środki zgromadzone w PPK, wspólność majątkowa"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 110,5 m² na działce 1582 m²",
+          "value": 950000.0,
+          "legalTitle": "1/3 udziału, wspólność majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Opel Antara 1.7, rok produkcji 2014",
+          "value": 20000.0
+        },
+        {
+          "description": "Samochód Ford Focus 1.6, rok produkcji 2013",
+          "value": 18000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska (Sejm)",
+          "yearlyValue": 8523.17
+        },
+        {
+          "description": "Dieta parlamentarna (Kancelaria Sejmu)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Wynagrodzenie z Kancelarii Sejmu",
+          "yearlyValue": 150919.60
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

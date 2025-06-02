@@ -1,0 +1,93 @@
+{
+  "firstName": "Rafał",
+  "lastName": "Komarewicz",
+  "dateOfBirth": "1971-06-10T00:00:00",
+  "placeOfBirth": "Ełk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/12151A3D7F0EDFA3C1258A51003B9E23/$File/171.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/67CB7F7AD6E7102CC1258C7C00439FB1/%24File/OSW102_171.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 94000.0,
+          "baseValue": 94000.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 161000.0,
+          "baseValue": 161000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1200.0,
+          "baseValue": null
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 10.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Polisa ubezpieczeniowa",
+          "quantity": null,
+          "value": 28000.0
+        },
+        {
+          "name": "Udziały Komo Development Sp. z o.o.",
+          "quantity": "50",
+          "value": 2500.0
+        },
+        {
+          "name": "Akcje Selvita",
+          "quantity": "555",
+          "value": null
+        },
+        {
+          "name": "Akcje RYVU",
+          "quantity": "430",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Działka o powierzchni 54 m²",
+          "value": 190000.0,
+          "legalTitle": "własność - majątek odrębny"
+        },
+        {
+          "description": "Garaż o powierzchni 18 m²",
+          "value": 30000.0,
+          "legalTitle": "własność - majątek odrębny"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Telewizor SAMSUNG Excellence Line QE75QN800BTXXH, 75\", Neo QLED",
+          "value": 13000.0
+        },
+        {
+          "description": "Zegarek Breitling",
+          "value": 15000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z umowy o pracę (Sejm) za 2023 r.",
+          "yearlyValue": 179023.0
+        },
+        {
+          "description": "Przychód z diet poselskich za 2023 r.",
+          "yearlyValue": 47966.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

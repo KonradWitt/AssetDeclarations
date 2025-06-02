@@ -1,0 +1,136 @@
+{
+  "firstName": "Mariusz",
+  "lastName": "Popielarz",
+  "dateOfBirth": "1975-05-03T00:00:00",
+  "placeOfBirth": "Trzemeszno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6FB36639F4014FA8C1258B46005B7456/$File/482.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EF0665E8E2D594D8C1258C76004BAA39/%24File/OSW102_482.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 78000.0,
+          "baseValue": 78000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 4627.0,
+          "baseValue": 19896.1
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje FON",
+          "quantity": "1",
+          "value": null
+        },
+        {
+          "name": "Akcje ATS OL3",
+          "quantity": "318",
+          "value": null
+        },
+        {
+          "name": "Akcje ATS TYMCZAS",
+          "quantity": "9222",
+          "value": null
+        },
+        {
+          "name": "Akcje EKP PL",
+          "quantity": "1",
+          "value": null
+        },
+        {
+          "name": "Akcje YBS",
+          "quantity": "34001",
+          "value": null
+        },
+        {
+          "name": "Akcje MAB",
+          "quantity": "1",
+          "value": null
+        },
+        {
+          "name": "Akcje PHN",
+          "quantity": "4891",
+          "value": null
+        },
+        {
+          "name": "Akcje WTN",
+          "quantity": "1301",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 129,20 m² na działce 0,802 ha",
+          "value": 700000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 72,03 m²",
+          "value": 400000.0,
+          "legalTitle": "spółdzielcze własnościowe prawo do lokalu"
+        },
+        {
+          "description": "Działka o powierzchni 0,1224 ha",
+          "value": 40000000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny zaciągnięty w BGŻ (obecnie BGŻ NBP Paribas) na zakup mieszkania, pierwotna kwota 178 500,00 zł na 25 lat.",
+          "value": 57642.71
+        },
+        {
+          "description": "Kredyt hipoteczny zaciągnięty w Banku Spółdzielczym w Ostrowi Mazowieckiej na wybudowanie i wyposażenie domu (umowa deweloperska w 2020r.), pierwotna kwota 423 200,00 zł na 20 lat. Zobowiązanie z drugą osobą.",
+          "value": 351930.0
+        },
+        {
+          "description": "Kredyt hipoteczny zaciągnięty w Banku Spółdzielczym w Ostrowi Mazowieckiej na zakup mieszkania (umowa deweloperska z 2023r.), pierwotna kwota 270 715,20 zł. Zobowiązanie z drugą osobą.",
+          "value": 86901.55
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dochód z zatrudnienia w Urzędzie Marszałkowskim Województwa w Warszawie",
+          "yearlyValue": 112423.12
+        },
+        {
+          "description": "Dieta Radnego Miasta Ostrołęki",
+          "yearlyValue": 18598.0
+        },
+        {
+          "description": "Dochód z umów zlecenia (przewodniczący komisji egzaminacyjnej - przewóz towarów niebezpiecznych)",
+          "yearlyValue": 176.0
+        },
+        {
+          "description": "Dochód z umowy zlecenia (świadczenia eksperckie i doradcze)",
+          "yearlyValue": 28800.0
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 93126.44
+        },
+        {
+          "description": "Wynagrodzenie z tytułu członka Rady Nadzorczej Spółdzielni Mieszkaniowej Centrum",
+          "yearlyValue": 13683.20
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 24738.03
+        },
+        {
+          "description": "Dochód z tytułu członkostwa w radzie nadzorczej Mazowieckiego Szpitala Wojewódzkiego Drewnica Sp. Z o.o.",
+          "yearlyValue": 16349.56
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

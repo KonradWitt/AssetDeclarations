@@ -1,0 +1,98 @@
+{
+  "firstName": "Małgorzata",
+  "lastName": "Pępek",
+  "dateOfBirth": "1961-06-10T00:00:00",
+  "placeOfBirth": "Rocień Rychwalski",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/EA8FB13E619DE9FAC1258A51003BA03D/$File/287.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/733CCC3544618E15C1258C750045D2E6/%24File/OSW102_287.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 192000.0,
+          "baseValue": 192000.0
+        },
+        {
+          "description": "Polisa",
+          "currency": "PLN",
+          "currencyValue": 3088.40,
+          "baseValue": 3088.40
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 149.2 m²",
+          "value": 1400000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 1.2955 ha, zabudowane budynkiem mieszkalnym",
+          "value": 388900.0,
+          "legalTitle": "współwłasność nieruchomości"
+        },
+        {
+          "description": "Działka pod budynkiem mieszkalnym z 3 zabudowaniami gospodarczymi",
+          "value": 165000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Inna nieruchomość",
+          "value": 388200.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka na cele mieszkaniowe z PKO Bank Polski",
+          "value": 485520.80
+        },
+        {
+          "description": "Pożyczka na cele mieszkaniowe z PKO Bank Polski",
+          "value": 376500.0
+        },
+        {
+          "description": "Kredyt z Santander Consumer",
+          "value": 58280.69
+        },
+        {
+          "description": "Pożyczka na cele bieżące",
+          "value": 28450.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Yaris Cross (XP01AM) rok 2022",
+          "value": null
+        },
+        {
+          "description": "Samochód Volvo V60 rok 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 174255.94
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45678.92
+        },
+        {
+          "description": "Przychód z tytułu wejścia",
+          "yearlyValue": 148.75
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 90624.24
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "firstName": "Władysław",
+  "lastName": "Kosiniak-Kamysz",
+  "dateOfBirth": "1981-08-10T00:00:00",
+  "placeOfBirth": "Kraków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/DF5C7E161E4F88A5C1258A51003B9E31/$File/174.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2469C49BC0D970B8C1258C7B00304670/%24File/OSW102_174.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 95000.0,
+          "baseValue": 95000.0,
+          "description": null
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 6000.0,
+          "baseValue": 6000.0,
+          "description": "fundusz inwestycyjny"
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 86,24 m²",
+          "value": 650000.0,
+          "legalTitle": "własność, mieszkanie hipoteczne na podstawie umowy darowizny i umowy przeniesienia własności lokalu"
+        },
+        {
+          "description": "Działka rolna 0,2196 ha",
+          "value": 28000.0,
+          "legalTitle": "własność, na podstawie umowy darowizny i umowy sprzedaży"
+        },
+        {
+          "description": "Działka rolna (udział ½) 0,16 ha",
+          "value": 22000.0,
+          "legalTitle": "własność udziału ½ część, na podstawie umowy sprzedaży"
+        },
+        {
+          "description": "Działka budowlana 754 m² oraz udział w drodze dojazdowej",
+          "value": 220000.0,
+          "legalTitle": "własność, na podstawie umowy sprzedaży i o podział majątku wspólnego"
+        },
+        {
+          "description": "Lokal niemieszkalny (garaż) 25 m²",
+          "value": 55000.0,
+          "legalTitle": "własność, na podstawie umowy darowizny i umowy przeniesienia własności lokalu"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Karta kredytowa Santander Bank",
+          "value": 10000.0
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie ze stosunku pracy (Wiceprezes Rady Ministrów, Minister Obrony Narodowej)",
+          "yearlyValue": 248565.72
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Dochód z wynajmu mieszkania",
+          "yearlyValue": 42000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Fundacja Rozwoju",
+          "businessType": "fundacja",
+          "description": "Przewodniczący Rady Kuratorów od 7 listopada 2015r.",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

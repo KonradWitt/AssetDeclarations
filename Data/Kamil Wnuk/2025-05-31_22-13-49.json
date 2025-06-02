@@ -1,0 +1,73 @@
+{
+  "firstName": "Kamil",
+  "lastName": "Wnuk",
+  "dateOfBirth": "1984-05-22T00:00:00",
+  "placeOfBirth": "Sosnowiec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/6A3F124954DFCB1DC1258A51003BA2D8/$File/430.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/3160774396A09F1BC1258C7C0028C81F/%24File/OSW102_430.pdf",
+      "employmentDetails": "Poseł na Sejm RP",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 60000.0,
+          "baseValue": 60000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 85 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny PKO, zobowiązanie wspólne z żoną",
+          "value": 190343.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Fiat Tipo, rok produkcji 2016",
+          "value": 30000.0
+        },
+        {
+          "description": "Samochód Opel Astra, rok produkcji 2015",
+          "value": 25000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu członkostwa w Radzie Nadzorczej Spółdzielni Mieszkaniowej „Zagórze”",
+          "yearlyValue": 13683.20
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 189567.13
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 47832.74
+        },
+        {
+          "description": "Prawa autorskie i prawa pokrewne",
+          "yearlyValue": 250.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Spółdzielnia Mieszkaniowa „Zagórze”",
+          "businessType": "Spółdzielnia Mieszkaniowa",
+          "description": "Członek rady nadzorczej",
+          "income": 13683.20
+        }
+      ]
+    }
+  ]
+}

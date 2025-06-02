@@ -1,0 +1,111 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Szczucki",
+  "dateOfBirth": "1986-10-18T00:00:00",
+  "placeOfBirth": "Elbląg",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0C1943CB092A5385C1258A51003BA1A6/$File/366.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2015-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/CEF2E0BF02E502FBC1258C75004500BB/%24File/OSW102_366.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 21000.0,
+          "baseValue": 21000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 17.85,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "PRO IKZE",
+          "quantity": "909",
+          "value": 20197.29
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom",
+          "value": null,
+          "legalTitle": null
+        },
+        {
+          "description": "Mieszkanie",
+          "value": 1000000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Udział w nieruchomości niezabudowanej (działka nr 11690/106956)",
+          "value": null,
+          "legalTitle": "Udział w nieruchomości"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w Bank Millennium",
+          "value": 239077.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Cupra Formentor, rok 2023",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uniwersytet Warszawski",
+          "yearlyValue": 72551.68
+        },
+        {
+          "description": "Dieta Poselska",
+          "yearlyValue": 47699.13
+        },
+        {
+          "description": "Uposażenie Poselskie",
+          "yearlyValue": 160536.52
+        },
+        {
+          "description": "Prawa Autorskie",
+          "yearlyValue": 285.88
+        },
+        {
+          "description": "Katolicki Uniwersytet Lubelski",
+          "yearlyValue": 1.25
+        },
+        {
+          "description": "Akademia Kopernikańska",
+          "yearlyValue": 68745.26
+        },
+        {
+          "description": "Rządowe Centrum Legislacji",
+          "yearlyValue": 34424.90
+        },
+        {
+          "description": "Ministerstwo Nauki i Szkolnictwa Wyższego",
+          "yearlyValue": 23352.46
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Kancelaria Ciasna S.K.A.",
+          "businessType": "Spółka komandytowo-akcyjna",
+          "description": "Wniesiony wkład: 12000 zł (data 2024)",
+          "income": 0.0
+        },
+        {
+          "businessName": "Kancelaria Prawna S.K.A.",
+          "businessType": "Spółka komandytowo-akcyjna",
+          "description": "Prokurent od 01.04.2015",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

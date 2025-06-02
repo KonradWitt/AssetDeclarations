@@ -1,0 +1,73 @@
+{
+  "firstName": "Ireneusz",
+  "lastName": "Zyska",
+  "dateOfBirth": "1969-08-05T00:00:00",
+  "placeOfBirth": "Świebodzice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0D596594F877C9E2C1258A51003BA355/$File/458.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E113D003840A0F2BC1258C7C004B5CB2/%24File/OSW102_458.pdf",
+      "cashPositions": [
+        {
+          "description": "Środki pieniężne w walucie polskiej",
+          "currency": "PLN",
+          "currencyValue": 47968.22,
+          "baseValue": 47968.22
+        },
+        {
+          "description": "Stan rachunku PPK",
+          "currency": "PLN",
+          "currencyValue": 40244.68,
+          "baseValue": 40244.68
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 187 m²",
+          "value": 550000.0,
+          "legalTitle": "Współwłasność w udziale 1/2 – wspólność małżeńska majątkowa"
+        },
+        {
+          "description": "Dom o powierzchni 136 m²",
+          "value": 350000.0,
+          "legalTitle": "Współwłasność w udziale 1/2 – majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych Kancelarii Sejmu",
+          "value": 23800.0
+        },
+        {
+          "description": "Umowa leasingu samochodu z Prime Car Management S.A. (Masterlease Grupa PKO BP)",
+          "value": 156187.50
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Suzuki Swift 1.3, rok 2006",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z Ministerstwa Klimatu i Środowiska",
+          "yearlyValue": 80919.63
+        },
+        {
+          "description": "Uposażenie poselskie z Kancelarii Sejmu",
+          "yearlyValue": 113439.76
+        },
+        {
+          "description": "Dieta parlamentarna z Kancelarii Sejmu",
+          "yearlyValue": 45573.04
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

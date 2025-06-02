@@ -1,0 +1,95 @@
+{
+  "firstName": "Ryszard",
+  "lastName": "Bartosik",
+  "dateOfBirth": "1968-01-11T00:00:00",
+  "placeOfBirth": "Turku",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/C3A4E2DBA32312C8C1258A51003B9B35/$File/012.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E783057854097731C1258C7600505AE2/%24File/OSW102_012.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 295000.0,
+          "baseValue": 295000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 16000.0,
+          "baseValue": 68800.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 220 m²",
+          "value": 500000.0,
+          "legalTitle": "Małżeńska wspólwłasność majątkowa"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 10,81 ha z domem i budynkami gospodarczymi",
+          "value": 850000.0,
+          "legalTitle": "Małżeńska wspólwłasność majątkowa"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt z Volkswagen Bank za zakup samochodu",
+          "value": 83792.66
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Ciągnik Ursus 3512 (rok prod. 1987)",
+          "value": 10000.0
+        },
+        {
+          "description": "Samochód osobowy Toyota Yaris (rok prod. 2016)",
+          "value": 48000.0
+        },
+        {
+          "description": "Samochód osobowy Volkswagen Arteon",
+          "value": 121000.0
+        },
+        {
+          "description": "Samochód Hyundai i30 (rok prod. 2015)",
+          "value": 30000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna nieopodatkowana",
+          "yearlyValue": 25650.0
+        },
+        {
+          "description": "Dieta parlamentarna opodatkowana",
+          "yearlyValue": 9075.0
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 12762.0
+        },
+        {
+          "description": "Wynagrodzenie z Ministerstwa Rolnictwa i Rozwoju Wsi",
+          "yearlyValue": 161279.0
+        },
+        {
+          "description": "Dopłaty z Agencji Restrukturyzacji i Modernizacji Rolnictwa",
+          "yearlyValue": 7361.0
+        },
+        {
+          "description": "Dotacja z Polskiego Funduszu Rozwoju",
+          "yearlyValue": 20000.0
+        },
+        {
+          "description": "Sprzedaż samochodu Mitsubishi ASX (rok prod. 2020)",
+          "yearlyValue": 75000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

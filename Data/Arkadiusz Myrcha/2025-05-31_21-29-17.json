@@ -1,0 +1,58 @@
+{
+  "firstName": "Arkadiusz",
+  "lastName": "Myrcha",
+  "dateOfBirth": "1984-02-01T00:00:00",
+  "placeOfBirth": "Toruń",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2521E693EEB3B7F6C1258A51003B9FAF/$File/256.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2768424A3E874DFBC1258C7C00369F2D/%24File/OSW102_256.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 40000.00,
+          "baseValue": 40000.00
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Polisa ubezpieczeniowa na życie TU Allianz Życie Polska S.A.",
+          "quantity": null,
+          "value": 250000.00
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 55,40 m²",
+          "value": 450000.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy MDM na zakup mieszkania w Bank Pekao S.A.",
+          "value": 187094.30
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Wynagrodzenie z tytułu pełnienia funkcji Sekretarza Stanu w Ministerstwie Sprawiedliwości",
+          "yearlyValue": 210838.51
+        },
+        {
+          "description": "Wynagrodzenie z tytułu pełnienia funkcji Przewodniczącego Komisji ds. reprywatyzacji nieruchomości warszawskich",
+          "yearlyValue": 137571.87
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

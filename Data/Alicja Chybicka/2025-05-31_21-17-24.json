@@ -1,0 +1,78 @@
+{
+  "firstName": "Alicja",
+  "lastName": "Chybicka",
+  "dateOfBirth": "1951-05-10T00:00:00",
+  "placeOfBirth": "Wałbrzych",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1E1EB239E5C33E0BC1258A51003B9BE1/$File/047.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-11T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/41E0EACC231799A5C1258C690047A720/%24File/OSW102_047.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 360000.0,
+          "baseValue": 360000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 7500.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 22000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Fundusze inwestycyjne",
+          "quantity": null,
+          "value": 31000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom 130 m² na działce 860 m²",
+          "value": 1000000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie 23 m²",
+          "value": 160000.0,
+          "legalTitle": "własność odrębna"
+        },
+        {
+          "description": "Mieszkanie 50 m²",
+          "value": 250000.0,
+          "legalTitle": "własność odrębna"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód VOLVO XC90, rok 2009",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 180385.0
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 209023.0
+        },
+        {
+          "description": "Działalność wykonywana osobiście",
+          "yearlyValue": 9680.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

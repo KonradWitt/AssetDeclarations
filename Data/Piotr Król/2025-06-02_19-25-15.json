@@ -1,0 +1,77 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Król",
+  "dateOfBirth": "1974-06-26T00:00:00",
+  "placeOfBirth": "Bydgoszcz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/AF8406B24B798FC7C1258A51003B9E7E/$File/189.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2F0015A85C2364D6C1258C760051E6D9/%24File/OSW102_189.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 3000.0,
+          "baseValue": 3000.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 58531.0,
+          "baseValue": 58531.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 34113.0,
+          "baseValue": 34113.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 160 m²",
+          "value": 500000.0,
+          "legalTitle": "Własność (darowizna od mamy 50% udziału w nieruchomości)"
+        },
+        {
+          "description": "Mieszkanie 70,35 m²",
+          "value": 350000.0,
+          "legalTitle": "Własność (udział w nieruchomości gruntowej 7035/208942)"
+        },
+        {
+          "description": "Działka o powierzchni 0,0558 ha z dwoma budynkami gospodarczymi",
+          "value": 100000.0,
+          "legalTitle": "50% udziału w nieruchomości (darowizna od mamy)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na nabycie mieszkania i stan deweloperski oraz remont w PKO Bank Hipoteczny (z dn. 27.07.2016)",
+          "value": 170208.05
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Audi Q5, rok produkcji 2016",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 165070.35
+        },
+        {
+          "description": "Stowarzyszenie Autorów ZAIKS (prawa autorskie)",
+          "yearlyValue": 0.87
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

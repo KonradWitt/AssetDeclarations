@@ -1,0 +1,62 @@
+{
+  "firstName": "Jan",
+  "lastName": "Warzecha",
+  "dateOfBirth": "1959-04-21T00:00:00",
+  "placeOfBirth": "Jodłowa",
+  "imageUrl": "https://orka.pl/Poslowie10.nsf/0/DC9696FC5BC37BE5C1258A51003BA276/$File/410.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/531DE57E60B10A38C1258C750043179B/%24File/OSW102_410.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 33291.00,
+          "baseValue": 33291.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 144 m²",
+          "value": 350000.00,
+          "legalTitle": "WSPÓLNOŚĆ MAŁŻEŃSKA"
+        },
+        {
+          "description": "Działka pod domem i budynek garażowo-gospodarczy o powierzchni 12.26 arów",
+          "value": 200000.00,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ MAŁŻEŃSKA"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka z Kancelarii Sejmu (stan na 31.12.2024 r.)",
+          "value": 27200.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Volkswagen Golf IV 1.8 T, rok produkcji 2002",
+          "value": null
+        },
+        {
+          "description": "Samochody Toyota Highlander XU70 Hybrid, rok produkcji 2022 (2 szt.)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 189399.60
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

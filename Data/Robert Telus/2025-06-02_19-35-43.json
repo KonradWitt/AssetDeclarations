@@ -1,0 +1,133 @@
+{
+  "firstName": "Robert",
+  "lastName": "Telus",
+  "dateOfBirth": "1969-04-18T00:00:00",
+  "placeOfBirth": "Opoczno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B117EFF72CF95545C1258A51003BA20D/$File/387.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/59EB6C2B0A45F755C1258C7A003D142E/%24File/OSW102_387.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 60000.0,
+          "baseValue": 60000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 190 m²",
+          "value": 280000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Dom o powierzchni 100 m² (spadek po rodzicach)",
+          "value": 150000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 48.30 ha fizycznych (20.0 ha przeliczeniowych) oraz ok. 30 ha dzierżawy od KOWR i LP, z budynkami gospodarczymi i maszynami rolniczymi",
+          "value": 950000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka z zabudowaniami o powierzchni 0.0518 ha",
+          "value": 100000.0,
+          "legalTitle": "współwłasność 1/3 własności"
+        },
+        {
+          "description": "Działka z zabudowaniami o powierzchni 0.2 ha",
+          "value": 400000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka od siostry Bernadety Baran",
+          "value": 130000.0
+        },
+        {
+          "description": "Pożyczka od Ojca Grzegorza Henryka Telusa na zakup nieruchomości",
+          "value": 70000.0
+        },
+        {
+          "description": "Kredyt rolniczy",
+          "value": 150000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód KIA Carnival, rok prod. 2008",
+          "value": 25000.0
+        },
+        {
+          "description": "Samochód VW T-Roc, rok prod. 2018",
+          "value": 60000.0
+        },
+        {
+          "description": "Ciągnik rolniczy New Holland z turem",
+          "value": 170000.0
+        },
+        {
+          "description": "Prasa zwijająca Unia",
+          "value": 53000.0
+        },
+        {
+          "description": "Przyczepa rolnicza MetalFach 8 ton",
+          "value": 33000.0
+        },
+        {
+          "description": "Przyczepa do bal MetalFach",
+          "value": 25000.0
+        },
+        {
+          "description": "Rozrzutnik do obornika MetalFach",
+          "value": 40000.0
+        },
+        {
+          "description": "Kosiarka do trawy Unia",
+          "value": 15000.0
+        },
+        {
+          "description": "Siewnik z agregatem Unia",
+          "value": 30000.0
+        },
+        {
+          "description": "Pług",
+          "value": 17000.0
+        },
+        {
+          "description": "Agregat uprawowy Unia",
+          "value": 14000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie z ministerstwa",
+          "yearlyValue": 46184.33
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 159329.49
+        },
+        {
+          "description": "Dieta poselska (opodatkowana)",
+          "yearlyValue": 9252.38
+        },
+        {
+          "description": "Przychody żony z dzierżawy",
+          "yearlyValue": 155900.0
+        },
+        {
+          "description": "Środki z UE przelane na gospodarstwo",
+          "yearlyValue": 350000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

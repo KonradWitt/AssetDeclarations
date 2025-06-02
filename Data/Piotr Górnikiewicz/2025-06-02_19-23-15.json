@@ -1,0 +1,168 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Górnikiewicz",
+  "dateOfBirth": "1972-07-09T00:00:00",
+  "placeOfBirth": "Tarnów",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/C690BECBC1C6C767C1258A51003B9D01/$File/112.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-15T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D6B2382CA416C038C1258C7500440D1C/%24File/OSW102_112.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 880000.0,
+          "baseValue": 880000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 3000.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 4000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Portfel papierów wartościowych (Apache Corp, Asseco Poland, Cormay, Getin Noble Bank, ING Bank Śląski, KCI, mBank, ML System, Pepco Group, Petrolinvest, PKN Orlen, Pokalu)",
+          "quantity": null,
+          "value": 41884605.0
+        },
+        {
+          "name": "Akcje Grupa Azoty",
+          "quantity": "417",
+          "value": null
+        },
+        {
+          "name": "Akcje PXAM",
+          "quantity": "57",
+          "value": null
+        },
+        {
+          "name": "Akcje PKN Orlen",
+          "quantity": "100",
+          "value": null
+        },
+        {
+          "name": "Akcje Apache Corp",
+          "quantity": "41",
+          "value": null
+        },
+        {
+          "name": "Akcje Asseco Poland",
+          "quantity": "50",
+          "value": null
+        },
+        {
+          "name": "Akcje Cormay",
+          "quantity": "200",
+          "value": null
+        },
+        {
+          "name": "Akcje Getin Noble Bank",
+          "quantity": "500",
+          "value": null
+        },
+        {
+          "name": "Akcje ING Bank Śląski",
+          "quantity": "10",
+          "value": null
+        },
+        {
+          "name": "Akcje KCI",
+          "quantity": "358",
+          "value": null
+        },
+        {
+          "name": "Akcje mBank",
+          "quantity": "19",
+          "value": null
+        },
+        {
+          "name": "Akcje ML System",
+          "quantity": "119",
+          "value": null
+        },
+        {
+          "name": "Akcje Pepco Group",
+          "quantity": "150",
+          "value": null
+        },
+        {
+          "name": "Akcje Petrolinvest",
+          "quantity": "63",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 84 m²",
+          "value": 590000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Garaż 18 m²",
+          "value": 60000.0,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Garaż 18 m²",
+          "value": 60000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Linia kredytowa w mBanku (rachunek bieżący)",
+          "value": 10000.0
+        },
+        {
+          "description": "Kredyt hipoteczny na zakup mieszkania w PKO Bank Polski (1/2 udziału)",
+          "value": 316122.52
+        },
+        {
+          "description": "Pożyczka z Sejmu na spłatę hipoteki",
+          "value": 50000.0
+        },
+        {
+          "description": "Pożyczka z Sejmu (pozostało do spłaty)",
+          "value": 46750.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód BMW F11, rok 2013",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód ze zbycia papierów wartościowych (PIT 38)",
+          "yearlyValue": 7132.09
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9679.92
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 167859.20
+        },
+        {
+          "description": "Dochód ze sprzedaży nieruchomości (1/2 udziału)",
+          "yearlyValue": 477975.25
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "firstName": "Dorota",
+  "lastName": "Marek",
+  "dateOfBirth": "1973-12-28T00:00:00",
+  "placeOfBirth": "Krzeszowice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0FF942D6FA603ED9C1258A51003B9F3E/$File/233.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7120ED240AE1433AC1258C750046C77C/%24File/OSW102_233.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 170000.00,
+          "baseValue": 170000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 25000.00,
+          "baseValue": 107500.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 550 m²",
+          "value": 1500000.00,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie",
+          "value": null,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka niezabudowana 11 arów i działka zabudowana 25 arów",
+          "value": 250000.00,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Linia kredytowa spółki jawnej A. i D. Marek",
+          "value": 20000.00
+        },
+        {
+          "description": "Kredyt spółki jawnej A. i D. Marek",
+          "value": 78326.42
+        },
+        {
+          "description": "Kredyt spółki jawnej A. i D. Marek",
+          "value": 49373.44
+        },
+        {
+          "description": "Limit w rachunku bieżącym",
+          "value": 40000.00
+        },
+        {
+          "description": "Kredyt indywidualny",
+          "value": 18012.94
+        },
+        {
+          "description": "Pożyczka z FŚS",
+          "value": 37400.00
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Wynajem lokalu",
+          "yearlyValue": 3600.00
+        },
+        {
+          "description": "Uposażenie oraz dieta parlamentarna",
+          "yearlyValue": 221384.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "A. i D. Marek spółka jawna",
+          "businessType": "spółka jawna",
+          "description": "50% udziałów jako wspólnik",
+          "income": 84947.53
+        }
+      ]
+    }
+  ]
+}

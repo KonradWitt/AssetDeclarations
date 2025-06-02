@@ -1,0 +1,123 @@
+{
+  "firstName": "Andrzej",
+  "lastName": "Śliwka",
+  "dateOfBirth": "1988-10-12T00:00:00",
+  "placeOfBirth": "Pasłęk",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0274E500E262C8F9C1258A51003BA1EF/$File/381.jpg",
+  "partyId": 7,
+  "occupation": null,
+  "assetDeclarations": [
+    {
+      "date": "2015-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/75138246CEC64F55C1258C7C0057877D/%24File/OSW102_381.pdf",
+      "position": "Poseł na Sejm RP",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 220000.00,
+          "baseValue": 220000.00,
+          "description": "Środki pieniężne w walucie polskiej (z czego część na rachunku bankowym stanowi współwłasność)"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 500.00,
+          "baseValue": 2000.00,
+          "description": "Środki pieniężne w walucie obcej"
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 300.00,
+          "baseValue": 1080.00,
+          "description": "Środki pieniężne w walucie obcej"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 28050.69,
+          "baseValue": 28050.69,
+          "description": "Środki zgromadzone na rachunku PPK"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Nike Inc. akcje",
+          "quantity": "1.4699",
+          "value": 111.17,
+          "currency": "USD"
+        },
+        {
+          "name": "Adobe Systems Inc. akcje",
+          "quantity": "0.1146",
+          "value": 50.96,
+          "currency": "USD"
+        },
+        {
+          "name": "Winnebago Industries Inc. akcje",
+          "quantity": "2",
+          "value": 95.28,
+          "currency": "USD"
+        },
+        {
+          "name": "Veeva Systems Inc. akcje",
+          "quantity": "0.1129",
+          "value": 23.72,
+          "currency": "USD"
+        },
+        {
+          "name": "The Walt Disney Company akcje",
+          "quantity": "0.9316",
+          "value": 103.78,
+          "currency": "USD"
+        },
+        {
+          "name": "Domino's Pizza Inc. akcje",
+          "quantity": "0.4208",
+          "value": 176.55,
+          "currency": "USD"
+        },
+        {
+          "name": "Apple Inc. akcje",
+          "quantity": "0.1121",
+          "value": 28.07,
+          "currency": "USD"
+        },
+        {
+          "name": "Virgin Galactic Holdings Inc. akcje",
+          "quantity": "20",
+          "value": 117.40,
+          "currency": "USD"
+        },
+        {
+          "name": "Visa Inc. akcje",
+          "quantity": "0.4175",
+          "value": 131.90,
+          "currency": "USD"
+        },
+        {
+          "name": "Estee Lauder Companies Inc. akcje",
+          "quantity": "1",
+          "value": 74.97,
+          "currency": "USD"
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dochód z tytułu posiadania udziałów/akcji w innych spółkach handlowych",
+          "yearlyValue": 759.02
+        },
+        {
+          "description": "Dieta parlamentarna (całkowita)",
+          "yearlyValue": 44290.41
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 145361.53
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

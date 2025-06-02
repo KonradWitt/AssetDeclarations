@@ -1,0 +1,128 @@
+{
+  "firstName": "Mirosław",
+  "lastName": "Suchoń",
+  "dateOfBirth": "1976-01-10T00:00:00",
+  "placeOfBirth": "Bielsko-Biała",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/27D43DE54D6BEA6CC1258A51003BA185/$File/359.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-04T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7A8EB8180D9DC22CC1258C43004BDBF6/%24File/OSW102_359.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 57000.00,
+          "baseValue": 57000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1010.00,
+          "baseValue": 4343.00
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 15100.00,
+          "baseValue": 58890.00
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 15.00,
+          "baseValue": 75.00
+        },
+        {
+          "currency": "HUF",
+          "currencyValue": 7000.00,
+          "baseValue": 77.00
+        },
+        {
+          "currency": "ALL",
+          "currencyValue": 3000.00,
+          "baseValue": 120.00
+        },
+        {
+          "currency": "GEL",
+          "currencyValue": 120.00,
+          "baseValue": 168.00
+        },
+        {
+          "currency": "KZT",
+          "currencyValue": 1700.00,
+          "baseValue": 13.60
+        },
+        {
+          "currency": "UAH",
+          "currencyValue": 104.00,
+          "baseValue": 10.40
+        },
+        {
+          "currency": "BGN",
+          "currencyValue": 55.00,
+          "baseValue": 121.00
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje Skarbowe",
+          "quantity": "932",
+          "value": 121979.88
+        },
+        {
+          "name": "Obligacje Skarbowe (małżonka)",
+          "quantity": "5",
+          "value": 582.52
+        },
+        {
+          "name": "Fundusz Inwestycyjny PZU Akcji Nowa Europa",
+          "quantity": "3.0116",
+          "value": 198.22
+        },
+        {
+          "name": "Akcje",
+          "quantity": "2",
+          "value": 26.60
+        },
+        {
+          "name": "Akcje AQUA S.A.",
+          "quantity": "2",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni ok. 140 m²",
+          "value": 750000.00,
+          "legalTitle": "własność, małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Działka o powierzchni 0,1033 ha, na której znajduje się dom",
+          "value": 115000.00,
+          "legalTitle": "własność, małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Kangoo, rok produkcji 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 202498.59
+        },
+        {
+          "description": "Dieta",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 2744.85
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

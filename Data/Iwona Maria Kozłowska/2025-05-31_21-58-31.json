@@ -1,0 +1,88 @@
+{
+  "firstName": "Iwona",
+  "lastName": "Kozłowska",
+  "dateOfBirth": "1963-08-11T00:00:00",
+  "placeOfBirth": "Więcbork",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/D6AC788D0B7FD115C1258A51003B9E5A/$File/182.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8A5C88655CD7AC39C1258C740051DDD0/%24File/OSW102_182.pdf",
+      "cashPositions": [
+        {
+          "description": "ING Polisa (IKE, IKZE)",
+          "currency": "PLN",
+          "currencyValue": 10568.77,
+          "baseValue": 10568.77
+        },
+        {
+          "description": "Credit Agricole",
+          "currency": "PLN",
+          "currencyValue": 15275.00,
+          "baseValue": 15275.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 156 m²",
+          "value": 450000.0,
+          "legalTitle": null
+        },
+        {
+          "description": "Dom z budynkiem gospodarczym o powierzchni 98 m² (spadek po rodzicach)",
+          "value": 80000.0,
+          "legalTitle": null
+        },
+        {
+          "description": "Mieszkanie o powierzchni 48 m²",
+          "value": 300000.0,
+          "legalTitle": "odrębna własność małżonka"
+        },
+        {
+          "description": "Gospodarstwo rolne (produkcja roślinna) o powierzchni 2 ha 68 a 21m",
+          "value": 50000.0,
+          "legalTitle": "odrębna własność współmałżonka"
+        },
+        {
+          "description": "Działka o powierzchni 0,3739 ha z budynkiem gospodarczym parterowym o powierzchni 55 m²",
+          "value": 100000.0,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt w TOYOTA Bank Polska S.A. na zakup samochodu",
+          "value": 126500.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota RAV/4, rok produkcji 2024",
+          "value": null
+        },
+        {
+          "description": "Samochód VOLKSWAGEN CADDY, rok produkcji 2015 (leasing)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (Kancelaria Sejmu RP)",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie (Kancelaria Sejmu RP)",
+          "yearlyValue": 174007.68
+        },
+        {
+          "description": "Emerytura (Kancelaria Sejmu RP)",
+          "yearlyValue": 81149.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

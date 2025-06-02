@@ -1,0 +1,84 @@
+{
+  "firstName": "Wiesław",
+  "lastName": "Krajewski",
+  "dateOfBirth": "1964-06-03T00:00:00",
+  "placeOfBirth": "Chosnowie",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B5A74A7CA6EA1557C1258A51003B9E65/$File/184.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-03T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1ABEA4AB31C0DD41C1258C61004E8161/%24File/OSW102_184.pdf",
+      "position": "Poseł",
+      "employer": "Sejm RP",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 645000.0,
+          "baseValue": 645000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 30000.0,
+          "baseValue": null
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 5000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 285 m²",
+          "value": 500000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 38 m²",
+          "value": 450000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 0.42 ha",
+          "value": 20000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Zurich Insurance Company",
+          "value": 55550.58,
+          "currency": "CHF"
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód VW Sharan, rok produkcji 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Dieta parlamentarna (nieopodatkowana)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dieta parlamentarna (opodatkowana)",
+          "yearlyValue": 9466.15
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150064.58
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "firstName": "Kazimierz",
+  "lastName": "Choma",
+  "dateOfBirth": "1957-12-16T00:00:00",
+  "placeOfBirth": "Kraśnik",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4C8FD16B2C667A58C1258A51003B9BD3/$File/044.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/0B04AC457C74F68FC1258C7C0041990D/%24File/OSW102_044.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 118000.00,
+          "baseValue": 118000.00,
+          "description": "Współwłasność małżeńska"
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 22434.80,
+          "baseValue": 22434.80,
+          "description": "Środki zgromadzone na JKZE żony Nieskawy Choma (współwłasność małżeńska)"
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje FŁT Kraśnik S.A.",
+          "quantity": "208",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 87.9 m²",
+          "value": 550000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Garaż o powierzchni ok. 18 m² położony na działce o powierzchni 39.9 m²",
+          "value": 50000.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda CRV, rok 2011 (współwłasność małżeńska)",
+          "value": null
+        },
+        {
+          "description": "Samochód Renault Scenic, rok 2008 (współwłasność małżeńska)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta Parlamentarna",
+          "yearlyValue": 45359.26
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 149637.03
+        },
+        {
+          "description": "Emerytura (ZUS)",
+          "yearlyValue": 114591.20
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

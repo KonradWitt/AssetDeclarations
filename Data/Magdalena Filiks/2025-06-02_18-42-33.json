@@ -1,0 +1,72 @@
+{
+  "firstName": "Magdalena",
+  "lastName": "Filiks",
+  "dateOfBirth": "1978-12-08T00:00:00",
+  "placeOfBirth": "Barlinek",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F29A8F6D0879CB77C1258A51003B9C66/$File/077.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-20T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/494C269363AD30D2C1258C81003B1BEB/%24File/OSW102_077.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 20000.0,
+          "baseValue": 20000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1000.0,
+          "baseValue": 4500.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 169 m² na działce 3000 m²",
+          "value": 370000.0,
+          "legalTitle": "prawo własności"
+        },
+        {
+          "description": "Mieszkanie 45.31 m²",
+          "value": 200000.0,
+          "legalTitle": "prawo własności"
+        },
+        {
+          "description": "Działka gruntowa 1.08 ha",
+          "value": 50000.0,
+          "legalTitle": "nie dotyczy"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na dom w Banku PKO BP",
+          "value": 417426.79
+        },
+        {
+          "description": "Pożyczka z Kancelarii Sejmu na cele mieszkaniowe",
+          "value": 27200.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Mercedes Benz ML 320, rok produkcji 2006",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie (Kancelaria Sejmu)",
+          "yearlyValue": 196502.53
+        },
+        {
+          "description": "Dieta poselska (Kancelaria Sejmu)",
+          "yearlyValue": 9145.50
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

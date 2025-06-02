@@ -1,0 +1,82 @@
+{
+  "firstName": "Mariusz",
+  "lastName": "Błaszczak",
+  "dateOfBirth": "1968-08-18T00:00:00",
+  "placeOfBirth": "Legionowo",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B344F1C2525F388BC1258A51003B9B5D/$File/020.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/367F3E45306DB344C1258C7C00582F0B/%24File/OSW102_020.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 390000.0,
+          "baseValue": 390000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "POLISA NA ŻYCIE Z UBEZPIECZENIOWYM FUNDUSZEM KAPITAŁOWYM (W TYM IKE)",
+          "quantity": null,
+          "value": 45000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 155,48 m² na działce o powierzchni 643 m²",
+          "value": 850000.0,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 48,23 m²",
+          "value": 300000.0,
+          "legalTitle": "Współwłasność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 58 m²",
+          "value": 650000.0,
+          "legalTitle": "Współwłasność"
+        },
+        {
+          "description": "1/2 domu o powierzchni 58 m² na działce o powierzchni 572 m²",
+          "value": 250000.0,
+          "legalTitle": "Współwłasność - spadek po zmarłym ojcu"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód FIAT 500L, rok 2013",
+          "value": null
+        },
+        {
+          "description": "Samochód VW GOLF VII, rok 2014 (własność żony)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie MON",
+          "yearlyValue": 81167.25
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 171907.11
+        },
+        {
+          "description": "Dieta poselska (w tym opodatkowana 8 824,86)",
+          "yearlyValue": 44824.86
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Ciecióra",
+  "dateOfBirth": "1989-06-27T00:00:00",
+  "placeOfBirth": "Radomsko",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/BF2A2812217269E7C1258A51003B9BEE/$File/050.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-04T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/25E5BCAF4B9A36D7C1258C67003AB62D/%24File/OSW102_050.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 50000.0,
+          "baseValue": 50000.0
+        },
+        {
+          "currency": "PLN",
+          "currencyValue": 23000.0,
+          "baseValue": 23000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 75.25 m²",
+          "value": 200000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Inna nieruchomość o powierzchni 125.07 m²",
+          "value": 1400000.0,
+          "legalTitle": "własność (darowizna od rodziców)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Pekao S.A. na zakup mieszkania",
+          "value": 86452.0
+        },
+        {
+          "description": "Pożyczka poselska",
+          "value": 34000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Hyundai i40, rok 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45359.27
+        },
+        {
+          "description": "Dochód opodatkowany",
+          "yearlyValue": 9359.27
+        },
+        {
+          "description": "Wynagrodzenie poselskie",
+          "yearlyValue": 132950.00
+        },
+        {
+          "description": "Dochód z MRiRW",
+          "yearlyValue": 6522.34
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "firstName": "Wanda",
+  "lastName": "Nowicka",
+  "dateOfBirth": "1956-01-21T00:00:00",
+  "placeOfBirth": "Lublin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/126A32394E33973BC1258A51003B9FDA/$File/266.jpg",
+  "partyId": 3,
+  "assetDeclarations": [
+    {
+      "date": "2025-03-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/50D92FF60A06124FC1258C580041972B/%24File/OSW102_266.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 1047007.0,
+          "baseValue": 1047007.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 24680.0,
+          "baseValue": 105618.4
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 30460.0,
+          "baseValue": 120317.0
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 680.0,
+          "baseValue": 2978.4
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 55.4 m²",
+          "value": 800000.0,
+          "legalTitle": "Spadek i darowizna"
+        },
+        {
+          "description": "Mieszkanie własnościowe 37.74 m² w Sopocie",
+          "value": 550000.0,
+          "legalTitle": "Akt notarialny z dnia 31.01.2024 r."
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna (część nieopodatkowana)",
+          "yearlyValue": 36600.0
+        },
+        {
+          "description": "Dieta parlamentarna (część opodatkowana)",
+          "yearlyValue": 9079.92
+        },
+        {
+          "description": "Stypendium zagraniczne",
+          "yearlyValue": 5196.77
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 181703.64
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 189533.82
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

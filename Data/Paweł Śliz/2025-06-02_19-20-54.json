@@ -1,0 +1,98 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Śliz",
+  "dateOfBirth": "1980-09-18T00:00:00",
+  "placeOfBirth": "Kraków",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/58C20A3E64E7BF8BC1258A51003BA1F2/$File/382.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F6D8FD6AA511A253C1258C7E003A2B36/%24File/OSW102_382.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 25600.0,
+          "baseValue": 25600.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 800.0,
+          "baseValue": 3440.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 120.0,
+          "baseValue": 480.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały Splendour sp. z o.o.",
+          "quantity": "40",
+          "value": 4000.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 52,5 m²",
+          "value": 110000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka niezabudowana",
+          "value": 11000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Motocykl Honda Forza NS 125, rok prod. 2019",
+          "value": null
+        },
+        {
+          "description": "Samochód Chrysler Pacifica, rok prod. 2017",
+          "value": null
+        },
+        {
+          "description": "Samochód Chrysler Voyager, rok prod. 2006",
+          "value": null
+        },
+        {
+          "description": "Zegarek Ulysse Nardin",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 195886.10
+        },
+        {
+          "description": "Dieta poselska (opodatkowana i nieopodatkowana)",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Przychód z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 360.21
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Kancelaria Adwokacka adw. Paweł Śliz",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Prowadzenie kancelarii adwokackiej",
+          "income": null
+        },
+        {
+          "businessName": "Stowarzyszenie Business Alliance Cracovia",
+          "businessType": "stowarzyszenie",
+          "description": "Członek zarządu",
+          "income": null
+        }
+      ]
+    }
+  ]
+}

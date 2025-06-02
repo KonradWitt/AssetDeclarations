@@ -1,0 +1,56 @@
+{
+  "firstName": "Apoloniusz",
+  "lastName": "Tajner",
+  "dateOfBirth": "1954-04-17T00:00:00",
+  "placeOfBirth": "Cieszyn",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/AB8E1D7BF502B042C1258A51003BA204/$File/385.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/8F0AC907518D4173C1258C76005AF8A8/%24File/OSW102_385.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 28000.0,
+          "baseValue": 28000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 44,48 m² z pomieszczeniem gospodarczym 7,91 m²",
+          "value": 600000.0,
+          "legalTitle": "współwłasność (1/2 udziału)"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 2731 m²",
+          "value": 1500000.0,
+          "legalTitle": "współwłasność (1/2 udziału)"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Emerytura",
+          "yearlyValue": 103304.08
+        },
+        {
+          "description": "Wynagrodzenie posła",
+          "yearlyValue": 158957.69
+        },
+        {
+          "description": "Działalność wykonywana osobiście",
+          "yearlyValue": 23959.92
+        },
+        {
+          "description": "Prawa autorskie",
+          "yearlyValue": 1750.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

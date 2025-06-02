@@ -1,0 +1,99 @@
+{
+  "firstName": "Zbigniew",
+  "lastName": "Chmielowiec",
+  "dateOfBirth": "1954-09-22T00:00:00",
+  "placeOfBirth": "Koboszowa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5A60A5DB8E28BB52C1258A51003B9BCA/$File/042.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/7D7E95B26EC5AC93C1258C750044F40F/%24File/OSW102_042.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 451400.0,
+          "baseValue": 451400.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 58000.0,
+          "baseValue": 232000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1100.0,
+          "baseValue": 4730.0
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 20.0,
+          "baseValue": 100.0
+        },
+        {
+          "currency": "AED",
+          "currencyValue": 2100.0,
+          "baseValue": 2310.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 120 m²",
+          "value": 365000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka zabudowana o powierzchni 361 m²",
+          "value": 4300.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka rolna o powierzchni 1,05 ha",
+          "value": 2300.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka rolna o powierzchni 3,50 ha",
+          "value": 3500.0,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Volkswagen Tiguan, rok produkcji 2017",
+          "value": 200000.0
+        },
+        {
+          "description": "Samochód Peugeot, rok produkcji 2005",
+          "value": 15000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Dochód z uposażenia",
+          "yearlyValue": 9649.92
+        },
+        {
+          "description": "Dochód z diety",
+          "yearlyValue": 60339.21
+        },
+        {
+          "description": "Dochód z wynagrodzenia",
+          "yearlyValue": 156919.68
+        },
+        {
+          "description": "Dochód z emerytury",
+          "yearlyValue": 113905.50
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

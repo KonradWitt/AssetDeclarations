@@ -1,0 +1,46 @@
+{
+  "firstName": "Jolanta",
+  "lastName": "Niezgodzka",
+  "dateOfBirth": "1991-02-28T00:00:00",
+  "placeOfBirth": "Kobucku",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/76435604427D524BC1258A51003B9FC5/$File/261.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/14FDEBFF5AE3F011C1258C820044C9D3/%24File/OSW102_261.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 3500.00,
+          "baseValue": 3500.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Volkswagen Golf, rok produkcji 2006",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 150492.13
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Umowy zlecenia",
+          "yearlyValue": 15200.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

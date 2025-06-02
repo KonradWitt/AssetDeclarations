@@ -1,0 +1,105 @@
+{
+  "firstName": "Jarosław",
+  "lastName": "Sachajko",
+  "dateOfBirth": "1971-10-08T00:00:00",
+  "placeOfBirth": "Lublin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/40F88EEB61EEDCF6C1258A51003BA0D3/$File/321.jpg",
+  "partyId": 9,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/2CCC092D2810AF49C1258C7C00382196/%24File/OSW102_321.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10970.37,
+          "baseValue": 10970.37
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 169,5 m² na działce 10 arów",
+          "value": 900000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "1/2 gospodarstwa rolnego (grunt 0,85 ha, dom mieszkalny, las 0,17 ha, las 1,10 ha)",
+          "value": 390000.0,
+          "legalTitle": "spadek - własność odrębna"
+        },
+        {
+          "description": "1/2 domu drewnianego",
+          "value": 70000.0,
+          "legalTitle": "spadek - własność odrębna"
+        },
+        {
+          "description": "2/18 stodoły drewnianej",
+          "value": 8000.0,
+          "legalTitle": "spadek - własność odrębna"
+        },
+        {
+          "description": "2/18 obory drewnianej",
+          "value": 9000.0,
+          "legalTitle": "spadek - własność odrębna"
+        },
+        {
+          "description": "2/18 drewnianego budynku gospodarczego",
+          "value": 3000.0,
+          "legalTitle": "spadek - własność odrębna"
+        },
+        {
+          "description": "2/18 gruntu ornego i siedliska 0,39 ha",
+          "value": 70000.0,
+          "legalTitle": "spadek - własność odrębna"
+        },
+        {
+          "description": "1/3 działek o łącznej powierzchni 3,74 ha",
+          "value": 19000.0,
+          "legalTitle": "darowizna - własność odrębna"
+        },
+        {
+          "description": "50/903 lasu o powierzchni 1,05 ha",
+          "value": 6000.0,
+          "legalTitle": "darowizna - własność odrębna"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP na wykończenie nieruchomości",
+          "value": 126875.93
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Fiat Sedici 4x4 Emotion 1.6, 16v 120kM, rok 2011",
+          "value": 30000.0
+        },
+        {
+          "description": "Samochód Honda CR-V, 2261 cm³, 116,00 kW, rok 2007",
+          "value": 50000.0
+        },
+        {
+          "description": "Samochód Lexus UX-250H, 1987 cm³, rok 2023",
+          "value": 170000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 184055.15
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45154.51
+        },
+        {
+          "description": "Przychody z tytułu limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 0.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

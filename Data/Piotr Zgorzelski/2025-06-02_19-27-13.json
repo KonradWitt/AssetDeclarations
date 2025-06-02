@@ -1,0 +1,58 @@
+{
+  "firstName": "Piotr",
+  "lastName": "Zgorzelski",
+  "dateOfBirth": "1963-09-17T00:00:00",
+  "placeOfBirth": "Płock",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4F5A69CBED01EC5AC1258A51003BA32C/$File/449.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9DA339F302DCCC5AC1258C7C00373B54/%24File/OSW102_449.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 493000.00,
+          "baseValue": 493000.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Lokal mieszkalny 171,32 m² z prawem do korzystania z 41 m² wraz z udziałem w częściach wspólnych",
+          "value": 560000.00,
+          "legalTitle": "Współwłasność odrębna udział wynoszący 4100/12471"
+        },
+        {
+          "description": "Lokal mieszkalny 62,36 m² wraz z miejscem postojowym 11,50 m²",
+          "value": 293092.00,
+          "legalTitle": "Własność"
+        },
+        {
+          "description": "Lokal niemieszkalny - garaż 17,40 m² wraz z udziałem w częściach wspólnych i miejscem postojowym 12,50 m²",
+          "value": 40000.00,
+          "legalTitle": "Własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Volvo XC 60, rok produkcji 2019, nabyty 2022 r.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Wynagrodzenie",
+          "yearlyValue": 348172.56
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

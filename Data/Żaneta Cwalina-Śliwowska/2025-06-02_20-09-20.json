@@ -1,0 +1,82 @@
+{
+  "firstName": "Żaneta",
+  "lastName": "Cwalina-Śliwowska",
+  "dateOfBirth": "1978-12-10T00:00:00",
+  "placeOfBirth": "Ostrołęka",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2834AC8F8939A8C9C1258A51003B9BFD/$File/053.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EC968930DCA11F1FC1258C76005B0D6C/%24File/OSW102_053.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 20606.01,
+          "baseValue": 20606.01
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom 160 m²",
+          "value": 1200000.00,
+          "legalTitle": "½ udziału"
+        },
+        {
+          "description": "Dom 110 m² z lokalem użytkowym 54 m²",
+          "value": 1100000.00,
+          "legalTitle": "współwłasność 1/6 udziału"
+        },
+        {
+          "description": "24 działki budowlane o powierzchni 1.5 ha",
+          "value": 1600000.00,
+          "legalTitle": "współwłasność 1/6 udziału"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny na dom w banku BPH, umorzono pozostałą do spłaty należność",
+          "value": 0.0
+        },
+        {
+          "description": "Umowa na długoterminowy wynajem samochodu osobowego",
+          "value": 104702.40
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Fiat Doblo, rok prod. 2012",
+          "value": 31000.00
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z wynajmu lokalu handlowego i powierzchni pod paczkomat",
+          "yearlyValue": 31200.00
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 175538.48
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Nagroda przyznana przez prezydenta miasta",
+          "yearlyValue": 1000.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Trener Sportów Tanecznych – Żaneta Cwalina-Śliwowska",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Usługi rekreacji ruchowej (działalność zawieszona dn. 31.10.2023)",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

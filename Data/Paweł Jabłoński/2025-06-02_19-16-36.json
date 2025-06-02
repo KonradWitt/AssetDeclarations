@@ -1,0 +1,80 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Jabłoński",
+  "dateOfBirth": "1986-01-25T00:00:00",
+  "placeOfBirth": "Opole",
+  "occupation": "POSEŁ NA SEJM RP",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/72A1B56CECF2394BC1258C7C005BDAAF/%24File/OSW102_137.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 360000.0,
+          "baseValue": 360000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 8500.0,
+          "baseValue": null
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 5500.0,
+          "baseValue": null
+        },
+        {
+          "currency": "CHF",
+          "currencyValue": 7100.0,
+          "baseValue": null
+        },
+        {
+          "currency": "GBP",
+          "currencyValue": 500.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje BALTICUS S.A",
+          "quantity": "2000",
+          "value": 2200.0
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód VOLVO S80, 2007 rok, współwłasność małżeńska",
+          "value": 25000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z wynagrodzenia za pracę w MSZ",
+          "yearlyValue": 35278.24
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 158487.38
+        },
+        {
+          "description": "Dieta parlamentarna (w tym nieopodatkowana i opodatkowana)",
+          "yearlyValue": 47832.74
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "JABŁOŃSKI SZCZUCKI I WSPÓLNICY KANCELARIA PRAWNA SPÓŁKA KOMANDYTOWO-AKCYJNA",
+          "businessType": "spółka komandytowo-akcyjna",
+          "description": "Uczestnictwo w spółce, 105 udziałów, wkład w wysokości 10 500 zł. KRS 0001138106.",
+          "income": null
+        }
+      ]
+    }
+  ],
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B612778B9F285013C1258A51003B9D7E/$File/137.jpg"
+}

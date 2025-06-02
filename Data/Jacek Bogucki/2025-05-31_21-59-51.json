@@ -1,0 +1,86 @@
+{
+  "firstName": "Jacek",
+  "lastName": "Bogucki",
+  "dateOfBirth": "1959-02-13T00:00:00",
+  "placeOfBirth": "WYSOKIEM MAZOWIECKIEM",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/7FA28B5F37014454C1258A51003B9B6F/$File/024.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/746B3A443DBAED8CC1258C760047AE47/%24File/OSW102_024.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 100000.0,
+          "baseValue": 100000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 356 m²",
+          "value": 800000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ Z ŻONĄ"
+        },
+        {
+          "description": "Gospodarstwo rolne ogólnorolnicze o powierzchni 3,30 ha, zabudowane budynkami gospodarczymi murowanymi",
+          "value": 500000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ Z ŻONĄ"
+        },
+        {
+          "description": "Działka budowlana o powierzchni 8622 m² zabudowana warsztatem diagnostyki i mechaniki pojazdowej",
+          "value": 1100000.0,
+          "legalTitle": "WSPÓŁWŁASNOŚĆ Z ŻONĄ"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Lexus NX, rok prod. 2023",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Volkswagen Passat, rok prod. 2006",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Nissan Primera, rok prod. 1998",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Nissan Primera, rok prod. 2005 (współwłasność z córką)",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Hyundai Getz, rok prod. 2007 (współwłasność z córką)",
+          "value": null
+        },
+        {
+          "description": "Wyposażenie warsztatu diagnostyki i mechaniki pojazdowej",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód brutto z tytułu zatrudnienia",
+          "yearlyValue": 150492.13
+        },
+        {
+          "description": "Emerytury",
+          "yearlyValue": 133470.19
+        },
+        {
+          "description": "Diety",
+          "yearlyValue": 35941.36
+        },
+        {
+          "description": "Przychód z dzierżawy",
+          "yearlyValue": 60000.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

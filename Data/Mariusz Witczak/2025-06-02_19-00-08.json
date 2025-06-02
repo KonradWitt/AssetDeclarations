@@ -1,0 +1,68 @@
+{
+  "firstName": "Mariusz",
+  "lastName": "Witczak",
+  "dateOfBirth": "1971-04-14T00:00:00",
+  "placeOfBirth": "Koźminek",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/3CD25B1A79488F69C1258A51003BA2CA/$File/427.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-25T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/48BCB4DF6E170416C1258C7A003CC0BE/%24File/OSW102_427.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 25000.00,
+          "baseValue": 25000.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 700.00,
+          "baseValue": 3045.00
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 168,15 m². Prawo użytkowania wieczystego działki budowlanej o pow. 239 m² przekształcone w prawo własności w dn. 28.05.2007 r.",
+          "value": 950000.00,
+          "legalTitle": "Wspólność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 57,44 m² wraz z udziałem 5744/183105 w nieruchomości wspólnej.",
+          "value": 380592.00,
+          "legalTitle": "Wspólność małżeńska"
+        },
+        {
+          "description": "Komórka lokatorska o powierzchni 2,58 m² wraz z udziałem 258/183105 w nieruchomości wspólnej.",
+          "value": 7000.00,
+          "legalTitle": "Wspólność małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka na cele mieszkaniowe z Funduszu Świadczeń Socjalnych, oprocentowanie 2%.",
+          "value": 46750.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód BMW 520, rok produkcji 2013.",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie parlamentarne",
+          "yearlyValue": 181123.79
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 60199.92
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

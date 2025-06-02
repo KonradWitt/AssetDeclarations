@@ -1,0 +1,54 @@
+{
+  "firstName": "Alicja",
+  "lastName": "Łuczak",
+  "dateOfBirth": "1961-06-17T00:00:00",
+  "placeOfBirth": "Starszyme",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4D15390318D18E02C1258B0B00216DC0/$File/464.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-22T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/6CDF116B08C16BB3C1258C760050A5A4/%24File/OSW102_464.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 74911.16,
+          "baseValue": 74911.16
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Yaris Cross, rok 2022",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 113012.21
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 4933.03
+        },
+        {
+          "description": "Dieta radnego powiatu kaliskiego",
+          "yearlyValue": 12374.93
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 62677.53
+        },
+        {
+          "description": "Umowa zlecenie (szkoła językowa)",
+          "yearlyValue": 591.78
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

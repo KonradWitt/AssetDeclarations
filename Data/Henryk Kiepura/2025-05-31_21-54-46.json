@@ -1,0 +1,90 @@
+{
+  "firstName": "Henryk",
+  "lastName": "Kiepura",
+  "dateOfBirth": "1969-11-10T00:00:00",
+  "placeOfBirth": "Kłobuck",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/BBDDD411085599EFC1258A51003B9DEA/$File/159.jpg",
+  "partyId": 5,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-18T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/C99A61BC9ABA31BCC1258C7A003CE651/%24File/OSW102_159.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 160000.0,
+          "baseValue": 160000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 158,51 m²",
+          "value": 600000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Dom o powierzchni 80 m²",
+          "value": 400000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 0,5826 ha",
+          "value": 50000.0,
+          "legalTitle": "współwłasność małżeńska, akt notarialny"
+        },
+        {
+          "description": "Działka o powierzchni 0,4943 ha z posadowionymi domami (część A pkt II.1)",
+          "value": 150000.0,
+          "legalTitle": "współwłasność małżeńska, akt notarialny"
+        },
+        {
+          "description": "Działka gospodarcza/garaż o powierzchni 100 m²",
+          "value": 100000.0,
+          "legalTitle": "współwłasność małżeńska, akt notarialny"
+        },
+        {
+          "description": "Budynek",
+          "value": 130000.0,
+          "legalTitle": "współwłasność małżeńska, akt notarialny"
+        },
+        {
+          "description": "Działka (grunty rolne, leśne, stawy) o powierzchni 0,8432 ha, nabyta od Agencji Nieruchomości Rolnych OT w dniu 22.02.2011",
+          "value": null,
+          "legalTitle": null
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Citroen C5, rok produkcji 2002",
+          "value": null
+        },
+        {
+          "description": "Samochód Mercedes Benz A 180, rok produkcji 2005 (współwłasność małżeńska)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód ze stosunku pracy",
+          "yearlyValue": 219441.14
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 11832.74
+        },
+        {
+          "description": "Dochód z Kancelarii Sejmu",
+          "yearlyValue": 9466.16
+        },
+        {
+          "description": "Dochód jako Członek Rady Programowej TP SA",
+          "yearlyValue": 2366.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Grabczuk",
+  "dateOfBirth": "1962-04-22T00:00:00",
+  "placeOfBirth": "Sawin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/8A39C5C2CE88F981C1258A51003B9D0C/$File/114.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A39142FEDF776086C1258C81003971D0/%24File/OSW102_114.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 39000.0,
+          "baseValue": 39000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1500.0,
+          "baseValue": 6450.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 1500.0,
+          "baseValue": 6000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 189 m²",
+          "value": 500000.0,
+          "legalTitle": "własność małżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 57 m²",
+          "value": 300000.0,
+          "legalTitle": "własność małżeńska"
+        },
+        {
+          "description": "Gospodarstwo rolne produkcyjne o powierzchni 3,30 ha",
+          "value": 120000.0,
+          "legalTitle": "własność, majątek odrębny"
+        },
+        {
+          "description": "Działka letniskowa o powierzchni 0,0415 ha",
+          "value": 130000.0,
+          "legalTitle": "własność małżeńska"
+        },
+        {
+          "description": "Działka rolna o powierzchni 0,04146 ha",
+          "value": 40000.0,
+          "legalTitle": "własność małżeńska"
+        },
+        {
+          "description": "Lokal użytkowy o powierzchni 208,6 m²",
+          "value": 995000.0,
+          "legalTitle": "majątek odrębny"
+        },
+        {
+          "description": "Budynek postojowy w ramach podziemnych garaży",
+          "value": 10000.0,
+          "legalTitle": "własność małżeńska"
+        },
+        {
+          "description": "Miejsce postojowe o powierzchni 10,70 m²",
+          "value": 10000.0,
+          "legalTitle": "własność, majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny (zaległy)",
+          "value": 9159.0,
+          "currency": "EUR"
+        },
+        {
+          "description": "Kredyt zaciągnięty wraz z żoną (Santander Bank)",
+          "value": null,
+          "currency": null
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Subaru Outback, rok 2010",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie poselskie",
+          "yearlyValue": 189399.44
+        },
+        {
+          "description": "Diety poselskie",
+          "yearlyValue": 45167.90
+        },
+        {
+          "description": "Dochód z działalności gospodarczej (najem prywatny)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Dochód z zatrudnienia (UMCS Lublin - adiunkt)",
+          "yearlyValue": 13935.21
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Gospodarstwo rolne",
+          "businessType": "Gospodarstwo rolne",
+          "description": "Gospodarstwo rolne produkcyjne o powierzchni 3,30 ha",
+          "income": 0.0
+        },
+        {
+          "businessName": "Działalność gospodarcza",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Działalność gospodarcza - zamierzam prowadzić",
+          "income": 0.0
+        },
+        {
+          "businessName": "Najem prywatny",
+          "businessType": "najem prywatny",
+          "description": "Najem prywatny",
+          "income": 36000.0
+        }
+      ]
+    }
+  ]
+}

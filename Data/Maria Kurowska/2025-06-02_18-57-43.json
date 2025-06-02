@@ -1,0 +1,52 @@
+{
+  "firstName": "Maria",
+  "lastName": "Kurowska",
+  "dateOfBirth": "1954-06-03T00:00:00",
+  "placeOfBirth": "Birzostek",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/F526B8CD88EEB2DFC1258A51003B9EBD/$File/202.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/E1A0686E35A7A0D8C1258C7C006CCF13/%24File/OSW102_202.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 110000.0,
+          "baseValue": 110000.0
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 20000.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 51,50 m²",
+          "value": 400000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 162642.92
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.16
+        },
+        {
+          "description": "Emerytura",
+          "yearlyValue": 67065.12
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

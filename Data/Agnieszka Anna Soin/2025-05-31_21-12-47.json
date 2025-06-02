@@ -1,0 +1,93 @@
+{
+  "firstName": "Agnieszka",
+  "lastName": "Soin",
+  "dateOfBirth": "1977-02-09T00:00:00",
+  "placeOfBirth": "Szczytno",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/159F98F44E7EC8A6C1258A51003BA15C/$File/350.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1A843E4DAD75DADCC1258C7B003F4B3A/%24File/OSW102_350.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 116872.00,
+          "baseValue": 116872.00
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 84613.0,
+          "baseValue": 363835.9
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni ok. 170m², budynek gospodarczy ok. 40m², działka ok. 576m²",
+          "value": 400000.0,
+          "legalTitle": "akt notarialny własność odrębna przedmałżeńska"
+        },
+        {
+          "description": "Mieszkanie o powierzchni ok. 19m²",
+          "value": 200000.0,
+          "legalTitle": "wspólność majątkowa"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni ok. 11,45ha z zabudowaniami (budynek mieszkalny, 3 budynki gospodarcze)",
+          "value": 300000.0,
+          "legalTitle": "akt notarialny, własność odrębna przedmałżeńska"
+        },
+        {
+          "description": "Dom o powierzchni ok. 300m² na działce ok. 1150m²",
+          "value": 1400000.0,
+          "legalTitle": "wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni ok. 25m²",
+          "value": 440000.0,
+          "legalTitle": "wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni ok. 25m²",
+          "value": 440000.0,
+          "legalTitle": "wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni ok. 25m²",
+          "value": 400000.0,
+          "legalTitle": "wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni ok. 30,5m²",
+          "value": 360000.0,
+          "legalTitle": "akt notarialny wspólność majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Yaris, rok 2012",
+          "value": 10500.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie i dieta",
+          "yearlyValue": 215946.47
+        },
+        {
+          "description": "Przychód z wynajmu nieruchomości (PIT28)",
+          "yearlyValue": 83161.81
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Pożyczka udzielona członkowi rodziny",
+          "value": 400000.0
+        }
+      ],
+      "businessActivities": []
+    }
+  ]
+}

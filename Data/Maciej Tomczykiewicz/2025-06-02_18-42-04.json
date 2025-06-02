@@ -1,0 +1,102 @@
+{
+  "firstName": "Maciej",
+  "lastName": "Tomczykiewicz",
+  "dateOfBirth": "1988-03-17T00:00:00",
+  "placeOfBirth": "Pszczyna",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/52FF7208C686AA54C1258B46005B746A/$File/487.jpg",
+  "partyId": 1,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/17C9C1EC5DDC78C7C1258C7C00575B42/%24File/OSW102_487.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 28271.29,
+          "baseValue": 28271.29
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Papiery wartościowe (Budimex S.A., ETF DAX, ETF SP500, INPOST S.A., PKN ORLEN S.A., PKP CARGO, Goldman Sachs Perspektywa 2055)",
+          "quantity": null,
+          "value": 42897.24
+        },
+        {
+          "name": "Udziały PRO FOOTBOLL MAKING SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "quantity": "35",
+          "value": null
+        },
+        {
+          "name": "Akcje BUDIMEX",
+          "quantity": "5",
+          "value": null
+        },
+        {
+          "name": "Akcje INPOST",
+          "quantity": "70",
+          "value": null
+        },
+        {
+          "name": "Akcje PKNORLEN",
+          "quantity": "66",
+          "value": null
+        },
+        {
+          "name": "Akcje PKPCARGO",
+          "quantity": "284",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 30 m²",
+          "value": 280000.00,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Suzuki SX4, rok 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 23508.01
+        },
+        {
+          "description": "Dieta radnego powiatowego",
+          "yearlyValue": 2449.27
+        },
+        {
+          "description": "Wynagrodzenie członka rady nadzorczej",
+          "yearlyValue": 52910.22
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 88286.48
+        },
+        {
+          "description": "Dochód z zakończonej działalności gospodarczej",
+          "yearlyValue": 2974.33
+        },
+        {
+          "description": "Dochód z wynajmu nieruchomości",
+          "yearlyValue": 19764.00
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Działalność gospodarcza",
+          "businessType": "jednoosobowa działalność gospodarcza",
+          "description": "Zakończona w trakcie 2024 r.",
+          "income": 2974.33
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "firstName": "Szymon",
+  "lastName": "Szynkowski vel Sęk",
+  "dateOfBirth": "1982-11-24T00:00:00",
+  "placeOfBirth": "Poznań",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/80256156ADA9489DC1258A51003BA1E1/$File/378.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/3A5DAE186A458610C1258C7C0039D327/%24File/OSW102_378.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 55000.0,
+          "baseValue": 55000.0,
+          "description": "współwłasność małżeńska"
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 100.0,
+          "baseValue": 450.0,
+          "description": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "FIO Santander Akcji Polskich",
+          "quantity": "863",
+          "value": 41300.0
+        },
+        {
+          "name": "Polisa ubezpieczeniowa z jednostkami uczestnictwa Nationale Nederlanden",
+          "quantity": null,
+          "value": 13100.0
+        },
+        {
+          "name": "Pracownicze Plany Kapitałowe w PZU",
+          "quantity": null,
+          "value": 24200.0
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 123,89 m²",
+          "value": 750000.0,
+          "legalTitle": "własnościowe – współwłasność małżeńska"
+        },
+        {
+          "description": "Działka 1,75 ha",
+          "value": 120000.0,
+          "legalTitle": "współwłasność w 1/6 części, nieruchomość nabyta w spadku po ojcu, majątek odrębny"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy zaciągnięty wspólnie z żoną w banku Santander",
+          "value": 452000.0
+        },
+        {
+          "description": "Limit w koncie Santander bank",
+          "value": 25000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Citroen C4 Grand Picasso, rok 2015",
+          "value": 30000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z tytułu pracy w Kancelarii Prezesa Rady Ministrów",
+          "yearlyValue": 5729.12
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 188341.99
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45252.39
+        },
+        {
+          "description": "Umowa zlecenie - Poznańska Akademia Medyczna Nauk Stosowanych",
+          "yearlyValue": 80588.80
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 292.11
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

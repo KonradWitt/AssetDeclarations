@@ -1,0 +1,37 @@
+{
+  "firstName": "Marcelina",
+  "lastName": "Zawisza",
+  "dateOfBirth": "1989-05-03T00:00:00",
+  "placeOfBirth": "Katowice",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4A071BE8F2A4C563C1258A51003BA31D/$File/445.jpg",
+  "partyId": 8,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F6C2D127CB90881EC1258C7C0049F2DC/%24File/OSW102_445.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10431.19,
+          "baseValue": 10431.19
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45145.49
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 171442.38
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

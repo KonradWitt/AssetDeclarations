@@ -1,0 +1,108 @@
+{
+  "firstName": "Marek",
+  "lastName": "Gróbarczyk",
+  "dateOfBirth": "1968-03-13T00:00:00",
+  "placeOfBirth": null,
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/93D48E14E47DDF28C1258A51003B9D26/$File/119.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/EC71D1DE7E35B131C1258C7B0041B17E/%24File/OSW102_119.pdf",
+      "position": "Poseł na Sejm RP",
+      "address": null,
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 136341.0,
+          "baseValue": 136341.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 5.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Obligacje",
+          "quantity": null,
+          "value": 506962.29
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 145 m²",
+          "value": 300000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 71.88 m²",
+          "value": 550000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Gospodarstwo rolne o powierzchni 1.22 ha z zabudową domową i gospodarczą",
+          "value": 80000.0,
+          "legalTitle": null
+        },
+        {
+          "description": "Mieszkanie o powierzchni 36 m²",
+          "value": 226000.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 46.34 m²",
+          "value": 736538.74,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie",
+          "value": 459722.0,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie",
+          "value": 147315.85,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w banku Suva, August, udzielony 2021-05-27",
+          "value": 70000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Honda CRV, rok 2013",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Dochody z działalności gospodarczej (Mikropolityka)",
+          "yearlyValue": 36000.0
+        },
+        {
+          "description": "Inne dochody",
+          "yearlyValue": 113189.76
+        },
+        {
+          "description": "Wynagrodzenie z tytułu pracy w Ministerstwie Infrastruktury",
+          "yearlyValue": 434227.46
+        },
+        {
+          "description": "Dochody z najmu nieruchomości",
+          "yearlyValue": 38150.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

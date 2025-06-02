@@ -1,0 +1,66 @@
+{
+  "firstName": "Marcin",
+  "lastName": "Przydacz",
+  "dateOfBirth": "1985-06-26T00:00:00",
+  "placeOfBirth": "Wieluń",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/13D03F41ABADA2DDC1258A51003BA091/$File/305.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/918CF678927F2E2AC1258C7E00390D47/%24File/OSW102_305.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 78891.57,
+          "baseValue": 78891.57
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 248.0,
+          "baseValue": 1066.40
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały Katerpole sp. z o.o.",
+          "quantity": "99",
+          "value": 29700.0
+        }
+      ],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Skoda Rapid z 2013 r. (współwłasność małżeńska)",
+          "value": 21000.0
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 44290.40
+        },
+        {
+          "description": "Przychód z tytułu zwiększonego limitu na służbowe podróże zagraniczne",
+          "yearlyValue": 344.45
+        },
+        {
+          "description": "Uposażenie",
+          "yearlyValue": 163834.58
+        },
+        {
+          "description": "Dochód z Kancelarii Prezydenta Rzeczypospolitej Polskiej",
+          "yearlyValue": 237.97
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Wierzytelność wobec spółki Katerpole sp. z o.o.",
+          "value": 532000.0
+        }
+      ],
+      "businessActivities": []
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": null,
+  "firstName": "Piotr",
+  "lastName": "Strach",
+  "dateOfBirth": "1982-01-16T00:00:00",
+  "placeOfBirth": "Częstochowa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/53C00C0EF46ED149C1258A51003BA17F/$File/358.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "id": null,
+      "personId": null,
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/DCD9ECBBB3B53FD8C1258C8100375F1B/%24File/OSW102_358.pdf",
+      "cashPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "PLN",
+          "currencyValue": 135800.0,
+          "baseValue": 135800.0
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "currency": "EUR",
+          "currencyValue": 12500.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Papiery wartościowe: POUSA PRUDENTIAL EMERYTORA SEZ OBALI",
+          "quantity": null,
+          "value": 35194.78
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Papiery wartościowe: POLISA PRUDENTIAL-START & FICIE",
+          "quantity": null,
+          "value": 33325.18
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Papiery wartościowe: AIGO FOUNDS-TOW, FUNDULLY IND.",
+          "quantity": null,
+          "value": 32806.24
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Papiery wartościowe: NATIONALE NEDERLANDEN-CAMERA PREMIUM",
+          "quantity": null,
+          "value": 59973.97
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Udziały w STRACH I SYNOWIE SP. J.",
+          "quantity": "33",
+          "value": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "name": "Udziały w PPHU OSINY SP. Z O.O.",
+          "quantity": "308",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dom o powierzchni 150,6 m²",
+          "value": 700000.0,
+          "legalTitle": "własność małżeńska"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Mieszkanie o powierzchni 39,2 m²",
+          "value": 145000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dom o powierzchni około 300 m² wraz z budynkami gospodarczymi na działce o powierzchni 0,0791 ha",
+          "value": 600000.0,
+          "legalTitle": "współwłasność w 1/2"
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Działka niezabudowana o powierzchni 0,152 ha",
+          "value": 106400.0,
+          "legalTitle": "współwłasność w 1/2"
+        }
+      ],
+      "liabilities": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Pożyczka na cele remontowe z tytułu świadczeń socjalnych, do spłaty na dzień 31.10.2024",
+          "value": 33700.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód HONDA HRV, rok 2017",
+          "value": null
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Samochód TOYOTA RAV 4, rok 2010",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 15646.92
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Przychody z tytułu zwrotu limitu na podróże zagraniczne",
+          "yearlyValue": 580.04
+        },
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "description": "Uposażenie parlamentarne",
+          "yearlyValue": 174007.08
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "id": null,
+          "assetDeclarationId": null,
+          "businessName": "BRACIA STRACH SP. JAWNA",
+          "businessType": "spółka jawna",
+          "description": "Wniesione wkłady: 400 000 PLN",
+          "income": 0.0
+        }
+      ]
+    }
+  ]
+}

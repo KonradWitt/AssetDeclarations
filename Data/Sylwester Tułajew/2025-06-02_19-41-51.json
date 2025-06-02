@@ -1,0 +1,83 @@
+{
+  "firstName": "Sylwester",
+  "lastName": "Tułajew",
+  "dateOfBirth": "1981-12-30T00:00:00",
+  "placeOfBirth": "Lublin",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/FAF8A03755A95474C1258A51003BA23D/$File/398.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/69041D56512FC89BC1258C76004AF2F3/%24File/OSW102_398.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 280420.0,
+          "baseValue": 280420.0
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Akcje KGHM",
+          "quantity": "500 szt.",
+          "value": null
+        },
+        {
+          "name": "Akcje PGE",
+          "quantity": "5000 szt.",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie 83,56 m² (z własnością lokalu związany jest udział wynoszący 8356/821834 części wspólnej oraz prawo do korzystania z części wspólnej stanowiącej miejsce postojowe połączone z miejscem rowerowym na parkingu podziemnym)",
+          "value": 750000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Volkswagen PASSAT, rok produkcji 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 48099.96
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 183981.41
+        },
+        {
+          "description": "Świadczenie wychowawcze (Rodzina 500+)",
+          "yearlyValue": 19200.0
+        },
+        {
+          "description": "Rodzinny Kapitał Opiekuńczy",
+          "yearlyValue": 9000.0
+        },
+        {
+          "description": "Aktywny Rodzic",
+          "yearlyValue": 3000.0
+        },
+        {
+          "description": "Rada Programowa TVP Oddział Lublin",
+          "yearlyValue": 1014.0
+        },
+        {
+          "description": "Dochód z akcji KGHM i PGE",
+          "yearlyValue": 46697.70
+        },
+        {
+          "description": "Dywidenda z akcji KGHM i PGE",
+          "yearlyValue": 1245.0
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

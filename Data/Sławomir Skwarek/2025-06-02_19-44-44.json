@@ -1,0 +1,70 @@
+{
+  "firstName": "Sławomir",
+  "lastName": "Skwarek",
+  "dateOfBirth": "1963-11-25T00:00:00",
+  "placeOfBirth": "Toruń",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/0149FE9D9945B608C1258A51003BA13D/$File/343.jpg",
+  "partyId": 7,
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/30EECF5D03EF9D91C1258C76004FE03A/%24File/OSW102_343.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 25000.0,
+          "baseValue": 25000.0
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 125 m²",
+          "value": 650000.0,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka 0.26 ha zabudowana (dom z budynkiem gospodarczym)",
+          "value": 150000.0,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt konsumpcyjny w Santander Consumer Bank S.A. z 2020 r. na spłatę pozostałości",
+          "value": 23800.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Ford Focus Kombi 1.6 TDCI, rok prod. 2014",
+          "value": null
+        },
+        {
+          "description": "Samochód Ford Focus HB 1.5 CDTI, rok prod. 2017",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45573.04
+        },
+        {
+          "description": "Z innych gospodarstw domowych",
+          "yearlyValue": 36000.00
+        },
+        {
+          "description": "Przychód z tytułu umowy o pracę na stanowisku posła",
+          "yearlyValue": 191.43
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 150492.81
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}

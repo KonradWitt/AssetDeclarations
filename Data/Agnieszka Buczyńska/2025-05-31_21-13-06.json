@@ -1,0 +1,60 @@
+{
+  "firstName": "Agnieszka",
+  "lastName": "Buczyńska",
+  "dateOfBirth": "1986-09-22T00:00:00",
+  "placeOfBirth": "Toruń",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/92ED039E58235D58C1258A51003B9BAC/$File/036.jpg",
+  "partyId": 6,
+  "assetDeclarations": [
+    {
+      "date": "2029-04-18T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/A4DBDFD59B3C2C0BC1258C7700355A6B/%24File/OSW102_036.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 645000.0,
+          "baseValue": 645000.0
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 187.0,
+          "baseValue": null
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [
+        {
+          "description": "Zobowiązanie pieniężne do spłaty wspólnie z byłym mężem",
+          "value": 423000.0
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Fiat 500, rok produkcji 2010",
+          "value": null
+        },
+        {
+          "description": "Samochód Volkswagen T-Roc, rok produkcji 2018",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 31359.72
+        },
+        {
+          "description": "Wynagrodzenie ministerialne",
+          "yearlyValue": 158054.18
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ]
+}
