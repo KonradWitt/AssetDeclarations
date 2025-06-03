@@ -8,8 +8,7 @@ import json
 
 gemini = GeminiWrapper(api_keys.GEMINI)
 
-#main_directory = r'C:\Users\wittk\source\repos\AssetDeclarations\Data'
-main_directory = r'C:\Users\wittk\source\repos\AssetDeclarations\AssetDeclarationsPython\downloads'
+main_directory = r'C:\Users\wittk\source\repos\AssetDeclarations\Data'
 
 def list_subdirs(path):
     return [os.path.join(path, name) for name in os.listdir(path)
@@ -17,7 +16,7 @@ def list_subdirs(path):
 
 
 for person_directory in list_subdirs(main_directory):
-    print(person_directory)
+    print(person_directory)   
     pdf = None
     csv = None
 
@@ -57,14 +56,16 @@ for person_directory in list_subdirs(main_directory):
         headers = {
             "Content-Type": "application/json"
         }
+        
+        if False:
+            post_response = requests.post(url, data=data, headers=headers, verify=False)
 
-        post_response = requests.post(url, data=data, headers=headers, verify=False)
+            if post_response.status_code == 201:
+                print("OK")
+            else:
+                print("Status Code:", post_response.status_code)
+                print("Response Body:", post_response.text)
 
-        if post_response.status_code == 201:
-            print("OK")
-        else:
-            print("Status Code:", post_response.status_code)
-            print("Response Body:", post_response.text)
 
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(file_output)
