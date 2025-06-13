@@ -12,7 +12,7 @@ namespace AssetDeclarationsApi.Endpoints.Person
         public decimal NetWorth { get; set; }
     }
 
-    public class GetHighlights : EndpointBaseWithoutRequest<Results<Ok<List<GetHighlightsResponse>>, NotFound>>
+    public class GetHighlights : EndpointBase<Results<Ok<List<GetHighlightsResponse>>, NotFound>>
     {
         private DataContext _dataContext;
 

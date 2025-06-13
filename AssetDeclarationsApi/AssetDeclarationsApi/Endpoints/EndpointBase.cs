@@ -17,11 +17,11 @@ namespace AssetDeclarationsApi.Endpoints
         }
     }
 
-    public abstract class EndpointBaseWithoutRequest<TResponse> : EndpointWithoutRequest<TResponse>
+    public abstract class EndpointBase<TResponse> : EndpointWithoutRequest<TResponse>
     {
         protected string Route = null!;
 
-        public EndpointBaseWithoutRequest()
+        public EndpointBase()
         {
             InitializeRoute();
         }

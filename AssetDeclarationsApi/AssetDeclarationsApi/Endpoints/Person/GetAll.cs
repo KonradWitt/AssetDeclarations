@@ -9,7 +9,7 @@ namespace AssetDeclarationsApi.Endpoints.Person
 {
     public record GetAllResponse(string FullName, string Link);
 
-    public class GetAll : EndpointBaseWithoutRequest<Results<Ok<List<GetAllResponse>>, NotFound>>
+    public class GetAll : EndpointBase<Results<Ok<List<GetAllResponse>>, NotFound>>
     {
         private readonly DataContext _dataContext;
 

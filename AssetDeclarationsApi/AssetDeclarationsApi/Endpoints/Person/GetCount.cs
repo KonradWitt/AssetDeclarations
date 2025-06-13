@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AssetDeclarationsApi.Endpoints.Person
 {
-    public class GetCount : EndpointBaseWithoutRequest<Ok<int>>
+    public class GetCount : EndpointBase<Ok<int>>
     {
         private DataContext _dataContext;
 
