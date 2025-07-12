@@ -1,0 +1,38 @@
+{
+  "firstName": "Jan",
+  "lastName": "Dziedziczak",
+  "dateOfBirth": "1981-08-03T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/295242200E870766C1258A51003B9C5B/$File/075.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/08E84E80FA3D1BB4C1258C7B0046FD25/%24File/OSW102_075.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 401200,
+          "baseValue": 401200
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2000,
+          "baseValue": 8529.2
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 700,
+          "baseValue": 2622.06
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 7
+}

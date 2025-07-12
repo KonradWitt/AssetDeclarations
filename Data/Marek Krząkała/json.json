@@ -1,0 +1,46 @@
+{
+  "firstName": "Marek",
+  "lastName": "Krząkała",
+  "dateOfBirth": "1967-10-22T00:00:00",
+  "placeOfBirth": "Rybnik",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/78ADB00A45940077C1258A51003B9E95/$File/194.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/94311F658456E667C1258C7500456E7C/%24File/OSW102_194.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 73000,
+          "baseValue": 73000
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 2100,
+          "baseValue": 9007.53
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45678.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 177234.85
+        },
+        {
+          "description": "Przychód z tytułu zwrotu kosztów podróży zagranicznej",
+          "yearlyValue": 1211.69
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 1
+}

@@ -1,0 +1,81 @@
+{
+  "firstName": "Mariusz",
+  "lastName": "Kałużny",
+  "dateOfBirth": "1986-08-10T00:00:00",
+  "placeOfBirth": "Toruń",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/1B14E3B5B485EA6CC1258A51003B9DC4/$File/151.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-15T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/D5FADCC521BAF7CDC1258C6E002F4C72/%24File/OSW102_151.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 10000,
+          "baseValue": 10000
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w spółce z o.o.",
+          "quantity": null,
+          "value": 3750
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Działka o powierzchni 0,1100 ha",
+          "value": 320000,
+          "legalTitle": "własność małżeńska"
+        },
+        {
+          "description": "Działka o powierzchni 0,1101 ha",
+          "value": 320000,
+          "legalTitle": "własność małżeńska"
+        },
+        {
+          "description": "Udział 3/10 w nieruchomości o powierzchni 0,6616 ha",
+          "value": 90000,
+          "legalTitle": "własność prywatna"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP, pozostało do spłaty 220 044,73 PLN",
+          "value": 220044.73
+        },
+        {
+          "description": "Kredyt gotówkowy w PKO BP, pozostało do spłaty 26 537,10 PLN",
+          "value": 26537.1
+        },
+        {
+          "description": "Zadłużenie na karcie kredytowej, limit 10 000 PLN",
+          "value": 5436.37
+        },
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych, pozostało do spłaty 32 300 PLN",
+          "value": 32300
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 148781.93
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45145.5
+        }
+      ],
+      "receivables": [
+        {
+          "description": "Wierzytelność z tytułu pożyczki udzielonej spółce",
+          "value": 66000
+        }
+      ],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 7
+}

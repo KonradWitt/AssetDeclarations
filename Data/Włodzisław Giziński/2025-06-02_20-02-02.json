@@ -19,7 +19,7 @@
       "securityPositions": [
         {
           "name": "20% udziałów w kapitale zakładowym Centrum Medyczne Gizińscy sp. z o.o.",
-          "quantity": "20%",
+          "quantity": null,
           "value": null
         }
       ],

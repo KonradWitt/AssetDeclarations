@@ -1,0 +1,61 @@
+{
+  "firstName": "Jolanta",
+  "lastName": "Zięba-Gzik",
+  "dateOfBirth": "1975-10-13T00:00:00",
+  "placeOfBirth": "Sieradz",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/3477CB4BFCBEEC1FC1258A51003BA344/$File/454.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/61FCADA52AD27E81C1258C760049AFB5/%24File/OSW102_454.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 30000,
+          "baseValue": 30000
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 44,38 m²",
+          "value": 350000,
+          "legalTitle": "spółdzielcze własnościowe prawo do lokalu"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w Banku PeKaO SA, pozostało do spłaty 110 872,23 PLN",
+          "value": 110872.23
+        },
+        {
+          "description": "Pożyczka z Funduszu Świadczeń Socjalnych, pozostało do spłaty 27 200 PLN",
+          "value": 27200
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy BMW 525D, rok 2006",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 180524.41
+        },
+        {
+          "description": "Dochód z tytułu zatrudnienia na stanowisku państwowym",
+          "yearlyValue": 2496.04
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 5
+}

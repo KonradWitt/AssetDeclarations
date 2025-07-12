@@ -1,0 +1,58 @@
+{
+  "firstName": "Arkadiusz",
+  "lastName": "Czartoryski",
+  "dateOfBirth": "1966-04-14T00:00:00",
+  "placeOfBirth": "Ostrołęka",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/2BD7627964AFF680C1258A51003B9C0C/$File/057.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/1F79A9B464610F43C1258C760041A529/%24File/OSW102_057.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 40000,
+          "baseValue": 40000
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 4000,
+          "baseValue": 17115.6
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni ok. 280 m²",
+          "value": 830000,
+          "legalTitle": "współwłasność majątkowa"
+        },
+        {
+          "description": "Działka rolna o powierzchni 3227 m²",
+          "value": 40000,
+          "legalTitle": "współwłasność małżeńska"
+        },
+        {
+          "description": "Działka rolna o powierzchni 5414 m²",
+          "value": 29000,
+          "legalTitle": "współwłasność małżeńska"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 112762.21
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 84175.50
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 7
+}

@@ -24,22 +24,22 @@
       "securityPositions": [
         {
           "name": "Obligacje Skarbu Państwa",
-          "quantity": "Łącznie wiele sztuk",
+          "quantity": null,
           "value": 198100.0
         },
         {
           "name": "Obligacje korporacyjne (CAV1226, CAV0925, ERB0925, GHE0226)",
-          "quantity": "18 sztuk",
+          "quantity": "18",
           "value": 18600.0
         },
         {
           "name": "Obligacje korporacyjne (CAV0526, CPF1227, ERB0925, MVP0825, OBC0226, ETFSP500, GHE0728, GHE1127, UN1026) - IKE męża",
-          "quantity": "66 sztuk",
+          "quantity": "66",
           "value": 37960.0
         },
         {
           "name": "IKZE - obligacje (CPF1227, UNI1026) - rachunek maklerski męża",
-          "quantity": "49 sztuk",
+          "quantity": "49",
           "value": 8600.0
         },
         {
@@ -59,7 +59,7 @@
         },
         {
           "name": "Obligacje Skarbowe (IKE TOS1027)",
-          "quantity": "100 sztuk",
+          "quantity": "100",
           "value": 10100.0
         }
       ],

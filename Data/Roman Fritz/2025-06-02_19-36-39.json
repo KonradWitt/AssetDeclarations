@@ -24,12 +24,12 @@
       "securityPositions": [
         {
           "name": "Papiery wartościowe (maklerskie)",
-          "quantity": "92,935",
+          "quantity": null,
           "value": 2532.00
         },
         {
           "name": "Udziały ROW INFO SP. Z O.O.",
-          "quantity": "50%",
+          "quantity": null,
           "value": 2500.00
         }
       ],

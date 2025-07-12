@@ -1,5 +1,4 @@
 {
-  "id": null,
   "firstName": "Adam",
   "lastName": "Dziedzic",
   "dateOfBirth": "1969-09-26T00:00:00",
@@ -8,27 +7,22 @@
   "partyId": 5,
   "assetDeclarations": [
     {
-      "id": null,
-      "personId": null,
       "date": "2025-04-29T00:00:00",
       "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/5B74A78463C1C1F7C1258C7E0039B149/%24File/OSW102_074.pdf",
       "cashPositions": [
         {
-          "id": null,
           "assetDeclarationId": null,
           "currency": "PLN",
           "currencyValue": 585000.0,
           "baseValue": 585000.0
         },
         {
-          "id": null,
           "assetDeclarationId": null,
           "currency": "USD",
           "currencyValue": 20107.0,
           "baseValue": null
         },
         {
-          "id": null,
           "assetDeclarationId": null,
           "currency": "EUR",
           "currencyValue": 46.79,
@@ -37,14 +31,12 @@
       ],
       "securityPositions": [
         {
-          "id": null,
           "assetDeclarationId": null,
           "name": "Obligacje",
           "quantity": null,
           "value": 50154.24
         },
         {
-          "id": null,
           "assetDeclarationId": null,
           "name": "FI",
           "quantity": null,
@@ -53,14 +45,12 @@
       ],
       "realEstate": [
         {
-          "id": null,
           "assetDeclarationId": null,
           "description": "Gospodarstwo rolne o powierzchni 3,25 ha, w tym budynek mieszkalny ok. 180 m², budynek gospodarczy ok. 35 m², budynek warsztatowo-gospodarczy ok. 100 m², wiata stalowa. Grunty: 0,92 ha własność odrębna, 1,63 ha wspólność małżeńska.",
           "value": 350000.0,
           "legalTitle": "Własność, współwłasność małżeńska"
         },
         {
-          "id": null,
           "assetDeclarationId": null,
           "description": "Budynek gospodarczy (przemysłowy, wyłączony z działalności) o powierzchni ok. 170 m² wraz z działką o powierzchni 0,07 ha.",
           "value": 200000.0,
@@ -69,7 +59,6 @@
       ],
       "liabilities": [
         {
-          "id": null,
           "assetDeclarationId": null,
           "description": "Pożyczka FŚS",
           "value": 27200.0
@@ -77,19 +66,16 @@
       ],
       "personalProperties": [
         {
-          "id": null,
           "assetDeclarationId": null,
           "description": "Pojazdy mechaniczne: Toyota Avensis (2006), Honda CBR 1000 (2006), Hyundai IX 20 (2012), Audi A4 (2015), Honda F6B (2013)",
           "value": null
         },
         {
-          "id": null,
           "assetDeclarationId": null,
           "description": "Wyposażenie warsztatu (HELLA 425 E, Valeoclim, Unitrol Yanka)",
           "value": null
         },
         {
-          "id": null,
           "assetDeclarationId": null,
           "description": "Instalacja fotowoltaiczna",
           "value": null
@@ -97,31 +83,26 @@
       ],
       "incomes": [
         {
-          "id": null,
           "assetDeclarationId": null,
           "description": "Uposażenie poselskie",
           "yearlyValue": 198106.99
         },
         {
-          "id": null,
           "assetDeclarationId": null,
           "description": "Uposażenie Wójta Gminy Świlcza",
           "yearlyValue": 12765.39
         },
         {
-          "id": null,
           "assetDeclarationId": null,
           "description": "Dieta parlamentarna",
           "yearlyValue": 45679.92
         },
         {
-          "id": null,
           "assetDeclarationId": null,
           "description": "Dieta z Rady Ochrony Pracy",
           "yearlyValue": 52711.20
         },
         {
-          "id": null,
           "assetDeclarationId": null,
           "description": "Przychody z tytułu zwiększenia limitu na służbowe podróże zagraniczne",
           "yearlyValue": 436.17

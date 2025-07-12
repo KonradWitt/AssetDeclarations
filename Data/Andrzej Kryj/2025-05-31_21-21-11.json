@@ -2,7 +2,7 @@
   "firstName": "Andrzej",
   "lastName": "Kryj",
   "dateOfBirth": null,
-  "placeOfBirth": null,
+  "placeOfBirth": "Ostrów Świętokrzyski",
   "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/47F1519F31FBF868C1258A51003B9E8B/$File/192.jpg",
   "partyId": 7,
   "assetDeclarations": [

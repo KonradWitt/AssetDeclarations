@@ -24,7 +24,7 @@
       "securityPositions": [
         {
           "name": "Udziały Ekowatt Spółka Jawna",
-          "quantity": "50%",
+          "quantity": null,
           "value": 2500.0
         },
         {

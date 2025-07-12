@@ -19,12 +19,12 @@
       "securityPositions": [
         {
           "name": "Akcje KGHM",
-          "quantity": "500 szt.",
+          "quantity": "500",
           "value": null
         },
         {
           "name": "Akcje PGE",
-          "quantity": "5000 szt.",
+          "quantity": "5000",
           "value": null
         }
       ],

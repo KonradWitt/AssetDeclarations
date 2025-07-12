@@ -1,0 +1,46 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Bojarski",
+  "dateOfBirth": "1968-07-11T00:00:00",
+  "placeOfBirth": "Annopol",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/86D6726E036344B6C1258A51003B9B79/$File/026.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-04T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/3AC963622B809014C1258C6200428EDC/%24File/OSW102_026.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 97018.92,
+          "baseValue": 97018.92
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 1397.84,
+          "baseValue": 6000
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [],
+      "liabilities": [],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Umowa o pracę",
+          "yearlyValue": 445850.38
+        },
+        {
+          "description": "Działalność wykonywana osobiście",
+          "yearlyValue": 8931.72
+        },
+        {
+          "description": "Dochód z najmu",
+          "yearlyValue": 186180.18
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 1
+}

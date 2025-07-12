@@ -24,7 +24,7 @@
       "securityPositions": [
         {
           "name": "Udziały w CLEAR.COM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA",
-          "quantity": "udziały",
+          "quantity": null,
           "value": 987068.10
         },
         {

@@ -1,0 +1,97 @@
+{
+  "firstName": "Krzysztof",
+  "lastName": "Tuduj",
+  "dateOfBirth": "1981-04-25T00:00:00",
+  "placeOfBirth": "Włocławek",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/AB6B693E5AB70988C1258A51003BA23A/$File/397.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-29T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F7B633229842F7E0C1258C7E003A55EA/%24File/OSW102_397.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 4350.00,
+          "baseValue": 4350.00
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 300.00,
+          "baseValue": 1131.03
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 150.00,
+          "baseValue": 641.49
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Udziały w Tricho-Clinic sp. z o.o.",
+          "quantity": "8",
+          "value": null
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Działka o powierzchni 14 arów z domem letniskowym",
+          "value": 260000.00,
+          "legalTitle": "współwłasność majątkowa małżeńska"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka pracownicza w Kancelarii Sejmu",
+          "value": 46800.00
+        },
+        {
+          "description": "Karta kredytowa w PKO BP",
+          "value": 37601.60
+        },
+        {
+          "description": "Limit w koncie w PKO BP",
+          "value": 33134.25
+        },
+        {
+          "description": "Karta kredytowa w PKO BP",
+          "value": 14323.00
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Saab 9-3, rok 2009",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Peugeot, rok 2014",
+          "value": null
+        },
+        {
+          "description": "Samochód osobowy Mercedes-Benz CLK, rok 2015",
+          "value": null
+        },
+        {
+          "description": "Przyczepa kempingowa LHC, rok 1997",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 177786.68
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 44824.85
+        },
+        {
+          "description": "Przychód z tytułu członkostwa w komisji",
+          "yearlyValue": 395.29
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 2
+}

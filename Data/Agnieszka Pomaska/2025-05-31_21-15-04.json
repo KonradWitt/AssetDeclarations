@@ -74,7 +74,7 @@
       "securityPositions": [
         {
           "name": "1% udziałów PM Experts Spółka z o.o.",
-          "quantity": "1%",
+          "quantity": null,
           "value": null
         }
       ],

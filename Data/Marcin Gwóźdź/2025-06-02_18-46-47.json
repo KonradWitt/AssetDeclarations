@@ -29,7 +29,7 @@
       "securityPositions": [
         {
           "name": "Udziały w spółce CORE Sp z o.o.",
-          "quantity": "9%",
+          "quantity": null,
           "value": null
         }
       ],

@@ -1,0 +1,84 @@
+{
+  "firstName": "Zdzisław",
+  "lastName": "Gawlik",
+  "dateOfBirth": "1960-03-12T00:00:00",
+  "placeOfBirth": "Dębica",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/5F212842BD952D3FC1258A51003B9CA0/$File/091.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/9A36920ECDB8A61CC1258C760042113B/%24File/OSW102_091.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 33116.88,
+          "baseValue": 33116.88
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 187 m²",
+          "value": 450000,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 73,01 m²",
+          "value": 400000,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Gospodarstwo rolne, udział 1/8 w działce 3,4 ha",
+          "value": 5000,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Siedlisko z domem w budowie, udział 1/2 w działce 2,38 ha",
+          "value": 950000,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Umowa pożyczki w BSPiK w Rzeszowie z 2009 r. na 15 lat",
+          "value": null
+        },
+        {
+          "description": "Kredyt w Alior Bank i Milenium",
+          "value": 97548.45
+        },
+        {
+          "description": "Kredyt odnawialny",
+          "value": 17500
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Audi Q5, rok 2013",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Wynagrodzenie z Rządowego MPO w Rzeszowie",
+          "yearlyValue": 200782.91
+        },
+        {
+          "description": "Umowy o pracę",
+          "yearlyValue": 78183.26
+        },
+        {
+          "description": "Umowy zlecenia i dochód z Sejmu",
+          "yearlyValue": 214618.74
+        },
+        {
+          "description": "Umowy o pracę (WSPiA, SWPS, UJ, U w Łodzi)",
+          "yearlyValue": 15811.1
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 1
+}

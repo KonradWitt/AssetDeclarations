@@ -1,0 +1,86 @@
+{
+  "firstName": "Katarzyna",
+  "lastName": "Piekarska",
+  "dateOfBirth": "1967-08-23T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/9D0260DC3FA19035C1258A51003BA051/$File/291.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/B0FA3BDAB5793B77C1258C7B00441259/%24File/OSW102_291.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 12000,
+          "baseValue": 12000
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 400,
+          "baseValue": 1508.04
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 800,
+          "baseValue": 3421.28
+        },
+        {
+          "currency": "ILS",
+          "currencyValue": 450,
+          "baseValue": 468.04
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 98 m²",
+          "value": 950000,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni ok. 45 m²",
+          "value": 700000,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni ok. 48 m²",
+          "value": 550000,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Nieruchomość rolna z budynkami (działka 1284 m², dom ok. 67 m², stodoła 40 m²)",
+          "value": 400000,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Renault Captur, rok 2021",
+          "value": 68000
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45679.92
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 174007.68
+        },
+        {
+          "description": "Najem",
+          "yearlyValue": 15600
+        },
+        {
+          "description": "Przychód z tytułu zwrotu kosztów podróży służbowej",
+          "yearlyValue": 507.44
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 1
+}

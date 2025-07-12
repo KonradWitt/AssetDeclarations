@@ -29,7 +29,7 @@
       "securityPositions": [
         {
           "name": "Papiery wartościowe (Bioton, LESS, ONESANO, SANWIL)",
-          "quantity": "różne ilości akcji",
+          "quantity": null,
           "value": 25150.0
         }
       ],

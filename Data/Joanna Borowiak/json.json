@@ -1,0 +1,58 @@
+{
+  "firstName": "Joanna",
+  "lastName": "Borowiak",
+  "dateOfBirth": "1967-08-20T00:00:00",
+  "placeOfBirth": "Włocławek",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/4CCCA9676DCB2B3CC1258A51003B9B7D/$File/027.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/3A85D3225BC3D18AC1258C75004337D8/%24File/OSW102_027.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 799690,
+          "baseValue": 799690
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni użytkowej ok. 150 m² z garażem o powierzchni ok. 25 m²",
+          "value": 690000,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 41,13 m²",
+          "value": 370000,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        },
+        {
+          "description": "Miejsce parkingowe (udział 1/52 w nieruchomości wspólnej)",
+          "value": 40000,
+          "legalTitle": "małżeńska wspólność majątkowa"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Škoda Fabia III Hatchback Ambition 1.2, rok 2015 (współwłasność małżeńska)",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45466.15
+        },
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 181758.82
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 7
+}

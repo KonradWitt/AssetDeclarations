@@ -24,17 +24,17 @@
       "securityPositions": [
         {
           "name": "Udziały Browary Regionalne Jakubiak sp. z o.o.",
-          "quantity": "100%",
+          "quantity": null,
           "value": 60000000.0
         },
         {
           "name": "Udziały Gambrynus Sp z o.o.",
-          "quantity": "3.37%",
+          "quantity": null,
           "value": 96000.0
         },
         {
           "name": "Udziały Browar Lwówek",
-          "quantity": "0.17%",
+          "quantity": null,
           "value": 18700.0
         }
       ],

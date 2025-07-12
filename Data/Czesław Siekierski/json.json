@@ -1,0 +1,133 @@
+{
+  "firstName": "Czesław",
+  "lastName": "Siekierski",
+  "dateOfBirth": "1952-10-08T00:00:00",
+  "placeOfBirth": "Stopnica",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/DEDBFCFDD5F76341C1258A51003BA116/$File/335.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-03-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/6992A40B513F25FDC1258C7B004AD3DD/%24File/OSW102_335.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 656654,
+          "baseValue": 656654
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 186311,
+          "baseValue": 779089.93
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 28320,
+          "baseValue": 109927.82
+        }
+      ],
+      "securityPositions": [
+        {
+          "name": "Jednostki uczestnictwa",
+          "quantity": null,
+          "value": 382891
+        }
+      ],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 94,9 m²",
+          "value": 1300000,
+          "legalTitle": "spółdzielcze prawo do lokalu"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 37,23 m²",
+          "value": 299995,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 44,99 m²",
+          "value": 850984,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Ziemia rolna o powierzchni 5,34 ha z rozpoczętą budową dwóch domów jednorodzinnych",
+          "value": 2350000,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka o powierzchni 0,72 ha z budynkami do rozbiórki",
+          "value": null,
+          "legalTitle": "własność (spadek)"
+        },
+        {
+          "description": "Działka o powierzchni 1,9292 ha",
+          "value": 70000,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Działka",
+          "value": null,
+          "legalTitle": "własność (darowizna)"
+        },
+        {
+          "description": "Działka niezabudowana o powierzchni ok. 0,08 ha",
+          "value": null,
+          "legalTitle": "współwłasność"
+        },
+        {
+          "description": "Działka zabudowana o powierzchni 0,1650 ha",
+          "value": null,
+          "legalTitle": "współwłasność (prawo wieczystego użytkowania)"
+        },
+        {
+          "description": "Działka rolna o powierzchni 0,4854 ha",
+          "value": 109520.46,
+          "legalTitle": "współwłasność"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Volvo XC40, rok 2024",
+          "value": null
+        },
+        {
+          "description": "Samochód Peugeot 407, rok 2010",
+          "value": null
+        },
+        {
+          "description": "Ciągnik C-330, rok 1983",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Emerytura statutowa z Parlamentu Europejskiego",
+          "yearlyValue": 41038
+        },
+        {
+          "description": "Emerytura z ubezpieczenia dobrowolnego posłów do Parlamentu Europejskiego",
+          "yearlyValue": 10855
+        },
+        {
+          "description": "Dochód z Ministerstwa Rolnictwa",
+          "yearlyValue": 246194.61
+        },
+        {
+          "description": "Dieta parlamentarna (Sejm RP)",
+          "yearlyValue": 45038.62
+        },
+        {
+          "description": "Emerytura ZUS",
+          "yearlyValue": 146424.9
+        },
+        {
+          "description": "Dochód z dzierżawy działki",
+          "yearlyValue": 454.6
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 5
+}

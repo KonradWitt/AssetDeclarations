@@ -1,0 +1,63 @@
+{
+  "firstName": "Łukasz",
+  "lastName": "Litewka",
+  "dateOfBirth": "1984-05-09T00:00:00",
+  "placeOfBirth": "Sosnowiec",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/755259D7F10FFBDAC1258A51003B9EF6/$File/215.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/3BCE7D20C075A3A0C1258C7E00398CA4/%24File/OSW102_215.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 20000,
+          "baseValue": 20000
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 163 m²",
+          "value": 850000,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO",
+          "value": 170000
+        },
+        {
+          "description": "Pożyczka zakładowa (Sejm)",
+          "value": 24996
+        }
+      ],
+      "personalProperties": [],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 81092.18
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 43695.6
+        },
+        {
+          "description": "Specjalista ds. marketingu, Szpital nr 2 w Mysłowicach",
+          "yearlyValue": 24000
+        }
+      ],
+      "receivables": [],
+      "businessActivities": [
+        {
+          "businessName": "Fundacja Team Litewka",
+          "businessType": "Fundacja",
+          "description": "Prezes",
+          "income": 0
+        }
+      ]
+    }
+  ],
+  "partyId": 3
+}

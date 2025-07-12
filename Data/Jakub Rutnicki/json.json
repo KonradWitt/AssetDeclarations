@@ -1,0 +1,67 @@
+{
+  "firstName": "Jakub",
+  "lastName": "Rutnicki",
+  "dateOfBirth": "1978-12-03T00:00:00",
+  "placeOfBirth": "Szamotuły",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/B918A6ED9D1D1167C1258A51003BA0C5/$File/317.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-23T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/61419A4DA8BCB9FAC1258C750046B31C/%24File/OSW102_317.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 280000,
+          "baseValue": 280000
+        },
+        {
+          "currency": "USD",
+          "currencyValue": 9808.63,
+          "baseValue": 36862.66
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 33,
+          "baseValue": 141.55
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Mieszkanie o powierzchni 68 m² z dwoma miejscami parkingowymi",
+          "value": 450000,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt mieszkaniowy w WBK",
+          "value": 6003.88
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota Corolla Sedan, rok 2014",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 181917.41
+        },
+        {
+          "description": "Dieta parlamentarna",
+          "yearlyValue": 45678.92
+        },
+        {
+          "description": "Wynajem mieszkania",
+          "yearlyValue": 21880
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 1
+}

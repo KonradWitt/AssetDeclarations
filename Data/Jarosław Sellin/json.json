@@ -1,0 +1,61 @@
+{
+  "firstName": "Jarosław",
+  "lastName": "Sellin",
+  "dateOfBirth": "1963-05-01T00:00:00",
+  "placeOfBirth": "Gdynia",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/547678F2F3B01643C1258A51003BA102/$File/331.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-28T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/F6850FD2745DF603C1258C7C0036EACB/%24File/OSW102_331.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 436000,
+          "baseValue": 436000
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 20097,
+          "baseValue": 85931.59
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 270 m²",
+          "value": 1500000,
+          "legalTitle": "Własność hipoteczna"
+        }
+      ],
+      "liabilities": [],
+      "personalProperties": [
+        {
+          "description": "Samochód Toyota RAV 4, rok 2016",
+          "value": null
+        },
+        {
+          "description": "Samochód Toyota Yaris, rok 2020",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie",
+          "yearlyValue": 140767.05
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45252.39
+        },
+        {
+          "description": "Dochód z Ministerstwa Kultury i Dziedzictwa Narodowego",
+          "yearlyValue": 138272.36
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 7
+}

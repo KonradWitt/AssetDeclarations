@@ -1,0 +1,54 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Szrot",
+  "dateOfBirth": "1975-06-30T00:00:00",
+  "placeOfBirth": "Białystok",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/FC986E580287DD29C1258A51003BA1C8/$File/373.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-24T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/4A2E8BD0852024C1C1258C76004FF8D1/%24File/OSW102_373.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 130000,
+          "baseValue": 130000
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni 190 m² na działce o powierzchni 714 m²",
+          "value": 1300000,
+          "legalTitle": "współwłasność (udział 1/2)"
+        },
+        {
+          "description": "Mieszkanie o powierzchni 72 m²",
+          "value": 500000,
+          "legalTitle": "współwłasność (udział 1/2)"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Kredyt hipoteczny w PKO BP na zakup domu",
+          "value": 202860.32
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Mitsubishi ASX, rok 2016",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Uposażenie poselskie i dieta parlamentarna",
+          "yearlyValue": 158695.84
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 7
+}

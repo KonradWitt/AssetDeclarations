@@ -44,12 +44,12 @@
       "securityPositions": [
         {
           "name": "Akcje GPW",
-          "quantity": "25 szt.",
+          "quantity": "25",
           "value": 1210.50
         },
         {
           "name": "Akcje JSW",
-          "quantity": "75 szt.",
+          "quantity": "75",
           "value": 1828.50
         }
       ],

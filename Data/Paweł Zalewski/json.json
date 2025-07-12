@@ -1,0 +1,75 @@
+{
+  "firstName": "Paweł",
+  "lastName": "Zalewski",
+  "dateOfBirth": "1964-08-25T00:00:00",
+  "placeOfBirth": "Warszawa",
+  "imageUrl": "https://orka.sejm.gov.pl/Poslowie10.nsf/0/AE6C43A79C31AEACC1258A51003BA30C/$File/441.jpg",
+  "assetDeclarations": [
+    {
+      "date": "2025-04-30T00:00:00",
+      "documentUrl": "https://orka.sejm.gov.pl/osw10.nsf/0/552320B5571A7185C1258C7C00427B80/%24File/OSW102_441.pdf",
+      "cashPositions": [
+        {
+          "currency": "PLN",
+          "currencyValue": 120000,
+          "baseValue": 120000
+        },
+        {
+          "currency": "EUR",
+          "currencyValue": 30000,
+          "baseValue": 128334
+        }
+      ],
+      "securityPositions": [],
+      "realEstate": [
+        {
+          "description": "Dom o powierzchni ok. 440 m² na 2 działkach o łącznej powierzchni 1,5 ha",
+          "value": 2000000,
+          "legalTitle": "własność"
+        },
+        {
+          "description": "Mieszkanie o powierzchni ok. 89 m²",
+          "value": 950000,
+          "legalTitle": "własność"
+        }
+      ],
+      "liabilities": [
+        {
+          "description": "Pożyczka w CSS Investment Sp. z o.o.",
+          "value": null
+        },
+        {
+          "description": "Kredyt w wysokości 100 000 zł",
+          "value": 100000
+        },
+        {
+          "description": "Poręczenie od Kingi Zalewskiej (żona) w wysokości 30 000 zł",
+          "value": 30000
+        }
+      ],
+      "personalProperties": [
+        {
+          "description": "Samochód osobowy Opel Insignia, rok 2008",
+          "value": null
+        }
+      ],
+      "incomes": [
+        {
+          "description": "Dochód z MON",
+          "yearlyValue": 221095.6
+        },
+        {
+          "description": "Dieta poselska",
+          "yearlyValue": 45373.04
+        },
+        {
+          "description": "Zwrot kosztów podróży służbowych",
+          "yearlyValue": 809.13
+        }
+      ],
+      "receivables": [],
+      "businessActivities": []
+    }
+  ],
+  "partyId": 6
+}
