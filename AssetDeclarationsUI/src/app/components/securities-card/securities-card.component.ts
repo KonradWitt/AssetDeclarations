@@ -31,7 +31,6 @@ export class SecuritiesCardComponent {
   });
 
   sum = computed(() => {
-    console.log(this.securities());
     if (!this.securities || this.securities()?.length === 0) {
       return 0;
     }

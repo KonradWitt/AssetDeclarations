@@ -8,12 +8,7 @@ namespace AssetDeclarationsApi.Endpoints
 
         public EndpointBase()
         {
-            InitializeRoute();
-        }
-
-        private void InitializeRoute()
-        {
-            Route = $"{GetType().Namespace!.Split('.').Last()}/{GetType().Name}";
+            Route = RouteBuilder.GenerateRoute(GetType());
         }
     }
 
@@ -23,12 +18,15 @@ namespace AssetDeclarationsApi.Endpoints
 
         public EndpointBase()
         {
-            InitializeRoute();
+            Route = RouteBuilder.GenerateRoute(GetType());
         }
+    }
 
-        private void InitializeRoute()
+    public static class RouteBuilder
+    {
+        public static string GenerateRoute(Type type)
         {
-            Route = $"{GetType().Namespace!.Split('.').Last()}/{GetType().Name}";
+            return $"{type.Namespace!.Split('.').Last()}/{type.Name}";
         }
     }
 }
