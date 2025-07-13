@@ -1,6 +1,5 @@
 ﻿using AssetDeclarationsApi.Data;
 using AssetDeclarationsApi.DTOs;
-using AssetDeclarationsApi.DTOs.RealEstate;
 using AssetDeclarationsApi.Mappers;
 using Microsoft.EntityFrameworkCore;
 

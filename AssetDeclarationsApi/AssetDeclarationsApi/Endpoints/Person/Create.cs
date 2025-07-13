@@ -20,7 +20,8 @@ namespace AssetDeclarationsApi.Endpoints.Person
         public override void Configure()
         {
             Post($"{Route}");
-            Policies("ADMIN");
+            //Policies("ADMIN");
+            AllowAnonymous();
         }
 
         public override async Task<Results<Created, BadRequest>> ExecuteAsync(PersonDTO req, CancellationToken ct)
@@ -39,6 +40,12 @@ namespace AssetDeclarationsApi.Endpoints.Person
                     ad.CalculateNetValue();
                 }
             }
+
+            if (person.PlaceOfBirth is null)
+            {
+                person.PlaceOfBirth = string.Empty;
+            }
+
 
             var createdPerson = (await _dataContext.AddAsync(person, ct)).Entity;
             await _dataContext.SaveChangesAsync();

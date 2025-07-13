@@ -1,10 +1,6 @@
 ﻿using AssetDeclarationsApi.Data;
 using AssetDeclarationsApi.DTOs;
-using AssetDeclarationsApi.DTOs.Person;
 using AssetDeclarationsApi.Mappers;
-using AssetDeclarationsApi.Services;
-using FastEndpoints;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
