@@ -1,10 +1,11 @@
+<app-parties-selector (selectedParties)="filterParties($event)" />
+
 <div class="chart-container">
-    <canvas
-      baseChart
-      [data]="this.barChartData()"
-      [options]="this.barChartOptions"
-      [type]="'bar'"
-    >
-    </canvas>
-  </div>
-  
+  <canvas
+    baseChart
+    [data]="this.barChartData()"
+    [options]="this.barChartOptions"
+    [type]="'bar'"
+  >
+  </canvas>
+</div>

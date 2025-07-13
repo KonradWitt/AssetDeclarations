@@ -1,9 +1,18 @@
-import { Component, OnInit, signal } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  computed,
+  effect,
+  OnInit,
+  signal,
+  ViewChild,
+} from '@angular/core';
 import { ChartConfiguration } from 'chart.js';
 import { PartyService } from '../../services/party.service';
 import { Party } from '../../model/party.interface';
 import { BaseChartDirective } from 'ng2-charts';
 import { NumberSpacePipe } from '../../pipes/numberSpace.pipe';
+import { PartiesSelectorComponent } from '../parties-selector/parties-selector.component';
 
 interface PartyNetWorth {
   party: Party;
@@ -13,12 +22,42 @@ interface PartyNetWorth {
 
 @Component({
   selector: 'app-parties-net-worth-chart',
-  imports: [BaseChartDirective, NumberSpacePipe],
+  imports: [BaseChartDirective, NumberSpacePipe, PartiesSelectorComponent],
   templateUrl: './parties-net-worth-chart.component.html',
   styleUrl: './parties-net-worth-chart.component.scss',
 })
 export class PartiesNetWorthChartComponent implements OnInit {
-  barChartData = signal<any>(undefined);
+  partiesNetWorths = signal<PartyNetWorth[] | undefined>(undefined);
+  selectedPartiesIds = signal<number[]>([]);
+  barChartData = computed<any>(() => {
+    const filteredParties = this.partiesNetWorths()?.filter((party) =>
+      this.selectedPartiesIds().includes(party.party.id)
+    );
+
+    const sortedParties =
+      filteredParties?.sort(
+        (a: PartyNetWorth, b: PartyNetWorth) =>
+          b.averageNetWorth - a.averageNetWorth
+      ) ?? [];
+
+    return {
+      labels: sortedParties.map(
+        (p) => p.party?.abbreviation ?? p.party?.name ?? ''
+      ),
+      datasets: [
+        {
+          label: 'Średnia',
+          data: sortedParties.map((p) => p.averageNetWorth),
+          //default chart color
+        },
+        {
+          label: 'Mediana',
+          data: sortedParties.map((p) => p.medianNetWorth),
+          backgroundColor: 'rgb(255, 99, 132)',
+        },
+      ],
+    } as ChartConfiguration<'bar'>['data'];
+  });
 
   barChartOptions: ChartConfiguration<'bar'>['options'] = {
     maintainAspectRatio: false,
@@ -47,36 +86,23 @@ export class PartiesNetWorthChartComponent implements OnInit {
     },
   };
 
-  constructor(private partyService: PartyService) {}
+  @ViewChild(BaseChartDirective) chartRef: BaseChartDirective | undefined;
+
+  constructor(private partyService: PartyService) {
+    effect(() => {
+      if (this.barChartData()) {
+        this.chartRef?.chart?.resize();
+      }
+    });
+  }
 
   ngOnInit(): void {
     this.partyService
       .getAvgNetWorthPerParty()
-      .subscribe((response) => this.updateChart(response));
+      .subscribe((response) => this.partiesNetWorths.set(response));
   }
 
-  updateChart(parties: PartyNetWorth[]): void {
-    const sortedParties = JSON.parse(JSON.stringify(parties)).sort(
-      (a: PartyNetWorth, b: PartyNetWorth) =>
-        b.averageNetWorth - a.averageNetWorth
-    ) as PartyNetWorth[];
-
-    this.barChartData.set({
-      labels: sortedParties.map(
-        (p) => p.party?.abbreviation ?? p.party?.name ?? ''
-      ),
-      datasets: [
-        {
-          label: 'Średnia',
-          data: sortedParties.map((p) => p.averageNetWorth),
-          //default chart color
-        },
-        {
-          label: 'Mediana',
-          data: sortedParties.map((p) => p.medianNetWorth),
-          backgroundColor: 'rgb(255, 99, 132)',
-        },
-      ],
-    } as ChartConfiguration<'bar'>['data']);
+  filterParties($event: Party[]) {
+    this.selectedPartiesIds.set($event.map((x) => x.id));
   }
 }

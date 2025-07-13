@@ -1,0 +1,9 @@
+<mat-chip-listbox multiple="true">
+  @for(party of parties(); track $index) {
+  <mat-chip-option
+    [selected]="party.isSelected"
+    (selectionChange)="toggleSelection(party, $event.selected)"
+    >{{ party.name }}</mat-chip-option
+  >
+  }
+</mat-chip-listbox>

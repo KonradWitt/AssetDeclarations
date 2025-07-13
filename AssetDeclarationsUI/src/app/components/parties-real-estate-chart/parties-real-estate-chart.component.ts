@@ -1,9 +1,17 @@
-import { Component, OnInit, signal } from '@angular/core';
+import {
+  Component,
+  computed,
+  effect,
+  OnInit,
+  signal,
+  ViewChild,
+} from '@angular/core';
 import { ChartConfiguration } from 'chart.js';
 import { BaseChartDirective } from 'ng2-charts';
 import { PartyService } from '../../services/party.service';
 import { Party } from '../../model/party.interface';
 import { FormsModule } from '@angular/forms';
+import { PartiesSelectorComponent } from '../parties-selector/parties-selector.component';
 
 interface PartyRealEstateCount {
   party: Party;
@@ -12,15 +20,38 @@ interface PartyRealEstateCount {
 
 @Component({
   selector: 'app-parties-real-estate-chart',
-  imports: [BaseChartDirective, FormsModule],
+  imports: [BaseChartDirective, FormsModule, PartiesSelectorComponent],
   templateUrl: './parties-real-estate-chart.component.html',
   styleUrl: './parties-real-estate-chart.component.scss',
 })
 export class PartiesRealEstateChartComponent implements OnInit {
-  constructor(private partyService: PartyService) {}
-
+  partiesRealEstate = signal<
+    { party: Party; averageRealEstateCount: number }[] | undefined
+  >(undefined);
   minValue = signal<number>(100000);
-  barChartData = signal<any>(undefined);
+  selectedPartiesIds = signal<number[]>([]);
+  barChartData = computed(() => {
+    const filteredParties = this.partiesRealEstate()?.filter((party) =>
+      this.selectedPartiesIds().includes(party.party.id)
+    );
+
+    const sortedParties =
+      filteredParties?.sort(
+        (a: PartyRealEstateCount, b: PartyRealEstateCount) =>
+          b.averageRealEstateCount - a.averageRealEstateCount
+      ) ?? [];
+
+    return {
+      labels: sortedParties.map(
+        (p) => p.party?.abbreviation ?? p.party?.name ?? ''
+      ),
+      datasets: [
+        {
+          data: sortedParties.map((p) => p.averageRealEstateCount),
+        },
+      ],
+    };
+  });
 
   barChartOptions: ChartConfiguration<'bar'>['options'] = {
     maintainAspectRatio: false,
@@ -45,6 +76,16 @@ export class PartiesRealEstateChartComponent implements OnInit {
     },
   };
 
+  @ViewChild(BaseChartDirective) chartRef: BaseChartDirective | undefined;
+
+  constructor(private partyService: PartyService) {
+    effect(() => {
+      if (this.barChartData()) {
+        this.chartRef?.chart?.resize();
+      }
+    });
+  }
+
   ngOnInit(): void {
     this.refreshRealEstateData();
   }
@@ -52,29 +93,15 @@ export class PartiesRealEstateChartComponent implements OnInit {
   private refreshRealEstateData(): void {
     this.partyService
       .getAvgRealEstateCountPerParty(this.minValue())
-      .subscribe((response) => this.updateChart(response));
-  }
-
-  updateChart(parties: PartyRealEstateCount[]): void {
-    const sortedParties = JSON.parse(JSON.stringify(parties)).sort(
-      (a: PartyRealEstateCount, b: PartyRealEstateCount) =>
-        b.averageRealEstateCount - a.averageRealEstateCount
-    ) as PartyRealEstateCount[];
-
-    this.barChartData.set({
-      labels: sortedParties.map(
-        (p) => p.party?.abbreviation ?? p.party?.name ?? ''
-      ),
-      datasets: [
-        {
-          data: sortedParties.map((p) => p.averageRealEstateCount),
-        },
-      ],
-    } as ChartConfiguration<'bar'>['data']);
+      .subscribe((response) => this.partiesRealEstate.set(response));
   }
 
   updateMinValue(newValue: number) {
     this.minValue.set(newValue);
     this.refreshRealEstateData();
+  }
+
+  filterParties($event: Party[]) {
+    this.selectedPartiesIds.set($event.map((x) => x.id));
   }
 }

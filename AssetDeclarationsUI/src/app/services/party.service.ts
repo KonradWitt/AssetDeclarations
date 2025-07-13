@@ -12,6 +12,10 @@ export class PartyService {
 
   constructor(private http: HttpClient) {}
 
+  getAll(): Observable<Party[]> {
+    return this.http.get<Party[]>(`${environment.apiUrl}/${this.url}/GetAll`);
+  }
+
   getAvgNetWorthPerParty(): Observable<
     { party: Party; averageNetWorth: number; medianNetWorth: number }[]
   > {
