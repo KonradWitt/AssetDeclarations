@@ -12,7 +12,7 @@
   }
 </ng-template>
 
-@if(this.isPreviewActive()) { @if(this.isMobile()) {
+@if(this.isPreviewActive()) { @if(this.displayDeviceService.isMobile()) {
 
 <button mat-icon-button (click)="drawer.toggle()">
   <mat-icon>menu</mat-icon>

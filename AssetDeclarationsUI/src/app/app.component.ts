@@ -1,4 +1,4 @@
-import { Component, computed, OnInit, signal } from '@angular/core';
+import { Component, computed, inject, OnInit, signal } from '@angular/core';
 import { Route, Router, RouterModule, RouterOutlet } from '@angular/router';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -16,7 +16,7 @@ import { NgTemplateOutlet } from '@angular/common';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Title } from '@angular/platform-browser';
 import { isDevMode } from '@angular/core';
-
+import { DisplayDeviceService } from './services/display-device.service';
 
 @Component({
   selector: 'app-root',
@@ -38,7 +38,7 @@ import { isDevMode } from '@angular/core';
 export class AppComponent implements OnInit {
   private readonly warning_key = 'ai_content_warning_displayed';
 
-  isMobile = signal<boolean>(true);
+  displayDeviceService = inject(DisplayDeviceService);
 
   displayedNavLinks = computed(() => {
     return routes.filter((route) => {
@@ -65,16 +65,10 @@ export class AppComponent implements OnInit {
     private dialogService: MatDialog,
     private authService: AuthService,
     private router: Router,
-    private breakpointObserver: BreakpointObserver,
     private titleService: Title
   ) {
-    this.titleService.setTitle("Zawód Polityk");
+    this.titleService.setTitle('Zawód Polityk');
     Chart.defaults.backgroundColor = '#007bff';
-    this.breakpointObserver
-      .observe([Breakpoints.Handset])
-      .subscribe((result) => {
-        this.isMobile.set(result.matches);
-      });
   }
 
   ngOnInit(): void {

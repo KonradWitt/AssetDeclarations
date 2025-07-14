@@ -1,9 +1,35 @@
-<mat-chip-listbox multiple="true">
-  @for(party of parties(); track $index) {
-  <mat-chip-option
-    [selected]="party.isSelected"
-    (selectionChange)="toggleSelection(party, $event.selected)"
-    >{{ party.name }}</mat-chip-option
-  >
-  }
-</mat-chip-listbox>
+@if(displayDeviceService.isDesktop()) {
+<ng-container *ngTemplateOutlet="chips"></ng-container>
+} @else {
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title> Filtruj partie </mat-panel-title>
+
+    @if(this.selectedPartiesCount() === 1) {
+    <mat-panel-description> Wybrano 1 partię</mat-panel-description>
+    } @else if (this.selectedPartiesCount() >= 2 && this.selectedPartiesCount()
+    <= 4) {
+    <mat-panel-description>
+      Wybrano {{ this.selectedPartiesCount() }} partie</mat-panel-description
+    >
+    } @else {
+    <mat-panel-description>
+      Wybrano {{ this.selectedPartiesCount() }} partii</mat-panel-description
+    >
+    }
+  </mat-expansion-panel-header>
+  <ng-container *ngTemplateOutlet="chips"></ng-container>
+</mat-expansion-panel>
+}
+
+<ng-template #chips>
+  <mat-chip-listbox multiple="true">
+    @for(party of parties(); track $index) {
+    <mat-chip-option
+      [selected]="party.isSelected"
+      (selectionChange)="toggleSelection(party, $event.selected)"
+      >{{ party.name }}</mat-chip-option
+    >
+    }
+  </mat-chip-listbox>
+</ng-template>
