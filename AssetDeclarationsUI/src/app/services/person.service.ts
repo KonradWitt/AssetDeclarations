@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Person } from '../model/person.interface';
 import { delay, map, Observable, of } from 'rxjs';
@@ -6,6 +6,7 @@ import { environment } from '../../environments/environment';
 import { PersonHighlight } from '../model/personHighlight.interface';
 import { PersonIdentifier } from '../model/personIdentifier.interface';
 import { PersonListed } from '../model/personListed.interface';
+import { PersonSortDirection, PersonSortKey } from '../model/personSort.enum';
 
 @Injectable({
   providedIn: 'root',
@@ -21,22 +22,37 @@ export class PersonService {
     );
   }
 
-  getAllPaginated(
+  getListPaginated(
+    partiesIds: number[],
     page: number,
-    pageSize: number
+    pageSize: number,
+    sortKey: PersonSortKey | null,
+    sortDirection: PersonSortDirection | null
   ): Observable<PersonListed[]> {
+    let params = new HttpParams()
+      .set('page', page.toString())
+      .set('pageSize', pageSize.toString());
+
+    if (sortKey !== null) {
+      params = params.set('sortKey', sortKey.toString());
+    }
+
+    if (sortDirection !== null) {
+      params = params.set('sortDirection', sortDirection.toString());
+    }
+
+    if (partiesIds.length !== null && partiesIds.length > 0) {
+      params = params.set('partiesIds', partiesIds.toString());
+    }
+
     return this.http.get<PersonListed[]>(
       `${environment.apiUrl}/${this.url}/GetList`,
-      {
-        params: { page: page, pageSize: pageSize },
-      }
+      { params }
     );
   }
 
-  getCount() : Observable<number>{
-    return this.http.get<number>(
-      `${environment.apiUrl}/${this.url}/GetCount`
-    );
+  getCount(): Observable<number> {
+    return this.http.get<number>(`${environment.apiUrl}/${this.url}/GetCount`);
   }
 
   getPersonByLink(link: string): Observable<Person> {
