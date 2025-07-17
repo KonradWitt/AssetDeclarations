@@ -1,7 +1,6 @@
 @if(this.persons()) {
+<app-parties-selector (selectedParties)="updateSelectedParties($event)" />
 <div class="table-container">
-  <app-parties-selector (selectedParties)="updateSelectedParties($event)" />
-
   <table
     mat-table
     [dataSource]="this.persons()!"
