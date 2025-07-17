@@ -41,7 +41,7 @@ export class PersonService {
       params = params.set('sortDirection', sortDirection.toString());
     }
 
-    if (partiesIds.length !== null && partiesIds.length > 0) {
+    if (partiesIds.length > 0) {
       params = params.set('partiesIds', partiesIds.toString());
     }
 
@@ -51,8 +51,17 @@ export class PersonService {
     );
   }
 
-  getCount(): Observable<number> {
-    return this.http.get<number>(`${environment.apiUrl}/${this.url}/GetCount`);
+  getListCount(partiesIds: number[]): Observable<number> {
+    let params = new HttpParams();
+
+    if (partiesIds.length > 0) {
+      params = params.set('partiesIds', partiesIds.toString());
+    }
+
+    return this.http.get<number>(
+      `${environment.apiUrl}/${this.url}/GetListCount`,
+      { params }
+    );
   }
 
   getPersonByLink(link: string): Observable<Person> {

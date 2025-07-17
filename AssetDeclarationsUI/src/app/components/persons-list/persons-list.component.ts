@@ -14,6 +14,7 @@ import {
 } from '../../model/personSort.enum';
 import { PartiesSelectorComponent } from '../parties-selector/parties-selector.component';
 import { Party } from '../../model/party.interface';
+import { forkJoin } from 'rxjs';
 
 @Component({
   selector: 'app-persons-list',
@@ -30,7 +31,7 @@ import { Party } from '../../model/party.interface';
   styleUrl: './persons-list.component.scss',
 })
 export class PersonsListComponent implements OnInit {
-  totalCount = signal<number>(100);
+  totalCount = signal<number>(0);
   persons = signal<PersonListed[] | undefined>(undefined);
   isLoading = signal<boolean>(false);
   pageIndex: number = 0;
@@ -70,18 +71,28 @@ export class PersonsListComponent implements OnInit {
 
   private _loadData() {
     this.isLoading.set(true);
-    this.personService
-      .getListPaginated(
-        this.selectedParties.map((p) => p.id),
-        this.pageIndex,
-        this.pageSize,
-        this.sortKey,
-        this.sortDirection
-      )
-      .subscribe((persons) => {
+
+    const partyIds = this.selectedParties.map((p) => p.id);
+
+    const count$ = this.personService.getListCount(partyIds);
+    const persons$ = this.personService.getListPaginated(
+      partyIds,
+      this.pageIndex,
+      this.pageSize,
+      this.sortKey,
+      this.sortDirection
+    );
+
+    forkJoin([count$, persons$]).subscribe({
+      next: ([count, persons]) => {
+        this.totalCount.set(count);
         this.persons.set(persons);
         this.isLoading.set(false);
-      });
+      },
+      error: (err) => {
+        this.isLoading.set(false);
+      },
+    });
   }
 
   private _getSortingEnumsFromSortEvent(sort: Sort): {

@@ -6,15 +6,17 @@ import { provideHttpClient, withInterceptors } from '@angular/common/http';
 import { provideCharts, withDefaultRegisterables } from 'ng2-charts';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { authInterceptor } from './interceptors/auth-interceptor';
+import { MatPaginatorIntl } from '@angular/material/paginator';
+import { getPolishPaginatorIntl } from './utilities/paginator-pl';
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     provideAnimationsAsync(),
-    provideHttpClient(
-      withInterceptors([authInterceptor])
-    ),    provideCharts(withDefaultRegisterables()),
+    provideHttpClient(withInterceptors([authInterceptor])),
+    provideCharts(withDefaultRegisterables()),
     { provide: MAT_DATE_LOCALE, useValue: 'en-GB' },
+    { provide: MatPaginatorIntl, useFactory: getPolishPaginatorIntl },
   ],
 };
