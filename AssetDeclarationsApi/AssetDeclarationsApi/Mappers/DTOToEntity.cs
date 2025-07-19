@@ -62,7 +62,6 @@ namespace AssetDeclarationsApi.Mappers
 
             return new BusinessActivity
             {
-                Id = dto.Id,
                 BusinessName = dto.BusinessName,
                 BusinessType = dto.BusinessType,
                 Description = dto.Description,
@@ -80,7 +79,6 @@ namespace AssetDeclarationsApi.Mappers
 
             return new CashPosition
             {
-                Id = dto.Id,
                 Currency = dto.Currency,
                 CurrencyValue = dto.CurrencyValue,
                 BaseValue = dto.BaseValue
@@ -96,7 +94,6 @@ namespace AssetDeclarationsApi.Mappers
 
             return new Income
             {
-                Id = dto.Id,
                 Description = dto.Description,
                 YearlyValue = dto.YearlyValue
             };
@@ -111,7 +108,6 @@ namespace AssetDeclarationsApi.Mappers
 
             return new Liability
             {
-                Id = dto.Id,
                 Description = dto.Description,
                 Value = dto.Value
             };
@@ -129,7 +125,7 @@ namespace AssetDeclarationsApi.Mappers
                 Id = dto.Id,
                 Name = dto.Name ?? string.Empty,
                 Abbreviation = dto.Abbreviation,
-                Persons = new List<Person>() 
+                Persons = [] 
             };
         }
 
@@ -142,7 +138,6 @@ namespace AssetDeclarationsApi.Mappers
 
             return new PersonalProperty
             {
-                Id = dto.Id,
                 Description = dto.Description,
                 Value = dto.Value
             };
@@ -157,7 +152,6 @@ namespace AssetDeclarationsApi.Mappers
 
             return new RealEstate
             {
-                Id = dto.Id,
                 Description = dto.Description,
                 Value = dto.Value,
                 LegalTitle = dto.LegalTitle
@@ -173,7 +167,6 @@ namespace AssetDeclarationsApi.Mappers
 
             return new Receivable
             {
-                Id = dto.Id,
                 Description = dto.Description,
                 Value = dto.Value
             };
@@ -188,7 +181,6 @@ namespace AssetDeclarationsApi.Mappers
 
             return new SecurityPosition
             {
-                Id = dto.Id,
                 Name = dto.Name,
                 Quantity = dto.Quantity,
                 Value = dto.Value

@@ -2,7 +2,6 @@
 {
     public record BusinessActivityDTO
     (
-        int Id,
         string? BusinessName,
         string? BusinessType,
         string? Description,

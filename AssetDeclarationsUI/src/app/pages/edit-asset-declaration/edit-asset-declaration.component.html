@@ -1,5 +1,35 @@
 <app-person-autocomplete (personSelected)="onPersonSelected($event)" />
+@if(this.person()) {
 <h2>{{ this.person()?.fullName }}</h2>
+<card title="Dane osobowe" class="card">
+  <content>
+    <table>
+      <tr>
+        <td>Imię:</td>
+        <td></td>
+        <td>Nazwisko:</td>
+        <td></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td>Data urodzenia:</td>
+        <td></td>
+        <td>Miejsce urodzenia:</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Partia:</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Popularny:</td>
+        <td></td>
+      </tr>
+    </table>
+  </content>
+</card>
+}
+
 <mat-tab-group
   mat-stretch-tabs="false"
   (selectedIndexChange)="onSelectedAssetDeclarationChanged($event)"
@@ -18,42 +48,19 @@
             <tr>
               <td>Data:</td>
               <td>
-                <mat-form-field>
-                  <mat-label>Data złożenia</mat-label>
-                  <input
-                    matInput
-                    [matDatepicker]="picker"
-                    [(ngModel)]="assetDeclaration.date"
-                    name="date"
-                    [readonly]="true"
-                  />
-                  <mat-hint>DD/MM/YYYY</mat-hint>
-                  <mat-datepicker-toggle
-                    matIconSuffix
-                    [for]="picker"
-                  ></mat-datepicker-toggle>
-                  <mat-datepicker #picker></mat-datepicker>
-                </mat-form-field>
+                {{ assetDeclaration.date | date : "dd.MM.yyyy" }}
               </td>
             </tr>
             <tr>
               <td>Link:</td>
               <td>
-                <mat-form-field>
-                  <input
-                    matInput
-                    [(ngModel)]="assetDeclaration.documentUrl"
-                    class="input-scroll"
-                  />
-                  <a
-                    matSuffix
-                    [href]="assetDeclaration.documentUrl"
-                    target="_blank"
-                    class="icon-link"
-                  >
-                    <mat-icon>open_in_new</mat-icon>
-                  </a>
-                </mat-form-field>
+                <a
+                  [href]="assetDeclaration.documentUrl"
+                  target="_blank"
+                  class="icon-link"
+                >
+                  <mat-icon>open_in_new</mat-icon>
+                </a>
               </td>
             </tr>
           </table>
@@ -190,8 +197,8 @@
       </card>
     </div>
 
-     <!--Mienie osobiste -->
-     <div class="card-container">
+    <!--Mienie osobiste -->
+    <div class="card-container">
       <card title="Mienie osobiste" class="card">
         <content>
           <app-data-grid

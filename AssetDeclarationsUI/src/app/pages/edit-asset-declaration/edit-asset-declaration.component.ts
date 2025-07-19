@@ -21,6 +21,18 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { PersonIdentifier } from '../../model/personIdentifier.interface';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { CashPosition } from '../../model/cashPosition.interface';
+import { RealEstate } from '../../model/realEstate.interface';
+import { PersonalProperty } from '../../model/personalProperty.interface';
+import { Income } from '../../model/income.interface';
+import { SecurityPosition } from '../../model/securityPosition.interface';
+import { Liability } from '../../model/liability.interface';
+import { Receivable } from '../../model/receivable.interface';
+import { BusinessActivity } from '../../model/businessActivity.interface';
+import {
+  AssetDeclarationUpdate,
+  AssetDeclarationUpdateContent as AssetDeclarationUpdateBody,
+} from '../../model/assetDeclarationUpdate.interface';
 
 const MY_DATE_FORMATS: MatDateFormats = {
   parse: {
@@ -77,68 +89,78 @@ export class EditAssetDeclarationComponent {
     );
   }
 
-  onCashPositionsChanged(cashPositions: any[]) {
+  onCashPositionsChanged(cashPositions: CashPosition[]) {
     if (!this.assetDeclaration()) return;
 
     this.assetDeclaration()!.cashPositions = cashPositions;
-    this.updateAssetDeclaration();
+    this.updateAssetDeclaration({ cashPositions });
   }
 
-  onRealEstateChanged(realEstate: any[]) {
+  onRealEstateChanged(realEstate: RealEstate[]) {
     if (!this.assetDeclaration()) return;
 
     this.assetDeclaration()!.realEstate = realEstate;
-    this.updateAssetDeclaration();
+    this.updateAssetDeclaration({ realEstate });
   }
 
-  onBusinessActivityChanged(businessActivity: any[]) {
+  onBusinessActivityChanged(businessActivities: BusinessActivity[]) {
     if (!this.assetDeclaration()) return;
 
-    this.assetDeclaration()!.businessActivities = businessActivity;
-    this.updateAssetDeclaration();
+    this.assetDeclaration()!.businessActivities = businessActivities;
+    this.updateAssetDeclaration({ businessActivities });
   }
 
-  onIncomesChanged(incomes: any[]) {
+  onIncomesChanged(incomes: Income[]) {
     if (!this.assetDeclaration()) return;
 
     this.assetDeclaration()!.incomes = incomes;
-    this.updateAssetDeclaration();
+    this.updateAssetDeclaration({ incomes });
   }
 
-  onSecurityPositionsChanged(securityPositions: any[]) {
+  onSecurityPositionsChanged(securityPositions: SecurityPosition[]) {
     if (!this.assetDeclaration()) return;
 
     this.assetDeclaration()!.securityPositions = securityPositions;
-    this.updateAssetDeclaration();
+    this.updateAssetDeclaration({ securityPositions });
   }
 
-  onLiabilitiesChanged(liabilities: any[]) {
+  onLiabilitiesChanged(liabilities: Liability[]) {
     if (!this.assetDeclaration()) return;
 
     this.assetDeclaration()!.liabilities = liabilities;
-    this.updateAssetDeclaration();
+    this.updateAssetDeclaration({ liabilities });
   }
 
-  onReceivablesChanged(receivables: any[]) {
+  onReceivablesChanged(receivables: Receivable[]) {
     if (!this.assetDeclaration()) return;
 
     this.assetDeclaration()!.receivables = receivables;
-    this.updateAssetDeclaration();
+    this.updateAssetDeclaration({ receivables });
   }
 
-  onPersonalPropertiesChanged(personalProperties: any[]) {
+  onPersonalPropertiesChanged(personalProperties: PersonalProperty[]) {
     if (!this.assetDeclaration()) return;
 
     this.assetDeclaration()!.personalProperties = personalProperties;
-    this.updateAssetDeclaration();
+    this.updateAssetDeclaration({ personalProperties });
   }
 
-  private updateAssetDeclaration(): void {
+  private updateAssetDeclaration(params: AssetDeclarationUpdateBody): void {
     if (!this.assetDeclaration()) return;
 
-    const ad = this.assetDeclaration()!;
+    const adUpdate = {
+      id: this.assetDeclaration()!.id,
+      cashPositions: params.cashPositions,
+      realEstate: params.realEstate,
+      personalProperties: params.personalProperties,
+      incomes: params.incomes,
+      securityPositions: params.securityPositions,
+      liabilities: params.liabilities,
+      receivables: params.receivables,
+      businessActivities: params.businessActivities,
+    } satisfies AssetDeclarationUpdate;
 
-    this.assetDeclarationService.update(ad).subscribe({
+    this.assetDeclarationService.update(adUpdate).subscribe({
       next: () => {
         this.snackBar.open('Dane zostały zaktualizowane.', 'OK', {
           duration: 2000,

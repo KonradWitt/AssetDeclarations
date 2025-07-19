@@ -62,7 +62,6 @@ public static class EntityToDTO
         }
 
         return new BusinessActivityDTO(
-            ba.Id,
             ba.BusinessName,
             ba.BusinessType,
             ba.Description,
@@ -80,7 +79,6 @@ public static class EntityToDTO
 
         return new CashPositionDTO
         {
-            Id = cp.Id,
             Currency = cp.Currency,
             CurrencyValue = cp.CurrencyValue,
             BaseValue = cp.BaseValue
@@ -96,7 +94,6 @@ public static class EntityToDTO
 
         return new IncomeDTO
         {
-            Id = income.Id,
             Description = income.Description,
             YearlyValue = income.YearlyValue
         };
@@ -111,7 +108,6 @@ public static class EntityToDTO
 
         return new LiabilityDTO
         {
-            Id = liability.Id,
             Description = liability.Description,
             Value = liability.Value
         };
@@ -141,7 +137,6 @@ public static class EntityToDTO
 
         return new PersonalPropertyDTO
         {
-            Id = property.Id,
             Description = property.Description,
             Value = property.Value
         };
@@ -156,7 +151,6 @@ public static class EntityToDTO
 
         return new RealEstateDTO
         {
-            Id = realEstate.Id,
             Description = realEstate.Description,
             Value = realEstate.Value,
             LegalTitle = realEstate.LegalTitle
@@ -172,7 +166,6 @@ public static class EntityToDTO
 
         return new ReceivableDTO
         {
-            Id = receivable.Id,
             Description = receivable.Description,
             Value = receivable.Value
         };
@@ -187,7 +180,6 @@ public static class EntityToDTO
 
         return new SecurityPositionDTO
         {
-            Id = securityPosition.Id,
             Name = securityPosition.Name,
             Quantity = securityPosition.Quantity,
             Value = securityPosition.Value
