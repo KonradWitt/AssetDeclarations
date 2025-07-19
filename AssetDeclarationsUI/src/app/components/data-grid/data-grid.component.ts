@@ -2,6 +2,7 @@ import {
   Component,
   computed,
   input,
+  linkedSignal,
   model,
   OnInit,
   signal,
@@ -37,18 +38,17 @@ import { TextFieldModule } from '@angular/cdk/text-field';
   templateUrl: './data-grid.component.html',
   styleUrl: './data-grid.component.scss',
 })
-export class DataGridComponent implements OnInit {
+export class DataGridComponent {
   @ViewChild(MatRipple) ripple: MatRipple | undefined;
 
   columns = input.required<ColumnDefinition[]>();
   data = model.required<any[]>();
   readonly headers = computed(() => this.columns().map((x) => x.key));
-  internalData = signal<any[]>([]);
+  internalData = linkedSignal<any[]>(() => {
+    console.log(this.data());
+    return JSON.parse(JSON.stringify(this.data()));
+  });
   saveAnimationState: string = 'start';
-
-  ngOnInit(): void {
-    this.initializeInternalData();
-  }
 
   undo(): void {
     this.initializeInternalData();

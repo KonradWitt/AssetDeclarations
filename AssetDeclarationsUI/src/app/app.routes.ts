@@ -25,11 +25,6 @@ export class AuthGuard implements CanActivate {
     const isLoggedIn = this.authService.isLoggedIn();
     const isAdmin = this.authService.isAdminLoggedIn();
 
-    console.log(route);
-    console.log(isLoggedIn);
-    console.log(isAdmin);
-    console.log(requiresAdmin);
-
     if ((requiresAdmin && isAdmin) || (!requiresAdmin && isLoggedIn)) {
       return true;
     }
