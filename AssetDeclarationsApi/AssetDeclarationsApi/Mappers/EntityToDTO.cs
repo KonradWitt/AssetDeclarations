@@ -15,6 +15,7 @@ public static class EntityToDTO
 
         return new PersonDTO()
         {
+            Id = p.Id,
             FirstName = p.FirstName,
             LastName = p.LastName,
             FullName = p.FullName,
@@ -22,6 +23,7 @@ public static class EntityToDTO
             DateOfBirth = p.DateOfBirth,
             PlaceOfBirth = p.PlaceOfBirth,
             ImageUrl = p.ImageUrl,
+            IsHighlight = p.IsHighlight,
             PartyId = p.PartyId,
             Party = p.Party?.MapToDTO(),
             AssetDeclarations = p.AssetDeclarations?.Select(ad => ad.MapToDTO()).ToList()

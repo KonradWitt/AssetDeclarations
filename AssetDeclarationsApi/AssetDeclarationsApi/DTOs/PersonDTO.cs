@@ -2,6 +2,7 @@
 {
     public record PersonDTO
     {
+        public int Id { get; set; }
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
         public string FullName { get; set; } = string.Empty;
@@ -11,6 +12,7 @@
         public string PlaceOfBirth { get; set; } = string.Empty;
 
         public string ImageUrl { get; set; } = string.Empty;
+        public bool IsHighlight { get; set; }
 
         public int? PartyId { get; set; }
 

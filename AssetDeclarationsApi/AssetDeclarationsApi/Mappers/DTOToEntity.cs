@@ -8,18 +8,20 @@ namespace AssetDeclarationsApi.Mappers
     {
         public static Person MapToEntity(this PersonDTO dto)
         {
-            if(dto is null)
+            if (dto is null)
             {
                 return null;
             }
 
             var person = new Person()
             {
+                Id = dto.Id,
                 FirstName = dto.FirstName,
                 LastName = dto.LastName,
                 DateOfBirth = dto.DateOfBirth ?? default,
                 PlaceOfBirth = dto.PlaceOfBirth,
                 ImageUrl = dto.ImageUrl,
+                IsHighlight = dto.IsHighlight,
                 PartyId = dto.PartyId,
                 AssetDeclarations = dto.AssetDeclarations?.Select(ad => ad.MapToEntity()).ToList(),
             };
@@ -125,7 +127,7 @@ namespace AssetDeclarationsApi.Mappers
                 Id = dto.Id,
                 Name = dto.Name ?? string.Empty,
                 Abbreviation = dto.Abbreviation,
-                Persons = [] 
+                Persons = []
             };
         }
 

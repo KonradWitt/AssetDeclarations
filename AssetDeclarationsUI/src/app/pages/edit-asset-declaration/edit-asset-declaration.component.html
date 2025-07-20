@@ -1,29 +1,63 @@
 <app-person-autocomplete (personSelected)="onPersonSelected($event)" />
-@if(this.person()) {
+@if(this.personData) {
 <h2>{{ this.person()?.fullName }}</h2>
 <card title="Dane osobowe" class="card">
   <content>
     <table>
       <tr>
-        <td>Imię:</td>
-        <td></td>
-        <td>Nazwisko:</td>
-        <td></td>
+        <td>
+          <mat-form-field class="full-width">
+            <mat-label>Imię</mat-label>
+            <input matInput [(ngModel)]="personData.firstName" />
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field class="full-width">
+            <mat-label>Nazwisko</mat-label>
+            <input matInput [(ngModel)]="personData.lastName" />
+          </mat-form-field>
+        </td>
       </tr>
       <tr></tr>
       <tr>
-        <td>Data urodzenia:</td>
-        <td></td>
-        <td>Miejsce urodzenia:</td>
-        <td></td>
+        <td>
+          <mat-form-field class="full-width">
+            <mat-label>Data urodzenia</mat-label>
+            <input
+              matInput
+              [matDatepicker]="picker"
+              name="date"
+              [(ngModel)]="personData.dateOfBirth"
+            />
+            <mat-datepicker-toggle
+              matIconSuffix
+              [for]="picker"
+            ></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field class="full-width">
+            <mat-label>Miejsce urodzenia</mat-label>
+            <input matInput [(ngModel)]="personData.placeOfBirth" />
+          </mat-form-field>
+        </td>
       </tr>
       <tr>
-        <td>Partia:</td>
-        <td></td>
+        <mat-form-field>
+          <mat-select [(value)]="personData.partyId">
+            @for (party of parties(); track $index) {
+            <mat-option [value]="party.id">{{ party.name }}</mat-option>
+            }
+          </mat-select>
+        </mat-form-field>
       </tr>
       <tr>
-        <td>Popularny/a:</td>
-        <td></td>
+        <mat-slide-toggle
+          labelPosition="before"
+          [(ngModel)]="personData.isHighlight"
+          >Wyświetl na stronie głównej</mat-slide-toggle
+        >
       </tr>
     </table>
   </content>

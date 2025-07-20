@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, computed, OnInit, signal } from '@angular/core';
 import { PersonAutocompleteComponent } from '../../components/person-autocomplete/person-autocomplete.component';
 import { Person } from '../../model/person.interface';
 import { AssetDeclaration } from '../../model/assetDeclaration.interface';
@@ -33,6 +33,12 @@ import {
   AssetDeclarationUpdate,
   AssetDeclarationUpdateContent as AssetDeclarationUpdateBody,
 } from '../../model/assetDeclarationUpdate.interface';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatSelectModule } from '@angular/material/select';
+import { PersonUpdate } from '../../model/personUpdate.interface';
+import { Party } from '../../model/party.interface';
+import { PartyService } from '../../services/party.service';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 
 const MY_DATE_FORMATS: MatDateFormats = {
   parse: {
@@ -62,25 +68,52 @@ const MY_DATE_FORMATS: MatDateFormats = {
     MatDatepickerModule,
     MatIconModule,
     ReactiveFormsModule,
+    MatSlideToggleModule,
+    MatSelectModule,
+    MatAutocompleteModule,
   ],
   templateUrl: './edit-asset-declaration.component.html',
   styleUrl: './edit-asset-declaration.component.scss',
   providers: [{ provide: MAT_DATE_FORMATS, useValue: MY_DATE_FORMATS }],
 })
-export class EditAssetDeclarationComponent {
+export class EditAssetDeclarationComponent implements OnInit {
   constructor(
     private personService: PersonService,
+    private partyService: PartyService,
     private assetDeclarationService: AssetDeclarationServiceService,
     private snackBar: MatSnackBar
   ) {}
-
   person = signal<Person | undefined>(undefined);
+  personData: PersonUpdate | undefined;
   assetDeclaration = signal<AssetDeclaration | undefined>(undefined);
+  parties = signal<Party[] | undefined>(undefined);
+  selectedParty = computed(() => {
+    return this.parties()?.find((p) => p.id === this.person()?.partyId);
+  });
+
+  ngOnInit(): void {
+    this.partyService.getAll().subscribe((result) => this.parties.set(result));
+  }
+
+  partyDisplayFn(party: Party): string {
+    return party.name;
+  }
 
   onPersonSelected(person: PersonIdentifier) {
-    this.personService
-      .getPersonByLink(person.link)
-      .subscribe((result) => this.person.set(result));
+    this.personService.getPersonByLink(person.link).subscribe((result) => {
+      this.person.set(result);
+      this.personData = {
+        id: result.id,
+        firstName: result.firstName,
+        lastName: result.lastName,
+        dateOfBirth: result.dateOfBirth,
+        placeOfBirth: result.placeOfBirth,
+        isHighlight: result.isHighlight,
+        partyId: result.partyId ?? 0,
+      };
+
+      console.log(this.personData);
+    });
   }
 
   onSelectedAssetDeclarationChanged(index: number) {
