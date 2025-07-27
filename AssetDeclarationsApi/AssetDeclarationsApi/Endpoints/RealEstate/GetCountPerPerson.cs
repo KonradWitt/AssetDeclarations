@@ -42,9 +42,7 @@ namespace AssetDeclarationsApi.Endpoints.RealEstate
                                        .SelectMany(ad => ad.RealEstate).Where(re => re.Value >= req.MinValue).Count()
             }).ToListAsync();
 
-            var queryResult = query.Select(x => (x.Person, x.RealEstateCount)).ToList();
-
-            var response = queryResult.Select(qr => new GetCountPerPersonResponse()
+            var response = query.Select(qr => new GetCountPerPersonResponse()
             {
                 Person = qr.Person.MapToDTO(),
                 RealEstateCount = qr.RealEstateCount

@@ -24,14 +24,21 @@ export class PartyService {
     >(`${environment.apiUrl}/${this.url}/GetAverageNetWorth`);
   }
 
-  getAvgRealEstateCountPerParty(
-    minValue: number
-  ): Observable<{ party: Party; averageRealEstateCount: number }[]> {
-    return this.http.get<{ party: Party; averageRealEstateCount: number }[]>(
-      `${environment.apiUrl}/${this.url}/GetAverageRealEstateCount`,
+  getAvgRealEstateCountPerParty(minValue: number): Observable<
+    {
+      party: Party;
+      averageRealEstateCount: number;
+      medianRealEstateCount: number;
+    }[]
+  > {
+    return this.http.get<
       {
-        params: { minValue: minValue },
-      }
-    );
+        party: Party;
+        averageRealEstateCount: number;
+        medianRealEstateCount: number;
+      }[]
+    >(`${environment.apiUrl}/${this.url}/GetAverageRealEstateCount`, {
+      params: { minValue: minValue },
+    });
   }
 }

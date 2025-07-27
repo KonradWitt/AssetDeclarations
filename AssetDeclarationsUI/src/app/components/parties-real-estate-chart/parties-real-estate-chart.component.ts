@@ -26,7 +26,12 @@ interface PartyRealEstateCount {
 })
 export class PartiesRealEstateChartComponent implements OnInit {
   partiesRealEstate = signal<
-    { party: Party; averageRealEstateCount: number }[] | undefined
+    | {
+        party: Party;
+        averageRealEstateCount: number;
+        medianRealEstateCount: number;
+      }[]
+    | undefined
   >(undefined);
   minValue = signal<number>(100000);
   selectedPartiesIds = signal<number[]>([]);
@@ -47,7 +52,14 @@ export class PartiesRealEstateChartComponent implements OnInit {
       ),
       datasets: [
         {
+          label: 'Średnia',
+
           data: sortedParties.map((p) => p.averageRealEstateCount),
+        },
+        {
+          label: 'Mediana',
+          data: sortedParties.map((p) => p.medianRealEstateCount),
+          backgroundColor: 'rgb(255, 99, 132)',
         },
       ],
     };
@@ -56,7 +68,7 @@ export class PartiesRealEstateChartComponent implements OnInit {
   barChartOptions: ChartConfiguration<'bar'>['options'] = {
     maintainAspectRatio: false,
     plugins: {
-      legend: { display: false },
+      legend: { display: true, labels: { font: { size: 16 } } },
       tooltip: {
         enabled: false,
       },

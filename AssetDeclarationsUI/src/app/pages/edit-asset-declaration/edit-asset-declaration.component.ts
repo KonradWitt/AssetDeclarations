@@ -142,6 +142,7 @@ export class EditAssetDeclarationComponent implements OnInit {
       lastName: person.lastName,
       dateOfBirth: person.dateOfBirth,
       placeOfBirth: person.placeOfBirth,
+      imageUrl: person.imageUrl,
       isHighlight: person.isHighlight,
       partyId: person.partyId ?? 0,
     };

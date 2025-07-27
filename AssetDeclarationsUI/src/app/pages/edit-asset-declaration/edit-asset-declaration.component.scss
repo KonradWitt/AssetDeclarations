@@ -10,6 +10,16 @@
   align-items: center;
 }
 
+.picture-row {
+  vertical-align: top;
+}
+
+.profile-picture {
+  max-width: 120px;
+  max-height: 200px;
+  margin: 0 8px;
+}
+
 .assert-declarations-tab .mat-tab {
   margin-bottom: 48px;
 }

@@ -33,7 +33,7 @@ namespace AssetDeclarationsApi.Endpoints.Party
 
         public override async Task<List<GetAverageNetWorthResponse>> ExecuteAsync(CancellationToken ct)
         {
-            var query = await _dataContext.Persons
+            var queryResult = await _dataContext.Persons
             .Select(p => new
             {
                 Person = p,
@@ -49,11 +49,10 @@ namespace AssetDeclarationsApi.Endpoints.Party
             })
             .ToListAsync();
 
-            var result = query.Select(x => (x.Party, x.AverageNetValue, x.MedianNetValue)).ToList();
 
-            var response = result.Select(x => new GetAverageNetWorthResponse()
+            var response = queryResult.Select(x => new GetAverageNetWorthResponse()
             {
-                Party = x.Party.MapToDTO(),
+                Party = x.Party?.MapToDTO(),
                 AverageNetWorth = x.AverageNetValue,
                 MedianNetWorth = x.MedianNetValue
             }).ToList();

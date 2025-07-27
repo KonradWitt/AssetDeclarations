@@ -28,7 +28,6 @@
           </mat-form-field>
         </td>
       </tr>
-      <tr></tr>
       <tr>
         <td>
           <mat-form-field class="full-width">
@@ -54,7 +53,18 @@
         </td>
       </tr>
       <tr>
-        <mat-form-field>
+        <td>
+          <mat-form-field class="full-width">
+            <mat-label>Link do zdjęcia</mat-label>
+            <input matInput [(ngModel)]="personData.imageUrl" />
+          </mat-form-field>
+        </td>
+        <td rowspan="2" class="picture-row">
+          <img class="profile-picture" [src]="personData.imageUrl" />
+        </td>
+      </tr>
+      <tr>
+        <mat-form-field class="full-width">
           <mat-select [(value)]="personData.partyId">
             @for (party of parties(); track $index) {
             <mat-option [value]="party.id">{{ party.name }}</mat-option>

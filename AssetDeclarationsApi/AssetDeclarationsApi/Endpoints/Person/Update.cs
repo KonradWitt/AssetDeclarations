@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AssetDeclarationsApi.Endpoints.Person
 {
-    public record UpdateRequest(int Id, string FirstName, string LastName, string PlaceOfBirth, DateTime DateOfBirth, bool IsHighlight, int? PartyId);
+    public record UpdateRequest(int Id, string FirstName, string LastName, string PlaceOfBirth, DateTime DateOfBirth, string ImageUrl, bool IsHighlight, int? PartyId);
 
     public class Update : EndpointBase<UpdateRequest, Results<Ok<PersonDTO>, NotFound>>
     {
@@ -35,6 +35,7 @@ namespace AssetDeclarationsApi.Endpoints.Person
             person.LastName = req.LastName;
             person.PlaceOfBirth = req.PlaceOfBirth;
             person.DateOfBirth = req.DateOfBirth;
+            person.ImageUrl = req.ImageUrl;
             person.IsHighlight = req.IsHighlight;
             person.PartyId = req.PartyId;
 

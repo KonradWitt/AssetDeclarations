@@ -15,7 +15,8 @@ namespace AssetDeclarationsApi.Endpoints.Party
     public record GetAverageRealEstateCountResponse
     {
         public PartyDTO? Party { get; set; }
-        public double? AverageRealEstateCount { get; set; }
+        public decimal? AverageRealEstateCount { get; set; }
+        public decimal? MedianRealEstateCount { get; set; }
     }
 
     public class GetAverageRealEstateCount : EndpointBase<GetAverageRealEstateCountRequest, IEnumerable<GetAverageRealEstateCountResponse>>
@@ -35,27 +36,27 @@ namespace AssetDeclarationsApi.Endpoints.Party
 
         public override async Task<IEnumerable<GetAverageRealEstateCountResponse>> ExecuteAsync(GetAverageRealEstateCountRequest req, CancellationToken ct)
         {
-            var query = await _dataContext.Persons
+            var queryResult = await _dataContext.Persons
             .Select(p => new
             {
                 Person = p,
-                LatestAssetDeclaration = p.AssetDeclarations.OrderByDescending(ad => ad.Date).FirstOrDefault()
+                LatestAssetDeclaration = p.AssetDeclarations.OrderByDescending(ad => ad.Date).FirstOrDefault(),
             })
             .Where(x => x.LatestAssetDeclaration != null)
             .GroupBy(x => x.Person.Party)
             .Select(group => new
             {
                 Party = group.Key,
-                AverageRealEstateCount = group.Average(x => x.LatestAssetDeclaration!.RealEstate.Where(r => r.Value > req.MinValue).Count())
+                AverageRealEstateCount = group.Average(x => x.LatestAssetDeclaration!.RealEstate.Where(r => r.Value > req.MinValue).Count()),
+                MedianRealEstateCount = group.Select(x => x.LatestAssetDeclaration!.RealEstate.Where(r => r.Value > req.MinValue).Count()).GetMedian()
             })
             .ToListAsync();
 
-            var result = query.Select(x => (x.Party, x.AverageRealEstateCount)).ToList();
-
-            var response = result.Select(qr => new GetAverageRealEstateCountResponse()
+            var response = queryResult.Select(qr => new GetAverageRealEstateCountResponse()
             {
                 Party = qr.Party.MapToDTO(),
-                AverageRealEstateCount = qr.AverageRealEstateCount
+                AverageRealEstateCount = (decimal?)qr.AverageRealEstateCount,
+                MedianRealEstateCount = qr.MedianRealEstateCount
             });
 
             return response;
