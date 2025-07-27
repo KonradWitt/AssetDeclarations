@@ -99,21 +99,52 @@ export class EditAssetDeclarationComponent implements OnInit {
     return party.name;
   }
 
+  closePerson() {
+    this.person.set(undefined);
+    this.personData = undefined;
+  }
+
   onPersonSelected(person: PersonIdentifier) {
     this.personService.getPersonByLink(person.link).subscribe((result) => {
       this.person.set(result);
-      this.personData = {
-        id: result.id,
-        firstName: result.firstName,
-        lastName: result.lastName,
-        dateOfBirth: result.dateOfBirth,
-        placeOfBirth: result.placeOfBirth,
-        isHighlight: result.isHighlight,
-        partyId: result.partyId ?? 0,
-      };
-
-      console.log(this.personData);
+      this.setPersonData();
     });
+  }
+
+  updatePerson() {
+    if (!this.person() || !this.personData) return;
+
+    this.personService.update(this.personData).subscribe({
+      next: (response) => {
+        this.onPersonSelected(response);
+        this.snackBar.open('Dane zostały zaktualizowane.', 'OK', {
+          duration: 2000,
+        });
+      },
+
+      error: (err) => {
+        console.error('Update failed:', err),
+          this.snackBar.open(
+            'Wystąpił błąd podczas zapisywania danych. Spróbuj zalogować się ponownie.',
+            'OK',
+            { duration: 5000 }
+          );
+      },
+    });
+  }
+
+  setPersonData() {
+    if (!this.person()) return;
+    const person = this.person()!;
+    this.personData = {
+      id: person.id,
+      firstName: person.firstName,
+      lastName: person.lastName,
+      dateOfBirth: person.dateOfBirth,
+      placeOfBirth: person.placeOfBirth,
+      isHighlight: person.isHighlight,
+      partyId: person.partyId ?? 0,
+    };
   }
 
   onSelectedAssetDeclarationChanged(index: number) {

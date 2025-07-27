@@ -25,7 +25,12 @@ interface PartyNetWorth {
 
 @Component({
   selector: 'app-parties-net-worth-chart',
-  imports: [BaseChartDirective, NumberSpacePipe, PartiesSelectorComponent, MatExpansionModule],
+  imports: [
+    BaseChartDirective,
+    NumberSpacePipe,
+    PartiesSelectorComponent,
+    MatExpansionModule,
+  ],
   templateUrl: './parties-net-worth-chart.component.html',
   styleUrl: './parties-net-worth-chart.component.scss',
 })

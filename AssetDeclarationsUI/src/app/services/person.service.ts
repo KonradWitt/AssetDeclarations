@@ -7,6 +7,7 @@ import { PersonHighlight } from '../model/personHighlight.interface';
 import { PersonIdentifier } from '../model/personIdentifier.interface';
 import { PersonListed } from '../model/personListed.interface';
 import { PersonSortDirection, PersonSortKey } from '../model/personSort.enum';
+import { PersonUpdate } from '../model/personUpdate.interface';
 
 @Injectable({
   providedIn: 'root',
@@ -75,4 +76,13 @@ export class PersonService {
       `${environment.apiUrl}/${this.url}/GetHighlights`
     );
   }
+
+    update(
+      person: PersonUpdate
+    ): Observable<Person> {
+      return this.http.put<Person>(
+        `${environment.apiUrl}/${this.url}/Update`,
+        person
+      );
+    }
 }

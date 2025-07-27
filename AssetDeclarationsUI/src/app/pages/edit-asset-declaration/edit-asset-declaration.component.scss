@@ -1,17 +1,31 @@
-.full-width
-{
+.full-width {
   width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .assert-declarations-tab .mat-tab {
   margin-bottom: 48px;
 }
 
-.card-container
-{
-  margin: 16px;
+.button-container {
+  display: flex;
+  flex-direction: row;
+
+  button {
+    margin: 8px;
+  }
 }
 
+.card-container {
+  margin: 16px;
+}
 
 .flex-container {
   display: flex;

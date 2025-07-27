@@ -45,7 +45,7 @@ namespace AssetDeclarationsApi.Endpoints.AssetDeclaration
                 return TypedResults.BadRequest();
             }
 
-            Entities.AssetDeclaration assetDeclaration = null!;
+            Entities.AssetDeclaration? assetDeclaration = null;
 
             if (req.CashPositions != null ||
                 req.SecurityPositions != null ||

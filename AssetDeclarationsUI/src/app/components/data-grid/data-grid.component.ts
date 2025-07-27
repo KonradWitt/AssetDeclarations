@@ -45,7 +45,6 @@ export class DataGridComponent {
   data = model.required<any[]>();
   readonly headers = computed(() => this.columns().map((x) => x.key));
   internalData = linkedSignal<any[]>(() => {
-    console.log(this.data());
     return JSON.parse(JSON.stringify(this.data()));
   });
   saveAnimationState: string = 'start';
