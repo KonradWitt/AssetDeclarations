@@ -123,7 +123,6 @@ export class EditAssetDeclarationComponent implements OnInit {
       },
 
       error: (err) => {
-        console.error('Update failed:', err),
           this.snackBar.open(
             'Wystąpił błąd podczas zapisywania danych. Spróbuj zalogować się ponownie.',
             'OK',
@@ -233,7 +232,6 @@ export class EditAssetDeclarationComponent implements OnInit {
       },
 
       error: (err) => {
-        console.error('Update failed:', err),
           this.snackBar.open(
             'Wystąpił błąd podczas zapisywania danych. Spróbuj zalogować się ponownie.',
             'OK',

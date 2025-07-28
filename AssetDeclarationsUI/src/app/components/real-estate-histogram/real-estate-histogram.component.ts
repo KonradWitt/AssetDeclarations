@@ -155,7 +155,6 @@ export class RealEstateHistogramComponent implements OnInit {
     elements: ActiveElement[],
     chart: Chart
   ): void {
-    console.log(chart);
     if (!elements || elements.length < 1) return;
 
     const dataIndex = elements[0].index;
@@ -181,7 +180,6 @@ export class RealEstateHistogramComponent implements OnInit {
   }
 
   private selectChartIndex(index: number): void {
-    console.log(this.chart?.datasets);
     if (this.chart?.data?.datasets === undefined) {
       return;
     }

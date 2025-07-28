@@ -55,7 +55,6 @@ export class DataGridComponent {
 
   removeRow(element: any): void {
     const removeIndex = this.internalData().indexOf(element);
-    console.log(removeIndex);
     if (removeIndex === -1) return;
 
     const newData = [
