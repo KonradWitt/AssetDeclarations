@@ -20,7 +20,7 @@ namespace AssetDeclarationsApi.Endpoints.Person
         public override void Configure()
         {
             Post($"{Route}");
-            //Policies("ADMIN");
+            Policies("ADMIN");
             AllowAnonymous();
         }
 
