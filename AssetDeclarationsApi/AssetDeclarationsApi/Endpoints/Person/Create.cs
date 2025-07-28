@@ -48,7 +48,7 @@ namespace AssetDeclarationsApi.Endpoints.Person
 
 
             var createdPerson = (await _dataContext.AddAsync(person, ct)).Entity;
-            await _dataContext.SaveChangesAsync();
+            await _dataContext.SaveChangesAsync(ct);
 
             var response = createdPerson.MapToDTO();
 

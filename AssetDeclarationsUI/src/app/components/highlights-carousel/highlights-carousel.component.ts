@@ -48,7 +48,8 @@ export class HighlightsCarouselComponent implements OnInit {
   ngOnInit(): void {
     this.windowWidth.set(window.innerWidth);
     this.personService.getHighlightsPersons().subscribe((persons) => {
-      this.persons.set(persons);
+      const shuffled = persons.sort(() => Math.random() - 0.5);
+      this.persons.set(shuffled);
     });
   }
 

@@ -22,7 +22,7 @@ namespace AssetDeclarationsApi.Endpoints.Party
 
         public override async Task<IEnumerable<PartyDTO>> ExecuteAsync(CancellationToken ct)
         {
-            var parties = await _dataContext.Parties.ToListAsync();
+            var parties = await _dataContext.Parties.ToListAsync(ct);
 
             return parties.Select(x => x.MapToDTO());
         }

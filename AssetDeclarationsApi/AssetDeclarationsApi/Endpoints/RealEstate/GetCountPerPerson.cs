@@ -40,7 +40,7 @@ namespace AssetDeclarationsApi.Endpoints.RealEstate
                                        .OrderByDescending(ad => ad.Date)
                                        .Take(1)
                                        .SelectMany(ad => ad.RealEstate).Where(re => re.Value >= req.MinValue).Count()
-            }).ToListAsync();
+            }).ToListAsync(ct);
 
             var response = query.Select(qr => new GetCountPerPersonResponse()
             {

@@ -50,7 +50,7 @@ namespace AssetDeclarationsApi.Endpoints.Party
                 AverageRealEstateCount = group.Average(x => x.LatestAssetDeclaration!.RealEstate.Where(r => r.Value > req.MinValue).Count()),
                 MedianRealEstateCount = group.Select(x => x.LatestAssetDeclaration!.RealEstate.Where(r => r.Value > req.MinValue).Count()).GetMedian()
             })
-            .ToListAsync();
+            .ToListAsync(ct);
 
             var response = queryResult.Select(qr => new GetAverageRealEstateCountResponse()
             {

@@ -53,7 +53,7 @@ namespace AssetDeclarationsApi.Endpoints.RealEstate
                 )
                 .OrderByDescending(x => x.RealEstate.Value)
                 .Skip(req.Page * req.PageSize).Take(req.PageSize)
-                .ToListAsync();
+                .ToListAsync(ct);
 
                 var queryResult = realEstatesWithPersons.Select(x => (x.Person, x.RealEstate)).ToList();
 

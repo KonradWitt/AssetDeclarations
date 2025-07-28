@@ -25,7 +25,7 @@ namespace AssetDeclarationsApi.Endpoints.Person
 
         public override async Task<Results<Ok<PersonDTO>, NotFound>> ExecuteAsync(UpdateRequest req, CancellationToken ct)
         {
-            var person = await _dataContext.Persons.FindAsync(req.Id);
+            var person = await _dataContext.Persons.FindAsync(req.Id, ct);
             if (person == null)
             {
                 return TypedResults.NotFound();
@@ -39,7 +39,7 @@ namespace AssetDeclarationsApi.Endpoints.Person
             person.IsHighlight = req.IsHighlight;
             person.PartyId = req.PartyId;
 
-            await _dataContext.SaveChangesAsync();
+            await _dataContext.SaveChangesAsync(ct);
             return TypedResults.Ok(person.MapToDTO());
         }
     }

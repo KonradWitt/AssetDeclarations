@@ -47,7 +47,7 @@ namespace AssetDeclarationsApi.Endpoints.Party
                 AverageNetValue = group.Average(x => x.LatestAssetDeclaration!.NetValue),
                 MedianNetValue = (group.Select(x => x.LatestAssetDeclaration!.NetValue)).GetMedian()
             })
-            .ToListAsync();
+            .ToListAsync(ct);
 
 
             var response = queryResult.Select(x => new GetAverageNetWorthResponse()

@@ -95,7 +95,7 @@ namespace AssetDeclarationsApi.Endpoints.Person
             var queryResult = await sortedQuery
                 .Skip(req.Page * req.PageSize)
                 .Take(req.PageSize)
-                .ToListAsync();
+                .ToListAsync(ct);
 
             if (queryResult is null)
             {

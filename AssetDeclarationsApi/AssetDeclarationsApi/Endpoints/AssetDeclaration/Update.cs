@@ -65,7 +65,7 @@ namespace AssetDeclarationsApi.Endpoints.AssetDeclaration
                     .Include(x => x.Incomes)
                     .Include(x => x.Receivables)
                     .Include(x => x.BusinessActivities)
-                    .SingleAsync(ad => ad.Id == req.Id);
+                    .SingleAsync(ad => ad.Id == req.Id, ct);
             }
 
             if(assetDeclaration is null)

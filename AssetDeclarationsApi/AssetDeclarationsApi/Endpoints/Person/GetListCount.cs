@@ -33,7 +33,7 @@ namespace AssetDeclarationsApi.Endpoints.Person
             }
 
 
-            var count = await query.CountAsync();
+            var count = await query.CountAsync(ct);
 
             return TypedResults.Ok(count);
         }

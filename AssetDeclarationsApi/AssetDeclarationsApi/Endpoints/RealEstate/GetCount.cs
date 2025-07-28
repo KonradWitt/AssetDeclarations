@@ -30,7 +30,7 @@ namespace AssetDeclarationsApi.Endpoints.RealEstate
                 })
                 .SelectMany(x => x.LatestDeclaration
                     .SelectMany(ad => ad.RealEstate)
-                ).CountAsync();
+                ).CountAsync(ct);
 
             return count;
         }
